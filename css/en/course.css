@@ -1,0 +1,112 @@
+/* course Home */
+body {
+   color: #666666;
+   min-width: 1120px;
+}
+
+/* 講義/教員名 開講部局など */
+
+#class_info {
+   float: left;
+   width: 45%;
+   font-size: 30px;   
+   margin-top: 40px;
+}
+
+.class_title {
+   margin-top: 60px;
+}
+
+.class_subtitle {
+   margin-top: -35px;
+}
+
+#info {
+   margin-top: -15px;
+}
+
+.department {
+   margin-top: -25px;
+}  
+
+
+/* 表 */
+#class_table {
+   background: white;
+   font-size: 30px;
+   width: 512px;
+   border: 1px solid gray;
+   padding: 25px;
+   float: right;
+   margin: 70px 0px 0px;
+}
+
+#class_table tr{
+   line-height: 20px;
+}
+
+.blank {
+   height: 20px;
+}
+
+/* コンテンツ */
+
+#class_detail{
+   clear: both;
+}
+
+#video img{
+   width: 45px;
+   height: 25px;
+}
+
+#class_detail h3{
+   border-bottom: medium solid;
+   color: #77BB44;
+   cursor: pointer;
+   padding-bottom:5px;
+}
+
+#class_detail h4{
+   font-weight: lighter;
+   font-size: 36px;
+   margin-bottom: -15px;
+}
+
+.back{
+   width: 90px;
+   margin-left: 900px;
+   text-decoratiton: underline;
+   color: #77BB44;
+   cursor: pointer;
+   white-space: nowrap;
+}
+
+#class_detail li{
+   text-align: left;
+}
+
+.last_up {
+   text-align: right;
+   width: 700px;
+   margin-left: 340px;
+}
+
+hr{
+   border-width: medium 0px 0px 0px;
+   border-style: solid;
+   border-color: #666666;
+   height: 1px;
+}
+
+.date {
+   margin-top: 0px;
+}
+
+.remark {
+   margin-top: 0px;
+}
+
+.cauntion {
+   margin-top: -25px;
+}

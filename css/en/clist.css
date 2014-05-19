@@ -1,0 +1,92 @@
+/* list.html */
+
+/* 部局紹介 */
+.faculty_intro {
+   padding: 0 25px;
+   margin-bottom: 50px;
+   border: solid 1px gray;
+   background-color: #EBF0F0;
+}
+
+#faculty_detail {
+   color: #77BB44;
+   text-align: right;
+}
+
+#department {
+   color: #77BB44;
+}
+
+/* コースリスト表 */
+#class_list{
+   margin-top: 5px;
+   margin-bottom: 30px;
+   width:1020px;
+}
+
+#class_list td{
+  padding: 15px 5px;
+}
+
+.odd{
+   background: white;
+}
+
+.even{
+   background: #EBF0F0;
+}
+
+#class_list{
+   border-collapse: collapse;
+}
+
+#class_head{
+   background: #77BB44;
+   color: white;
+   border: solid 1px #77BB44;
+}
+
+#class_head td{
+   padding: 15px 5px;
+}
+
+/* 各々の表のはば */
+
+.title{
+   width: 33%;
+}
+
+.instructor{
+   width: 22%;
+}
+
+.lang{
+   width: 15%;
+}
+
+.lecture_note{
+   width: 15%;
+}
+
+.video{
+   width: 15%;
+}
+
+/* ページ数の表 */
+#page_numbers{
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 80px;
+}
+
+#page_numbers td{
+   width: 50px;
+   height: 50px;
+   text-align: center;
+   cursor: pointer;
+}
+
+#page1{
+   color: white;
+   background: #77BB44;
+}

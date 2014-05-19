@@ -1,0 +1,283 @@
+/* サイト全体 */
+body{
+   background-color: #f4f5f5;
+   font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3',
+    Meiryo, メイリオ, sans-serif;
+   color: #666666;
+   font-weight: lighter;
+}
+
+#header,#main_contents,#footer{
+   width: 1020px;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 0 50px;
+   overflow: hidden;
+}
+
+h3{
+   font-size: 36px;
+   font-weight: lighter;
+   margin: 20px 0;
+}
+
+p,li,td{ 
+   font-size: 20px;
+}
+
+img{
+   max-width: 1020px;
+}
+
+a{
+   text-decoration: none;
+}
+
+a:link,a:visited{
+   color: #666666;   
+}
+
+a:hover,a:active{
+   color: #77bb44;
+}
+
+/* 最上部 */
+#icon{
+   float: left;
+}
+
+#icon p{
+   color: #77bb44;
+   margin: 0 0 5px 0;
+}
+
+p#small_icon{
+   font-size: 20px;
+}
+
+p#large_icon{
+   font-size: 25px;
+}
+
+#header ul{
+   display: table;
+   height: 50px;
+   margin: 10px 0 0;
+}
+
+#header li{
+   display: table-cell;
+   vertical-align: bottom;
+   height: 50px;
+}
+
+#search{
+   float: right;
+}
+
+#tag{
+   -webkit-appearance: none;
+   -mozilla-appearance: none;
+   text-indent: .01px; /*For Firefox*/
+   text-overflow: ""; /*For Firefox*/
+   border: none;
+   height: 50px;
+   width: 140px;
+   font-size: 20px;
+   color: #666666;
+   background-color: #f4f5f5;
+   background-image: url(../images/tag.png);
+   background-repeat: no-repeat;
+   background-position: right 15px center;
+   margin-right: 10px;
+   padding: 10px;
+}
+
+#searchform{
+   position: relative;
+}
+
+#keyword{
+   width: 300px;
+   height: 100%;
+   padding-left: 20px;
+   background: #eaeae9;
+   border: none;
+   font-size: 20px;
+   color: #666666;
+}
+
+#searchbtn{
+   height: 50px;
+}
+
+#search input{
+   vertical-align: bottom;
+}
+
+#search img{
+   height: 50px;
+   vertical-align: bottom;
+   padding-left: 10px;
+}
+
+/* スライダー部 */
+#slider img{
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+/* ブラウズジャンプ部 */
+#browse_jump ul{
+   display: table;
+   margin: 50px 0 40px -40px;
+}
+
+#browse_jump li{
+   display: table-cell;
+   text-align: center;
+   vertical-align: middle;
+   height: 80px;
+   color: white;
+   cursor: pointer;
+}
+
+#browse_jump a{
+   display: block;
+   width: 100%;
+   height: 100%;
+   color: white;
+}
+
+#browse_jump a:hover{
+   color: white;
+}
+
+li#category_img{
+   padding-right: 5px;
+}
+
+li#category_name{
+   background-color: #286fb8;
+   width: 425px;
+   font-size: 24px;
+}
+
+#category_name a{
+   padding-top: 20px;
+}
+
+li#school_img{
+   padding: 0 5px 0 20px;
+}
+
+li#school_name{
+   background-color: #f19837;
+   width: 425px;
+   font-size: 24px;
+   line-height: 25px;
+}
+
+#category_img img{
+   vertical-align: bottom;
+}
+
+#school_img img{
+   vertical-align: bottom;
+}
+
+#school_name a{
+   padding-top: 5px;
+}
+
+#browse_jump a{
+   display: block;
+   width: 100%;
+   height: 100%;
+}
+
+/* ブラウズ部 */
+#browse{
+   clear: both;
+}
+
+#browse ul{
+   list-style-type: none;
+   margin: 30px 0 0 -40px;
+}
+
+#browse li{
+   float: left;
+   margin-bottom: 10px;
+}
+
+.t_left,.t_middle,.t_middle2{
+   margin-right: 10px;
+}
+
+#category{
+   overflow: hidden;
+}
+
+div#category{
+   margin-bottom: 20px;
+}
+
+#category li{
+   height: 170px;
+}
+
+#school{
+   overflow: hidden;
+}
+
+#school li{
+   height: 120px;
+}
+
+#category h3:before{
+   content: url("../images/category.png");
+   margin-right: 10px;
+   position: relative;
+   top:3px;
+}
+
+#school h3:before{
+   content: url("../images/school.png");
+   margin-right: 10px;
+   position: relative;
+   top:6px;
+}
+
+/* リンク部 */
+#footer table{
+   table-layout: fixed;
+   text-align: center;
+   width: 100%;
+   margin-top: 100px;
+   margin-bottom: 50px;
+}
+
+#footer td{
+   color: #666666;
+   border-right: solid 2px;
+   font-size: 26px;
+}
+
+td#link_first{
+   text-align: left;
+   width: 130px;
+}
+
+td#link_end{
+   text-align: right;
+   width: 250px;
+   border-right: none;
+}
+
+#footer p{
+   text-align: right;
+   line-height: 25px;
+   margin: 20px 0;
+}

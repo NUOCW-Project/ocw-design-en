@@ -1,0 +1,20 @@
+#slider {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#slider li {
+    width: 720px;
+    margin: 0;
+    padding: 0;
+}
+
+.bx-wrapper {
+    width: 100% !important;
+    overflow: hidden;
+    position: relative !important;
+}
+.bx-window {
+    margin: 0 auto !important;
+    overflow: visible !important;
+}

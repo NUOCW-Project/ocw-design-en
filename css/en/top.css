@@ -1,0 +1,53 @@
+/* 情報部 */
+#twitter{
+   float: left;
+   width: 250px;
+   height: 670px;
+   margin-right: 10px;
+}
+
+#info{
+   float: left;
+   width: 720px;
+   margin-left: 15px;
+   margin-bottom: 30px;
+}
+
+#info table{
+   background-color: white;
+   border: solid 1px;
+   border-color: #AAAAAA;
+   width: 740px;
+}
+
+#info table{
+   height: 270px;
+}
+
+#press table{
+   height: 325px;
+}
+
+#info td{
+   font-size: 20px;
+   color: #666666;
+   font-family: "Cordia New",sans-serif;
+   padding: 5px 15px;
+}
+
+td.date{
+   white-space: nowrap;
+}
+
+.backno{
+   text-align: right;
+}
+
+.backno a{
+   color: #77bb44;
+   font-size: 25px;
+}
+
+div#rank{
+   margin-bottom: 30px;
+}
