@@ -29,8 +29,8 @@
 </li>
 -->
 <li><input type="text" id="keyword" name="keyword" value="Keyword Search"></li>
-<li><input type="image" id="searchbtn" name="searchbtn" src="images/search.png" alt="search"></li>
-<li><a href="http://ocw.nagoya-u.jp/"><img src="images/japan.png" alt="Japanese"></a></li>
+<li><input type="image" id="searchbtn" name="searchbtn" src="images/{$lang}/search.png" alt="search"></li>
+<li><a href="http://ocw.nagoya-u.jp/"><img src="images/{$lang}/japan.png" alt="Japanese"></a></li>
 </ul>
 </form>
 </div>
