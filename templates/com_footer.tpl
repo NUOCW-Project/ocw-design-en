@@ -1,3 +1,9 @@
+  <div id="browse">
+
+  </div>
+
+</div> {* id ="main_contents" *}
+
 <div id="footer">
 
 <table id="link">
@@ -27,7 +33,7 @@ may be used under the terms and conditions listed under<br>
 &copy; 2014 Nagoya University
 </p>
 
-</div><!-- footer end -->
+</div> {* id = "footer" *}
 
 </body>
 </html>
