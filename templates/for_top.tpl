@@ -1,5 +1,5 @@
 {literal}{* OCWホームページ用のテンプレート *}{/literal}
-{include file="top_header_top.tpl"} 
+{include file="com_header.tpl"} 
 {if $lang=="ja"}
   {include file="top_contents.tpl"}
 {elseif $lang=="en"}

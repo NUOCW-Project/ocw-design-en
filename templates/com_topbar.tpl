@@ -32,5 +32,11 @@
 <li><input type="image" id="searchbtn" name="searchbtn" src="images/{$lang}/search.png" alt="search"></li>
 <li><a href="http://ocw.nagoya-u.jp/"><img src="images/{$lang}/japan.png" alt="Japanese"></a></li>
 </ul>
+<!-- µìGOOGLE¸¡º÷ 
+	  <div id="cse-search-form" style="width: 100%;">Loading</div>
+	  <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+	  <script src="./js/googleSearch_{$lang}.js" type="text/javascript"></script>
+	  <link rel="stylesheet" type="text/css" href="css/googleSearch.css">
+-->
 </form>
 </div>
