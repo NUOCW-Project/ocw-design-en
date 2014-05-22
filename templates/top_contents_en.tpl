@@ -1,7 +1,7 @@
 <div id="twitter">
 <h3>News</h3>
 <a class="twitter-timeline" href="https://twitter.com/nuocw" data-widget-id="468153867931115520">@nuocw からのツイート</a>
-<script>!function(d,s,id){ldelim}ldelim{rdelim}var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){ldelim}ldelim{rdelim}js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);{ldelim}rdelim{rdelim}{ldelim}rdelim{rdelim}(document,"script","twitter-wjs");</script>
+{literal}<script>!function(d,s,id){ldelim}ldelim{rdelim}var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){ldelim}ldelim{rdelim}js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);{ldelim}rdelim{rdelim}{ldelim}rdelim{rdelim}(document,"script","twitter-wjs");</script>{/literal}
 </div><!-- twitter end -->
 
 <div class="inline">
