@@ -2,7 +2,7 @@
 
 <div id="header">
 {include file="com_topbar.tpl"}
-{include file="com_subheader.tpl"}
+{* include file="com_subheader.tpl" *}
 </div>
 
 <div id="main_contents">
