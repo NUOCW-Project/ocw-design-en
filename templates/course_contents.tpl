@@ -59,6 +59,13 @@ Course Overview
 </div>
 
 <!--box1 end-->
+  {foreach from=$page_format.order key=page_type_code item=page_type}
+  {if $pages.$page_type_code != ""}
+  <div class="e_text" id="{$page_type}">
+    {eval_strip var=$pages.$page_type_code}
+  </div>
+  {/if}
+  {/foreach}
 
 <div id="push2">
 <h3>
