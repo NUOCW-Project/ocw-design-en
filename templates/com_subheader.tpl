@@ -35,9 +35,9 @@
 {elseif $page_type=="top"}
 <div class="wideslider">
 <ul>
- <li><img src="images/en/sliders/01about.png" alt=""></li>
- <li><img src="images/en/sliders/021minute.png" alt=""></li>
- <li><img src="images/en/sliders/03studentvoices.png" alt=""></li>
+ <li><img src="images/en/slider/s01about.png" alt=""></li>
+ <li><img src="images/en/slider/s021minute.png" alt=""></li>
+ <li><img src="images/en/slider/s03studentvoices.png" alt=""></li>
 </ul>
 </div>
 {else}
