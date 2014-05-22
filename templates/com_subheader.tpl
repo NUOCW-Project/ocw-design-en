@@ -65,8 +65,5 @@
 	</div><!-- "menu" end -->
 {/if}
 
-<div id="package2"><!-- #contents配置調整 firefox対応" -->
-
 {/literal}
-  <div id="contents"><!-- 中核のボックス -->
 
