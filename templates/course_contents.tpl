@@ -33,12 +33,16 @@
 </table>
 
 <div id="class_detail">
+{if $course_info.vsyllabus_rtmp != ''}
 <div id="video">
 <h3>
+<a href="{$course_info.vsyllabus_rtmp}" target="_blank">
 <img src="images/camera.png" alt="camera">
 1 min Video
+</a>
 </h3>
 </div>
+{/if}
 <div id="push1">
 <h3>
 <img class="close_open1" id="close1" src="images/close_text.png" alt="close">
