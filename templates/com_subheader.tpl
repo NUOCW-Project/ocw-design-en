@@ -33,7 +33,6 @@
   {/if}
 {* トップページ *}
 {elseif $page_type=="top"}
-{*スライダーのことを書く*}
 <div class="wideslider">
 <ul>
  <li><img src="images/slider/s01about.png" alt=""></li>
