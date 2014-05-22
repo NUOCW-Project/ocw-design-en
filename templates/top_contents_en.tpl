@@ -6,7 +6,19 @@
 
 <div class="inline">
 
+<div id="info">
 
+<div id="rank">
+<h3>This Month's Top Classes</h3>
+<table>
+<tr><td>Ranking</td><td>Class Name</td><td>Instructor Name</td></tr>
+<tr><td>1</td><td>Comparative Culture</td><td>Kentaro AZUMA</td></tr>
+<tr><td>2</td><td>Electromagnetic Dynamics I</td><td>Toshiro MATSUMURA</td></tr>
+<tr><td>3</td><td>Geography</td><td>Tsunetoshi MIZOGUCHI</td></tr>
+<tr><td>4</td><td>German 1</td><td>Katsufumi NARITA</td></tr>
+<tr><td>5</td><td>German 1</td><td>Katsufumi NARITA</td></tr>
+</table>
+</div>
 
 <div id="press">
 <h3>Press Releases</h3>
@@ -25,7 +37,7 @@
 </table>
 </div>
 
-
+</div><!-- info end -->
 
 
   <div id="greeting_en"><!-- "greeting" -->
