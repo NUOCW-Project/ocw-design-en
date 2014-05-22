@@ -6,4 +6,4 @@
 </div>
 
 <div id="main_contents">
-{include file="com_browse.tpl"}
+{include file="com_jumpbrowse.tpl"}
