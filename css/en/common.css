@@ -237,14 +237,14 @@ div#category{
 }
 
 #category h3:before{
-   content: url("../images/category.png");
+   content: url("../../images/en/category.png");
    margin-right: 10px;
    position: relative;
    top:3px;
 }
 
 #school h3:before{
-   content: url("../images/school.png");
+   content: url("../../images/en/school.png");
    margin-right: 10px;
    position: relative;
    top:6px;
