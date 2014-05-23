@@ -1,7 +1,7 @@
 {include file="com_meta.tpl"}
 
 <body> {$page_type}
-{if $page_type=="top"}
+{if page_type=="top"}
 <div id="header">
 {include file="com_topbar.tpl"}
 </div>
