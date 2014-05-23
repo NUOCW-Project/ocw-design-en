@@ -1,18 +1,19 @@
 {include file="com_meta.tpl"}
 
-<body> {$page_type}
-{if page_type=="top"}
+<body>
 <div id="header">
 {include file="com_topbar.tpl"}
+
+{if $page_type=="top"}
+
 </div>
 {include file="com_subheader.tpl"}
 
 {else}
 
-<div id="header">
-{include file="com_topbar.tpl"}
 {include file="com_subheader.tpl"}
 </div>
+
 {/if}
 
 <div id="main_contents">
