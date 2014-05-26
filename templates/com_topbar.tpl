@@ -30,7 +30,10 @@
 -->
 <li><input type="text" id="keyword" name="keyword" value="Keyword Search"></li>
 <li><input type="image" id="searchbtn" name="searchbtn" src="images/{$lang}/search.png" alt="search"></li>
-<li><a href="http://ocw.nagoya-u.jp/"><img src="images/{$lang}/japan.png" alt="Japanese"></a></li>
+{literal}{if $another_tpl_path}
+<li><a href="index.php?lang={$another_lang}&amp;mode={$mode}&amp;id={$id}&amp;page_type={$another_page_type}">
+<img src="images/{$lang}/japan.png" alt="Japanese"></a></li>
+{/if}{/literal}
 </ul>
 <!-- µìGOOGLE¸¡º÷ 
 	  <div id="cse-search-form" style="width: 100%;">Loading</div>
