@@ -1,48 +1,31 @@
-{* Á´Éô¶É¡¢Éô¶ÉÊÌ¥½¡¼¥È *}
+{* è‹±èªç‰ˆæ–°ãƒ‡ã‚¶ã‚¤ãƒ³ç”¨ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆåˆ†å² *}
+
+{* ã‚¿ã‚°æ¤œç´¢ç”¨ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆ *}
 {literal}
-{if $all_dept and $sort_selected=="all_department"}
+{if $search_selected == 'tag'}
 {/literal}
-  {include file="sort_selection.tpl"}
-  {include file="sort_sort.tpl"}
+	{include file="sort_course_table_tag_order.tpl"}
 
-  {literal}
-  {foreach item="dep_and_data" from=$courselist}
-  {/literal}
-    {include file="sort_course_table_dep_order.tpl"}
-  {literal}
-  {/foreach}
-  {/literal}
-
-{* Á´Éô¶É¡¢¶µ°÷ÊÌ¥½¡¼¥È *}
+{* éƒ¨å±€æ¯æ¤œç´¢ç”¨ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆ *}
 {literal}
-{elseif $all_dept}
+{elseif $search_selected == 'department'}
 {/literal}
-  {include file="sort_selection.tpl"}
-  {include file="sort_sort.tpl"}
+	{* éƒ¨å±€ç´¹ä»‹ã‚’è¡¨ç¤ºã™ã‚‹ã‹ *}
+	{literal}
+	{if $is_show_list}
+	{/literal}
+ 	 {* éƒ¨å±€ç´¹ä»‹ã‚’æ²è¼‰ã™ã‚‹å ´åˆ *}
+ 	  {literal}
+  	{if $use_template}
+   	  {include file="$lang/l/`$page_type`_info_short.tpl"} 
+ 	  {/if}
+		{/literal}
+	{literal}
+	{/if}
+	{/literal}
+	{include file="sort_course_table_tag_order.tpl"}
 
-  {literal}
-  {foreach item="result" from=$courselist}
-  {/literal}
-    {include file="sort_course_table_inst_order.tpl"}
-  {literal}
-  {/foreach}
-  {/literal}
-
-{* ÆÃÄêÉô¶É¡¢¥³¡¼¥¹¥ê¥¹¥È¼«Æ°À¸À® *}
-{literal}
-{elseif $is_show_list}
-{/literal}
-  {* Éô¶É¾Ò²ğ¤ò·ÇºÜ¤¹¤ë¾ì¹ç *}
-  {literal}
-  {if $use_template}
-     {include file="$lang/l/`$page_type`_info_short.tpl"} 
-  {/if}
-  {/literal}
-
-  {include file="sort_selection.tpl"}
-  {include file="sort_course_table_dep_order.tpl"}
-   
-{* ÆÃÄêÉô¶É¡¢¥Ú¡¼¥¸¼êÆ°ºîÀ® *}
+{* ç‰¹å®šéƒ¨å±€ã€ãƒšãƒ¼ã‚¸æ‰‹å‹•ä½œæˆ *}
 {literal}
 {else}
 {/literal}
