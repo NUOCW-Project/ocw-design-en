@@ -51,14 +51,6 @@ Course Overview
 </h2>
 </div>
 <div id="box1">
-<p>This course is all about board games (mostly German). Throughout the semester, there are many things for students to do, including reading and understanding the rules, playing the board games, winning (and losing, of course), discussing strategy and much, much more.</p>
-<p>Course Overview This course is all about board games (mostly German). Throughout the semester, there are many things for students to do, including reading and understanding the rules, playing the board games, winning (and losing, of course), discussing strategy and much, much more. Other universities in Japan also offer some courses on board games, but most focus on Shogi (Japanese chess) or Igo (a classic Asian board game). In the case of these games, along with other traditional Japanese games, it's virtually impossible for all students to appreciate them on an equal basis because of difference in experience. The games used in this course, however, are relatively new games from other countries, and there is a good chance that no one knows how to play any of them, much less know what they are. This enables every student to start from scratch, lessening the probability of a gap in expertise, while also opening up new windows to foreign culture.</p>
-<p>In Germany, a board game powerhouse, hundreds of new board games are created every year. The mechanisms of these games are continuously improved and refined, their contents covering as vast a variety of themes as anyone could ever think of. In this course, however, we will be taking a look at only 20 or so of those games. It's not much, but it's a start.</p>
-<p>It is my belief that the lack of imagination within human interaction is a key factor behind some of the issues modern society (particularly Japanese society) faces today (my field is the computational study of phenomena that emerge from all kinds of interactions, not just those within human relationships). German board games are basically designed so that the players can enjoy the interaction they have with one another. Playing them may help you boost your imaginative skills associated with human interaction. This is one reason I would like many people, no
-<p class="back">Back to Top</p>
-</div>
-
-<!--box1 end-->
   {foreach from=$page_format.order key=page_type_code item=page_type}
   {if $pages.$page_type_code != ""}
   <div class="e_text" id="{$page_type}">
@@ -66,6 +58,10 @@ Course Overview
   </div>
   {/if}
   {/foreach}
+<p class="back">Back to Top</p>
+</div>
+
+<!--box1 end-->
 
 <div id="push2">
 <h3>
