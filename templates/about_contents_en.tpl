@@ -2,7 +2,7 @@
 
 <h1>About the “Nagoya University Open CourseWare?” (NU OCW) Website</h1>
 
-<h3W>Welcome to “NUOCW”</h3>
+<h3>Welcome to “NUOCW”</h3>
 <p>On the NU OCW (Nagoya University Open CourseWare Course Ware) website anyone from anywhere in the world can see Nagoya University class information and materials for free.</p>
 <p>A message from the Nagoya University Open CourseWare Administration Committee Chairperson, Katsuaki Onogi (Link).</p>
 <p>“Nagoya Univeristy Opne CourseWare (NU OCW)” class webpages contain the following sections.</p>
@@ -49,7 +49,7 @@
 
 <h3>Other</h3>
 <p>"Nagoya University OpenCourseWare? (NU OCW)" introduces only a small part of the wide range of classes available at Nagoya University, and as such are not "correspondence school" or "e-learning." For this reason, you will not receive course credit or certification from using course materials. Also, 4) "Nagoya University OpenCourseWare? (NU OCW)" simply makes course information available to the public and are not classes in of themselves. Please send all comments and questions to (link).
-Naagoya University Open Course Ware Committee (Staff List スタッフ一覧のリスト)</p>
+Nagoya University Open Course Ware Committee</p>
 
 
 <!-- スタッフ紹介開始 -->
