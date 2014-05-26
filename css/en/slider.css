@@ -36,10 +36,10 @@
 	cursor: pointer;
 }
 .slider_prev{
-   background: url(../images/prev.png) #fff no-repeat center center;
+   background: url(../images/en/prev.png) #fff no-repeat center center;
 }
 .slider_next{
-   background: url(../images/next.png) #fff no-repeat center center;
+   background: url(../images/en/next.png) #fff no-repeat center center;
 }
 
 .pagination {
