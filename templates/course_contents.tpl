@@ -35,20 +35,20 @@
 <div id="class_detail">
 {if $course_info.vsyllabus_rtmp != ''}
 <div id="video">
-<h3>
+<h1>
 <a href="{$course_info.vsyllabus_rtmp}" target="_blank">
 <img src="images/camera.png" alt="camera">
 1 min Video
 </a>
-</h3>
+</h1>
 </div>
 {/if}
 <div id="push1">
-<h3>
+<h2>
 <img class="close_open1" id="close1" src="images/close_text.png" alt="close">
 <img class="close_open1" id="open1" src="images/open_text.png" alt="open">
 Course Overview
-</h3>
+</h2>
 </div>
 <div id="box1">
 <p>This course is all about board games (mostly German). Throughout the semester, there are many things for students to do, including reading and understanding the rules, playing the board games, winning (and losing, of course), discussing strategy and much, much more.</p>
