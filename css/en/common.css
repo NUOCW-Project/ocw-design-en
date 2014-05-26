@@ -46,16 +46,17 @@ a:hover,a:active{
    float: left;
 }
 
-#icon p{
+#icon a {
+   display: block;
    color: #77bb44;
    margin: 0 0 5px 0;
 }
 
-p#small_icon{
+a#small_icon{
    font-size: 20px;
 }
 
-p#large_icon{
+a#large_icon{
    font-size: 25px;
 }
 
