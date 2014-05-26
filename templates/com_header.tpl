@@ -4,17 +4,14 @@
 <div id="header">
 {include file="com_topbar.tpl"}
 
-{if $page_type=="top"}
+{literal}{if $page_type=="top"}{/literal}
+</div> 
+{include file="top_subheader.tpl"}
 
-</div>
-{include file="com_subheader.tpl"}
-
-{else}
-
+{literal}{else}{/literal}
 {include file="com_subheader.tpl"}
 </div>
-
-{/if}
+{literal}{/if}{/literal}
 
 <div id="main_contents">
 {include file="com_jumpbrowse.tpl"}

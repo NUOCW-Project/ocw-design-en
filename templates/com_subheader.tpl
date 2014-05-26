@@ -31,15 +31,6 @@
     <img src="./images/{$lang}/header_{$page_type}.jpg"
        alt="{/literal}{section name=n loop=$navi_list start=-1 max=1}{$navi_list[n].text}{/section}{literal}"> 
   {/if}
-{* トップページ *}
-{elseif $page_type=="top"}
-<div class="wideslider">
-<ul>
- <li><img src="images/en/slider/s01about.png" alt=""></li>
- <li><img src="images/en/slider/s021minute.png" alt=""></li>
- <li><img src="images/en/slider/s03studentvoices.png" alt=""></li>
-</ul>
-</div>
 {else}
   <img src="./images/{$lang}/header_{$page_type}.jpg"
        alt="{/literal}{section name=n loop=$navi_list start=-1 max=1}{$navi_list[n].text}{/section}{literal}"> 
