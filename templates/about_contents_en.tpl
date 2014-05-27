@@ -52,7 +52,7 @@ materials for (course title) (year course given) available on the Nagoya
 University OpenCourseWare (NU OCW) site and were compiled by Nagoya
 University instructor (name). "</p>
 
-<p>Copyright © (year course given) (name of instructor).</p>
+<p>Copyright &#xA9; (year course given) (name of instructor).</p>
 
 <h3>Disclaimer of liability</h3>
 
