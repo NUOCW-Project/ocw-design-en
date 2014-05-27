@@ -2,19 +2,36 @@
 <h1>About the “Nagoya University Open CourseWare?” (NU OCW) Website</h1>
 
 <h3>Welcome to “NUOCW”</h3>
-<p>On the NU OCW (Nagoya University Open CourseWare website anyone from anywhere in the world can see Nagoya University class information and materials for free.</p>
-<p>A message from the Nagoya University Open CourseWare Administration Committee Chairperson, Katsuaki Onogi .</p>
+<p>On the NU OCW (Nagoya University Open CourseWare) website anyone from 
+anywhere in the world can see Nagoya University class information and 
+materials for free.</p>
+<p>A message from the Nagoya University Open CourseWare Administration 
+Committee Chairperson, Katsuaki Onogi .</p>
 <!--あとでLinkを貼る-->
-<p>“Nagoya Univeristy Opne CourseWare (NU OCW)” class webpages contain the following sections.</p>
+
+<p>“Nagoya Univeristy Oen CourseWare (NU OCW)” class webpages contain the following sections.</p>
 <ul>
-  <li>“Class Homepage:” Outline of the class and tips from the instructor on how to make the most of the class.</li>
-  <li>“Syllabus:” Class schedule, grading requirements, and other details about the class.</li>
+  <li>“Class Homepage:” Outline of the class and tips from the instructor 
+on how to make the most of the class.</li>
+  <li>“Syllabus:” Class schedule, grading requirements, and other detail
+s about the class.</li>
   <li>“Class Materials:” Actual materials used in class lectures.</li>
-  <li>“One Minute Video:” A short video introducing the class’s contents and appeal narrated by the instructor.</li>
+  <li>“One Minute Video:” A short video introducing the class’s contents a
+ appeal narrated by the instructor.</li>
   <li>etc.</li>
 </ul>
 <h3>The purpose of this site (Nagoya University Open CourseWare)</h3>
-<p>The President of Nagoya University, Michinari Hamaguchi, launched a program to convert teaching materials used in selected courses into digital format and make them available to the public at no charge over the Internet.  By thus posting course materials on the Web, the University offers the public a rare glimpse into its classrooms. The site will, it is hoped, help enrolled students engaged in self-directed study, plus promote communication and interaction not only between instructors and students and among instructors themselves, but between instructors and non-members of the University community as well.  This project is administered by the Nagoya University Open CourseWare Committee and has been prepared in partnership with the Japan Open CourseWare Consortium (JOCW), founded in May 2005. </p>
+<p>The President of Nagoya University, Michinari Hamaguchi, launched a program
+ to convert teaching materials used in selected courses into digital format 
+and make them available to the public at no charge over the Internet.  By thus
+ posting course materials on the Web, the University offers the public a rare
+ glimpse into its classrooms. The site will, it is hoped, help enrolled 
+students engaged in self-directed study, plus promote communication and 
+interaction not only between instructors and students and among instructors 
+themselves, but between instructors and non-members of the University 
+community as well.  This project is administered by the Nagoya University Open
+ CourseWare Committee and has been prepared in partnership with the Japan Open
+ CourseWare Consortium (JOCW), founded in May 2005. </p>
 <h3>About the Public Course Materials</h3>
 
 <p>Every year at Nagoya University, many thousands of courses are held.
