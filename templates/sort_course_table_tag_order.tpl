@@ -2,7 +2,7 @@
 
 {literal}
 {if count($courselist)}
-<div >
+<div>
 <h1>{$tag_name}</h1>
 <table id="class_list">
 <tbody>

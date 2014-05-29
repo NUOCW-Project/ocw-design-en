@@ -1,5 +1,5 @@
 <div id="twitter">
-<h3>News</h3>
+<h1>News</h1>
 <a class="twitter-timeline" href="https://twitter.com/nuocw" data-widget-id="468153867931115520">@nuocw からのツイート</a>
 {literal}<script>!function(d,s,id){ldelim}var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){ldelim}js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);{rdelim}{rdelim}(document,"script","twitter-wjs");</script>{/literal}
 </div><!-- twitter end -->
@@ -7,7 +7,7 @@
 <div id="info">
 
 <div id="rank">
-<h3>This Month's Top Classes</h3>
+<h1>This Month's Top Classes</h1>
 <table>
 <tr><td>Ranking</td><td>Class Name</td><td>Instructor Name</td></tr>
 <tr><td>1</td><td>Comparative Culture</td><td>Kentaro AZUMA</td></tr>
@@ -19,7 +19,7 @@
 </div>
 
 <div id="press">
-<h3>Press Releases</h3>
+<h1>Press Releases</h1>
 <table>
 <tr><td></td><td class="backno">
 <a href="index.html">>Back No.</a>
