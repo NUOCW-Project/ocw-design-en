@@ -10,11 +10,13 @@
 <h1>This Month's Top Classes</h1>
 <table>
 <tr><td>Ranking</td><td>Class Name</td><td>Instructor Name</td></tr>
-<tr><td>1</td><td>Comparative Culture</td><td>Kentaro AZUMA</td></tr>
-<tr><td>2</td><td>Electromagnetic Dynamics I</td><td>Toshiro MATSUMURA</td></tr>
-<tr><td>3</td><td>Geography</td><td>Tsunetoshi MIZOGUCHI</td></tr>
-<tr><td>4</td><td>German 1</td><td>Katsufumi NARITA</td></tr>
-<tr><td>5</td><td>German 1</td><td>Katsufumi NARITA</td></tr>
+{literal}
+{foreach name=ranking from=$ranking item="course"}
+{if $smarty.foreach.ranking.index < 5}
+<tr><td>{$course.rank}</td><td>{$course.course_name}</td><td>{$course.instructor_name}</td></tr>
+{/if}
+{/foreach}
+{/literal}
 </table>
 </div>
 
