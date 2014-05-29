@@ -1,7 +1,8 @@
 /* サイト全体 */
 body{
    background-color: #f4f5f5;
-   font-family: sans-serif;
+   font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3',
+    Meiryo, メイリオ, sans-serif;
    color: #666666;
    font-weight: lighter;
 }
@@ -45,17 +46,16 @@ a:hover,a:active{
    float: left;
 }
 
-#icon a {
-   display: block;
+#icon p{
    color: #77bb44;
    margin: 0 0 5px 0;
 }
 
-a#small_icon{
+p#small_icon{
    font-size: 20px;
 }
 
-a#large_icon{
+p#large_icon{
    font-size: 25px;
 }
 
@@ -86,7 +86,7 @@ a#large_icon{
    font-size: 20px;
    color: #666666;
    background-color: #f4f5f5;
-   background-image: url(../../images/en/tag.png);
+   background-image: url(../images/tag.png);
    background-repeat: no-repeat;
    background-position: right 15px center;
    margin-right: 10px;
@@ -237,14 +237,14 @@ div#category{
 }
 
 #category h3:before{
-   content: url("../../images/en/category.png");
+   content: url("../images/category.png");
    margin-right: 10px;
    position: relative;
    top:3px;
 }
 
 #school h3:before{
-   content: url("../../images/en/school.png");
+   content: url("../images/school.png");
    margin-right: 10px;
    position: relative;
    top:6px;
