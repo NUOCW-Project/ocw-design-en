@@ -2,7 +2,7 @@
 <div id="browse">
 
 <div id="category">
-<h3>Browse by Category</h3>
+<h1>Browse by Category</h1>
 <ul>
 {literal}
 {foreach from=$tag_list key="abbr" item="tag"}
@@ -13,7 +13,7 @@
 </div>
 
 <div id="school">
-<h3>Browse by School / Graduate School</h3>
+<h1>Browse by School / Graduate School</h1>
 <ul>
 {literal}
 {foreach from=$dept_list key="abbr" item="dept"}
