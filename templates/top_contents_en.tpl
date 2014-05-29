@@ -14,7 +14,7 @@
 {foreach name=ranking from=$ranking item="course"}
 {if $smarty.foreach.ranking.index < 5}
 <tr>
-<td>{$course.rank}</td>
+<td class="rank">{$course.rank}</td>
 <td><a href="index.php?lang={$lang}&amp;mode=c&amp;id={$course.course_id}">{$course.course_name}</a></td><td>{$course.instructor_name}</td></tr>
 {/if}
 {/foreach}
