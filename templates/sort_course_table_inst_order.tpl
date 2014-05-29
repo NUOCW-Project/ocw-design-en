@@ -1,6 +1,6 @@
 {literal}
 {if $result.num_of_course > 0}
-<h3>{$result.title}</h3>
+<h1>{$result.title}</h1>
 <table class = "sorttable" >
 <tr>
 {if $lang=='ja'}  

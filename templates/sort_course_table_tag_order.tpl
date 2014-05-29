@@ -3,7 +3,7 @@
 {literal}
 {if count($courselist)}
 <div >
-<h3>{$tag_name}</h3>
+<h1>{$tag_name}</h1>
 <table id="class_list">
 <tbody>
 {* 言語別で見出しの分岐 *}
