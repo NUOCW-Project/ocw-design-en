@@ -14,7 +14,7 @@ body{
    overflow: hidden;
 }
 
-h3{
+h1,h2{
    font-size: 36px;
    font-weight: lighter;
    margin: 20px 0;
