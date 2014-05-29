@@ -37,7 +37,7 @@
 <div id="video">
 <h1>
 <a href="{$course_info.vsyllabus_rtmp}" target="_blank">
-<img src="images/camera.png" alt="camera">
+<img src="images/en/camera.png" alt="camera">
 1 min Video
 </a>
 </h1>
@@ -45,8 +45,8 @@
 {/if}
 <div id="push1">
 <h2>
-<img class="close_open1" id="close1" src="images/close_text.png" alt="close">
-<img class="close_open1" id="open1" src="images/open_text.png" alt="open">
+<img class="close_open1" id="close1" src="images/en/close_text.png" alt="close">
+<img class="close_open1" id="open1" src="images/en/open_text.png" alt="open">
 Course Overview
 </h2>
 </div>
@@ -66,8 +66,8 @@ Course Overview
 {*
 <div id="push2">
 <h2>
-<img class="close_open2" id="close2" src="images/close_text.png" alt="close">
-<img class="close_open2" id="open2" src="images/open_text.png" alt="open">
+<img class="close_open2" id="close2" src="images/en/close_text.png" alt="close">
+<img class="close_open2" id="open2" src="images/en/open_text.png" alt="open">
 Study Strategies
 </h2>
 </div>
@@ -88,8 +88,8 @@ Either way, I was very pleased to know that some students were contacting each o
 <div id="syllabus">
 <div id="push3">
 <h2>
-<img class="close_open3" id="close3" src="images/close_text.png" alt="close">
-<img class="close_open3" id="open3" src="images/open_text.png" alt="open">
+<img class="close_open3" id="close3" src="images/en/close_text.png" alt="close">
+<img class="close_open3" id="open3" src="images/en/open_text.png" alt="open">
 Syllabus
 </h2>
 </div>
@@ -107,8 +107,8 @@ Syllabus
 
 <div id="push4">
 <h2>
-<img class="close_open4" id="close4" src="images/close_text.png" alt="close">
-<img class="close_open4" id="open4" src="images/open_text.png" alt="open">
+<img class="close_open4" id="close4" src="images/en/close_text.png" alt="close">
+<img class="close_open4" id="open4" src="images/en/open_text.png" alt="open">
 Class Materials
 </h2>
 </div>
