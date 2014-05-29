@@ -86,7 +86,7 @@ p#large_icon{
    font-size: 20px;
    color: #666666;
    background-color: #f4f5f5;
-   background-image: url(../images/tag.png);
+   background-image: url(images/tag.png);
    background-repeat: no-repeat;
    background-position: right 15px center;
    margin-right: 10px;
@@ -237,14 +237,14 @@ div#category{
 }
 
 #category h3:before{
-   content: url("../images/category.png");
+   content: url("images/category.png");
    margin-right: 10px;
    position: relative;
    top:3px;
 }
 
 #school h3:before{
-   content: url("../images/school.png");
+   content: url("images/school.png");
    margin-right: 10px;
    position: relative;
    top:6px;
