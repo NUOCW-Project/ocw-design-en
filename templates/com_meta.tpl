@@ -38,6 +38,11 @@
   <script type="text/javascript" src="./js/slider.js"></script>
 {/if}
 {/literal}
+{literal}
+{if $page_type=='index'}
+  <script type="text/javascript" src="./js/course.js"></script>
+{/if}
+{/literal}
 
 <title>
 <!-- タイトルに講義情報を入れる -->
