@@ -2,7 +2,7 @@
 
 <div od="title">
 
-<h3 class="class_title">{$course_info.course_name}</h3>
+<h1 class="class_title">{$course_info.course_name}</h1>
 </div>
 
 <div id="info">
@@ -43,6 +43,7 @@
 </h1>
 </div>
 {/if}
+
 <div id="push1">
 <h2>
 <img class="close_open1" id="close1" src="images/en/close_text.png" alt="close">
