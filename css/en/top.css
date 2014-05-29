@@ -37,6 +37,7 @@
 
 td.date{
    white-space: nowrap;
+   vertical-align: top;
 }
 
 .backno{
