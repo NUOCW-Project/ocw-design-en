@@ -51,7 +51,7 @@ Course Overview
 </h2>
 </div>
 <div id="box1">
-  {foreach from=$page_format.order key=page_type_code item=page_type}
+  {foreach from=$page_format[0].order key=page_type_code item=page_type}
   {if $pages.$page_type_code != ""}
   <div class="e_text" id="{$page_type}">
     {eval_strip var=$pages.$page_type_code}
@@ -63,12 +63,13 @@ Course Overview
 
 <!--box1 end-->
 
+{*
 <div id="push2">
-<h3>
+<h2>
 <img class="close_open2" id="close2" src="images/close_text.png" alt="close">
 <img class="close_open2" id="open2" src="images/open_text.png" alt="open">
 Study Strategies
-</h3>
+</h2>
 </div>
 <div id="box2">
 <p>This course, "Board Games, A to Z" is categorized as a "Basic Seminar" course, which aims to help students acquire the literal abilities needed for university education. There being no constraints as to what field of study to apply in this course, I thought of using board games and card games, something that would provide students with the pleasure of thinking in addition to fulfilling the main objective. The students all seem to enjoy this approach. But for me, this course is still in the trial-and-error stage.</p>
@@ -82,37 +83,24 @@ Either way, I was very pleased to know that some students were contacting each o
 <p class="back">Back to Top</p>
 </div>
 <!-- box2 end-->
+*}
 
 <div id="syllabus">
 <div id="push3">
-<h3>
+<h2>
 <img class="close_open3" id="close3" src="images/close_text.png" alt="close">
 <img class="close_open3" id="open3" src="images/open_text.png" alt="open">
 Syllabus
-</h3>
+</h2>
 </div>
 <div id="box3">
-<h4>Course Objectives</h4>
-<p>
-'To acquire basic knowledge and skills for research, reasoning, negotiation, and expression through foreign board games.'
-</p>
-<p>Students will be assigned a board game made in Germany, famous for churning out hundreds of unique board games every year, to study and fully understand the rules for playing it. At the beginning of each class, some of them will explain the rules of the assigned game, then move on to actually playing those games with the rest of the class. Afterwards, there will be a presentation on the game, its mechanic and strategic analysis, results of its evaluation from educational and cultural perspectives. This will be the basis for the discussion session which will follow. In all, this course aims to promote the acquisition of the following skills/abilities.</p>
-<ul>
-<li>Skill/Ability to understand the rules and mechanisms.</li>
-<li>Skill/Ability to devise strategies for winning.</li>
-<li>Skill/Ability to explain and present the rules and analytic results.</li>
-<li>Skill/Ability to evaluate the games from cultural and educational perspectives.</li>
-</ul>
-
-<h4>Grading</h4>
-<p>Evaluation will be based on the following</p>
-<ul>
-<li>Analysis and understanding of the rules of the assigned game(25%)</li>
-<li>Strategies for winning(25%)</li>
-<li>Participation in discussion(25%)</li>
-<li>Explanation on the rules of the game(20%)</li>
-<li>Performance in the games(5%)</li>
-</ul> 
+  {foreach from=$page_format[1].order key=page_type_code item=page_type}
+  {if $pages.$page_type_code != ""}
+  <div class="e_text" id="{$page_type}">
+    {eval_strip var=$pages.$page_type_code}
+  </div>
+  {/if}
+  {/foreach}
 <p class="back">Back to Top</p>
 </div>
 <!-- box3 end-->
@@ -125,20 +113,13 @@ Class Materials
 </h3>
 </div>
 <div id="box4">
-<ul>
-<li>Session 1
-Why board games? (PDF, 195KB)</li>
-<li>Session 2
-Introduction of "II Cucco" (PDF, 793KB)</li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-</ul>
+  {foreach from=$page_format[3].order key=page_type_code item=page_type}
+  {if $pages.$page_type_code != ""}
+  <div class="e_text" id="{$page_type}">
+    {eval_strip var=$pages.$page_type_code}
+  </div>
+  {/if}
+  {/foreach}
 <p class="back">Back to Top</p>
 </div>
 <!-- box 4 end-->
