@@ -106,11 +106,11 @@ Syllabus
 <!-- box3 end-->
 
 <div id="push4">
-<h3>
+<h2>
 <img class="close_open4" id="close4" src="images/close_text.png" alt="close">
 <img class="close_open4" id="open4" src="images/open_text.png" alt="open">
 Class Materials
-</h3>
+</h2>
 </div>
 <div id="box4">
   {foreach from=$page_format[3].order key=page_type_code item=page_type}
