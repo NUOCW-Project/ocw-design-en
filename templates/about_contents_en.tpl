@@ -197,12 +197,10 @@ As of April 4, 2014
 <td>Administrative Assistant,</td>
 <td>OCW Administrative Office</td>
 </tr>
-</table>
 
-<table>
-
-<tr><th class="center">Support Staff</th></tr>
-
+<tr>
+<th colspan="3">Support Staff</th>
+</tr>
 
 <tr>
 <td>Aki Hara (Media Staff, Studio)</td>

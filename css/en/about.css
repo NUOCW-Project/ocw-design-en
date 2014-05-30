@@ -31,6 +31,8 @@ p, li{
 th{
    font-weight: lighter;
    font-size: 36px;
+   color: #FFFFFF;
+   background-color: #77BB44
 }
 
 table{
@@ -39,4 +41,9 @@ table{
 
 td{
    width: 340px;
+   line-height: 30px;
+}
+
+td.date{
+   text-align: right
 }
