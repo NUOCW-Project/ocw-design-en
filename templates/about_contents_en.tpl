@@ -99,98 +99,148 @@ themselves. Please send all comments and questions to (link).
 <tr><th> colspan=2><h2>Nagoya University OpenCourseWare Steering Committee</h2></th></tr>
 <!-- <tr><td colspan=2 align="right">(As of April 4, 2014)</td></tr>
 	<tr><td class="center_gray">Nagoya University Open CourseWare Steering Committee</td> -->
-<td>
+<tr>
+<td>Chairperson: Katsuaki Onogi,</td> 
+<td> Dean, </td>
+<td>Institute of Liberal Arts and Sciences</td>
+</tr>
 
-Chairperson: Katsuaki Onogi, Dean, Institute of Liberal Arts and Sciences
+<tr>
+<td>Ichiro Yamamoto,</td>
+<td>Vice-President,</td>
+<td>Trustee</td>
+</tr>
 
-<td>
-Ichiro Yamamoto, Vice-President, Trustee
-</td>
+<tr>
+<td>Kazuhisa Todayama,</td>
+<td>Assistant to President,</td>
+<td>Nagoya University</td>
+</tr>
 
-<td>
-Kazuhisa Todayama, Assistant to President, Nagoya University
-</td>
+<tr>
+<td>Takaya Yamazato,</td> 
+<td>Professor,</td>
+<td>Institute of Liberal Arts and Sciences</td>
+</tr>
 
-<td>
-Takaya Yamazato, Professor, Institute of Liberal Arts and Sciences
-</td>
+<tr>
+<td>Toshiyuki Tonoike,</td>
+<td>Professor,</td>
+<td>Center for Information Media Studies</td>
+</tr>
 
-<td>
-Toshiyuki Tonoike, Professor, Center for Information Media Studies
-</td>
-<td>
-asaaki Katayama	
-Professor,	
-Eco Topia Science Institute	</td>
-	<td>
-Toshiaki Nakai	
-Associate Professor,	
-Center for the Studies of Higher Education	</td>
-	<td>
-Akifumi Goto	
-Associate Professor,	
-Center for Information Media Studies	</td>
-	<td>
-Takehiro Ohya	
-Associate Professor,	
-Graduate School of Law	</td>
-	<td>
-Toshiko Ishizaki	
-Professor,	
-Education Center for International Students	</td>
-	<td>
-Daisuke Deguchi	
-Associate Professor
-Strategy Office, Information and Communications Headquarters </td>
-	<td>
-Lai Wailing		
-Associate Professor,	
-Institute of Liberal Arts and Sciences	</td>
-	<td>
-Sadami Nakahama	
-Liberal Education Deputy Director,	
-Institute of Liberal Arts and Sciences	</td>
-	<td>
-Shina Kawazu	
-The educational affairs planning section Assistant Director,	
-Institute of Liberal Arts and Sciences	</td>
-	<td>
-Yuka Kojima	
-Administrative Assistant,	
-OCW Administrative Office	</td>
-</td></tr>
+<tr>
+<td>Masaaki Katayama</td>
+<td>Professor,</td>
+<td>Eco Topia Science Institute</td>
+</tr>
 
-	<tr><td class="center">Support Staff</td>
-		<td class="left">
-<td>
-Aki Hara (Media Staff, Studio)
-Tetsuya Ono
-Michelle Kuhn Myers
-Yoshifumi Inoue
-Kazuki Uemura
-Yuma Sato
-Hiromasa Yamauchi
-Daisuke Takaichi
-You Xia
-Takahiro Kojima
-Yuuya Nobe
-Katsuyasu Kamimura
-Masashi Yamazaki
-Mikito Yamamoto
-Yuto Toida
-Daiki Ishikawa
-Hiroki Kamada
-Yutaro Nagae
-Fumihiro Ootake
-Keita Chiga
-Miyuu Imamura
-Misa Asano
-Tomohisa Tamai
-</p></td></tr>
-	<tr><td class="center_gray">photography</td>
-        <td class="left_gray"><p>
-Ryo Yoshikawa
-Yoko Egusa
-	</p></td></tr>
+<tr>
+<td>Toshiaki Nakai</td>
+<td>Associate Professor,</td>
+<td>Center for the Studies of Higher Education</td>
+</tr>
+
+<tr>
+<td>Akifumi Goto</td>
+<td>Associate Professor,</td>
+<td>Center for Information Media Studies</td>
+</tr>
+
+<tr>
+<td>Takehiro Ohya</td>
+<td>Associate Professor,</td>
+<td>Graduate School of Law</td>
+</tr>
+
+<tr>
+<td>Toshiko Ishizaki</td>
+<td>Professor,</td>
+<td>Education Center for International Students</td>
+</tr>
+
+<tr>
+<td>Daisuke Deguchi</td>
+<td>Associate Professor</td>
+<td>Strategy Office, Information and Communications Headquarters</td>
+</tr>
+
+<tr>
+<td>Lai Wailing</td>
+<td>Associate Professor,</td>
+<td>Institute of Liberal Arts and Sciences</td>
+</tr>
+
+<tr>
+<td>Sadami Nakahama</td>
+<td>Liberal Education Deputy Director,</td>
+<td>Institute of Liberal Arts and Sciences</td>
+</tr>
+
+<tr>
+<td>Shina Kawazu</td>
+<td>The educational affairs planning section Assistant Director,</td>
+<td>Institute of Liberal Arts and Sciences</td>
+</tr>
+
+<tr>
+<td>Yuka Kojima</td>
+<td>Administrative Assistant,</td>
+<td>OCW Administrative Office</td>
+</tr>
+</table>
+
+<table>
+
+<tr><th class="center">Support Staff</th></tr>
+
+
+<tr>
+<td>Aki Hara (Media Staff, Studio)</td>
+<td>Tetsuya Ono</td>
+<td>Michelle Kuhn</td>
+</tr>
+<tr>
+<td>Yoshifumi Inoue</td>
+<td>Kazuki Uemura</td>
+<td>Yuma Sato</td>
+</tr>
+<tr>
+<td>Hiromasa Yamauchi</td>
+<td>Daisuke Takaichi</td>
+<td>You Xia</td>
+</tr>
+<tr>
+<td>Takahiro Kojima</td>
+<td>Yuuya Nobe</td>
+<td>Katsuyasu Kamimura</td>
+</tr>
+<tr>
+<td>Masashi Yamazaki</td>
+<td>Mikito Yamamoto</td>
+<td>Yuto Toida</td>
+</tr>
+<tr>
+<td>Daiki Ishikawa</td>
+<td>Hiroki Kamada</td>
+<td>Yutaro Nagae</td>
+</tr>
+<tr>
+<td>Fumihiro Ootake</td>
+<td>Keita Chiga</td>
+<td>Miyuu Imamura</td>
+</tr>
+<tr>
+<td>Misa Asano</td>
+<td>Tomohisa Tamai</td>
+<td></td>
+</tr>
+
+
+<tr>
+<td>photography</td>
+<td>Ryo Yoshikawa</td>
+<td>Yoko Egusa</td>
+</tr>
 
 </table>
