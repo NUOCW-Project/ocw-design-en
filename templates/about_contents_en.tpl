@@ -95,74 +95,74 @@ themselves. Please send all comments and questions to (link).
 
 
 <!-- Stuff List -->
-	<tr><td colspan=2><h2>Nagoya University OpenCourseWare Steering Committee</h2></td></tr>
-	<tr><td colspan=2 align="right">(As of April 4, 2014)</td></tr>
-	<tr><td class="center_gray">Nagoya University Open CourseWare Steering Committee</td>
-<td class="left_gray">
-<p>	
+<table>
+<tr><th> colspan=2><h2>Nagoya University OpenCourseWare Steering Committee</h2></th></tr>
+<!-- <tr><td colspan=2 align="right">(As of April 4, 2014)</td></tr>
+	<tr><td class="center_gray">Nagoya University Open CourseWare Steering Committee</td> -->
+<td>
+
 Chairperson: Katsuaki Onogi, Dean, Institute of Liberal Arts and Sciences
-</p>
 
-<p>
+<td>
 Ichiro Yamamoto, Vice-President, Trustee
-</p>
+</td>
 
-<p>
+<td>
 Kazuhisa Todayama, Assistant to President, Nagoya University
-</p>
+</td>
 
-<p>
+<td>
 Takaya Yamazato, Professor, Institute of Liberal Arts and Sciences
-</p>
+</td>
 
-<p>
+<td>
 Toshiyuki Tonoike, Professor, Center for Information Media Studies
-</p>
-<p>
+</td>
+<td>
 asaaki Katayama	
 Professor,	
-Eco Topia Science Institute	</p>
-	<p>
+Eco Topia Science Institute	</td>
+	<td>
 Toshiaki Nakai	
 Associate Professor,	
-Center for the Studies of Higher Education	</p>
-	<p>
+Center for the Studies of Higher Education	</td>
+	<td>
 Akifumi Goto	
 Associate Professor,	
-Center for Information Media Studies	</p>
-	<p>
+Center for Information Media Studies	</td>
+	<td>
 Takehiro Ohya	
 Associate Professor,	
-Graduate School of Law	</p>
-	<p>
+Graduate School of Law	</td>
+	<td>
 Toshiko Ishizaki	
 Professor,	
-Education Center for International Students	</p>
-	<p>
+Education Center for International Students	</td>
+	<td>
 Daisuke Deguchi	
 Associate Professor
-Strategy Office, Information and Communications Headquarters </p>
-	<p>
+Strategy Office, Information and Communications Headquarters </td>
+	<td>
 Lai Wailing		
 Associate Professor,	
-Institute of Liberal Arts and Sciences	</p>
-	<p>
+Institute of Liberal Arts and Sciences	</td>
+	<td>
 Sadami Nakahama	
 Liberal Education Deputy Director,	
-Institute of Liberal Arts and Sciences	</p>
-	<p>
+Institute of Liberal Arts and Sciences	</td>
+	<td>
 Shina Kawazu	
 The educational affairs planning section Assistant Director,	
-Institute of Liberal Arts and Sciences	</p>
-	<p>
+Institute of Liberal Arts and Sciences	</td>
+	<td>
 Yuka Kojima	
 Administrative Assistant,	
-OCW Administrative Office	</p>
+OCW Administrative Office	</td>
 </td></tr>
 
 	<tr><td class="center">Support Staff</td>
 		<td class="left">
-<p>
+<td>
 Aki Hara (Media Staff, Studio)
 Tetsuya Ono
 Michelle Kuhn Myers
