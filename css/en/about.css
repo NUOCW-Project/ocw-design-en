@@ -4,38 +4,4 @@
    About NUOCW
 ------------------------------------------------------------
 */
-.about{
-	padding: 0;
-	margin: 0;
-}
 
-.about h1{
-	color: #DD0000;
-	margin: 0px;
-}
-
-.about h2{
-	color: #666666;
-	margin: 0px;
-}
-
-.about p{
-	margin: 1em;
-}
-
-.about table{
-	border-style: none;
-	margin: 0;
-	padding: 0;
-}
-
-.about td{
-	border-right: 2px solid white;
-	margin: 0;
-	padding: 0;
-}
-.about tr{
-	border-style: none;
-	margin: 0;
-	padding: 0;
-}
