@@ -5,3 +5,23 @@
 ------------------------------------------------------------
 */
 
+h1{
+    color: #666666;
+}
+
+h2{
+   border-bottom: medium solid;
+   color: #77BB44;
+}
+
+h3{
+   font-weight: lighter;
+   font-size: 36px;
+   margin-bottom: -15px;
+   color: #77BB44;
+   border-bottom: medium solid;
+}
+
+p, li, td{
+   line-height: 1.5;
+}
