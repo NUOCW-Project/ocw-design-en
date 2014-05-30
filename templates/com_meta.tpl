@@ -14,6 +14,7 @@
   <link rel="stylesheet" type="text/css" href="css/en/course.css">
 {elseif $page_type=='about'}
   <link rel="stylesheet" type="text/css" href="css/en/about.css">
+  <link rel="stylesheet" type="text/css" href="css/en/course.css">
 {elseif $page_type=='inquiry'}
   <link rel="stylesheet" type="text/css" href="css/en/inquiry.css">
 {elseif $page_type=='top'}
