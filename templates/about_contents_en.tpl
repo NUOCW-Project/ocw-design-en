@@ -96,10 +96,16 @@ themselves. Please send all comments and questions to (link).
 
 <!-- Stuff List -->
 <table>
+
 <tr>
 <th colspan="3">Nagoya University OpenCourseWare Steering Committee
-<span class="date">(As of April 4, 2014)</span>
 </th>
+</tr>
+
+<tr>
+<td class="date" colspan="3">
+As of April 4, 2014
+</td>
 </tr>
 
 <tr>
