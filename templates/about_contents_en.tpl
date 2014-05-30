@@ -5,9 +5,9 @@
 <p>On the NU OCW (Nagoya University Open CourseWare) website anyone from 
 anywhere in the world can see Nagoya University class information and 
 materials for free.</p>
+<a href="https://dev.ocw.media.nagoya-u.ac.jp/new-2014/index.php?lang=en&mode=g&page_type=welcome">
 <p>A message from the Nagoya University Open CourseWare Administration 
-Committee Chairperson, Katsuaki Onogi .</p>
-<!--あとでLinkを貼る-->
+Committee Chairperson, Katsuaki Onogi .</p></a>
 
 <p>“Nagoya Univeristy Oen CourseWare (NU OCW)” class webpages contain the following sections.</p>
 <ul>
