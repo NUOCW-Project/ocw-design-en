@@ -96,9 +96,12 @@ themselves. Please send all comments and questions to (link).
 
 <!-- Stuff List -->
 <table>
-<tr><th> colspan=2><h2>Nagoya University OpenCourseWare Steering Committee</h2></th></tr>
-<!-- <tr><td colspan=2 align="right">(As of April 4, 2014)</td></tr>
-	<tr><td class="center_gray">Nagoya University Open CourseWare Steering Committee</td> -->
+<tr>
+<th colspan="3">Nagoya University OpenCourseWare Steering Committee
+<span class="date">(As of April 4, 2014)</span>
+</th>
+</tr>
+
 <tr>
 <td>Chairperson: Katsuaki Onogi,</td> 
 <td> Dean, </td>
