@@ -94,102 +94,102 @@ themselves. Please send all comments and questions to (link).
 </p>
 
 
-<!-- スタッフ紹介開始 -->
+<!-- Stuff List -->
 	<tr><td colspan=2><h2>Nagoya University OpenCourseWare Steering Committee</h2></td></tr>
 	<tr><td colspan=2 align="right">(As of April 4, 2014)</td></tr>
-	<tr><td class="center_gray">Nagoya University OpenCourseWare Steering Committee</td>		<td class="left_gray">
-  <p>	
-Chairperson: Katsuaki Onogi	<br>
-Dean,<br>
-Institute of Liberal Arts and Sciences	</p>
-	<p>
-Ichiro Yamamoto	<br>
-Vice-President,	<br>
-Trustee	</p>
-	<p>
-Kazuhisa Todayama	<br>
-Assistant to President,	<br>
-Nagoya University	</p>
-	<p>
-Takaya Yamazato	<br>
-Professor,	<br>
-Institute of Liberal Arts and Sciences	</p>
-	<p>
-Toshiyuki Tonoike	<br>
-Professor,	<br>
-Center for Information Media Studies	</p>
-	<p>
-Masaaki Katayama	<br>
-Professor,	<br>
+	<tr><td class="center_gray">Nagoya University Open CourseWare Steering Committee</td>
+<td class="left_gray">
+<p>	
+Chairperson: Katsuaki Onogi, Dean, Institute of Liberal Arts and Sciences
+</p>
+
+<p>
+Ichiro Yamamoto, Vice-President, Trustee
+</p>
+
+<p>
+Kazuhisa Todayama, Assistant to President, Nagoya University
+</p>
+
+<p>
+Takaya Yamazato, Professor, Institute of Liberal Arts and Sciences
+</p>
+
+<p>
+Toshiyuki Tonoike, Professor, Center for Information Media Studies
+</p>
+<p>
+asaaki Katayama	
+Professor,	
 Eco Topia Science Institute	</p>
 	<p>
-Toshiaki Nakai	<br>
-Associate Professor,	<br>
+Toshiaki Nakai	
+Associate Professor,	
 Center for the Studies of Higher Education	</p>
 	<p>
-Akifumi Goto	<br>
-Associate Professor,	<br>
+Akifumi Goto	
+Associate Professor,	
 Center for Information Media Studies	</p>
 	<p>
-Takehiro Ohya	<br>
-Associate Professor,	<br>
+Takehiro Ohya	
+Associate Professor,	
 Graduate School of Law	</p>
 	<p>
-Toshiko Ishizaki	<br>
-Professor,	<br>
+Toshiko Ishizaki	
+Professor,	
 Education Center for International Students	</p>
 	<p>
-Daisuke Deguchi	<br>
-Associate Professor<br>
+Daisuke Deguchi	
+Associate Professor
 Strategy Office, Information and Communications Headquarters </p>
 	<p>
-Lai Wailing		<br>
-Associate Professor,	<br>
+Lai Wailing		
+Associate Professor,	
 Institute of Liberal Arts and Sciences	</p>
 	<p>
-Sadami Nakahama	<br>
-Liberal Education Deputy Director,	<br>
+Sadami Nakahama	
+Liberal Education Deputy Director,	
 Institute of Liberal Arts and Sciences	</p>
 	<p>
-Shina Kawazu	<br>
-The educational affairs planning section Assistant Director,	<br>
+Shina Kawazu	
+The educational affairs planning section Assistant Director,	
 Institute of Liberal Arts and Sciences	</p>
 	<p>
-Yuka Kojima	<br>
-Administrative Assistant,	<br>
+Yuka Kojima	
+Administrative Assistant,	
 OCW Administrative Office	</p>
 </td></tr>
 
 	<tr><td class="center">Support Staff</td>
 		<td class="left">
 <p>
-Aki Hara (Media Staff, Studio)<br>
-Tetsuya Ono<br>
-Michelle Kuhn Myers<br>
-Yoshifumi Inoue<br>
-Kazuki Uemura<br>
-Yuma Sato<br>
-Hiromasa Yamauchi<br>
-Daisuke Takaichi<br>
-You Xia<br>
-Takahiro Kojima<br>
-Yuuya Nobe<br>
-Katsuyasu Kamimura<br>
-Masashi Yamazaki<br>
-Mikito Yamamoto<br>
-Yuto Toida<br>
-Daiki Ishikawa<br>
-Hiroki Kamada<br>
-Yutaro Nagae<br>
-Fumihiro Ootake<br>
-Keita Chiga<br>
-Miyuu Imamura<br>
-Misa Asano<br>
+Aki Hara (Media Staff, Studio)
+Tetsuya Ono
+Michelle Kuhn Myers
+Yoshifumi Inoue
+Kazuki Uemura
+Yuma Sato
+Hiromasa Yamauchi
+Daisuke Takaichi
+You Xia
+Takahiro Kojima
+Yuuya Nobe
+Katsuyasu Kamimura
+Masashi Yamazaki
+Mikito Yamamoto
+Yuto Toida
+Daiki Ishikawa
+Hiroki Kamada
+Yutaro Nagae
+Fumihiro Ootake
+Keita Chiga
+Miyuu Imamura
+Misa Asano
 Tomohisa Tamai
 </p></td></tr>
 	<tr><td class="center_gray">photography</td>
         <td class="left_gray"><p>
-Ryo Yoshikawa<br>
+Ryo Yoshikawa
 Yoko Egusa
 	</p></td></tr>
 
