@@ -20,7 +20,9 @@ h3{
    margin-bottom: -15px;
    color: #77BB44;
    border-bottom: medium solid;
+   padding-top: 25px;
 }
+
 
 p, li{
    line-height: 1.5;
@@ -28,20 +30,21 @@ p, li{
 
 /* Stuff List  */
 
+table{
+   width: 1020px;
+}
+
 th{
    font-weight: lighter;
    font-size: 36px;
    color: #FFFFFF;
    background-color: #77BB44
-}
-
-table{
-   width: 1020px;
+   padding: 15px 5px;
 }
 
 td{
    width: 340px;
-   line-height: 30px;
+   padding: 15px 5px;
 }
 
 td.date{

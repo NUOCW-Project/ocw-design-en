@@ -57,7 +57,7 @@ on the Nagoya University Open CourseWare (NU OCW) site belongs to Nagoya
 University and the instructors who prepared the material. That copyright
 remains in force even if the materials are altered.</p>
 
-
+<div class="copyright">
 <p>When distributing course content from the site, whether in original or
 modified form, please give credit to the original author as follows:</p>
 
@@ -67,6 +67,7 @@ University Open CourseWare (NU OCW) site and were compiled by Nagoya
 University instructor [name]. "</p>
 
 <p>Copyright &#xA9; [year course given][name of instructor].</p>
+</div>
 
 <h3>Disclaimer of liability</h3>
 
@@ -92,7 +93,7 @@ themselves. Please send all comments and questions to (link).
 
 
 <!-- Stuff List -->
-<table>
+<table id="committee_list">
 
 <tr>
 <th colspan="3">
@@ -195,7 +196,9 @@ As of April 4, 2014
 <td>Administrative Assistant,</td>
 <td>OCW Administrative Office</td>
 </tr>
+</table>
 
+<table id="students_list">
 <tr>
 <th colspan="3">Support Staff</th>
 </tr>
