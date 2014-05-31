@@ -101,12 +101,6 @@ Nagoya University Open CourseWare Steering Committee
 </tr>
 
 <tr>
-<td class="date" colspan="3">
-As of April 4, 2014
-</td>
-</tr>
-
-<tr>
 <td>Chairperson: Katsuaki Onogi,</td> 
 <td> Dean, </td>
 <td>Institute of Liberal Arts and Sciences</td>
@@ -245,8 +239,9 @@ As of April 4, 2014
 </tr>
 
 <tr>
-<td>Photography</td>
+<th>Photography</th>
 <td>Ryo Yoshikawa</td>
 <td>Yoko Egusa</td>
 </tr>
 </table>
+<p id="date">As of April 4, 2014</p>
