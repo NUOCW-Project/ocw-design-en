@@ -17,7 +17,7 @@ Steering Committee Chairperson, Katsuaki Onogi.
   <li>“Class Homepage:” Outline of the class and tips from the instruct
 on how to make the most of the class.</li>
   <li>“Syllabus:” Class schedule, grading requirements, and other detas about the class.</li>
-  <li>“Class Materials:” Actual materials used in class lectures.<i>
+  <li>“Class Materials:” Actual materials used in class lectur.</li>
   <li>“One Minute Video:” A short video introducing the class’s contentsnd appeal narrated by the instructor.</li>
   <li>etc.</li>
 </ul>
