@@ -21,7 +21,7 @@ on how to make the most of the class.</li>
   <li>“One Minute Video:” A short video introducing the class’s contentsnd appeal narrated by the instructor.</li>
   <li>etc.</li>
 </ul>
-<h3>The purpose of this site (Nagoya University Open CourseWare)</h3>
+<h3>The purpose of This Site (Nagoya University Open CourseWare)</h3>
 <p>
 Michinari Hamaguchi, the President of Nagoya University, launched a program to convert teaching materials
 used in selected courses into digital format and make these materials available over the Internet to the public
@@ -45,7 +45,7 @@ University Open CourseWare Steering Committee.</p>
 <h3>Terms of Use</h3>
 <p>Please pay careful attention to the following points when using the materials posted in appearing in “Nagoya University Open CourseWare (NUOCW)”</p>
 
-<h3>Materials posted</h3>
+<h3>Materials Posted</h3>
 
 <p>The materials on the site may be duplicated, distributed, translated, edited, or otherwise used as you wish, as long as it is for non-profit, educational purposes.</p>
 
@@ -71,7 +71,7 @@ University instructor [name]. "</p>
 <p>Copyright &#xA9; [year course given][name of instructor].</p>
 </div>
 
-<h3>Disclaimer of liability</h3>
+<h3>Disclaimer of Liability</h3>
 
 <p>Nagoya University and its instructors make every effort to ensure that the materials posted on this site meet the University's academic standards in terms of accuracy and quality, but legally the University makes no guarantee whatsoever with respect to, but not limited to, accuracy, quality, fitness for any particular purpose, merchantability, or non-violation of rights. The University assumes no responsibility for any losses or damages that may arise from use of these materials.</p>
 
