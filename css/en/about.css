@@ -32,7 +32,7 @@ p, li{
 
 /* link property  */
 
-a{
+#about_link{
    color: #77BB44;
 }
 
@@ -62,4 +62,12 @@ td{
 
 td.date{
    text-align: right
+}
+
+.odd{
+   background: white;
+}
+
+.even{
+   background: #EBF0F0;
 }
