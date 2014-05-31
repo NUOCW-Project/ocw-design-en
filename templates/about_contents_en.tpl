@@ -10,7 +10,7 @@ materials for free.</p>
 Steering Committee Chairperson, Katsuaki Onogi.</p>
 </a>
 
-<p>“Nagoya Univeristy Open CourseWare (NU OCW)” class webpages contain the following sections.</p>
+<p>“Nagoya Univeristy Open CourseWare (NU OCW)” class webpages contain the following sectio:</p>
 <ul>
   <li>“Class Homepage:” Outline of the class and tips from the instruct
 on how to make the most of the class.</li>
@@ -93,8 +93,8 @@ themselves. Please send all comments and questions to (link).
 
 
 <!-- Stuff List -->
-<table id="committee_list">
-
+<div id="committee_list">
+<table>
 <tr>
 <th colspan="3">
 Nagoya University Open CourseWare Steering Committee
@@ -196,9 +196,9 @@ As of April 4, 2014
 <td>Administrative Assistant,</td>
 <td>OCW Administrative Office</td>
 </tr>
-</table>
+</div>
 
-<table id="students_list">
+<div id="students_list">
 <tr>
 <th colspan="3">Support Staff</th>
 </tr>
@@ -244,11 +244,10 @@ As of April 4, 2014
 <td></td>
 </tr>
 
-
 <tr>
-<td>photography</td>
+<td>Photography</td>
 <td>Ryo Yoshikawa</td>
 <td>Yoko Egusa</td>
 </tr>
-
+</div>
 </table>
