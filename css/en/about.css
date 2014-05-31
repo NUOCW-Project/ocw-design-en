@@ -59,10 +59,12 @@ th{
 td{
    width: 340px;
    padding: 15px 5px;
+   line-height: 20px;
+   height: 40px;
 }
 
 td.date{
-   text-align: right
+   text-align: right;
 }
 
 .odd{
