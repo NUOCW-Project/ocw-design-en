@@ -5,6 +5,8 @@
 ------------------------------------------------------------
 */
 
+/* common property */
+
 h1{
     color: #666666;
 }
@@ -26,6 +28,12 @@ h3{
 
 p, li{
    line-height: 1.5;
+}
+
+/* link property  */
+
+a{
+   text-color: #77BB44;
 }
 
 /* Stuff List  */

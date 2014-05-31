@@ -79,11 +79,11 @@ websites for your website.</p>
 
 <h3>Usage Requirements</h3>
 <p>To see the course materials, you need Adobe Reader. To watch the videos, you need Microsoft's Windows Media Player or RealNetworks' Real Player.
-  You can download Adobe Reader, Real Player from here:<!-- (Download Bannerダウンロード用バナー)--></p>
+You can download Adobe Reader, Real Player from here:<!-- (Download Bannerダウンロード用バナー)--></p>
 
 <h3>Other</h3>
-<p>"Nagoya University Open CourseWare (NU OCW)" introduces only 
-a small part of the wide range of classes available at Nagoya University, 
+<p>"Nagoya University Open CourseWare (NU OCW)" introduces only
+a small part of the wide range of classes available at Nagoya University,
 and as such are not "correspondence school" or "e-learning." For this reason, 
 you will not receive course credit or certification from using course 
 materials. Also, "Nagoya University Open CourseWare (NU OCW)" simply makes 
@@ -93,8 +93,7 @@ themselves. Please send all comments and questions to (link).
 
 
 <!-- Stuff List -->
-<div id="committee_list">
-<table>
+<table id="committee_list">
 <tr>
 <th colspan="3">
 Nagoya University Open CourseWare Steering Committee
@@ -197,8 +196,9 @@ As of April 4, 2014
 <td>OCW Administrative Office</td>
 </tr>
 </div>
+</table>
 
-<div id="students_list">
+<table>
 <tr>
 <th colspan="3">Support Staff</th>
 </tr>
@@ -249,5 +249,4 @@ As of April 4, 2014
 <td>Ryo Yoshikawa</td>
 <td>Yoko Egusa</td>
 </tr>
-</div>
 </table>
