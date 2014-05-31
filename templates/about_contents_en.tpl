@@ -6,8 +6,9 @@
 anywhere in the world can see Nagoya University class information and 
 materials for free.</p>
 <a href="https://dev.ocw.media.nagoya-u.ac.jp/new-2014/index.phplang=en&mode=g&page_type=welcome">
-<p>A message from the Nagoya University Open CourseWare Administration 
-Committee Chairperson, Katsuaki Onogi .</p></a>
+<p>A message from the Nagoya University Open CourseWare
+Steering Committee Chairperson, Katsuaki Onogi.</p>
+</a>
 
 <p>“Nagoya Univeristy Open CourseWare (NU OCW)” class webpages contain the following sections.</p>
 <ul>
@@ -30,7 +31,7 @@ students engaged in self-directed study, plus promote communication and
 interaction not only between instructors and students and among instructors 
 themselves, but between instructors and non-members of the University 
 community as well.  This project is administered by the Nagoya University Open
- CourseWare Committee and has been prepared in partnership with the Japan Open
+ CourseWare Steering Committee and has been prepared in partnership with the Japan Open
  CourseWare Consortium (JOCW), founded in May 2005. </p>
 <h3>About the Public Course Materials</h3>
 
@@ -40,9 +41,9 @@ kinds of courses taking place. The courses introduced here are but a
 part of these, and include some courses that have been discontinued or
 whose instructor has changed. The courses that are introduced here have
 been recommended by heads of departments, the Nagoya University Open
-CourseWare Committee, or are personally recommended by individual
+CourseWare Steering Committee, or are personally recommended by individual
 professors, and all courses have received approval from the Nagoya
-University Open CourseWare Committee.</p>
+University Open CourseWare Steering Committee.</p>
 
 <h3>Terms of Use</h3>
 <p>Please pay careful attention to the following points when using the materials posted in appearing in “Nagoya University Open CourseWare (NUOCW)”</p>
@@ -98,7 +99,8 @@ themselves. Please send all comments and questions to (link).
 <table>
 
 <tr>
-<th colspan="3">Nagoya University Open CourseWare Steering Committee
+<th colspan="3">
+Nagoya University Open CourseWare Steering Committee
 </th>
 </tr>
 
