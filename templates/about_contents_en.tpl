@@ -1,15 +1,15 @@
 {* About NUOCW ページのテンプレート *}
-<h1>About the “Nagoya University Open CourseWare?” (NU OCW) Website</h1>
+<h1>About the “Nagoya University Open CourseWare” (NU OCW) Website</h1>
 
 <h3>Welcome to “NUOCW”</h3>
 <p>On the NU OCW (Nagoya University Open CourseWare) website anyone from 
 anywhere in the world can see Nagoya University class information and 
 materials for free.</p>
-<a href="https://dev.ocw.media.nagoya-u.ac.jp/new-2014/index.php?lang=en&mode=g&page_type=welcome">
+<a href="https://dev.ocw.media.nagoya-u.ac.jp/new-2014/index.phplang=en&mode=g&page_type=welcome">
 <p>A message from the Nagoya University Open CourseWare Administration 
 Committee Chairperson, Katsuaki Onogi .</p></a>
 
-<p>“Nagoya Univeristy Oen CourseWare (NU OCW)” class webpages contain the following sections.</p>
+<p>“Nagoya Univeristy Open CourseWare (NU OCW)” class webpages contain the following sections.</p>
 <ul>
   <li>“Class Homepage:” Outline of the class and tips from the instructor 
 on how to make the most of the class.</li>
@@ -45,7 +45,7 @@ professors, and all courses have received approval from the Nagoya
 University Open CourseWare Committee.</p>
 
 <h3>Terms of Use</h3>
-<p>Please pay careful attention to the following points when using the materials posted in appearing in “Nagoya University Open CourseWar (NUOCW)”</p>
+<p>Please pay careful attention to the following points when using the materials posted in appearing in “Nagoya University Open CourseWare (NUOCW)”</p>
 
 <h3>Materials posted</h3>
 
@@ -66,7 +66,7 @@ modified form, please give credit to the original author as follows:</p>
 
 <p>"This document was compiled [which are modifications] based on course
 materials for (course title) (year course given) available on the Nagoya
-University OpenCourseWare (NU OCW) site and were compiled by Nagoya
+University Open CourseWare (NU OCW) site and were compiled by Nagoya
 University instructor (name). "</p>
 
 <p>Copyright &#xA9; (year course given) (name of instructor).</p>
@@ -84,11 +84,11 @@ websites for your website.</p>
   You can download Adobe Reader, Real Player from here:<!-- (Download Bannerダウンロード用バナー)--></p>
 
 <h3>Other</h3>
-<p>"Nagoya University Open CourseWare? (NU OCW)" introduces only 
+<p>"Nagoya University Open CourseWare (NU OCW)" introduces only 
 a small part of the wide range of classes available at Nagoya University, 
 and as such are not "correspondence school" or "e-learning." For this reason, 
 you will not receive course credit or certification from using course 
-materials. Also, "Nagoya University Open CourseWare? (NU OCW)" simply makes 
+materials. Also, "Nagoya University Open CourseWare (NU OCW)" simply makes 
 course information available to the public and are not classes in of 
 themselves. Please send all comments and questions to (link).
 </p>
@@ -98,7 +98,7 @@ themselves. Please send all comments and questions to (link).
 <table>
 
 <tr>
-<th colspan="3">Nagoya University OpenCourseWare Steering Committee
+<th colspan="3">Nagoya University Open CourseWare Steering Committee
 </th>
 </tr>
 
