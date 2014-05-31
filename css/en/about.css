@@ -1,4 +1,4 @@
-@charset "euc-jp";
+v@charset "euc-jp";
 /*
 ------------------------------------------------------------
    About NUOCW
@@ -36,6 +36,11 @@ p, li{
    color: #77BB44;
 }
 
+/* copyright */
+div.copyright{
+   background-color:white;
+}
+
 /* Stuff List  */
 
 table{
@@ -65,7 +70,7 @@ td{
 
 #date{
    text-align: right;
-   margin-top: -20px;
+   margin-top: 0px;
 }
 
 .odd{
