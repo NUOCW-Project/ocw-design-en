@@ -82,15 +82,15 @@ websites for your website.</p>
 <h3>Usage Requirements</h3>
 <p>To see the course materials, you need Adobe Reader. To watch the videos, you need Flash Player.
 You can download Adobe Reader, Flash Player from here:
-
+<span id="adobe">
 <a href="http://www.adobe.co.jp/products/acrobat/readstep2.html" target="_blank">
 <img src="./images/common/get_adobe_reader.gif" alt="Get Adobe Reader">
 </a>
 <a href="http://www.adobe.com/go/getflashplayer_jp" target="_blank">
 <img src="./images/common/get_flash_player.gif" alt="Get Flash Player">
 </a>
+</span>
 </p>
-
 
 <h3>Other</h3>
 <p>"Nagoya University Open CourseWare (NU OCW)" introduces only
