@@ -9,8 +9,8 @@ materials for free.</p>
 <p>
 <a class="about_link" href="https://dev.ocw.media.nagoya-u.ac.jp/new-2014/index.php?lang=en&mode=g&page_type=welcome">
 A message</a> from the Nagoya University Open CourseWare
-Steering Committee Chairperson, Katsuaki Onogi.</p>
-
+Steering Committee Chairperson, Katsuaki Onogi.
+</p>
 
 <p>“Nagoya Univeristy Open CourseWare (NU OCW)” class webpages contain the following sectio:</p>
 <ul>
@@ -80,8 +80,18 @@ University instructor [name]. "</p>
 websites for your website.</p>
 
 <h3>Usage Requirements</h3>
-<p>To see the course materials, you need Adobe Reader. To watch the videos, you need Microsoft's Windows Media Player or RealNetworks' Real Player.
-You can download Adobe Reader, Real Player from here:<!-- (Download Bannerダウンロード用バナー)--></p>
+<p>To see the course materials, you need Adobe Reader. To watch the videos, you need Flash Player.
+You can download Adobe Reader, Flash Player from here:
+</p>
+<p>
+<a href="http://www.adobe.co.jp/products/acrobat/readstep2.html" target="_blank">
+<img src="./images/common/get_adobe_reader.gif" alt="Get Adobe Reader">
+</a>
+<a href="http://www.adobe.com/go/getflashplayer_jp" target="_blank">
+<img src="./images/common/get_flash_player.gif" alt="Get Flash Player">
+</a>
+</p>
+
 
 <h3>Other</h3>
 <p>"Nagoya University Open CourseWare (NU OCW)" introduces only
@@ -90,7 +100,7 @@ and as such are not "correspondence school" or "e-learning." For this reason,
 you will not receive course credit or certification from using course 
 materials. Also, "Nagoya University Open CourseWare (NU OCW)" simply makes 
 course information available to the public and are not classes in of 
-themselves. Please send all comments and questions to (link).
+themselves. Please send all comments and questions to <!-- お問い合わせページのリンク -->(link). 
 </p>
 
 
@@ -103,92 +113,92 @@ Nagoya University Open CourseWare Steering Committee
 </tr>
 
 <tr>
-<td>Chairperson: Katsuaki Onogi,</td> 
-<td> Dean, </td>
+<td>Chairperson: Katsuaki Onogi</td> 
+<td> Dean </td>
 <td>Institute of Liberal Arts and Sciences</td>
 </tr>
 
 <tr>
-<td>Ichiro Yamamoto,</td>
-<td>Vice-President,</td>
+<td>Ichiro Yamamoto</td>
+<td>Vice-President</td>
 <td>Trustee</td>
 </tr>
 
 <tr>
-<td>Kazuhisa Todayama,</td>
-<td>Assistant to President,</td>
+<td>Kazuhisa Todayama</td>
+<td>Assistant to President</td>
 <td>Nagoya University</td>
 </tr>
 
 <tr>
-<td>Takaya Yamazato,</td> 
-<td>Professor,</td>
+<td>Takaya Yamazato</td> 
+<td>Professor</td>
 <td>Institute of Liberal Arts and Sciences</td>
 </tr>
 
 <tr>
-<td>Toshiyuki Tonoike,</td>
-<td>Professor,</td>
+<td>Toshiyuki Tonoike</td>
+<td>Professor</td>
 <td>Center for Information Media Studies</td>
 </tr>
 
 <tr>
 <td>Masaaki Katayama</td>
-<td>Professor,</td>
+<td>Professor</td>
 <td>Eco Topia Science Institute</td>
 </tr>
 
 <tr>
 <td>Toshiaki Nakai</td>
-<td>Associate Professor,</td>
+<td>Associate Professor</td>
 <td>Center for the Studies of Higher Education</td>
 </tr>
 
 <tr>
 <td>Akifumi Goto</td>
-<td>Associate Professor,</td>
+<td>Associate Professor</td>
 <td>Center for Information Media Studies</td>
 </tr>
 
 <tr>
 <td>Takehiro Ohya</td>
-<td>Associate Professor,</td>
+<td>Associate Professor</td>
 <td>Graduate School of Law</td>
 </tr>
 
 <tr>
 <td>Toshiko Ishizaki</td>
-<td>Professor,</td>
+<td>Professor</td>
 <td>Education Center for International Students</td>
 </tr>
 
 <tr>
 <td>Daisuke Deguchi</td>
 <td>Associate Professor</td>
-<td>Strategy Office, Information and Communications Headquarters</td>
+<td>Strategy Office Information and Communications Headquarters</td>
 </tr>
 
 <tr>
 <td>Lai Wailing</td>
-<td>Associate Professor,</td>
+<td>Associate Professor</td>
 <td>Institute of Liberal Arts and Sciences</td>
 </tr>
 
 <tr>
 <td>Sadami Nakahama</td>
-<td>Liberal Education Deputy Director,</td>
+<td>Liberal Education Deputy Director</td>
 <td>Institute of Liberal Arts and Sciences</td>
 </tr>
 
 <tr>
 <td>Shina Kawazu</td>
-<td>The Educational Affairs Planning Section Assistant Director,</td>
+<td>The Educational Affairs Planning Section Assistant Director</td>
 <td>Institute of Liberal Arts and Sciences</td>
 </tr>
 
 <tr>
 <td>Yuka Kojima</td>
-<td>Administrative Assistant,</td>
+<td>Administrative Assistant</td>
 <td>OCW Administrative Office</td>
 </tr>
 </div>
