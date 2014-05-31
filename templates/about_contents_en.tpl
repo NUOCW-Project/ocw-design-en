@@ -6,40 +6,35 @@
 anywhere in the world can see Nagoya University class information and 
 materials for free.</p>
 <a href="https://dev.ocw.media.nagoya-u.ac.jp/new-2014/index.phplang=en&mode=g&page_type=welcome">
-<p>A message from the Nagoya University Open CourseWare
+<p>A message</a> from the Nagoya University Open CourseWare
 Steering Committee Chairperson, Katsuaki Onogi.</p>
 </a>
 
 <p>“Nagoya Univeristy Open CourseWare (NU OCW)” class webpages contain the following sections.</p>
 <ul>
-  <li>“Class Homepage:” Outline of the class and tips from the instructor 
+  <li>“Class Homepage:” Outline of the class and tips from the instruct
 on how to make the most of the class.</li>
-  <li>“Syllabus:” Class schedule, grading requirements, and other detail
-s about the class.</li>
-  <li>“Class Materials:” Actual materials used in class lectures.</li>
-  <li>“One Minute Video:” A short video introducing the class’s contents a
- appeal narrated by the instructor.</li>
+  <li>“Syllabus:” Class schedule, grading requirements, and other detas about the class.</li>
+  <li>“Class Materials:” Actual materials used in class lectures.</l
+  <li>“One Minute Video:” A short video introducing the class’s contentsnd appeal narrated by the instructor.</li>
   <li>etc.</li>
 </ul>
 <h3>The purpose of this site (Nagoya University Open CourseWare)</h3>
-<p>The President of Nagoya University, Michinari Hamaguchi, launched a program
- to convert teaching materials used in selected courses into digital format 
-and make them available to the public at no charge over the Internet.  By thus
- posting course materials on the Web, the University offers the public a rare
- glimpse into its classrooms. The site will, it is hoped, help enrolled 
-students engaged in self-directed study, plus promote communication and 
-interaction not only between instructors and students and among instructors 
-themselves, but between instructors and non-members of the University 
-community as well.  This project is administered by the Nagoya University Open
- CourseWare Steering Committee and has been prepared in partnership with the Japan Open
- CourseWare Consortium (JOCW), founded in May 2005. </p>
+<p>
+Michinari Hamaguchi, the President of Nagoya University, launched a program to convert teaching materials
+used in selected courses into digital format and make these materials available over the Internet to the public
+at no charge. By thus posting course materials on the web, the University offers the public a rare 
+glimpse into its classrooms. It is hoped that this site will help enrolled students engage in self-directed study, 
+plus promote communication and interaction not only between instructors and students and among instructors 
+themselves, but also between instructors and people outside the University community as well.
+</p>
 <h3>About the Public Course Materials</h3>
 
 <p>Every year at Nagoya University, many thousands of courses are held.
 Even within individual departments there are a great many different
 kinds of courses taking place. The courses introduced here are but a
-part of these, and include some courses that have been discontinued or
-whose instructor has changed. The courses that are introduced here have
+part of these, and include some courses that have been discontinued and some whose instructor has changed.
+The courses that are introduced here have
 been recommended by heads of departments, the Nagoya University Open
 CourseWare Steering Committee, or are personally recommended by individual
 professors, and all courses have received approval from the Nagoya
@@ -54,6 +49,7 @@ University Open CourseWare Steering Committee.</p>
 
 <p>When distributing course materials from the Nagoya University Open CourseWare (NU OCW), whether in original or modified form, you must give credit to the original author (see the next item).</p>
 <p>When circulating or recirculating materials from the Nagoya University Open CourseWare (NU OCW) site, you must impose the same conditions of use as above.</p>
+
 <h3>Copyright</h3>
 
 <p>Copyright of all course content posted
@@ -65,12 +61,12 @@ remains in force even if the materials are altered.</p>
 <p>When distributing course content from the site, whether in original or
 modified form, please give credit to the original author as follows:</p>
 
-<p>"This document was compiled [which are modifications] based on course
-materials for (course title) (year course given) available on the Nagoya
+<p>"This document was compiled (some parts were modified) based on course
+materials for [course title] [year course given] available on the Nagoya
 University Open CourseWare (NU OCW) site and were compiled by Nagoya
-University instructor (name). "</p>
+University instructor [name]. "</p>
 
-<p>Copyright &#xA9; (year course given) (name of instructor).</p>
+<p>Copyright &#xA9; [year course given][name of instructor].</p>
 
 <h3>Disclaimer of liability</h3>
 
@@ -190,7 +186,7 @@ As of April 4, 2014
 
 <tr>
 <td>Shina Kawazu</td>
-<td>The educational affairs planning section Assistant Director,</td>
+<td>The Educational Affairs Planning Section Assistant Director,</td>
 <td>Institute of Liberal Arts and Sciences</td>
 </tr>
 
