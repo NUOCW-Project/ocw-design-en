@@ -37,6 +37,13 @@ div.copyright{
    background-color:white;
 }
 
+/* Adobe */
+
+span#adobe{
+   position: relative;
+   top: 8px;
+}
+
 /* Stuff List  */
 
 table{
