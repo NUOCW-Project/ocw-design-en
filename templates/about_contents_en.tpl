@@ -239,9 +239,12 @@ Nagoya University Open CourseWare Steering Committee
 </tr>
 
 <tr>
-<th>Photography</th>
+<th colspan="3">Photography</th>
+</tr>
+<tr>
 <td>Ryo Yoshikawa</td>
 <td>Yoko Egusa</td>
+<td></td>
 </tr>
 </table>
 <p id="date">As of April 4, 2014</p>
