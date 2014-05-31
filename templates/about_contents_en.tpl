@@ -14,7 +14,7 @@ from the Nagoya University Open CourseWare
 Steering Committee Chairperson, Katsuaki Onogi.
 </p>
 
-<p>“Nagoya Univeristy Open CourseWare (NU OCW)” class webpages contain the followg insection</p>
+<p>“Nagoya Univeristy Open CourseWare (NU OCW)” class webpages contain thfollowing section:</p>
 <ul>
   <li>“Class Homepage:” Outline of the class and tips from the instru
 on how to make the most of the class.</li>
