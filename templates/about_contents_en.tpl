@@ -237,11 +237,12 @@ Nagoya University Open CourseWare Steering Committee
 <td>Tomohisa Tamai</td>
 <td></td>
 </tr>
-
+</table>
+<table id="photo_list">
 <tr>
 <th colspan="3">Photography</th>
 </tr>
-<tr>
+<tr class="odd">
 <td>Ryo Yoshikawa</td>
 <td>Yoko Egusa</td>
 <td></td>
