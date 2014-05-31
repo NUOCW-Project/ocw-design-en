@@ -33,13 +33,18 @@ p, li{
 /* link property  */
 
 a{
-   text-color: #77BB44;
+   color: #77BB44;
 }
 
 /* Stuff List  */
 
 table{
    width: 1020px;
+   margin-top: 50px;
+}
+
+#students_list{
+   margin-bottom: 20px;
 }
 
 th{

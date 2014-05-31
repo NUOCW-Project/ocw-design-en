@@ -198,7 +198,7 @@ As of April 4, 2014
 </div>
 </table>
 
-<table>
+<table id="students_list">
 <tr>
 <th colspan="3">Support Staff</th>
 </tr>
