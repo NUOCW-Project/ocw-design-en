@@ -37,6 +37,9 @@
 {if $page_type=='top'}
   <script type="text/javascript" src="./js/slider.js"></script>
 {/if}
+{if $page_type=='about'}
+  <script type="text/javascript" src="./js/about.js"></script>
+{/if}
 {/literal}
 {literal}
 {if $page_type=='index'}
