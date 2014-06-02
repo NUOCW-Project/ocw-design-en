@@ -33,7 +33,7 @@ p, li{
 
 /* copyright */
 
-div.copyright{
+blockquote.copyright{
    background-color:white;
 }
 
@@ -58,7 +58,7 @@ table{
 
 th{
    font-weight: lighter;
-   font-size: 36px;
+   font-size: 20px;
    color: #FFFFFF;
    background-color: #77BB44;
    padding: 15px 5px;
@@ -73,7 +73,6 @@ td{
 
 #date{
    text-align: right;
-   margin-top: 0px;
 }
 
 .odd{
