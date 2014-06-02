@@ -36,7 +36,7 @@
 {/if}{/literal}
 </ul>
 <!-- Google search -->
-<script src="./js/google_Search_{$lang}.js" type="text/javascript></script>
+<script src="./js/googleSearch_{$lang}.js" type="text/javascript></script>
 <gcse:searchbox-only></gcse:searchbox-only>
 </form>
 </div>
