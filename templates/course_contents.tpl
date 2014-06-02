@@ -111,8 +111,6 @@ Class Materials
 </div>
 <!-- box 4 end-->
 {/if}
-</div>
-<!-- syllabus end-->
 
 </div>
 <!-- class_detail end-->
