@@ -6,8 +6,13 @@ div.welcome{
    background-color: white;
    width: 340px;
    float: left;
+   text-align: center;
 }
    
 .welcome_name p{
    margin: 0px;
+}
+
+.welcome_text p{
+   line-height: 1.5;
 }
