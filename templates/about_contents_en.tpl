@@ -101,7 +101,9 @@ and as such are not "correspondence school" or "e-learning." For this reason,
 you will not receive course credit or certification from using course 
 materials. Also, "Nagoya University Open CourseWare (NU OCW)" simply makes 
 course information available to the public and are not classes in of 
-themselves. Please send all comments and questions to <!-- お問い合わせページのリンク -->(link). 
+themselves. Please send all comments and questions to 
+<a href="https://dev.ocw.media.nagoya-u.ac.jp/new-2014/index.php?lang=en&mode=g&page_type=inquiry">
+inquiries page</a>.
 </p>
 
 
