@@ -8,7 +8,6 @@ div.welcome{
    float: left;
 }
    
-
-p{
-   line-height: 1.5;
+.welcome_name p{
+   margin: 0px;
 }
