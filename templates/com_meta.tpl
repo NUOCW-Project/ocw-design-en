@@ -5,26 +5,28 @@
 <meta http-equiv="Content-Script-Type" content="text/javascript">
 <meta name="viewport" content="width=1120px">
 
-<link rel="stylesheet" type="text/css" href="css/en/common.css">
+<link rel="stylesheet" type="text/css" href="css/{$lang}/common.css">
 
 {literal}
 {if $mode=='l'}
-  <link rel="stylesheet" type="text/css" href="css/en/clist.css">
+  <link rel="stylesheet" type="text/css" href="css/{$lang}/clist.css">
 {elseif $mode=='c'}
-  <link rel="stylesheet" type="text/css" href="css/en/course.css">
+  <link rel="stylesheet" type="text/css" href="css/{$lang}/course.css">
 {elseif $page_type=='about'}
-  <link rel="stylesheet" type="text/css" href="css/en/about.css">
+  <link rel="stylesheet" type="text/css" href="css/{$lang}/about.css">
 {elseif $page_type=='inquiry'}
-  <link rel="stylesheet" type="text/css" href="css/en/inquiry.css">
+  <link rel="stylesheet" type="text/css" href="css/{$lang}/inquiry.css">
 {elseif $page_type=='top'}
-  <link rel="stylesheet" type="text/css" href="css/en/top.css">
-  <link rel="stylesheet" type="text/css" href="css/en/slider.css">
+  <link rel="stylesheet" type="text/css" href="css/{$lang}/top.css">
+  <link rel="stylesheet" type="text/css" href="css/{$lang}/slider.css">
 {elseif $page_type=='vsyllabus'}
-  <link rel="stylesheet" type="text/css" href="css/en/vsyllabus.css">
+  <link rel="stylesheet" type="text/css" href="css/{$lang}/vsyllabus.css">
 {elseif $page_type=='welcome'}
-  <link rel="stylesheet" type="text/css" href="css/en/welcome.css">
+  <link rel="stylesheet" type="text/css" href="css/{$lang}/welcome.css">
 {elseif $page_type=='news'}
-  <link rel="stylesheet" type="text/css" href="css/en/news.css">
+  <link rel="stylesheet" type="text/css" href="css/{$lang}/news.css">
+{elseif $page_type=='search'}
+  <link rel="stylesheet" type="text/css" href="css/{$lang}/search.css">
 {/if}
 {/literal}
 
@@ -40,8 +42,6 @@
 {if $page_type=='about'}
   <script type="text/javascript" src="./js/about.js"></script>
 {/if}
-{/literal}
-{literal}
 {if $page_type=='index'}
   <script type="text/javascript" src="./js/course.js"></script>
 {/if}
