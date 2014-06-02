@@ -1,7 +1,5 @@
 <div id="class_info">
-{literal}
 {ldelim}debug{rdelim}
-{/literal}
 <div od="title">
 
 <h1 class="class_title">{$course_info.course_name}</h1>
