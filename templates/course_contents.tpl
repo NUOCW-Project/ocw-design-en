@@ -45,14 +45,14 @@
 {/if}
 
 {if $page_data[0] != ""}
-<div id="push1">
+<div id="overview">
 <h2>
-<img class="close_open1" id="close1" src="images/en/close_text.png" alt="close">
-<img class="close_open1" id="open1" src="images/en/open_text.png" alt="open">
+<img class="close" src="images/en/close_text.png" alt="close">
+<img class="open" src="images/en/open_text.png" alt="open">
 Course Overview
 </h2>
 </div>
-<div id="box1">
+<div id="overview_contents">
   {eval_strip var=$page_data[0]}
 <p class="back">Back to Top</p>
 </div>
@@ -63,8 +63,8 @@ Course Overview
 {*
 <div id="push2">
 <h2>
-<img class="close_open2" id="close2" src="images/en/close_text.png" alt="close">
-<img class="close_open2" id="open2" src="images/en/open_text.png" alt="open">
+<img class="close" src="images/en/close_text.png" alt="close">
+<img class="open" src="images/en/open_text.png" alt="open">
 Study Strategies
 </h2>
 </div>
@@ -82,16 +82,15 @@ Either way, I was very pleased to know that some students were contacting each o
 <!-- box2 end-->
 *}
 
-<div id="syllabus">
 {if $page_data[1] != ""}
-<div id="push3">
+<div id="syllabus">
 <h2>
-<img class="close_open3" id="close3" src="images/en/close_text.png" alt="close">
-<img class="close_open3" id="open3" src="images/en/open_text.png" alt="open">
+<img class="close" src="images/en/close_text.png" alt="close">
+<img class="open" src="images/en/open_text.png" alt="open">
 Syllabus
 </h2>
 </div>
-<div id="box3">
+<div id="syllabus_contents">
   {eval_strip var=$page_data[1]}
 <p class="back">Back to Top</p>
 </div>
@@ -99,14 +98,14 @@ Syllabus
 {/if}
 
 {if $page_data[3] != ""}
-<div id="push4">
+<div id="materials">
 <h2>
-<img class="close_open4" id="close4" src="images/en/close_text.png" alt="close">
-<img class="close_open4" id="open4" src="images/en/open_text.png" alt="open">
+<img class="close" src="images/en/close_text.png" alt="close">
+<img class="open" src="images/en/open_text.png" alt="open">
 Class Materials
 </h2>
 </div>
-<div id="box4">
+<div id="materials_contents">
   {eval_strip var=$page_data[3]}
 <p class="back">Back to Top</p>
 </div>
