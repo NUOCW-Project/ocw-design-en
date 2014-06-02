@@ -80,8 +80,8 @@ body {
 }
 
 #class_detail p{
-	margin-top: 0.5em;
-	margin-bottom: 1.0em;
+	margin-top: 0.25em;
+	padding-bottom: 1.0em;
 }
 
 .back{
