@@ -37,6 +37,11 @@ a:link,a:hover,a:active,a:visited{
    color: #77bb44;
 }
 
+#footer a:link,a:hover,a:active,a:visited{
+   color: #666666;
+}
+
+
 /* 最上部 */
 #icon{
    float: left;
