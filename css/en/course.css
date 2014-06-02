@@ -87,7 +87,7 @@ body {
 .back{
    width: 90px;
    margin-left: 900px;
-   padding-bottom: 0pt;
+   padding-bottom: 0pt !important;
    margin-top: 1.0em;
    text-decoratiton: underline;
    color: #77BB44;
