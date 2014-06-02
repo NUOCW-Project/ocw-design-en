@@ -101,7 +101,7 @@ p#large_icon{
 #keyword{
    width: 300px;
    height: 100%;
-   padding-left: 20px;
+   padding: 0 0 0 20px;
    background: #eaeae9;
    border: none;
    font-size: 20px;
