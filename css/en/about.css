@@ -48,12 +48,12 @@ span#adobe{
 
 table{
    width: 1020px;
-   margin-top: 50px;
    border-collapse: collapse;
+   margin:0px;
 }
 
-#students_list{
-   margin-bottom: 20px;
+#photo_list{
+   margin-bottom: 50px;
 }
 
 th{
