@@ -2,3 +2,13 @@
 
 /* Welcome message by Mr.Onogi  */
 
+div.welcome{
+   background-color: white;
+   width: 340px;
+   float: left;
+}
+   
+
+p{
+   line-height: 1.5;
+}
