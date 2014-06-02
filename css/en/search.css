@@ -15,8 +15,7 @@
   background-color: #EAEAE9 !important;
 }
 
-.gsc-search-button,
-.gsc-search-button-v2 {
+td.gsc-search-button {
   height: 50px !important;
 }
 
