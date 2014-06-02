@@ -1,5 +1,8 @@
 <div id="class_info">
-{php} var_dump($page_data);var_dump($page_format); {/php}
+{php}
+global $page_data, $page_format;
+var_dump($page_data);var_dump($page_format);
+{/php}
 <div od="title">
 
 <h1 class="class_title">{$course_info.course_name}</h1>
