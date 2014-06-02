@@ -44,6 +44,7 @@
 </div>
 {/if}
 
+{if $page_data[0] != ""}
 <div id="push1">
 <h2>
 <img class="close_open1" id="close1" src="images/en/close_text.png" alt="close">
@@ -52,13 +53,10 @@ Course Overview
 </h2>
 </div>
 <div id="box1">
-  {foreach from=$page_format[0].order key=page_type_code item=page_type}
-  {if $pages.$page_type_code != ""}
-  {eval_strip var=$pages.$page_type_code}
-  {/if}
-  {/foreach}
+  {eval_strip var=$page_data[0]}
 <p class="back">Back to Top</p>
 </div>
+{/if}
 
 <!--box1 end-->
 
@@ -85,6 +83,7 @@ Either way, I was very pleased to know that some students were contacting each o
 *}
 
 <div id="syllabus">
+{if $page_data[1] != ""}
 <div id="push3">
 <h2>
 <img class="close_open3" id="close3" src="images/en/close_text.png" alt="close">
@@ -93,15 +92,13 @@ Syllabus
 </h2>
 </div>
 <div id="box3">
-  {foreach from=$page_format[1].order key=page_type_code item=page_type}
-  {if $pages.$page_type_code != ""}
-  {eval_strip var=$pages.$page_type_code}
-  {/if}
-  {/foreach}
+  {eval_strip var=$page_data[1]}
 <p class="back">Back to Top</p>
 </div>
 <!-- box3 end-->
+{/if}
 
+{if $page_data[3] != ""}
 <div id="push4">
 <h2>
 <img class="close_open4" id="close4" src="images/en/close_text.png" alt="close">
@@ -110,14 +107,11 @@ Class Materials
 </h2>
 </div>
 <div id="box4">
-  {foreach from=$page_format[3].order key=page_type_code item=page_type}
-  {if $pages.$page_type_code != ""}
-  {eval_strip var=$pages.$page_type_code}
-  {/if}
-  {/foreach}
+  {eval_strip var=$page_data[3]}
 <p class="back">Back to Top</p>
 </div>
 <!-- box 4 end-->
+{/if}
 </div>
 <!-- syllabus end-->
 
