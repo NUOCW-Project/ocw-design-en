@@ -4,7 +4,7 @@
 </div>
 
 <div id="search">
-<form name="sform" id="sform" method="post" action="#">
+<form name="sform" id="sform" method="get" action="index.php?lang={$lang}&amp;mode=g&amp;page_type=search">
 <ul>
 <!--
 <li>
@@ -28,15 +28,12 @@
 </select>
 </li>
 -->
-<li><input type="text" id="keyword" name="keyword" value="Keyword Search"></li>
+<li><input type="text" id="keyword" name="q" value="Keyword Search"></li>
 <li><input type="image" id="searchbtn" name="searchbtn" src="images/{$lang}/search.png" alt="search"></li>
 {literal}{if $another_tpl_path}
 <li><a href="index.php?lang={$another_lang}&amp;mode={$mode}&amp;id={$id}&amp;page_type={$another_page_type}">
 <img src="images/{$lang}/japan.png" alt="Japanese"></a></li>
 {/if}{/literal}
 </ul>
-<!-- Google search -->
-<script src="./js/googleSearch_{$lang}.js" type="text/javascript"></script>
-<gcse:searchbox-only></gcse:searchbox-only>
 </form>
 </div>
