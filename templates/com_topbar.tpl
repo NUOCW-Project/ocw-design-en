@@ -35,11 +35,8 @@
 <img src="images/{$lang}/japan.png" alt="Japanese"></a></li>
 {/if}{/literal}
 </ul>
-<!-- µìGOOGLE¸¡º÷ 
-	  <div id="cse-search-form" style="width: 100%;">Loading</div>
-	  <script src="http://www.google.com/jsapi" type="text/javascript"></script>
-	  <script src="./js/googleSearch_{$lang}.js" type="text/javascript"></script>
-	  <link rel="stylesheet" type="text/css" href="css/googleSearch.css">
--->
+<!-- Google search -->
+<script src="./js/google_Search_{$lang}.js" type="text/javascript></script>
+<gcse:searchbox-only></gcse:searchbox-only>
 </form>
 </div>

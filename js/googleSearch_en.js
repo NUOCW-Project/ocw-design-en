@@ -1,8 +1,10 @@
-  google.load('search', '1', {language : 'en', style : google.loader.themes.GREENSKY});
-google.setOnLoadCallback(function() {
-    var customSearchControl = new google.search.CustomSearchControl('001246554537135396434:mvaxczobgbe');
-    customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
-    var options = new google.search.DrawOptions();
-    options.setSearchFormRoot('cse-search-form');    
-    customSearchControl.draw('cse', options);
-  }, true);
+  (function() {
+    var cx = '001246554537135396434:q2uukaocoo8';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
