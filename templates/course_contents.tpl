@@ -116,9 +116,7 @@ Class Materials
 <div id="box4">
   {foreach from=$page_format[3].order key=page_type_code item=page_type}
   {if $pages.$page_type_code != ""}
-  <div class="e_text" id="{$page_type}">
-    {eval_strip var=$pages.$page_type_code}
-  </div>
+  {eval_strip var=$pages.$page_type_code}
   {/if}
   {/foreach}
 <p class="back">Back to Top</p>
