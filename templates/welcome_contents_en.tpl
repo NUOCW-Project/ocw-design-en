@@ -3,7 +3,7 @@
 </a>
 <p>Katsuaki Onogi</p>
 <p>Chairperson,</p>
-<p>OpenCourseWare Committee,</p>
+<p>Open CourseWare Steering Committee,</p>
 <p>Nagoya University</p>
 </div>
 

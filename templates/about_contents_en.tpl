@@ -118,7 +118,7 @@ Nagoya University Open CourseWare Steering Committee
 </tr>
 
 <tr>
-<td>Chairperson: Katsuaki Onogi</td> 
+<td>Katsuaki Onogi (Chairperson)</td> 
 <td> Dean </td>
 <td>Institute of Liberal Arts and Sciences</td>
 </tr>
