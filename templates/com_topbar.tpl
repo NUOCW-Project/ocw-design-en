@@ -4,7 +4,10 @@
 </div>
 
 <div id="search">
-<form name="sform" id="sform" method="get" action="index.php?lang={$lang}&amp;mode=g&amp;page_type=search">
+<form name="sform" id="sform" method="get" action="index.php">
+<input type="hidden" name="lang" value="{$lang}">
+<input type="hidden" name="mode" value="g">
+<input type="hidden" name="page_type" value="search">
 <ul>
 <!--
 <li>
@@ -29,7 +32,7 @@
 </li>
 -->
 <li><input type="text" id="keyword" name="q" value="Keyword Search"></li>
-<li><input type="image" id="searchbtn" name="searchbtn" src="images/{$lang}/search.png" alt="search"></li>
+<li><input type="image" id="searchbtn" src="images/{$lang}/search.png" alt="search"></li>
 {literal}{if $another_tpl_path}
 <li><a href="index.php?lang={$another_lang}&amp;mode={$mode}&amp;id={$id}&amp;page_type={$another_page_type}">
 <img src="images/{$lang}/japan.png" alt="Japanese"></a></li>
