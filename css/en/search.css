@@ -1,10 +1,10 @@
 .gsc-input-box {
-  height: 50px !important;
+  height: 48px !important;
   background-color: #EAEAE9 !important;
 }
 
 .gstl_50 {
-  height: 50px !important;
+  height: 48px !important;
 }
 
 .gstl_50 td {
@@ -16,7 +16,7 @@
 }
 
 td.gsc-search-button {
-  height: 46px !important;
+  height: 48px !important;
   background-color: #656766 !important;
 }
 
@@ -24,7 +24,8 @@ td.gsc-search-button {
 .gsc-input,
 .gsc-result-info,
 .gs-title,
-.gs-title b {
+.gs-title b,
+.gs-snippet {
   font-size: 20px !important;
 }
 
