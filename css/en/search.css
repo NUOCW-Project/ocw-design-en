@@ -1,6 +1,16 @@
+.gsc-input-box {
+  height: 50px !important;
+  background-color: #EAEAE9;
+}
+
 .gstl_50 {
   height: 50px !important;
 }
+
+.gstl_50 td {
+  vertical-align: center !important;
+}
+
 
 .gsc-input,
 .gsc-result-info,
