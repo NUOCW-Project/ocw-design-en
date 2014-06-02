@@ -1,10 +1,23 @@
+.gs-title {
+  font-size: 20px !important;
+}
+
 .gsc-cursor-box {
   text-align: center !important;
   font-size: 20px !important;
 }
 
 .gsc-cursor-page {
+  float: left;
   display: block !important;
   width: 50px !important;
   height: 50px !important;
+  padding: 1px !important;
+  vertical-align: middle !important;
 }
+
+.gsc-cursor-current-page {
+  background-color: #77BB44 !important;
+  color: #FFFFFF !important;
+}
+
