@@ -77,7 +77,11 @@ body {
 #class_detail h3{
    font-weight: lighter;
    font-size: 36px;
-   margin-bottom: -15px;
+}
+
+#class_detail p{
+	margin-top: 0.5em;
+	margin-bottom: 1.0em;
 }
 
 .back{
