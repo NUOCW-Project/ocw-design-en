@@ -1,6 +1,6 @@
 <div id="class_info">
 {literal}
-{debug}
+{ldelim}debug{rdelim}
 {/literal}
 <div od="title">
 
