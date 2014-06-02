@@ -61,10 +61,11 @@ on the Nagoya University Open CourseWare (NU OCW) site belongs to Nagoya
 University and the instructors who prepared the material. That copyright
 remains in force even if the materials are altered.</p>
 
-<blockquote class="copyright">
+
 <p>When distributing course content from the site, whether in original or
 modified form, please give credit to the original author as follows:</p>
 
+<blockquote class="copyright">
 <p>"This document was compiled (some parts were modified) based on course
 materials for [course title] [year course given] available on the Nagoya
 University Open CourseWare (NU OCW) site and were compiled by Nagoya
