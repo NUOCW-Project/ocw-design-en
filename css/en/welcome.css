@@ -2,17 +2,23 @@
 
 /* Welcome message by Mr.Onogi  */
 
-div.welcome{
+div#welcome{
    background-color: white;
    width: 340px;
    float: left;
    text-align: center;
+   padding: 20px 0px;
+}
+
+div#welcome_right{
+   position: relative;
+   left:15px;
 }
    
-.welcome_name p{
+#welcome_name p{
    margin: 0px;
 }
 
-.welcome_text p{
+#welcome_text p{
    line-height: 1.5;
 }
