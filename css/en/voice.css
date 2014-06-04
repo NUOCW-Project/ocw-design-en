@@ -4,7 +4,20 @@ h1,h2{
    font-size: 60px;
 }
 
+.start{
+   position: absolute;
+   left: 415px;
+   top: 430px;
+}
+
 .back{
    text-align: right;
-   text-color: #77BB44;
+   color: #77BB44;
+}
+
+hr{
+    border-color: #666666;
+    border-style: solid;
+    border-width: medium 0 0;
+    height: 1px;
 }
