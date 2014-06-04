@@ -1,4 +1,6 @@
 <h2>This Month: What is Sushiro?</h2>
+<img src="images/en/start.png" alt="">
+<img src="images/en/thumbnail.png" alt="">
 
 <p>Name:</p>
 <p class="name">Meredith Self</p>
