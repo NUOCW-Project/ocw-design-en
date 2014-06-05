@@ -1,4 +1,7 @@
+<div id="top_movie">
+
 <h2>This Month: What is Sushiro?</h2>
+
 <div class="movie">
 
 <img id="thumbnail1"  src="images/en/thumbnail.png" alt="">
@@ -18,7 +21,9 @@
 
 </div>
 
+</div> <!-- top_movie end -->
 
+<div id="back_no">
 
 <h1>Back No.</h1>
 <h2>June:</h2>
@@ -40,9 +45,9 @@
 <p class="message"></p>
 </div>
 
-
-
 <p class="back">Back to Top</p>
+
+</div> <!-- back_no end -->
 
 <hr>
 
@@ -70,5 +75,6 @@
 <p>Message:</p>
 <p class="message">I'll be your host interviewing students around Nagoya University!</p>
 
-1
 </div>
+
+</div> <!-- stuff_movie end -->
