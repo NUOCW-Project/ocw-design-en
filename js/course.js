@@ -100,7 +100,11 @@ $(function(){
 //    });
 
     $(window).load(function () {
-    	if (location.hash != '')
-    		jQuery('html,body').animate({ scrollTop: $(location.hash).offset.top }, 'fast');
+    	var hash = location.hash;
+    	if (hash != '') {
+    		//    		jQuery('html,body').animate({ scrollTop: $(location.hash).offset.top }, 'fast');
+    		location.hash = '';
+    		location.hash = hash;
+    	}
     });
 });
