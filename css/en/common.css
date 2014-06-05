@@ -303,7 +303,7 @@ td#link_end{
    border-collapse: collapse;
 }
 
-#class_head{
+#class_head, #class_detail tr:nth-child(1){
    background: #77BB44;
    color: white;
    border: solid 1px #77BB44;
@@ -312,5 +312,9 @@ td#link_end{
 #class_head th{
    padding: 15px 5px;
    text-align: left;
+}
+
+#class_detail th{
+   padding: 15px 5px;
 }
 
