@@ -5,5 +5,5 @@
 	<div align="right">
 		 <a href="./index.php?lang={$lang}&amp;mode=l&amp;page_type={$curr_department_abbr}_info" id="faculty_detail">Read More</a><br><br>
 	</div>
-	<a href="{$dept_info.department_url}" target="_brank" id="department">{$dept_info.department_name}</a>
+	<p><a href="{$dept_info.department_url}" target="_brank" id="department">{$dept_info.department_name}</a></p>
 </div>
