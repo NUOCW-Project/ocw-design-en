@@ -23,6 +23,10 @@
 <h1>Back No.</h1>
 <h2>June:</h2>
 <div id="movie2">
+
+<img id="thumbnail2"  src="images/en/thumbnail.png" alt="">
+<img class="start" src="images/en/start.png" alt="">
+
 </div>
 
 <div class="movie_info">
@@ -45,6 +49,14 @@
 <div id="stuff_movie">
 
 <h2>Who is Michelle?</h2>
+
+
+<div id="movie3">
+
+<img id="thumbnail3"  src="images/en/thumbnail.png" alt="">
+<img class="start" src="images/en/start.png" alt="">
+
+</div>
 
 <div class="movie_info">
 </div>
