@@ -100,5 +100,8 @@ $(function(){
 //    });
 
 	if(location.hash != '')
-		setTimeout(function () { $('html,body').animate({ scrollTop: $(location.hash).offset.top }, 'fast'); }, 5000);
+		setTimeout(function () {
+			var p = $(location.hash).offset.topl
+			$('html,body').animate({ scrollTop: p }, 'fast');
+		}, 1000);
 });
