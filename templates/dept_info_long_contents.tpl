@@ -49,7 +49,6 @@
 	{if $dept_info.vs_url}
 	<!-- ----- FlashPlayer の案内 ----- -->
 	<div class="realplayer">
-	<p><img src="./images/common/dot_gray.gif" height="10" width="325"></p>
 	{if $lang=='ja'}
 	<p>ビデオの閲覧には Adobe 社の Flash Player が必要です。<br>
 	   Flash Player は、以下からダウンロードできます。</p>
