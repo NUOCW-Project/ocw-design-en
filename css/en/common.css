@@ -279,3 +279,37 @@ td#link_end{
    line-height: 25px;
    margin: 20px 0;
 }
+
+/* コースリスト表 */
+#class_list, #class_detail table{
+   margin-top: 5px;
+   margin-bottom: 30px;
+   width:1020px;
+}
+
+#class_list td, #class_detail td{
+  padding: 15px 5px;
+}
+
+#class_list, #class_detail table{
+   background: white;
+}
+
+#class_list:nth-child(even), #class_detail table:nth-child(even){
+   background: #EBF0F0;
+}
+
+#class_list, #class_detail table{
+   border-collapse: collapse;
+}
+
+#class_head{
+   background: #77BB44;
+   color: white;
+   border: solid 1px #77BB44;
+}
+
+#class_head td{
+   padding: 15px 5px;
+}
+
