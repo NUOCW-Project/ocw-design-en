@@ -20,6 +20,14 @@ p{
 
 /* movie property */
 
+#movie1{
+   float: left;
+}
+
+#movie_info p{
+   margin: 0;
+}
+
 .start{
    position: absolute;
    left: 415px;
