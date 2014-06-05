@@ -100,7 +100,6 @@ $(function(){
 //    });
 
     if (location.hash != '') {
-    	alert(location.hash);
     	setTimeout(function () {
     		var p = $(location.hash).offset.top;
     		$('html,body').animate({ scrollTop: p }, 'fast');
