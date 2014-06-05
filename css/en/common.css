@@ -20,7 +20,7 @@ h1,h2,h3{
    margin: 20px 0;
 }
 
-p,li,td{ 
+p,li,td,th{ 
    font-size: 20px;
 }
 
