@@ -101,8 +101,8 @@ $(function(){
 
     if (location.hash != '') {
     	setTimeout(function () {
-    		var p = $(location.hash).offset.top;
-    		$('html,body').animate({ scrollTop: p }, 'fast');
+    		var p = jQuery(location.hash).offset.top;
+    		jQuery('html,body').animate({ scrollTop: p }, 'fast');
     	}, 1000);
     }
 });
