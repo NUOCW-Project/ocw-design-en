@@ -100,5 +100,5 @@ $(function(){
 //    });
 
     if (location.hash != '')
-    	jQuery('html,body').delay(1000).animate({ scrollTop: $(location.hash).offset.top }, 'fast');
+    	jQuery('html,body').delay(2000).animate({ scrollTop: $(location.hash).offset.top }, 'fast');
 });
