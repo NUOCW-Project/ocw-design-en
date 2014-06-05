@@ -1,4 +1,5 @@
 {* タグ情報ソート用テンプレートファイル*}
+{* 現在は英語版のみ対応しています *}
 
 {literal}
 {if count($courselist)}
@@ -8,12 +9,7 @@
 <tbody>
 {* 言語別で見出しの分岐 *}
 {if $lang=='ja'}
-<tr>
-<th width="50">1分間<br>紹介</th>
-<th width="400">コース名(開講年度)</th>
-<th width="135">教員名</th>
-<th width="70">講義資料<br>講義ビデオ</th>
-</tr>
+
 {else}
 {* 英語版 *}
 <tr id="class_head" class="even">
@@ -26,13 +22,40 @@
 {/if}
 
 {* メインのテーブルのループ *}
+{* 英語版を前提として動いてます *}
 {foreach item = each_course  from = $courselist}
   <tr class="{cycle values="contents odd,contents even"}">
-  	 <td class="title">{$each_course.course_name}</td>
+  	 {* 講義名 *}
+  	 <td class="title">
+	 	 <a href="index.php?lang={$lang}&amp;mode=c&amp;id={$each_course.course_id}&amp;page_type=index">{$each_course.course_name}</a>
+	 </td>
+	 {* 教員名 *}
   	 <td class="instructor">{$each_course.instructor_name}</td>
-  	 <td class="lang">J E</td>
-  	 <td class="material">J E</td>
-  	 <td class="video">J E</td>
+	 {* 各言語ページ *}
+  	 <td class="lang">
+	 	 {if $each_course.exist_another_course == true }
+		 	 <a href="index.php?lang=ja&mode=c&id={$each_course.course_id}&page_type=index" >J </a>
+		 {/if}
+		 <a href="index.php?lang=en&mode=c&id={$each_course.course_id}" >E</a>
+	 </td>
+	 {* 講義資料 *}
+  	 <td class="material">
+	 	 {if $each_course.exist_another_lectnotes == true}
+		 	 <a href="index.php?lang=ja&amp;mode=c&amp;id={$each_course.course_id}&amp;page_type=materials" >J </a>
+		 {/if}
+	 	 {if $each_course.exist_lectnotes == true}
+			 <a href="index.php?lang=en&amp;mode=c&amp;id={$each_course.course_id}#materials" >E</a>
+		 {/if}
+	 </td>
+	 {* ビデオ *}
+  	 <td class="video">
+	 	 {if $each_course.exist_another_video != false}
+		 	 <a href="{$each_course.exist_another_video}" >J </a>
+		 {/if}
+	 	 {if $each_course.exist_video == true}
+			 <a href="{$each_course.url_flv}" >E</a>
+		 {/if}
+	 </td>
   </tr>
 {/foreach}
 </tbody>

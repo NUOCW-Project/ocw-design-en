@@ -23,7 +23,7 @@
 	{literal}
 	{/if}
 	{/literal}
-	{include file="sort_course_table_tag_order.tpl"}
+	{include file="sort_course_table_deps_order.tpl"}
 
 {* 特定部局、ページ手動作成 *}
 {literal}
