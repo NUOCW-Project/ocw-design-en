@@ -99,9 +99,11 @@ $(function(){
 //        return false;
 //    });
 
-	if(location.hash != '')
-		setTimeout(function () {
-			var p = $(location.hash).offset.top;
-			$('html,body').animate({ scrollTop: p }, 'fast');
-		}, 1000);
+    if (location.hash != '') {
+    	alert(location.hash);
+    	setTimeout(function () {
+    		var p = $(location.hash).offset.top;
+    		$('html,body').animate({ scrollTop: p }, 'fast');
+    	}, 1000);
+    }
 });
