@@ -99,5 +99,5 @@ $(function(){
 //        return false;
 //    });
 
-    $('html,body').animate({ scrollTop: $(location.hash).offset.top }, 'fast');
+    setTimeout("$('html,body').animate({ scrollTop: $(location.hash).offset.top }, 'fast')", 500);
 });
