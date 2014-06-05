@@ -15,7 +15,7 @@ $(function(){
 
     for (var i = 0; i < box_id_list.length; i++)
     {
-    	if (location.hash == box_id_list[i][0]) {
+    	if (location.hash != box_id_list[i][0]) {
     		$(box_id_list[i][1]).css("display", "none");
     		$('.open', box_id_list[i][0]).css("display", "none");
     	} else {
