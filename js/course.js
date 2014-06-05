@@ -13,16 +13,8 @@ $(function(){
     
     $('hr').css("display", "none");
 
-    for (var i = 0; i < box_id_list.length; i++)
-    {
-    	if (location.hash != box_id_list[i][0]) {
-    		$(box_id_list[i][1]).css("display", "none");
-    		$('.open', box_id_list[i][0]).css("display", "none");
-    	} else {
-    		$('.close', box_id_list[i][0]).css("display", "none");
-    	}
-	}
-
+    $(box_id_list[0][1]).css("display", "none");
+    $('.open', box_id_list[0][0]).css("display", "none");
     $(box_id_list[0][0]).click(function () {
     	var flag = true;
 
@@ -35,6 +27,8 @@ $(function(){
     		$('hr').toggle(); // Last update line
     });
 
+    $(box_id_list[1][1]).css("display", "none");
+    $('.open', box_id_list[1][0]).css("display", "none");
     $(box_id_list[1][0]).click(function () {
     	var flag = true;
 
@@ -47,6 +41,8 @@ $(function(){
     		$('hr').toggle(); // Last update line
     });
 
+    $(box_id_list[2][1]).css("display", "none");
+    $('.open', box_id_list[2][0]).css("display", "none");
     $(box_id_list[2][0]).click(function () {
     	var flag = true;
 
@@ -58,6 +54,12 @@ $(function(){
     	if (flag)
     		$('hr').toggle(); // Last update line
     });
+
+
+    if (hash != '') {
+    	$(location.hash).click();
+ //   	location.hash = hash;
+    }
 
 /*
     $("#box2").css("display", "none"); 
