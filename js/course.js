@@ -90,7 +90,7 @@ $(function(){
         var i = $("#class_info").index(this)
         var p = $("#class_info").eq(i).offset().top;
     $('html,body').animate({ scrollTop: p }, 'fast');
-    });
+    });s
 
 //    $("#category_name").click(function () {
 //        var i = $("#category_name").index(this)
@@ -99,5 +99,5 @@ $(function(){
 //        return false;
 //    });
 
-    setTimeout("$('html,body').animate({ scrollTop: $(location.hash).offset.top }, 'fast')", 500);
+    setTimeout("$('html,body').animate({ scrollTop: $(location.hash).offset.top }, 'fast')", 5000);
 });
