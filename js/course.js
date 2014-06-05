@@ -99,5 +99,6 @@ $(function(){
 //        return false;
 //    });
 
-    setTimeout("$('html,body').animate({ scrollTop: $(location.hash).offset.top }, 'fast')", 5000);
+	if(location.hash != '')
+		setTimeout(function () { $('html,body').animate({ scrollTop: $(location.hash).offset.top }, 'fast'); }, 5000);
 });
