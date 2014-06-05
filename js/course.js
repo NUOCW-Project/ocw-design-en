@@ -101,7 +101,7 @@ $(function(){
 
 	if(location.hash != '')
 		setTimeout(function () {
-			var p = $(location.hash).offset.topl
+			var p = $(location.hash).offset.top;
 			$('html,body').animate({ scrollTop: p }, 'fast');
 		}, 1000);
 });
