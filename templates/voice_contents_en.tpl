@@ -59,7 +59,7 @@
 </div>
 
 <div class="movie_info">
-</div>
+
 <p>Name:</p>
 <p class="name">Michelle Kuhn</p>
 
@@ -70,4 +70,5 @@
 <p>Message:</p>
 <p class="message">I'll be your host interviewing students around Nagoya University!</p>
 
+1
 </div>
