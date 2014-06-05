@@ -1,6 +1,6 @@
 /* list.html */
 
-/* 部局紹介 */
+/* 部局紹介 */
 .faculty_intro {
    padding: 0 25px;
    margin-bottom: 50px;
@@ -8,9 +8,9 @@
    background-color: #EBF0F0;
 }
 
-#dep_introduce h2,
-#dep_introduce h3,
-#dep_introduce h4{
+#faculty_intro h2,
+#faculty_intro h3,
+#faculty_intro h4{
 		display : none;
 }
 
@@ -23,7 +23,7 @@
    color: #77BB44;
 }
 
-/* 各々の表のはば */
+/* 各々の表のはば */
 
 .title{
    width: 33%;
@@ -45,7 +45,7 @@
    width: 15%;
 }
 
-/* ページ数の表 */
+/* ページ数の表 */
 #page_numbers{
    margin-left: auto;
    margin-right: auto;
