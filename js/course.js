@@ -99,10 +99,6 @@ $(function(){
 //        return false;
 //    });
 
-    if (location.hash != '') {
-    	setTimeout(function () {
-    		var p = jQuery(location.hash).offset.top;
-    		jQuery('html,body').animate({ scrollTop: p }, 'fast');
-    	}, 1000);
-    }
+    if (location.hash != '')
+    	jQuery('html,body').delay(1000).animate({ scrollTop: $(location.hash).offset.top }, 'fast');
 });
