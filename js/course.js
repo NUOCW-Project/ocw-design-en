@@ -97,5 +97,5 @@ $(function(){
 //        return false;
 //    });
 
-    $('html,body').animate({ scrollTop: $(location.hash).scrollTop() }, 'fast');
+    $('html,body').animate({ scrollTop: $(location.hash).offset.top }, 'fast');
 });
