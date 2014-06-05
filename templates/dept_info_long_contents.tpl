@@ -28,7 +28,7 @@
 
 <div class="clear"></div>
 {if $lang=="en"}
-
+<div class="faculty_info">
 <div id="dep_info_title">
 <h1>Faculty Introduction</h1>
 </div>
@@ -41,7 +41,7 @@
 <div id="dep_info_text">
 {eval var=$dept_info.description|strip}
 </div>
-
+</div>
 <div class="clear"></div>
 
 
