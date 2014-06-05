@@ -99,6 +99,8 @@ $(function(){
 //        return false;
 //    });
 
-    if (location.hash != '')
-    	jQuery('html,body').delay(2000).animate({ scrollTop: $(location.hash).offset.top }, 'fast');
+    $(window).load(function () {
+    	if (location.hash != '')
+    		jQuery('html,body').animate({ scrollTop: $(location.hash).offset.top }, 'fast');
+    });
 });
