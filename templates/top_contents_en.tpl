@@ -9,7 +9,7 @@
 <div id="rank">
 <h1>This Month's Top Classes</h1>
 <table>
-<tr><td>Ranking</td><td>Class Name</td><td>Instructor Name</td></tr>
+<tr><th>Ranking</th><th>Class Name</th><th>Instructor Name</th></tr>
 {literal}
 {foreach name=ranking from=$ranking item="course"}
 {if $smarty.foreach.ranking.index < 5}
@@ -25,9 +25,9 @@
 <div id="press">
 <h1>Press Releases</h1>
 <table>
-<tr><td></td><td class="backno">
+<tr><th></th><th class="backno">
 <a href="index.html">>Back No.</a>
-</td></tr>
+</th></tr>
 {foreach from=$news_list item="topic"}
 <tr>
 <td class="date">{$topic.stime|date_format:"%Y-%m-%d"}</td>
