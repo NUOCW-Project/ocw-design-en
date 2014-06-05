@@ -8,9 +8,9 @@
    background-color: #EBF0F0;
 }
 
-#faculty_intro h2,
-#faculty_intro h3,
-#faculty_intro h4{
+.faculty_intro h2,
+.faculty_intro h3,
+.faculty_intro h4{
 		display : none;
 }
 
