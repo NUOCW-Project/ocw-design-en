@@ -20,7 +20,7 @@ p{
 
 /* movie property */
 
-#movie1{
+.movie{
    float: left;
 }
 
@@ -31,8 +31,8 @@ p{
 .start{
    position: absolute;
    left: 415px;
-   top: 430px; /* left はともかく、 topを指定するのはマズい。 改善必要*/
 } 
+
 
 .back{
    text-align: right;

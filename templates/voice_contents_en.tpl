@@ -1,5 +1,5 @@
 <h2>This Month: What is Sushiro?</h2>
-<div id="movie1">
+<div class="movie">
 
 <img id="thumbnail1"  src="images/en/thumbnail.png" alt="">
 <img class="start" src="images/en/start.png" alt="">
@@ -22,7 +22,7 @@
 
 <h1>Back No.</h1>
 <h2>June:</h2>
-<div id="movie2">
+<div class="movie">
 
 <img id="thumbnail2"  src="images/en/thumbnail.png" alt="">
 <img class="start" src="images/en/start.png" alt="">
@@ -51,7 +51,7 @@
 <h2>Who is Michelle?</h2>
 
 
-<div id="movie3">
+<div class="movie">
 
 <img id="thumbnail3"  src="images/en/thumbnail.png" alt="">
 <img class="start" src="images/en/start.png" alt="">
