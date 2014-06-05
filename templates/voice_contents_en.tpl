@@ -45,9 +45,9 @@
 <p class="message"></p>
 </div>
 
-<p class="back">Back to Top</p>
-
 </div> <!-- back_no end -->
+
+<p class="back">Back to Top</p>
 
 <hr>
 
