@@ -24,7 +24,8 @@
 {* メインのテーブルのループ *}
 {* 英語版を前提として動いてます *}
 {foreach item = each_course  from = $courselist}
-  <tr class="{cycle values="contents odd,contents even"}">
+{*  <tr class="{cycle values="contents odd,contents even"}">*}
+  <tr>
   	 {* 講義名 *}
   	 <td class="title">
 	 	 <a href="index.php?lang={$lang}&amp;mode=c&amp;id={$each_course.course_id}&amp;page_type=index">{$each_course.course_name}</a>
