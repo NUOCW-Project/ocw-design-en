@@ -34,7 +34,7 @@
 </div>
 <div id="dep_info_dean_text">
 {$dept_info.dean_name|strip}<br>
-    {$dept_info.dean_position|strip}
+   {$dept_info.dean_position|strip}
 </div>
 
 {/if}
