@@ -295,7 +295,7 @@ td#link_end{
    background: white;
 }
 
-#class_list:nth-child(even) tr, #class_detail table:nth-child(even) tr{
+#class_list tr:nth-child(even), #class_detail table tr:nth-child(even){
    background: #EBF0F0;
 }
 
