@@ -23,6 +23,11 @@
    color: #77BB44;
 }
 
+#dep_info_dean_text{
+	 font-size: 20px;
+	 text-align: right;
+}
+
 /* 各々の表のはば */
 
 .title{
