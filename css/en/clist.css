@@ -28,8 +28,12 @@
 	 text-align: right;
 }
 
-#dep_info_text h3,h4{
+#dep_info_text h3{
 	 font-size: 28px;
+}
+
+#dep_info_text h4{
+	 font-size: 24px;
 }
 
 /* 各々の表のはば */
