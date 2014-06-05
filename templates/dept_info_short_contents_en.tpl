@@ -1,5 +1,5 @@
 <div class="faculty_intro">
-	<h3>Faculty Introduction</h3>
+	<h1>Faculty Introduction</h1>
     <p>{$dept_info.dean_name}, {if $curr_department_abbr != 'kyoiku-in'}Dean{else}Director{/if}</p>
     <p>{eval_strip var=$dept_info.description trunc=300 del_ptag=TRUE del_videos=TRUE is_en=TRUE}...</p>
 	<div align="right">
