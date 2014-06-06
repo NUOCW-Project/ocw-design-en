@@ -1,0 +1,29 @@
+@charset "euc-jp";
+
+/*
+------------------------------------------------------------
+   お問い合わせ 
+------------------------------------------------------------
+*/
+h2.inq {
+	font-size: 130%;
+	font-weight: bold;
+	color: #666666;
+	background-image: none;
+	padding: 0;
+	margin: 10px 0;
+}
+
+.inq_err {
+	color:#FF3333 !important;
+}
+
+input.fixed_width {
+  width: 550px;
+}
+
+textarea.fixed_width {
+  width: 550px;
+  height: 250px;
+}
+
