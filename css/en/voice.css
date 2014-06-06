@@ -50,11 +50,13 @@ p{
 .name{
     font-size: 60px;
     height: 70px;
+    padding-bottom: 5px;
 }
 
 .country{
     font-size: 60px;
     height: 70px;
+    padding-bottom: 5px;
 }
 
 .back{
