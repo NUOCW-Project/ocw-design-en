@@ -4,6 +4,7 @@
 
 h1,h2{
    font-size: 60px;
+   font-
 }
 
 p{
@@ -26,6 +27,8 @@ p{
 
 .thumbnail{
    float: left;
+   width: 320px;
+   height: 480px;
 }
 
 .movie_info p{
@@ -33,8 +36,9 @@ p{
 }
 
 .start{
-   position: absolute;
-   left: 415px;
+   position: relative;
+   left: 200px;
+   top: -200px;
 } 
 
 
