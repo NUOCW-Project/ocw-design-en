@@ -20,6 +20,7 @@ p{
 
 .movie{
    height: 480px;
+   padding-top: 50px;
 }
 
 .thumbnail{
@@ -69,5 +70,4 @@ hr{
     border-style: solid;
     border-width: thin;
     height: 0px;
-    margin: 50px 0px;
 }
