@@ -46,6 +46,8 @@
 {/if}
 {if $page_type=='index'}
   <script type="text/javascript" src="./js/course.js"></script>
+{if $page_type=='voice'}
+  <script type="text/javascript" src="./js/voice.js"></script>
 {/if}
 {/literal}
 
