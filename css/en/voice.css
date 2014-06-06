@@ -5,7 +5,7 @@
 h1,h2{
    font-size: 60px;
    font-weight: lighter;
-   padding: 0px;
+   padding: 0px 0px 10px;
    margin: 0px;
    height: 70px;
 }
@@ -15,15 +15,6 @@ p{
    height: 40px;
 }
 
-.name{
-    font-size: 60px;
-    height: 70px;
-}
-
-.country{
-    font-size: 60px;
-    height: 70px;
-}
 
 /* movie property */
 
@@ -37,11 +28,18 @@ p{
    height: 320px;
 }
 
+.start{
+   position: relative;
+   left: 200px;
+   top: -200px;
+} 
+
 .movie_info{
    position: relative;
    left: 15px;
    width: 1020px;
    height: 480px;
+   line-height: 1;
 }
 
 
@@ -49,12 +47,20 @@ p{
    margin: 0;
 }
 
-.start{
-   position: relative;
-   left: 200px;
-   top: -200px;
-} 
+.name{
+    font-size: 60px;
+    height: 70px;
+}
 
+.country{
+    font-size: 60px;
+    height: 70px;
+    margin-top: 5px;
+}
+
+.message{
+    margin-top: 5px;
+}
 
 .back{
    text-align: right;
