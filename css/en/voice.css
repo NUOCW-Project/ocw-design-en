@@ -27,9 +27,16 @@ p{
 
 .thumbnail{
    float: left;
-   width: 320px;
-   height: 480px;
+   width: 480px;
+   height: 320px;
 }
+
+.movie_info{
+   position: relative;
+   left: 15px;
+   width: 1020px;
+}
+
 
 .movie_info p{
    margin: 0;
@@ -52,4 +59,5 @@ hr{
     border-style: solid;
     border-width: thin;
     height: 1px;
+    margin: 50px 0px;
 }
