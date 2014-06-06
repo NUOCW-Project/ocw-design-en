@@ -3,10 +3,11 @@
 /* common property  */
 
 h1,h2{
-   font-size: 36px;
+   font-size: 60px;
    font-weight: lighter;
    padding: 0px 0px 10px;
    margin: 0px;
+   height: 70px;
 }
 
 p{
@@ -47,11 +48,13 @@ p{
 }
 
 .name{
-    font-size: 36px;
+    font-size: 60px;
+    height: 70px;
 }
 
 .country{
     font-size: 36px;
+    height: 70px;
 }
 
 .back{
