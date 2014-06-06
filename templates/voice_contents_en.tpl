@@ -1,8 +1,8 @@
-<div id="top_movie">
+<div class="movie">
 
 <h2>This Month: What is Sushiro?</h2>
 
-<div class="movie">
+<div class="thumbnail">
 
 <img id="thumbnail1"  src="images/en/thumbnail.png" alt="">
 <img class="start" src="images/en/start.png" alt="">
@@ -21,13 +21,13 @@
 
 </div>
 
-</div> <!-- top_movie end -->
+</div> <!-- movie end -->
 
-<div id="back_no">
+<div class="movie">
 
 <h1>Back No.</h1>
 <h2>June:</h2>
-<div class="movie">
+<div class="thumbnail">
 
 <img id="thumbnail2"  src="images/en/thumbnail.png" alt="">
 <img class="start" src="images/en/start.png" alt="">
@@ -45,18 +45,18 @@
 <p class="message"></p>
 </div>
 
-</div> <!-- back_no end -->
+</div> <!-- movie end -->
 
 <p class="back">Back to Top</p>
 
 <hr>
 
-<div id="stuff_movie">
+<div class="movie">
 
 <h2>Who is Michelle?</h2>
 
 
-<div class="movie">
+<div class="thumbnail">
 
 <img id="thumbnail3"  src="images/en/thumbnail.png" alt="">
 <img class="start" src="images/en/start.png" alt="">
@@ -77,4 +77,4 @@
 
 </div>
 
-</div> <!-- stuff_movie end -->
+</div> <!-- movie end -->

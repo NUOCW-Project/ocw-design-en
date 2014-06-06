@@ -21,6 +21,10 @@ p{
 /* movie property */
 
 .movie{
+   height: 480px;
+}
+
+.thumbnail{
    float: left;
 }
 
