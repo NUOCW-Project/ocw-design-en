@@ -11,11 +11,11 @@
 			<th width="24%">³ØÉô¡¦¸¦µæ²Ê</th>
 			<th width="18%">Ã´Åö¹Ö»ÕÌ¾</th>
             {elseif $lang=='en'}
-			<th id="video_img" class="center"></th>
-			<th id="course_name">Course name</th>
-			<th id="play_button"></th>
-			<th id="department">Department</th>
-			<th id="lecturer">Lecturer</th>
+			<th class="video_img"></th>
+			<th class="course_name">Course name</th>
+			<th class="play_button"></th>
+			<th class="department">Department</th>
+			<th class="lecturer">Lecturer</th>
             {/if}
 		</tr>
 		<tr>
