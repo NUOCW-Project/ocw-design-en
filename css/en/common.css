@@ -214,6 +214,11 @@ li#school_name{
    margin-right: 10px;
 }
 
+#browse img{
+   width: 330px;
+   height: 165px;
+}
+
 #category{
    overflow: hidden;
 }
