@@ -54,7 +54,7 @@ Course Overview
 </div>
 <div id="overview_contents">
   {eval_strip var=$page_data[0]}
-<p class="back">Back to Top</p>
+<p class="close_section">Close Section</p>
 </div>
 {/if}
 
