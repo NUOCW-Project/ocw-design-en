@@ -318,6 +318,10 @@ td#link_end{
    padding: 15px 5px;
 }
 
+#class_detail table tr:nth-child(4n + 1) td:nth-child(2), #class_detail table tr:nth-child(4n + 2) td:nth-child(2){
+   background: #EBF0F0;
+}
+
 #class_detail .center{
 	text-align: center;
 }
