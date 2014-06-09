@@ -88,7 +88,7 @@ $(function(){
 // back to top
     $('.close_section').click(function (event) {
     	// event : event object
-    	alert($(this).parent().html());
+    	$(this).parent().click();
 /*        var i = $("#class_info").index(this)
         var p = $("#class_info").eq(i).offset().top;
         $('html,body').animate({ scrollTop: p }, 'fast');
