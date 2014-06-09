@@ -47,10 +47,12 @@
 
 <p class="back">Back to Top</p>
 
+<hr>
+
 </div> {* movie end *}
 
 
-<hr>
+
 
 <div class="movie">
 
