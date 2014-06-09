@@ -214,13 +214,13 @@ li#school_name{
    margin-right: 10px;
 }
 
-#browse img{
-   width: 330px;
-   height: 165px;
-}
-
 #category{
    overflow: hidden;
+}
+
+#category img{
+   width: 330px;
+   height: 165px;
 }
 
 div#category{
@@ -236,6 +236,11 @@ div#category{
 }
 
 #school li{
+   height: 120px;
+}
+
+#school img{
+   width: 240px;
    height: 120px;
 }
 
