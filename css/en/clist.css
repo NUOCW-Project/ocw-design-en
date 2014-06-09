@@ -30,12 +30,11 @@
 
 #dep_info_text h3{
 	 font-size: 28px;
-	 font-weight: bold;
 }
 
 #dep_info_text h4{
 	 font-size: 24px;
-	 font-weight: bold;
+	 font-weight: normal;
 }
 
 /* 各々の表のはば */
