@@ -12,7 +12,6 @@
 .faculty_intro h3,
 .faculty_intro h4{
 		display : none;
-		font-weight: normal;
 }
 
 #faculty_detail {
@@ -31,6 +30,7 @@
 
 #dep_info_text h3{
 	 font-size: 28px;
+		font-weight: normal;
 }
 
 #dep_info_text h4{
