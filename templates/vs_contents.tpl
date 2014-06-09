@@ -2,7 +2,7 @@
 	<table id = "class_list" width="98%">
 		<tbody>
 
-		<tr>
+		<tr id="class_head">
 			<th class="rank"></th>
             {if $lang=='ja'}
 			<th width="8%" class="center"></th>
