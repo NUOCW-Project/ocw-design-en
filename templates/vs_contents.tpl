@@ -1,5 +1,5 @@
 <div class = "course_contents"><!-- コンテンツセル開始 -->
-	<table class = "center_contents" width="98%">
+	<table class = "class_list" width="98%">
 		<tbody>
 
 		<tr>
