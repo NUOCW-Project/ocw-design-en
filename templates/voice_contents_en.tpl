@@ -21,7 +21,7 @@
 
 </div>
 
-</div> <!-- movie end -->
+</div> {* movie end *}
 
 <div class="movie">
 
@@ -47,7 +47,7 @@
 
 <p class="back">Back to Top</p>
 
-</div> <!-- movie end -->
+</div> {* movie end *}
 
 
 <hr>
@@ -78,4 +78,4 @@
 
 </div>
 
-</div> <!-- movie end -->
+</div> {* movie end *}
