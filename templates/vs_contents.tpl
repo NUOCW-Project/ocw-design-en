@@ -3,7 +3,7 @@
 		<tbody>
 
 		<tr>
-			<th width="2%" class="center"></th>
+			<th id="rank"></th>
             {if $lang=='ja'}
 			<th width="8%" class="center"></th>
 			<th width="40%">¥³¡¼¥¹Ì¾</th>
@@ -11,11 +11,11 @@
 			<th width="24%">³ØÉô¡¦¸¦µæ²Ê</th>
 			<th width="18%">Ã´Åö¹Ö»ÕÌ¾</th>
             {elseif $lang=='en'}
-			<th width="30" class="center"></th>
-			<th width="40%">Course name</th>
-			<th width="30" class="center"></th>
-			<th width="25%">Department</th>
-			<th width="20%">Lecturer</th>
+			<th id="video_img" class="center"></th>
+			<th id="course_name">Course name</th>
+			<th id="play_button"></th>
+			<th id="department">Department</th>
+			<th id="lecturer">Lecturer</th>
             {/if}
 		</tr>
 		<tr>
