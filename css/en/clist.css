@@ -83,29 +83,29 @@
 
 
 /* 一分間授業紹介のページの設定 */
-.rank{
+th.rank{
    width: 2%;
 	 text-align: center;
 }
 
-.video_img{
+th.video_img{
    width: 30;
 	 text-align: center;
 }
 
-.course_name{
+th.course_name{
    width: 40%;
 }
 
-.play_button{
+th.play_button{
    width: 30;
 	 text-align: center;
 }
 
-.department{
+th.department{
    width: 25%;
 }
 
-.lecturer{
+th.lecturer{
    width: 20%;
 }
