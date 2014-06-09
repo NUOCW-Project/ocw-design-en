@@ -3,7 +3,7 @@
 		<tbody>
 
 		<tr>
-			<th id="rank"></th>
+			<th class="rank"></th>
             {if $lang=='ja'}
 			<th width="8%" class="center"></th>
 			<th width="40%">コース名</th>
