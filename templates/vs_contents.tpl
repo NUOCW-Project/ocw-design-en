@@ -18,7 +18,7 @@
 			<th class="lecturer">Lecturer</th>
             {/if}
 		</tr>
-{*
+{* É¬Í×¡©
 		<tr>
 			<td class="separate" colspan="6"></td>
 		</tr>
