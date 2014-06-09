@@ -18,9 +18,11 @@
 			<th class="lecturer">Lecturer</th>
             {/if}
 		</tr>
+{*
 		<tr>
 			<td class="separate" colspan="6"></td>
 		</tr>
+*}
 
 		{foreach from=$vsyllabus_list item="vs" name="vs_loop"}
 		{if $smarty.foreach.vs_loop.iteration is odd}
