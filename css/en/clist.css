@@ -23,19 +23,6 @@
    color: #77BB44;
 }
 
-#dep_info_dean_text{
-	 font-size: 24px;
-	 text-align: right;
-}
-
-#dep_info_text h3{
-	 font-size: 32px;
-}
-
-#dep_info_text h4{
-	 font-size: 28px;
-	 font-weight: normal;
-}
 
 /* 各々の表のはば */
 
@@ -76,4 +63,49 @@
 #page1{
    color: white;
    background: #77BB44;
+}
+
+
+/* 部局紹介個別ページの設定 */
+#dep_info_dean_text{
+	 font-size: 24px;
+	 text-align: right;
+}
+
+#dep_info_text h3{
+	 font-size: 32px;
+}
+
+#dep_info_text h4{
+	 font-size: 28px;
+	 font-weight: normal;
+}
+
+
+/* 一分間授業紹介のページの設定 */
+.rank{
+   width: 2%;
+	 text-align: center;
+}
+
+.video_img{
+   width: 30;
+	 text-align: center;
+}
+
+.course_name{
+   width: 40%;
+}
+
+.play_button{
+   width: 30;
+	 text-align: center;
+}
+
+.department{
+   width: 25%;
+}
+
+.lecturer{
+   width: 20%;
 }
