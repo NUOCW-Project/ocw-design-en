@@ -86,11 +86,13 @@ $(function(){
     });	
 	*/
 // back to top
-    $(".back").click(function () {
-        var i = $("#class_info").index(this)
+    $('.close_section').click(function (event) {
+    	// event : event object
+    	event.currentTarget.parent().get(0).click();
+/*        var i = $("#class_info").index(this)
         var p = $("#class_info").eq(i).offset().top;
-    $('html,body').animate({ scrollTop: p }, 'fast');
-    });
+        $('html,body').animate({ scrollTop: p }, 'fast');
+ */   });
 
 //    $("#category_name").click(function () {
 //        var i = $("#category_name").index(this)
