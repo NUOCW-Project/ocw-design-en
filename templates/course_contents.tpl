@@ -77,7 +77,7 @@ Study Strategies
 Either way, I was very pleased to know that some students were contacting each other and playing board games even outside of class.</li>
 <li>Nowadays it is a good idea to have students look up information on the internet. When it comes to information on board games, the best website is BoardGameGeek, the massive board game database created by board game fans worldwide. More than 50,000 games are registered (51,146 games as of April 4th, 2011), each with loads of basic information, preference data, and reviews available. There are also some Japanese websites on board games, created by companies, NPOs, and ordinary people. It may be worthwhile to take a look at them as well.</li>
 </ol>
-<p class="back">Back to Top</p>
+<p class="close_section">Close Section</p>
 </div>
 <!-- box2 end-->
 *}
@@ -92,7 +92,7 @@ Syllabus
 </div>
 <div id="syllabus_contents">
   {eval_strip var=$page_data[1]}
-<p class="back">Back to Top</p>
+<p class="close_section">Close Section</p>
 </div>
 <!-- box3 end-->
 {/if}
@@ -107,7 +107,7 @@ Class Materials
 </div>
 <div id="materials_contents">
   {eval_strip var=$page_data[3]}
-<p class="back">Back to Top</p>
+<p class="close_section">Close Section</p>
 </div>
 <!-- box 4 end-->
 {/if}
