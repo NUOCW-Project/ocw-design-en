@@ -12,6 +12,7 @@
 .faculty_intro h3,
 .faculty_intro h4{
 		display : none;
+		font-weight: normal;
 }
 
 #faculty_detail {
