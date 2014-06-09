@@ -336,3 +336,31 @@ td#link_end{
 	text-align: center;
 }
 
+
+/* 一分間授業紹介のページの設定 */
+th.rank{
+   width: 2%;
+	 text-align: center;
+}
+
+th.video_img{
+   width: 30;
+	 text-align: center;
+}
+
+th.course_name{
+   width: 40%;
+}
+
+th.play_button{
+   width: 30;
+	 text-align: center;
+}
+
+th.department{
+   width: 25%;
+}
+
+th.lecturer{
+   width: 20%;
+}
