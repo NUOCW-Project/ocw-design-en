@@ -1,4 +1,5 @@
 {* カテゴリー, 部局の一覧 *}
+</div> {* id = main_contents *}
 <div id="browse">
 
 <div id="category">
