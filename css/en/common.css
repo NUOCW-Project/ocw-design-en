@@ -49,9 +49,9 @@ a:link,a:hover,a:active,a:visited{
 #icon{
    float: left;
    width: 130px;
-   height: 78px;
+   height: 55px;
    color: #77bb44;
-   margin: 0 0 5px 0;
+   margin: 5px 0;
 }
 
 #header ul{
