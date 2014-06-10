@@ -7,7 +7,7 @@
 <ul>
 {literal}
 {foreach from=$tag_list key="abbr" item="tag"}
-<li><a href="courselist.php?lang={$lang}&amp;mode=l&amp;tag_id={$abbr}"><img src="images/{$lang}/tag/button_{$abbr}.jpg" alt="{$tag.tag_name}"></a></li>
+<li><a href="courselist.php?lang={$lang}&amp;mode=l&amp;tag_id={$abbr}"><img src="images/{$lang}/category/button_{$abbr}.jpg" alt="{$tag.tag_name}"></a></li>
 {/foreach}
 {/literal}
 </ul>
