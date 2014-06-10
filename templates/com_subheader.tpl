@@ -22,10 +22,10 @@
   <img src="./images/{$lang}/header_{$page_type|regex_replace:'/(fw)[0-9]+/':'fwarchive'}0{$img_num}.jpg"
        alt="{/literal}{section name=n loop=$navi_list start=-1 max=1}{$navi_list[n].text}{/section}{literal}">
 {* リスト発行 *}
-{elseif $mode=="l" && page_type!=""}
+{elseif $mode=="l" && $page_type!=""}
   <img src="./images/{$lang}/department/header_{$page_type}.jpg"
        alt="{/literal}{section name=n loop=$navi_list start=-1 max=1}{$navi_list[n].text}{/section}{literal}"> 
-{elseif $mode=="l" && tag_id!=""}
+{elseif $mode=="l" && $tag_id!=""}
   <img src="./images/{$lang}/tag/header_{$tag_id}.jpg"
        alt="{/literal}{section name=n loop=$navi_list start=-1 max=1}{$navi_list[n].text}{/section}{literal}"> 
 {else}
