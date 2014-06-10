@@ -9,7 +9,7 @@
   <img src="./images/{$lang}/department/header_{$page_type}.jpg"
        alt="{$title}"> 
 {elseif $mode=='l' && $search_selected == 'tag'}
-  <img src="./images/{$lang}/tag/header_{$tag_id}.jpg"
+  <img src="./images/{$lang}/category/header_{$tag_id}.jpg"
        alt="{$tag_name}"> 
 {else}
   <img src="./images/{$lang}/header_{$page_type}.jpg"
