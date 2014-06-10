@@ -1,6 +1,6 @@
 <div id="icon">
-<a id="small_icon" href="index.php?lang={$lang}&amp;mode=g&amp;page_type=top">名大の授業</a>
-<a id="large_icon" href="index.php?lang={$lang}&amp;mode=g&amp;page_type=top">NU OCW</a>
+<a href="index.php?lang={$lang}&amp;mode=g&amp;page_type=top">
+<img src="images/logo.png" alt="NU OCW"></a>
 </div>
 
 <div id="search">
