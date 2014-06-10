@@ -7,7 +7,7 @@
 <ul>
 {literal}
 {foreach from=$tag_list key="abbr" item="tag"}
-<li><a href="courselist.php?lang={$lang}&amp;mode=l&amp;tag_id={$abbr}"><img src="images/{$lang}/tags/{$abbr}.png" alt="{$tag.tag_name}"></a></li>
+<li><a href="courselist.php?lang={$lang}&amp;mode=l&amp;tag_id={$abbr}"><img src="images/{$lang}/tag/button_{$abbr}.jpg" alt="{$tag.tag_name}"></a></li>
 {/foreach}
 {/literal}
 </ul>
@@ -19,7 +19,7 @@
 {literal}
 {foreach from=$dept_list key="abbr" item="dept"}
 <li><a href="courselist.php?lang={$lang}&amp;mode=l&amp;page_type={$abbr}">
-<img src="images/{$lang}/department/{$abbr}.png" alt="{$dept.department_name}"></a></li>
+<img src="images/{$lang}/department/button_{$abbr}.jpg" alt="{$dept.department_name}"></a></li>
 {/foreach}
 {/literal}
 </ul>
