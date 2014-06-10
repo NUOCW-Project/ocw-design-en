@@ -139,6 +139,7 @@ a:link,a:hover,a:active,a:visited{
    vertical-align: middle;
    height: 80px;
    color: white;
+   font-weight: normal;
    cursor: pointer;
 }
 
