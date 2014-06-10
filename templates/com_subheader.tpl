@@ -24,7 +24,7 @@
 {* リスト発行 *}
 {elseif $mode=='l' && $search_selected == 'department'}
   <img src="./images/{$lang}/department/header_{$page_type}.jpg"
-       alt="{$dep_and_data.title}"> 
+       alt="{$title}"> 
 {elseif $mode=='l' && $search_selected == 'tag'}
   <img src="./images/{$lang}/tag/header_{$tag_id}.jpg"
        alt="{$tag_name}"> 
