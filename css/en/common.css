@@ -48,9 +48,8 @@ a:link,a:hover,a:active,a:visited{
 /* 最上部 */
 #icon{
    float: left;
-}
-
-#icon p{
+   width: 130px;
+   height: 78px;
    color: #77bb44;
    margin: 0 0 5px 0;
 }
