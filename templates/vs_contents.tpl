@@ -76,14 +76,12 @@
     <p>ビデオの閲覧にはAdobe社のFlashPlayerが必要です。</p>
 	<p>FlashPlayerは、以下からダウンロードできます。</p>
     {elseif $lang=='en'}
-    <p>FlashPlayer is required to run the videos.<br>
-    FlashPlayer can be downloaded from the following URL:</p>
+		To watch the videos, you need Flash Player.<br>
+		You can download Adobe Reader, Flash Player from here:
     {/if}
-	<p>
 	  <a href="http://www.adobe.com/go/getflashplayer_jp" target="_blank"><img src="./images/common/get_flash_player.gif" alt="{if $lang=='ja'}FlashPlayer ダウンロードサイトへ{elseif $lang=='en'}Download FlashPlayer{/if}" border="0" height="31" width="88"></a>
-	</p>
 	</div>
-	
+	<br>	
 
 </div>	<!-- コンテンツセル終了 -->
 
