@@ -105,7 +105,7 @@ body {
    width:1020px;
 }
 
-#class_detail th, #class detail td{
+#class_detail th, #class_detail td{
   padding: 15px 5px;
   border-bottom: 1pt solid #000000;
 }
@@ -113,11 +113,11 @@ body {
 #class_detail table{
    background: white;
 }
-
+/*
 #class_detail table tr:nth-child(even){
    background: #EBF0F0;
 }
-
+*/
 #class_detail table{
    border-collapse: collapse;
 }
@@ -128,13 +128,8 @@ body {
    border: solid 1px #77BB44;
 }
 
-#class_head th{
-   padding: 15px 5px;
-   text-align: left;
-}
-
-#class_detail th{
-   padding: 15px 5px;
+#class_detail table tr:nth-child(4n + 1) td:nth-child(2), #class_detail table tr:nth-child(4n + 2) td:nth-child(2){
+   background: #EBF0F0;
 }
 
 #class_detail .center{
