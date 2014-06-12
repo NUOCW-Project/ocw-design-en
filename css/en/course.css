@@ -45,8 +45,12 @@ body {
    line-height: 20px;
 }
 
+#class_table td{
+   border-width: 0px;
+}
+
 #class_table td:nth-child(1){
-   width: 190px;
+   width: 200px;
 }
 
 .blank {
