@@ -50,7 +50,8 @@ body {
 }
 
 #class_table td:nth-child(1){
-   width: 200px;
+   width: 190px;
+   padding-right: 10px;
    text-align: right;
 }
 
