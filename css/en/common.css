@@ -351,3 +351,8 @@ th.department{
 th.lecturer{
    width: 20%;
 }
+
+/* FlashPlayerの案内の設定 */
+.realplayer.img{
+	 vertical-align: bottom;
+}
