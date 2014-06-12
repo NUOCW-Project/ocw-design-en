@@ -72,16 +72,16 @@
 	</table>
 
 	<div class="realplayer">
-	{if $lang=='ja'}
-    <p>ビデオの閲覧にはAdobe社のFlashPlayerが必要です。</p>
-	<p>FlashPlayerは、以下からダウンロードできます。</p>
-    {elseif $lang=='en'}
 	<p>
+	{if $lang=='ja'}
+    ビデオの閲覧にはAdobe社のFlashPlayerが必要です。
+	FlashPlayerは、以下からダウンロードできます。
+    {elseif $lang=='en'}
 		To watch the videos, you need Flash Player.<br>
 		You can download Adobe Reader, Flash Player from here:
-	</p>
     {/if}
 	  <a href="http://www.adobe.com/go/getflashplayer_jp" target="_blank"><img src="./images/common/get_flash_player.gif" alt="{if $lang=='ja'}FlashPlayer ダウンロードサイトへ{elseif $lang=='en'}Download FlashPlayer{/if}" border="0" height="31" width="88"></a>
+	</p>
 	</div>
 	<br>	
 
