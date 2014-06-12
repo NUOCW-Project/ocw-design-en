@@ -55,8 +55,9 @@
 <title>
 <!-- タイトルに講義情報を入れる -->
 {section name=n loop=$navi_list step=-1}
-{$navi_list[n].text} |
+{$navi_list[n].text} |		
 {/section}
+{php}var_dump($navi_list);{/php}
 {if $lang=='ja'}
 名大の授業 (NU OCW)
 {else}
