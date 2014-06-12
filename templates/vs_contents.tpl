@@ -18,11 +18,6 @@
 			<th class="lecturer">Lecturer</th>
             {/if}
 		</tr>
-{* 必要？
-		<tr>
-			<td class="separate" colspan="6"></td>
-		</tr>
-*}
 
 		{foreach from=$vsyllabus_list item="vs" name="vs_loop"}
 		{if $smarty.foreach.vs_loop.iteration is odd}
@@ -43,13 +38,7 @@
 			</a>
 		{/if}
 		</td>
-		<td class="left"><a href="index.php?lang={$lang}&amp;mode=c&amp;id={$vs.course_id}&amp;page_type=index">{$vs.course_name}
-                {if $lang=='en'}
-			<span class="b">
-				{if $vs.lang=='ja'}(J){else}(E){/if}
-			</span>
-				</a>
-		{/if}
+		<td class="left"><a href="index.php?lang={$lang}&amp;mode=c&amp;id={$vs.course_id}&amp;page_type=index">{$vs.course_name}</a>
 		</td>
 		<td class="center">
 		{if isset($vs.url_flv)}
@@ -81,18 +70,14 @@
 
 		</tbody>
 	</table>
-    {if $lang=='en'}
-    <p><span class="b">(E)</span> = Recorded in English.  <span class="b">(J)</span> = Recorded in Japanese.</p>
-    {/if}
 
 	<div class="realplayer">
-	<p><img src="./images/common/dot_gray.gif" height="10" width="325"></p>
 	{if $lang=='ja'}
     <p>ビデオの閲覧にはAdobe社のFlashPlayerが必要です。</p>
 	<p>FlashPlayerは、以下からダウンロードできます。</p>
     {elseif $lang=='en'}
-    <p>FlashPlayer is required to run the videos.</p>
-    <p>FlashPlayer can be downloaded from the following URL:
+    <p>FlashPlayer is required to run the videos.<br>
+    FlashPlayer can be downloaded from the following URL:</p>
     {/if}
 	<p>
 	  <a href="http://www.adobe.com/go/getflashplayer_jp" target="_blank"><img src="./images/common/get_flash_player.gif" alt="{if $lang=='ja'}FlashPlayer ダウンロードサイトへ{elseif $lang=='en'}Download FlashPlayer{/if}" border="0" height="31" width="88"></a>
