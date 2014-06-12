@@ -85,8 +85,9 @@ body {
 }
 
 .close_section{
-/*   width: 90px;*/
-   margin-left: 900px;
+   width: 100%;
+/*   margin-left: 900px;*/
+   text-align: right;
    padding-bottom: 0pt !important;
    margin-top: 1.0em;
    text-decoratiton: underline;
