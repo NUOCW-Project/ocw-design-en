@@ -86,7 +86,6 @@ body {
 
 .close_section{
    width: 100%;
-/*   margin-left: 900px;*/
    text-align: right;
    padding-bottom: 0pt !important;
    margin-top: 1.0em;
@@ -102,8 +101,8 @@ body {
 
 .last_up {
    text-align: right;
-   width: 700px;
-   margin-left: 340px;
+   width: 100%;
+   padding-left: 340px;
 }
 
 hr{
