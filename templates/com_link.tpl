@@ -2,7 +2,7 @@
 
 <table id="link">
 <tr>
-<td id="link_first">
+<td>
 <a href="http://admissions.g30.nagoya-u.ac.jp/">G30</a>
 </td>
 <td>
@@ -14,7 +14,7 @@
 <td>
 <a href="http://www.ilas.nagoya-u.ac.jp">ILAS</a>
 </td>
-<td id="link_end">
+<td>
 <a href="http://en.nagoya-u.ac.jp">Nagoya University</a>
 </td>
 </tr>
