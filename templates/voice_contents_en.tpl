@@ -4,7 +4,7 @@
 
 <div class="thumbnail">
 
-<img id="thumbnail1"  src="images/en/thumbnail.png" alt="">
+<img id="thumbnail1"  src="images/en/Meredith_thumbnail.png" alt="">
 <img class="start" src="images/en/start.png" alt="">
 
 </div> 
