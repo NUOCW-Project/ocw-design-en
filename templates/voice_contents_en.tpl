@@ -2,12 +2,14 @@
 
 <h2>This Month: What is Sushiro?</h2>
 
+<a href="http://video.media.nagoya-u.ac.jp/pcsweb/FlvPlayer/play.html?contentsCode=3665&categoryCode=140&videoType=0" target="blank">
 <div class="thumbnail">
 
 <img class="thumbnail_img"  src="images/en/Meredith_thumbnail.png" alt="">
 <img class="start" src="images/en/start.png" alt="">
 
 </div> 
+</a>
 
 <div class="movie_info">
 <p>Name:</p>
