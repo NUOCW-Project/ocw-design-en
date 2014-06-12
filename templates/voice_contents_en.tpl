@@ -55,7 +55,7 @@
 
 <hr>
 
-</div> {* movie end *}
+</div>
 
 *}
 
@@ -86,5 +86,5 @@
 
 </div>
 
-</div> {* movie end *}
+</div>
 *}
