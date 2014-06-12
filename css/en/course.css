@@ -105,7 +105,7 @@ body {
    width:1020px;
 }
 
- #class_detail td{
+#class_detail th, #class detail td{
   padding: 15px 5px;
   border-bottom: 1pt solid #000000;
 }
@@ -135,10 +135,6 @@ body {
 
 #class_detail th{
    padding: 15px 5px;
-}
-
-#class_detail table tr:nth-child(4n + 1) td:nth-child(2), #class_detail table tr:nth-child(4n + 2) td:nth-child(2){
-   background: #EBF0F0;
 }
 
 #class_detail .center{
