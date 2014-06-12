@@ -353,6 +353,6 @@ th.lecturer{
 }
 
 /* FlashPlayerの案内の設定 */
-img.realplayer{
+div.realplayer img{
 	 vertical-align: bottom;
 }
