@@ -7,9 +7,8 @@
 
 <a href="http://video.media.nagoya-u.ac.jp/pcsweb/FlvPlayer/play.html?contentsCode=3665&categoryCode=140&videoType=0" target="blank">
 <img class="thumbnail_img"  src="images/en/Meredith_thumbnail.png" alt="">
-</a>
-
 <img class="start" src="images/en/start.png" alt="">
+</a>
 
 </div> 
 
