@@ -121,14 +121,14 @@ body {
    border-collapse: collapse;
 }
 
-#class_head, #class_detail tr:nth-child(1){
+#class_detail table tr:nth-child(1){
    background: #77BB44;
    color: white;
-   border: solid 1px #77BB44;
+   border-top: 3pt solid #000;
+   border-bottom: 1px solid #000;
 }
 
 #class_detail table tr:nth-child(1){
-   border-top: 3pt solid #000;
 }
 
 #class_detail table tr{
