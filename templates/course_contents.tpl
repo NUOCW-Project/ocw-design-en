@@ -116,3 +116,10 @@ Class Materials
 <!-- class_detail end-->
 
 <hr>
+
+<div class="last_up">
+<p class="date">Page last updated {$course_info.release_date|default:'Unpublished'}</p>
+<p class="remark">
+The class contents were most recently updated on the date indicated.
+Please be aware that there may be some changes between the most recent year and the current page.</p>
+</div>
