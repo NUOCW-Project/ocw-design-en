@@ -4,7 +4,7 @@
 
 <div class="thumbnail">
 
-<img id="thumbnail1"  src="images/en/Meredith_thumbnail.png" alt="">
+<img class="thumbnail_img"  src="images/en/Meredith_thumbnail.png" alt="">
 <img class="start" src="images/en/start.png" alt="">
 
 </div> 
@@ -29,7 +29,7 @@
 <h2>June:</h2>
 <div class="thumbnail">
 
-<img id="thumbnail2"  src="images/en/thumbnail.png" alt="">
+<img class="thumbnail_img"  src="images/en/thumbnail.png" alt="">
 <img class="start" src="images/en/start.png" alt="">
 
 </div>
@@ -61,7 +61,7 @@
 
 <div class="thumbnail">
 
-<img id="thumbnail3"  src="images/en/thumbnail.png" alt="">
+<img class="thumbnail_img"  src="images/en/thumbnail.png" alt="">
 <img class="start" src="images/en/start.png" alt="">
 
 </div>
