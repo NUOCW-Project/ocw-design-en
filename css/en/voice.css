@@ -27,6 +27,11 @@ p{
    height: 320px;
 }
 
+#thumbnail1 #thumbnail2 #thumbnail3{
+   width: 480px;
+   height: 320px;
+}
+
 .start{
    position: relative;
    left: 200px;
