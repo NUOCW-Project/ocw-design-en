@@ -296,23 +296,23 @@ td#link_end{
    width:1020px;
 }
 
-#class_list td, #class_detail td{
+#class_list td{
   padding: 15px 5px;
 }
 
-#class_list, #class_detail table{
+#class_list{
    background: white;
 }
 
-#class_list tr:nth-child(even), #class_detail table tr:nth-child(even){
+#class_list tr:nth-child(even){
    background: #EBF0F0;
 }
 
-#class_list, #class_detail table{
+#class_list{
    border-collapse: collapse;
 }
 
-#class_head, #class_detail tr:nth-child(1){
+#class_head{
    background: #77BB44;
    color: white;
    border: solid 1px #77BB44;
@@ -321,18 +321,6 @@ td#link_end{
 #class_head th{
    padding: 15px 5px;
    text-align: left;
-}
-
-#class_detail th{
-   padding: 15px 5px;
-}
-
-#class_detail table tr:nth-child(4n + 1) td:nth-child(2), #class_detail table tr:nth-child(4n + 2) td:nth-child(2){
-   background: #EBF0F0;
-}
-
-#class_detail .center{
-	text-align: center;
 }
 
 
