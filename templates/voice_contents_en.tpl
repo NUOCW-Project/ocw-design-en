@@ -52,9 +52,8 @@
 <p class="message"></p>
 </div>
 
-</div> {*movie end *}
+</div> <!-- movie end --> }
 
-*}
 {*
 <p class="back">Back to Top</p>
 
