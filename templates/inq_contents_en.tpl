@@ -7,7 +7,7 @@
 </div>
 
 <div class="inquiry">
-<p>Telephone: +81-52-789-3904</p>
+<p id="tel">Telephone: +81-52-789-3904</p>
 <p>E-mail:<img id="mail_adress" src=images/en/mail_adress.png alt=""></p>
 <p>We prefer to receive inquiries by e-mail.</p>
 <p>Note: The e-mail address is contained in a graphic file to prevent spamming.</p>

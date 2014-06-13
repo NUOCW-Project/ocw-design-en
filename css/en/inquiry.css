@@ -2,8 +2,14 @@
 
 /* inquiries page  */
 
+.inquiry {
+    padding: 20px;
+}
+
 #mail_adress {
+   height: 30px;
    position: relative;
    top: 10px;
 }
+
 
