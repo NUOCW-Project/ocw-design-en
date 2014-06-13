@@ -5,7 +5,7 @@
 Nagoya University OpenCourseWare
 On the NU OCW website anyone from anywhere in the world can see Nagoya University class information and materials for free
 "></a></li>
- <li><a href="index.php?lang={$lang}&amp;mode=g&amp;page_type=vsyllabus"><img src="images/en/slider/s02_1minutes.jpg" alt="
+ <li><a href="index.php?lang={$lang}&amp;mode=g&amp;page_type=vsyllabus"><img src="images/en/slider/s02_1minvideos.jpg" alt="
 One Minute Class Introduction Videos
 On class webpages, you can watch instructors introduce their classes in One Minute Videos, see the class schedule on the Syllabus, and see actual Teaching Materials used in the class among other information. Students can get a better idea of both the classes and the professors by watching these videos.
 "></a></li>
