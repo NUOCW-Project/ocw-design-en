@@ -2,9 +2,14 @@
 
 /* inquiries page  */
 
-.inquiry {
-    padding: 20px;
+p{
+   line-height: 0.5;
 }
+
+.inquiry {
+   padding: 5px 0px;
+}
+
 
 #mail_adress {
    height: 30px;
