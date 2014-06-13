@@ -2,10 +2,14 @@ $(document).ready(function(){
     $(function () {
 
         $(".back").click(function () {
-            $('body,html').animate({ scrollTop: 0
-            }, 800);
+            var i = $(".back").index(this)
+            var p = $("#browse_jump").eq(i).offset().top;
+        $('html,body').animate({ scrollTop: p }, 'fast');
             return false;
-        });
-    });
+
+});
+   
+});
+
 });
 

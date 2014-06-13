@@ -28,7 +28,7 @@
 </div> {* movie end *}
 
 { * Back No. *}
-{*
+
 <div class="movie">
 
 <h1>Back No.</h1>
@@ -57,9 +57,9 @@
 
 </div>
 
-*}
 
-{*
+
+
 <div class="movie">
 
 <h2>Who is Michelle?</h2>
@@ -87,4 +87,4 @@
 </div>
 
 </div>
-*}
+
