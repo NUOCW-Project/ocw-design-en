@@ -64,9 +64,12 @@ p{
 .back{
    color: #77BB44;
    cursor: pointer;
-   padding: 0;
+   padding: 10px 0px;
    margin: 0;
-   width:150px;
+   width:105px;
+   position: relative;
+   left: 905px;
+   white-space: nowrap;
 }
 
 hr{
@@ -74,4 +77,5 @@ hr{
     border-style: solid;
     border-width: thin;
     height: 0px;
+    margin-bottom: 50px;
 }
