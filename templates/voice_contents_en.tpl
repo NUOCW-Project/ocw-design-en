@@ -51,11 +51,13 @@
 <p class="message"></p>
 </div>
 
+</div> {*movie end *}
+
 <p class="back">Back to Top</p>
 
 <hr>
 
-</div>
+
 
 
 
