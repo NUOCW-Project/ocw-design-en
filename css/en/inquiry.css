@@ -10,11 +10,13 @@ p{
    padding: 5px 0px;
 }
 
+#tel {
+   position: relative;
+   top: 15px;
+}
 
 #mail_adress {
    height: 30px;
    position: relative;
    top: 10px;
 }
-
-
