@@ -25,7 +25,11 @@
 }
 
 #press table{
-   height: 325px;
+   
+}
+
+#press table td:nth-child(2){
+	vertical-align: top;
 }
 
 #info td{
