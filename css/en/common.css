@@ -4,7 +4,7 @@
 
 body{
    background-color: #f4f5f5;
-   font-family: 'Open Sans', 'MS Sans Serif', Geneva, sans-serif;
+   font-family: 'Open Sans', 'MS Sans Serif4', Geneva, sans-serif;
    color: #666666;
    font-weight: lighter;
 }
@@ -112,7 +112,6 @@ a:link,a:hover,a:active,a:visited{
 
 #search input{
    vertical-align: bottom;
-   font-family: 'Open Sans', 'MS Sans Serif', Geneva, sans-serif;
 }
 
 #search img{
@@ -292,35 +291,35 @@ div#category{
 }
 
 /* コースリスト表 */
-#class_list, #class_detail table{
+#class_list, #backnumber, #class_detail table{
    margin-top: 5px;
    margin-bottom: 30px;
    width:1020px;
 }
 
-#class_list td{
+#class_list td, #backnumber td{
   padding: 15px 5px;
 }
 
-#class_list{
+#class_list, #backnumber{
    background: white;
 }
 
-#class_list tr:nth-child(even){
+#class_list tr:nth-child(even), #backnumber tr:nth-child(even){
    background: #EBF0F0;
 }
 
-#class_list{
+#class_list, #backnumber{
    border-collapse: collapse;
 }
 
-#class_head{
+#class_head, #backnumber tr:nth-child(1){
    background: #77BB44;
    color: white;
    border: solid 1px #77BB44;
 }
 
-#class_head th{
+#class_head th, #backnumber th{
    padding: 15px 5px;
    text-align: left;
 }

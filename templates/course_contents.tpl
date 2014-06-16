@@ -1,6 +1,6 @@
 <div id="class_info">
 
-<div od="title">
+<div id="title">
 
 <h1 class="class_title">{$course_info.course_name}</h1>
 </div>
