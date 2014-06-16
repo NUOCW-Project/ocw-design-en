@@ -22,7 +22,7 @@ Steering Committee Chairperson, Katsuaki Onogi.
 <li>&ldquo;Syllabus:&rdquo; Class schedule, grading, requirements, and other details about the class.</li>
 
 <li>&ldquo;Class Materials:&rdquo; Actual materials used in lecture.</li>
-<li>&ldquo;One Minute Video&rdquo; A short video introducing the class&#39;es contents and appeal narrated by the instructor.</li>
+<li>&ldquo;One Minute Video&rdquo; A short video introducing the class&#39;s contents and appeal narrated by the instructor.</li>
 <li>etc.</li>
 </ul>
 
@@ -51,7 +51,7 @@ professors, and all courses have received approval from the Nagoya
 University Open CourseWare Steering Committee.</p>
 
 <h3>Terms of Use</h3>
-<p>Please pay careful attention to the following points when using the materials posted in appearing in “Nagoya University Open CourseWare (NUOCW)”</p>
+<p>Please pay careful attention to the following points when using the materials posted in appearing in &ldquo;Nagoya University Open CourseWare (NUOCW)&rdquo;.</p>
 
 <h3>Materials Posted</h3>
 
