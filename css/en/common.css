@@ -318,7 +318,7 @@ div#category{
    border: solid 1px #77BB44;
 }
 
-#class_head th{
+#class_head th, #backnumber th{
    padding: 15px 5px;
    text-align: left;
 }
