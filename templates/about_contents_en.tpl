@@ -206,7 +206,6 @@ Nagoya University Open CourseWare Steering Committee
 <td>Administrative Assistant</td>
 <td>OCW Administrative Office</td>
 </tr>
-</div>
 </table>
 
 <table id="students_list">
