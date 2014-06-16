@@ -1,6 +1,6 @@
 <div id="twitter">
 <h1>News</h1>
-<a class="twitter-timeline" href="https://twitter.com/nuocw" data-widget-id="468153867931115520">@nuocw からのツイート</a>
+<a class="twitter-timeline" height="2000px" href="https://twitter.com/nuocw" data-widget-id="468153867931115520">@nuocw からのツイート</a>
 {literal}<script type="text/javascript">!function(d,s,id){ldelim}var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){ldelim}js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);{rdelim}{rdelim}(document,"script","twitter-wjs");</script>{/literal}
 </div><!-- twitter end -->
 
