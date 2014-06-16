@@ -26,7 +26,7 @@
 <h1>Press Releases</h1>
 <table>
 <tr><th></th><th class="backno">
-<a href="index.html">&rt; Back No.</a>
+<a href="index.html">&gt; Back No.</a>
 </th></tr>
 {foreach from=$pressrelease_list item="topic"}
 <tr>
