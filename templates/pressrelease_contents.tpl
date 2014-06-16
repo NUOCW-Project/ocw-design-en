@@ -1,7 +1,7 @@
   <h1>{if $lang=='ja'}プレスリリース{else}Press Release{/if}</h1>
   <table id="backnumber" summary="{if $lang=='ja'}プレスリリース{else}Press Release{/if}">
  	<tr>
- 		<th>Date</th>
+ 		<th>Date</th><th></th>
  	</tr>
     {foreach from="$pressrelease_list" item="topic"}
       {assign var=stime_last value=$stime}

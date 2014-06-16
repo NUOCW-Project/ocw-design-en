@@ -318,13 +318,18 @@ div#category{
    border: solid 1px #77BB44;
 }
 
-#class_head th, #backnumber th{
+#class_head th{
    padding: 15px 5px;
    text-align: left;
 }
 
+#backnumber th{
+	padding: 15px 5px;
+}
+
 #backnumber tr td:nth-child(1){
    width: 150px;
+   text-align: center;
 }
 
 
