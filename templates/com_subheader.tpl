@@ -2,7 +2,7 @@
 {literal}
 {* 部局紹介 *}
 {if $page_type neq '' && $page_type|regex_replace:'/^.*_info$/i':'' eq ''}
-   <img src="./images/{$lang}/header_{$page_type|regex_replace:'/_info$/':''}.jpg"
+   <img src="./images/{$lang}/department/header_{$page_type|regex_replace:'/_info$/':''}.jpg"
          alt="{/literal}{section name=n loop=$navi_list start=-2 max=1}{$navi_list[n].text}{/section}{literal}">
 {* コースリスト *}
 {elseif $mode=='l' && $search_selected == 'department'}
