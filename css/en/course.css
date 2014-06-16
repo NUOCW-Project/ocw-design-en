@@ -20,6 +20,10 @@ body {
    line-height: 1.5;
 }
 
+#info p{
+   margin:0px;
+}
+
 .class_title {
    margin-top: 60px;
 }
