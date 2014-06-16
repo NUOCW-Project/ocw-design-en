@@ -315,7 +315,6 @@ div#category{
 #class_head, #backnumber tr:nth-child(1){
    background: #77BB44;
    color: white;
-   border: solid 1px #77BB44;
 }
 
 #class_head th{
