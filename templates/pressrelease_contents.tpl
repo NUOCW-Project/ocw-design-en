@@ -1,5 +1,5 @@
-  <h1>{if $lang=='ja'}プレスリリース{else}Press Release{/if}</h1>
-  <table id="backnumber" summary="{if $lang=='ja'}プレスリリース{else}Press Release{/if}">
+  <h1>{if $lang=='ja'}プレスリリース{else}Press Releases{/if}</h1>
+  <table id="backnumber" summary="{if $lang=='ja'}プレスリリース{else}Press Releases{/if}">
  	<tr>
  		<th>Date</th><th></th>
  	</tr>
