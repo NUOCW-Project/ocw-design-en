@@ -1,7 +1,7 @@
 {* About NUOCW ページのテンプレート *}
-<h1>About the “Nagoya University Open CourseWare” (NU OCW) Website</h1>
+<h1>About the &ldquo;Nagoya University Open CourseWare&rdquo; (NU OCW) Website</h1>
 
-<h3>Welcome to “NUOCW”</h3>
+<h3>Welcome to &ldquo;NUOCW&rdquo;</h3>
 <p>On the NU OCW (Nagoya University Open CourseWare) website anyone from 
 anywhere in the world can see Nagoya University class information and 
 materials for free.</p>
