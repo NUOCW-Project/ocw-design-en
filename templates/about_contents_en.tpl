@@ -14,15 +14,18 @@ from the Nagoya University Open CourseWare
 Steering Committee Chairperson, Katsuaki Onogi.
 </p>
 
-<p>“Nagoya Univeristy Open CourseWare (NU OCW)” class webpages contain following section:</p>
+<p>&ldquo;Nagoya University Open CourseWare (NU OCW)&rdquo; class webpages contain following section:</p>
+
 <ul>
-  <li>“Class Homepage:” Outline of the class and tips from the instru
-on how to make the most of the class.</li>
-  <li>“Syllabus:” Class schedule, grading requirements, and other detas about the class.</li>
-  <li>“Class Materials:” Actual materials used in class lectur.</li>
-  <li>“One Minute Video:” A short video introducing the class’s contents and appeal narrated by the instructor.</li>
-  <li>etc.</li>
+<li>&ldquo;Class Homepage:&rdquo; Outline of the class and tips from the instructor on how to make the most of the class.</li>
+
+<li>&ldquo;Syllabus:&rdquo; Class schedule, grading, requirements, and other details about the class.</li>
+
+<li>&ldquo;Class Materials:&rdquo; Actual materials used in lecture.</li>
+<li>&ldquo;One Minute Video&rdquo; A short video introducing the class&#39;es contents and appeal narrated by the instructor.</li>
+<li>etc.</li>
 </ul>
+
 <h3>The Purpose of This Site (Nagoya University Open CourseWare)</h3>
 <p>
 Michinari Hamaguchi, the President of Nagoya University, launched a program to convert teaching materials
@@ -32,6 +35,9 @@ glimpse into its classrooms. It is hoped that this site will help enrolled stude
 plus promote communication and interaction not only between instructors and students and among instructors 
 themselves, but also between instructors and people outside the University community as well.
 </p>
+<p>This project is administered by the Nagoya University Open CourseWare Steering Committee 
+and has been prepared in partnership with the Japan Open CourseWare Consortium (JOCW), founded in May 2005. </p>
+
 <h3>About the Public Course Materials</h3>
 
 <p>Every year at Nagoya University, many thousands of courses are held.
