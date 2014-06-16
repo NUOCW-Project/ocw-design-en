@@ -211,7 +211,7 @@ li#school_name{
 #browse li{
    float: left;
    margin-bottom: 10px;
-   margin-right: 10px;
+   margin-right: 5px;
 }
 
 #category{
@@ -219,7 +219,7 @@ li#school_name{
 }
 
 #category img{
-   width: 330px;
+   width: 335px;
    height: 165px;
 }
 
@@ -240,7 +240,7 @@ div#category{
 }
 
 #school img{
-   width: 240px;
+   width: 250px;
    height: 120px;
 }
 
