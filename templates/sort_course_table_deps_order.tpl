@@ -12,11 +12,11 @@
 {else}
 {* 英語版 *}
 <tr id="class_head" class="even">
-<td class="title">Class Name</th>
-<td class="instructor">Instructor Name</th>
-<td class="lang">Lang</th>
-<td class="material">Class<br>Materials</th>
-<td class="video">Video</th>
+<th class="title">Class Name</th>
+<th class="instructor">Instructor Name</th>
+<th class="lang">Lang</th>
+<th class="material">Class<br>Materials</th>
+<th class="video">Video</th>
 </tr>
 {/if}
 
