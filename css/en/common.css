@@ -210,7 +210,7 @@ li#school_name{
 
 #browse li{
    float: left;
-   margin-bottom: 5px;
+   margin-bottom: 0px;
    margin-right: 5px;
 }
 
