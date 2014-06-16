@@ -15,19 +15,19 @@
 <option value="00">Category</option>
 <option value="01">Letters</option>
 <option value="02">History</option>
-<option value="03">Arts & Culture</option>
-<option value="04">Politics & Economics</option>
+<option value="03">Arts &amp; Culture</option>
+<option value="04">Politics &amp; Economics</option>
 <option value="05">Law</option>
 <option value="06">Philosophy</option>
-<option value="07">Education, Development & Psychology</option>
+<option value="07">Education, Development &amp; Psychology</option>
 <option value="08">Internatinal Studies</option>
 <option value="09">Informatics</option>
-<option value="10">Engineering & Technology</option>
+<option value="10">Engineering &amp; Technology</option>
 <option value="11">Physics</option>
 <option value="12">Chemistry</option>
 <option value="13">Mathematics</option>
-<option value="14">Life Sciences & Medicine</option>
-<option value="15">Environmental Studies & Earth Studies</option>
+<option value="14">Life Sciences &amp; Medicine</option>
+<option value="15">Environmental Studies &amp; Earth Studies</option>
 </select>
 </li>
 -->
