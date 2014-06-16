@@ -35,4 +35,3 @@
 {/if}
 {/literal}
 
-<!-- </div> "package2" end -->

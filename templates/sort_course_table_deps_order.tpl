@@ -3,7 +3,6 @@
 
 {literal}
 {if count($courselist)}
-<div>
 <h1>{$title}</h1>
 <table id="class_list">
 <tbody>
