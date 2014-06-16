@@ -7,7 +7,7 @@ anywhere in the world can see Nagoya University class information and
 materials for free.</p>
 
 <p>
-<a class="about_link" href="https://dev.ocw.media.nagoya-u.ac.jp/new-2014/index.php?lang=en&mode=g&page_type=welcome">
+<a class="about_link" href="./index.php?lang=en&amp;mode=g&amp;page_type=welcome">
 A message
 </a> 
 from the Nagoya University Open CourseWare
@@ -103,7 +103,7 @@ you will not receive course credit or certification from using course
 materials. Also, "Nagoya University Open CourseWare (NU OCW)" simply makes 
 course information available to the public and are not classes in of 
 themselves. Please send all comments and questions to 
-<a href="https://dev.ocw.media.nagoya-u.ac.jp/new-2014/index.php?lang=en&mode=g&page_type=inquiry">
+<a href="./index.php?lang=en&amp;mode=g&amp;page_type=inquiry">
 inquiries page</a>.
 </p>
 

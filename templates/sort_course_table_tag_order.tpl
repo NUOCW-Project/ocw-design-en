@@ -34,9 +34,9 @@
 	 {* 各言語ページ *}
   	 <td class="lang">
 	 	 {if $each_course.exist_another_course == true }
-		 	 <a href="index.php?lang=ja&mode=c&id={$each_course.course_id}&page_type=index" >J </a>
+		 	 <a href="index.php?lang=ja&amp;mode=c&amp;id={$each_course.course_id}&amp;page_type=index" >J </a>
 		 {/if}
-		 <a href="index.php?lang=en&mode=c&id={$each_course.course_id}" >E</a>
+		 <a href="index.php?lang=en&amp;mode=c&amp;id={$each_course.course_id}" >E</a>
 	 </td>
 	 {* 講義資料 *}
   	 <td class="material">
