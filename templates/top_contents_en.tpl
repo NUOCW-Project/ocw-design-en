@@ -26,9 +26,9 @@
 <h1>Press Releases</h1>
 <table>
 <tr><th></th><th class="backno">
-<a href="index.html">>Back No.</a>
+<a href="index.html">&rt; Back No.</a>
 </th></tr>
-{foreach from=$news_list item="topic"}
+{foreach from=$pressrelease_list item="topic"}
 <tr>
 <td class="date">{$topic.stime|date_format:"%Y-%m-%d"}</td>
 <td class="news">{$topic.contents|strip}
