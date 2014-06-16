@@ -31,7 +31,7 @@
 			<a href="{$vs.url_flv}"
 			 onclick="openWin('{$vs.url_flv}');return false;"
 			 onkeypress="openWin('{$vs.url_flv}');return false;"
-			 title="新しいウィンドウを開きます">
+			 title="{if $lang=='ja'}新しいウィンドウを開きます{else}Open the video in a new window.{/if}">
 		{/if}
 			{vsyllabus_img id=$vs.vsyllabus_id alt=""}
 		{if isset($vs.url_flv)}
@@ -45,7 +45,7 @@
 			<a href="{$vs.url_flv}"
 			 onclick="openWin('{$vs.url_flv}');return false;"
 			 onkeypress="openWin('{$vs.url_flv}');return false;"
-			 title="新しいウィンドウを開きます" target="flame">
+			 title="{if $lang=='ja'}新しいウィンドウを開きます{else}Open the video in a new window.{/if}" target="flame">
 			<img src="./images/common/play_s.png">
 			</a>
 		{/if}<br>
