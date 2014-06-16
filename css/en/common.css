@@ -327,6 +327,10 @@ div#category{
    padding: 15px 5px;
 }
 
+#backnumber tr td:nth-child(1){
+   width: 150px;
+}
+
 
 /* 一分間授業紹介のページの設定 */
 th.rank{
