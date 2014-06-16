@@ -1,4 +1,7 @@
- <table summary="{if $lang=='ja'}プレスリリース{else}Recent Updates{/if}">
+ <table id="backnumber" summary="{if $lang=='ja'}プレスリリース{else}Press Release{/if}">
+ 	<tr>
+ 		<th>Date</th><th>Topics</th>
+ 	</tr>
     {foreach from="$pressrelease_list" item="topic"}
       {assign var=stime_last value=$stime}
       {assign var=stime value=$topic.stime|date_format:"%Y-%m-%d"}
