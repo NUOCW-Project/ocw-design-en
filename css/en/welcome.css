@@ -12,6 +12,7 @@ div#welcome{
 }
 
 div#welcome_right{
+   float: left;
    margin-left: 50px;
    width: 680px;
 }
