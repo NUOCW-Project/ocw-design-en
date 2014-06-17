@@ -40,8 +40,12 @@ a{
 }
 
 
-a:link,a:hover,a:active,a:visited{
+a:link,a:hover,a:active{
    color: #77bb44;
+}
+
+a:visited{
+   color: #008000;
 }
 
 #footer a:link,a:hover,a:active,a:visited{
