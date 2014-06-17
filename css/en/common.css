@@ -45,7 +45,7 @@ a:link,a:hover,a:active{
 }
 
 a:visited{
-   color: #008000;
+   color: #008000 !important;
 }
 
 #footer a:link,a:hover,a:active,a:visited{
