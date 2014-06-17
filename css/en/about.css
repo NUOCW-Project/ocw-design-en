@@ -1,4 +1,4 @@
-v@charset "euc-jp";
+@charset "euc-jp";
 /*
 ------------------------------------------------------------
    About NUOCW
@@ -45,9 +45,9 @@ span#adobe{
    top: 8px;
 }
 
-/* Stuff List  */
+/* Staff List  */
 
-table{
+#main_contents table{
    width: 1020px;
    border-collapse: collapse;
    margin:0px;
@@ -57,7 +57,7 @@ table{
    margin-bottom: 50px;
 }
 
-th{
+#main_contents th{
    font-weight: lighter;
    font-size: 20px;
    color: #FFFFFF;
@@ -65,7 +65,7 @@ th{
    padding: 15px 5px;
 }
 
-td{
+#main_contents td{
    width: 340px;
    padding: 15px 5px;
    line-height: 20px;
@@ -77,10 +77,10 @@ td{
    margin-bottom: 0px;
 }
 
-.odd{
+tr.odd{
    background: white;
 }
 
-.even{
+tr.even{
    background: #EBF0F0;
 }

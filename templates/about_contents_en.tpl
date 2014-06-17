@@ -114,7 +114,7 @@ inquiries page</a>.
 </p>
 
 
-<!-- Stuff List -->
+<!-- Staff List -->
 <p id="date">As of April 4, 2014</p>
 <table id="committee_list">
 <tr>
