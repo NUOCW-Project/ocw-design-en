@@ -41,7 +41,7 @@ a{
 
 
 a:link,a:hover,a:active{
-   color: #77bb44;
+   color: #77bb44 !important;
 }
 
 a:visited{
