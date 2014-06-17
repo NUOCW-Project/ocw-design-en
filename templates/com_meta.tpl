@@ -40,7 +40,7 @@
 {literal}
 {if $page_type=='top'}
   <script type="text/javascript" src="./js/slider.js"></script>
-  <script type="text/javascript" src="./js/twitter_widget.js"></script>
+  {*<script type="text/javascript" src="./js/twitter_widget.js"></script>*}
 {/if}
 {if $page_type=='about'}
   <script type="text/javascript" src="./js/about.js"></script>
