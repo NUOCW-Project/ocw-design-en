@@ -29,8 +29,6 @@
   <link rel="stylesheet" type="text/css" href="css/{$lang}/search.css">
 {elseif $page_type=='voice'}
   <link rel="stylesheet" type="text/css" href="css/{$lang}/voice.css">
-{elseif $page_type=='summercamp'}
-  <link rel="stylesheet" type="text/css" href="css/{$lang}/summercamp.css">
 {/if}
 {/literal}
 
@@ -52,10 +50,6 @@
 {/if}
 {if $page_type=='voice'}
   <script type="text/javascript" src="./js/voice.js"></script>
-{/if}
-{if $page_type=='summercamp'}
-  <script type="text/javascript" src="./js/jquery.youtubeplaylist.js"></script>
-  <script type="text/javascript" src="./js/summercamp.js"></script>
 {/if}
 {/literal}
 
