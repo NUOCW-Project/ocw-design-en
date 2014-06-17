@@ -12,9 +12,8 @@ div#welcome{
 }
 
 div#welcome_right{
-   position: relative;
-   left:15px;
-   width: 1020px;
+   margin-left: 50px;
+   width: 680px;
 }
    
 #welcome_name p{
@@ -23,4 +22,9 @@ div#welcome_right{
 
 #welcome_text p{
    line-height: 1.5;
+}
+
+#welcome_img{
+   position: relative;
+   top: 15px;
 }

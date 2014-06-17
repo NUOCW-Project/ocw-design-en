@@ -1,6 +1,6 @@
 <div id="welcome">
-<a href="http://video.media.nagoya-u.ac.jp/pcsweb/FlvPlayer/play.html?contentsCode=1350&amp;categoryCode=110" target="blank"><img src="http://ocw.nagoya-u.jp/images/ja/goaisatu.png" alt="">
-</a> 
+<a id="welcome_img" href="http://video.media.nagoya-u.ac.jp/pcsweb/FlvPlayer/play.html?contentsCode=1350&amp;categoryCode=110" target="blank"><img src="http://ocw.nagoya-u.jp/images/ja/goaisatu.png" alt="">
+</a>
 <p>Katsuaki Onogi</p>
 <p>Chairperson,</p>
 <p>OpenCourseWare Steering Committee,</p>
