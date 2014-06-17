@@ -29,7 +29,7 @@
 
 { * Back No. *}
 
-{*
+
 <div class="movie">
 
 <h1>Back No.</h1>
@@ -52,18 +52,18 @@
 <p class="message"></p>
 </div>
 
-</div> <!-- movie end --> }
+</div> <!-- movie end --> 
 
-{*
+
 <p class="back">Back to Top</p>
 
 <hr>
-*}
 
 
 
 
-{*
+
+
 <div class="movie">
 
 <h2>Who is Michelle?</h2>
@@ -91,4 +91,4 @@
 </div>
 
 </div>
-*}
+
