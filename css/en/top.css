@@ -24,6 +24,10 @@
    height: 270px;
 }
 
+#info #press {
+   min-height: 385px;
+}
+
 #info #press table{
    min-height: 340px;
 }
