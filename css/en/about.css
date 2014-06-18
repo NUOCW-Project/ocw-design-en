@@ -51,18 +51,32 @@ span#adobe{
    width: 1020px;
    border-collapse: collapse;
    margin:0px;
+   background: white;
 }
 
 #photo_list{
    margin-bottom: 50px;
 }
 
-#main_contents th{
+#main_contents table tr th{
    font-weight: lighter;
    font-size: 20px;
    color: #FFFFFF;
    background-color: #77BB44;
    padding: 15px 5px;
+   border-bottom: 2px solid #666;
+}
+
+#main_contents table tr:nth-child(1){
+   border-top: 2pt solid #666;
+}
+
+#main_contents table tr{
+   border-bottom: 1pt solid #666;
+}
+
+#main_contents table tr:nth-last-child(1){
+   border-bottom: 2pt solid #666;
 }
 
 #main_contents td{
@@ -77,6 +91,7 @@ span#adobe{
    margin-bottom: 0px;
 }
 
+/*
 tr.odd{
    background: white;
 }
@@ -84,3 +99,4 @@ tr.odd{
 tr.even{
    background: #EBF0F0;
 }
+*/

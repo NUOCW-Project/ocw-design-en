@@ -336,7 +336,6 @@ div#category{
    text-align: center;
 }
 
-
 /* 一分間授業紹介のページの設定 */
 th.rank{
    width: 2%;
@@ -354,7 +353,7 @@ th.course_name{
 
 th.play_button{
    width: 30;
-	 text-align: center;
+   text-align: center;
 }
 
 th.department{
