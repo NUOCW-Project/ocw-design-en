@@ -40,16 +40,7 @@
 		</td>
 		<td class="left"><a href="index.php?lang={$lang}&amp;mode=c&amp;id={$vs.course_id}&amp;page_type=index">{$vs.course_name}</a>
 		</td>
-		<td class="center">
-		{if isset($vs.url_flv)}
-			<a href="{$vs.url_flv}"
-			 onclick="openWin('{$vs.url_flv}');return false;"
-			 onkeypress="openWin('{$vs.url_flv}');return false;"
-			 title="{if $lang=='ja'}新しいウィンドウを開きます{else}Open the video in a new window.{/if}" target="flame">
-			<img src="./images/common/play_s.png" alt="Play">
-			</a>
-		{/if}<br>
-		</td>
+
 		<td class="left">
         		<a href="./courselist.php?lang={$lang}&amp;mode=l&amp;page_type={$vs.department_abbr}">{$vs.department_name}
 			</a>
