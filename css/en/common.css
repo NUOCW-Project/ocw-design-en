@@ -163,7 +163,7 @@ li#category_img{
 }
 
 li#category_name{
-   background-color: #286fb8;
+   background-color: #1A6Eb8;
    width: 425px;
    font-size: 24px;
 }
@@ -177,7 +177,7 @@ li#school_img{
 }
 
 li#school_name{
-   background-color: #f19837;
+   background-color: #F39831;
    width: 425px;
    font-size: 24px;
    line-height: 25px;
@@ -223,6 +223,7 @@ li#school_name{
 #category img{
    width: 330px;
    height: 165px;
+   margin-right: 10px;
 }
 
 div#category{
@@ -231,8 +232,6 @@ div#category{
 
 #category li{
    height: 170px;
-   width: 335px;
-   margin-right: 0px;
 }
 
 #school{
@@ -244,9 +243,9 @@ div#category{
 }
 
 #school img{
-   width: 255px;
+   width: 245px;
    height: 120px;
-   margin-right: 0px;
+   margin-right: 10px;
 }
 
 #category h1:before{
