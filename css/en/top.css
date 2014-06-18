@@ -6,6 +6,11 @@
    margin-right: 10px;
 }
 
+#twitter #info h1{
+   margin-top: 0px;
+   margin-bottom: 20px;
+}
+
 #info{
    float: left;
    width: 720px;
