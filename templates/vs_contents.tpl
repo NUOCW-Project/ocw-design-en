@@ -38,6 +38,8 @@
 			</a>
 		{/if}
 		</td>
+		<td class="left"><a href="index.php?lang={$lang}&amp;mode=c&amp;id={$vs.course_id}&amp;page_type=index">{$vs.course_name}</a>
+		</td>
                 <td class="center">
                 {if isset($vs.url_flv)}
                         <a href="{$vs.url_flv}"
@@ -49,9 +51,6 @@
                         </a>
                 {/if}<br>
                 </td>
-		<td class="left"><a href="index.php?lang={$lang}&amp;mode=c&amp;id={$vs.course_id}&amp;page_type=index">{$vs.course_name}</a>
-		</td>
-
 		<td class="left">
         		<a href="./courselist.php?lang={$lang}&amp;mode=l&amp;page_type={$vs.department_abbr}">{$vs.department_name}
 			</a>
