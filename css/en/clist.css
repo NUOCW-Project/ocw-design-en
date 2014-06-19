@@ -118,47 +118,47 @@
 
 */
 
-#class_detail table{
+table{
    margin-top: 5px;
    margin-bottom: 30px;
    width:1020px;
 }
 
-#class_detail th, #class_detail td{
+th, td{
   padding: 15px 5px;
 }
 
-#class_detail table{
+table{
    background: white;
 }
 /*
-#class_detail table tr:nth-child(even){
+table tr:nth-child(even){
    background: #EBF0F0;
 }
 */
-#class_detail table{
+table{
    border-collapse: collapse;
 }
 
-#class_detail table tr th{
+table tr th{
    background: #77BB44;
    color: white;
    border-bottom: 2px solid #666;
 }
 
-#class_detail table tr:nth-child(1){
+table tr:nth-child(1){
    border-top: 2pt solid #666;
 }
 
-#class_detail table tr{
+table tr{
    border-bottom: 1pt solid #666;
 }
 
-#class_detail table tr:nth-last-child(1){
+table tr:nth-last-child(1){
    border-bottom: 2pt solid #666;
 }
 
-#class_detail .center{
+.center{
 	text-align: center;
 }
 
