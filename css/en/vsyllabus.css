@@ -34,4 +34,42 @@ th.lecturer{
    width: 20%;
 }
 
+table{
+   margin-top: 5px;
+   margin-bottom: 30px;
+   width:1020px;
+}
 
+th,  td{
+  padding: 15px 5px;
+}
+
+table{
+   background: white;
+}
+/*
+ table tr:nth-child(even){
+   background: #EBF0F0;
+}
+*/
+table{
+   border-collapse: collapse;
+}
+
+table tr th{
+   background: #77BB44;
+   color: white;
+   border-bottom: 2px solid #666;
+}
+
+table tr:nth-child(1){
+   border-top: 2pt solid #666;
+}
+
+table tr{
+   border-bottom: 1pt solid #666;
+}
+
+table tr:nth-last-child(1){
+   border-bottom: 2pt solid #666;
+}
