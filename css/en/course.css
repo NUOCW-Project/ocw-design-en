@@ -111,7 +111,8 @@ body {
    background-color: #77bb44;
    border: medium none;
    color: white;
-   width: 260px;   
+   width: 260px;
+   padding-bottom: 0px;
 }
 
 #video a:visited{
