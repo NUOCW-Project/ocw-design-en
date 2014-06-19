@@ -111,4 +111,5 @@ $(function(){
     		location.hash = hash;
     	}
     });
+    $(box_id_list[0][0]).click();
 });
