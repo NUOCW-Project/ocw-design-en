@@ -41,17 +41,12 @@ a{
 
 
 a:link,a:hover,a:active{
-   color: #77bb44 !important;
+   color: #77bb44;
 }
 
 a:visited{
-   color: #008000 !important;
+   color: #008000;
 }
-
-#footer a:link,a:hover,a:active,a:visited{
-   color: #666666;
-}
-
 
 /* 最上部 */
 #icon{
