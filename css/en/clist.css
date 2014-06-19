@@ -1,4 +1,4 @@
-/* list.html */
+
 
 /* 部局紹介 */
 .faculty_intro {
@@ -82,3 +82,44 @@
 }
 
 
+/* コースリスト表 */
+#class_list, #backnumber, #class_detail table{
+   margin-top: 5px;
+   margin-bottom: 30px;
+   width:1020px;
+}
+
+#class_list td, #backnumber td{
+  padding: 15px 5px;
+}
+
+#class_list, #backnumber{
+   background: white;
+}
+
+#class_list tr:nth-child(even), #backnumber tr:nth-child(even){
+   background: #EBF0F0;
+}
+
+#class_list, #backnumber{
+   border-collapse: collapse;
+}
+
+#class_head, #backnumber tr:nth-child(1){
+   background: #77BB44;
+   color: white;
+}
+
+#class_head th{
+   padding: 15px 5px;
+   text-align: left;
+}
+
+#backnumber th{
+	padding: 15px 5px;
+}
+
+#backnumber tr td:nth-child(1){
+   width: 150px;
+   text-align: center;
+}
