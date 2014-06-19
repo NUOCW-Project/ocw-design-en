@@ -35,12 +35,10 @@
 {if $course_info.vsyllabus_rtmp != ''}
 <div id="video">
 <a href="{$course_info.vsyllabus_rtmp}" target="_blank">
-<li>
+<h1>
 <img src="images/en/camera.png" alt="camera">
-</li>
-<li>
 1 min Video
-</li>
+</h1>
 </a>
 </div> {* id = video  *}
 {/if}
