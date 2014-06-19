@@ -29,10 +29,8 @@
 
 { * Back No. *}
 
-
-<div class="movie">
-
 <h1>Back No.</h1>
+<div class="movie">
 <h2>June:</h2>
 <div class="thumbnail">
 
