@@ -115,7 +115,7 @@ body {
 }
 
 #video a:visited{
-   color: white;
+   color: white !impotant;
 } 
 
 .close_section{
