@@ -69,6 +69,7 @@ body {
 
 #class_detail{
    clear: both;
+   padding-top: 10px;
 }
 
 
@@ -108,15 +109,14 @@ body {
 }
 
 #video h1{
-   background-color: #77bb44;
    border: medium none;
-   color: white;
+   color: #77BB44;
    width: 260px;
    padding-bottom: 0px;
 }
 
 #video a:visited{
-   color: white;
+   color: #77BB44;
 } 
 
 .close_section{
