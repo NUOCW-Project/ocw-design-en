@@ -118,17 +118,17 @@
 
 */
 
-table{
+#main_contents table{
    margin-top: 5px;
    margin-bottom: 30px;
    width:1020px;
 }
 
-th, td{
+#main_contents th, td{
   padding: 15px 5px;
 }
 
-table{
+#main_contents table{
    background: white;
 }
 /*
@@ -136,29 +136,29 @@ table tr:nth-child(even){
    background: #EBF0F0;
 }
 */
-table{
+#main_contents table{
    border-collapse: collapse;
 }
 
-table tr th{
+#main_contents table tr th{
    background: #77BB44;
    color: white;
    border-bottom: 2px solid #666;
 }
 
-table tr:nth-child(1){
+#main_contents table tr:nth-child(1){
    border-top: 2pt solid #666;
 }
 
-table tr{
+#main_contents table tr{
    border-bottom: 1pt solid #666;
 }
 
-table tr:nth-last-child(1){
+#main_contents table tr:nth-last-child(1){
    border-bottom: 2pt solid #666;
 }
 
-.center{
+#main_contents .center{
 	text-align: center;
 }
 
