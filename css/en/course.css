@@ -103,6 +103,10 @@ body {
 	padding-bottom: 1.0em;
 }
 
+#video div{
+   width: 260px;
+}
+
 #video img{
    width: 45px;
    height: 25px;
