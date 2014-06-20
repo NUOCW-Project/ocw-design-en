@@ -36,7 +36,7 @@
 <div id="video">
 <a href="{$course_info.vsyllabus_rtmp}" target="_blank">
 <h1>
-<img src="images/en/camera.png" alt="camera">
+<img src="images/en/camera1.png" alt="camera">
 1 min Video
 </h1>
 </a>
