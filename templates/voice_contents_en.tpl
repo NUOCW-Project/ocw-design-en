@@ -25,10 +25,10 @@
 
 </div>
 
-</div> {* movie end *}
+</div> <!-- movie end -->
 
-{ * Back No. *}
-
+<!--  Back No. -->
+{*
 <h1>Back No.</h1>
 <div class="movie">
 <h2>June:</h2>
@@ -56,12 +56,12 @@
 <p class="back">Back to Top</p>
 
 <hr>
+*}
 
 
 
 
-
-
+{*
 <div class="movie">
 
 <h2>Who is Michelle?</h2>
@@ -90,3 +90,4 @@
 
 </div>
 
+*}
