@@ -11,7 +11,7 @@ materials for free.</p>
 A message
 </a> 
 from the Nagoya University OpenCourseWare
-Steering Committee Chairperson, Katsuaki Onogi.
+Steering Committee Chairperson, Katsuaki ONOGI.
 </p>
 
 <p>&ldquo;Nagoya University OpenCourseWare (NU OCW)&rdquo; class webpages contain following section:</p>
@@ -23,12 +23,12 @@ Steering Committee Chairperson, Katsuaki Onogi.
 
 <li>&ldquo;Class Materials:&rdquo; Actual materials used in lecture.</li>
 <li>&ldquo;One Minute Video&rdquo; A short video introducing the class&#39;s contents and appeal narrated by the instructor.</li>
-<li>etc.</li>
+<li>And more!</li>
 </ul>
 
 <h3>The Purpose of This Site (Nagoya University OpenCourseWare)</h3>
 <p>
-Michinari Hamaguchi, the President of Nagoya University, launched a program to convert teaching materials
+Michinari HAMAGUCHI, the President of Nagoya University, launched a program to convert teaching materials
 used in selected courses into digital format and make these materials available over the Internet to the public
 at no charge. By thus posting course materials on the web, the University offers the public a rare 
 glimpse into its classrooms. It is hoped that this site will help enrolled students engage in self-directed study, 
@@ -55,16 +55,16 @@ University OpenCourseWare Steering Committee.</p>
 
 <h3>Materials Posted</h3>
 
-<p>The materials on the site may be duplicated, distributed, translated, edited, or otherwise used as you wish, as long as it is for non-profit, educational purposes.</p>
+<p>The materials on this site may be duplicated, distributed, translated, edited, or otherwise used as you wish, as long as it is for non-profit, educational purposes.</p>
 
-<p>When distributing course materials from the Nagoya University OpenCourseWare (NU OCW), whether in original or modified form, you must give credit to the original author (see the next item).</p>
+<p>When distributing course materials from the Nagoya University OpenCourseWare (NU OCW), whether in original or modified form, you must give credit to the original author (see Copyright section).</p>
 <p>When circulating or recirculating materials from the Nagoya University OpenCourseWare (NU OCW) site, you must impose the same conditions of use as above.</p>
 
 <h3>Copyright</h3>
 
 <p>Copyright of all course content posted
 on the Nagoya University OpenCourseWare (NU OCW) site belongs to Nagoya
-University and the instructors who prepared the material. That copyright
+University and the instructors who prepared the material. This copyright
 remains in force even if the materials are altered.</p>
 
 
@@ -104,8 +104,8 @@ You can download Adobe Reader, Flash Player from here:
 <h3>Other</h3>
 <p>&ldquo;Nagoya University OpenCourseWare (NU OCW)&rdquo; introduces only
 a small part of the wide range of classes available at Nagoya University,
-and as such are not &ldquo;correspondence school&rdquo; or &ldquo;e-learning.&rdquo; For this reason, 
-you will not receive course credit or certification from using course 
+and as such are not &ldquo;correspondence school&rdquo; or &ldquo;e-learning&rdquo; classes. For this reason, 
+you will not receive course credit or certification from using these
 materials. Also, &ldquo;Nagoya University OpenCourseWare (NU OCW)&rdquo; simply makes 
 course information available to the public and are not classes in of 
 themselves. Please send all comments and questions to 
