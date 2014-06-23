@@ -75,3 +75,12 @@ table{
 #main_contents table tr:nth-last-child(1){
    border-bottom: 2pt solid #666;
 }
+
+#class_list img{
+   width: 192px;
+   height: 108px;
+}
+
+.left {
+   text-align: center;
+}
