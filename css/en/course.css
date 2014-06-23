@@ -121,17 +121,17 @@ body {
 	height: 80px;
     padding-right: 5px;
 	text-align: center;
+	vertical-align: middle;
 }
 
-#video a.video_text{
+#video div.video_text{
 	display: inline-block;
 	width: 425px;
-	height: 80px;
 	text-align: center;
+	vertical-align: middle;
 }
 
-#video h1 span{
-	width: 425px;
+#video div.video_text a{
 	vertical-align: middle;
 }
 
