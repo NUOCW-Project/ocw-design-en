@@ -116,9 +116,14 @@ div#video {
 #video h1{
    border: medium none;
    color: #77BB44;
-   width: 425px;
    height: 80px;
    padding-bottom: 0px;
+   display: table-cell;
+}
+
+#video h1 span{
+	width: 425px;
+	vertical-align: middle;
 }
 
 #video a:visited{
