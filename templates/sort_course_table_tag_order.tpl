@@ -14,7 +14,7 @@
 <tr id="class_head" class="even">
 <th class="title">Class Name</th>
 <th class="instructor">Instructor Name</th>
-<th class="lang">Lang</th>
+<th class="lang">Class Homepage</th>
 <th class="material">Class<br>Materials</th>
 <th class="video">Video</th>
 </tr>
