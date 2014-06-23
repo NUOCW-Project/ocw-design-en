@@ -123,6 +123,7 @@ div#video {
 #video a.video_button{
 	display: inline-block;
 	width: 425px;
+	height: 80px;
 	text-align: center;
 }
 
