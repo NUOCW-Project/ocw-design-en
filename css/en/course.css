@@ -110,9 +110,9 @@ body {
 
 #video h1{
    border: medium none;
-   color: #77BB44;
    height: 80px;
    padding-bottom: 0px;
+   font-size: 24px;
 }
 
 #video a.video_button{
