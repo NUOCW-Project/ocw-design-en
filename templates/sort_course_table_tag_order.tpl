@@ -34,26 +34,26 @@
 	 {* 各言語ページ *}
   	 <td class="lang">
 	 	 {if $each_course.exist_another_course == true }
-		 	 <a href="index.php?lang=ja&amp;mode=c&amp;id={$each_course.course_id}&amp;page_type=index" >J </a>
+		 	 <a href="index.php?lang=ja&amp;mode=c&amp;id={$each_course.course_id}&amp;page_type=index" ><img src="images/en/nihongo.png" alt="Japanese Page"> </a>
 		 {/if}
-		 <a href="index.php?lang=en&amp;mode=c&amp;id={$each_course.course_id}" >E</a>
+		 <a href="index.php?lang=en&amp;mode=c&amp;id={$each_course.course_id}" >ENG</a>
 	 </td>
 	 {* 講義資料 *}
   	 <td class="material">
 	 	 {if $each_course.exist_another_lectnotes == true}
-		 	 <a href="index.php?lang=ja&amp;mode=c&amp;id={$each_course.course_id}&amp;page_type=materials" >J </a>
+		 	 <a href="index.php?lang=ja&amp;mode=c&amp;id={$each_course.course_id}&amp;page_type=materials" ><img src="images/en/nihongo.png" alt="Japanese materials"> </a>
 		 {/if}
 	 	 {if $each_course.exist_lectnotes == true}
-			 <a href="index.php?lang=en&amp;mode=c&amp;id={$each_course.course_id}#materials" >E</a>
+			 <a href="index.php?lang=en&amp;mode=c&amp;id={$each_course.course_id}#materials" >ENG</a>
 		 {/if}
 	 </td>
 	 {* ビデオ *}
   	 <td class="video">
 	 	 {if $each_course.exist_another_video != false}
-		 	 <a href="{$each_course.exist_another_video}" >J </a>
+		 	 <a href="{$each_course.exist_another_video}" ><img src="images/en/nihongo.png" alt="Japanese Video"> </a>
 		 {/if}
 	 	 {if $each_course.exist_video == true}
-			 <a href="{$each_course.url_flv}" >E</a>
+			 <a href="{$each_course.url_flv}" >ENG</a>
 		 {/if}
 	 </td>
   </tr>
