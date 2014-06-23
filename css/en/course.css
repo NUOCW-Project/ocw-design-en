@@ -118,7 +118,12 @@ div#video {
    color: #77BB44;
    height: 80px;
    padding-bottom: 0px;
-   display: table-cell;
+}
+
+#video a.video_button{
+	display: inline-block;
+	width: 425px;
+	text-align: center;
 }
 
 #video h1 span{
