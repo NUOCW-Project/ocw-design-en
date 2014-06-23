@@ -2,7 +2,7 @@
 	<table id = "class_list" width="98%">
 		<tbody>
 		<tr id="class_head">
-			<th class="video_img"></th>
+			<th class="video_img">Video</th>
 			<th class="course_name">Course name</th>
 			<th class="department">Department</th>
 			<th class="lecturer">Instructor</th>
