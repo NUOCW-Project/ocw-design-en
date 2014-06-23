@@ -110,6 +110,7 @@ div#video {
 #video img{
    margin: 0px;
    padding-right: 5px;
+   vertical-align: bottom;
 }
 
 #video h1{
