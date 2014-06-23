@@ -5,7 +5,7 @@
 			<th class="video_img"></th>
 			<th class="course_name">Course name</th>
 			<th class="department">Department</th>
-			<th class="lecturer">Instuctor</th>
+			<th class="lecturer">Instructor</th>
 		</tr>
 
 		{foreach from=$vsyllabus_list item="vs" name="vs_loop"}
