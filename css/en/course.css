@@ -136,8 +136,7 @@ body {
 #video div.video_text a, 
 #video div.video_text a:hover,
 #video div.video_text a:active, 
-#video div.video_text a:visited, 
-{
+#video div.video_text a:visited{
 	vertical-align: middle;
 	color: #FFFFFF;
     cursor: pointer;
