@@ -103,10 +103,6 @@ body {
 	padding-bottom: 1.0em;
 }
 
-div#video {
-   width: 260px;
-}
-
 #video img{
    margin: 0px;
    padding-right: 5px;
