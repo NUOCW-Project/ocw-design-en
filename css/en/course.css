@@ -108,8 +108,8 @@ div#video {
 }
 
 #video img{
-   width: 45px;
-   height: 25px;
+   margin: 0px;
+   padding-right: 5px;
 }
 
 #video h1{
