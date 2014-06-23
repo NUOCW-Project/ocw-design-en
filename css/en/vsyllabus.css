@@ -44,9 +44,7 @@ th,  td{
   padding: 15px 5px;
 }
 
-table{
-   background: white;
-}
+
 /*
  table tr:nth-child(even){
    background: #EBF0F0;
@@ -54,6 +52,10 @@ table{
 */
 table{
    border-collapse: collapse;
+}
+
+#main_contents table{
+   background: white;
 }
 
 #main_contents table tr th{
