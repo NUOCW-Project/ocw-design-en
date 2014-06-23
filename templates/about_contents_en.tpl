@@ -124,91 +124,91 @@ Nagoya University OpenCourseWare Steering Committee
 </tr>
 
 <tr>
-<td>Katsuaki Onogi (Chairperson)</td> 
+<td>Katsuaki ONOGI (Chairperson)</td> 
 <td> Dean </td>
 <td>Institute of Liberal Arts and Sciences</td>
 </tr>
 
 <tr>
-<td>Ichiro Yamamoto</td>
+<td>Ichiro YAMAMOTO</td>
 <td>Vice-President</td>
 <td>Trustee</td>
 </tr>
 
 <tr>
-<td>Kazuhisa Todayama</td>
-<td>Assistant to President</td>
+<td>Kazuhisa TODAYAMA</td>
+<td>Assistant to the President</td>
 <td>Nagoya University</td>
 </tr>
 
 <tr>
-<td>Takaya Yamazato</td> 
+<td>Takaya YAMAZATO</td> 
 <td>Professor</td>
 <td>Institute of Liberal Arts and Sciences</td>
 </tr>
 
 <tr>
-<td>Toshiyuki Tonoike</td>
+<td>Toshiyuki TONOIKE</td>
 <td>Professor</td>
 <td>Center for Information Media Studies</td>
 </tr>
 
 <tr>
-<td>Masaaki Katayama</td>
+<td>Masaaki KATAYAMA</td>
 <td>Professor</td>
-<td>Eco Topia Science Institute</td>
+<td>EcoTopia Science Institute</td>
 </tr>
 
 <tr>
-<td>Toshiaki Nakai</td>
+<td>Toshiaki NAKAI</td>
 <td>Associate Professor</td>
 <td>Center for the Studies of Higher Education</td>
 </tr>
 
 <tr>
-<td>Akifumi Goto</td>
+<td>Akifumi GOTO</td>
 <td>Associate Professor</td>
 <td>Center for Information Media Studies</td>
 </tr>
 
 <tr>
-<td>Takehiro Ohya</td>
+<td>Takehiro OHYA</td>
 <td>Associate Professor</td>
 <td>Graduate School of Law</td>
 </tr>
 
 <tr>
-<td>Toshiko Ishizaki</td>
+<td>Toshiko ISHIZAKI</td>
 <td>Professor</td>
 <td>Education Center for International Students</td>
 </tr>
 
 <tr>
-<td>Daisuke Deguchi</td>
+<td>Daisuke DEGUCHI</td>
 <td>Associate Professor</td>
-<td>Strategy Office Information and Communications Headquarters</td>
+<td>Strategy Office; Information and Communications Headquarters</td>
 </tr>
 
 <tr>
-<td>Lai Wailing</td>
+<td>Lai WAILING</td>
 <td>Associate Professor</td>
 <td>Institute of Liberal Arts and Sciences</td>
 </tr>
 
 <tr>
-<td>Sadami Nakahama</td>
+<td>Sadami NAKAHAMA</td>
 <td>Liberal Education Deputy Director</td>
 <td>Institute of Liberal Arts and Sciences</td>
 </tr>
 
 <tr>
-<td>Shina Kawazu</td>
-<td>The Educational Affairs Planning Section Assistant Director</td>
+<td>Shina KAWAZU</td>
+<td>Educational Affairs Planning Section Assistant Director</td>
 <td>Institute of Liberal Arts and Sciences</td>
 </tr>
 
 <tr>
-<td>Yuka Kojima</td>
+<td>Yuka KOJIMA</td>
 <td>Administrative Assistant</td>
 <td>OCW Administrative Office</td>
 </tr>
@@ -220,43 +220,43 @@ Nagoya University OpenCourseWare Steering Committee
 </tr>
 
 <tr>
-<td>Aki Hara (Media Staff, Studio)</td>
-<td>Tetsuya Ono</td>
-<td>Michelle Kuhn</td>
+<td>Aki HARA (Media Staff, Studio)</td>
+<td>Tetsuya ONO</td>
+<td>Michelle KUHN</td>
 </tr>
 <tr>
-<td>Yoshifumi Inoue</td>
-<td>Kazuki Uemura</td>
-<td>Yuma Sato</td>
+<td>Yoshifumi INOUE</td>
+<td>Kazuki UEMURA</td>
+<td>Yuma SATO</td>
 </tr>
 <tr>
-<td>Hiromasa Yamauchi</td>
-<td>Daisuke Takaichi</td>
-<td>You Xia</td>
+<td>Hiromasa YAMAUCHI</td>
+<td>Daisuke TAKAICHI</td>
+<td>You XIA</td>
 </tr>
 <tr>
-<td>Takahiro Kojima</td>
-<td>Yuuya Nobe</td>
-<td>Katsuyasu Kamimura</td>
+<td>Takahiro KOJIMA</td>
+<td>Yuuya NOBE</td>
+<td>Katsuyasu KAMIMURA</td>
 </tr>
 <tr>
-<td>Masashi Yamazaki</td>
-<td>Mikito Yamamoto</td>
-<td>Yuto Toida</td>
+<td>Masashi YAMAZAKI</td>
+<td>Mikito YAMAMOTO</td>
+<td>Yuto TOIDA</td>
 </tr>
 <tr>
-<td>Daiki Ishikawa</td>
-<td>Hiroki Kamada</td>
-<td>Yutaro Nagae</td>
+<td>Daiki ISHIKAWA</td>
+<td>Hiroki KAMADA</td>
+<td>Yutaro NAGAE</td>
 </tr>
 <tr>
-<td>Fumihiro Ootake</td>
-<td>Keita Chiga</td>
-<td>Miyuu Imamura</td>
+<td>Fumihiro OOTAKE</td>
+<td>Keita CHIGA</td>
+<td>Miyuu IMAMURA</td>
 </tr>
 <tr>
-<td>Misa Asano</td>
-<td>Tomohisa Tamai</td>
+<td>Misa ASANO</td>
+<td>Tomohisa TAMAI</td>
 <td></td>
 </tr>
 </table>
@@ -264,9 +264,9 @@ Nagoya University OpenCourseWare Steering Committee
 <tr>
 <th colspan="3">Photography</th>
 </tr>
-<tr class="odd">
-<td>Ryo Yoshikawa</td>
-<td>Yoko Egusa</td>
+<tr>
+<td>Ryo YOSHIKAWA</td>
+<td>Yoko EGUSA</td>
 <td></td>
 </tr>
 </table>
