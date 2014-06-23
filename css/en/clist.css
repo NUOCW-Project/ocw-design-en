@@ -158,9 +158,9 @@ table tr:nth-child(even){
    border-bottom: 2pt solid #666;
 }
 
-#main_contents table tr td:nth-last-child(3),
-#main_contents table tr td:nth-last-child(4),
-#main_contents table tr td:nth-last-child(5){
+#main_contents table tr td:nth-child(3),
+#main_contents table tr td:nth-child(4),
+#main_contents table tr td:nth-child(5){
    text-align: center;
 }
 
