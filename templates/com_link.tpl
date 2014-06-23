@@ -6,13 +6,13 @@
 <a href="http://admissions.g30.nagoya-u.ac.jp/">G30</a>
 </td>
 <td>
-<a href="https://acs.is.nagoya-u.ac.jp/">ACS</a>
+<a href="http://www.isa.provost.nagoya-u.ac.jp/en/">ACS</a>
 </td>
 <td>
 <a href="http://www.ecis.nagoya-u.ac.jp/en/">ECIS</a>
 </td>
 <td>
-<a href="http://www.ilas.nagoya-u.ac.jp">ILAS</a>
+<a href="http://en.nagoya-u.ac.jp/admissions/index.html">Admissions</a>
 </td>
 <td>
 <a href="http://en.nagoya-u.ac.jp">Nagoya University</a>
