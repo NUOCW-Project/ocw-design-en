@@ -143,11 +143,6 @@ body {
     cursor: pointer;
 }
 
-
-#video a:visited{
-   color: #77BB44;
-} 
-
 .close_section{
    width: 100%;
    text-align: right;
