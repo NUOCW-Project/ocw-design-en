@@ -4,7 +4,7 @@ body {
    min-width: 1120px;
 }
 
-/* 講義/教員名 開講部局など */
+/* 講義/教員名 開講部局など */
 
 #class_info {
    float: left;
@@ -37,7 +37,7 @@ body {
 }  
 
 
-/* 表 */
+/* 表 */
 #class_table {
    background: white;
    font-size: 20px;
@@ -65,7 +65,7 @@ body {
    height: 20px;
 }
 
-/* コンテンツ */
+/* コンテンツ */
 
 #class_detail{
    clear: both;
@@ -116,7 +116,7 @@ body {
 }
 
 #video a.video_button{
-	display: inline-block;
+	display: table-cell;
 	width: 80px;
 	height: 80px;
     padding-right: 5px;
@@ -125,7 +125,7 @@ body {
 }
 
 #video div.video_text{
-	display: inline-block;
+	display: table-cell;
 	width: 414px;
 	height: 80px;
 	text-align: center;
