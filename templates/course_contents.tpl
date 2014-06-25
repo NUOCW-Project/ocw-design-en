@@ -35,7 +35,8 @@
 {if $course_info.vsyllabus_rtmp != ''}
 <div id="video">
 <h1>
-<a class="video_button" href="{$course_info.vsyllabus_rtmp}" target="_blank"><img src="images/en/camera_button.png" alt="video view"></a><div class="video_text"><a href="{$course_info.vsyllabus_rtmp}" target="_blank">1 min Video</a></div>
+<a class="video_button" href="{$course_info.vsyllabus_rtmp}" target="_blank"><img src="images/en/camera_button.png" alt="video view"></a>
+<a class="video_text" href="{$course_info.vsyllabus_rtmp}" target="_blank">1 min Video</a>
 </h1>
 </div> {* id = video  *}
 {/if}
@@ -43,8 +44,6 @@
 {if $page_data[0] != ""}
 <div id="overview">
 <h2>
-<img class="close" src="images/en/close_text.png" alt="close">
-<img class="open" src="images/en/open_text.png" alt="open">
 Course Overview
 </h2>
 </div>
@@ -58,8 +57,6 @@ Course Overview
 {if $page_data[1] != ""}
 <div id="syllabus">
 <h2>
-<img class="close" src="images/en/close_text.png" alt="close">
-<img class="open" src="images/en/open_text.png" alt="open">
 Syllabus
 </h2>
 </div>
@@ -72,8 +69,6 @@ Syllabus
 {if $page_data[3] != ""}
 <div id="materials">
 <h2>
-<img class="close" src="images/en/close_text.png" alt="close">
-<img class="open" src="images/en/open_text.png" alt="open">
 Class Materials
 </h2>
 </div>
