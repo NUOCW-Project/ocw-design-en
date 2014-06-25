@@ -36,11 +36,11 @@
 }
 
 #info #press {
-   min-height: 385px;
+   min-height: 220px;
 }
 
 #info #press table{
-   min-height: 340px;
+   min-height: 180px;
 }
 
 #info #press table td:nth-child(2){
