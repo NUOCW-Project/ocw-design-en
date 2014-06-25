@@ -131,16 +131,11 @@ body {
 	text-align: center;
 	vertical-align: middle;
 	background-color: #77BB44;
-}
-
-#video div.video_text a{
-	display: inline-block;
-	vertical-align: middle;
 	color: #FFFFFF;
     cursor: pointer;
 }
 
-#video div.video_text a:hover, #video div.video_text a:active, #video div.video_text a:visited{
+#video a.video_text:hover, #video a.video_text:active, #video a.video_text:visited{
 	color: #FFFFFF;
 }
 
