@@ -23,7 +23,7 @@
 <p>
 OCW website, and all course materials made public on this site,<br>
 may be used under the terms and conditions listed under<br>
-"About OCW"<br>
+"<a href="./?lang=en&mode=g&page_type=about">About OCW</a>"<br>
 &copy; 2014 Nagoya University
 </p>
 
