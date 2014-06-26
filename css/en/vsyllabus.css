@@ -87,13 +87,13 @@ table{
 
 .start{
    position: relative;
-	 width: 192px;
-	 height: 108px;
    left: 0px;
    top: -108px;
+   width: 192px;
+   height: 108px;
+   overflow: hidden;
 }
 
 .start:hover{
-   display: none;
    opacity: 0.0;
 }
