@@ -84,3 +84,9 @@ table{
 .left {
    text-align: center;
 }
+
+.start{
+   position: relative;
+   left: 20px;
+   top: -21px;
+} 
