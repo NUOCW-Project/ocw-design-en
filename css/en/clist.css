@@ -165,12 +165,3 @@ th.lang, th.lecture_note, th.video{
 #main_contents .center{
 	text-align: center;
 }
-
-#backnumber th{
-	padding: 15px 5px;
-}
-
-#backnumber tr td:nth-child(1){
-   width: 150px;
-   text-align: center;
-}
