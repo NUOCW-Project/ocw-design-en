@@ -39,19 +39,9 @@ td.title, td.instructor{
    padding-left: 30px;
 }
 
-th.lang{
+th.lang, th.lecture_note, th.video{
    box-sizing: border-box;
-   width: 100px;
-}
-
-th.lecture_note{
-   box-sizing: border-box;
-   width: 100px;
-}
-
-th.video{
-   box-sizing: border-box;
-   width: 100px;
+   width: 150px;
 }
 
 /* ページ数の表 */
