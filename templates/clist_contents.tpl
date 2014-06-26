@@ -2,7 +2,7 @@
 
 {* コースリストテーブル表示用テンプレート *}
 {literal}
-{if !is_null($search_selected)}
+{if $search_selected}
 {/literal}
 	{include file="clist_table.tpl"}
 
