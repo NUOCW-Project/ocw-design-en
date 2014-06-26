@@ -22,22 +22,23 @@
 			 title="{if $lang=='ja'}新しいウィンドウを開きます{else}Open the video in a new window.{/if}">
 		{/if}
 			{vsyllabus_img id=$vs.vsyllabus_id alt=""}
+			<img class="start" src="images/en/start.png" alt="">
 		{if isset($vs.url_flv)}
 			</a>
 		{/if}
 		</td>
-		<td class="left"><a href="index.php?lang={$lang}&amp;mode=c&amp;id={$vs.course_id}&amp;page_type=index">{$vs.course_name}</a>
+		<td class="left">
+			<a href="index.php?lang={$lang}&amp;mode=c&amp;id={$vs.course_id}&amp;page_type=index">{$vs.course_name}</a>
 		</td>
 		<td class="left">
-        		<a href="./courselist.php?lang={$lang}&amp;mode=l&amp;page_type={$vs.department_abbr}">{$vs.department_name}
-			</a>
+        	<a href="./courselist.php?lang={$lang}&amp;mode=l&amp;page_type={$vs.department_abbr}">{$vs.department_name}</a>
 		</td>
 		<td class="left">
 			{foreach from=$vs.instructor_names item="inst"} 
 			      {if $lang=='ja'}
-				    {$inst.name} {$inst.position}
+				   	   {$inst.name} {$inst.position}
       			  {elseif $lang=='en'}
-				    {$inst.position}<br>{$inst.name}
+				   	   {$inst.position}<br>{$inst.name}
      			  {/if}
 				  <br>
             {/foreach} 
