@@ -87,6 +87,7 @@ table{
 
 .start{
    position: relative;
+   margin-bottom: -108px;
    left: 0px;
    top: -108px;
    width: 192px;
