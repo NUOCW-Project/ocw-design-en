@@ -92,8 +92,9 @@ table{
    width: 192px;
    height: 108px;
    overflow: hidden;
+   opacity: 0.0;
 }
 
 .start:hover{
-   opacity: 0.0;
+   opacity: 1.0;
 }
