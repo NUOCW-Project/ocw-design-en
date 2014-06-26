@@ -26,24 +26,32 @@
 
 /* 各々の表のはば */
 
-.title{
-   width: 33%;
+th.title{
+/*   width: 33%;*/
 }
 
-.instructor{
-   width: 22%;
+th.instructor{
+   box-sizing: border-box;
+   width: 230px;
 }
 
-.lang{
-   width: 15%;
+td.title, td.instructor{
+   padding-left: 30px;
 }
 
-.lecture_note{
-   width: 15%;
+th.lang{
+   box-sizing: border-box;
+   width: 100px;
 }
 
-.video{
-   width: 15%;
+th.lecture_note{
+   box-sizing: border-box;
+   width: 100px;
+}
+
+th.video{
+   box-sizing: border-box;
+   width: 100px;
 }
 
 /* ページ数の表 */
@@ -119,6 +127,7 @@
 */
 
 #main_contents table{
+   border-collapse: collapse;
    margin-top: 5px;
    margin-bottom: 30px;
    width:1020px;
@@ -131,23 +140,11 @@
 #main_contents table{
    background: white;
 }
-/*
-table tr:nth-child(even){
-   background: #EBF0F0;
-}
-*/
-#main_contents table{
-   border-collapse: collapse;
-}
 
 #main_contents table tr th{
    background: #77BB44;
    color: white;
    border-bottom: 2px solid #666;
-}
-
-#main_contents table tr td:nth-child(2-n){
-   padding-left: 30px !important;
 }
 
 #main_contents table tr:nth-child(1){
@@ -162,20 +159,22 @@ table tr:nth-child(even){
    border-bottom: 2pt solid #666;
 }
 
-#main_contents table tr td:nth-child(3+n){
+#main_contents table tr td:nth-child(n+3){
    box-sizing: border-box;
    width: 50px;
 }
 
-#main_contents table tr td:nth-child(2){
-   box-sizing: border-box;
-   width: 230px;
+#main_contents table tr td:nth-child(2n+3){
+   text-align: right;
+}
+
+#main_contents table tr td:nth-child(2n+4){
+   text-align: left;
 }
 
 #main_contents .center{
 	text-align: center;
 }
-
 
 #backnumber th{
 	padding: 15px 5px;
