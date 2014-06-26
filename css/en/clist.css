@@ -151,7 +151,7 @@ th.lang, th.lecture_note, th.video{
 
 #main_contents table tr td:nth-child(n+3){
    box-sizing: border-box;
-   width: 50px;
+   width: 75px;
 }
 
 #main_contents table tr td:nth-child(2n+3){
