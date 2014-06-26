@@ -22,9 +22,9 @@
 			 title="{if $lang=='ja'}新しいウィンドウを開きます{else}Open the video in a new window.{/if}">
 		{/if}
 			{vsyllabus_img id=$vs.vsyllabus_id alt=""}
+			<img class="start" src="images/en/start.png" alt="">
 		{if isset($vs.url_flv)}
 			</a>
-			<img class="start" src="images/en/start.png" alt="">
 		{/if}
 		</td>
 		<td class="left">
