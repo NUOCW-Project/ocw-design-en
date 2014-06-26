@@ -21,8 +21,8 @@
 			 onkeypress="openWin('{$vs.url_flv}');return false;"
 			 title="{if $lang=='ja'}新しいウィンドウを開きます{else}Open the video in a new window.{/if}">
 		{/if}
-			{vsyllabus_img id=$vs.vsyllabus_id alt=""}
-			<img id="start" src="images/en/start.png" alt="">
+			{vsyllabus_img id=$vs.vsyllabus_id alt="" id="thumbnail"}
+			<img class="start" src="images/en/start.png" alt="">
 		{if isset($vs.url_flv)}
 			</a>
 		{/if}
