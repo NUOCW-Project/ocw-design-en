@@ -87,8 +87,12 @@ table{
 
 .start{
    position: relative;
-	 width: 30px;
-	 height: 37px;
-   left: 81px;
-   top: -72px;
+	 width: 192px;
+	 height: 108px;
+   left: 0px;
+   top: -108px;
+}
+
+.start:hover{
+   display: none;
 }
