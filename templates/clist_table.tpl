@@ -25,8 +25,9 @@
 	{/if}
 	{/literal}
 	<h1>{$title}</h1>
+{literal}
 {/if}
-
+{/literal}
 
 {* テーブル表示部分 *}
 {literal}
