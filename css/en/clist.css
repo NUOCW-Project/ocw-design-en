@@ -163,7 +163,7 @@ table tr:nth-child(even){
    border-bottom: 2pt solid #666;
 }
 
-#main_contents table tr td:nth-child(2<n<9){
+#main_contents table tr td:nth-child(n+2){
    text-align: center;
 }
 
