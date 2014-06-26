@@ -163,8 +163,11 @@ table tr:nth-child(even){
    border-bottom: 2pt solid #666;
 }
 
-#main_contents table tr td:nth-child(n+3){
-   text-align: center;
+#main_contents table tr td:nth-child(2n+3){
+   text-align: right;
+}
+#main_contents table tr td:nth-child(2n+2){
+   text-align: left;
 }
 
 #main_contents .center{
