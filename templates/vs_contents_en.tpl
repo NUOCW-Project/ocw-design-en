@@ -24,7 +24,7 @@
 			<div id="thumbnail">
 				{vsyllabus_img id=$vs.vsyllabus_id alt=""}
 			</div>
-			<img class="start" src="images/en/start.png" alt="">
+			<img class="start" src="images/en/start_s.png" alt="">
 		{if isset($vs.url_flv)}
 			</a>
 		{/if}
