@@ -24,6 +24,7 @@
 			{vsyllabus_img id=$vs.vsyllabus_id alt=""}
 		{if isset($vs.url_flv)}
 			</a>
+			<img class="start" src="images/en/start.png" alt="">
 		{/if}
 		</td>
 		<td class="left">
