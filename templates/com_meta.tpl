@@ -29,6 +29,8 @@
   <link rel="stylesheet" type="text/css" href="css/{$lang}/search.css">
 {elseif $page_type=='voice'}
   <link rel="stylesheet" type="text/css" href="css/{$lang}/voice.css">
+{elseif $page_type=='pressrelease'}
+  <link rel="stylesheet" type="text/css" href="css/{$lang}/pressrelease.css">
 {/if}
 {/literal}
 
