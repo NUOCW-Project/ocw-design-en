@@ -85,8 +85,10 @@ table{
    text-align: center;
 }
 
-.start{
+.start img{
    position: relative;
+	 width: 37.2px;
+	 height: 30.4px;
    left: 20px;
    top: -21px;
 } 
