@@ -1,6 +1,6 @@
 
 
-/* 部局紹介 */
+/* 部局紹介 */
 .faculty_intro {
    padding: 0 25px;
    margin-bottom: 50px;
@@ -24,7 +24,7 @@
 }
 
 
-/* 各々の表のはば */
+/* 各々の表のはば */
 
 .title{
    width: 33%;
@@ -46,7 +46,7 @@
    width: 15%;
 }
 
-/* ページ数の表 */
+/* ページ数の表 */
 #page_numbers{
    margin-left: auto;
    margin-right: auto;
@@ -66,7 +66,7 @@
 }
 
 
-/* 部局紹介個別ページの設定 */
+/* 部局紹介個別ページの設定 */
 #dep_info_dean_text{
 	 font-size: 24px;
 	 text-align: right;
@@ -82,7 +82,7 @@
 }
 
 
-/* コースリスト表 */
+/* コースリスト表 */
 /*
 #class_list, #backnumber, #class_detail table{
    margin-top: 5px;
@@ -146,8 +146,7 @@ table tr:nth-child(even){
    border-bottom: 2px solid #666;
 }
 
-#main_contents table tr td:nth-child(1), 
-#main_contents table tr td:nth-child(2){
+#main_contents table tr td:nth-child(2-n){
    padding-left: 30px !important;
 }
 
@@ -163,11 +162,14 @@ table tr:nth-child(even){
    border-bottom: 2pt solid #666;
 }
 
-#main_contents table tr td:nth-child(2n+3){
-   text-align: right;
+#main_contents table tr td:nth-child(3+n){
+   box-sizing: border-box;
+   width: 50px;
 }
-#main_contents table tr td:nth-child(2n+2){
-   text-align: left;
+
+#main_contents table tr td:nth-child(2){
+   box-sizing: border-box;
+   width: 230px;
 }
 
 #main_contents .center{
