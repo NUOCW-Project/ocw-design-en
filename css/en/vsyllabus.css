@@ -95,4 +95,5 @@ table{
 
 .start:hover{
    display: none;
+   opacity: 0.0;
 }
