@@ -1,3 +1,4 @@
+<div id="welcome_text">
 <div id="welcome">
 <a id="welcome_img" href="http://video.media.nagoya-u.ac.jp/pcsweb/FlvPlayer/play.html?contentsCode=1350&amp;categoryCode=110" target="blank"><img src="http://ocw.nagoya-u.jp/images/ja/goaisatu.png" alt="">
 </a>
@@ -5,10 +6,8 @@
 <p>Chairperson,</p>
 <p>OpenCourseWare Steering Committee,</p>
 <p>Nagoya University</p>
-</div>
+</div> <!-- welcome end -->
 
-
-<div id="welcome_text">
 <div id="welcome_right">
 	<p>Here at the NU OCW website we have gathered notes and materials from lectures given at Nagoya University. Most of the information you see here are usually not seen by anyone but the students of the university. Feel free to see, hear, and experience the classes firsthand.</p>
 	<p> Nagoya University is a school with an educational staff of roughly 1800 in number, and a wide variety of courses, from both liberal arts and science. Each day, a massive number of lectures are given, with contents ranging from natural science to sociology, and students from freshmen to graduate school students. Normally, the lessons are accessible only to the students of Nagoya University.</p>
