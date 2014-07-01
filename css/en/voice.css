@@ -48,7 +48,7 @@ p{
 
 
 .movie_info p{
-   margin: 0;
+   margin: 5px 0px;
 }
 
 .movie_info p:nth-child(2), .movie_info p:nth-child(4) {
