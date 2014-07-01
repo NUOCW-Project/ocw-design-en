@@ -69,10 +69,10 @@
 <div class="thumbnail">
 
 <a href="http://video.media.nagoya-u.ac.jp/pcsweb/FlvPlayer/play.html?contentsCode=3682&amp;categoryCode=140&amp;videoType=0" target="blank">
-<img class="thumbnail_img"  src="images/en/Michelle_thumbnail.png" alt="">
+<img class="thumbnail_img" src="images/en/Michelle_thumbnail.png" alt="">
 <img class="start" src="images/en/start.png" alt="">
 </a>
-
+ 
 </div>
 
 <div class="movie_info">
