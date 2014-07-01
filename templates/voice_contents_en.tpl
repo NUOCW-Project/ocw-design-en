@@ -5,7 +5,7 @@
 
 <div class="thumbnail">
 
-<a href="http://video.media.nagoya-u.ac.jp/pcsweb/FlvPlayer/play.html?contentsCode=3682&amp;categoryCode=140&amp;videoType=0" target="blank">
+<a href="http://video.media.nagoya-u.ac.jp/pcsweb/FlvPlayer/play.html?contentsCode=3665&categoryCode=140&videoType=0" target="blank">
 <img class="thumbnail_img"  src="images/en/Meredith_thumbnail.png" alt="">
 <img class="start" src="images/en/start.png" alt="">
 </a>
@@ -15,10 +15,10 @@
 
 <div class="movie_info">
 <p>Name:</p>
-<p class="name">Meredith Self</p>
+<p>Meredith Self</p>
 
 <p>Country:</p>
-<p class="country">United States</p>
+<p>United States</p>
 
 <p>Message:</p>
 <p class="message">Meredith will tell us all about her favorite shopping area and favorite restaurant, Sushiro!</p>
@@ -34,20 +34,22 @@
 <h2>June:</h2>
 <div class="thumbnail">
 
-<img class="thumbnail_img"  src="images/en/thumbnail.png" alt="">
-<img class="start" src="images/en/start.png" alt="">
+<a>
+<img class="thumbnail_img"  src="" alt="">
+<img class="start" src="i" alt="">
+</a>
 
 </div>
 
 <div class="movie_info">
 <p>Name:</p>
-<p class="name">Shin Jiyoung</p>
+<p>Shin Jiyoung</p>
 
 <p>Country:</p>
-<p class="country"></p>
+<p></p>
 
 <p>Message:</p>
-<p class="message"></p>
+<p></p>
 </div>
 
 </div> <!-- movie end --> 
@@ -59,9 +61,6 @@
 *}
 
 
-
-
-{*
 <div class="movie">
 
 <h2>Who is Michelle?</h2>
@@ -69,25 +68,25 @@
 
 <div class="thumbnail">
 
+<a href="http://video.media.nagoya-u.ac.jp/pcsweb/FlvPlayer/play.html?contentsCode=3682&amp;categoryCode=140&amp;videoType=0" target="blank">
 <img class="thumbnail_img"  src="images/en/thumbnail.png" alt="">
 <img class="start" src="images/en/start.png" alt="">
+</a>
 
 </div>
 
 <div class="movie_info">
 
 <p>Name:</p>
-<p class="name">Michelle Kuhn</p>
+<p>Michelle Kuhn</p>
 
 
 <p>Country:</p>
-<p class="country">United States</p>
+<p>United States</p>
 
 <p>Message:</p>
-<p class="message">I'll be your host interviewing students around Nagoya University!</p>
+<p>I'll be your host interviewing students around Nagoya University!</p>
 
 </div>
 
 </div>
-
-*}
