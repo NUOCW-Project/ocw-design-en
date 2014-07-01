@@ -51,9 +51,10 @@ p{
    margin: 0;
 }
 
-.name{
+.name.country{
     font-size: 36px;    
-    padding-bottom: 5px;
+    padding-bottom: 10px;
+    line-height: 1;
 }
 
 .country{
