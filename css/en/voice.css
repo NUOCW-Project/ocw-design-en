@@ -52,8 +52,12 @@ p{
 }
 
 .movie_info p:nth-child(2), .movie_info p:nth-child(4) {
-    font-size: 36px;
-    padding-bottom: 15px;
+   font-size: 36px;
+   padding-bottom: 15px;
+}
+
+.movie_info p:nth-child(6) {
+   line-height: 1.5;
 }
 
 .back{
