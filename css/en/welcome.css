@@ -11,8 +11,8 @@ div#welcome{
    width: 340px;
    float: left;
    text-align: center;
-   padding: 10px 0px;
-   line-height: 20px;
+   position: relative;
+   top: 25px;
 }
 
 div#welcome_right{
