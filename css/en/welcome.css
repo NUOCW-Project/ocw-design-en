@@ -15,14 +15,14 @@ div#welcome{
    top: 25px;
 }
 
+#welcome p:last-child{
+   margin-bottom: 5px;
+}
+
 div#welcome_right{
    float: left;
    margin-left: 50px;
    width: 630px;
-}
-   
-#welcome_name p{
-   margin: 0px;
 }
 
 #welcome_img{
@@ -33,3 +33,4 @@ div#welcome_right{
 #welcome_main{
    float: left;
 }
+
