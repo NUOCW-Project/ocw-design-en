@@ -2,6 +2,10 @@
 
 /* Welcome message by Mr.Onogi  */
 
+p{
+   line-height: 1.5;
+}
+
 div#welcome{
    background-color: white;
    width: 340px;
@@ -21,11 +25,11 @@ div#welcome_right{
    margin: 0px;
 }
 
-#welcome_text p{
-   line-height: 1.5;
-}
-
 #welcome_img{
    position: relative;
    top: 15px;
+}
+
+#welcome_main{
+   float: left;
 }
