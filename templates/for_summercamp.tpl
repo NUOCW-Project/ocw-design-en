@@ -3,6 +3,6 @@
 {if $lang =="ja"}
   {include file="summercamp.tpl"}
 {elseif $lang == "en"}
-  {include file="summercamp_en.tpl"}
+  {include file="summercamp.tpl"}
 {/if}
 {include file="com_footer.tpl"}
