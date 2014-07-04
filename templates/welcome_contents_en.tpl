@@ -18,5 +18,3 @@
 	<p>For those of you who wish to enter Nagoya University, you may get a glimpse of what you're going to learn once you enter. For teachers, the lectures may give you a hint on how to improve your own lessons. And for the public, we hope you can understand some of what we teach here.</p>
 	<p>Hopefully you will be able to &lsquo;experience&rsquo; our classes by using this website.</p>
 </div>
-
-</div> <!-- welcome_text end -->
