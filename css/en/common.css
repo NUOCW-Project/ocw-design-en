@@ -23,7 +23,7 @@ h1,h2,h3{
    margin: 20px 0;
 }
 
-p,li,td,th{ 
+p,li,td,th,dt,dd{ 
    font-size: 20px;
 }
 
