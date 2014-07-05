@@ -48,6 +48,28 @@ a:visited{
    color: #008000;
 }
 
+/* 旧デザインから引き継いでいる文字装飾指定 */
+span.i{
+	font-style:italic;
+}
+
+span.u{
+	text-decoration: underline;
+}
+
+span.b{
+	font-weight: bold; 
+}
+
+span.red{
+	color:#FF3333;
+}
+
+span.light_blue{
+	color:#0099cc;
+}
+
+
 /* 最上部 */
 #icon{
    float: left;
