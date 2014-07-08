@@ -94,7 +94,7 @@ table{
    height: 108px;
    overflow: hidden;
    opacity: 0.0;
-   display: table-cell;
+   display: box;
 }
 
 .start:hover{
