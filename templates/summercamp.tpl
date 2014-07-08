@@ -36,7 +36,3 @@ But in Japan, the picture is totally different. People here are not at all inter
 <p>
 <n\>At the end of the day 1, the students acquired some practical knowledge about the detailed process of building an eco-friendly model house from forest trees. They learned an interesting and beneficial lesson that they can’t learn from the textbook and it’s the objective of the Nakatsugawa project.
 </p>
-
-
-
-
