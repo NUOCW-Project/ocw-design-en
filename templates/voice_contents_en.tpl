@@ -11,7 +11,7 @@
 </a>
 
 </div> 
-
+ 
 
 <div class="movie_info">
 <p>Name:</p>
