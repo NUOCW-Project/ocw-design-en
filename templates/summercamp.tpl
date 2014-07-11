@@ -1,3 +1,4 @@
+<div id="summercamp">
 <h1>
 Mei-Writing Summer Camp 2014 Special Interview
 </h1>
@@ -90,3 +91,5 @@ We interviewed Nathan Hamlitsch, who joined the summer camp as the camp organize
 <p>URL:http://meiwriting.ilas.nagoya-u.ac.jp/activities/summer-camp/mei-writing-summer-camp-2014</p>
 <p>For those who are interested in joining, please apply as soon as possible!</p>
 </div>
+
+</div> {* id=summercamp *}
