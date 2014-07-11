@@ -1,2 +1,19 @@
 /* NUOCW Special Content Summercamp  */
 
+p {
+   line-height: 1.5;
+}
+
+#profile p {
+    margin: 0;
+}
+
+#profile p:nth-child(2n){
+    font-size: 36px;
+}
+
+#outline p:nth-child(2n),#participants p:nth-child(2n),#attraction p:nth-child(2n),#conclusion p:nth-child(2n) {
+    color: #999;
+}
+
+
