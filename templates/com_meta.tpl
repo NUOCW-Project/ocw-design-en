@@ -31,6 +31,8 @@
   <link rel="stylesheet" type="text/css" href="css/{$lang}/voice.css">
 {elseif $page_type=='pressrelease'}
   <link rel="stylesheet" type="text/css" href="css/{$lang}/pressrelease.css">
+{elseif $page_type=='summercamp'}
+  <link rel="stylesheet" type="text/css" href="css/{$lang}/summercamp.css">
 {/if}
 {/literal}
 

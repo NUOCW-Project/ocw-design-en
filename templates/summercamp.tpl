@@ -1,7 +1,11 @@
+<h1>
+Mei-Writing Summer Camp 2014 Special Interview
+</h1>
 <p>
 We interviewed Nathan Hamlitsch, who joined the summer camp as the camp organizer in 2013, and Ikue Suzuki, who is the Mei-Writing coordinator in charge of administrative affairs.
 </p>
 
+<div id="profile">
 <h2>Profiles</h2>
 <p>HAMLITSCH Nathan</p>
 <p>He is currently in the first year of a Ph.D. program in the Graduate School of Languages and Cultures majoring in Linguistics. He has been an organizer of the summer camp since 2013. Although it was his first time to have an interview in Japanese, he answered it clearly and fluently.</p>
@@ -10,8 +14,10 @@ We interviewed Nathan Hamlitsch, who joined the summer camp as the camp organize
 <p>She is the Mei-Writing coordinator in charge of advertisements for the summer camp, etc. She made the introduction video of the summer camp in 2013 on the official Mei-Writing website.</p> 　
 　
 <p>Interviewer：OCW student staff</p>
+</div>
 
-<h1>1. The outline and purpose of the summer camp</h1>
+<div id="interview">
+<h2>1. The outline and purpose of the summer camp</h2>
 
 <p>―First, I would like to ask you about what participants will do in the summer camp.</p>
 
@@ -32,7 +38,7 @@ We interviewed Nathan Hamlitsch, who joined the summer camp as the camp organize
 <p>―I see.</p>
  
 
-<h1>2.Participants</h1>
+<h2>2.Participants</h2>
  
 <p>―Students from various academic and national backgrounds have joined past summer camps, right</p>
 
@@ -46,7 +52,7 @@ We interviewed Nathan Hamlitsch, who joined the summer camp as the camp organize
 
 <p>It is suited for those who want to develop their ability in logical thinking, communication, and cooperative activities with a team. We welcome students who want to participate in and contribute to such activities. We also welcome those who are participating in Mei-Writing classes, and especially those who could not. </p>
 
-<h1>3.Events in the camp and its attraction</h1>
+<h2>3.Events in the camp and its attraction</h2>
 
 <p>―I imagine there are many fun and engaging events including some possible challenges as well because the summer camp is largely different from a normal class in style. Can you recall any impressive events that happened in the past?</p>
 
@@ -58,7 +64,7 @@ We interviewed Nathan Hamlitsch, who joined the summer camp as the camp organize
 
 <p>―It sounds like it was a very good experience.</p>
 
-<h1>4.Conclusion</h1>
+<h2>4.Conclusion</h2>
 
 <p>A saying in the U.S. goes something like, “in order to get to know someone, you got to camp with them”. The participants in this camp will develop good relationships with one another because they will have experienced a lot together. The summer camp “alumni” often have parties or get-togethers, so it’s a chance to make friends beyond the duration of the camp, perhaps even life-long friends. This camp seems to have a great impact on the participants’ lives, especially during the time spent at Nagoya University.</p>
 
@@ -68,9 +74,13 @@ We interviewed Nathan Hamlitsch, who joined the summer camp as the camp organize
 
 <p>―Thank you very much for your interview.</p>
 
-<h1>【Information】</h1>
+</div> {*id = interview*}
+
+<div id="information">
+<h2>Information</h2>
 <p>The registration of the summer camp is open until 25th July, and the camp will be held from September 8th to 12th. Additional information has been uploaded on the Mei-Writing website. The summer camp is becoming more and more popular year after year. Last year, the number of the applicants surpassed the fixed quota (30 people) for the first time. The application to apply is now available (since April). You can apply here:</p>
 
 
 <p>URL:http://meiwriting.ilas.nagoya-u.ac.jp/activities/summer-camp/mei-writing-summer-camp-2014</p>
 <p>For those who are interested in joining, please apply as soon as possible!</p>
+</div>
