@@ -16,7 +16,7 @@ We interviewed Nathan Hamlitsch, who joined the summer camp as the camp organize
 <p>Interviewer：OCW student staff</p>
 </div>
 
-<div id="interview">
+<div id="outline">
 <h2>1. The outline and purpose of the summer camp</h2>
 
 <p>―First, I would like to ask you about what participants will do in the summer camp.</p>
@@ -37,7 +37,8 @@ We interviewed Nathan Hamlitsch, who joined the summer camp as the camp organize
  
 <p>―I see.</p>
  
-
+</div>
+<div id="participants">
 <h2>2.Participants</h2>
  
 <p>―Students from various academic and national backgrounds have joined past summer camps, right</p>
@@ -52,6 +53,9 @@ We interviewed Nathan Hamlitsch, who joined the summer camp as the camp organize
 
 <p>It is suited for those who want to develop their ability in logical thinking, communication, and cooperative activities with a team. We welcome students who want to participate in and contribute to such activities. We also welcome those who are participating in Mei-Writing classes, and especially those who could not. </p>
 
+</div>
+<div id="attraction">
+
 <h2>3.Events in the camp and its attraction</h2>
 
 <p>―I imagine there are many fun and engaging events including some possible challenges as well because the summer camp is largely different from a normal class in style. Can you recall any impressive events that happened in the past?</p>
@@ -63,7 +67,9 @@ We interviewed Nathan Hamlitsch, who joined the summer camp as the camp organize
 <p>The leader managed it successfully. The leader suggested that the team should continue to make their projects in small groups, and after completion, discuss together how they could integrate those into a single presentation. Much to the leader’s credit, they succeeded in integrating all the individual projects into one single unified presentation. In fact, this group actually won the first prize. Everyone appreciated the team’s hard word and end result. At first they had some difficulties, but it was a good opportunity for the leader to show their leadership training, and with the best results possible.</p>
 
 <p>―It sounds like it was a very good experience.</p>
+</div>
 
+<div id="conclusion">
 <h2>4.Conclusion</h2>
 
 <p>A saying in the U.S. goes something like, “in order to get to know someone, you got to camp with them”. The participants in this camp will develop good relationships with one another because they will have experienced a lot together. The summer camp “alumni” often have parties or get-togethers, so it’s a chance to make friends beyond the duration of the camp, perhaps even life-long friends. This camp seems to have a great impact on the participants’ lives, especially during the time spent at Nagoya University.</p>
@@ -74,7 +80,7 @@ We interviewed Nathan Hamlitsch, who joined the summer camp as the camp organize
 
 <p>―Thank you very much for your interview.</p>
 
-</div> {*id = interview*}
+</div>
 
 <div id="information">
 <h2>Information</h2>
