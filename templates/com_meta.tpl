@@ -57,7 +57,7 @@
 {/if}
 {if $page_type=='summercamp'}
   <script type="text/javascript" src="./js/jquery.youtubeplaylist.js"></script>
-  <script type="text/javascript" src="./js/youtube.js"></script>
+  <script type="text/javascript" src="./js/summercamp_en.js"></script>
 {/if}
 {/literal}
 
