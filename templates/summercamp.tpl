@@ -41,9 +41,9 @@ We interviewed Nathan Hamlitsch, who joined the summer camp as the camp organize
 </div>
 
 <div id= "video">
-<p>
-Summer Camp Video 2013
-</p>
+<h2>
+Summer Camp Promotion Video 2013
+</h2>
 
 <div class="yt_holder">
 <div id="ytvideo"></div>
