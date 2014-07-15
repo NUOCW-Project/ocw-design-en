@@ -39,6 +39,21 @@ We interviewed Nathan Hamlitsch, who joined the summer camp as the camp organize
 <p>&mdash; I see.</p>
  
 </div>
+
+<div id= "video">
+<p>
+Summer Camp Video 2013
+</p>
+
+<div class="yt_holder">
+<div id="ytvideo"></div>
+<ul class="demo1">
+<li><a href="https://www.youtube.com/watch?v=Qe3UKQWtz9A">https://www.youtube.com/watch?v=Qe3UKQWtz9A</a></li>
+</ul>
+</div>
+
+</div> <!-- video end-->
+
 <div id="participants">
 <h2>2.Participants</h2>
  
@@ -53,6 +68,8 @@ We interviewed Nathan Hamlitsch, who joined the summer camp as the camp organize
 <p>&mdash; Who is the summer camp suited for?</p>
 
 <p>It is suited for those who want to develop their ability in logical thinking, communication, and cooperative activities with a team. We welcome students who want to participate in and contribute to such activities. We also welcome those who are participating in Mei-Writing classes, and especially those who could not. </p>
+
+<img id="rai" src="images/ja/summer_camp/rai.jpg">
 
 </div>
 <div id="attraction">
