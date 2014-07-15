@@ -32,3 +32,9 @@ p {
     padding-bottom: 20px;
 }
 
+.yt_holder {
+    left: 210px;
+    padding: 10px 0;
+    position: relative;
+    width: 600px;
+}
