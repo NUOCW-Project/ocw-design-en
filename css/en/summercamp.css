@@ -32,9 +32,33 @@ p {
     padding-bottom: 20px;
 }
 
+div#video h2{
+    border-botoom: medium solid #666;
+    color: #666;
+}
+
 .yt_holder {
     left: 210px;
     padding: 10px 0;
     position: relative;
     width: 600px;
 }
+
+#participants {
+    overflow: hidden;
+}
+
+#participants > p:nth-child(7) {
+    float: left;
+    width: 520px;
+}
+
+#participants > img {
+    float: left;
+    height: 280px;
+    margin-left: 80px;
+    position: relative;
+    top: -25px;
+    width: 420px;
+}
+
