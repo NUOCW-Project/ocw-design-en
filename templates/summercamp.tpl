@@ -9,10 +9,10 @@ We interviewed Nathan Hamlitsch, who joined the summer camp as the camp organize
 <div id="profile">
 <h2>Profiles</h2>
 <p>HAMLITSCH Nathan</p>
-<p>He is currently in the first year of a Ph.D. program in the Graduate School of Languages and Cultures majoring in Linguistics. He has been an organizer of the summer camp since 2013. Although it was his first time to have an interview in Japanese, he answered it clearly and fluently.</p>
+<p>Nathan Hamlitsch is currently in the first year of a Ph.D. program in the Graduate School of Languages and Cultures majoring in Linguistics. He has been an organizer of the summer camp since 2013. Although it was his first time to have an interview in Japanese, he answered it clearly and fluently.</p>
 
 <p>SUZUKI Ikue</p>
-<p>She is the Mei-Writing coordinator in charge of advertisements for the summer camp, etc. She made the introduction video of the summer camp in 2013 on the official Mei-Writing website.</p> 　
+<p>Ikue Suzuki is the Mei-Writing coordinator in charge of advertisements for the summer camp, etc. she made the introduction video for the 2013 summer camp published on the official Mei-Writing website.</p> 　
 　
 <p>Interviewer: OCW student staff</p>
 </div>
