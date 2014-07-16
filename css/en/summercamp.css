@@ -32,8 +32,8 @@ p {
     padding-bottom: 20px;
 }
 
-div#video h2{
-    border-botoom: medium solid #666;
+#video h2{
+    border-bottom: medium solid #666;
     color: #666;
 }
 
