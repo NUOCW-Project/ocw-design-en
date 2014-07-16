@@ -50,15 +50,15 @@ div#video h2{
 
 #participants > p:nth-child(7) {
     float: left;
-    width: 520px;
+    width: 680px;
 }
 
 #participants > img {
     float: left;
-    height: 280px;
-    margin-left: 80px;
+    height: 210px;
+    margin-left: 25px;
     position: relative;
     top: -25px;
-    width: 420px;
+    width: 315px;
 }
 
