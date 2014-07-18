@@ -82,7 +82,7 @@ Summer Camp Promotion Video 2013
 
 <p>&mdash; It seems really hard. How did they deal with it?</p>
 
-<p>The leader managed it successfully. The leader suggested that the team should continue to make their projects in small groups, and after completion, discuss together how they could integrate those into a single presentation. Much to the leader’s credit, they succeeded in integrating all the individual projects into one single unified presentation. In fact, this group actually won the first prize. Everyone appreciated the team’s hard word and end result. At first they had some difficulties, but it was a good opportunity for the leader to show their leadership training, and with the best results possible.</p>
+<p>The leader managed it successfully. The leader suggested that the team should continue to make their projects in small groups, and after completion, discuss together how they could integrate those into a single presentation. Much to the leader’s credit, they succeeded in integrating all the individual projects into one single unified presentation. In fact, this group actually won the first prize. Everyone appreciated the team’s hard work and end result. At first they had some difficulties, but it was a good opportunity for the leader to show their leadership training, and with the best results possible.</p>
 
 <p>&mdash; It sounds like it was a very good experience.</p>
 </div>
