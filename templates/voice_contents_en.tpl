@@ -25,7 +25,7 @@
 
 <h1>Back No.</h1>
 <div class="movie">
-<h2>This Month: What is Sushiro?</h2>
+<h2>July: What is Sushiro?</h2>
 
 
 <div class="thumbnail">
