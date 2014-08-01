@@ -1,5 +1,30 @@
 <div class="movie">
+<h2>This Month: World Cosplay Summit in Nagoya!</h2> 
+<div class="thumbnail">
 
+<a href="">
+<img class="thumbnail_img"  src="" alt="">
+<img class="start" src="images/en/start.png" alt="">
+</a>
+
+</div>
+
+<div class="movie_info">
+<p>Name:</p>
+<p>Julian</p>
+<p>Country:</p>
+<p>Columbia</p>
+<p>Message:</p>
+<p>Julian researches anime and cosplay here at Nagoya University. Let's find out more about Nagoya's special link to Cosplay!</p>
+</div>
+
+</div> <!-- movie end --> 
+
+
+<!--  Back No. -->
+
+<h1>Back No.</h1>
+<div class="movie">
 <h2>This Month: What is Sushiro?</h2>
 
 
@@ -27,38 +52,9 @@
 
 </div> <!-- movie end -->
 
-<!--  Back No. -->
-{*
-<h1>Back No.</h1>
-<div class="movie">
-<h2>June:</h2>
-<div class="thumbnail">
-
-<a>
-<img class="thumbnail_img"  src="" alt="">
-<img class="start" src="i" alt="">
-</a>
-
-</div>
-
-<div class="movie_info">
-<p>Name:</p>
-<p>Shin Jiyoung</p>
-
-<p>Country:</p>
-<p></p>
-
-<p>Message:</p>
-<p></p>
-</div>
-
-</div> <!-- movie end --> 
-
-
 <p class="back">Back to Top</p>
 
 <hr>
-*}
 
 
 <div class="movie">
@@ -90,3 +86,30 @@
 </div>
 
 </div>
+
+{* コピペ用
+<div class="movie">
+<h2>Month:</h2> 
+<div class="thumbnail">
+
+<a href="">
+<img class="thumbnail_img"  src="" alt="">
+<img class="start" src="images/en/start.png" alt="">
+</a>
+
+</div>
+
+<div class="movie_info">
+<p>Name:</p>
+<p></p>
+
+<p>Country:</p>
+<p></p>
+
+<p>Message:</p>
+<p></p>
+</div>
+
+</div> <!-- movie end --> 
+
+*}
