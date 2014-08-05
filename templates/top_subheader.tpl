@@ -13,9 +13,9 @@ On class webpages, you can watch instructors introduce their classes in One Minu
 International Student's Voices
 Hear current Nagoya University students talk about their own experiences and feelings about Meidai! Anyone interested in Japan or Meidai should check these videos out!
 "></a></li>
-<!-- <li><a href="index.php?lang={$lang}&amp;mode=g&amp;page_type=summercamp"><img src="images/en/slider/s04_summercamp.jpg" alt="
+<li><a href="index.php?lang={$lang}&amp;mode=g&amp;page_type=summercamp"><img src="images/en/slider/s04_summercamp.jpg" alt="
 SummerCamp 2013
 Our annual summercamp is a great opportunity to learn about and improve upon your academic writing skills in an outdoor, fun filled environment
-"></a></li> -->
+"></a></li>
 </ul>
 </div>
