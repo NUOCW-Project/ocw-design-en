@@ -31,8 +31,8 @@
   <link rel="stylesheet" type="text/css" href="css/{$lang}/voice.css">
 {elseif $page_type=='pressrelease'}
   <link rel="stylesheet" type="text/css" href="css/{$lang}/pressrelease.css">
-{* elseif $page_type=='summercamp'
-  <link rel="stylesheet" type="text/css" href="css/{$lang}/summercamp.css"> *}
+{elseif $page_type=='summercamp'}
+  <link rel="stylesheet" type="text/css" href="css/{$lang}/summercamp.css">
 {/if} 
 {/literal}
 
@@ -55,9 +55,9 @@
 {if $page_type=='voice'}
   <script type="text/javascript" src="./js/voice.js"></script>
 {/if}
-{* if $page_type=='summercamp'
+{if $page_type=='summercamp'}
   <script type="text/javascript" src="./js/jquery.youtubeplaylist.js"></script>
-  <script type="text/javascript" src="./js/summercamp_en.js"></script> *}
+  <script type="text/javascript" src="./js/summercamp_en.js"></script>
 {/if}
 {/literal}
 
