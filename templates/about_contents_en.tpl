@@ -226,22 +226,27 @@ Nagoya University OpenCourseWare Steering Committee
 </tr>
 <tr>
 <td>Yoshifumi INOUE</td>
+<td>Shuhei TAKAGI</td>
+<td>Ryousuke YAMAGISHI</td>
+</tr>
+<tr>
 <td>Kazuki UEMURA</td>
 <td>Yuma SATO</td>
+<td>Hiromasa YAMAUCHI</td>
 </tr>
 <tr>
-<td>Hiromasa YAMAUCHI</td>
 <td>Daisuke TAKAICHI</td>
 <td>You XIA</td>
+<td>Takahiro KOJIMA</td>
 </tr>
 <tr>
-<td>Takahiro KOJIMA</td>
 <td>Yuuya NOBE</td>
 <td>Katsuyasu KAMIMURA</td>
+<td>Masashi YAMAZAKI</td>
 </tr>
 <tr>
-<td>Masashi YAMAZAKI</td>
 <td>Mikito YAMAMOTO</td>
+<td>Hanako HOSHINO</td>
 <td>Yuto TOIDA</td>
 </tr>
 <tr>
