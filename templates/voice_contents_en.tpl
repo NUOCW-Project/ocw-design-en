@@ -11,7 +11,7 @@
 
 <div class="movie_info">
 <p>Name:</p>
-<p>Julian</p>
+<p>Julian Pimienta</p>
 <p>Country:</p>
 <p>Columbia</p>
 <p>Message:</p>
