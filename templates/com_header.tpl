@@ -1,6 +1,7 @@
 {include file="com_meta.tpl"}
 
 <body>
+{literal}
 {if $page_type=='voice'}
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -11,7 +12,7 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 {/if}
-
+{/literal}
 <div id="header">
 {include file="com_topbar.tpl"}
 
