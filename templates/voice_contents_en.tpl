@@ -18,7 +18,7 @@
 <p>Julian researches anime and cosplay here at Nagoya University. Let's find out more about Nagoya's special link to Cosplay!</p>
 </div>
 
-<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+<div class="fb-like" data-href="https://www.facebook.com/Nagoya.Univ.info.ocw" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
 
 </div> <!-- movie end --> 
 
