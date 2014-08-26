@@ -2,20 +2,20 @@
 
 <body>
 
-{literal}
-{if $page_type=="voice"}
-{/literal}
+{ldelim}
+if $page_type=="voice"
+{rdelim}
 
 <div id="fb-root"></div>
-<script>(function(d, s, id) {literal} {
+<script>(function(d, s, id) {ldelim}
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
   js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.0";
   fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-{/literal}
-{literal}{/if}{/literal}
+{rdelim} (document, 'script', 'facebook-jssdk'));</script>
+
+{ldelim}/if{rdelim}
 
 <div id="header">
 {include file="com_topbar.tpl"}
