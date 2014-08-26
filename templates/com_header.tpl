@@ -2,7 +2,7 @@
 
 <body>
 
-
+{literal}{if $page_type=="voice"}{/literal}
 <div id="fb-root"></div>
 <script>(function(d, s, id) {literal} {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -11,7 +11,7 @@
   js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.0";
   fjs.parentNode.insertBefore(js, fjs);
 } {/literal} (document, 'script', 'facebook-jssdk'));</script>
-
+{literal}{/if}{/literal}
 
 
 <div id="header">
