@@ -102,7 +102,7 @@ Summer Camp Promotion Video 2013
 
 <div id="information">
 <h2>Information</h2>
-<p>The registration of the summer camp is open until 25th July, and the camp will be held from September 8th to 12th. Additional information has been uploaded on the Mei-Writing website. The summer camp is becoming more and more popular year after year. Last year, the number of the applicants surpassed the fixed quota (30 people) for the first time. The application to apply is now available (since April). You can apply here:</p>
+<p>The registration of the summer camp is open until 28th August, and the camp will be held from September 8th to 12th. Additional information has been uploaded on the Mei-Writing website. The summer camp is becoming more and more popular year after year. Last year, the number of the applicants surpassed the fixed quota (30 people) for the first time. The application to apply is now available (since April). You can apply here:</p>
 
 
 <p>URL:
