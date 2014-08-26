@@ -54,6 +54,7 @@
 {/if}
 {if $page_type=='voice'}
   <script type="text/javascript" src="./js/voice.js"></script>
+  <script type="text/javascript" src="./js/fb_like_button.js"></script>
 {/if}
 {if $page_type=='summercamp'}
   <script type="text/javascript" src="./js/jquery.youtubeplaylist.js"></script>

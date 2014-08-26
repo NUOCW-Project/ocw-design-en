@@ -1,6 +1,10 @@
 {include file="com_meta.tpl"}
 
 <body>
+{literal}
+{if $page_type=='voice'}
+<div id="fb-root"></div>
+{/if}{/literal}
 
 <div id="header">
 {include file="com_topbar.tpl"}
