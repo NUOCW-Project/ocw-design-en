@@ -60,6 +60,15 @@ p{
    line-height: 1.5;
 }
 
+/* SNS_button property */
+
+.fb_iframe_widget p{
+   top: 15px;
+}
+
+
+/* .back property */
+
 .back{
    color: #77BB44;
    cursor: pointer;
