@@ -9,7 +9,7 @@ $(document).ready(function(){
     
 });
         $(window).load(function(){
-        $("iframe.twitter-share-button twitter-tweet-button twitter-share-button twitter-count-horizontal").contents().find("html").css("height","35px");
+        $("iframe.twitter-share-button twitter-tweet-button twitter-share-button twitter-count-horizontal").css("height","35px");
         $("iframe.twitter-share-button twitter-tweet-button twitter-share-button twitter-count-horizontal").contents().find("a").css("top","15px");
 });
 
