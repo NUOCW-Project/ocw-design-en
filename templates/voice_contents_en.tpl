@@ -18,9 +18,13 @@
 <p>Julian researches anime and cosplay here at Nagoya University. Let's find out more about Nagoya's special link to Cosplay!</p>
 </div>
 
+<div class="sns_share">
+
 <div class="fb-like" data-href="https://www.facebook.com/Nagoya.Univ.info.ocw" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
 
-<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://ocw.nagoya-u.jp/index.php?lang=en&mode=g&page_type=voice" data-via="your_screen_name" data-lang="en">Tweet</a>
+<a class="tweet_button" href="https://twitter.com/share" class="twitter-share-button" data-url="http://ocw.nagoya-u.jp/index.php?lang=en&mode=g&page_type=voice" data-via="NagoyaUniv_OCW" data-lang="en">Tweet</a>
+
+</div>
 
 </div> <!-- movie end --> 
 
