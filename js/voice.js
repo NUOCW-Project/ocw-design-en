@@ -8,9 +8,9 @@ $(document).ready(function(){
             return false;
     
 });
-
-        $("#twitter-widget-0").css("top","15px");
-   
+        $(window).load(function(){
+        $("iframe.twitter-share-button twitter-tweet-button twitter-share-button twitter-count-horizontal").contents().find("html").css("height","35px");
+        $("iframe.twitter-share-button twitter-tweet-button twitter-share-button twitter-count-horizontal").contents().find("a").css("top","15px");
 });
 
 });
