@@ -56,9 +56,9 @@
 
 </div>
 
-<div class="fb-like" data-href="http://video.media.nagoya-u.ac.jp/pcsweb/FlvPlayer/play.html?contentsCode=3665&categoryCode=140&videoType=0" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+<div class="fb-like" data-href="http://ocw.nagoya-u.jp/index.php?lang=en&mode=g&page_type=voice" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
 <div class="tweet_button">
-<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://video.media.nagoya-u.ac.jp/pcsweb/FlvPlayer/play.html?contentsCode=3665&categoryCode=140&videoType=0" data-via="NagoyaUniv_OCW" data-lang="en">Tweet</a>
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://ocw.nagoya-u.jp/index.php?lang=en&mode=g&page_type=voice" data-via="NagoyaUniv_OCW" data-lang="en">Tweet</a>
 </div>
 
 </div> <!-- movie end -->
