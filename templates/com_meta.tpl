@@ -7,6 +7,7 @@
 
 <link rel="stylesheet" type="text/css" href="css/{$lang}/common.css">
 
+
 {literal}
 {if $mode=='l'}
   <link rel="stylesheet" type="text/css" href="css/{$lang}/clist.css">
@@ -64,16 +65,24 @@
 {/literal}
 
 <title>
-<!-- ¥¿¥¤¥È¥ë¤Ë¹ÖµÁ¾ğÊó¤òÆş¤ì¤ë -->
+<!-- ã‚¿ã‚¤ãƒˆãƒ«ã«è¬›ç¾©æƒ…å ±ã‚’å…¥ã‚Œã‚‹ -->
 {section name=n loop=$navi_list step=-1}
 {$navi_list[n].text} |		
 {/section}
 {if $lang=='ja'}
-Ì¾Âç¤Î¼ø¶È (NU OCW)
+åå¤§ã®æˆæ¥­ (NU OCW)
 {else}
 NU OCW 
 {/if}
-<!-- ¤³¤³¤Ş¤Ç -->
+<!-- ã“ã“ã¾ã§ -->
 </title>
+{literal}
+{if $page_type=='voice'}
+<meta property="og:title" content="International  Studentâ€™s Voices">
+<meta property="og:description" content="World Cosplay Summit in Nagoya!">
+<meta property="og:url" content="http://video.media.nagoya-u.ac.jp/pcsweb/FlvPlayer/play.html?contentsCode=3690&categoryCode=140&videoType=0">
+<meta property="og:image" content="http://ocw.nagoya-u.jp/images/en/thumbnail/Julian_thumbnail.png">
+{/if}
+{/literal}
 </head>
 
