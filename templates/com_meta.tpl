@@ -76,13 +76,5 @@ NU OCW
 {/if}
 <!-- ここまで -->
 </title>
-{literal}
-{if $page_type=='voice'}
-<meta property="og:title" content="International  Student’s Voices">
-<meta property="og:description" content="World Cosplay Summit in Nagoya!">
-<meta property="og:url" content="http://ocw.nagoya-u.jp/index.php?lang=en&mode=g&page_type=voice">
-<meta property="og:image" content="http://ocw.nagoya-u.jp/images/en/thumbnail/Julian_thumbnail.png">
-{/if}
-{/literal}
 </head>
 
