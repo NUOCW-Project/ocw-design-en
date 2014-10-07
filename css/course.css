@@ -206,3 +206,8 @@ table.basic ul, table.basic ol, table.basic dl {
 	padding: 0 0 0 25px;
 }
 
+/* Facebook いいねボタンの位置の指定 */
+.fb_iframe_widget{
+    top: -5px;
+    margin: 0 0 0 20px;
+}{
