@@ -43,7 +43,7 @@
 <script type="text/javascript" src="./js/common.js"></script>
 <script type="text/javascript" src="./js/googleAnalytics.js"></script>
 {literal}
-{if $mode=='c'}
+{if $mode=='l'}
   <script type="text/javascript" src="./js/jquery.sticky-kit.min.js">
   <script type="text/javascript" src="./js/course_list.js">
 {/if}
