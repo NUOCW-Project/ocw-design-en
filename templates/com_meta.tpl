@@ -44,8 +44,8 @@
 <script type="text/javascript" src="./js/googleAnalytics.js"></script>
 {literal}
 {if $mode=='l'}
-  <script type="text/javascript" src="./js/jquery.sticky-kit.min.js">
-  <script type="text/javascript" src="./js/course_list.js">
+<script type="text/javascript" src="./js/jquery.sticky-kit.min.js"></script>
+<script type="text/javascript" src="./js/course_list.js"></script>
 {/if}
 {if $page_type=='top'}
   <script type="text/javascript" src="./js/slider.js"></script>
