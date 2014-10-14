@@ -132,7 +132,7 @@
 <a style="height: 35px;" href="https://twitter.com/share" class="twitter-share-button" data-url="http://ocw.nagoya-u.jp/index.php?lang=en&mode=g&page_type=voice" data-via="NagoyaUniv_OCW" data-lang="en">Tweet</a>
 </div>
 </div> {* class = share  *}
-
+<div class="movie_link">
 <h3>Links</h3>
 <ul>
   <li><a href="http://en.wikipedia.org/wiki/Nagoya">About Nagoya</a></li>
