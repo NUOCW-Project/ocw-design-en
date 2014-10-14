@@ -140,7 +140,7 @@
   <li><a href="http://en.nagoya-u.ac.jp">Nagoya University Homepage</a></li>
   <li><a href="http://www.mext.go.jp/a_menu/koutou/ryugaku/boshu/1333340.htm">Japanese Ministry of Education Scholarship</a></li>
   <li><a href="http://admissions.g30.nagoya-u.ac.jp/en/">Nagoya University Global 30 Program</a></li>
-  <li>nuocw.support@gmail.com</li>
+  <li><img src="images/en/nuocw_mail.png" alt="nuocw.support[at]gmail.com"></li>
 </ul>
 
 </div>
