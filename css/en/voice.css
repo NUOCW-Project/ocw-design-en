@@ -74,6 +74,9 @@ p{
     width: 520px;
 }
 
+.movie_link ul{
+    list-style: none;
+}
 .movie_link ul li{
     line-height: 1.5;
 }
@@ -90,7 +93,7 @@ p{
    float: none;
 }
 .tweet_button{
-    float: none;
+   padding: 10px;
 }
 
 /* .back property */
