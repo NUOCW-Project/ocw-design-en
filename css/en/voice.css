@@ -13,6 +13,11 @@ h1, h2{
     margin-bottom: 5px;
 }
 
+h3{
+    color: #77bb44;
+    border-bottom: medium solid #77bb44;
+}
+
 p{
    font-size: 20px;
 }
@@ -75,9 +80,17 @@ p{
 
 /* SNS_button property */
 
+.share{
+    width: 480px;
+    margin: 0 20px 0 0;
+}
+
 .fb_iframe_widget{
    padding: 10px 0px;
-   width: 480px;
+   float: none;
+}
+.tweet_button{
+    float: none;
 }
 
 /* .back property */
