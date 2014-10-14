@@ -1,4 +1,5 @@
 $(document).ready(function(){
+// Back to top
     $(function () {
 
         $(".back").click(function () {
@@ -7,11 +8,12 @@ $(document).ready(function(){
         $('html,body').animate({ scrollTop: p }, 'fast');
             return false;
     
-});
-        $(window).load(function(){
-        $("iframe.twitter-share-button twitter-tweet-button twitter-share-button twitter-count-horizontal").css("height","35px");
-        $("iframe.twitter-share-button twitter-tweet-button twitter-share-button twitter-count-horizontal").contents().find("a").css("top","15px");
-});
+	});
 
-});
+	$(".movie .movie_link h3").click(function(){
+	    $(".movie .movie_link ul").toggle("slow");
+
+	});
+
+    });
 });

@@ -76,6 +76,7 @@ p{
 
 .movie_link ul{
     list-style: none;
+    display: none;
 }
 .movie_link ul li{
     line-height: 1.5;
