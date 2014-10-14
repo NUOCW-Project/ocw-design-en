@@ -9,6 +9,10 @@ h1,h2,h3{
    margin: 0px;
 }
 
+h1, h2{
+    margin-bottom: 5px;
+}
+
 p{
    font-size: 20px;
 }
@@ -17,9 +21,12 @@ p{
 /* movie property */
 
 .movie{
-   height: 440px;
+   overflow: hidden;
 }
 
+.movie div{
+    float: left;
+}
 .thumbnail{
    float: left;
    width: 480px;
@@ -38,12 +45,10 @@ p{
 } 
 
 .movie_info{
-   position: relative;
-   left: 20px;
    width: 520px;
    height: 320px;
+   margin: 0 0 0 20px;
    line-height: 1;
-   float: left;
 }
 
 
@@ -60,10 +65,19 @@ p{
    line-height: 1.5;
 }
 
+.movie_link{
+    width: 520px;
+}
+
+.movie_link ul li{
+    line-height: 1.5;
+}
+
 /* SNS_button property */
 
 .fb_iframe_widget{
    padding: 10px 0px;
+   width: 480px;
 }
 
 /* .back property */
