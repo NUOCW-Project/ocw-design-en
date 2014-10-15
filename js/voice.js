@@ -11,7 +11,7 @@ $(document).ready(function(){
 	});
 
 	$(".movie .movie_link h3").click(function(){
-	    $("this").next().toggle("slow");
+	    this.children("ul").next().toggle("slow");
 
 	});
 
