@@ -1,4 +1,6 @@
-$(document).ready(function(){
+/// <reference path="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.0.js">
+
+$(document).ready(function () {
 // Back to top
     $(function () {
 
@@ -11,8 +13,7 @@ $(document).ready(function(){
 	});
 
 	$(".movie .movie_link h3").click(function(){
-	    this.children("ul").next().toggle("slow");
-
+	    $(this).children("ul").next().toggle("slow");
 	});
 
     });
