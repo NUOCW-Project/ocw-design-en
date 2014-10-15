@@ -13,7 +13,7 @@ $(document).ready(function () {
 	});
 
 	$(".movie .movie_link h3").click(function(){
-	    $(this).children("ul").next().toggle("slow");
+	    $(this).next('ul').toggle("slow");
 	});
 
     });
