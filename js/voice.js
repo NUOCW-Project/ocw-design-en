@@ -10,7 +10,7 @@ $(function () {
 		$('html,body').animate({ scrollTop: p }, 'fast');
 	});
 
-	// Toggle Links
+	// Toggle Links 
 	$(".movie .movie_link h3").click(function(){
 		$(this).next("ul").toggle("slow");
 	        $(this).children("img").toggle();

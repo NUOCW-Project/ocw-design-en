@@ -45,8 +45,6 @@
 </div> {* class = movie *} 
 
 
-<!--  Back No. -->
-
 <h1>Back No.</h1>
 <div class="movie">
 <h2>July: What is Sushiro?</h2>
@@ -187,6 +185,6 @@
 <a style="height: 35px;" href="https://twitter.com/share" class="twitter-share-button" data-url="http://ocw.nagoya-u.jp/index.php?lang=en&mode=g&page_type=voice" data-via="NagoyaUniv_OCW" data-lang="en">Tweet</a>
 </div>
 
-</div> <!-- movie end --> 
+</div>
 
 *}
