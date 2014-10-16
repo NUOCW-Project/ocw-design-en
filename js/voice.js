@@ -18,7 +18,8 @@ $(document).ready(function () {
 	    },
 	    function(){
 		$(this).children("img").toggle();
-	    };
+	    }
+	);
 //	$(".movie .movie_link h3").click(function(){
 //	    $(this).next("ul").toggle("slow")
 	    
