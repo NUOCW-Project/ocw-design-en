@@ -12,21 +12,13 @@ $(document).ready(function () {
     
 	});
 // Links
-	$(".movie .movie_link h3").click(
-	    function(){
-		$(this).next("ul").toggle("slow");
-	    },
-	    function(){
-		$(this).children("img").toggle();
-	    }
-	);
-//	$(".movie .movie_link h3").click(function(){
-//	    $(this).next("ul").toggle("slow");
+	$(".movie .movie_link h3").click(function(){
+	    $(this).next("ul").toggle("slow");
 	    
-//	});
+	});
 
-//	$(".movie .movie_link h3").click(function(){
-//	    $(this).children("img").toggle("slow");
-//	});
+	$(".movie .movie_link h3").click(function(){
+	    $(this).children("img").toggle("slow");
+	});
     });
 });
