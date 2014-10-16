@@ -13,5 +13,6 @@ $(function () {
 	// Toggle Links
 	$(".movie .movie_link h3").click(function(){
 		$(this).next("ul").toggle("slow");
+	        $(this > "img").toggle();
 	});
 });
