@@ -28,7 +28,11 @@
 </div>
 
 <div class="movie_link">
-<h3>Links</h3>
+<h3>
+  <img class="close" src="images/en/close_text.png" alt="close">
+  <img class="open" src="images/en/open_text.png" alt="open">
+  Links
+</h3>
 <ul>
   <li><a href="http://www.mext.go.jp/a_menu/koutou/ryugaku/boshu/1333340.htm">Japanese Ministry of Education Scholarship</a></li>
   <li><a href="http://en.wikipedia.org/wiki/East_Asian_rainy_season">Tsuyu</a></li>
@@ -79,7 +83,11 @@
 </div>
 
 <div class="movie_link">
-<h3>Links</h3>
+<h3>
+  <img class="close" src="images/en/close_text.png" alt="close">
+  <img class="open" src="images/en/open_text.png" alt="open">
+  Links
+</h3>
 <ul>
   <li><a href="http://nupace.ecis.nagoya-u.ac.jp/en/">Nagoya University Nupace Program</a></li>
   <li><a href="http://www.akindo-sushiro.co.jp">Sushiro</a></li>
@@ -133,7 +141,11 @@
 </div>
 </div> {* class = share  *}
 <div class="movie_link">
-<h3>Links</h3>
+<h3>
+  <img class="close" src="images/en/close_text.png" alt="close">
+  <img class="open" src="images/en/open_text.png" alt="open">
+  Links
+</h3>
 <ul>
   <li><a href="http://en.wikipedia.org/wiki/Nagoya">About Nagoya</a></li>
   <li><a href="http://en.wikipedia.org/wiki/Nagoya_University">About Nagoya University</a></li>

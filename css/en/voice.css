@@ -73,7 +73,9 @@ p{
 .movie_link{
     width: 520px;
 }
-
+. movie_link h3 .open{
+    display: none;
+}
 .movie_link ul{
     list-style: none;
     display: none;
