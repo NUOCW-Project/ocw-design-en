@@ -18,7 +18,7 @@ $(document).ready(function () {
 	});
 
 	$(".movie .movie_link h3").click(function(){
-	    $(this).children("img").toggle("slow");
+	    $(this).children("img").toggle();
 	});
     });
 });
