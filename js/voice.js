@@ -11,11 +11,14 @@ $(document).ready(function () {
             return false;
     
 	});
-
+// Links
+// リストが現れる
 	$(".movie .movie_link h3").click(function(){
-	    $(this).chlidren("img").toggle();
-//	    $(this).parent("h3").next("ul").toggle("slow");
+	    $(this).next("ul").toggle("slow");
 	});
-
+// 画像が現れる
+	$(".movie .movie_link h3").click(function(){
+	    $(this).children("img").toggle("slow");
+	});
     });
 });
