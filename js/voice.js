@@ -14,7 +14,7 @@ $(document).ready(function () {
 
 	$(".movie .movie_link h3").click(function(){
 	    $(this).chlidren("img").toggle();
-	    $(this).next('ul').toggle("slow");
+	    $(this).parent("h3").next("ul").toggle("slow");
 	});
 
     });
