@@ -40,6 +40,8 @@
   <li>Saturday Aug 2, 2014: Nishiki-dori Red Carpet Cosplay Parade</li>
   <li>Saturday Aug 2, 2014 18:00~21:00: World Cosplay Summit Championship</li>
 </ul>
+<p>The above links are to external websites.</p>
+<p>Nagoya University OpenCourseWare is not responsible for the contents of external websites.</p>
 </div>
 
 </div> {* class = movie *} 
@@ -94,6 +96,8 @@
   <li><a href="http://www.nagoyaaqua.jp/aqua/othe/engl/">Nagoya Acquarium</a></li>
   <li><a href="http://www3.nucl.nagoya-u.ac.jp/access/index_en.html">How to get to Nagoya University from Centrair Airpor</a></li>
 </ul>
+<p>The above links are to external websites.</p>
+<p>Nagoya University OpenCourseWare is not responsible for the contents of external websites.</p>
 </div>
 
 
@@ -152,7 +156,8 @@
   <li><a href="http://admissions.g30.nagoya-u.ac.jp/en/">Nagoya University Global 30 Program</a></li>
   <li><span><img src="images/en/nuocw_mail.png" alt="nuocw.support[at]gmail.com"></span></li>
 </ul>
-
+<p>The above links are to external websites.</p>
+<p>Nagoya University OpenCourseWare is not responsible for the contents of external websites.</p>
 </div>
 
 </div> {* class =  movie *}
