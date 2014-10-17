@@ -94,7 +94,7 @@
   <li><a href="http://www.manaca.jp">Manaca IC card for subway and trains</a></li>
   <li><a href="http://www.bookoff.co.jp">Bookoff</a></li>
   <li><a href="http://www.nagoyaaqua.jp/aqua/othe/engl/">Nagoya Acquarium</a></li>
-  <li><a href="http://www3.nucl.nagoya-u.ac.jp/access/index_en.html">How to get to Nagoya University from Centrair Airpor</a></li>
+  <li><a href="http://www3.nucl.nagoya-u.ac.jp/access/index_en.html">How to get to Nagoya University from Centrair Airport</a></li>
 </ul>
 <p>The above links are to external websites.</p>
 <p>Nagoya University OpenCourseWare is not responsible for the contents of external websites.</p>
