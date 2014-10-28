@@ -44,6 +44,7 @@
 		padding: 5px 5px 0 0;
 		zoom: 1;
 	}
+
 .waku img{
 		margin-left: 5px;
 }
@@ -252,3 +253,10 @@ img#prj10{
 }
 
 
+/* Topicsを2つ並行して公開するとき */
+#topics_head{
+    margin: 25px 0 0 0;
+}
+/*#special_head {
+   padding-top: 25px;
+}*/
