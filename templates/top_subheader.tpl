@@ -1,6 +1,9 @@
 {* ¥È¥Ã¥×¥Ú¡¼¥¸¤Î header²èÁü *}
 <div class="wideslider">
 <ul>
+<li><a href="http://ocw.nagoya-u.jp/index.php?lang=en&mode=c&id=261"><img src ="images/en/slider/s05_nobel_en.png" alt="
+NUOCW Published Dr.Amano's course Electromagnetism I
+"></a></li>
  <li><a href="index.php?lang={$lang}&amp;mode=g&amp;page_type=about"><img src="images/en/slider/s01_about.jpg" alt="
 Nagoya University OpenCourseWare
 On the NU OCW website anyone from anywhere in the world can see Nagoya University class information and materials for free
@@ -12,9 +15,6 @@ On class webpages, you can watch instructors introduce their classes in One Minu
  <li><a href="index.php?lang={$lang}&amp;mode=g&amp;page_type=voice"><img src="images/en/slider/s03_studentvoices.jpg" alt="
 International Student's Voices
 Hear current Nagoya University students talk about their own experiences and feelings about Meidai! Anyone interested in Japan or Meidai should check these videos out!
-"></a></li>
-<li><a href="http://ocw.nagoya-u.jp/index.php?lang=en&mode=c&id=261"><img src ="images/en/slider/s05_nobel_en.png" alt="
-NUOCW Published Dr.Amano's course Electromagnetism I
 "></a></li>
 </ul>
 </div>
