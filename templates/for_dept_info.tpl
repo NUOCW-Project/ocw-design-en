@@ -1,4 +1,4 @@
-{literal}{* Éô¶ÉÄ¹°§»¢ÍÑ¤Î¥Æ¥ó¥×¥ì¡¼¥È *}{/literal}
+{literal}{* éƒ¨å±€é•·æŒ¨æ‹¶ç”¨ã®ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆ *}{/literal}
 {include file="com_header.tpl"}
 {assign var="info_only" value=true}
 {include file="dept_info_long_contents.tpl"}

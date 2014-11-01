@@ -2,12 +2,12 @@ body{
 	margin: 0;
 	padding: 0;
 
-	background-image: url(../images/common/bg.gif); /*¥°¥ì¡¼¤ÎÇØ·Ê*/
+	background-image: url(../images/common/bg.gif); /*ã‚°ãƒ¬ãƒ¼ã®èƒŒæ™¯*/
 	background-repeat: repeat-x;
-	background-position: 0px 90px; /* ¥Ø¥Ã¥À¡¼²èÁü¤Î²¼¤ËÇòÀş¤¬¤¢¤ë*/
+	background-position: 0px 90px; /* ãƒ˜ãƒƒãƒ€ãƒ¼ç”»åƒã®ä¸‹ã«ç™½ç·šãŒã‚ã‚‹*/
 
 	font-size: 12.5px; 
-	/* small»ØÄê¤Ï¥Ö¥é¥¦¥¶¤Ë¤è¤ê°Û¤Ê¤ë */
+	/* smallæŒ‡å®šã¯ãƒ–ãƒ©ã‚¦ã‚¶ã«ã‚ˆã‚Šç•°ãªã‚‹ */
 	color: #888888;
 }
 
@@ -39,7 +39,7 @@ a:hover{
 
 .header{
 	height: 90px; 
-	background-image: url(../images/ja/topbar.gif);/* ÇØ·Ê²èÁü¡ÖÌ¾Âç¤Î¼ø¶È¡× */
+	background-image: url(../images/ja/topbar.gif);/* èƒŒæ™¯ç”»åƒã€Œåå¤§ã®æˆæ¥­ã€ */
 	background-repeat: no-repeat;
 }
 
@@ -157,7 +157,7 @@ a:hover{
 }
 
 	#departmentslist li{
-		margin-bottom: -6px; /*²èÁü¤Î·ä´Ö¤ò¤Ê¤¯¤·¤Æ¤¤¤ë */
+		margin-bottom: -6px; /*ç”»åƒã®éš™é–“ã‚’ãªãã—ã¦ã„ã‚‹ */
 	}
 
 #being{
@@ -166,7 +166,7 @@ a:hover{
 
 #header_for_top{
 	height: 400px;
-	position: relative;/* #menu¤òÀäÂĞÇÛÃÖ¤¹¤ë¤¿¤á */
+	position: relative;/* #menuã‚’çµ¶å¯¾é…ç½®ã™ã‚‹ãŸã‚ */
 }
 
 	#menu{
@@ -201,7 +201,7 @@ a:hover{
 	.pankuzu{
 		min-height: 60px;
 		list-style-type: none;
-		padding: 0px; /* padding¤Î½é´ü²½¤ò¤¹¤ë¤³¤È¤ÇÌäÂê²ò·è¡Ê¥á¥â¡Ë*/
+		padding: 0px; /* paddingã®åˆæœŸåŒ–ã‚’ã™ã‚‹ã“ã¨ã§å•é¡Œè§£æ±ºï¼ˆãƒ¡ãƒ¢ï¼‰*/
 		margin: 0px;
 		/*border: dotted;
 		border-color: blue;*/
@@ -213,7 +213,7 @@ a:hover{
 			margin-right: 6px;
 		}
 
-/* °Ê²¼¥È¥Ã¥×¥Ú¡¼¥¸´ØÏ¢ */
+/* ä»¥ä¸‹ãƒˆãƒƒãƒ—ãƒšãƒ¼ã‚¸é–¢é€£ */
 
 #feature{
 	width: 540px;
@@ -262,10 +262,10 @@ a:hover{
 	
 }
 
-/* °Ê²¼¥³¡¼¥¹¥Û¡¼¥à´ØÏ¢ */
+/* ä»¥ä¸‹ã‚³ãƒ¼ã‚¹ãƒ›ãƒ¼ãƒ é–¢é€£ */
 
 #caption{
-	padding: 25px 305px 0px 0px; /* 25px¤è¤êÂç¤­¤¤µ¤¤¬¤¹¤ë¤Î¤Ïµ¤¤Î¤»¤¤¡© */
+	padding: 25px 305px 0px 0px; /* 25pxã‚ˆã‚Šå¤§ãã„æ°—ãŒã™ã‚‹ã®ã¯æ°—ã®ã›ã„ï¼Ÿ */
 	margin: 0px;
 }
 	
@@ -275,12 +275,12 @@ a:hover{
 
 	#teacher{
 		font-size: xx-large;
-		font-family: serif;/* ÌÀÄ«ÂÎ */
+		font-family: serif;/* æ˜æœä½“ */
 	}
 
 	#occupation{
 		font-size: medium;
-		font-family: serif;/* ÌÀÄ«ÂÎ */
+		font-family: serif;/* æ˜æœä½“ */
 	}
 
 	#data{
@@ -330,7 +330,7 @@ a:hover{
 	float: left;
 }
 
-/* °Ê²¼¥Õ¥Ã¥¿¡¼´ØÏ¢ */
+/* ä»¥ä¸‹ãƒ•ãƒƒã‚¿ãƒ¼é–¢é€£ */
 
 .jump{
 	float: right;

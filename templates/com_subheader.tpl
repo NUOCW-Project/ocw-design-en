@@ -1,10 +1,10 @@
-<!-- header²èÁü page_type¤´¤È¤ËÉ½¼¨ -->
+<!-- headerç”»åƒ page_typeã”ã¨ã«è¡¨ç¤º -->
 {literal}
-{* Éô¶É¾Ò²ð *}
+{* éƒ¨å±€ç´¹ä»‹ *}
 {if $page_type neq '' && $page_type|regex_replace:'/^.*_info$/i':'' eq ''}
    <img src="./images/{$lang}/department/header_{$page_type|regex_replace:'/_info$/':''}.jpg"
          alt="{/literal}{section name=n loop=$navi_list start=-2 max=1}{$navi_list[n].text}{/section}{literal}">
-{* ¥³¡¼¥¹¥ê¥¹¥È *}
+{* ã‚³ãƒ¼ã‚¹ãƒªã‚¹ãƒˆ *}
 {elseif $mode=='l' && $search_selected == 'department'}
   <img src="./images/{$lang}/department/header_{$page_type}.jpg"
        alt="{$title}"> 

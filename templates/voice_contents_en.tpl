@@ -19,7 +19,7 @@
 
 </div>
 
-{* SNS¶¦Í­¥Ü¥¿¥ó *}
+{* SNSå…±æœ‰ãƒœã‚¿ãƒ³ *}
 <div class="share">
 <div class="fb-like" data-href="http://ocw.nagoya-u.jp/index.php?lang=en&mode=g&page_type=voice" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
 <div class="tweet_button">
@@ -162,7 +162,7 @@
 
 </div> {* class =  movie *}
 
-{* ¥³¥Ô¥ÚÍÑ
+{* ã‚³ãƒ”ãƒšç”¨
 <Div Class="movie">
 <h2>Month:</h2> 
 <div class="thumbnail">

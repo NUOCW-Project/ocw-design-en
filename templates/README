@@ -1,47 +1,47 @@
-* ȯ�Ի�, �ɤΥڡ����Ǥ� assign ������
-- $lang          : ���� ('ja' �ޤ��� 'en')
-- $navi_list     : �ѥ󤯤��ꥹ�Ⱦ��� (���󡢾ܤ����� com_navi.tpl �ǻȤ��Ƥ����򸫤�)
+* 発行時, どのページでも assign するもの
+- $lang          : 言語 ('ja' または 'en')
+- $navi_list     : パンくずリスト情報 (配列、詳しくは com_navi.tpl で使われている所を見よ)
 
-** for_top.tpl �� assign �������
-- $on_top        : �ȥåץڡ������ɤ��� (�ȥåץڡ���ȯ�Ի��Τ� TRUE �ˤʤ�)
+** for_top.tpl で assign されるもの
+- $on_top        : トップページかどうか (トップページ発行時のみ TRUE になる)
 
-** for_clist.tpl �� assign �������
-- $on_clist      : �������ꥹ�Ȥ��ɤ���
-- $curr_department_abbr : ���ߤΥ��롼�� (���롼��ȯ�Ի��Τ�)
-- $info_only     : ����Ĺ������ʸ���Υ��롼�׾��󤫤ɤ��� (���롼�׾���ȯ�Ի��Τ�)
+** for_clist.tpl で assign されるもの
+- $on_clist      : コースリストかどうか
+- $curr_department_abbr : 現在のグループ (グループ発行時のみ)
+- $info_only     : 部局長挨拶本文等のグループ情報かどうか (グループ情報発行時のみ)
 
-** for_course.tpl �� assign �������
+** for_course.tpl で assign されるもの
 - $course_info
 
-** for_vs.tpl �� assign �������
-- $vsyllabus_list: ��ʬ�ּ��ȾҲ�ξ���
+** for_vs.tpl で assign されるもの
+- $vsyllabus_list: 一分間授業紹介の情報
 
-* ɽ����, assign ������ (literal ��ǻȤ���)
-- $lang          : ���� (ja, en)
-- $another_lang  : $lang �Ǥʤ����� (en, ja)
-- $mode          : �ڡ���ʬ��
+* 表示時, assign するもの (literal 内で使える)
+- $lang          : 言語 (ja, en)
+- $another_lang  : $lang でない言語 (en, ja)
+- $mode          : ページ分類
 - $id            : ID
-- $page_type     : �ڡ�������
-- $exist_another : �б�����¾����Υڡ�����¸�ߤ��뤫
-- $dept_list     : �������롼�׾���(ά�Τ��������ͤ� ID �ȥ��롼��̾)
+- $page_type     : ページ種別
+- $exist_another : 対応する他言語のページが存在するか
+- $dept_list     : 公開グループ情報(略称がキー、値に ID とグループ名)
 
-** �ȥåץڡ����Τ�
-- $ranking       : ����������󥭥󥰾��� 
+** トップページのみ
+- $ranking       : アクセスランキング情報 
 
-* ���ƤΥڡ����˶��̤���ġ��Υѡ���
+* 全てのページに共通する個々のパーツ
 - com_header.tpl
--- com_assign_navilist.tpl : ȯ�Ի��� assign ���줿 $navi_list ��ƥ�ץ졼������ѿ�������Ȥ�����¸����.
-                             (����Ū�˥ѥ󤯤��ꥹ�Ȥʤɤ���ʬ�ϸ��������Ȥ�ɽ������ݤ˥���ѥ��뤵���뤿��)
--- com_meta.tpl   : DOCTYPE ���, head �򵭽�. body �򳫤�.
--- com_topbar.tpl : �����С��򵭽�. div.main, div.main_back �򳫤�.
-- com_footer.tpl : �եå����򵭽Ҥ� div#contents ���Ĥ���. div.main, div.main_back ���Ĥ�, body ���Ĥ���.
+-- com_assign_navilist.tpl : 発行時に assign された $navi_list をテンプレート内に変数の定義として保存する.
+                             (将来的にパンくずリストなどの部分は公開サイトで表示する際にコンパイルさせるため)
+-- com_meta.tpl   : DOCTYPE 宣言, head を記述. body を開く.
+-- com_topbar.tpl : 上部バーを記述. div.main, div.main_back を開く.
+- com_footer.tpl : フッターを記述し div#contents を閉じる. div.main, div.main_back を閉じ, body も閉じる.
 
-* �ġ��Υڡ�������ʸ�ν���
+* 個々のページの本文の書き方
 - *_contents.tpl
--- ɬ�פʤ�и��Ф������ε���
--- div#contents �򳫤�
+-- 必要ならば見出し画像の記述
+-- div#contents を開く
 
-* ȯ�Ի����ɤ߹���ƥ�ץ졼��
+* 発行時に読み込むテンプレート
 - for_*.tpl      :
--- for ���դ��ƥ�ץ졼�Ȥ��ǽ�˥����뤵��롣
--- for ���դ��ʤ��ƥ�ץ졼�ȤϤ���ˤ�������ɤ߹��ޤ����ǥ����뤵��롣
+-- for が付くテンプレートが最初にコールされる。
+-- for が付かないテンプレートはさらにその中に読み込まれる形でコールされる。

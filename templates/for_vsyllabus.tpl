@@ -1,4 +1,4 @@
-{literal}{* �ӥ��奢�륷��Х��Υƥ�ץ졼�� *}{/literal}
+{literal}{* ビジュアルシラバスのテンプレート *}{/literal}
 {include file="com_header.tpl"}
 {if $lang=='ja'}
 {include file="vs_contents.tpl"}

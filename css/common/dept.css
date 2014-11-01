@@ -1,7 +1,7 @@
 @charset "euc-jp";
 /* 
 -------------------------------------------------------------
- º¸Â¦ Éô¶É¥ê¥¹¥È 
+ å·¦å´ éƒ¨å±€ãƒªã‚¹ãƒˆ 
 -------------------------------------------------------------
 */
 
@@ -13,7 +13,7 @@
 	list-style:none;
 }
 
-/* IE6 ¥Ï¥Ã¥¯ */
+/* IE6 ãƒãƒƒã‚¯ */
 *html #departmentslist{
     margin: 0 2px 0 20px;
     padding: 0;
@@ -39,7 +39,7 @@
 }
 
 #departmentslist_list li{
-	/* margin-bottom: -6px; */ /*²èÁü¤Î·ä´Ö¤ò¤Ê¤¯¤·¤Æ¤¤¤ë */
+	/* margin-bottom: -6px; */ /*ç”»åƒã®éš™é–“ã‚’ãªãã—ã¦ã„ã‚‹ */
     margin: 0;
     height: 23px;
 }
@@ -57,7 +57,7 @@ ul#departmentslist a:visited{
 	font-weight: 400;
 }
 
-/* 1Ê¬´Ö¼ø¶È¾Ò²ğ */
+/* 1åˆ†é–“æˆæ¥­ç´¹ä»‹ */
 #podcast_waku{
     margin: 2px;
     padding: 0;

@@ -1,6 +1,6 @@
 
 
-/* $BIt6I>R2p(J */
+/* 部局紹介 */
 .faculty_intro {
    padding: 0 25px;
    margin-bottom: 50px;
@@ -24,7 +24,7 @@
 }
 
 
-/* $B3F!9$NI=$N$O$P(J */
+/* 各々の表のはば */
 
 th.title{
 /*   width: 33%;*/
@@ -44,7 +44,7 @@ th.lang, th.lecture_note, th.video{
    width: 150px;
 }
 
-/* $B%Z!<%8?t$NI=(J */
+/* ページ数の表 */
 #page_numbers{
    margin-left: auto;
    margin-right: auto;
@@ -64,7 +64,7 @@ th.lang, th.lecture_note, th.video{
 }
 
 
-/* $BIt6I>R2p8DJL%Z!<%8$N@_Dj(J */
+/* 部局紹介個別ページの設定 */
 #dep_info_dean_text{
 	 font-size: 24px;
 	 text-align: right;
@@ -80,7 +80,7 @@ th.lang, th.lecture_note, th.video{
 }
 
 
-/* $B%3!<%9%j%9%HI=(J */
+/* コースリスト表 */
 /*
 #class_list, #backnumber, #class_detail table{
    margin-top: 5px;

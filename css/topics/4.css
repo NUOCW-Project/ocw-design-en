@@ -92,7 +92,7 @@ ul#articles_title li a span.st_name
 
 ul#articles_title li a span.st_belong:before
 {
-    content:" ¡ü ";
+    content:" â— ";
     color: gray;
 }
 
@@ -148,7 +148,7 @@ ul#articles_detail li h1
 
 ul#articles_detail li h1:before
 {
-    content:"¡ü ";   
+    content:"â— ";   
 }
 
 ul#articles_detail li p.abst

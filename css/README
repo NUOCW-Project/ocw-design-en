@@ -1,36 +1,36 @@
-**CSS �ե������̿̾��§
+**CSS ファイルの命名規則
 
-css/common ���ڡ�����Ŭ�Ѥ�����
-  header.css  �إå�����ʬ
-  footer.css���եå�����ʬ
-  default.css��a �� font �ʤɤν������
-  dept.css	���ɥꥹ��
-  contents.css������ƥ�Ĥ���Ȥζ�����ʬ���ѥ󥯥��ꥹ�Ȥʤ�
+css/common 全ページに適用するもの
+  header.css  ヘッダー部分
+  footer.css　フッター部分
+  default.css　a や font などの初期設定
+  dept.css	部局リスト
+  contents.css　コンテンツの中身の共通部分、パンクズリストなど
 
-�ʲ����Ƽ�ڡ������Ȥ��ɤ߹���ե�����
-about.css ̾��μ��ȤˤĤ���
-clist.css �������ꥹ��
-course.css �������ڡ���
-faq.css FAQ�ڡ���
-glossary.css �Ѹ����
-inquiry.css ���䤤��碌
-sitemap.css �����ȥޥå�
-top.css �ȥåץڡ���
-topics.css ���̴��
-vsyllabus.css ��ʬ�ּ��ȾҲ�
-welcome.css ����������
+以下、各種ページごとに読み込むファイル
+about.css 名大の授業について
+clist.css コースリスト
+course.css コースページ
+faq.css FAQページ
+glossary.css 用語解説
+inquiry.css お問い合わせ
+sitemap.css サイトマップ
+top.css トップページ
+topics.css 特別企画
+vsyllabus.css 一分間授業紹介
+welcome.css ごあいさつ
 
- en.css 2010ǯ�٥ǥ������ǤαѸ�ڡ����˴ؤ����Ρʻ���Ū��
-�Ϻ��ΤȤ������ڡ������ɤ�Ǥ���
+ en.css 2010年度デザイン版の英語ページに関するもの（暫定的）
+は今のところ全ページで読んでいる
 
-**CSS ���åȥե����ޥå�
-- ���쥯��̾�θ�ϥ��ڡ����򳫤�����{���
-- �ƥץ��ѥƥ������ˤϥ��֤��ߤ���
-- 1�ĤΥץ��ѥƥ���1�ԤǴ�������
-- �ͤθ��ɬ��;�ǽ�λ��ɽ��
-- ���쥯�����å�Ʊ�Τϲ��ԤǴֳ֤򳫤������֤�ȤäƳ��ع�¤���ߤ��ʤ���
+**CSS セットフォーマット
+- セレクタ名の後はスペースを開けずに{を書く
+- 各プロパティの前にはタブを設ける
+- 1つのプロパティは1行で管理する
+- 値の後は必ず;で終了を表す
+- セレクタセット同士は改行で間隔を開け、タブを使って階層構造を設けない。
 
-������
+書き方例
 #hoge1{
 	property1: p1;
 	property2: p2;
@@ -42,18 +42,18 @@ welcome.css ����������
 	property2: p2;
 }
 
-**������
-- �֥饦���ߴ��ϥ��쥯�����åȤ����˥����Ȥ��
--- �㡧/* IE6 �ϥå�*/
-- margin , padding ����Ͼ�ά���ǽ�
--- �ɤ��㡧margin: 0 0 3px;
--- �����㡧margin-bottom: 3px;�ʤ�����Ƚ�����Ǥ��Ƥ��ʤ���ǽ�������뤿���
-- �ͤ�0�ΤȤ���ñ�̤��ά����
--- �ɤ��㡧top: 0;
--- �����㡧top: 0em; ������Ϥʤ������줹�뤿���
+**注意点
+- ブラウザ互換はセレクタセットの前にコメントを書く
+-- 例：/* IE6 ハック*/
+- margin , padding 指定は省略形で書く
+-- 良い例：margin: 0 0 3px;
+-- 悪い例：margin-bottom: 3px;（きちんと初期化できていない可能性があるため）
+- 値が0のときは単位を省略する
+-- 良い例：top: 0;
+-- 悪い例：top: 0em; （問題はないが統一するため）
 
-**�ץ��ѥƥ��ν��
-- ����Ū�� mozilla�Υ����Ȥ򻲹ͤˤ��롣
+**プロパティの順序
+- 基本的に mozillaのサイトを参考にする。
 /* Suggested order:
  * display
  * list-style
@@ -77,7 +77,7 @@ welcome.css ����������
  *
  */
 
-- �٤�������� http://hail2u.net/blog/webdesign/css2-property-order.html �򻲹ͤˤ���
+- 細かい順序は http://hail2u.net/blog/webdesign/css2-property-order.html を参考にする
 margin
 margin-top
 margin-right

@@ -1,4 +1,4 @@
-{literal}{* ¥³¡¼¥¹¥ê¥¹¥ÈÍÑ¤Î¥Æ¥ó¥×¥ì¡¼¥È *}{/literal}
+{literal}{* ã‚³ãƒ¼ã‚¹ãƒªã‚¹ãƒˆç”¨ã®ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆ *}{/literal}
 {include file="com_header.tpl"}
 {include file="clist_contents.tpl"}
 {include file="com_footer.tpl"}

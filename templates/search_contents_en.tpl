@@ -1,4 +1,4 @@
-{* Google 検索 ページのテンプレート *}
+{* Google 罎刈 吾若 *}
 <h1>Keyword Search</h1>
 
 <!-- Google search -->

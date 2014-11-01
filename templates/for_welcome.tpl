@@ -1,4 +1,4 @@
-{* ¡Ö¤´°§»¢¡×¤Î¥Æ¥ó¥×¥ì¡¼¥È *}
+{* ã€Œã”æŒ¨æ‹¶ã€ã®ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆ *}
 {include file="com_header.tpl"}
 {if $lang =="ja"}
   {include file="welcome_contents.tpl"}

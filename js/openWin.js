@@ -1,4 +1,4 @@
-//°ìÊ¬´Ö¼ø¶È¾Ò²ğ¤ÎÆ°²è¤Ø¤Î¥ê¥ó¥¯¤ò¥İ¥Ã¥×¥¢¥Ã¥×¥¦¥£¥ó¥É¥¦¤Ç³«¤¯
+//ä¸€åˆ†é–“æˆæ¥­ç´¹ä»‹ã®å‹•ç”»ã¸ã®ãƒªãƒ³ã‚¯ã‚’ãƒãƒƒãƒ—ã‚¢ãƒƒãƒ—ã‚¦ã‚£ãƒ³ãƒ‰ã‚¦ã§é–‹ã
  
 function openWin(theURI){
  PopUpWin=window.open(theURI,'theWin','scrollbars=0,width=600,height=400,resizable=1,directories=0,toolbar=0,status=1,location=0');

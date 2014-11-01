@@ -17,7 +17,7 @@ opt_file=true; opt_dir = false; opt_all = false; opt_overwrite = false; #default
 usage if ARGV.size < 2
 
 before = ARGV.shift  #prefix
-after =  ARGV.shift  #ÊÑ´¹¸å prefix
+after =  ARGV.shift  #å¤‰æ›å¾Œ prefix
 dir = (ARGV.empty?) ? "." : ARGV.shift  #
 
 if !File.directory?(dir)

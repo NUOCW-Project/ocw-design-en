@@ -1,4 +1,4 @@
-{* About NUOCW ページのテンプレート *}
+{* About NUOCW 吾若 *}
 <h1>About the &ldquo;Nagoya University OpenCourseWare&rdquo; (NU OCW) Website</h1>
 
 <h3>Welcome to &ldquo;NUOCW&rdquo;</h3>

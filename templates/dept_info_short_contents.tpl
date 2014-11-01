@@ -4,7 +4,7 @@
 {eval_strip var=$dept_info.description del_ptag=TRUE del_videos=TRUE trunc=150}...
 <a href="./index.php?lang={$lang}&amp;mode=l&amp;page_type={$curr_department_abbr}_info" id="more">more...</a>
 <div id="dep_url">
-<a href="{$dept_info.department_url}" target="_brank">{$dept_info.department_name}¤Î¥Û¡¼¥à¥Ú¡¼¥¸¤Ø</a>
+<a href="{$dept_info.department_url}" target="_brank">{$dept_info.department_name}ã®ãƒ›ãƒ¼ãƒ ãƒšãƒ¼ã‚¸ã¸</a>
 </div>
 </div> <!-- "dep_txt" end -->
 
@@ -20,7 +20,7 @@
     <embed src="./player.swf" FlashVars="FLV_URL={$dept_info.vs_url}" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent" width="303" height="259"></embed>
 {/if}
 -->
-<a href="{$dept_info.vs_url}" target="_blank">Éô¶ÉÄ¹¤«¤é¤Î¥á¥Ã¥»¡¼¥¸</a>
+<a href="{$dept_info.vs_url}" target="_blank">éƒ¨å±€é•·ã‹ã‚‰ã®ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸</a>
   </object>
 </div><!-- "dep_movie" end -->
 </div>

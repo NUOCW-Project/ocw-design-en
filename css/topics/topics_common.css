@@ -2,7 +2,7 @@
 {
     width: 875px !important ;
     margin-left: 30px;
-    font-family: "£Í£Ó ¥´¥·¥Ã¥¯",sans-serif; 
+    font-family: "ï¼­ï¼³ ã‚´ã‚·ãƒƒã‚¯",sans-serif; 
     font-weight: 400;
     color: #020202;
     font-size: inherit;
@@ -87,13 +87,13 @@ ul
     padding: 0;
 }
 
-#articles_title li a h2 /* ¥³¡¼¥¹Ì¾ */
+#articles_title li a h2 /* ã‚³ãƒ¼ã‚¹å */
 {
     clear: right;
     font-weight: 300;
 }
 
-#articles_title li a span /* ¶µ°÷Ì¾ */
+#articles_title li a span /* æ•™å“¡å */
 {
     color: inherit;
     clear: left;
@@ -154,14 +154,14 @@ div#vertical_border
     bottom: 0;*/
 }
 
-#articles_intro li h2 /* ¥­¥ã¥Ã¥Á¥³¥Ô¡¼ */
+#articles_intro li h2 /* ã‚­ãƒ£ãƒƒãƒã‚³ãƒ”ãƒ¼ */
 {
     font-weight: 500;
 }
 
 #articles_intro li h2:before
 {
-    content:"¡ü ";
+    content:"â— ";
     color: #ee88bb;
 }
 

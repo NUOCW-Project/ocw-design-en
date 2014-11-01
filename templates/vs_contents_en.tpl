@@ -1,4 +1,4 @@
-<div class = "course_contents"><!-- ¥³¥ó¥Æ¥ó¥Ä¥»¥ë³«»Ï -->
+<div class = "course_contents"><!-- ã‚³ãƒ³ãƒ†ãƒ³ãƒ„ã‚»ãƒ«é–‹å§‹ -->
 	<table id = "class_list" width="98%">
 		<tbody>
 		<tr id="class_head">
@@ -19,7 +19,7 @@
 			<a href="{$vs.url_flv}"
 			 onclick="openWin('{$vs.url_flv}');return false;"
 			 onkeypress="openWin('{$vs.url_flv}');return false;"
-			 title="{if $lang=='ja'}¿·¤·¤¤¥¦¥£¥ó¥É¥¦¤ò³«¤­¤Þ¤¹{else}Open the video in a new window.{/if}">
+			 title="{if $lang=='ja'}æ–°ã—ã„ã‚¦ã‚£ãƒ³ãƒ‰ã‚¦ã‚’é–‹ãã¾ã™{else}Open the video in a new window.{/if}">
 		{/if}
 			<div id="thumbnail">
 				{vsyllabus_img id=$vs.vsyllabus_id alt=""}
@@ -57,9 +57,9 @@
 		To watch the videos, you need Flash Player.<br>
 		You can download Flash Player from here:
 
-	  <a href="http://www.adobe.com/go/getflashplayer_jp" target="_blank"><img src="./images/common/get_flash_player.gif" alt="{if $lang=='ja'}FlashPlayer ¥À¥¦¥ó¥í¡¼¥É¥µ¥¤¥È¤Ø{elseif $lang=='en'}Download FlashPlayer{/if}" border="0" height="31" width="88" id="flash_img"></a>
+	  <a href="http://www.adobe.com/go/getflashplayer_jp" target="_blank"><img src="./images/common/get_flash_player.gif" alt="{if $lang=='ja'}FlashPlayer ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã‚µã‚¤ãƒˆã¸{elseif $lang=='en'}Download FlashPlayer{/if}" border="0" height="31" width="88" id="flash_img"></a>
 	</p>
 	</div>
 
-</div>	<!-- ¥³¥ó¥Æ¥ó¥Ä¥»¥ë½ªÎ» -->
+</div>	<!-- ã‚³ãƒ³ãƒ†ãƒ³ãƒ„ã‚»ãƒ«çµ‚äº† -->
 

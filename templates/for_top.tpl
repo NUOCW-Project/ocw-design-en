@@ -1,4 +1,4 @@
-{literal}{* OCW¥Û¡¼¥à¥Ú¡¼¥¸ÍÑ¤Î¥Æ¥ó¥×¥ì¡¼¥È *}{/literal}
+{literal}{* OCWãƒ›ãƒ¼ãƒ ãƒšãƒ¼ã‚¸ç”¨ã®ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆ *}{/literal}
 {include file="com_header.tpl"} 
 {if $lang=="ja"}
   {include file="top_contents.tpl"}

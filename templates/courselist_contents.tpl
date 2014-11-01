@@ -1,16 +1,16 @@
-<!-- ¥³¡¼¥¹¥ê¥¹¥ÈÉô¶É°ì¤ÄÊ¬³«»Ï -->
+<!-- ã‚³ãƒ¼ã‚¹ãƒªã‚¹ãƒˆéƒ¨å±€ä¸€ã¤åˆ†é–‹å§‹ -->
 {foreach from=$deptlist_for_clist item="dept"}
   {if $dept.course_list}
-	<!-- Éô¶ÉÌ¾ -->
+	<!-- éƒ¨å±€å -->
 	<a href="index.php?lang={$lang}&amp;mode=l&amp;page_type={$dept.department_abbr}"><img src="./images/{$lang}/t_clist_{$dept.department_abbr}.gif" alt="{if $lang=='ja'}{$dept.department_name}{else}{$dept.department_name_e}{/if}" width="155" height="40"></a>
 	<div class="courselist_center">
 		<ul class="courselist">
-			<!-- ¥ê¥¹¥ÈÆ°Åª¤ËÊÑ²½¤µ¤»¤ëÉôÊ¬³«»Ï -->
+			<!-- ãƒªã‚¹ãƒˆå‹•çš„ã«å¤‰åŒ–ã•ã›ã‚‹éƒ¨åˆ†é–‹å§‹ -->
 			{strip}
 			{foreach from=$dept.course_list item="course"}
 				<li class="courselist">
           <a href="index.php?lang={$lang}&amp;mode=c&amp;id={$course.course_id}&amp;page_type=index">
-            {if $lang=='ja'}{$course.instructor_name}¡§{/if}
+            {if $lang=='ja'}{$course.instructor_name}ï¼š{/if}
             {$course.course_name|default:"null"}
           </a>
         </li>
@@ -18,18 +18,18 @@
 			{foreachelse}
         <li class="no_course">
         {if $lang=='ja'}
-          ¸½ºß¸ø³«¤µ¤ì¤Æ¤¤¤ë¼ø¶È¤Ï¤¢¤ê¤Ş¤»¤ó¡£
+          ç¾åœ¨å…¬é–‹ã•ã‚Œã¦ã„ã‚‹æˆæ¥­ã¯ã‚ã‚Šã¾ã›ã‚“ã€‚
         {else}
           No courses available at this time.
         {/if}
         </li>
 			{/foreach}
 			{/strip}
-			<!-- ¥ê¥¹¥ÈÆ°Åª¤ËÊÑ²½¤µ¤»¤ëÉôÊ¬½ªÎ» -->
+			<!-- ãƒªã‚¹ãƒˆå‹•çš„ã«å¤‰åŒ–ã•ã›ã‚‹éƒ¨åˆ†çµ‚äº† -->
 		</ul>
 	</div>
 	<div class="clear"></div>
   {/if}
 	
 {/foreach}
-<!-- ¥³¡¼¥¹¥ê¥¹¥ÈÉô¶É°ì¤ÄÊ¬½ªÎ» -->
+<!-- ã‚³ãƒ¼ã‚¹ãƒªã‚¹ãƒˆéƒ¨å±€ä¸€ã¤åˆ†çµ‚äº† -->

@@ -1,12 +1,12 @@
 @charset "euc-jp";
 
-/* ËÜÊ¸ */
+/* æœ¬æ–‡ */
 #package{
-    position: relative;/* #menu¤òÀäÂĞÇÛÃÖ¤¹¤ë¤¿¤á */
+    position: relative;/* #menuã‚’çµ¶å¯¾é…ç½®ã™ã‚‹ãŸã‚ */
     overflow: hidden;
 }
 
-/* Firefox, SafariÂĞºö */
+/* Firefox, Safariå¯¾ç­– */
 #package2{
 	position: relative;
 	top: -25px;
@@ -76,7 +76,7 @@ body:first-of-type #contents{
 
 .pankuzu{
     margin: 5px 0 23px 0;
-    padding: 5px 0 0 0; /* padding¤Î½é´ü²½¤ò¤¹¤ë¤³¤È¤ÇÌäÂê²ò·è¡Ê¥á¥â¡Ë*/
+    padding: 5px 0 0 0; /* paddingã®åˆæœŸåŒ–ã‚’ã™ã‚‹ã“ã¨ã§å•é¡Œè§£æ±ºï¼ˆãƒ¡ãƒ¢ï¼‰*/
     min-height: 28px; 
     list-style-type: none;
 }

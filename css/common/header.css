@@ -1,11 +1,11 @@
 @charset "euc-jp";
-/*¥Ø¥Ã¥À¡¼*/
+/*ãƒ˜ãƒƒãƒ€ãƒ¼*/
 
 .header{
     	min-width: 975px;
         height: 90px; 
 	background-image: url(../../images/common/topbar.jpg);
-/* ÇØ·Ê²èÁü¡ÖÌ¾Âç¤Î¼ø¶È¡× */
+/* èƒŒæ™¯ç”»åƒã€Œåå¤§ã®æˆæ¥­ã€ */
 	background-repeat: no-repeat;
 }
 
@@ -20,7 +20,7 @@
     min-width: 975px;
     height: 90px;
     background-image: url(../../images/en/topbar.jpg);
-/* ÇØ·Ê²èÁü¡ÖÌ¾Âç¤Î¼ø¶È¡× */
+/* èƒŒæ™¯ç”»åƒã€Œåå¤§ã®æˆæ¥­ã€ */
     background-repeat: no-repeat;
 }
 
@@ -51,7 +51,7 @@
 
 .header_sub{
     max-width/**/: 770px;
-    /width: 770px; /* IE6ÂĞºö */
+    /width: 770px; /* IE6å¯¾ç­– */
     height: 60px;
     margin-left: 200px;
     padding: 0;

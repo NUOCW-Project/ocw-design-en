@@ -1,4 +1,4 @@
-{* ¥³¡¼¥¹Æâ¤Î¥Ú¡¼¥¸ÍÑ¤Î¥Æ¥ó¥×¥ì¡¼¥È *}
+{* ã‚³ãƒ¼ã‚¹å†…ã®ãƒšãƒ¼ã‚¸ç”¨ã®ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆ *}
 {include file="com_header.tpl"}
 {include file="course_contents.tpl"}
 {include file="com_footer.tpl"}

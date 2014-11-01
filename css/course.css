@@ -2,11 +2,11 @@
 
 /*
 ------------------------------------------------------------
-   ¥³¡¼¥¹¥Ú¡¼¥¸    
+   ã‚³ãƒ¼ã‚¹ãƒšãƒ¼ã‚¸    
 ------------------------------------------------------------
 */
 #caption{
-	padding: 25px 305px 0px 0px; /* 25px¤è¤êÂç¤­¤¤µ¤¤¬¤¹¤ë¤Î¤Ïµ¤¤Î¤»¤¤¡© */
+	padding: 25px 305px 0px 0px; /* 25pxã‚ˆã‚Šå¤§ãã„æ°—ãŒã™ã‚‹ã®ã¯æ°—ã®ã›ã„ï¼Ÿ */
 	margin: 0px;
 }
 	
@@ -16,14 +16,14 @@
 
 	#teacher{
 		font-size: xx-large;
-		font-family: '¥Ò¥é¥®¥ÎÌÀÄ« Pro W3', 'Hiragino Mincho Pro', '£Í£Ó £ĞÌÀÄ«', 'MS PMincho', 'MS¡¡ÌÀÄ«', 'MS Mincho', serif;/* ÌÀÄ«ÂÎ */
+		font-family: 'ãƒ’ãƒ©ã‚®ãƒæ˜æœ Pro W3', 'Hiragino Mincho Pro', 'ï¼­ï¼³ ï¼°æ˜æœ', 'MS PMincho', 'MSã€€æ˜æœ', 'MS Mincho', serif;/* æ˜æœä½“ */
 		padding-top: 12px;
 		padding-bottom: 5px;
 	}
 
 	#occupation{
 		font-size: medium;
-		font-family: serif;/* ÌÀÄ«ÂÎ */
+		font-family: serif;/* æ˜æœä½“ */
 	}
 
 	#data{
@@ -47,16 +47,16 @@
 		font-size: 15px;
 	}
 
-#line1{		/* ÀÖ¤¤¿åÊ¿Àş¾å */
+#line1{		/* èµ¤ã„æ°´å¹³ç·šä¸Š */
 	width: 690px;
 	height: 4px;
 }
 
 #main_text{
-	clear: right;/* ÌäÂêÅÀ¡§°ÌÃÖ¤¬º¸¤ÎÉô¶É¥ê¥¹¥È¤Î²¼¤Ş¤Ç²¼¤¬¤Ã¤Æ¤·¤Ş¤Ã¤Æ¤¤¤ë */
+	clear: right;/* å•é¡Œç‚¹ï¼šä½ç½®ãŒå·¦ã®éƒ¨å±€ãƒªã‚¹ãƒˆã®ä¸‹ã¾ã§ä¸‹ãŒã£ã¦ã—ã¾ã£ã¦ã„ã‚‹ */
 }
 
-#line2{		/* ÀÖ¤¤¿åÊ¿Àş²¼ */
+#line2{		/* èµ¤ã„æ°´å¹³ç·šä¸‹ */
 	width:690px;
 	height:4px;
 	margin-top:18px;
@@ -74,7 +74,7 @@
 
 /*
 ------------------------------------------------------------
-   ¥³¡¼¥¹¥Ú¡¼¥¸¤ÎËÜÊ¸
+   ã‚³ãƒ¼ã‚¹ãƒšãƒ¼ã‚¸ã®æœ¬æ–‡
 ------------------------------------------------------------
 */
 .e_text {
@@ -122,7 +122,7 @@
 }
 
 html*.e_text p {
-    float: none;  /*IE7¥Ï¥Ã¥¯*/
+    float: none;  /*IE7ãƒãƒƒã‚¯*/
 }
 
 .e_text ul, .e_text ol {
@@ -206,7 +206,7 @@ table.basic ul, table.basic ol, table.basic dl {
 	padding: 0 0 0 25px;
 }
 
-/* Facebook ¤¤¤¤¤Í¥Ü¥¿¥ó¤Î°ÌÃÖ¤Î»ØÄê */
+/* Facebook ã„ã„ã­ãƒœã‚¿ãƒ³ã®ä½ç½®ã®æŒ‡å®š */
 .fb_iframe_widget{
     top: -5px;
     margin: 0 0 0 20px;

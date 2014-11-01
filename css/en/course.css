@@ -4,7 +4,7 @@ body {
    min-width: 1120px;
 }
 
-/* $B9V5A(J/$B650wL>(J $B3+9VIt6I$J$I(J */
+/* 講義/教員名 開講部局など */
 
 #class_info {
    float: left;
@@ -37,7 +37,7 @@ body {
 }  
 
 
-/* $BI=(J */
+/* 表 */
 #class_table {
    background: white;
    font-size: 20px;
@@ -65,7 +65,7 @@ body {
    height: 20px;
 }
 
-/* $B%3%s%F%s%D(J */
+/* コンテンツ */
 
 #class_detail{
    clear: both;

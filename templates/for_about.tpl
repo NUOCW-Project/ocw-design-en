@@ -1,4 +1,4 @@
-{* ��̾��μ��ȤˤĤ��ơפΥƥ�ץ졼�� *}
+{* 「名大の授業について」のテンプレート *}
 {include file="com_header.tpl"}
 {if $lang =="ja"}
   {include file="about_contents.tpl"}

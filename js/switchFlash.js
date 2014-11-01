@@ -1,14 +1,14 @@
-// Ëä¤á¹ş¤ßFlash¤ÎURL¤òÀÚ¤êÂØ¤¨¤ë
-  // exid : ÀÚ¤êÂØ¤¨¤ëdivÍ×ÁÇ¤Îid
-  // url : ºÆÀ¸¤µ¤»¤ëÆ°²è¤Î¥Ñ¥¹
-  // title : Æ°²è¤Î¥¿¥¤¥È¥ë 
+// åŸ‹ã‚è¾¼ã¿Flashã®URLã‚’åˆ‡ã‚Šæ›¿ãˆã‚‹
+  // exid : åˆ‡ã‚Šæ›¿ãˆã‚‹divè¦ç´ ã®id
+  // url : å†ç”Ÿã•ã›ã‚‹å‹•ç”»ã®ãƒ‘ã‚¹
+  // title : å‹•ç”»ã®ã‚¿ã‚¤ãƒˆãƒ« 
 function switchFlash(url, title, img) {
-    // div¤Îºï½ü
+    // divã®å‰Šé™¤
     var target = document.getElementById('student');
     while(target.firstChild){
     target.removeChild(target.firstChild);
     }
-    // div¥¨¥ì¥á¥ó¥È¤ÎÀ¸À®
+    // divã‚¨ãƒ¬ãƒ¡ãƒ³ãƒˆã®ç”Ÿæˆ
     var element = document.createElement('div');
     element.id = 'interview_video_frame';
     element.innerHTML = '\
@@ -22,6 +22,6 @@ function switchFlash(url, title, img) {
     <embed src="./player.swf" FlashVars="FLV_URL=' + url + '" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent" width="302" height="272"></embed>\
 </object>\
 </div>';
-    // div¥¨¥ì¥á¥ó¥È¤ÎÄÉ²Ã
+    // divã‚¨ãƒ¬ãƒ¡ãƒ³ãƒˆã®è¿½åŠ 
     target.appendChild(element);
 }

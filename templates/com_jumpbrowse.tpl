@@ -1,4 +1,4 @@
-{* ���ƥ��꡼, ���ɤΰ����إ����פ���ܥ��� *}
+{* カテゴリー, 部局の一覧へジャンプするボタン *}
 <div id="browse_jump">
 <ul>
    <li id="category_img">

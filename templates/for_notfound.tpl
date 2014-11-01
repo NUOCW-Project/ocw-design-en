@@ -1,5 +1,5 @@
-{* Not Found »ş¤Î¥Æ¥ó¥×¥ì¡¼¥È *}
-{literal}{assign var="page_type" value="notfound"}{/literal}{* ¾å½ñ¤­¤¹¤ë *}
+{* Not Found æ™‚ã®ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆ *}
+{literal}{assign var="page_type" value="notfound"}{/literal}{* ä¸Šæ›¸ãã™ã‚‹ *}
 {include file="com_header.tpl"}
 {include file="notfound_contents.tpl"}
 {include file="com_footer.tpl"}

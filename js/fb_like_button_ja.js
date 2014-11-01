@@ -1,5 +1,4 @@
-// 日本語版 文字コードの指定が違うだけ
-(function(d, s, id) {
+// ユ茯 潟(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;

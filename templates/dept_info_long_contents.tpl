@@ -1,4 +1,4 @@
-<!-- Éô¶É¾Ò²ğ¤Î¥Ó¥Ç¥ª¡¡-->
+<!-- éƒ¨å±€ç´¹ä»‹ã®ãƒ“ãƒ‡ã‚ªã€€-->
 {* {if $dept_info.vs_url != ''}
 <div class="inline">
 <div class="welcome_img">
@@ -24,7 +24,7 @@
 	</div>
 <div>
 *}
-<!-- Éô¶É¾Ò²ğ¤Î¥Ó¥Ç¥ª½ªÎ» -->
+<!-- éƒ¨å±€ç´¹ä»‹ã®ãƒ“ãƒ‡ã‚ªçµ‚äº† -->
 
 <div class="clear"></div>
 {if $lang=="en"}
@@ -45,36 +45,36 @@
 
 
 	{if $dept_info.vs_url}
-	<!-- ----- FlashPlayer ¤Î°ÆÆâ ----- -->
+	<!-- ----- FlashPlayer ã®æ¡ˆå†… ----- -->
 	<div class="realplayer">
 	<p>
 	{if $lang=='ja'}
-	¥Ó¥Ç¥ª¤Î±ÜÍ÷¤Ë¤Ï Adobe ¼Ò¤Î Flash Player ¤¬É¬Í×¤Ç¤¹¡£<br>
-	 Flash Player ¤Ï¡¢°Ê²¼¤«¤é¥À¥¦¥ó¥í¡¼¥É¤Ç¤­¤Ş¤¹¡£
+	ãƒ“ãƒ‡ã‚ªã®é–²è¦§ã«ã¯ Adobe ç¤¾ã® Flash Player ãŒå¿…è¦ã§ã™ã€‚<br>
+	 Flash Player ã¯ã€ä»¥ä¸‹ã‹ã‚‰ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã§ãã¾ã™ã€‚
     {elseif $lang=='en'}
 		To watch the videos, you need Flash Player.<br>
 		You can download Flash Player from here:
     {/if}
-	<a href="http://www.adobe.com/go/getflashplayer_jp" target="_blank"><img src="./images/common/get_flash_player.gif" alt="{if $lang=='ja'}Flash Player ¥À¥¦¥ó¥í¡¼¥É¥µ¥¤¥È¤Ø{elseif $lang=='en'}Download Flash Player{/if}" border="0" height="31" width="88" id="flash_img"></a>
+	<a href="http://www.adobe.com/go/getflashplayer_jp" target="_blank"><img src="./images/common/get_flash_player.gif" alt="{if $lang=='ja'}Flash Player ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã‚µã‚¤ãƒˆã¸{elseif $lang=='en'}Download Flash Player{/if}" border="0" height="31" width="88" id="flash_img"></a>
 	</p>
 	</div>
 	{/if}
 
 
 
-	<!-- ------ Related Link ÉôÊ¬------ -->
+	<!-- ------ Related Link éƒ¨åˆ†------ -->
            
-  		 <div class="course_contents">    <!-- ´ØÏ¢¥ê¥ó¥¯¥³¥ó¥Æ¥ó¥Ä¥»¥ë³«»Ï -->
-                 <h3>{if $lang == "ja"} ´ØÏ¢¥ê¥ó¥¯ {else} Related Links {/if}
+  		 <div class="course_contents">    <!-- é–¢é€£ãƒªãƒ³ã‚¯ã‚³ãƒ³ãƒ†ãƒ³ãƒ„ã‚»ãƒ«é–‹å§‹ -->
+                 <h3>{if $lang == "ja"} é–¢é€£ãƒªãƒ³ã‚¯ {else} Related Links {/if}
 
 
 
-                <!-- ´ØÏ¢¥ê¥ó¥¯¥Ç¡¼¥¿ -->
+                <!-- é–¢é€£ãƒªãƒ³ã‚¯ãƒ‡ãƒ¼ã‚¿ -->
                 <p>
                 <a href="{$dept_info.department_url}">{$dept_info.department_name}</a>
                 </p>
-                <!-- ´ØÏ¢¥ê¥ó¥¯¥Ç¡¼¥¿ -->
-                </div><!-- ´ØÏ¢¥ê¥ó¥¯¥³¥ó¥Æ¥ó¥Ä¥»¥ë½ªÎ» -->
+                <!-- é–¢é€£ãƒªãƒ³ã‚¯ãƒ‡ãƒ¼ã‚¿ -->
+                </div><!-- é–¢é€£ãƒªãƒ³ã‚¯ã‚³ãƒ³ãƒ†ãƒ³ãƒ„ã‚»ãƒ«çµ‚äº† -->
 
-	<!-- ------Related LinkÉôÊ¬¤³¤³¤Ş¤Ç------ -->
+	<!-- ------Related Linkéƒ¨åˆ†ã“ã“ã¾ã§------ -->
 

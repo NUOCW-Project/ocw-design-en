@@ -1,4 +1,4 @@
-{* �֤��䤤��碌�פΥƥ�ץ졼�� *}
+{* 「お問い合わせ」のテンプレート *}
 {include file="com_header.tpl"}
 {if $lang =="ja"}
   {include file="inq_contents.tpl"}
