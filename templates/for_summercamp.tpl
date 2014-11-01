@@ -1,4 +1,4 @@
-{* Topics劫�膩泣若ュｃ 潟*}
+{* Topics特別編(サマーキャンプ) のテンプレート *}
 {include file="com_header.tpl"}
 {if $lang =="ja"}
   {include file="summercamp.tpl"}

@@ -1,4 +1,4 @@
-{* 促促促促臓村促存造 header族竪端 *}
+{* トップページの header画像 *}
 <div class="wideslider">
 <ul>
 <li><a href="http://ocw.nagoya-u.jp/index.php?lang=en&mode=c&id=261"><img src ="images/en/slider/s05_nobel_en.png" alt="
