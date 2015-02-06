@@ -1,6 +1,9 @@
 {* トップページの header画像 *}
 <div class="wideslider">
 <ul>
+<li><a href="http://ocw.nagoya-u.jp/nu/"><img src ="images/en/slider/s06_course_catalog.jpg" alt="
+Nagoya University English-Taught Current Course Catalog
+"></a></li>
 <li><a href="http://ocw.nagoya-u.jp/index.php?lang=en&mode=c&id=261"><img src ="images/en/slider/s05_nobel_en.png" alt="
 NUOCW Published Dr.Amano's course Electromagnetism I
 "></a></li>
