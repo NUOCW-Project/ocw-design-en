@@ -1,4 +1,50 @@
 <div class="movie">
+<h2>Part2</h2> 
+<div class="thumbnail">
+
+<a href="http://video.media.nagoya-u.ac.jp/pcsweb/FlvPlayer/play.html?contentsCode=3697&categoryCode=140&videoType=0">
+<img class="thumbnail_img"  src="images/en/thumbnail/Julian_thumbnail2.png" alt="">
+<img class="start" src="images/en/start.png" alt="">
+</a>
+
+</div>
+
+<div class="movie_info">
+<p>Name:</p>
+<p>Julian Pimienta</p>
+<p>Country:</p>
+<p>Columbia</p>
+<p>Message:</p>
+<p>Julian will tell us all about graduate student dorms here at Nagoya University and how important having a bicycle is!</p>
+
+</div>
+
+<div class="share">
+<div class="fb-like" data-href="http://ocw.nagoya-u.jp/index.php?lang=en&mode=g&page_type=voice" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+<div class="tweet_button">
+<a style="height: 35px;" href="https://twitter.com/share" class="twitter-share-button" data-url="http://ocw.nagoya-u.jp/index.php?lang=en&mode=g&page_type=voice" data-via="NagoyaUniv_OCW" data-lang="en">Tweet</a>
+</div>
+</div>
+
+<div class="movie_link">
+<h3>
+  <img class="close" src="images/en/close_text.png" alt="close">
+  <img class="open" src="images/en/open_text.png" alt="open">
+  Links
+</h3>
+<ul>
+  <li><a href="http://www.ecis.nagoya-u.ac.jp/en/info/life/NU_residences.html">Sakurayama Kaikan (and other International student dormitories)</a></li>
+  <li><a href="http://www.ecis.nagoya-u.ac.jp/en/info/life/clife.html">Remember to register your bicycle!</a></li>
+</ul>
+<p>The above links are to external websites.</p>
+<p>Nagoya University OpenCourseWare is not responsible for the contents of external websites.</p>
+</div>
+
+</div> {* class = movie *} 
+
+
+
+<div class="movie">
 <h2>August: World Cosplay Summit in Nagoya!</h2> 
 <div class="thumbnail">
  
