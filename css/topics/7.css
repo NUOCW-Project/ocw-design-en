@@ -1,0 +1,139 @@
+div#tp_default
+{
+    background-image: url("../../images/ja/topics6/back");
+    background-repeat: repeat;
+    height: 1200px;
+}
+
+#articles_title
+{
+    width: 340px;
+    margin: 10px 10px 20px 20px;
+}
+
+#articles_title li
+{
+    height: auto;
+}
+
+#articles_title li a
+{
+    width: 100%;
+    height: 70px;
+}
+
+#articles_title li a:hover
+{
+    text-decoration: none;
+    color: #020202;
+}
+
+#articles_title li img
+{
+    width: auto;
+    height: auto;
+}
+
+#articles_detail
+{
+    background-image: url("../../images/ja/topics3/background2.png");
+}
+
+#intro_message
+{    
+    text-align: center;
+    padding-top: 60px;
+}
+
+#articles_intro
+{
+    padding: 50px 20px 20px 25px;
+    height: 520px;
+    background-size: cover;
+    margin: 15px 0px 0px 0px;
+}
+
+.art_title
+{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0px -5px;
+}
+
+#package2
+{
+    top: 0px;
+}
+
+#articles_intro li h2:before {
+    display: none;
+}
+
+#window_close{
+    margin-top: -29px;
+    margin-left: -30px;
+}
+
+h2 {
+    color: #ff527b;
+    margin: 0px;
+    font-size: 17pt;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 200px;
+}
+
+#start{
+    color: #ff527b;
+    margin-top: 36px;
+    font-size: 17pt;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.art_title h2 {
+    color: rgb(153, 204, 204);
+    margin: 5px -2px;
+}
+
+a.tp_link {
+    background-image : url("../../images/ja/topics6/window.png");
+    right : 130px;
+    width : 430px;
+    height : 220px;
+    margin: -30px -70px 0px 0px;
+}
+
+p.tp_link{
+    margin: -30px -70px 0px 0px;
+}
+
+a.tp_link img{
+    width: 260px;
+    height: 190px;
+    margin: -57px;
+}
+
+#contents {
+    font-family: "鐚㍼竺 ",sans-serif;
+    color: #ff527b;
+}
+
+p.lead {
+    line-height: 30px;
+}
+
+div#test p
+{
+    color: #FF0000;
+    font-size: 20px;
+}
+
+
+.bg_off {
+}
+
+.bg_on {
+}
