@@ -7,8 +7,7 @@ div#tp_default
 
 #intro_message img
 {
-    width: auto;
-    height: auto;
+    width: 865px;
 }
 
 #articles_title
@@ -45,6 +44,7 @@ div#tp_default
 {
     padding: 50px 20px 20px 25px;
     height: 520px;
+    background-image: url("../../images/ja/topics7/article_intro.png");
     background-size: cover;
     margin: 15px 0px 0px 0px;
 }
