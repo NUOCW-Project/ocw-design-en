@@ -1,8 +1,14 @@
 div#tp_default
 {
-    background-image: url("../../images/ja/topics7/back");
-    background-repeat: repeat;
+    background-image: url("../../images/ja/topics7/back.png");
+    background-size: cover;
     height: 1200px;
+}
+
+#intro_message img
+{
+    width: auto;
+    height: auto;
 }
 
 #articles_title
