@@ -9,8 +9,12 @@ div#tp_default{
 }
 
 #articles_title{
-    width: 340px;
-    margin: 10px 10px 20px 20px;
+    width: 435px;
+    margin: 25px 0 10px 0;
+    padding: 0 0 0 45px;
+    background-image: url("../../images/ja/topics7/connect_off.png");
+    background-repeat: no-repeat;
+    background-position: 315px 55px;
 }
 
 #articles_title li nav{
@@ -31,6 +35,7 @@ div#tp_default{
 #articles_title li nav a img{
     width: auto;
     height: auto;
+    margin: 10px 0 25px 0;
 }
 
 #articles_intro{
@@ -38,6 +43,7 @@ div#tp_default{
     height: 740px;
     background-image: url("../../images/ja/topics7/article_intro.png");
     background-repeat: no-repeat;
+    margin:15px 0 0 -25px;
 }
 
 #package2{
@@ -60,16 +66,17 @@ p img{
     padding: 0 0 0 54px;
 }
 
-p#use{
+p.use{
     padding: 0 0 0 45px;
 }
 
-p#start ol li{
+p.start ol li{
 }
 
-a.go img{
+#articles_intro li article a img{
     width: auto;
     height: auto;
+    padding: 50px 0 0 0;
 }
 
 #contents {
