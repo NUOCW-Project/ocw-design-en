@@ -50,7 +50,6 @@ div#tp_default{
 
 h1{
     color: #ff527b;
-    margin: 0px;
     font-size: 17pt;
     text-align: center;
     font-weight: bold;
@@ -61,15 +60,14 @@ p img{
     padding: 0 0 0 54px;
 }
 
-p.use{
-    padding: 0 0 0 20px;
+p#use{
+    padding: 0 0 0 45px;
 }
 
-p.start ol li{
-    line-height: 20px;
+p#start ol li{
 }
 
-a img{
+a.go img{
     width: auto;
     height: auto;
 }
@@ -81,6 +79,8 @@ a img{
 
 p.lead {
     line-height: 30px;
+    width: 300px;
+    padding: 0 0 0 42px;
 }
 
 .bg_off {
