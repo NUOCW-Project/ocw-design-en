@@ -70,7 +70,8 @@ p.use{
     padding: 0 0 0 45px;
 }
 
-p.start ol li{
+ol{
+    padding: 0 0 0 55px;
 }
 
 #articles_intro li article a img{
