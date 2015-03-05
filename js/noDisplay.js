@@ -36,6 +36,7 @@ $(document).ready(function(){
     $(".intro:first").css("display","inherit");
     $(".detail").css("display","none");
     $("div.art_title").addClass("bg_off");
+    $("nav").addClass("bg_off");
 
     $(".art_title").mouseover(function(){
         var index = $(".art_title").index(this);
@@ -68,6 +69,44 @@ $(document).ready(function(){
 
                     $("div.art_title").removeClass("bg_on");
                     $("div.art_title").addClass("bg_off");
+                    $(".blue_bar").css("display","none");
+                    $(".tp_title").css("color","");
+                    $(".detail").css("display","none");
+            });
+        }
+    });
+
+    $("nav").mouseover(function(){
+        var index = $("nav").index(this);
+
+        if(index != 0){
+            $("article").css("display","none");
+            $("alticle").eq(index).css("display","inherit");
+
+            $(".blue_bar").css("display","none");
+            $(".blue_bar").eq(index - 1).css("display","inherit");
+
+            $("nav").removeClass("bg_on");
+            $("nav").addClass("bg_off");
+            $("nav").eq(index - 1).removeClass("bg_off");
+            $("nav").eq(index - 1).addClass("bg_on");
+
+            $(".tp_title").css("color","");
+            $(".tp_title").eq(index - 1).css("color","#99CCCC");
+
+            $("nav").eq(index).click(function(){
+                    $(".detail").css("display","none");
+                    $(".detail").eq(index - 1).css("display","inherit");
+            });
+        }
+
+        if(index == 0){
+            $("nav").eq(index).click(function(){
+                    $("article").css("display","none");
+                    $("article").eq(index).css("display","inherit");
+
+                    $("nav").removeClass("bg_on");
+                    $("nav").addClass("bg_off");
                     $(".blue_bar").css("display","none");
                     $(".tp_title").css("color","");
                     $(".detail").css("display","none");
