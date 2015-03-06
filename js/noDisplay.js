@@ -81,7 +81,7 @@ $(document).ready(function(){
         var index = $("nav").index(this);
 
         $("article").css("display","none");
-        $("alticle").eq(index + 1).css("display","inherit");
+        $("article").eq(index + 1).css("display","inherit");
 
         $("nav").removeClass("bg_on");
         $("nav").addClass("bg_off");
