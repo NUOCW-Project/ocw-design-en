@@ -80,8 +80,10 @@ $(document).ready(function(){
     $("article").eq(0).css("display","inherit");
 
     $("nav").mouseover(function(){
+
         var index = $("nav").index(this);
 
+	$("article").css("display","none");
         $("article").eq(index + 1).css("display","inherit");
 
         $("nav").removeClass("bg_on");
