@@ -56,37 +56,68 @@ $(document).ready(function(){
             $(".tp_title").eq(index - 1).css("color","#99CCCC");
 
             $(".art_title").eq(index).click(function(){
-                    $(".detail").css("display","none");
-                    $(".detail").eq(index - 1).css("display","inherit");
+                $(".detail").css("display","none");
+                $(".detail").eq(index - 1).css("display","inherit");
             });
         }
 
         if(index == 0){
             $(".art_title").eq(index).click(function(){
-                    $(".intro").css("display","none");
-                    $(".intro").eq(index).css("display","inherit");
+                $(".intro").css("display","none");
+                $(".intro").eq(index).css("display","inherit");
 
-                    $("div.art_title").removeClass("bg_on");
-                    $("div.art_title").addClass("bg_off");
-                    $(".blue_bar").css("display","none");
-                    $(".tp_title").css("color","");
-                    $(".detail").css("display","none");
+                $("div.art_title").removeClass("bg_on");
+                $("div.art_title").addClass("bg_off");
+                $(".blue_bar").css("display","none");
+                $(".tp_title").css("color","");
+                $(".detail").css("display","none");
             });
         }
     });
 
     $("nav").addClass("bg_off");
+    $("article").css("display","none");
+    $("article").eq(0).css("display","inherit");
 
     $("nav").mouseover(function(){
         var index = $("nav").index(this);
 
-        $("article").css("display","none");
         $("article").eq(index + 1).css("display","inherit");
 
         $("nav").removeClass("bg_on");
         $("nav").addClass("bg_off");
         $("nav").eq(index).removeClass("bg_off");
         $("nav").eq(index).addClass("bg_on");
+
+        switch(index){
+            case 0:
+                var cssObj = {
+                    backgroundImage: url("../../images/ja/topics7/suzuki_on.png"),
+                    backgroundRepeat: no-repeat,
+                    backgroundPosition: "-21px -21px"};break;
+            case 1:
+                var cssObj = {
+                    backgroundImage: url("../../images/ja/topics7/sano_on.png"),
+                    backgroundRepeat: no-repeat,
+                    backgroundPosition: "-21px -21px"};break;
+            case 2:
+                var cssObj = {
+                    backgroundImage: url("../../images/ja/topics7/suzuki_on.png"),
+                    backgroundRepeat: no-repeat,
+                    backgroundPosition: "-21px -21px"};break;
+            case 3:
+                var cssObj = {
+                    backgroundImage: url("../../images/ja/topics7/suzuki_on.png"),
+                    backgroundRepeat: no-repeat,
+                    backgroundPosition: "-21px -21px"};break;
+            case 4:
+                var cssObj = {
+                    backgroundImage: url("../../images/ja/topics7/suzuki_on.png"),
+                    backgroundRepeat: no-repeat,
+                    backgroundPosition: "-21px -21px"};break;
+        }
+        $("nav").eq(index).css(cssObj)
+        }
 
     });
 
