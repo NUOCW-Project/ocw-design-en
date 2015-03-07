@@ -1,7 +1,7 @@
 div#tp_default{
     background-image: url("../../images/ja/topics7/back.png");
     background-size: cover;
-    height: 1200px;
+    height: 1050px;
 }
 
 #intro_message img{
@@ -84,7 +84,7 @@ ol{
     width: auto;
     height: auto;
     position: absolute;
-    bottom: 275px;
+    bottom: 125px;
     left: 618px;
 }
 
