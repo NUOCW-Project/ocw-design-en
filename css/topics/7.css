@@ -81,7 +81,7 @@ ol{
     width: auto;
     height: auto;
     position: absolute;
-    bottom: 282px;
+    bottom: 275px;
     left: 618px;
 }
 
@@ -92,9 +92,10 @@ ol{
 
 p.lead {
     font-size: 10pt;
-    line-height: 30px;
+    line-height: 29px;
     width: 280px;
-    padding: 0 0 0 42px;
+    padding: 0 0 0 54px;
+    text-align: justify;
 }
 
 .bg_off {
