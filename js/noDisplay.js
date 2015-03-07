@@ -117,8 +117,6 @@ $(document).ready(function(){
                     backgroundPosition: "-21px -21px"};break;
         }
         $("nav").eq(index).css(cssObj)
-        }
-
     });
 
 });
