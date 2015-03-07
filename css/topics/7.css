@@ -71,10 +71,13 @@ p img{
 
 p.use{
     padding: 0 0 0 45px;
+    font-size: 10pt;
 }
 
 ol{
-    padding: 0 0 0 55px;
+    padding: 0 0 0 50px;
+    font-size: 10pt;
+    line-height: 29px;
 }
 
 #articles_intro li article a img{

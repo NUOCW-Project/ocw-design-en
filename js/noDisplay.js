@@ -106,6 +106,7 @@ $(document).ready(function(){
         $("nav").eq(index).css("background-image", imgUrl);
         $("nav").eq(index).css("background-repeat", "no-repeat");
         $("nav").eq(index).css("background-position", "-21px -21px");
+        $("nav a img").eq(index).css("visibility", "hidden");
     });
 
 });
