@@ -93,7 +93,6 @@ $(document).ready(function(){
 
         $("nav").eq(index).css("background-image", "url(../../images/ja/topics7/suzuki_on.png)");
         $("nav").eq(index).css("background-repeat", "no-repeat");
-        $("nav").eq(index).css("background-position", "-21px -21px");
 
         $("nav a img").css("visibility", "visible");
         $("nav a img").eq(index).css("visibility", "hidden");
