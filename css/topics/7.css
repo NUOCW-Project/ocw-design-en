@@ -59,8 +59,7 @@ nav{
 }
 
 h1{
-    color: #ff527b;
-    font-size: 17pt;
+    font-size: 15pt;
     text-align: center;
     font-weight: bold;
     padding: 20px 0 0 0;
@@ -81,17 +80,20 @@ ol{
 #articles_intro li article a img{
     width: auto;
     height: auto;
-    margin: 0 0 0 123px;
+    position: absolute;
+    bottom: 282px;
+    left: 618px;
 }
 
 #contents {
-    font-family: "鐚㍼竺 ",sans-serif;
-    color: #ff527b;
+    font-family: "小塚ゴシック Pr6N",sans-serif;
+    color: rgb(212, 251, 251);
 }
 
 p.lead {
+    font-size: 10pt;
     line-height: 30px;
-    width: 300px;
+    width: 280px;
     padding: 0 0 0 42px;
 }
 
