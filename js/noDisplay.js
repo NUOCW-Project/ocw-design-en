@@ -83,7 +83,7 @@ $(document).ready(function(){
 
         var index = $("nav").index(this);
 
-	$("article").css("display","none");
+	    $("article").css("display","none");
         $("article").eq(index + 1).css("display","inherit");
 
         $("nav").removeClass("bg_on");
@@ -91,21 +91,10 @@ $(document).ready(function(){
         $("nav").eq(index).removeClass("bg_off");
         $("nav").eq(index).addClass("bg_on");
 
-        switch(index){
-            case 0:
-                $("nav").eq(index).css("background-image", "url(../../images/ja/topics7/suzuki_on.png)"); break;
-            case 1:
-                var imgUrl = "url(../../images/ja/topics7/sano_on.png)"; break;
-            case 2:
-                var imgUrl = "url(../../images/ja/topics7/katayama_on.png)"; break;
-            case 3:
-                var imgUrl = "url(../../images/ja/topics7/ooya_on.png)"; break;
-            case 4:
-                var imgUrl = "url(../../images/ja/topics7/rsuzuki_on.png)"; break;
-        }
-        $("nav").eq(index).css("background-image", imgUrl);
+        $("nav").eq(index).css("background-image", "url(../../images/ja/topics7/suzuki_on.png)");
         $("nav").eq(index).css("background-repeat", "no-repeat");
         $("nav").eq(index).css("background-position", "-21px -21px");
+
         $("nav a img").css("visibility", "visible");
         $("nav a img").eq(index).css("visibility", "hidden");
     });
