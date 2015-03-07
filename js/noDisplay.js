@@ -93,15 +93,15 @@ $(document).ready(function(){
 
         switch(index){
             case 0:
-                var imgUrl = "url("../../images/ja/topics7/suzuki_on.png")"; break;
+                var imgUrl = "url(../../images/ja/topics7/suzuki_on.png)"; break;
             case 1:
-                var imgUrl = "url("../../images/ja/topics7/sano_on.png")"; break;
+                var imgUrl = "url(../../images/ja/topics7/sano_on.png)"; break;
             case 2:
-                var imgUrl = "url("../../images/ja/topics7/katayama_on.png")"; break;
+                var imgUrl = "url(../../images/ja/topics7/katayama_on.png)"; break;
             case 3:
-                var imgUrl = "url("../../images/ja/topics7/ooya_on.png")"; break;
+                var imgUrl = "url(../../images/ja/topics7/ooya_on.png)"; break;
             case 4:
-                var imgUrl = "url("../../images/ja/topics7/rsuzuki_on.png")"; break;
+                var imgUrl = "url(../../images/ja/topics7/rsuzuki_on.png)"; break;
         }
         $("nav").eq(index).css("background-image", imgUrl);
         $("nav").eq(index).css("background-repeat", "no-repeat");
