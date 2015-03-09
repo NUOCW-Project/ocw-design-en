@@ -91,8 +91,8 @@ $(document).ready(function(){
         $("nav").eq(index).removeClass("bg_off");
         $("nav").eq(index).addClass("bg_on");
 
-        $("nav a img").css("visibility", "visible");
-        $("nav a img").eq(index).css("visibility", "hidden");
+        $("nav a img").css("background-position", "0 top");
+        $("nav a img").eq(index).css("background-position", "0 bottom");
     });
 
 });
