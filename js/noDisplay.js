@@ -91,7 +91,9 @@ $(document).ready(function(){
         $("nav").eq(index).removeClass("bg_off");
         $("nav").eq(index).addClass("bg_on");
 
-        $("nav a img").attr("src", $("nav a img").attr("src").replace("_on", "_lead"));
+        $("nav a img").each(function () {
+            $(this).attr("src", $("nav a img").attr("src").replace("_on", "_lead"));
+        });
         $("nav a img").eq(index).attr("src", $("nav a img").attr("src").replace("_lead", "_on"));
     });
 
