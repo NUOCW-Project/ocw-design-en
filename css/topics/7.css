@@ -12,7 +12,8 @@ div#tp_default{
     width: 435px;
     margin: 25px 0 10px 0;
     padding: 0 0 0 45px;
-    background-image: url("../../images/ja/topics7/connect_off.png");
+    background-image: url("../../images/ja/topics7/connect.png");
+    background-size: 215px, 620px;
     background-repeat: no-repeat;
     background-position: 315px 55px;
 }

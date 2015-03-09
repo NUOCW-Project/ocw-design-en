@@ -91,9 +91,6 @@ $(document).ready(function(){
         $("nav").eq(index).removeClass("bg_off");
         $("nav").eq(index).addClass("bg_on");
 
-        $("nav").eq(index).css("background-image", "url(../../images/ja/topics7/suzuki_on.png)");
-        $("nav").eq(index).css("background-repeat", "no-repeat");
-
         $("nav a img").css("visibility", "visible");
         $("nav a img").eq(index).css("visibility", "hidden");
     });
