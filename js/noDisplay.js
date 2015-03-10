@@ -92,7 +92,7 @@ $(document).ready(function(){
         $("nav").eq(index).addClass("bg_on");
 
         for (var i = 0; i < 5; i++){
-            $("nav a img").eq(i).attr("src", $("nav a img").attr("src").replace("_on", "_lead"));
+            $("nav a img").eq(i).attr("src", $("nav a img").eq(i).attr("src").replace("_on", "_lead"));
         }
         $("nav a img").eq(index).attr("src", $("nav a img").eq(index).attr("src").replace("_lead", "_on"));
     });
