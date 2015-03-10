@@ -98,15 +98,15 @@ $(document).ready(function(){
 
         switch (index) {
             case 0:
-                $("#article_title").css("background-image", "none"); break;
+                $("#articles_title").css("background-image", "url('../../images/ja/topics7/connect_suzuki.png')"); break;
             case 1:
-                $("#article_title").css("background-image", "url('../../images/ja/topics7/connect_sano.png')"); break;
+                $("#articles_title").css("background-image", "url('../../images/ja/topics7/connect_sano.png')"); break;
             case 2:
-                $("#article_title").css("background-image", "url('../../images/ja/topics7/connect_katayama.png')"); break;
+                $("#articles_title").css("background-image", "url('../../images/ja/topics7/connect_katayama.png')"); break;
             case 3:
-                $("#article_title").css("background-image", "url('../../images/ja/topics7/connect_ooya.png')"); break;
+                $("#articles_title").css("background-image", "url('../../images/ja/topics7/connect_ooya.png')"); break;
             case 4:
-                $("#article_title").css("background-image", "url('../../images/ja/topics7/connect_rsuzuki.png')"); break;
+                $("#articles_title").css("background-image", "url('../../images/ja/topics7/connect_rsuzuki.png')"); break;
         }
     
 
