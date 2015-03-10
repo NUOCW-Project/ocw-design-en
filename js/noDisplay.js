@@ -98,15 +98,15 @@ $(document).ready(function(){
 
         switch (index) {
             case 0:
-                $("#articles_title").css("background-image", "url('./images/ja/topics7/connect_suzuki.png')"); break;
+                $("#articles_title").css("background-position", "0 top"); break;
             case 1:
-                $("#articles_title").css("background-image", "url('./images/ja/topics7/connect_sano.png')"); break;
+                $("#articles_title").css("background-position", ""); break;
             case 2:
-                $("#articles_title").css("background-image", "url('./images/ja/topics7/connect_katayama.png')"); break;
+                $("#articles_title").css("background-position", ""); break;
             case 3:
-                $("#articles_title").css("background-image", "url('./images/ja/topics7/connect_ooya.png')"); break;
+                $("#articles_title").css("background-position", ""); break;
             case 4:
-                $("#articles_title").css("background-image", "url('./images/ja/topics7/connect_rsuzuki.png')"); break;
+                $("#articles_title").css("background-position", "0 bottom"); break;
         }
     
 
