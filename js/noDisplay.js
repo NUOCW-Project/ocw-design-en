@@ -98,7 +98,7 @@ $(document).ready(function(){
 
         switch (index) {
             case 0:
-                $("#article_title").css("background-image", "url('../../images/ja/topics7/connect_suzuki.png')"); break;
+                $("#article_title").css("background-image", "none"); break;
             case 1:
                 $("#article_title").css("background-image", "url('../../images/ja/topics7/connect_sano.png')"); break;
             case 2:
