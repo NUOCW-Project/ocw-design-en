@@ -83,7 +83,7 @@ $(document).ready(function(){
 
         var index = $("nav").index(this);
 
-	    $("article").css("display","none");
+        $("article").css("display","none");
         $("article").eq(index + 1).css("display","inherit");
 
         $("nav").removeClass("bg_on");
@@ -95,6 +95,21 @@ $(document).ready(function(){
             $("nav a img").eq(i).attr("src", $("nav a img").eq(i).attr("src").replace("_on", "_lead"));
         }
         $("nav a img").eq(index).attr("src", $("nav a img").eq(index).attr("src").replace("_lead", "_on"));
+
+        switch (index) {
+            case 0:
+                $("#article_title").css("background-image", "url('../../images/ja/topics7/connect_suzuki.png')"); break;
+            case 1:
+                $("#article_title").css("background-image", "url('../../images/ja/topics7/connect_sano.png')"); break;
+            case 2:
+                $("#article_title").css("background-image", "url('../../images/ja/topics7/connect_katayama.png')"); break;
+            case 3:
+                $("#article_title").css("background-image", "url('../../images/ja/topics7/connect_ooya.png')"); break;
+            case 4:
+                $("#article_title").css("background-image", "url('../../images/ja/topics7/connect_rsuzuki.png')"); break;
+        }
+    
+
     });
 
 });
