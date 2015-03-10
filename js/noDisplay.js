@@ -98,15 +98,15 @@ $(document).ready(function(){
 
         switch (index) {
             case 0:
-                $("#articles_title").css("background-position", "0 top"); break;
+                $("#articles_title").css("background-position", "290px 765px"); break;
             case 1:
-                $("#articles_title").css("background-position", ""); break;
+                $("#articles_title").css("background-position", "290px 1530px"); break;
             case 2:
-                $("#articles_title").css("background-position", ""); break;
+                $("#articles_title").css("background-position", "290px 2295px"); break;
             case 3:
-                $("#articles_title").css("background-position", ""); break;
+                $("#articles_title").css("background-position", "290px 3060px"); break;
             case 4:
-                $("#articles_title").css("background-position", "0 bottom"); break;
+                $("#articles_title").css("background-position", "290px 3825px"); break;
         }
     
 
