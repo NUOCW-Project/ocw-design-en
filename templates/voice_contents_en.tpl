@@ -1,7 +1,164 @@
 <div class="movie">
-<h2>Part3</h2> 
+<h2>Let's hear about Gifu Castle and Ise!</h2>
+<div class="thumbnail">
+<a href="http://video.media.nagoya-u.ac.jp/pcsweb/FlvPlayer/play.html?contentsCode=3704&categoryCode=140&videoType=0" target="blank">
+<img class="thumbnail_img"  src="images/en/thumbnail/Bastian_thumbnail.png" alt="">
+<img class="start" src="images/en/start.png" alt="">
+</a>
+</div>
+
+<div class="movie_info">
+<p>Name:</p>
+<p>Bastian Cauchye</p>
+<p>Country:</p>
+<p>France</p>
+<p>Message:</p>
+<p>Bastian will tell us about some of the beautiful sightseeing places around Nagoya!</p>
+</div>
+
+<div class="share">
+<div class="fb-like" data-href="http://ocw.nagoya-u.jp/index.php?lang=en&mode=g&page_type=voice" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+<div class="tweet_button">
+<a style="height: 35px;" href="https://twitter.com/share" class="twitter-share-button" data-url="http://ocw.nagoya-u.jp/index.php?lang=en&mode=g&page_type=voice" data-via="NagoyaUniv_OCW" data-lang="en">Tweet</a>
+</div>
+</div>
+
+<div class="movie_link">
+<h3>
+  <img class="close" src="images/en/close_text.png" alt="close">
+  <img class="open" src="images/en/open_text.png" alt="open">
+  Links
+</h3>
+<ul>
+<li><a href="http://nupace.ecis.nagoya-u.ac.jp/en/">Nagoya University Nupace Program</a></li>
+<li><a href="http://en.nagoya-u.ac.jp/academics/campus_life/housing/index.html">Higashiyama Residence</a></li>
+<li><a href="http://en.nagoya-u.ac.jp/academics/campus_life/festival/index.html">Nagoya University Festival (Meidai-Sai)</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Karaage">Karaage (Japanese Fried Chicken)</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Corn_dog">American Dog (American name: corn dog)</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Bluegrass_music">Bluegrass music</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Ise_Grand_Shrine">Ise Grand Shrine</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Meoto_Iwa">Husband and Wife rocks at Futami Beach</a></li>
+<li><a href="http://tourismmiejapan.com/search/spot.php?act=dtl&id=36">Ise Downtown</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Todai-ji">Nara Todai-ji (700 year old world's largest wooden structure)</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Gifu_Castle">Gifu Castle</a></li>
+<li><a href="http://www.nagoyajo.city.nagoya.jp/13_english/">Nagoya Castle and the rebuilt Honmaru Palace</a></li>
+<li><a href="http://r.gnavi.co.jp/n221700/lang/en/photo">Houraitei (Restaurant in Ise downtown)</a></li>
+</ul>
+<p>The above links are to external websites.</p>
+<p>Nagoya University OpenCourseWare is not responsible for the contents of external websites.</p>
+</div>
+</div> {* class = movie *} 
+
+
+
+<div class="movie">
+<h2>After five years, we know our way around Nagoya!</h2> 
+<div class="thumbnail">
+<a href="http://video.media.nagoya-u.ac.jp/pcsweb/FlvPlayer/play.html?contentsCode=3674&categoryCode=140&videoType=0" target="blank">
+<img class="thumbnail_img"  src="images/en/thumbnail/Lucy_thumbnail.png" alt="">
+<img class="start" src="images/en/start.png" alt="">
+</a>
+</div>
+
+<div class="movie_info">
+<p>Name:</p>
+<p>Lucy Glasspool</p>
+<p>Country:</p>
+<p>England</p>
+<p>Message:</p>
+<p>Lucy and I will tell you all about our favorite shopping, cafes, and bands that we've seen here in Nagoya!</p>
+</div>
+
+<div class="share">
+<div class="fb-like" data-href="http://ocw.nagoya-u.jp/index.php?lang=en&mode=g&page_type=voice" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+<div class="tweet_button">
+<a style="height: 35px;" href="https://twitter.com/share" class="twitter-share-button" data-url="http://ocw.nagoya-u.jp/index.php?lang=en&mode=g&page_type=voice" data-via="NagoyaUniv_OCW" data-lang="en">Tweet</a>
+</div>
+</div>
+
+<div class="movie_link">
+<h3>
+  <img class="close" src="images/en/close_text.png" alt="close">
+  <img class="open" src="images/en/open_text.png" alt="open">
+  Links
+</h3>
+<ul>
+<li><a href="http://www.lang.nagoya-u.ac.jp/tagen/gender/English.html">Nagoya University Gender Studies Program</a></li>
+<li><a href="http://ocw.nagoya-u.jp/index.php?lang=en&mode=c&id=75&page_type=index">Professor Weeks, Media Discourse Analysis</a></li>
+<li><a href="http://www.lang.nagoya-u.ac.jp/G30/clc/g30-timetable-14.html">Professor Weeks Haig & McGee?'s classes</a></li>
+<li><a href="http://www.lang.nagoya-u.ac.jp/index-e.html">Graduate School of Languages & Cultures</a></li>
+<li><a href="http://www.lang.nagoya-u.ac.jp/G30/clc/g30-timetable-14.html">Arashi (band)</a></li>
+<li><a href="http://www.nightmare-web.com/pc/">Nightmare (band, Japanese site</a></li>
+<li><a href="http://www.sendaikamotsu.net">Sendai Kamotsu (band, Japanese site)</a></li>
+<li><a href="http://myv382tokyo.com/?aid=222">Miyavi (solo artist)</a></li>
+<li><a href="http://www.pscompany.co.jp/gazette/">Gazette (band, Japanese site)</a></li>
+<li><a href="http://direngrey.co.jp/lang_en/">Dir en Grey (band)</a></li>
+<li><a href="http://ygex.jp/bigbang/">Big Bang (Korean band, Japanese site)</a></li>
+<li><a href="http://www.lock-up.jp">The Lock-Up (restaurant, Japanese site)</a></li>
+<li><a href="http://www.lenfant.co.jp/shop/index.html">Patisserie L'Enfant (cafe, Japanese site)</a></li>
+<li><a href="http://www.londoncupcakes.jp">London Cupcakes (cafe)</a></li>
+<li><a href="http://www.sweets-paradise.jp/guide/index_english.html">Sweets Paradise (all you can eat dessert)</a></li>
+<li><a href="http://www.mynagoya.net/shops/guide-to-nagoyas-shopping-malls/">Nagoya Shopping guide (Sakae & Nagoya station)</a></li>
+<li><a href="http://www.city.nagoya.jp/shicho/cmsfiles/contents/0000013/13781/1203mizuho.p1ren.PDF">Cherry blossom viewing along the Yamazaki River (Mizuho-Undojo Higashi Station, see page 1 for map in Japanese)</a></li>
+</ul>
+<p>The above links are to external websites.</p>
+<p>Nagoya University OpenCourseWare is not responsible for the contents of external websites.</p>
+</div>
+</div> {* class = movie *} 
+
+
+
+<div class="movie">
+<h2>Have you heard of Inuyama Festival?</h2> 
 <div class="thumbnail">
 
+<a href="http://video.media.nagoya-u.ac.jp/pcsweb/FlvPlayer/play.html?contentsCode=3666&categoryCode=140&videoType=0" target="blank">
+<img class="thumbnail_img"  src="images/en/thumbnail/Sam_thumbnail.png" alt="">
+<img class="start" src="images/en/start.png" alt="">
+</a>
+
+</div>
+
+<div class="movie_info">
+<p>Name:</p>
+<p>Sam Warford</p>
+
+<p>Country:</p>
+<p>United States of America</p>
+<p>Message:</p>
+<p>Sam tells us about her experience going to Inuyama castle!</p>
+
+</div>
+
+<div class="share">
+<div class="fb-like" data-href="http://ocw.nagoya-u.jp/index.php?lang=en&mode=g&page_type=voice" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+<div class="tweet_button">
+<a style="height: 35px;" href="https://twitter.com/share" class="twitter-share-button" data-url="http://ocw.nagoya-u.jp/index.php?lang=en&mode=g&page_type=voice" data-via="NagoyaUniv_OCW" data-lang="en">Tweet</a>
+</div>
+</div>
+
+<div class="movie_link">
+<h3>
+  <img class="close" src="images/en/close_text.png" alt="close">
+  <img class="open" src="images/en/open_text.png" alt="open">
+  Links
+</h3>
+<ul>
+<li><a href="http://nupace.ecis.nagoya-u.ac.jp/en/">Nagoya University Nupace Program</a></li>
+<li><a href="http://www.isa.provost.nagoya-u.ac.jp/en/program/smallworld.html">Small World Coffee Hour</a></li>
+<li><a href="http://en.nagoya-u.ac.jp/academics/campus_life/housing/index.html">Higashiyama Residence</a></li>
+<li><a href="http://ml.inuyama.gr.jp/en/festivals-and-events-en/2080">Inuyama Festival</a></li>
+<li><a href="http://kikuko-nagoya.com/top-english.html">Kikuko's website</a></li>
+</ul>
+<p>The above links are to external websites.</p>
+<p>Nagoya University OpenCourseWare is not responsible for the contents of external websites.</p>
+</div>
+</div> {* class = movie *} 
+
+
+<div class="movie">
+<h2>Things to do around Nagoya</h2> 
+<div class="thumbnail">
 <a href="http://video.media.nagoya-u.ac.jp/pcsweb/FlvPlayer/play.html?contentsCode=3699&categoryCode=140&videoType=0" target="blank">
 <img class="thumbnail_img"  src="images/en/thumbnail/part3.png" alt="">
 <img class="start" src="images/en/start.png" alt="">
@@ -15,7 +172,6 @@
 
 <p>Country:</p>
 <p>Columbia</p>
-
 <p>Message:</p>
 <p>Julian will tell us about why he chose to come to Nagoya University</p>
 </div>
@@ -57,7 +213,7 @@
 
 
 <div class="movie">
-<h2>Part2</h2> 
+<h2>Student Dorms!</h2> 
 <div class="thumbnail">
 
 <a href="http://video.media.nagoya-u.ac.jp/pcsweb/FlvPlayer/play.html?contentsCode=3697&categoryCode=140&videoType=0" target="blank">
