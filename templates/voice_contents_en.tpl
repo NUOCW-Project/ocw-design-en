@@ -160,7 +160,7 @@
 <h2>Things to do around Nagoya</h2> 
 <div class="thumbnail">
 <a href="http://video.media.nagoya-u.ac.jp/pcsweb/FlvPlayer/play.html?contentsCode=3699&categoryCode=140&videoType=0" target="blank">
-<img class="thumbnail_img"  src="images/en/thumbnail/part3.png" alt="">
+<img class="thumbnail_img"  src="images/en/thumbnail/Julian_thumbnail3.png" alt="">
 <img class="start" src="images/en/start.png" alt="">
 </a>
 
