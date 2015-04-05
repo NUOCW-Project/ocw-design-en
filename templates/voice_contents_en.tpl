@@ -257,9 +257,8 @@
 </div> {* class = movie *} 
 
 
-<h1>Back No.</h1>
 <div class="movie">
-<h2>August: World Cosplay Summit in Nagoya!</h2> 
+<h2>World Cosplay Summit in Nagoya!</h2> 
 <div class="thumbnail">
  
 <a href="http://video.media.nagoya-u.ac.jp/pcsweb/FlvPlayer/play.html?contentsCode=3690&categoryCode=140&videoType=0" target="blank" >
@@ -308,7 +307,7 @@
 
 
 <div class="movie">
-<h2>July: What is Sushiro?</h2>
+<h2>What is Sushiro?</h2>
 
 
 <div class="thumbnail">
