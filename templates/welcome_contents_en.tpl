@@ -1,5 +1,7 @@
 <div id="welcome">
+<div id="welcome_img">
 <img src="images/ja/TODAYAMA_Kazuhisa.jpg" alt="">
+</div>
 <p>Kazuhisa TODAYAMA</p>
 <p>Chairperson,</p>
 <p>OpenCourseWare Steering Committee,</p>
