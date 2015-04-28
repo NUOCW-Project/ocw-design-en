@@ -1,6 +1,6 @@
 <div id="welcome">
 <img src="images/ja/TODAYAMA_Kazuhisa.jpg" alt="">
-<p>Katsuaki ONOGI</p>
+<p>Kazuhisa TODAYAMA</p>
 <p>Chairperson,</p>
 <p>OpenCourseWare Steering Committee,</p>
 <p>Nagoya University</p>
