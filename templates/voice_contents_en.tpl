@@ -1,7 +1,7 @@
 <div class="movie">
 <h2>Let's hear about Gifu Castle and Ise!</h2>
 <div class="thumbnail">
-<a href="http://video.media.nagoya-u.ac.jp/pcsweb/FlvPlayer/play.html?contentsCode=3704&categoryCode=140&videoType=0" target="blank">
+<a href="http://nuvideo.media.nagoya-u.ac.jp/embed/35d18c9a10ab08040a6657d472e4e5ce1d2e6494" target="blank">
 <img class="thumbnail_img"  src="images/en/thumbnail/Bastian_thumbnail.png" alt="">
 <img class="start" src="images/en/start.png" alt="">
 </a>
@@ -54,7 +54,7 @@
 <div class="movie">
 <h2>After five years, we know our way around Nagoya!</h2> 
 <div class="thumbnail">
-<a href="http://video.media.nagoya-u.ac.jp/pcsweb/FlvPlayer/play.html?contentsCode=3674&categoryCode=140&videoType=0" target="blank">
+<a href="http://nuvideo.media.nagoya-u.ac.jp/embed/1cfe8907175ac3d7f8555139c6ae3814ccdbdf32" target="blank">
 <img class="thumbnail_img"  src="images/en/thumbnail/Lucy_thumbnail.png" alt="">
 <img class="start" src="images/en/start.png" alt="">
 </a>
@@ -112,7 +112,7 @@
 <h2>Have you heard of Inuyama Festival?</h2> 
 <div class="thumbnail">
 
-<a href="http://video.media.nagoya-u.ac.jp/pcsweb/FlvPlayer/play.html?contentsCode=3666&categoryCode=140&videoType=0" target="blank">
+<a href="http://nuvideo.media.nagoya-u.ac.jp/embed/ec5b95e8cc6e26d605ec15d880f099b76441844c" target="blank">
 <img class="thumbnail_img"  src="images/en/thumbnail/Sam_thumbnail.png" alt="">
 <img class="start" src="images/en/start.png" alt="">
 </a>
@@ -159,7 +159,7 @@
 <div class="movie">
 <h2>Things to do around Nagoya</h2> 
 <div class="thumbnail">
-<a href="http://video.media.nagoya-u.ac.jp/pcsweb/FlvPlayer/play.html?contentsCode=3699&categoryCode=140&videoType=0" target="blank">
+<a href="http://nuvideo.media.nagoya-u.ac.jp/embed/a104d3eb0bcdf2a39cce06ec8773784700f85ae8" target="blank">
 <img class="thumbnail_img"  src="images/en/thumbnail/Julian_thumbnail3.png" alt="">
 <img class="start" src="images/en/start.png" alt="">
 </a>
@@ -216,7 +216,7 @@
 <h2>Student Dorms!</h2> 
 <div class="thumbnail">
 
-<a href="http://video.media.nagoya-u.ac.jp/pcsweb/FlvPlayer/play.html?contentsCode=3697&categoryCode=140&videoType=0" target="blank">
+<a href="http://nuvideo.media.nagoya-u.ac.jp/embed/caf178d89b25278eed0bf3d02ac84fc1b6a6b322" target="blank">
 <img class="thumbnail_img"  src="images/en/thumbnail/Julian_thumbnail2.png" alt="">
 <img class="start" src="images/en/start.png" alt="">
 </a>
@@ -261,7 +261,7 @@
 <h2>World Cosplay Summit in Nagoya!</h2> 
 <div class="thumbnail">
  
-<a href="http://video.media.nagoya-u.ac.jp/pcsweb/FlvPlayer/play.html?contentsCode=3690&categoryCode=140&videoType=0" target="blank" >
+<a href="http://nuvideo.media.nagoya-u.ac.jp/embed/364386370bfeb899673e96fd94543cbb344b6125" target="blank" >
 <img class="thumbnail_img"  src="images/en/thumbnail/Julian_thumbnail.png" alt="">
 <img class="start" src="images/en/start.png" alt="">
 </a>
@@ -312,7 +312,7 @@
 
 <div class="thumbnail">
  
-<a href="http://video.media.nagoya-u.ac.jp/pcsweb/FlvPlayer/play.html?contentsCode=3665&categoryCode=140&videoType=0" target="blank">
+<a href="http://nuvideo.media.nagoya-u.ac.jp/embed/07b561f07650ee650ac4879987ee034a5bc0edfb" target="blank">
 <img class="thumbnail_img"  src="images/en/thumbnail/Meredith_thumbnail.png" alt="">
 <img class="start" src="images/en/start.png" alt="">
 </a>
@@ -373,7 +373,7 @@
 
 <div class="thumbnail">
 
-<a href="http://video.media.nagoya-u.ac.jp/pcsweb/FlvPlayer/play.html?contentsCode=3682&amp;categoryCode=140&amp;videoType=0" target="blank">
+<a href="http://nuvideo.media.nagoya-u.ac.jp/embed/055ab8def327f4e24a635cd758b9d7d75abc5313" target="blank">
 <img class="thumbnail_img" src="images/en/thumbnail/Michelle_thumbnail.png" alt="">
 <img class="start" src="images/en/start.png" alt="">
 </a>
@@ -420,27 +420,26 @@
 
 </div> {* class =  movie *}
 
-{* コピペ用
-<div class="movie">
-<h2>Month:</h2> 
-<div class="thumbnail">
 
-<a href="">
-<img class="thumbnail_img"  src="" alt="">
+{* コピペ用 *}
+{*
+大文字で叫んでるところを書き換える
+<div class="movie">
+<h2>TITLE!!</h2>
+<div class="thumbnail">
+<a href="MOVIE_URL!!" target="blank">
+<img class="thumbnail_img"  src="THUMBNAIL.PNG!!" alt="">
 <img class="start" src="images/en/start.png" alt="">
 </a>
-
 </div>
 
 <div class="movie_info">
 <p>Name:</p>
-<p></p>
-
+<p>NAME!!</p>
 <p>Country:</p>
-<p></p>
-
+<p>COUNTRY!!</p>
 <p>Message:</p>
-<p></p>
+<p>MESSAGE!!</p>
 </div>
 
 <div class="share">
@@ -450,4 +449,18 @@
 </div>
 </div>
 
+<div class="movie_link">
+<h3>
+  <img class="close" src="images/en/close_text.png" alt="close">
+  <img class="open" src="images/en/open_text.png" alt="open">
+  Links
+</h3>
+<ul>
+<li><a href="LINK_ADDR!!">TITLE!!</a></li>
+...
+</ul>
+<p>The above links are to external websites.</p>
+<p>Nagoya University OpenCourseWare is not responsible for the contents of external websites.</p>
+</div>
+</div> {* class = movie *} 
 *}
