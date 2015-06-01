@@ -301,6 +301,16 @@ div#category{
    margin-bottom: 50px;
 }
 
+#link {
+	margin: 0 0 0 30px;
+	border-collapse: collapse;
+}
+
+#link td {
+	padding: 0 30px 30px 0;
+}
+
+/* フッターをバナー画像に差し替えたため無効化
 #footer td{
    color: #666666;
    border-right: solid 2px;
@@ -317,20 +327,11 @@ div#category{
    width: 250px;
    border-right: none;
 }
-
+*/
 #footer p{
    text-align: right;
    line-height: 25px;
    margin: 20px 0;
-}
-
-#link {
-	margin: 0 0 0 30px;
-	border-collapse: collapse;
-}
-
-#link td {
-	padding: 0 30px 30px 0;
 }
 
 /* FlashPlayerの案内の設定 */
