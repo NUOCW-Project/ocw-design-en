@@ -324,6 +324,14 @@ div#category{
    margin: 20px 0;
 }
 
+#link {
+	margin: 0 0 0 30px;
+	border-collapse: collapse;
+}
+
+#link td {
+	padding: 0 30px 30px 0;
+}
 
 /* FlashPlayerの案内の設定 */
 div.realplayer img{
