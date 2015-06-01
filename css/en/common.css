@@ -304,6 +304,7 @@ div#category{
 #link {
 	margin: 0 0 0 30px;
 	border-collapse: collapse;
+	border-spacing: 0;
 }
 
 #link td {
