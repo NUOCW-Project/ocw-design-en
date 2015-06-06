@@ -16,7 +16,7 @@
 
 <table id="class_table">
 <tr>
-<td>Class Meeting Times:</td>
+<td>Class Time:</td>
 <td>{$course_info.year} {$course_info.meeting_time}</td>
 </tr>
 <tr class="blank">
