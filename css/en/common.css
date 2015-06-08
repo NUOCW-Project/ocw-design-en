@@ -293,42 +293,21 @@ div#category{
 }
 
 /* リンク部 */
-#footer table{
-   table-layout: fixed;
-   text-align: center;
-   width: 100%;
-   margin-top: 100px;
-   margin-bottom: 50px;
+#footer ul{
+  list-style-type: none;
+  margin: 30px 0 0 30px;
+  padding: 0 0 0 0;
+  font-size: 0;
+  display: inline-block;
 }
 
-#link {
-	margin: 0 0 0 30px;
-	border-collapse: collapse;
-	border-spacing: 0;
+#footer ul li{
+  width: 300px;
+  font-size:0px;
+  display: inline;
+  padding: 0 30px 30px 0;
 }
 
-#link td {
-	padding: 0 30px 30px 0;
-}
-
-/* フッターをバナー画像に差し替えたため無効化
-#footer td{
-   color: #666666;
-   border-right: solid 2px;
-   font-size: 26px;
-}
-
-#footer td:nth-child(1){
-   text-align: left;
-   width: 130px;
-}
-
-#footer td:nth-last-child(1){
-   text-align: right;
-   width: 250px;
-   border-right: none;
-}
-*/
 #footer p{
    text-align: right;
    line-height: 25px;
