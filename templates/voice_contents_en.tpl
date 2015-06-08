@@ -1,7 +1,7 @@
 <div class="movie">
 <h2>Let's hear about Gifu Castle and Ise!</h2>
 <div class="thumbnail">
-<a href="http://nuvideo.media.nagoya-u.ac.jp/embed/35d18c9a10ab08040a6657d472e4e5ce1d2e6494" target="blank">
+<a href="http://nuvideo.media.nagoya-u.ac.jp/embed/cce7fb3198e6c4483d1eb36757d5cf2639333e8f" target="blank">
 <img class="thumbnail_img"  src="images/en/thumbnail/Bastian_thumbnail.png" alt="">
 <img class="start" src="images/en/start.png" alt="">
 </a>
@@ -54,7 +54,7 @@
 <div class="movie">
 <h2>After five years, we know our way around Nagoya!</h2> 
 <div class="thumbnail">
-<a href="http://nuvideo.media.nagoya-u.ac.jp/embed/1cfe8907175ac3d7f8555139c6ae3814ccdbdf32" target="blank">
+<a href="http://nuvideo.media.nagoya-u.ac.jp/embed/9b42ef6a7c92f6a0208db5477c65c41109a58484" target="blank">
 <img class="thumbnail_img"  src="images/en/thumbnail/Lucy_thumbnail.png" alt="">
 <img class="start" src="images/en/start.png" alt="">
 </a>
@@ -112,7 +112,7 @@
 <h2>Have you heard of Inuyama Festival?</h2> 
 <div class="thumbnail">
 
-<a href="http://nuvideo.media.nagoya-u.ac.jp/embed/ec5b95e8cc6e26d605ec15d880f099b76441844c" target="blank">
+<a href="http://nuvideo.media.nagoya-u.ac.jp/embed/50f44ab1fc7b077ab9ca9cf051842dabeed46736" target="blank">
 <img class="thumbnail_img"  src="images/en/thumbnail/Sam_thumbnail.png" alt="">
 <img class="start" src="images/en/start.png" alt="">
 </a>
@@ -424,6 +424,7 @@
 {* コピペ用 *}
 {*
 大文字で叫んでるところを書き換える
+サムネイルの比は480x320
 <div class="movie">
 <h2>TITLE!!</h2>
 <div class="thumbnail">
