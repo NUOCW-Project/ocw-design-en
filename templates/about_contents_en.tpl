@@ -28,7 +28,7 @@ Steering Committee Chairperson, Katsuaki ONOGI.
 
 <h3>The Purpose of This Site (Nagoya University OpenCourseWare)</h3>
 <p>
-Michinari HAMAGUCHI, the President of Nagoya University, launched a program to convert teaching materials
+Seiichi Matsuo, the President of Nagoya University, launched a program to convert teaching materials
 used in selected courses into digital format and make these materials available over the Internet to the public
 at no charge. By thus posting course materials on the web, the University offers the public a rare 
 glimpse into its classrooms. It is hoped that this site will help enrolled students engage in self-directed study, 
