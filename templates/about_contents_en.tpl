@@ -115,7 +115,7 @@ inquiries page</a>.
 
 
 <!-- Staff List -->
-<p id="date">As of April 4, 2014</p>
+<p id="date">As of July 22, 2015</p>
 <table id="committee_list">
 <tr>
 <th colspan="3">
@@ -124,21 +124,15 @@ Nagoya University OpenCourseWare Steering Committee
 </tr>
 
 <tr>
-<td>Katsuaki ONOGI (Chairperson)</td> 
+<td>Kazuhisa TODAYAMA (Chairperson)</td> 
 <td> Dean </td>
 <td>Institute of Liberal Arts and Sciences</td>
 </tr>
 
 <tr>
-<td>Ichiro YAMAMOTO</td>
+<td>Yuko ARAYAMA</td>
 <td>Vice-President</td>
-<td>Trustee</td>
-</tr>
-
-<tr>
-<td>Kazuhisa TODAYAMA</td>
-<td>Assistant to the President</td>
-<td>Nagoya University</td>
+<td>School of Economics</td>
 </tr>
 
 <tr>
@@ -148,19 +142,13 @@ Nagoya University OpenCourseWare Steering Committee
 </tr>
 
 <tr>
-<td>Toshiyuki TONOIKE</td>
-<td>Professor</td>
-<td>Center for Information Media Studies</td>
-</tr>
-
-<tr>
 <td>Masaaki KATAYAMA</td>
 <td>Professor</td>
 <td>EcoTopia Science Institute</td>
 </tr>
 
 <tr>
-<td>Toshiaki NAKAI</td>
+<td>Hidehiro NAKASHIMA</td>
 <td>Associate Professor</td>
 <td>Center for the Studies of Higher Education</td>
 </tr>
@@ -190,20 +178,20 @@ Nagoya University OpenCourseWare Steering Committee
 </tr>
 
 <tr>
-<td>Lai WAILING</td>
+<td>Wailing LAI</td>
 <td>Associate Professor</td>
 <td>Institute of Liberal Arts and Sciences</td>
 </tr>
 
 <tr>
-<td>Sadami NAKAHAMA</td>
-<td>Liberal Education Deputy Director</td>
-<td>Institute of Liberal Arts and Sciences</td>
+<td>MYERS Michelle Kuhn</td>
+<td>Designated lecturer</td>
+<td>Administrative Support Organizations International Education &amp; Exchange</td>
 </tr>
 
 <tr>
-<td>Shina KAWAZU</td>
-<td>Educational Affairs Planning Section Assistant Director</td>
+<td>Akimitsu IMAEDA</td>
+<td>Liberal Education Deputy Director</td>
 <td>Institute of Liberal Arts and Sciences</td>
 </tr>
 
@@ -221,58 +209,32 @@ Nagoya University OpenCourseWare Steering Committee
 
 <tr>
 <td>Aki HARA (Media Staff, Studio)</td>
-<td>Tetsuya ONO</td>
-<td>Michelle KUHN</td>
-</tr>
-<tr>
 <td>Yoshifumi INOUE</td>
 <td>Shuhei TAKAGI</td>
+</tr>
+
+<tr>
 <td>Ryousuke YAMAGISHI</td>
-</tr>
-<tr>
-<td>Kazuki UEMURA</td>
-<td>Yuma SATO</td>
-<td>Hiromasa YAMAUCHI</td>
-</tr>
-<tr>
 <td>Daisuke TAKAICHI</td>
-<td>You XIA</td>
-<td>Takahiro KOJIMA</td>
+<td>Xia YOU</td>
 </tr>
+
 <tr>
-<td>Yuuya NOBE</td>
+<td>Takahiro KOJIMA</td>
 <td>Katsuyasu KAMIMURA</td>
 <td>Masashi YAMAZAKI</td>
 </tr>
+
 <tr>
-<td>Mikito YAMAMOTO</td>
 <td>Hanako HOSHINO</td>
 <td>Yuto TOIDA</td>
-</tr>
-<tr>
 <td>Daiki ISHIKAWA</td>
+</tr>
+
+<tr>
 <td>Hiroki KAMADA</td>
 <td>Yutaro NAGAE</td>
-</tr>
-<tr>
-<td>Fumihiro OOTAKE</td>
-<td>Keita CHIGA</td>
 <td>Miyuu IMAMURA</td>
 </tr>
 <tr>
-<td>Misa ASANO</td>
-<td>Tomohisa TAMAI</td>
-<td></td>
-</tr>
 </table>
-<table id="photo_list">
-<tr>
-<th colspan="3">Photography</th>
-</tr>
-<tr>
-<td>Ryo YOSHIKAWA</td>
-<td>Yoko EGUSA</td>
-<td></td>
-</tr>
-</table>
-
