@@ -4,9 +4,14 @@ div#package2{
 top: 0px;
 }
 
+#amano_top {
+display: block;
+margin: auto;
+}
+
 #amano_video {
 position: relative;
-left: 390px;
+left: 417.5px;
 bottom: 177px;
 }
 
@@ -14,16 +19,16 @@ bottom: 177px;
 font-family: "小塚ゴシック Pr6N";
 font-size: 12pt;
 line-height: 30px;
-margin-top: -135px;
-margin-bottom: 45px
+margin: -135px 0 45px 42.5px;
+width: 625px
 }
 
 .q_title {
-font-size: 18pt;
+font-size: 17pt;
 }
 
 .qq {
-font-size: 16pt;
+font-size: 14pt;
 line-height: 30px;
 color: red;
 margin-top: 27.5px;
@@ -34,6 +39,8 @@ margin-bottom: 15px;
 font-family: "小塚ゴシック Pr6N";
 font-size: 12pt;
 line-height: 30px;
+width: 625px;
+margin-left: 42.5px;
 }
 
 #amano_one1 {
@@ -53,6 +60,8 @@ float: right;
 }
 
 #amano_two2 {
-margin: 45px 227.5px 0 227.5px;
+display: block;
+margin: auto;
+margin-top: 45px;
 }
 
