@@ -1,31 +1,32 @@
 /* TOPICS特別編  */
 
 div#package2{
-	top: 0px;
+top: 0px;
 }
 
 #amano_video {
 }
 
-h1 {
-color:red;
+#intro{
+font-family: "小塚ゴシック Pr6N";
+font-size: 14pt;
+line-height: 30px;
 }
 
 .q_title {
-margin-top: 30px;
-margin-bottom: 30px;
-font-size:medium;
+font-size: 21pt;
 }
 
 .qq {
-margin-top: 30px;
-margin-bottom: 30px;
-color:gray;
+font-size: 18pt;
+line-height: 30px;
+color: red;
 }
 
-#intro{
-margin-top: 30px;
-margin-top: 30px;
+#interview{
+font-family: "小塚ゴシック Pr6N";
+font-size: 14pt;
+line-height: 30px;
 }
 
 #amano_one1 {
