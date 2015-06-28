@@ -17,14 +17,16 @@ bottom: 177px;
 
 #intro{
 font-family: "小塚ゴシック Pr6N";
-font-size: 12pt;
+font-size: 11pt;
 line-height: 30px;
 margin: -135px 0 45px 42.5px;
-width: 625px
+width: 625px;
+color: black;
 }
 
 .q_title {
 font-size: 17pt;
+margin-top: 45px;
 }
 
 .qq {
@@ -37,26 +39,31 @@ margin-bottom: 15px;
 
 #interview{
 font-family: "小塚ゴシック Pr6N";
-font-size: 12pt;
+font-size: 11pt;
 line-height: 30px;
 width: 625px;
 margin-left: 42.5px;
+color: black;
 }
 
 #amano_one1 {
 float: right;
+margin-left: 15px;
 }
 
 #amano_two1 {
 float: right;
+margin-left: 15px;
 }
 
 #led_nu {
 float: right;
+margin-left: 15px;
 }
 
 #amano_one2 {
 float: right;
+margin-left: 15px;
 }
 
 #amano_two2 {
