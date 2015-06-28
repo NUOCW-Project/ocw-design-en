@@ -26,13 +26,17 @@ color: black;
 
 .q_title {
 font-size: 17pt;
-margin-top: 45px;
+margin: 45px 0 0 -42.5px;
+background-image: url("../images/ja/nobel_interview/title.png")
+background-repeat: no-repeat;
+width: 642.5px;
+padding: 15px 0 15px 47.5px;
 }
 
 .qq {
 font-size: 14pt;
 line-height: 30px;
-color: red;
+color: #b30000;
 margin-top: 27.5px;
 margin-bottom: 15px;
 }
