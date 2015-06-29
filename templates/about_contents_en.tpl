@@ -184,9 +184,9 @@ Nagoya University OpenCourseWare Steering Committee
 </tr>
 
 <tr>
-<td>Michelle Kuhn</td>
-<td>Designated lecturer</td>
-<td>Administrative Support Organizations International Education &amp; Exchange</td>
+<td>Michelle KUHN</td>
+<td>Lecturer / Associate Professor</td>
+<td>International Education &amp; Exchange</td>
 </tr>
 
 <tr>
