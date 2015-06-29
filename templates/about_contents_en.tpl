@@ -184,7 +184,7 @@ Nagoya University OpenCourseWare Steering Committee
 </tr>
 
 <tr>
-<td>MYERS Michelle Kuhn</td>
+<td>Michelle Kuhn</td>
 <td>Designated lecturer</td>
 <td>Administrative Support Organizations International Education &amp; Exchange</td>
 </tr>
@@ -214,15 +214,27 @@ Nagoya University OpenCourseWare Steering Committee
 </tr>
 
 <tr>
-<td>Ryousuke YAMAGISHI</td>
+<td>Ryosuke YAMAGISHI</td>
 <td>Daisuke TAKAICHI</td>
 <td>Xia YOU</td>
 </tr>
 
 <tr>
+<td>Yasuaki GYOUDA</td>
 <td>Takahiro KOJIMA</td>
+<td>Hidetaka TAJIMA</td>
+</tr>
+
+<tr>
+<td>Masaki KINOSHITA</td>
+<td>Gerardo Augusto URBINA SANCHEZ</td>
+<td>Tomoyuki KOBORI</td>
+</tr>
+
+<tr>
 <td>Katsuyasu KAMIMURA</td>
 <td>Masashi YAMAZAKI</td>
+<td>Yansong GUO</td>
 </tr>
 
 <tr>
@@ -232,9 +244,20 @@ Nagoya University OpenCourseWare Steering Committee
 </tr>
 
 <tr>
+<td>Hidenobu SAKAI</td>
+<td>Koya KUWAMURA</td>
 <td>Hiroki KAMADA</td>
+</tr>
+
+<tr>
 <td>Yutaro NAGAE</td>
 <td>Miyuu IMAMURA</td>
+<td>Yukina TAKANO</td>
 </tr>
+
 <tr>
+<td>Ryo NAKAMURA</td>
+<td>Xue LIU</td>
+<td>Oudam TENG</td>
+</tr>
 </table>
