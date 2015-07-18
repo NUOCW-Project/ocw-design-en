@@ -42,6 +42,7 @@
 <script type="text/javascript" src="./js/jquery.js"></script>
 <script type="text/javascript" src="./js/common.js"></script>
 <script type="text/javascript" src="./js/googleAnalytics.js"></script>
+<script type="text/javascript" src="./js/jwplayer.js"></script>
 {literal}
 {if $mode=='l'}
 <script type="text/javascript" src="./js/jquery.sticky-kit.min.js"></script>
