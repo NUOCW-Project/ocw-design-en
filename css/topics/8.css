@@ -1,0 +1,108 @@
+div#tp_default{
+    background-image: url("../../images/ja/topics7/back.png");
+    background-size: cover;
+    height: 1100px;
+}
+
+#intro_message img{
+    width: 865px;
+}
+
+#articles_title{
+    width: 435px;
+    margin: 25px 0 10px 0;
+    padding: 0 0 0 45px;
+    background-image: url("../../images/ja/topics7/connect.png");
+    background-repeat: no-repeat;
+    background-position: 290px 0;
+}
+
+nav{
+    height: auto;
+    width: auto;
+}
+
+#articles_title li nav a{
+    width: 100%;
+    height: 100%;
+}
+
+#articles_title li nav a:hover{
+    text-decoration: none;
+    color: #020202;
+}
+
+#articles_title li nav a img{
+    width: auto;
+    height: auto;
+    margin: 0 0 0 -20px;
+}
+
+#articles_intro{
+    width: 390px;
+    height: 740px;
+    background-image: url("../../images/ja/topics7/article_intro.png");
+    background-repeat: no-repeat;
+    margin:15px 0 0 -25px;
+}
+
+#package2{
+    top: 0px;
+}
+
+#articles_intro li article{
+    height: 740px;
+}
+
+#articles_intro li article h1:before{
+    display: none;
+}
+
+h1{
+    font-size: 15pt;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 0 0 0;
+}
+
+p img{
+    padding: 0 0 0 54px;
+}
+
+p.use{
+    padding: 0 0 0 45px;
+    font-size: 10pt;
+}
+
+ol{
+    padding: 0 0 0 50px;
+    font-size: 10pt;
+    line-height: 29px;
+}
+
+#articles_intro li article a img{
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 915px;
+    left: 588px;
+}
+
+#contents {
+    font-family: "小塚ゴシック Pr6N",sans-serif;
+    color: rgb(212, 251, 251);
+}
+
+p.lead {
+    font-size: 10pt;
+    line-height: 29px;
+    width: 280px;
+    padding: 0 0 0 54px;
+    text-align: justify;
+}
+
+.bg_off {
+}
+
+.bg_on {
+}
