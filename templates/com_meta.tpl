@@ -43,6 +43,7 @@
 <script type="text/javascript" src="./js/common.js"></script>
 <script type="text/javascript" src="./js/googleAnalytics.js"></script>
 <script type="text/javascript" src="./js/jwplayer.js"></script>
+<script>jwplayer.key="nDp4FtKpuEt4NmXMVUUEFX1fWJfyuvqTglqrDw==";</script>
 {literal}
 {if $mode=='l'}
 <script type="text/javascript" src="./js/jquery.sticky-kit.min.js"></script>
