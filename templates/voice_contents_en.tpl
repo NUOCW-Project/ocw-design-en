@@ -1,10 +1,7 @@
 <div class="movie">
 <h2>Let's hear about Gifu Castle and Ise!</h2>
 <div class="thumbnail">
-<a href="http://nuvideo.media.nagoya-u.ac.jp/embed/cce7fb3198e6c4483d1eb36757d5cf2639333e8f" target="blank">
-<img class="thumbnail_img"  src="images/en/thumbnail/Bastian_thumbnail.png" alt="">
-<img class="start" src="images/en/start.png" alt="">
-</a>
+  {embed_video id="2329" width="480" height="320" image="images/en/thumbnail/Bastian_thumbnail.png"}
 </div>
 
 <div class="movie_info">
@@ -54,10 +51,7 @@
 <div class="movie">
 <h2>After five years, we know our way around Nagoya!</h2> 
 <div class="thumbnail">
-<a href="http://nuvideo.media.nagoya-u.ac.jp/embed/9b42ef6a7c92f6a0208db5477c65c41109a58484" target="blank">
-<img class="thumbnail_img"  src="images/en/thumbnail/Lucy_thumbnail.png" alt="">
-<img class="start" src="images/en/start.png" alt="">
-</a>
+  {embed_video id="2331" width="480" height="320" image="images/en/thumbnail/Lucy_thumbnail.png"}
 </div>
 
 <div class="movie_info">
@@ -111,12 +105,7 @@
 <div class="movie">
 <h2>Have you heard of Inuyama Festival?</h2> 
 <div class="thumbnail">
-
-<a href="http://nuvideo.media.nagoya-u.ac.jp/embed/50f44ab1fc7b077ab9ca9cf051842dabeed46736" target="blank">
-<img class="thumbnail_img"  src="images/en/thumbnail/Sam_thumbnail.png" alt="">
-<img class="start" src="images/en/start.png" alt="">
-</a>
-
+  {embed_video id="2332" width="480" height="320" image="images/en/thumbnail/Sam_thumbnail.png"}
 </div>
 
 <div class="movie_info">
@@ -159,9 +148,7 @@
 <div class="movie">
 <h2>Things to do around Nagoya</h2> 
 <div class="thumbnail">
-<a href="http://nuvideo.media.nagoya-u.ac.jp/embed/a104d3eb0bcdf2a39cce06ec8773784700f85ae8" target="blank">
-<img class="thumbnail_img"  src="images/en/thumbnail/Julian_thumbnail3.png" alt="">
-<img class="start" src="images/en/start.png" alt="">
+  {embed_video id="1454" width="480" height="320" image="images/en/thumbnail/Julian_thumbnail3.png"}
 </a>
 
 </div>
@@ -215,12 +202,7 @@
 <div class="movie">
 <h2>Student Dorms!</h2> 
 <div class="thumbnail">
-
-<a href="http://nuvideo.media.nagoya-u.ac.jp/embed/caf178d89b25278eed0bf3d02ac84fc1b6a6b322" target="blank">
-<img class="thumbnail_img"  src="images/en/thumbnail/Julian_thumbnail2.png" alt="">
-<img class="start" src="images/en/start.png" alt="">
-</a>
-
+  {embed_video id="1453" width="480" height="320" image="images/en/thumbnail/Julian_thumbnail2.png"}
 </div>
 
 <div class="movie_info">
@@ -260,12 +242,7 @@
 <div class="movie">
 <h2>World Cosplay Summit in Nagoya!</h2> 
 <div class="thumbnail">
- 
-<a href="http://nuvideo.media.nagoya-u.ac.jp/embed/364386370bfeb899673e96fd94543cbb344b6125" target="blank" >
-<img class="thumbnail_img"  src="images/en/thumbnail/Julian_thumbnail.png" alt="">
-<img class="start" src="images/en/start.png" alt="">
-</a>
-
+  {embed_video id="1450" width="480" height="320" image="images/en/thumbnail/Julian_thumbnail.png"}
 </div>
 
 <div class="movie_info">
@@ -311,12 +288,7 @@
 
 
 <div class="thumbnail">
- 
-<a href="http://nuvideo.media.nagoya-u.ac.jp/embed/07b561f07650ee650ac4879987ee034a5bc0edfb" target="blank">
-<img class="thumbnail_img"  src="images/en/thumbnail/Meredith_thumbnail.png" alt="">
-<img class="start" src="images/en/start.png" alt="">
-</a>
-
+  {embed_video id="1435" width="480" height="320" image="images/en/thumbnail/Meredith_thumbnail.png"}
 </div> 
  
 
@@ -372,12 +344,7 @@
 
 
 <div class="thumbnail">
-
-<a href="http://nuvideo.media.nagoya-u.ac.jp/embed/055ab8def327f4e24a635cd758b9d7d75abc5313" target="blank">
-<img class="thumbnail_img" src="images/en/thumbnail/Michelle_thumbnail.png" alt="">
-<img class="start" src="images/en/start.png" alt="">
-</a>
- 
+  {embed_video id="1448" width="480" height="320" image="images/en/thumbnail/Michelle_thumbnail.png"}
 </div>
 
 <div class="movie_info">
@@ -428,10 +395,7 @@
 <div class="movie">
 <h2>TITLE!!</h2>
 <div class="thumbnail">
-<a href="MOVIE_URL!!" target="blank">
-<img class="thumbnail_img"  src="THUMBNAIL.PNG!!" alt="">
-<img class="start" src="images/en/start.png" alt="">
-</a>
+  {embed_video id="MOVIE_ID!!" width="480" height="320" image="THUMBNAIL.PNG!!"}
 </div>
 
 <div class="movie_info">
