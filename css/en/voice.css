@@ -29,7 +29,7 @@ p{
    overflow: hidden;
 }
 
-.movie div{
+.movie > div{
     float: left;
 }
 .thumbnail{
