@@ -1,3 +1,4 @@
+[![build status](https://ci.ocw.media.nagoya-u.ac.jp/projects/6/status.png?ref=3.0u)](https://ci.ocw.media.nagoya-u.ac.jp/projects/6?ref=3.0u)
 # ocw-design
 
 本リポジトリは[名古屋大学OCW](http://ocw.nagoya-u.jp/)の html, css, JavsScript ファイルを管理するものです.
