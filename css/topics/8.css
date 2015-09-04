@@ -1,5 +1,5 @@
 div#tp_default{
-    background-image: url("../../images/ja/topics7/back.png");
+    background-image: url("../../images/ja/topics8/back.png");
     background-size: cover;
     height: 1100px;
 }
@@ -12,7 +12,7 @@ div#tp_default{
     width: 435px;
     margin: 25px 0 10px 0;
     padding: 0 0 0 45px;
-    background-image: url("../../images/ja/topics7/connect.png");
+    background-image: url("../../images/ja/topics8/connect.png");
     background-repeat: no-repeat;
     background-position: 290px 0;
 }
@@ -38,10 +38,14 @@ nav{
     margin: 0 0 0 -20px;
 }
 
+#articles_title li nav a img:hover{
+	top:195px;
+}
+
 #articles_intro{
     width: 390px;
     height: 740px;
-    background-image: url("../../images/ja/topics7/article_intro.png");
+    background-image: url("../../images/ja/topics8/box.png");
     background-repeat: no-repeat;
     margin:15px 0 0 -25px;
 }
