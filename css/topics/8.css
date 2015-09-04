@@ -33,13 +33,14 @@ nav{
 }
 
 #articles_title li nav a img{
-    width: auto;
-    height: auto;
+    width: 315px;
+    height: 195px;
     margin: 0 0 0 -20px;
 }
 
 #articles_title li nav a img:hover{
-	top:195px;
+	position:relative;
+	top: -195px;
 }
 
 #articles_intro{
