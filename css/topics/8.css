@@ -1,5 +1,5 @@
 div#tp_default{
-    background-image: url("../../images/ja/topics8/back.png");
+    background-color: 034c29;
     background-size: cover;
     height: 1100px;
 }
@@ -12,9 +12,6 @@ div#tp_default{
     width: 435px;
     margin: 25px 0 10px 0;
     padding: 0 0 0 45px;
-    background-image: url("../../images/ja/topics8/connect.png");
-    background-repeat: no-repeat;
-    background-position: 290px 0;
 }
 
 nav{
@@ -23,8 +20,8 @@ nav{
 }
 
 #articles_title li nav a{
-    width: 100%;
-    height: 100%;
+    width: 315px;
+    height: 195px;
 }
 
 #articles_title li nav a:hover{
@@ -33,19 +30,19 @@ nav{
 }
 
 #articles_title li nav a img{
-    width: 315px;
-    height: 195px;
-    margin: 0 0 0 -20px;
+	position: absolute;
+	clip: rect(0px 315px 195px 0px);
 }
 
 #articles_title li nav a img:hover{
-	position:relative;
-	top: -195px;
+	position: absolute;
+	clip: rect(195px 315px 390px 0px);
+	margin-top: -195px;
 }
 
 #articles_intro{
-    width: 390px;
-    height: 740px;
+    width: 495px;
+    height: 1075px;
     background-image: url("../../images/ja/topics8/box.png");
     background-repeat: no-repeat;
     margin:15px 0 0 -25px;
@@ -64,7 +61,7 @@ nav{
 }
 
 h1{
-    font-size: 15pt;
+    font-size: 26px;
     text-align: center;
     font-weight: bold;
     padding: 20px 0 0 0;
@@ -93,13 +90,21 @@ ol{
     left: 588px;
 }
 
+#articles_intro li article a img magnet{
+	width: auto;
+    height: auto;
+    position: relative;
+    left: 141px;
+}
+
+
 #contents {
     font-family: "小塚ゴシック Pr6N",sans-serif;
-    color: rgb(212, 251, 251);
+    color: fff100;
 }
 
 p.lead {
-    font-size: 10pt;
+    font-size: 22px;
     line-height: 29px;
     width: 280px;
     padding: 0 0 0 54px;
