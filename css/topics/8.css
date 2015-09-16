@@ -11,7 +11,6 @@ div#tp_default{
 #articles_title{
     width: 435px;
     margin: 25px 0 10px 0;
-    padding: 0 0 0 45px;
 }
 
 nav{
@@ -45,7 +44,6 @@ nav{
     height: 1075px;
     background-image: url("../../images/ja/topics8/box.png");
     background-repeat: no-repeat;
-    margin:15px 0 0 -25px;
 }
 
 #package2{
@@ -67,20 +65,18 @@ h1{
     text-align: center;
     font-weight: bold;
     font-color: #fff100;
-    padding: 20px 0 0 0;
 }
 
 p img{
-    padding: 0 0 0 54px;
+
 }
 
 p.use{
-    padding: 0 0 0 45px;
+
     font-size: 10pt;
 }
 
 ol{
-    padding: 0 0 0 50px;
     font-size: 10pt;
     line-height: 29px;
 }
