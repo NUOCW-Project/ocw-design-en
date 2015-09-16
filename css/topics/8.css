@@ -1,5 +1,5 @@
 div#tp_default{
-    background-color: 034c29;
+    background-color: #034c29;
     background-size: cover;
     height: 1100px;
 }
@@ -61,9 +61,12 @@ nav{
 }
 
 h1{
+	width: 400px;
+	height: 52px;
     font-size: 26px;
     text-align: center;
     font-weight: bold;
+    font-color: #fff100;
     padding: 20px 0 0 0;
 }
 
@@ -93,21 +96,21 @@ ol{
 #articles_intro li article a img magnet{
 	width: auto;
     height: auto;
-    position: relative;
-    left: 141px;
+    position: absolute;
+    left: 729px;
 }
 
 
 #contents {
     font-family: "小塚ゴシック Pr6N",sans-serif;
-    color: fff100;
+    color: #ffffff;
 }
 
 p.lead {
     font-size: 22px;
     line-height: 29px;
-    width: 280px;
-    padding: 0 0 0 54px;
+    width: 400px;
+    height: 440px;
     text-align: justify;
 }
 
