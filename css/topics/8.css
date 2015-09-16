@@ -10,7 +10,6 @@ div#tp_default{
 
 #articles_title{
     width: 435px;
-    margin: 25px 0 10px 0;
 }
 
 nav{
@@ -21,11 +20,6 @@ nav{
 #articles_title li nav a{
     width: 315px;
     height: 195px;
-}
-
-#articles_title li nav a:hover{
-    text-decoration: none;
-    color: #020202;
 }
 
 #articles_title li nav a img{
@@ -89,7 +83,7 @@ ol{
     left: 588px;
 }
 
-#articles_intro li article a img magnet{
+#articles_intro li article a img .magnet{
 	width: auto;
     height: auto;
     position: absolute;
