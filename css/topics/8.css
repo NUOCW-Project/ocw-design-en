@@ -5,16 +5,22 @@ div#tp_default{
 }
 
 #intro_message img{
-    width: 865px;
+    width: 940px;
 }
 
 #articles_title{
-    width: 435px;
+    width: 315px;
+    margin: 0px 40px 45px 45px;
+    padding: 0px;
 }
 
 nav{
     height: auto;
     width: auto;
+}
+
+#articles_title li{
+    margin-bottom: 25px;
 }
 
 #articles_title li nav a{
@@ -66,7 +72,6 @@ p img{
 }
 
 p.use{
-
     font-size: 10pt;
 }
 
@@ -83,11 +88,16 @@ ol{
     left: 588px;
 }
 
-#articles_intro li article a img .magnet{
+#articles_intro li article .image{
+    position: relative;
+}
+
+#articles_intro li article .image .magnet{
 	width: auto;
     height: auto;
     position: absolute;
-    left: 729px;
+    top: -10px;
+    left: 175px;
 }
 
 
