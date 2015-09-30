@@ -1,7 +1,7 @@
 div#tp_default{
     background-color: #034c29;
     background-size: cover;
-    height: 1535px;
+    height: 1440px;
 }
 
 #intro_message img{
@@ -9,7 +9,7 @@ div#tp_default{
 }
 
 #articles_title{
-    width: 315px;
+    width: 300px;
 	margin: 0px 30px 42px 42px;
     padding: 0px;
 }
@@ -63,12 +63,12 @@ nav{
 }
 
 h1{
-	width: 460px;
+	width: 372px;
     height: 52px;
     font-size: 23px;
     text-align: center;
     font-weight: bold;
-    margin: 30px 5px 0px 5px;
+    margin: 33px 44px 30px 44px;
     color: #fff100;
 }
 
@@ -85,31 +85,35 @@ ol{
     line-height: 29px;
 }
 
-#articles_intro li article a img{
-    width: 270px;
-    margin: 14px 0px 0px 93px;
+#articles_intro li article p img{
+    width: 372px;
+    margin: 0px 44px 0px 44px;
 }
 
 #articles_intro li article .image{
     position: relative;
-}
-
-#articles_intro li article .image .kanban{
-	width: auto;
-    height: auto;
-    margin: 0px 0px 0px 33px;
+    margin: 0px;
 }
 
 #articles_intro li article .image .magnet{
-	width: auto;
-    height: auto;
+	width: 47px;
     position: absolute;
-    top: -10px;
-    left: 208px;
+    top: -15px;
+    left: 163px;
+}
+
+#articles_intro li article a img{
+	width: 270px;
+    position: relative;
+    top: 915px;
+    left: 588px;
+    margin: 0px 93px 0px 93px;
 }
 
 #bottom_image img{
 	width: 875px;
+	top: -55px;
+    position: relative;
 }
 
 
@@ -121,10 +125,10 @@ ol{
 p.lead {
     font-size: 17px;
     line-height: 29px;
-    width: 380px;
-    height: 440px;
+    width: 372px;
+    height: 460px;
     text-align: justify;
-    margin: 0px 0px 0px 40px;
+    margin: 23px 45px 0px 45px;
 }
 
 .bg_off {
