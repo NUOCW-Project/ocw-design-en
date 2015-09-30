@@ -1,7 +1,7 @@
 div#tp_default{
     background-color: #034c29;
     background-size: cover;
-    height: 1100px;
+    height: 1535px;
 }
 
 #intro_message img{
@@ -30,6 +30,8 @@ nav{
 
 #articles_title li nav a img{
 	position: absolute;
+	width: 315px;
+    height: 390px;
 	clip: rect(0px 315px 195px 0px);
 }
 
