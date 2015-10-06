@@ -1,7 +1,10 @@
 div#tp_default{
     background-color: #034c29;
-    background-size: cover;
-    height: 1440px;
+    background-size: 875px;
+    background-image: url("../../images/ja/topics8/bottom_image.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 1435px;
 }
 
 #intro_message img{
@@ -77,12 +80,14 @@ p img{
 }
 
 p.use{
-    font-size: 10pt;
+    font-size: 17px;
+    margin: 23px 45px 0px 45px;
 }
 
 ol{
-    font-size: 10pt;
+    font-size: 15px;
     line-height: 29px;
+    margin: 23px 45px 0px 45px;
 }
 
 #articles_intro li article p img{
@@ -104,18 +109,8 @@ ol{
 
 #articles_intro li article a img{
 	width: 270px;
-    position: relative;
-    top: 915px;
-    left: 588px;
     margin: 0px 93px 0px 93px;
 }
-
-#bottom_image img{
-	width: 875px;
-	top: -55px;
-    position: relative;
-}
-
 
 #contents {
     font-family: "小塚ゴシック Pr6N",sans-serif;
@@ -123,7 +118,7 @@ ol{
 }
 
 p.lead {
-    font-size: 17px;
+    font-size: 14px;
     line-height: 29px;
     width: 372px;
     height: 460px;
