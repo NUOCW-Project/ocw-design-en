@@ -154,6 +154,12 @@ Nagoya University OpenCourseWare Steering Committee
 </tr>
 
 <tr>
+<td>Tomoki TODA</td>
+<td>Professor</td>
+<td>Center for Information Media Studies</td>
+</tr>
+
+<tr>
 <td>Akifumi GOTO</td>
 <td>Associate Professor</td>
 <td>Center for Information Media Studies</td>
