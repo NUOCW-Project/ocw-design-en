@@ -5,9 +5,10 @@
 h1{
    font-size: 36px;
    font-weight: lighter;
-   padding: 0px;
-   margin: 0px;
-   margin-bottom: 5px;
+}
+
+h2{
+   font-size: 24px;
 }
 
 p{
@@ -18,15 +19,12 @@ p{
 /* movie property */
 
 .movie{
-   overflow: hidden;
 }
 
 .movie > div{
-    float: left;
 }
 
 .thumbnail{
-   float: left;
    width: 480px;
    height: 320px;
    box-shadow: 5px 5px 10px;
@@ -45,36 +43,11 @@ p{
 } 
 
 .movie_info{
-   width: 520px;
-   height: 320px;
    margin: 0 0 0 20px;
    line-height: 1;
 }
 
 
 .movie_info p{
-   margin: 5px 0px;
 }
 
-.movie_info p:nth-child(2), .movie_info p:nth-child(4) {
-   font-size: 36px;
-   padding-bottom: 15px;
-}
-
-.movie_info p:nth-child(6) {
-   line-height: 1.5;
-}
-
-
-/* .back property */
-
-.back{
-   color: #77BB44;
-   cursor: pointer;
-   padding: 10px 0px;
-   margin: 0;
-   width:105px;
-   position: relative;
-   left: 905px;
-   white-space: nowrap;
-}
