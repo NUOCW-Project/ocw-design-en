@@ -1,0 +1,51 @@
+/* Open Campus 2015  */
+
+/* common property  */
+
+/* movie property */
+
+.movie{
+}
+
+.movie h1{
+   font-size: 30px;
+   font-weight: lighter;
+}
+
+.movie h2{
+   font-size: 24px;
+   font-weight: lighter;
+   color: #666666;
+   float: left;
+}
+
+.thumbnail{
+   width: 480px;
+   height: 320px;
+   box-shadow: 5px 5px 10px;
+   margin: 0 0 20px 0;
+}
+
+.thumbnail_img{
+   width: 480px;
+   height: 320px;
+   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+   margin: 0 0 20px 0;
+}
+
+.start{
+   position: relative;
+   left: 200px;
+   top: -215px;
+} 
+
+.movie_info{
+   margin: 0 0 50px 20px;
+}
+
+
+.movie_info p{
+   font-size: 18px;
+   padding: 7.5px 0 0 0;
+}
+

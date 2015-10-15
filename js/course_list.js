@@ -2,7 +2,7 @@
  Sticky-kit v1.0.4 | WTFPL | Leaf Corcoran 2014 | http://leafo.net
 */
 
-$(function(){
+$(window).load(function(){
 	var table_width = new Array();
 	for(var i=0;i<8;++i){
 		table_width[i] = $("#class_head + tr > td:eq("+i+")").outerWidth(true);
