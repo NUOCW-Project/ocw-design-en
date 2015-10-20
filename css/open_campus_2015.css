@@ -2,6 +2,10 @@
 
 /* common property  */
 
+div#package2{
+top: 0px;
+}
+
 /* movie property */
 
 .movie{
@@ -10,6 +14,7 @@
 .movie h1{
    font-size: 30px;
    font-weight: lighter;
+   margin: 0 0 15px 20px;
 }
 
 .movie h2{
@@ -23,14 +28,14 @@
    width: 480px;
    height: 320px;
    box-shadow: 5px 5px 10px;
-   margin: 0 0 20px 0;
+   margin: 0 0 20px 30px;
 }
 
 .thumbnail_img{
    width: 480px;
    height: 320px;
    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
-   margin: 0 0 20px 0;
+   margin: 0 0 20px 30px;
 }
 
 .start{
@@ -40,7 +45,7 @@
 } 
 
 .movie_info{
-   margin: 0 0 50px 20px;
+   margin: 0 0 50px 50px;
 }
 
 
