@@ -25,18 +25,20 @@ step-by-step guidance, how you can practically apply those skills in your writin
 
 <h2>2015(Videos)</h2>
 <ol>
-	<li><a href="">Why is important to think logically for your writing</a></li>
-	<li><a href="">How to make your writing clear</a></li>
-	<li><a href="">How to use logic practically</a></li>
-	<li><a href="">How to make your writing convincing</a></li>
-	<li><a href="">Final presentations by students</a></li>
+	<li><a href="http://studio.media.nagoya-u.ac.jp/videos/watch.php?v=9d812673374382c5fe144acdf6138af3be4634ce">Why is important to think logically for your writing</a></li>
+	<li><a href="http://studio.media.nagoya-u.ac.jp/videos/watch.php?v=8a0c7b38797a56fd88b48255ba34dadaf99094b7">How to make your writing clear</a></li>
+	<li><a href="http://studio.media.nagoya-u.ac.jp/videos/watch.php?v=5b17fbe14f606908e770046fa06b629cb94bd165">How to use logic practically</a></li>
+	<li><a href="http://studio.media.nagoya-u.ac.jp/videos/watch.php?v=cf7e0ddea1771873b44f76ae50fb80d3d215ef9c">How to make your writing convincing</a></li>
+	<li><a href="http://studio.media.nagoya-u.ac.jp/videos/watch.php?v=9cd40d01193bc80a34b34f656125048ee289e785">Final presentations by students</a></li>
 </ol>
 
 <h2>2014(Videos)</h2>
 <ol>
-	<li><a href="">Why is important to think logically for your writing</a></li>
-	<li><a href="">How to make your writing clear</a></li>
-	<li><a href="">How to use logic practically</a></li>
+	<li><a href="https://www.youtube.com/watch?v=lIAfEFF9xpk&feature=youtu.be">Introduction to Academic Writing & Logical Thinking</a></li>
+	<li><a href="https://www.youtube.com/watch?v=Vqd2SWU0t-A&feature=youtu.be">Developing a central idea for your dissertation</a></li>
+	<li><a href="https://www.youtube.com/watch?v=gxTP6wnGjeI&feature=youtu.be">Developing a convincing support for the central idea</a></li>
+	<li><a href="https://www.youtube.com/watch?v=MzR5p7ZdtBQ&feature=youtu.be">Writing an abstract for your dissertation</a></li>
+	<li><a href="https://www.youtube.com/watch?v=yC6WnDPFbro&feature=youtu.be">Plagiarism and Logical Thinking Education</a></li>
 </ol>
 </div>
 <div class="eleUnit">
