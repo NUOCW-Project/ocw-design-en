@@ -35,6 +35,9 @@
 {elseif $page_type=='summercamp'}
   <link rel="stylesheet" type="text/css" href="css/{$lang}/summercamp.css">
 {/if} 
+{elseif $page_type=='mei_writing'}
+  <link rel="stylesheet" type="text/css" href="css/{$lang}/mei_writing.css">
+{/if} 
 {/literal}
 
 <link rel="alternate" type="application/rss+xml" title="NU OCW RSS" href="./files/rssfeed.xml">
