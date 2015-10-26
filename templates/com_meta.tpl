@@ -34,7 +34,6 @@
   <link rel="stylesheet" type="text/css" href="css/{$lang}/pressrelease.css">
 {elseif $page_type=='summercamp'}
   <link rel="stylesheet" type="text/css" href="css/{$lang}/summercamp.css">
-{/if} 
 {elseif $page_type=='mei_writing'}
   <link rel="stylesheet" type="text/css" href="css/{$lang}/mei_writing.css">
 {/if} 
