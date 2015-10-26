@@ -6,7 +6,7 @@
 .eleUnit h1{
   margin: 0 0 25px 0;
   font-size: 48px;
-  border-bottom: 1px solid #77bb44;
+  border-bottom: 2px solid #77bb44;
 }
 .eleUnit h2{
 	margin 0;
@@ -15,7 +15,13 @@
 .eleUnit p, .eleUnit ol{
 	margin: 25px 0;
 }
+.eleUnit p{
+	font-size:30px;
+}
+.eleUnit ul li{
+	list-style: none;
+}
 
-.eleUnit ol a{
+.eleUnit a{
 	font-size: 48px;
 }
