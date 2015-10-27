@@ -18,21 +18,23 @@ div#package2{
 .movie h1{
    font-size: 30px;
    font-weight: lighter;
-   margin: 0 0 15px 50px;
+   margin: 0 0 20px 35px;
+   line-height: 1.25;
+   width: 625px;
 }
 
 .thumbnail{
    width: 480px;
    height: 320px;
    box-shadow: 5px 5px 10px;
-   margin: 0 0 20px 110px;
+   margin: 0 0 50px 110px;
 }
 
 .thumbnail_img{
    width: 480px;
    height: 320px;
    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
-   margin: 0 0 20px 110px;
+   margin: 0 0 50px 110px;
 }
 
 .start{
@@ -42,12 +44,13 @@ div#package2{
 } 
 
 .movie_info{
-   margin: 0 0 50px 50px;
+   margin: 0 0 20px 37.5px;
+   width: 625px;
 }
 
 
 .movie_info p{
    font-size: 18px;
-   padding: 5px 0 0 0;
+   line-height: 1.5;
 }
 
