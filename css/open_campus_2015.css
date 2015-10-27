@@ -21,14 +21,6 @@ div#package2{
    margin: 0 0 15px 50px;
 }
 
-.movie h2{
-   font-size: 24px;
-   font-weight: lighter;
-   color: #666666;
-   float: left;
-   padding: 0 3px 0 0;
-}
-
 .thumbnail{
    width: 480px;
    height: 320px;
@@ -50,7 +42,7 @@ div#package2{
 } 
 
 .movie_info{
-   margin: 0 0 50px 100px;
+   margin: 0 0 50px 50px;
 }
 
 
