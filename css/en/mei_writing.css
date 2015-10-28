@@ -3,11 +3,14 @@
 .eleUnit{
   margin: 50px 0 80px 0;
 }
+.eleUnit:first-child{
+	margin-bottom: 50px;
+}
 .eleUnit h1{
   margin: 0 0 25px 0;
   font-size: 48px;
   border-bottom: 2px solid #77bb44;
-  padding: 0 0 0 25px;
+  padding: 0 0 0 35px;
   background: url("../../images/en/bg_writing.png") left repeat-y;
 }
 .eleUnit h2{
@@ -17,13 +20,6 @@
 .eleUnit p, .eleUnit ol{
 	margin: 25px 0;
 }
-.eleUnit p{
-	font-size:30px;
-}
 .eleUnit ul li{
 	list-style: none;
-}
-
-.eleUnit a{
-	font-size: 48px;
 }
