@@ -19,5 +19,6 @@ On class webpages, you can watch instructors introduce their classes in One Minu
 International Student's Voices
 Hear current Nagoya University students talk about their own experiences and feelings about Meidai! Anyone interested in Japan or Meidai should check these videos out!
 "></a></li>
+ <li><a href="index.php?lang=en&mode=g&page_type=mei_writing"><img src="images/en/slider/s06_mei_writing.jpg" alt="Mei-Writinng"></a></li>
 </ul>
 </div>
