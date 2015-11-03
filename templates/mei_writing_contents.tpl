@@ -46,8 +46,8 @@ step-by-step guidance, how you can practically apply those skills in your writin
 <h1>Academic Writing (Lecture)</h1>
 
 <ul>
-	<li><a href="http://ocw.nagoya-u.jp/index.php?lang=en&mode=c&id=409">Academic Writing I</a></li>
-	<li><a href="http://ocw.nagoya-u.jp/index.php?lang=en&mode=c&id=416&page_type=index">Academic Writing II</a></li>
-	<li><a href=http://ocw.nagoya-u.jp/index.php?lang=en&mode=c&id=471&page_type=index"">Academic Presentation</a></li>
+	<li><a href="index.php?lang=en&mode=c&id=409">Academic Writing I</a></li>
+	<li><a href="index.php?lang=en&mode=c&id=416&page_type=index">Academic Writing II</a></li>
+	<li><a href="index.php?lang=en&mode=c&id=471&page_type=index">Academic Presentation</a></li>
 </ul>
 </div>
