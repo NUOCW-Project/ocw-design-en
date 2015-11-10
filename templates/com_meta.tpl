@@ -1,4 +1,4 @@
-﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+﻿<!DOCTYPE html>
 <html lang="{$lang|default:"ja"}">
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
@@ -34,6 +34,8 @@
   <link rel="stylesheet" type="text/css" href="css/{$lang}/pressrelease.css">
 {elseif $page_type=='summercamp'}
   <link rel="stylesheet" type="text/css" href="css/{$lang}/summercamp.css">
+{elseif $page_type=='mei_writing'}
+  <link rel="stylesheet" type="text/css" href="css/{$lang}/mei_writing.css">
 {/if} 
 {/literal}
 

@@ -1,15 +1,20 @@
 div#tp_default{
     background-color: #034c29;
-    background-size: cover;
-    height: 1100px;
+    background-size: 875px;
+    background-image: url("../../images/ja/topics8/bottom_image.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 1435px;
 }
 
 #intro_message img{
-    width: 865px;
+    width: 875px;
 }
 
 #articles_title{
-    width: 435px;
+    width: 300px;
+	margin: 0px 30px 42px 42px;
+    padding: 0px;
 }
 
 nav{
@@ -17,27 +22,35 @@ nav{
     width: auto;
 }
 
+#articles_title li{
+    margin: 0px 0px 23px 0px;
+}
+
 #articles_title li nav a{
-    width: 315px;
-    height: 195px;
+    width: 300px;
+    height: 185px;
 }
 
 #articles_title li nav a img{
 	position: absolute;
-	clip: rect(0px 315px 195px 0px);
+    clip: rect(0px 300px 185px 0px);
+    width: 300px;
+    height: 370px;
 }
 
 #articles_title li nav a img:hover{
 	position: absolute;
-	clip: rect(195px 315px 390px 0px);
-	margin-top: -195px;
+	clip: rect(185px 300px 370px 0px);
+	margin: -185px 0px 0px 0px;
 }
 
 #articles_intro{
-    width: 495px;
-    height: 1075px;
+    width: 460px;
+    height: 1000px;
     background-image: url("../../images/ja/topics8/box.png");
     background-repeat: no-repeat;
+    background-size: 460px;
+    margin: 0px;
 }
 
 #package2{
@@ -53,12 +66,13 @@ nav{
 }
 
 h1{
-	width: 400px;
-	height: 52px;
-    font-size: 26px;
+	width: 372px;
+    height: 52px;
+    font-size: 23px;
     text-align: center;
     font-weight: bold;
-    font-color: #fff100;
+    margin: 33px 44px 30px 44px;
+    color: #fff100;
 }
 
 p img{
@@ -66,30 +80,37 @@ p img{
 }
 
 p.use{
-
-    font-size: 10pt;
+    font-size: 17px;
+    margin: 23px 45px 0px 45px;
 }
 
 ol{
     font-size: 10pt;
     line-height: 29px;
+    margin: 23px 45px 0px 45px;
+}
+
+#articles_intro li article p img{
+    width: 372px;
+    margin: 0px 44px 0px 44px;
+}
+
+#articles_intro li article .image{
+    position: relative;
+    margin: 0px;
+}
+
+#articles_intro li article .image .magnet{
+	width: 47px;
+    position: absolute;
+    top: -15px;
+    left: 163px;
 }
 
 #articles_intro li article a img{
-    width: auto;
-    height: auto;
-    position: absolute;
-    top: 915px;
-    left: 588px;
+	width: 270px;
+    margin: 0px 93px 0px 93px;
 }
-
-#articles_intro li article a img .magnet{
-	width: auto;
-    height: auto;
-    position: absolute;
-    left: 729px;
-}
-
 
 #contents {
     font-family: "小塚ゴシック Pr6N",sans-serif;
@@ -97,11 +118,12 @@ ol{
 }
 
 p.lead {
-    font-size: 22px;
+    font-size: 14px;
     line-height: 29px;
-    width: 400px;
-    height: 440px;
+    width: 372px;
+    height: 460px;
     text-align: justify;
+    margin: 23px 45px 0px 45px;
 }
 
 .bg_off {

@@ -154,6 +154,12 @@ Nagoya University OpenCourseWare Steering Committee
 </tr>
 
 <tr>
+<td>Tomoki TODA</td>
+<td>Professor</td>
+<td>Center for Information Media Studies</td>
+</tr>
+
+<tr>
 <td>Akifumi GOTO</td>
 <td>Associate Professor</td>
 <td>Center for Information Media Studies</td>
@@ -209,55 +215,60 @@ Nagoya University OpenCourseWare Steering Committee
 
 <tr>
 <td>Aki HARA (Media Staff, Studio)</td>
+<td>Kazutaka ABE</td>
 <td>Yoshifumi INOUE</td>
-<td>Shuhei TAKAGI</td>
 </tr>
 
 <tr>
+<td>Shuhei TAKAGI</td>
 <td>Ryosuke YAMAGISHI</td>
 <td>Daisuke TAKAICHI</td>
-<td>Xia YOU</td>
 </tr>
 
 <tr>
+<td>Xia YOU</td>
 <td>Yasuaki GYOUDA</td>
 <td>Takahiro KOJIMA</td>
-<td>Hidetaka TAJIMA</td>
 </tr>
 
 <tr>
+<td>Hidetaka TAJIMA</td>
 <td>Masaki KINOSHITA</td>
 <td>Gerardo Augusto URBINA SANCHEZ</td>
-<td>Tomoyuki KOBORI</td>
 </tr>
 
 <tr>
+<td>Tomoyuki KOBORI</td>
 <td>Katsuyasu KAMIMURA</td>
 <td>Masashi YAMAZAKI</td>
-<td>Yansong GUO</td>
 </tr>
 
 <tr>
+<td>Yansong GUO</td>
 <td>Hanako HOSHINO</td>
 <td>Yuto TOIDA</td>
-<td>Daiki ISHIKAWA</td>
 </tr>
 
 <tr>
+<td>Daiki ISHIKAWA</td>
 <td>Hidenobu SAKAI</td>
 <td>Koya KUWAMURA</td>
-<td>Hiroki KAMADA</td>
 </tr>
 
 <tr>
+<td>Hiroki KAMADA</td>
 <td>Yutaro NAGAE</td>
 <td>Miyuu IMAMURA</td>
-<td>Yukina TAKANO</td>
 </tr>
 
 <tr>
+<td>Yukina TAKANO</td>
 <td>Ryo NAKAMURA</td>
 <td>Xue LIU</td>
+</tr>
+
+<tr>
 <td>Oudam TENG</td>
 </tr>
+
 </table>
