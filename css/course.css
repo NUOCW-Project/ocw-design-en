@@ -210,4 +210,11 @@ table.basic ul, table.basic ol, table.basic dl {
 .fb_iframe_widget{
     top: -5px;
     margin: 0 0 0 20px;
-}{
+}
+
+#materials h2:hover,
+#syllabus h2:hover,
+#overview h2:hover{
+	color: #008000;
+	border-color: #008000;
+}
