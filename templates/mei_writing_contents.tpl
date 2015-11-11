@@ -6,7 +6,7 @@ and thinking. Under this approach, students learn how to think logically so that
 properly through words.&quot;</p>
 </div>
 <div class="eleUnit">
-<h1>Summer Camp 2014</h1>
+<h1>Summer Camp</h1>
 
 <p>Annual &quot;Mei-Writing Summer Camp&quot; is a great opportunity to learn about and improve upon the academic writing
 skills in an outdoor, fun-filled environment.
