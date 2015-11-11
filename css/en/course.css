@@ -87,7 +87,10 @@ body {
    cursor: pointer;
    padding-bottom:5px;
 }
-
+#class_detail h2:hover{
+	color: #008000;
+	border-color: #008000;
+}
 #class_detail img.close{
 	vertical-align: 2px;
 	margin-left: 5px;
