@@ -87,8 +87,11 @@ body {
    cursor: pointer;
    padding-bottom:5px;
 }
-
-#class_detail img.open, #class_detail img.close{
+#class_detail h2:hover{
+	color: #008000;
+	border-color: #008000;
+}
+#class_detail img.close{
 	vertical-align: 2px;
 	margin-left: 5px;
 	margin-right: 5px;
@@ -97,11 +100,6 @@ body {
 #class_detail img.close.active{
 	-webkit-transform: rotate(180deg);
 	transform: rotate(180deg);
-}
-
-#class_detail img.open.active{
-	-webkit-transform: rotate(-180deg);
-	transform: rotate(-180deg);
 }
 
 #class_detail img{
