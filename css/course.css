@@ -53,11 +53,8 @@
 		margin-top: 110px;
 		margin-bottom: 2em;
 		float: right;
-		width: 320px;
-		height: 180px;
 		text-align: center;
 		font-size: 15px;
-		box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 	}
 
 #line1{		/* 赤い水平線上 */
