@@ -62,7 +62,7 @@ $(document).ready(function(){
     
     $(".topics_title").click(function(){
         $(".intro").css("display","none");
-        $(".intro").eq(index).css("display","inherit");
+        $(".intro").css("display","inherit");
 
         $("div.art_title").removeClass("bg_on");
         $("div.art_title").addClass("bg_off");
