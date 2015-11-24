@@ -40,39 +40,35 @@ $(document).ready(function(){
     $(".art_title").mouseover(function(){
         var index = $(".art_title").index(this);
 
-        if(index != 0){
-            $(".intro").css("display","none");
-            $(".intro").eq(index).css("display","inherit");
+        $(".intro").css("display","none");
+        $(".intro").eq(index).css("display","inherit");
 
-            $(".blue_bar").css("display","none");
-            $(".blue_bar").eq(index - 1).css("display","inherit");
+        $(".blue_bar").css("display","none");
+        $(".blue_bar").eq(index).css("display","inherit");
 
-            $("div.art_title").removeClass("bg_on");
-            $("div.art_title").addClass("bg_off");
-            $("div.art_title").eq(index - 1).removeClass("bg_off");
-            $("div.art_title").eq(index - 1).addClass("bg_on");
+        $("div.art_title").removeClass("bg_on");
+        $("div.art_title").addClass("bg_off");
+        $("div.art_title").eq(index).removeClass("bg_off");
+        $("div.art_title").eq(index).addClass("bg_on");
 
-            $(".tp_title").css("color","");
-            $(".tp_title").eq(index - 1).css("color","#99CCCC");
+        $(".tp_title").css("color","");
+        $(".tp_title").eq(index).css("color","#99CCCC");
 
-            $(".art_title").eq(index).click(function(){
-                $(".detail").css("display","none");
-                $(".detail").eq(index - 1).css("display","inherit");
-            });
-        }
+        $(".art_title").eq(index).click(function(){
+            $(".detail").css("display","none");
+            $(".detail").eq(index).css("display","inherit");
+        });
+    });
+    
+    $(".topics_title").click(function(){
+        $(".intro").css("display","none");
+        $(".intro").eq(index).css("display","inherit");
 
-        if(index == 0){
-            $(".art_title").eq(index).click(function(){
-                $(".intro").css("display","none");
-                $(".intro").eq(index).css("display","inherit");
-
-                $("div.art_title").removeClass("bg_on");
-                $("div.art_title").addClass("bg_off");
-                $(".blue_bar").css("display","none");
-                $(".tp_title").css("color","");
-                $(".detail").css("display","none");
-            });
-        }
+        $("div.art_title").removeClass("bg_on");
+        $("div.art_title").addClass("bg_off");
+        $(".blue_bar").css("display","none");
+        $(".tp_title").css("color","");
+        $(".detail").css("display","none");
     });
 
     $("nav").addClass("bg_off");
