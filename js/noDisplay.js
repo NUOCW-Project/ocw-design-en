@@ -41,7 +41,7 @@ $(document).ready(function(){
         var index = $(".art_title").index(this);
 
         $(".intro").css("display","none");
-        $(".intro").eq(index).css("display","inherit");
+        $(".intro").eq(index + 1).css("display","inherit");
 
         $(".blue_bar").css("display","none");
         $(".blue_bar").eq(index).css("display","inherit");
@@ -54,7 +54,7 @@ $(document).ready(function(){
         $(".tp_title").css("color","");
         $(".tp_title").eq(index).css("color","#99CCCC");
 
-        $(".art_title").eq(index).click(function(){
+        $(".art_title").eq(index + 1).click(function(){
             $(".detail").css("display","none");
             $(".detail").eq(index).css("display","inherit");
         });
