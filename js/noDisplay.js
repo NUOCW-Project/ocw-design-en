@@ -37,6 +37,7 @@ $(document).ready(function(){
     $(".detail").css("display","none");
     $("div.art_title").addClass("bg_off");
 
+	//TOPICSの授業をクリックしたとき(3,5,6のみに適用)
     $(".art_title").mouseover(function(){
         var index = $(".art_title").index(this);
 
@@ -60,7 +61,8 @@ $(document).ready(function(){
         });
     });
     
-    $(".topics_title").click(function(){
+    //TOPICSのタイトルをクリックしたとき(3,5のみに適用)
+    $(".topics_title_logo").click(function(){
         $(".intro").css("display","none");
         $(".intro").eq(0).css("display","inherit");//「始めに」を表示
 
