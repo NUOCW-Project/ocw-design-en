@@ -62,7 +62,7 @@ $(document).ready(function(){
     
     $(".topics_title").click(function(){
         $(".intro").css("display","none");
-        $(".intro").eq(0).css("display","inherit");//「始めに」を表示
+        $(".intro").eq(0).css("display","inherit");//縲悟ｧ九ａ縺ｫ縲阪ｒ陦ｨ遉ｺ
 
         $("div.art_title").removeClass("bg_on");
         $("div.art_title").addClass("bg_off");
