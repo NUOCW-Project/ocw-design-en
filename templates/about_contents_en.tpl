@@ -166,7 +166,7 @@ Nagoya University OpenCourseWare Steering Committee
 </tr>
 
 <tr>
-<td>Takehiro OHYA</td>
+<td>Shiori NISHII</td>
 <td>Associate Professor</td>
 <td>Graduate School of Law</td>
 </tr>
@@ -234,41 +234,43 @@ Nagoya University OpenCourseWare Steering Committee
 <tr>
 <td>Hidetaka TAJIMA</td>
 <td>Masaki KINOSHITA</td>
-<td>Gerardo Augusto URBINA SANCHEZ</td>
+<td>Tomoyuki KOBORI</td>
 </tr>
 
 <tr>
-<td>Tomoyuki KOBORI</td>
 <td>Katsuyasu KAMIMURA</td>
 <td>Masashi YAMAZAKI</td>
+<td>Yansong GUO</td>
 </tr>
 
 <tr>
-<td>Yansong GUO</td>
 <td>Hanako HOSHINO</td>
 <td>Yuto TOIDA</td>
+<td>Daiki ISHIKAWA</td>
 </tr>
 
 <tr>
-<td>Daiki ISHIKAWA</td>
 <td>Hidenobu SAKAI</td>
 <td>Koya KUWAMURA</td>
-</tr>
-
-<tr>
-<td>Hiroki KAMADA</td>
 <td>Yutaro NAGAE</td>
-<td>Miyuu IMAMURA</td>
 </tr>
 
 <tr>
+<td>Miyuu IMAMURA</td>
 <td>Yukina TAKANO</td>
 <td>Ryo NAKAMURA</td>
-<td>Xue LIU</td>
 </tr>
 
 <tr>
-<td>Oudam TENG</td>
+<td>Xue LIU</td>
+<td>Kotaro OSUGI</td>
+<td>Yuri KUBOTA</td>
+</tr>
+
+<tr>
+<td>Yusei WAKAZONO</td>
+<td>Makoto MATSUMOTO</td>
+<td>Shogo WATANABE</td>
 </tr>
 
 </table>
