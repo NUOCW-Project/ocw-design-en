@@ -321,5 +321,6 @@ div.realplayer img{
 
 /* 文字を画像化して表示する場合の高さ設定 */
 img.text-image{
-     height: 1em;
+  height: 1.2em;
+  vertical-align: text-bottom;
 }
