@@ -318,3 +318,8 @@ div#category{
 div.realplayer img{
 	 vertical-align: bottom;
 }
+
+/* 文字を画像化して表示する場合の高さ設定 */
+img.text-image{
+     height: 1em;
+}
