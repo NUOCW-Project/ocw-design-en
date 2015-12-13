@@ -2,14 +2,14 @@
 <div id="browse_jump">
 <ul>
    <li id="category_img">
-   <img src="images/en/j_category.png" alt="">
+   <img src="images/en/j_category.svg" alt="">
    </li>
    <li id="category_name">
    Browse by Category
    </li>
 
    <li id="school_img">
-   <img src="images/en/j_school.png" alt="">
+   <img src="images/en/j_school.svg" alt="">
    </li>
    <li id="school_name">
    Browse by School/<br>Graduate School
