@@ -44,7 +44,7 @@
 {if $page_data[0] != ""}
 <div id="overview">
 <h2>
-<img class="close" src="images/en/close_text.png" alt="close">
+<img class="close" src="images/en/close_text.svg" alt="close">
 Course Overview
 </h2>
 </div>
@@ -58,7 +58,7 @@ Course Overview
 {if $page_data[1] != ""}
 <div id="syllabus">
 <h2>
-<img class="close" src="images/en/close_text.png" alt="close">
+<img class="close" src="images/en/close_text.svg" alt="close">
 Syllabus
 </h2>
 </div>
@@ -71,7 +71,7 @@ Syllabus
 {if $page_data[3] != ""}
 <div id="materials">
 <h2>
-<img class="close" src="images/en/close_text.png" alt="close">
+<img class="close" src="images/en/close_text.svg" alt="close">
 Class Materials
 </h2>
 </div>
