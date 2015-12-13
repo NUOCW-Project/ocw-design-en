@@ -22,8 +22,8 @@
 
 <div class="movie_link">
 <h3>
-  <img class="close" src="images/en/close_text.png" alt="close">
-  <img class="open" src="images/en/open_text.png" alt="open">
+  <img class="close" src="images/en/close_text.svg" alt="close">
+  <img class="open" src="images/en/open_text.svg" alt="open">
   Links
 </h3>
 <ul>
@@ -72,8 +72,8 @@
 
 <div class="movie_link">
 <h3>
-  <img class="close" src="images/en/close_text.png" alt="close">
-  <img class="open" src="images/en/open_text.png" alt="open">
+  <img class="close" src="images/en/close_text.svg" alt="close">
+  <img class="open" src="images/en/open_text.svg" alt="open">
   Links
 </h3>
 <ul>
@@ -128,8 +128,8 @@
 
 <div class="movie_link">
 <h3>
-  <img class="close" src="images/en/close_text.png" alt="close">
-  <img class="open" src="images/en/open_text.png" alt="open">
+  <img class="close" src="images/en/close_text.svg" alt="close">
+  <img class="open" src="images/en/open_text.svg" alt="open">
   Links
 </h3>
 <ul>
@@ -172,8 +172,8 @@
 
 <div class="movie_link">
 <h3>
-  <img class="close" src="images/en/close_text.png" alt="close">
-  <img class="open" src="images/en/open_text.png" alt="open">
+  <img class="close" src="images/en/close_text.svg" alt="close">
+  <img class="open" src="images/en/open_text.svg" alt="open">
   Links
 </h3>
 <ul>
@@ -224,8 +224,8 @@
 
 <div class="movie_link">
 <h3>
-  <img class="close" src="images/en/close_text.png" alt="close">
-  <img class="open" src="images/en/open_text.png" alt="open">
+  <img class="close" src="images/en/close_text.svg" alt="close">
+  <img class="open" src="images/en/open_text.svg" alt="open">
   Links
 </h3>
 <ul>
@@ -265,8 +265,8 @@
 
 <div class="movie_link">
 <h3>
-  <img class="close" src="images/en/close_text.png" alt="close">
-  <img class="open" src="images/en/open_text.png" alt="open">
+  <img class="close" src="images/en/close_text.svg" alt="close">
+  <img class="open" src="images/en/open_text.svg" alt="open">
   Links
 </h3>
 <ul>
@@ -314,8 +314,8 @@
 
 <div class="movie_link">
 <h3>
-  <img class="close" src="images/en/close_text.png" alt="close">
-  <img class="open" src="images/en/open_text.png" alt="open">
+  <img class="close" src="images/en/close_text.svg" alt="close">
+  <img class="open" src="images/en/open_text.svg" alt="open">
   Links
 </h3>
 <ul>
@@ -369,8 +369,8 @@
 </div> {* class = share  *}
 <div class="movie_link">
 <h3>
-  <img class="close" src="images/en/close_text.png" alt="close">
-  <img class="open" src="images/en/open_text.png" alt="open">
+  <img class="close" src="images/en/close_text.svg" alt="close">
+  <img class="open" src="images/en/open_text.svg" alt="open">
   Links
 </h3>
 <ul>
@@ -416,8 +416,8 @@
 
   <div class="movie_link">
     <h3>
-      <img class="close" src="images/en/close_text.png" alt="close">
-      <img class="open" src="images/en/open_text.png" alt="open">
+      <img class="close" src="images/en/close_text.svg" alt="close">
+      <img class="open" src="images/en/open_text.svg" alt="open">
       Links
     </h3>
     <ul>
