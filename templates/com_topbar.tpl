@@ -32,7 +32,7 @@
 </li>
 -->
 <li><input type="text" id="keyword" name="q" placeholder="Search by Google"></li>
-<li><input type="image" id="searchbtn" src="images/{$lang}/search.png" alt="search"></li>
+<li><input type="image" id="searchbtn" src="images/{$lang}/search.svg" alt="search"></li>
 {literal}{if $another_tpl_path}{* Link to Another Language Page *}
 {if $tag_id == ''}{* タグ指定が存在する場合には対応日本語ページを表示しない(2014/06/25現在対応ページは存在しない) *}
 <li><a id="japan" class="inner-shadow" href="{$smarty.server.SCRIPT_NAME}?lang={$another_lang}&amp;mode={$mode}&amp;id={$id}&amp;page_type={$another_page_type}">
