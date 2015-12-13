@@ -35,7 +35,7 @@
 {if $course_info.vsyllabus_rtmp != ''}
 <div id="video">
 <h1>
-<a class="video_button" href="{$course_info.vsyllabus_rtmp}" target="_blank"><img src="images/en/camera_button.png" alt="video view"></a>
+<a class="video_button" href="{$course_info.vsyllabus_rtmp}" target="_blank"><img src="images/en/camera_button.svg" alt="video view"></a>
 <a class="video_text" href="{$course_info.vsyllabus_rtmp}" target="_blank">1 min Video</a>
 </h1>
 </div> {* id = video  *}
