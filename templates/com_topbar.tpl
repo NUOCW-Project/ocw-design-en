@@ -1,6 +1,6 @@
 <div id="icon">
 <a href="index.php?lang={$lang}&amp;mode=g&amp;page_type=top">
-<img src="images/{$lang}/logo.png" alt="NU OCW"></a>
+<img src="images/{$lang}/logo.svg" alt="NU OCW"></a>
 </div>
 
 <div id="search">
