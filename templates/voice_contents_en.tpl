@@ -22,8 +22,8 @@
 
 <div class="movie_link">
 <h3>
-  <img class="close" src="images/en/close_text.png" alt="close">
-  <img class="open" src="images/en/open_text.png" alt="open">
+  <img class="close" src="images/en/close_text.svg" alt="close">
+  <img class="open" src="images/en/open_text.svg" alt="open">
   Links
 </h3>
 <ul>
@@ -72,8 +72,8 @@
 
 <div class="movie_link">
 <h3>
-  <img class="close" src="images/en/close_text.png" alt="close">
-  <img class="open" src="images/en/open_text.png" alt="open">
+  <img class="close" src="images/en/close_text.svg" alt="close">
+  <img class="open" src="images/en/open_text.svg" alt="open">
   Links
 </h3>
 <ul>
@@ -128,8 +128,8 @@
 
 <div class="movie_link">
 <h3>
-  <img class="close" src="images/en/close_text.png" alt="close">
-  <img class="open" src="images/en/open_text.png" alt="open">
+  <img class="close" src="images/en/close_text.svg" alt="close">
+  <img class="open" src="images/en/open_text.svg" alt="open">
   Links
 </h3>
 <ul>
@@ -172,8 +172,8 @@
 
 <div class="movie_link">
 <h3>
-  <img class="close" src="images/en/close_text.png" alt="close">
-  <img class="open" src="images/en/open_text.png" alt="open">
+  <img class="close" src="images/en/close_text.svg" alt="close">
+  <img class="open" src="images/en/open_text.svg" alt="open">
   Links
 </h3>
 <ul>
@@ -224,8 +224,8 @@
 
 <div class="movie_link">
 <h3>
-  <img class="close" src="images/en/close_text.png" alt="close">
-  <img class="open" src="images/en/open_text.png" alt="open">
+  <img class="close" src="images/en/close_text.svg" alt="close">
+  <img class="open" src="images/en/open_text.svg" alt="open">
   Links
 </h3>
 <ul>
@@ -265,8 +265,8 @@
 
 <div class="movie_link">
 <h3>
-  <img class="close" src="images/en/close_text.png" alt="close">
-  <img class="open" src="images/en/open_text.png" alt="open">
+  <img class="close" src="images/en/close_text.svg" alt="close">
+  <img class="open" src="images/en/open_text.svg" alt="open">
   Links
 </h3>
 <ul>
@@ -314,8 +314,8 @@
 
 <div class="movie_link">
 <h3>
-  <img class="close" src="images/en/close_text.png" alt="close">
-  <img class="open" src="images/en/open_text.png" alt="open">
+  <img class="close" src="images/en/close_text.svg" alt="close">
+  <img class="open" src="images/en/open_text.svg" alt="open">
   Links
 </h3>
 <ul>
@@ -369,8 +369,8 @@
 </div> {* class = share  *}
 <div class="movie_link">
 <h3>
-  <img class="close" src="images/en/close_text.png" alt="close">
-  <img class="open" src="images/en/open_text.png" alt="open">
+  <img class="close" src="images/en/close_text.svg" alt="close">
+  <img class="open" src="images/en/open_text.svg" alt="open">
   Links
 </h3>
 <ul>
@@ -379,7 +379,7 @@
   <li><a href="http://en.nagoya-u.ac.jp">Nagoya University Homepage</a></li>
   <li><a href="http://www.mext.go.jp/a_menu/koutou/ryugaku/boshu/1333340.htm">Japanese Ministry of Education Scholarship</a></li>
   <li><a href="http://admissions.g30.nagoya-u.ac.jp/en/">Nagoya University Global 30 Program</a></li>
-  <li><span><img src="images/en/nuocw_mail.png" alt="nuocw.support[at]gmail.com"></span></li>
+  <li><span><img class="text-image" src="images/en/nuocw_mail.svg" alt="nuocw.support[at]gmail.com"></span></li>
 </ul>
 <p>The above links are to external websites.</p>
 <p>Nagoya University OpenCourseWare is not responsible for the contents of external websites.</p>
@@ -416,8 +416,8 @@
 
   <div class="movie_link">
     <h3>
-      <img class="close" src="images/en/close_text.png" alt="close">
-      <img class="open" src="images/en/open_text.png" alt="open">
+      <img class="close" src="images/en/close_text.svg" alt="close">
+      <img class="open" src="images/en/open_text.svg" alt="open">
       Links
     </h3>
     <ul>

@@ -140,7 +140,6 @@ span.light_blue{
 #search img{
    height: 50px;
    vertical-align: bottom;
-   padding-left: 10px;
 }
 
 /* スライダー部 */
@@ -279,14 +278,14 @@ div#category{
 }
 
 #category h1:before{
-   content: url("../../images/en/category.png");
+   content: url("../../images/en/category.svg");
    margin-right: 10px;
    position: relative;
    top:3px;
 }
 
 #school h1:before{
-   content: url("../../images/en/school.png");
+   content: url("../../images/en/school.svg");
    margin-right: 10px;
    position: relative;
    top:4px;
@@ -302,10 +301,15 @@ div#category{
 }
 
 #footer ul li{
-  width: 300px;
-  font-size:0px;
-  display: inline;
-  padding: 0 30px 30px 0;
+   width: 300px;
+   font-size:0px;
+   display: inline;
+   padding: 0 30px 30px 0;
+}
+
+#footer ul li img{
+   width: 300px;
+   height: 80px;
 }
 
 #footer p{
@@ -317,4 +321,31 @@ div#category{
 /* FlashPlayerの案内の設定 */
 div.realplayer img{
 	 vertical-align: bottom;
+}
+
+/* 文字を画像化して表示する場合の高さ設定 */
+img.text-image{
+  height: 1.2em;
+  vertical-align: text-bottom;
+}
+
+/* 日本語版へのリンク画像用 */
+#japan{
+   margin-left: 10px;
+}
+
+.inner-shadow {
+   position: relative;
+   display: inline-block;
+}
+
+.inner-shadow:after {
+   position: absolute;
+   display: block;
+   content: "";
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3) inset;
 }

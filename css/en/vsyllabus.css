@@ -2,11 +2,11 @@
 
 /*
 ------------------------------------------------------------
-   1åˆ†é–“æˆæ¥­ç´¹ä»‹&PodCast
+   1Ê¬´Ö¼ø¶È¾Ò²ğ&PodCast
 ------------------------------------------------------------
 */
 
-/* ä¸€åˆ†é–“æˆæ¥­ç´¹ä»‹ã®ãƒšãƒ¼ã‚¸ã®è¨­å®š */
+/* °ìÊ¬´Ö¼ø¶È¾Ò²ğ¤Î¥Ú¡¼¥¸¤ÎÀßÄê */
 th.rank{
    width: 2%;
 	 text-align: center;
@@ -76,9 +76,14 @@ table{
    border-bottom: 2pt solid #666;
 }
 
-#thumbnail img{
+.thumbnail {
+   position: relative;
+}
+
+.thumbnail img{
    width: 192px;
    height: 108px;
+   vertical-align: bottom;
 }
 
 .left {
@@ -86,10 +91,9 @@ table{
 }
 
 .start{
-   position: relative;
-   margin-bottom: -108px;
+   position: absolute;
    left: 0px;
-   top: -108px;
+   top: 0px;
    width: 192px;
    height: 108px;
    overflow: hidden;
