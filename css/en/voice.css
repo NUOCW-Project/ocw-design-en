@@ -92,12 +92,12 @@ p{
     margin-bottom: 10px;
 }
 
-#movie_link h3 img.close.active{
+.movie_link h3 img.close.active{
 	-webkit-transform: rotate(180deg);
 	transform: rotate(180deg);
 }
 
-#movie_link h3 img{
+.movie_link h3 img{
 	-webkit-transition: all 0.25s linear;
     -moz-transition: all 0.25s linear;
     -o-transition: all 0.25s linear;
