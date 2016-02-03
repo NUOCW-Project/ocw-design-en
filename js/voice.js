@@ -20,5 +20,5 @@ $(function () {
 	var button = $('#' + box_id_list[i]);
 	button.click(function () {
         button.children('h2').children('img').toggleClass("active").next();
-    }
+    })
 });
