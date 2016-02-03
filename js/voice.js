@@ -17,8 +17,7 @@ $(function () {
 	});
 	
 	// Toggle Animation
-	var button = $('#' + box_id_list[i]);
-	button.click(function () {
-        button.children('h2').children('img').toggleClass("active").next();
+	$(".movie .movie_link h3").click(function () {
+        $(this).children('img').toggleClass("active").next();
     })
 });
