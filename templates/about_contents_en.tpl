@@ -273,4 +273,16 @@ Nagoya University OpenCourseWare Steering Committee
 <td>Shogo WATANABE</td>
 </tr>
 
+<tr>
+<td>Chika FUJIWARA</td>
+<td>Kaname UMENO</td>
+<td>Takeru KUMABE</td>
+</tr>
+
+<tr>
+<td>Masatoshi KANEYAMA</td>
+<td>Ryota MITSUNO</td>
+<td>Masaki SUGIMORI</td>
+</tr>
+
 </table>
