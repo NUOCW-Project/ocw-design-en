@@ -1,6 +1,6 @@
-{* uG30 Graduation Ceremonyv‚Ìƒeƒ“ƒvƒŒ[ƒg *}
+{* ã€ŒG30 Graduation Ceremonyã€ã®ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆ *}
 {include file="com_header.tpl"}
 {if $lang == "en"}
   {include file="voice_g30graduation_contents.tpl"}
 {/if}
-{include file="com_footer.tpl"}
+  {include file="com_footer.tpl"}
