@@ -1,0 +1,90 @@
+/* TOPICS特別編  */
+
+div#package2{
+top: 0px;
+}
+
+#agri_top{
+display: block;
+margin: auto;
+}
+
+#intro h1{
+font-size: 21px;
+line-height: 30px;
+margin: 45px 0 30px 75px;
+}
+
+#intro p{
+font-size: 14px;
+line-height: 30px;
+padding: 15px;
+border: solid 5px;
+border-radius: 25px 25px 25px 25px;
+color: red;
+}
+
+.report h1{
+font-size: 21px;
+margin: 45px 0 15px 100px;
+padding: 0 15px 0 15px;
+}
+
+.report p{
+font-size: 14px;
+line-height: 30px;
+margin: 15px 0 15px 115px;
+padding: 0 15px 0 15px;
+}
+
+.report li{
+font-size: 14px;
+line-height: 30px;
+margin: 15px 0 0px 115px;
+}
+
+.article p{
+font-size: 14px;
+line-height: 30px;
+margin: 30px 0 0 30px;
+}
+
+.article img{
+float: left;
+margin: 30px 0 30px 100px;
+}
+
+.interview{
+padding: 15px;
+border: solid 5px;
+border-radius: 25px 25px 25px 25px;
+margin: 45px 0 45px 75px;
+}
+
+.interview h1{
+font-size: 21px;
+margin: 0 0 30px 0;
+padding: 0 15px 0 15px;
+}
+
+.interview h2{
+font-size: 21px;
+line-height: 30px;
+margin: 30px 0 15px 0;
+}
+
+.interview p{
+font-size: 14px;
+line-height: 30px;
+margin: 30px 0 30px 0;
+}
+
+.interview li{
+font-size: 14px;
+line-height: 30px;
+margin: 15px 0 0 0;
+}
+
+#agri_movie{
+margin: 15px 0 15px 90px;
+}
