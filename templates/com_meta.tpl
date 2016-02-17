@@ -36,6 +36,8 @@
   <link rel="stylesheet" type="text/css" href="css/{$lang}/summercamp.css">
 {elseif $page_type=='mei_writing'}
   <link rel="stylesheet" type="text/css" href="css/{$lang}/mei_writing.css">
+{elseif $page_type=='voice_g30graduation'}
+  <link rel="stylesheet" type="text/css" href="css/{$lang}/voice_g30graduation.css">
 {/if} 
 {/literal}
 
