@@ -4,73 +4,87 @@ div#package2{
 top: 0px;
 }
 
-#amano_top {
+#agri_top{
 display: block;
 margin: auto;
 }
 
-#amano_video {
-position: relative;
-left: 417.5px;
-bottom: 177px;
-}
-
-#intro{
-font-size: 11pt;
+#intro h1{
+font-size: 21px;
 line-height: 30px;
-margin: -135px 0 45px 42.5px;
-width: 625px;
-color: black;
+margin: 45px 0 30px 75px;
 }
 
-.q_title {
-font-size: 17pt;
-margin: 45px 0 0 -42.5px;
-background-image: url("../images/ja/nobel_interview/title.png");
-background-repeat: no-repeat;
-width: 642.5px;
-padding: 15px 0 15px 47.5px;
-}
-
-.qq {
-font-size: 14pt;
+#intro p{
+font-size: 14px;
 line-height: 30px;
-color: #b30000;
-margin-top: 27.5px;
-margin-bottom: 15px;
+padding: 15px;
+border: solid 5px;
+border-radius: 25px 25px 25px 25px;
+color: red;
 }
 
-#interview{
-font-size: 11pt;
+.report h1{
+font-size: 21px;
+margin: 45px 0 15px 100px;
+padding: 0 15px 0 15px;
+}
+
+.report p{
+font-size: 14px;
 line-height: 30px;
-width: 625px;
-margin-left: 42.5px;
-color: black;
+margin: 15px 0 15px 115px;
+padding: 0 15px 0 15px;
 }
 
-#amano_one1 {
-float: right;
-margin-left: 15px;
+.report li{
+font-size: 14px;
+line-height: 30px;
+margin: 15px 0 0px 115px;
 }
 
-#amano_two1 {
-float: right;
-margin-left: 15px;
+.article p{
+font-size: 14px;
+line-height: 30px;
+margin: 30px 0 0 30px;
 }
 
-#led_nu {
-float: right;
-margin-left: 15px;
+.article img{
+float: left;
+margin: 30px 0 30px 100px;
 }
 
-#amano_one2 {
-float: right;
-margin-left: 15px;
+.interview{
+padding: 15px;
+border: solid 5px;
+border-radius: 25px 25px 25px 25px;
+margin: 45px 0 45px 75px;
 }
 
-#amano_two2 {
-display: block;
-margin: auto;
-margin-top: 45px;
+.interview h1{
+font-size: 21px;
+margin: 0 0 30px 0;
+padding: 0 15px 0 15px;
 }
 
+.interview h2{
+font-size: 21px;
+line-height: 30px;
+margin: 30px 0 15px 0;
+}
+
+.interview p{
+font-size: 14px;
+line-height: 30px;
+margin: 30px 0 30px 0;
+}
+
+.interview li{
+font-size: 14px;
+line-height: 30px;
+margin: 15px 0 0 0;
+}
+
+#agri_movie{
+margin: 15px 0 15px 90px;
+}
