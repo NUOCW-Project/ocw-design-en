@@ -1,0 +1,30 @@
+/* TOPICS特別篇（ローマクラブ） */
+
+#package2{
+	top: 0px;
+}
+
+#contents{
+margin-left: 55px;
+}
+
+h1 {
+color:red;
+}
+
+p{
+font-size: 14px;
+}
+
+ul{
+font-size: 14px;
+}
+
+#intro{
+margin-top: 45px;
+margin-bottom: 45px;
+}
+
+#link ul{
+display: inline;
+}
