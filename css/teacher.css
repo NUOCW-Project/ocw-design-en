@@ -5,5 +5,9 @@
 ------------------------------------------------------------
 */
 .white{
-line-style-type: circle;
+list-style-type: circle;
+}
+
+div#package2{
+top: 0;
 }
