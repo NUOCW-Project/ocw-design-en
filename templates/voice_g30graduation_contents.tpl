@@ -249,5 +249,3 @@
 <a style="height: 35px;" href="https://twitter.com/share" class="twitter-share-button" data-url="http://ocw.nagoya-u.jp/index.php?lang=en&mode=g&page_type=voice" data-via="NagoyaUniv_OCW" data-lang="en">Tweet</a>
 </div>
 </div>
-
-<hr>
