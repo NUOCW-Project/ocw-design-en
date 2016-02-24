@@ -13,7 +13,7 @@ margin: 16px 0px;
 font-size: 14px;
 }
 
-#contents dl #specialtopics dl{
+#contents dl#specialtopics {
 padding-bottom: 60px;
 }
 
