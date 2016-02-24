@@ -4,21 +4,19 @@
 top: 0px;
 }
 
-#contents{
-padding-left: 55px;
+#romeclub{
+width: 640px;
+margin-left: 45px;
+margin-right: 55px;
 }
 
-#contents h1{
+#romeclub h1{
 color:red;
+font-size: 30px;
 }
 
-#contents p{
+#romeclub p{
 font-size: 14px;
-}
-
-#contents ul{
-font-size: 14px;
-padding-left:10px;
 }
 
 #intro{
@@ -26,12 +24,14 @@ margin-top: 45px;
 margin-bottom: 45px;
 }
 
-#link{
+#video{
 margin-bottom: 45px;
 }
 
-#link ul{
+#video ul{
 display: inline;
+font-size: 14px;
+padding-left: 10px;
 }
 
 #image img{
