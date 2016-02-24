@@ -11,7 +11,7 @@ margin-right: 55px;
 }
 
 #romeclub h1{
-color:red;
+color:#e60012;
 font-size: 30px;
 }
 
@@ -28,13 +28,22 @@ margin-bottom: 45px;
 margin-bottom: 45px;
 }
 
-#video ul{
-font-size: 14px;
-padding-left: 10px;
+#video p {
+margin-bottom: 15px;
 }
 
-#video li{
+#video dl{
+font-size: 14px;
+}
+
+#video dt {
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+#video dd{
 display: inline;
+margin-left: 10px;
 }
 
 #image img{
