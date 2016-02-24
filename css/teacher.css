@@ -11,3 +11,14 @@ list-style-type: circle;
 div#package2{
 top: 0;
 }
+
+.g_text p {
+    margin-left: 25px;
+}
+.g_text dl {
+    margin-left: 25px;
+}
+.pankuzu {
+    margin-bottom: -15px;
+}
+
