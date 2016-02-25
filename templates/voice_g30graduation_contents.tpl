@@ -18,7 +18,7 @@
 <a style="height: 35px;" href="https://twitter.com/share" class="twitter-share-button" data-url="http://ocw.nagoya-u.jp/index.php?lang=en&mode=g&page_type=voice" data-via="NagoyaUniv_OCW" data-lang="en">Tweet</a>
 </div>
 </div>
-
+</div>
 <div class="movie">
 <div class="thumbnail">
   {embed_video id="2806" width="480" height="320" image="images/en/thumbnail/Zhu_thumbnail.png"}
@@ -39,7 +39,7 @@
 <a style="height: 35px;" href="https://twitter.com/share" class="twitter-share-button" data-url="http://ocw.nagoya-u.jp/index.php?lang=en&mode=g&page_type=voice" data-via="NagoyaUniv_OCW" data-lang="en">Tweet</a>
 </div>
 </div>
-
+</div>
 <div class="movie">
 <div class="thumbnail">
   {embed_video id="2807" width="480" height="320" image="images/en/thumbnail/Kimberley_thumbnail.png"}
@@ -60,7 +60,7 @@
 <a style="height: 35px;" href="https://twitter.com/share" class="twitter-share-button" data-url="http://ocw.nagoya-u.jp/index.php?lang=en&mode=g&page_type=voice" data-via="NagoyaUniv_OCW" data-lang="en">Tweet</a>
 </div>
 </div>
-
+</div>
 <div class="movie">
 <div class="thumbnail">
   {embed_video id="2808" width="480" height="320" image="images/en/thumbnail/Raashidah_thumbnail.png"}
@@ -81,7 +81,7 @@
 <a style="height: 35px;" href="https://twitter.com/share" class="twitter-share-button" data-url="http://ocw.nagoya-u.jp/index.php?lang=en&mode=g&page_type=voice" data-via="NagoyaUniv_OCW" data-lang="en">Tweet</a>
 </div>
 </div>
-
+</div>
 <div class="movie">
 <div class="thumbnail">
   {embed_video id="2809" width="480" height="320" image="images/en/thumbnail/Jin_thumbnail.png"}
@@ -102,7 +102,7 @@
 <a style="height: 35px;" href="https://twitter.com/share" class="twitter-share-button" data-url="http://ocw.nagoya-u.jp/index.php?lang=en&mode=g&page_type=voice" data-via="NagoyaUniv_OCW" data-lang="en">Tweet</a>
 </div>
 </div>
-
+</div>
 <div class="movie">
 <div class="thumbnail">
   {embed_video id="2810" width="480" height="320" image="images/en/thumbnail/Kwong_thumbnail.png"}
@@ -123,7 +123,7 @@
 <a style="height: 35px;" href="https://twitter.com/share" class="twitter-share-button" data-url="http://ocw.nagoya-u.jp/index.php?lang=en&mode=g&page_type=voice" data-via="NagoyaUniv_OCW" data-lang="en">Tweet</a>
 </div>
 </div>
-
+</div>
 <div class="movie">
 <div class="thumbnail">
   {embed_video id="2811" width="480" height="320" image="images/en/thumbnail/Dilafruz_thumbnail.png"}
@@ -144,7 +144,7 @@
 <a style="height: 35px;" href="https://twitter.com/share" class="twitter-share-button" data-url="http://ocw.nagoya-u.jp/index.php?lang=en&mode=g&page_type=voice" data-via="NagoyaUniv_OCW" data-lang="en">Tweet</a>
 </div>
 </div>
-
+</div>
 <div class="movie">
 <div class="thumbnail">
   {embed_video id="2812" width="480" height="320" image="images/en/thumbnail/Tan_thumbnail.png"}
@@ -165,7 +165,7 @@
 <a style="height: 35px;" href="https://twitter.com/share" class="twitter-share-button" data-url="http://ocw.nagoya-u.jp/index.php?lang=en&mode=g&page_type=voice" data-via="NagoyaUniv_OCW" data-lang="en">Tweet</a>
 </div>
 </div>
-
+</div>
 <div class="movie">
 <div class="thumbnail">
   {embed_video id="2813" width="480" height="320" image="images/en/thumbnail/Hikaru_thumbnail.png"}
@@ -186,7 +186,7 @@
 <a style="height: 35px;" href="https://twitter.com/share" class="twitter-share-button" data-url="http://ocw.nagoya-u.jp/index.php?lang=en&mode=g&page_type=voice" data-via="NagoyaUniv_OCW" data-lang="en">Tweet</a>
 </div>
 </div>
-
+</div>
 <div class="movie">
 <div class="thumbnail">
   {embed_video id="2814" width="480" height="320" image="images/en/thumbnail/Masako_thumbnail.png"}
@@ -207,7 +207,7 @@
 <a style="height: 35px;" href="https://twitter.com/share" class="twitter-share-button" data-url="http://ocw.nagoya-u.jp/index.php?lang=en&mode=g&page_type=voice" data-via="NagoyaUniv_OCW" data-lang="en">Tweet</a>
 </div>
 </div>
-
+</div>
 <div class="movie">
 <div class="thumbnail">
   {embed_video id="2815" width="480" height="320" image="images/en/thumbnail/Ruriko_thumbnail.png"}
@@ -228,7 +228,7 @@
 <a style="height: 35px;" href="https://twitter.com/share" class="twitter-share-button" data-url="http://ocw.nagoya-u.jp/index.php?lang=en&mode=g&page_type=voice" data-via="NagoyaUniv_OCW" data-lang="en">Tweet</a>
 </div>
 </div>
-
+</div>
 <div class="movie">
 <div class="thumbnail">
   {embed_video id="2805" width="480" height="320" image="images/en/thumbnail/Rina_thumbnail.png"}
@@ -247,5 +247,6 @@
 <div class="fb-like" data-href="http://ocw.nagoya-u.jp/index.php?lang=en&mode=g&page_type=voice" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
 <div class="tweet_button">
 <a style="height: 35px;" href="https://twitter.com/share" class="twitter-share-button" data-url="http://ocw.nagoya-u.jp/index.php?lang=en&mode=g&page_type=voice" data-via="NagoyaUniv_OCW" data-lang="en">Tweet</a>
+</div>
 </div>
 </div>
