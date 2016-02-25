@@ -1,3 +1,9 @@
+<a href="index.php?lang=en&mode=g&amp;page_type=voice_g30graduation">
+<img src="./images/en/banner/g30graduationceremony.jpg" onmouseover="this.src='./images/en/banner/g30graduationceremony_over.jpg'" onmouseout="this.src='./images/en/banner/g30graduationceremony.jpg">
+</a>
+
+<a href="index.php?lang=en&amp;mode=g&amp;page_type=voice">
+
 <div class="movie">
 <h2>Let's hear about Gifu Castle and Ise!</h2>
 <div class="thumbnail">

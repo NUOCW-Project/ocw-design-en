@@ -64,7 +64,7 @@ p{
    margin: 5px 0px;
 }
 
-.movie_info p:nth-child(2), .movie_info p:nth-child(4) {
+.movie_info p:nth-child(even) {
    font-size: 36px;
    padding-bottom: 15px;
 }
