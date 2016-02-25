@@ -1,6 +1,6 @@
 <div class="movie">
 <div class="thumbnail">
-  {embed_video id="2329" width="480" height="320" image="images/en/thumbnail/Bastian_thumbnail.png"}
+  {embed_video id="2804" width="480" height="320" image="images/en/thumbnail/Mahmudov_thumbnail.png"}
 </div>
 
 <div class="movie_info">
@@ -21,7 +21,7 @@
 
 <div class="movie">
 <div class="thumbnail">
-  {embed_video id="2329" width="480" height="320" image="images/en/thumbnail/Bastian_thumbnail.png"}
+  {embed_video id="2806" width="480" height="320" image="images/en/thumbnail/Zhu_thumbnail.png"}
 </div>
 
 <div class="movie_info">
@@ -42,7 +42,7 @@
 
 <div class="movie">
 <div class="thumbnail">
-  {embed_video id="2329" width="480" height="320" image="images/en/thumbnail/Bastian_thumbnail.png"}
+  {embed_video id="2807" width="480" height="320" image="images/en/thumbnail/Kimberley_thumbnail.png"}
 </div>
 
 <div class="movie_info">
@@ -63,7 +63,7 @@
 
 <div class="movie">
 <div class="thumbnail">
-  {embed_video id="2329" width="480" height="320" image="images/en/thumbnail/Bastian_thumbnail.png"}
+  {embed_video id="2808" width="480" height="320" image="images/en/thumbnail/Raashidah_thumbnail.png"}
 </div>
 
 <div class="movie_info">
@@ -84,7 +84,7 @@
 
 <div class="movie">
 <div class="thumbnail">
-  {embed_video id="2329" width="480" height="320" image="images/en/thumbnail/Bastian_thumbnail.png"}
+  {embed_video id="2809" width="480" height="320" image="images/en/thumbnail/Jin_thumbnail.png"}
 </div>
 
 <div class="movie_info">
@@ -105,7 +105,7 @@
 
 <div class="movie">
 <div class="thumbnail">
-  {embed_video id="2329" width="480" height="320" image="images/en/thumbnail/Bastian_thumbnail.png"}
+  {embed_video id="2810" width="480" height="320" image="images/en/thumbnail/Kwong_thumbnail.png"}
 </div>
 
 <div class="movie_info">
@@ -126,7 +126,7 @@
 
 <div class="movie">
 <div class="thumbnail">
-  {embed_video id="2329" width="480" height="320" image="images/en/thumbnail/Bastian_thumbnail.png"}
+  {embed_video id="2811" width="480" height="320" image="images/en/thumbnail/Dilafruz_thumbnail.png"}
 </div>
 
 <div class="movie_info">
@@ -147,7 +147,7 @@
 
 <div class="movie">
 <div class="thumbnail">
-  {embed_video id="2329" width="480" height="320" image="images/en/thumbnail/Bastian_thumbnail.png"}
+  {embed_video id="2812" width="480" height="320" image="images/en/thumbnail/Tan_thumbnail.png"}
 </div>
 
 <div class="movie_info">
@@ -168,7 +168,7 @@
 
 <div class="movie">
 <div class="thumbnail">
-  {embed_video id="2329" width="480" height="320" image="images/en/thumbnail/Bastian_thumbnail.png"}
+  {embed_video id="2813" width="480" height="320" image="images/en/thumbnail/Hikaru_thumbnail.png"}
 </div>
 
 <div class="movie_info">
@@ -189,7 +189,7 @@
 
 <div class="movie">
 <div class="thumbnail">
-  {embed_video id="2329" width="480" height="320" image="images/en/thumbnail/Bastian_thumbnail.png"}
+  {embed_video id="2814" width="480" height="320" image="images/en/thumbnail/Masako_thumbnail.png"}
 </div>
 
 <div class="movie_info">
@@ -210,7 +210,7 @@
 
 <div class="movie">
 <div class="thumbnail">
-  {embed_video id="2329" width="480" height="320" image="images/en/thumbnail/Bastian_thumbnail.png"}
+  {embed_video id="2815" width="480" height="320" image="images/en/thumbnail/Ruriko_thumbnail.png"}
 </div>
 
 <div class="movie_info">
@@ -231,7 +231,7 @@
 
 <div class="movie">
 <div class="thumbnail">
-  {embed_video id="2329" width="480" height="320" image="images/en/thumbnail/Bastian_thumbnail.png"}
+  {embed_video id="2805" width="480" height="320" image="images/en/thumbnail/Rina_thumbnail.png"}
 </div>
 
 <div class="movie_info">

@@ -2,14 +2,11 @@
 <img src="./images/en/banner/g30graduationceremony.jpg" onmouseover="this.src='./images/en/banner/g30graduationceremony_over.jpg'" onmouseout="this.src='./images/en/banner/g30graduationceremony.jpg">
 </a>
 
-<a href="index.php?lang=en&amp;mode=g&amp;page_type=voice">
-
 <div class="movie">
 <h2>Let's hear about Gifu Castle and Ise!</h2>
 <div class="thumbnail">
   {embed_video id="2329" width="480" height="320" image="images/en/thumbnail/Bastian_thumbnail.png"}
 </div>
-
 <div class="movie_info">
 <p>Name:</p>
 <p>Bastian Cauchye</p>
