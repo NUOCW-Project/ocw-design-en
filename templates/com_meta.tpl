@@ -68,10 +68,15 @@
   <script type="text/javascript" src="./js/fb_like_button.js"></script>
   <script type="text/javascript" src="./js/twitter_share_button.js"></script>
 {/if}
+{if $page_type=='voice_g30graduation'}
+  <script type="text/javascript" src="./js/fb_like_button.js"></script>
+  <script type="text/javascript" src="./js/twitter_share_button.js"></script>
+{/if} 
 {if $page_type=='summercamp'}
   <script type="text/javascript" src="./js/jquery.youtubeplaylist.js"></script>
   <script type="text/javascript" src="./js/summercamp_en.js"></script>
 {/if}
+
 {/literal}
 
 <title>
