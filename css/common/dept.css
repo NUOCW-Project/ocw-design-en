@@ -44,6 +44,11 @@
     height: 23px;
 }
 
+/* twitter以下のリスト */
+#departmentslist_list li.other {
+    height: 27px;
+}
+
 #departmentslist_list_en li{
     margin: 0;
     height: 40px;
