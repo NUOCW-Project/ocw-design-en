@@ -50,7 +50,7 @@ p{
    position: relative;
    left: 200px;
    top: -215px;
-} 
+}
 
 .movie_info{
    width: 520px;
@@ -108,10 +108,14 @@ p{
 /* SNS_button property */
 
 .share{
+    display: table-cell;
     width: 480px;
-    margin: 0 20px -42px 0;
+    margin: 0 20px 0 0;
 }
-
+.share > div{
+    display: table-cell;
+    vertical-align: bottom;
+}
 .fb_iframe_widget{
    padding: 10px 0px;
    float: none;
@@ -119,7 +123,10 @@ p{
 .tweet_button{
    padding: 10px;
 }
-
+#twitter-widget-0{
+    display:table-cell;
+    vertical-align:bottom;
+}
 /* .back property */
 
 .back{
