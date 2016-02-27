@@ -122,7 +122,10 @@ p{
 .tweet_button{
    padding: 10px;
 }
-
+#twitter-widget-0{
+    display:table-cell;
+    vertical-align:bottom;
+}
 /* .back property */
 
 .back{
