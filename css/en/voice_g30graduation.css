@@ -30,7 +30,7 @@ p{
    margin: 8px 0;
 }
 
-.movie:first-child{
+.movie:nth-child(2){
    margin-top: 50px;
 }
 .movie > div{
