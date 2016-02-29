@@ -157,3 +157,9 @@ hr{
     -webkit-transition: 0.6s;
     transition: 0.6s;
 }
+
+/* special_link property */
+
+.special_link{
+    margin: 50px 0 40px 0;
+}
