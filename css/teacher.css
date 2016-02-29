@@ -12,13 +12,12 @@ div#package2{
 top: 0;
 }
 
-.g_text p {
-    margin-left: 25px;
+.g_text{
+margin: 0 0 20px 25px;
+line-height: 20px;
 }
-.g_text dl {
-    margin-left: 25px;
-}
+
 .pankuzu {
-    margin-bottom: -15px;
+margin-bottom: -15px;
 }
 
