@@ -36,6 +36,8 @@
   <link rel="stylesheet" type="text/css" href="css/{$lang}/summercamp.css">
 {elseif $page_type=='mei_writing'}
   <link rel="stylesheet" type="text/css" href="css/{$lang}/mei_writing.css">
+{elseif $page_type=='voice_g30graduation'}
+  <link rel="stylesheet" type="text/css" href="css/{$lang}/voice_g30graduation.css">
 {/if} 
 {/literal}
 
@@ -66,10 +68,15 @@
   <script type="text/javascript" src="./js/fb_like_button.js"></script>
   <script type="text/javascript" src="./js/twitter_share_button.js"></script>
 {/if}
+{if $page_type=='voice_g30graduation'}
+  <script type="text/javascript" src="./js/fb_like_button.js"></script>
+  <script type="text/javascript" src="./js/twitter_share_button.js"></script>
+{/if} 
 {if $page_type=='summercamp'}
   <script type="text/javascript" src="./js/jquery.youtubeplaylist.js"></script>
   <script type="text/javascript" src="./js/summercamp_en.js"></script>
 {/if}
+
 {/literal}
 
 <title>

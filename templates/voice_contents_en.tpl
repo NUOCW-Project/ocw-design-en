@@ -1,9 +1,14 @@
+<div class="special_link">
+<a href="index.php?lang=en&mode=g&amp;page_type=voice_g30graduation">
+<img src="./images/en/banner/g30graduationceremony.jpg">
+</a>
+</div>
+
 <div class="movie">
 <h2>Let's hear about Gifu Castle and Ise!</h2>
 <div class="thumbnail">
   {embed_video id="2329" width="480" height="320" image="images/en/thumbnail/Bastian_thumbnail.png"}
 </div>
-
 <div class="movie_info">
 <p>Name:</p>
 <p>Bastian Cauchye</p>
