@@ -27,9 +27,12 @@ p{
 
 .movie{
    overflow: hidden;
-   margin: 50px 0 0 0;
+   margin: 8px 0;
 }
 
+.movie:nth-child(2){
+   margin-top: 50px;
+}
 .movie > div{
     float: left;
 }
