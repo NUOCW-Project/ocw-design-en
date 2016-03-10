@@ -1,6 +1,6 @@
 <div class="movie">
 <div class="thumbnail">
-  {embed_video id="2804" width="480" height="320"}
+  {embed_video id="2804" width="480" height="320" image="images/en/thumbnail/Mahmudov_thumbnail.png"}
 </div>
 
 <div class="movie_info">
