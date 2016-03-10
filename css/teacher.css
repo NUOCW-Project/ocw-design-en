@@ -1,0 +1,23 @@
+﻿@charset "UTF-8";
+/*
+------------------------------------------------------------
+   教員の方へ
+------------------------------------------------------------
+*/
+.white{
+list-style-type: circle;
+}
+
+div#package2{
+top: 0;
+}
+
+.g_text{
+margin: 0 0 30px 25px;
+line-height: 20px;
+}
+
+.pankuzu {
+margin-bottom: -15px;
+}
+
