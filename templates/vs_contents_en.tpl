@@ -15,17 +15,17 @@
 		<tr class="even">
 			{/if}
 		<td class="center">
-		{if isset($vs.url_flv)}
-			<a href="{$vs.url_flv}"
-			 onclick="openWin('{$vs.url_flv}');return false;"
-			 onkeypress="openWin('{$vs.url_flv}');return false;"
+		{if isset($vs.movie_id)}
+			<a href="{get_embedded_url id=$vs.movie_id}"
+			 onclick="openWin('{get_embedded_url id=$vs.movie_id}');return false;"
+			 onkeypress="openWin('{get_embedded_url id=$vs.movie_id}');return false;"
 			 title="{if $lang=='ja'}新しいウィンドウを開きます{else}Open the video in a new window.{/if}">
 		{/if}
 			<div class="thumbnail">
 				{vsyllabus_img id=$vs.vsyllabus_id alt=""}
 				<img class="start" src="images/en/start_s.svg" alt="">
 			</div>
-		{if isset($vs.url_flv)}
+		{if isset($vs.movie_id)}
 			</a>
 		{/if}
 		</td>
