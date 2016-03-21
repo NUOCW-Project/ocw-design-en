@@ -1,5 +1,22 @@
-/* TOPICS“Á•Ê•Ñiìç³æ¶iƒŒƒ|ƒWƒgƒŠƒy[ƒWj“ÁWj */
+/* TOPICSç‰¹åˆ¥ç·¨ï¼ˆå·é‚‰å…ˆç”Ÿï¼ˆãƒªãƒã‚¸ãƒˆãƒªãƒšãƒ¼ã‚¸ï¼‰ç‰¹é›†ï¼‰ */
 
-#package2{
+div#package2{
 top: 0px;
+}
+
+img#repository_top{
+margin: 27.5px;
+}
+
+div#repository{
+margin: 0 55px;
+}
+
+div#repository p{
+margin: 27.5px 0 0 0;
+font-size: 14px;
+}
+
+#repository_banner{
+margin:10px 0 0 0;
 }
