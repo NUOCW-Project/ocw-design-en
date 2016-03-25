@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* TOPICS特別編  */
+
+div#package2{
+top: 0px;
+}
+
+#topics2016{
+margin: 0 auto;
+width: 650px;
+}
+
+#topics2016 a{
+font-size: 14px;
+}
+
+.topics2016_link{
+margin: 45px 0 0;
+}
+
+.topics2016_link img{
+
+}
+
+.topics2016_link a .lead:after{
+content: url("../../images/ja/topics9/top/more.svg");
+position: relative;
+}
