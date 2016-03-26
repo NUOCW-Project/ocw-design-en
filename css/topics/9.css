@@ -19,11 +19,20 @@ font-size: 14px;
 margin: 45px 0 0;
 }
 
-.topics2016_link img{
-
+.topics2016_link p{
+margin: 10px 0 0;
 }
 
-.topics2016_link a .lead:after{
-content: url("../../images/ja/topics9/top/more.svg");
-position: relative;
+.topics2016_link a img:hover{
+opacity: 0.6;
+filter: alpha(opacity=60);
+}
+
+.topics2016_link .lead a{
+line-height: 1.7;
+background-image: url("./images/ja/topics9/top/more.svg");
+background-repeat: no-repeat;
+background-position: right;
+background-size: 60px 20px;
+padding-right: 70px;
 }
