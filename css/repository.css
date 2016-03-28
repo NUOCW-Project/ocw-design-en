@@ -12,7 +12,16 @@ div#repository{
 margin: 0 55px;
 }
 
-div#repository p{
+div#repository_intro{
+margin: 27.5px 0 0 0;
+}
+
+div#repository_intro p{
+margin: 0;
+font-size: 14px;
+}
+
+div#repository_more p{
 margin: 27.5px 0 0 0;
 font-size: 14px;
 }
