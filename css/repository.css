@@ -1,0 +1,31 @@
+/* TOPICS特別編（川邉先生（リポジトリページ）特集） */
+
+div#package2{
+top: 0px;
+}
+
+img#repository_top{
+margin: 0 27.5px;
+}
+
+div#repository{
+margin: 0 55px;
+}
+
+div#repository_intro{
+margin: 27.5px 0 0 0;
+}
+
+div#repository_intro p{
+margin: 0;
+font-size: 14px;
+}
+
+div#repository_more p{
+margin: 27.5px 0 0 0;
+font-size: 14px;
+}
+
+#repository_banner{
+margin:10px 0 0 0;
+}
