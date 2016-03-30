@@ -28,11 +28,16 @@ opacity: 0.6;
 filter: alpha(opacity=60);
 }
 
+.topics2016_link .lead a{
+line-height: 1.7;
+}
+
 .topics2016_link .lead a:after{
 margin: 0 0 0 27.5px;
 display: inline-block;
 width: 60px;
 height: 20px;
+line-height: 1.7;
 vertical-align: text-bottom;
 content: "";
 background-image: url("../../images/ja/topics9/top/more.svg");
