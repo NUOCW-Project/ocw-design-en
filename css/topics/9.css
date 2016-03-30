@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/* TOPICS特別編  */
+
+div#package2{
+top: 0px;
+}
+
+#topics2016{
+margin: 0 auto;
+width: 650px;
+}
+
+#topics2016 a{
+font-size: 14px;
+}
+
+.topics2016_link{
+margin: 45px 0 0;
+}
+
+.topics2016_link p{
+margin: 10px 0 0;
+}
+
+.topics2016_link a img:hover{
+opacity: 0.6;
+filter: alpha(opacity=60);
+}
+
+.topics2016_link .lead a{
+line-height: 1.7;
+}
+
+.topics2016_link .lead a:after{
+margin: 0 0 0 27.5px;
+display: inline-block;
+width: 60px;
+height: 20px;
+line-height: 1.7;
+vertical-align: text-bottom;
+content: "";
+background-image: url("../../images/ja/topics9/top/more.svg");
+background-repeat: no-repeat;
+}
