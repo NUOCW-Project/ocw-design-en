@@ -234,43 +234,55 @@ Nagoya University OpenCourseWare Steering Committee
 <tr>
 <td>Hidetaka TAJIMA</td>
 <td>Masaki KINOSHITA</td>
-<td>Tomoyuki KOBORI</td>
+<td>Katsuyasu KAMIMURA</td>
 </tr>
 
 <tr>
-<td>Katsuyasu KAMIMURA</td>
 <td>Masashi YAMAZAKI</td>
 <td>Yansong GUO</td>
+<td>Hanako HOSHINO</td>
 </tr>
 
 <tr>
-<td>Hanako HOSHINO</td>
 <td>Yuto TOIDA</td>
 <td>Daiki ISHIKAWA</td>
+<td>Hidenobu SAKAI</td>
 </tr>
 
 <tr>
-<td>Hidenobu SAKAI</td>
 <td>Koya KUWAMURA</td>
 <td>Yutaro NAGAE</td>
+<td>Miyuu IMAMURA</td>
 </tr>
 
 <tr>
-<td>Miyuu IMAMURA</td>
 <td>Yukina TAKANO</td>
 <td>Ryo NAKAMURA</td>
+<td>Xue LIU</td>
 </tr>
 
 <tr>
-<td>Xue LIU</td>
 <td>Kotaro OSUGI</td>
 <td>Yuri KUBOTA</td>
+<td>Yusei WAKAZONO</td>
 </tr>
 
 <tr>
-<td>Yusei WAKAZONO</td>
 <td>Makoto MATSUMOTO</td>
 <td>Shogo WATANABE</td>
+<td>Chika FUJIWARA</td>
+</tr>
+
+<tr>
+<td>Kaname UMENO</td>
+<td>Takeru KUMABE</td>
+<td>Masatoshi KANEYAMA</td>
+</tr>
+
+<tr>
+<td>Ryota MITSUNO</td>
+<td>Masaki SUGIMORI</td>
+<td></td>
 </tr>
 
 </table>

@@ -13,6 +13,10 @@ $(function () {
 	// Toggle Links 
 	$(".movie .movie_link h3").click(function(){
 		$(this).nextAll().toggle("slow");
-	        $(this).children("img").toggle();
 	});
+	
+	// Toggle Animation
+	$(".movie .movie_link h3").click(function () {
+        $(this).children('img').toggleClass("active").next();
+    })
 });
