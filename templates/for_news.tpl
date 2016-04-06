@@ -1,4 +1,8 @@
 {literal}{* おしらせ用のテンプレート *}{/literal}
 {include file="com_header.tpl"}
-{include file="news_contents.tpl"}
+{if $lang =="ja"}
+  {include file="news_contents.tpl"}
+{elseif $lang == "en"}
+  {include file="top_contents_en.tpl"}
+{/if}
 {include file="com_footer.tpl"}
