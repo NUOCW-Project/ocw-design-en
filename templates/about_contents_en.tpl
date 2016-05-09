@@ -216,72 +216,51 @@ Nagoya University OpenCourseWare Steering Committee
 <tr>
 <td>Aki HARA (Media Staff, Studio)</td>
 <td>Kazutaka ABE</td>
-<td>Yoshifumi INOUE</td>
+<td>Kaname UMENO</td>
 </tr>
-
 <tr>
-<td>Shuhei TAKAGI</td>
-<td>Ryosuke YAMAGISHI</td>
+<td>Chika FUJIWARA</td>
+<td>Kotaro OSUGI</td>
+<td>Yuri KUBOTA</td>
+</tr>
+<tr>
+<td>Yusei WAKAZONO</td>
+<td>Masaki SUGIMORI</td>
+<td>Makoto MATSUMOTO</td>
+</tr>
+<tr>
+<td>Ryota MITSUNO</td>
+<td>Yukina TAKANO</td>
 <td>Daisuke TAKAICHI</td>
 </tr>
-
-<tr>
-<td>Xia YOU</td>
-<td>Yasuaki GYOUDA</td>
-<td>Takahiro KOJIMA</td>
-</tr>
-
 <tr>
 <td>Hidetaka TAJIMA</td>
+<td>Xia YOU</td>
+<td>Masatoshi KANEYAMA</td>
+</tr>
+<tr>
 <td>Masaki KINOSHITA</td>
 <td>Katsuyasu KAMIMURA</td>
+<td>Takahiro KOJIMA</td>
 </tr>
-
-<tr>
-<td>Masashi YAMAZAKI</td>
-<td>Yansong GUO</td>
-<td>Hanako HOSHINO</td>
-</tr>
-
 <tr>
 <td>Yuto TOIDA</td>
-<td>Daiki ISHIKAWA</td>
-<td>Hidenobu SAKAI</td>
+<td>Shogo WATANABE</td>
+<td>Takeru KUMABE</td>
 </tr>
-
 <tr>
-<td>Koya KUWAMURA</td>
+<td>Daiki ISHIKAWA</td>
 <td>Yutaro NAGAE</td>
 <td>Miyuu IMAMURA</td>
 </tr>
-
 <tr>
-<td>Yukina TAKANO</td>
-<td>Ryo NAKAMURA</td>
-<td>Xue LIU</td>
+<td>Tirto Soenaryo</td>
+<td>Luu Ngan Tu Uyen</td>
+<td>Maruf Billah</td>
 </tr>
-
 <tr>
-<td>Kotaro OSUGI</td>
-<td>Yuri KUBOTA</td>
-<td>Yusei WAKAZONO</td>
-</tr>
-
-<tr>
-<td>Makoto MATSUMOTO</td>
-<td>Shogo WATANABE</td>
-<td>Chika FUJIWARA</td>
-</tr>
-
-<tr>
-<td>Kaname UMENO</td>
-<td>Takeru KUMABE</td>
-<td>Masatoshi KANEYAMA</td>
-</tr>
-
-<tr>
-<td>Ryota MITSUNO</td>
-<td>Masaki SUGIMORI</td>
+<td>Nguyen Hang Anh</td>
+<td></td>
 <td></td>
 </tr>
 
