@@ -1,36 +1,28 @@
-/* TOPICS特別編  */
+/* 天野先生ノーベル賞受賞記念インタビューページ英語版  */
 
-div#package2{
-top: 0px;
+#nobel_interview p{
+font-size: 20pt;
 }
 
-#amano_top {
-display: block;
-margin: auto;
+#nobel_interview h1{
+font-size: 36pt;
 }
 
-#amano_video {
-position: relative;
-left: 417.5px;
-bottom: 177px;
+#nobel_interview h2{
+font-size: 25pt;
 }
 
 #intro{
-font-size: 11pt;
-line-height: 30px;
-margin: -135px 0 45px 42.5px;
-width: 625px;
-color: black;
+margin: 50px 0 0 0;
 }
 
-.q_title {
-font-size: 17pt;
-margin: 45px 0 0 -42.5px;
-background-image: url("../images/ja/nobel_interview/title.png");
-background-repeat: no-repeat;
-width: 642.5px;
-padding: 15px 0 15px 47.5px;
+#intro p{
+margin: 0;
 }
+
+
+
+
 
 .qq {
 font-size: 14pt;
@@ -43,9 +35,7 @@ margin-bottom: 15px;
 #interview{
 font-size: 11pt;
 line-height: 30px;
-width: 625px;
 margin-left: 42.5px;
-color: black;
 }
 
 #amano_one1 {

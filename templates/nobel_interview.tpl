@@ -12,15 +12,13 @@ We were able to hear a wide variety of stories about not only his research, but 
 </div>
 
 <div id="interview">
-<h1 class="q_title">
+<h1>
 Interest in Computing
 </h1>
 
-<div class="qq">
-<p>
+<h2>
 Q. In your student years, was the Blue Light-Emitting-Diode your first research interest?
-</p>
-</div>
+</h2>
 
 <img id="amano_one1" src="images/ja/nobel_interview/amano_one1.jpg">
 {* 天野先生の画像1 *}
@@ -60,7 +58,7 @@ Q. What do you remember most from your research life as a student?
 The biggest impression was... Back then, I used to discuss my research with young research members till very late into the night. I remember, continuously challenging and bouncing opinions off them about my research.
 </p>
 
-<h1 class="q_title">
+<h1>
 Research is fun, but there are also worries
 </h1>
 
@@ -95,7 +93,7 @@ Q. How is the atmosphere of your current laboratory?
 In my current lab, I am now in the position of a professor, so I do not have much opportunity to have discussions with my students till late at night. I believe that younger research members and post-docs should fulfill this role. In terms of the atmosphere... The topics that we cover now have become more important compared to when I was a student, which makes the expectations much higher. There is a lot of pressure, but I really think that the students are doing brilliantly. The vibe is very cheerful and everyone is in their full stride.
 </p>
 
-<h1 class="q_title">
+<h1>
 Comparing now and then
 </h1>
 
@@ -157,7 +155,7 @@ Q. Which building was called the "haunted house" ?
 I think it was the engineering department building 1. I used to go there and use the equipment in the basement, and it was a very scary building at night.
 </p>
 
-<h1 class="q_title">
+<h1>
 Why did you choose Nagoya University?
 </h1>
 
@@ -179,7 +177,7 @@ Q. Were you not good at the "center exam" ?
 I was very bad.
 </p>
 
-<h1 class="q_title">
+<h1>
 To Today' s Students
 </h1>
 
