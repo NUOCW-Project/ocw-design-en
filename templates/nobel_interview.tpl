@@ -5,21 +5,24 @@
 
 <div id= "intro">
 <p>
-青色発光ダイオードの発明により、2014年度ノーベル物理学賞を受賞された天野浩教授。<br>
-名古屋大学出身の新たなノーベル賞受賞者の誕生とあって、世界中から大きな注目を集めた。<br>
-今回「名大の授業 (NUOCW)」では、そんな天野教授に独占インタビューを行った。<br>
-研究についてはもちろん、現在担当されている授業やご自身の学生時代に関することまで、幅広くお話を伺うことができた。
+With the invention of the blue light emitting diode, Professor AMANO Hiroshi was awarded the Nobel Prize for physics in 2014. The fact that a new noble prize winner came from Nagoya University attracts a lot of attention from all over the world.
+</p>
+<p>
+This time we, Nagoya University Open Course Ware (NUOCW), conducted an exclusive interview with Professor Amano.
+</p>
+<p>
+We were able to hear a wide variety of stories about not only his research, but also the classes he teaches and his life during his student years.
 </p>
 </div>
 
 <div id="interview">
 <h1 class="q_title">
-コンピュータの仕事をやりたくて
+Interest in Computing
 </h1>
 
 <div class="qq">
 <p>
-Q. 学生時代、青色発光ダイオードを最初から研究したいと思っていたのですか？
+Q. In your student years, was the Blue Light-Emitting-Diode your first research interest?
 </p>
 </div>
 
@@ -28,7 +31,10 @@ Q. 学生時代、青色発光ダイオードを最初から研究したいと�
 
 
 <p>
-学生時代は、社会の流れとして、コンピュータが少しずつ生まれて浸透しつつある状態だったんですね。ですから、一番本当にやりたかったのはコンピュータの仕事で、特にその中心となるCPUの設計をやりたかったんです。ただコンピュータのCPUの設計をやる研究室がなかったので、同じ半導体ということで青色LEDの材料の研究を始めたというのが、実際のところです。
+I am not sure if I can say this on Nagoya University’ s video, but during my high school years I wanted to go to a different university.
+</p>
+<p>
+What is now called the “center exam” was called the “common first-stage exam” in my time, and it was a multiple choice test of 4 or 5 answer choices for each question. I got tricked very easily, and when I narrowed it down to two choices, I always got confused. It was very difficult for me. So because of that, I came to Nagoya University.
 </p>
 
 <div class="qq">
