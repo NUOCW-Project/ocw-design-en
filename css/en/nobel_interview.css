@@ -1,0 +1,76 @@
+/* TOPICS特別編  */
+
+div#package2{
+top: 0px;
+}
+
+#amano_top {
+display: block;
+margin: auto;
+}
+
+#amano_video {
+position: relative;
+left: 417.5px;
+bottom: 177px;
+}
+
+#intro{
+font-size: 11pt;
+line-height: 30px;
+margin: -135px 0 45px 42.5px;
+width: 625px;
+color: black;
+}
+
+.q_title {
+font-size: 17pt;
+margin: 45px 0 0 -42.5px;
+background-image: url("../images/ja/nobel_interview/title.png");
+background-repeat: no-repeat;
+width: 642.5px;
+padding: 15px 0 15px 47.5px;
+}
+
+.qq {
+font-size: 14pt;
+line-height: 30px;
+color: #b30000;
+margin-top: 27.5px;
+margin-bottom: 15px;
+}
+
+#interview{
+font-size: 11pt;
+line-height: 30px;
+width: 625px;
+margin-left: 42.5px;
+color: black;
+}
+
+#amano_one1 {
+float: right;
+margin-left: 15px;
+}
+
+#amano_two1 {
+float: right;
+margin-left: 15px;
+}
+
+#led_nu {
+float: right;
+margin-left: 15px;
+}
+
+#amano_one2 {
+float: right;
+margin-left: 15px;
+}
+
+#amano_two2 {
+display: block;
+margin: auto;
+margin-top: 45px;
+}
+
