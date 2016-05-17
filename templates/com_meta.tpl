@@ -38,6 +38,8 @@
   <link rel="stylesheet" type="text/css" href="css/{$lang}/mei_writing.css">
 {elseif $page_type=='voice_g30graduation'}
   <link rel="stylesheet" type="text/css" href="css/{$lang}/voice_g30graduation.css">
+{elseif $page_type=='nobel_interview'}
+  <link rel="stylesheet" type="text/css" href="css/{$lang}/nobel_interview.css">
 {/if} 
 {/literal}
 
