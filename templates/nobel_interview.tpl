@@ -1,8 +1,4 @@
-<img id="amano_top" src="images/ja/nobel_interview/header_nobel_interview.jpg" alt="2014年ノーベル物理学賞受賞記念 天野教授 特別インタビュー">
-<a href="http://nuvideo.media.nagoya-u.ac.jp/embed/5bdf9a1b3d1a6963da86fca401b4e7d1f22aa2e2">
-<img id="amano_video" src="images/ja/nobel_interview/amano_video.jpg" alt="クリックでビデオを再生">
-</a>
-
+<div id= "nobel_interview">
 <div id= "intro">
 <p>
 With the invention of the blue light emitting diode, Professor AMANO Hiroshi was awarded the Nobel Prize for physics in 2014. The fact that a new noble prize winner came from Nagoya University attracts a lot of attention from all over the world.
@@ -39,39 +35,38 @@ What is now called the “center exam” was called the “common first-stage ex
 
 <div class="qq">
 <p>
-Q. 学生時代、発光ダイオードは社会でどのように役立つとお考えでしたか？
+Q. In your student years, in what way did you think that Light-Emitting-Diode would help society?
 </p>
 </div>
 <p>
-その当時、社会の流れはコンピュータ化というのがあって、その中で特に問題になったのはディスプレイなんですね。ディスプレイが当時はあまりにも大きくてとても今のように持ち運びできるようなものではなかったんです。<br>
-それを小さく薄くしてスマートにしようというのが元々のLED開発の目的でした。現在スマートフォン、携帯電話などのディスプレイに多くLEDが使われていますので、この点は、開発当時から考えたところですが、照明にまで使われるとは当時は思っていなかったですね。
+In the social trend of computerization then, one of the biggest problems they had was the display. In those days, computer displays were so big that it was impossible to carry them around like we do nowadays. The original purpose of LED development was to make displays smaller, thinner and high-tech. Nowadays, displays on smart-phones and cellphones use LED as well, as I expected. However, I did not expect for it to be as extensively developed so that it would become lighting equipment.
 </p>
 
 <div class="qq">
 <p>
-Q. ご自身の研究が日常生活の役に立っているなあと感動・実感する場面はありますか？
+Q. Do you have times when you realize and are impressed at how your research has produced such practical usefulness in everyday life?
 </p>
 </div>
 <p>
-感動はですね…最初はありました。まず最初は交通信号機に使われるようになったんですね、それで多くの人に実際にLEDというのを見ていただくことができて感動しました。しかし、だんだん慣れてきますと、最近はスマホを見ながら歩いている人が多くて、「非常に危ないな」というのが現在の感想です。
+I was impressed and moved… In the beginning I was. LED was first utilized in traffic lights. This allowed many people to actually see them, and I was moved. But, I do get used to it after a while, and recently, I see many people looking at their smart-phones while walking, which rather makes me think "it' s very dangerous."
 </p>
 
 <div class="qq">
 <p>
-Q. 学生時代の研究生活で印象に残っていることはありますか？
+Q. What do you remember most from your research life as a student?
 </p>
 </div>
 <p>
-一番印象に残っているのは…当時は先生方たちと非常に遅くまで研究に関する事をよく議論したことです。研究に関して、色々意見をぶつけて行ったというのが印象に残っていますね。
+The biggest impression was... Back then, I used to discuss my research with young research members till very late into the night. I remember, continuously challenging and bouncing opinions off them about my research.
 </p>
 
 <h1 class="q_title">
-研究には楽しさもあるけど、焦りもある
+Research is fun, but there are also worries
 </h1>
 
 <div class="qq">
 <p>
-Q. 研究は楽しいですか？
+Q. Is research fun?
 </p>
 </div>
 
@@ -79,34 +74,34 @@ Q. 研究は楽しいですか？
 {* 天野先生とインタビュアの画像1 *}
 
 <p>
-青色LEDというものができれば世の中のコンピュータ化が進んで、非常に世の中の役に立つというのが頭の中で分かっていたので、それをとにかく追求するという点では楽しいですけど、もう一つ、人に先を越されてはいけないという焦りもあるんですね。ですから、やること自体は非常に楽しいんですけども早く結果を出さなければいけない、いわば夏休みの8月30日くらいまで宿題をしていなかった子供のような気持ちを今もずっと持っていますね。
+For me, it was fun to pursue my research because I knew that Blue LED can become a big impact in helping the computerized world. However, there was also the pressure and anxiety to not be beaten by others in the same race. So, doing research itself could be said to be fun, but you must produce results as fast as possible. I still feel like a child with homework on summer vacation, who hasn’ t even started on the last day!
 </p>
 
 <div class="qq">
 <p>
-Q. 研究をやっていて心が折れそうになった、あるいはやめてしまいたいと思うようなことはありましたか？
+Q. In doing your research, did you ever lose confidence or feel like giving up?
 </p>
 </div>
 <p>
-毎日がそのくりかえしでしたね。1日に3,4回くらい実験できるんですけど、それでもなかなか綺麗な結晶ができないというときはしょげて下宿に帰るんです。けど朝起きるとまた元気になって次ほかのことをやろう、ということの繰り返しでしたね。
+Everyday was like that, the continuous repetition of it in fact. In a day, I could do 3 to 4 experiments, and when I couldn’ t get a nice crystal, I would go home disheartened. But, by the next morning, I would feel re-energized and think of doing something different to do in the experiment. It was the repetition of this.
 </p>
 
 <div class="qq">
 <p>
-Q. 現在の研究室の雰囲気はどうですか？
+Q. How is the atmosphere of your current laboratory?
 </p>
 </div>
 <p>
-現在の研究室は、今私は教授の立場なので実際に夜遅くまで学生さんとディスカッションするという機会はあまりなくなって、その役割は若い先生やポスドクの方がやっておられると思うんですね。で、雰囲気としては…テーマが私が学生時代だった当時と比べると非常に重要度が高くなったというか、だいぶ期待のされ方も違っていますので、プレッシャーはあると思いますけれども、学生さんは本当に頑張ってくれていると思います。雰囲気も非常に明るく頑張ってくれていると思います。
+In my current lab, I am now in the position of a professor, so I do not have much opportunity to have discussions with my students till late at night. I believe that younger research members and post-docs should fulfill this role. In terms of the atmosphere... The topics that we cover now have become more important compared to when I was a student, which makes the expectations much higher. There is a lot of pressure, but I really think that the students are doing brilliantly. The vibe is very cheerful and everyone is in their full stride.
 </p>
 
 <h1 class="q_title">
-当時と今を比較して
+Comparing now and then
 </h1>
 
 <div class="qq">
 <p>
-Q. 学生の時と教授の時とで授業に対する印象の違いはありますか？
+Q. Have your impressions towards classes changed from when you were a student to now as a professor?
 </p>
 </div>
 
@@ -114,84 +109,83 @@ Q. 学生の時と教授の時とで授業に対する印象の違いはあり�
 {* LEDの画像 *}
 
 <p>
-学生当時は…勉強自体は大学の頃は好きになっていて、色んな講義をたくさんとりました。それぞれ先生ごとに特徴があって、それぞれ非常に面白くてたくさん勉強させてもらいました。今授業する立場になって思うのは、当時と比べると非常に標準化されてきていますよね。当時はパワーポイントなんてなかったので黒板に書いたり印刷したものを渡されたりして授業をやっていたのですが、最近はパワーポイントを中心にして授業をやっていますので、非常に標準化という点ではいいんですけど、本当に伝えたいものが伝わっているかなあという不安は正直あるんですよね。
+When I was a student... I liked to study and took various lectures. Each lecture had its own characteristic depending on the professors and they were all very interesting, allowing me to learn a lot. Now that I am in the position of teaching, things have become very standardized compared to then. Back then, there was no PowerPoint, so we used blackboards and printed materials. These days, most of the classes are done with PowerPoint. Becoming very standardized is a good thing, but to be honest, I am not sure if the true message I want to convey is clearly being passed to the students sometimes.
 </p>
 
 <div class="qq">
 <p>
-Q. 先生自身が授業を行う上で気をつけていることや、売りみたいなものはありますか？
+Q. Do you have something that you keep in mind or maintain as a key element in your classes?
 </p>
 </div>
 <p>
-やっぱり名古屋大学での授業ですから、非常にハイレベルな内容というのは意識してやっていて、「非常に難しい問題もこうやって考えれば出来るんだよ」というロジック、特に論理構成には気をつけて話はしているつもりです。というのは、学生当時、一番好きだったのが数学なんですね。数学は論理の組み立てが中心ですから、「論理構成をしっかりするということがどんなことを考える上でも大事だよ」というのが信念としてあるので、それは授業を行う上で気をつけているつもりです。
+It is of course, a class at Nagoya University, so I try to focus on very high level contents. I always try to carefully explain the logic like "Even if it is an extremely hard problem it can be solved by thinking this way." I especially focus on logical composition. That is, when I was a student, I loved math the most. Mathematics is the key to logic so "making a solid logical composition is of utmost importance when thinking about anything" is one of my beliefs and I try to be aware of that when I teach.
 </p>
 
 <div class="qq">
 <p>
-Q. 数学は先生自身にとって重要なんですか？
+Q. Is mathematics very important to you?
 </p>
 </div>
 <p>
-数学以外はほとんど勉強しなかったんです、実は。数学は私にとっては非常に重要な学問でしたね。
+In fact, I almost only studied Math. Mathematics was a very important subject for me.
 </p>
 
 <div class="qq">
 <p>
-Q. 先生は大学に入学してから殆どの期間を名古屋大学で過ごしているんですか？
+Q. Have you spent most of your time at Nagoya University ever since you enrolled here as a student?
 </p>
 </div>
 <p>
-助手の頃に名城大学に移って18年間名城大学に居ましたけど、今戻ってきて5年目ですかね。
+When I was an assistant professor, I was at Meijo University where I stayed for 18 years. It is my 5th year since coming back to Nagoya University.
 </p>
 
 <div class="qq">
 <p>
-Q. 学生時代と教授時代で名古屋大学について変わった点はありますか？
+Q. Is there anything different from your school days to now that you are a professor at Nagoya University?
 </p>
 </div>
 <p>
-まず一番変わったのはキャンパスや建物ですね。当時はお化け屋敷とか言われていたところに住んでいましたから、それと比べると今は非常に建物が綺麗になりましたね。それが一番大きな印象ですね。後は学生さん…は当時と変わったかな？あんまり中身は変わってないんじゃないですかね。<br>
-学生の雰囲気そのものは変わらないんじゃないかと思います。
+First, the things that changed most were the campus and its buildings. I lived in a place called the haunted house, so the buildings have become much nicer. That is the biggest impression for me. As for the students, I don’ t think they’ ve changed much compared to that time. Perhaps, the characters of students themselves do not change so much.
 </p>
 
 <div class="qq">
 <p>
-Q. 「お化け屋敷」と呼ばれていた建物は今のどこですか？
+Q. Which building was called the "haunted house" ?
 </p>
 </div>
 <p>
-工学部の1号館だったかな？地下なんかに装置を借りに行ったりしていたんですけど、非常に夜だと怖い建物でしたよ。
+I think it was the engineering department building 1. I used to go there and use the equipment in the basement, and it was a very scary building at night.
 </p>
 
 <h1 class="q_title">
-なぜ名古屋大学を選んだのか？
+Why did you choose Nagoya University?
 </h1>
 
 <div class="qq">
 <p>
-Q. 先生が名古屋大学を選んだ理由は何ですか？
+Q. What was your reason for choosing Nagoya University?
 </p>
 </div>
 <p>
-名大のビデオで言っていいのかわからないですけど、高校時代は別の大学を目指していました。当時は共通一次試験っていう風に言っていたんですけど、今でいうところの、センター試験、あれは4択か5択が中心ですよね、私人が良すぎるのかすぐ騙されちゃって、2つくらいに絞るとどっちかわからなくなって非常に苦手でしたね。ということがあって、名古屋大学になりました。
+I am not sure if I can say this on Nagoya University’ s video, but during my high school years I wanted to go to a different university. What is now called the “center exam” was called the “common first-stage exam” in my time, and it was a multiple choice test of 4 or 5 answer choices for each question. I got tricked very easily, and when I narrowed it down to two choices, I always got confused. It was very difficult for me. So because of that, I came to Nagoya University.
 </p>
 
 <div class="qq">
 <p>
-Q. 今でいうセンター試験はやっぱり得意ではなかったのですか？
+Q. Were you not good at the "center exam" ?
 </p>
 </div>
 <p>
-すごく苦手でしたね。
+I was very bad.
 </p>
 
 <h1 class="q_title">
-今の学生に向けて
+To Today' s Students
 </h1>
 
 <div class="qq">
 <p>
-Q. 学生時代これはやっておくべきだと思うことはありますか？
+Q. Do you have any recommendations for things that students should do while at university?
 </p>
 </div>
 
@@ -199,37 +193,38 @@ Q. 学生時代これはやっておくべきだと思うことはあります�
 {* 天野先生の画像2 *}
 
 <p>
-やっぱり勉強ですね。私の場合は高校の時に数学が好きになって勉強をやるようになったんですけど、やる意味、勉強する意味というのはあまりはっきりわかってなかったですね。大学に来て、いろいろ視野が広がって、そのなかでコンピュータ化というのを本当に実感するようになって、これはもっと勉強しなきゃという気持ちになったんで、やっぱり一番大切なのは、当たり前ですけど勉強じゃないですかね。
+Of course, studying is a priority. In my case, I started studying harder in high school when I fell in love with mathematics. However, I did not know why I had to study, or the significance of studying. My outlook broadened when I came to university, and during that time I was truly fascinated by the world of computerization. This motivated me to study harder. It may seem quite obvious, but I think studying well is the most important thing.
 </p>
 
 <div class="qq">
 <p>
-Q. 学業以外に熱心に取り組んだことはありますか？
+Q. Did you have any passions outside of academics?
 </p>
 </div>
 <p>
-1,2年のうちはソフトボールをやっていました。小学生の頃ソフトボールとかサッカーが好きで、中学高校ではやらなかったものですから、大学の1,2年の時にはソフトボールをやっていましたね。
+I played softball in my first and second year of university. When I was in elementary school, I used to love playing softball and soccer, but I didn’ t have the chance to do it during my junior high and high school years. So, I got back to it in university.
 </p>
 
 <div class="qq">
 <p>
-Q. スポーツもやっぱり大事だと思いますか？
+Q. Do you think playing sports is also very important?
 </p>
 </div>
 <p>
-勉強はもちろんですが、スポーツも好きですね。集中してやると気分転換にもなりますし、非常に良かったです。
+Of course I like studying, but I also like sports. Concentrating on the sport allowed me to refresh my mind and was very good.
 </p>
 
 <div class="qq">
 <p>
-Q. 学生に向けてなにかメッセージをお願いします。
+Q. Please give us a message to our current students.
 </p>
 </div>
 <p>
-名古屋大学の学生さんは皆さん非常に優秀ですし、才能もたくさんお持ちなんですよね。研究室に入ってくる学生さん見ていてもすごく才能溢れる人が多いんです。けれども、本当に人の役に立つ、という熱意を持って研究や勉強に集中しているかっていうと、必ずしもそういう人ばかりではない感じがするので、ぜひ大学にいるうちに人生の目標を見つけてほしいなと思います。それが見つかった人はそれを全力で実現するように努力してほしいという気持ちです。
+I think that all students of Nagoya University are very bright and have many talents. I see so many talented students coming to my laboratory. However, it is not always the case that everyone focus on their studies and research with the passion to make a difference to help other people. I hope that students can find such goals while they are in university. And for those who have found their goals, I hope they strive in achieving their dreams.
 </p>
 
 <img id="amano_two2" src="images/ja/nobel_interview/amano_two2.jpg">
 {* 天野先生とインタビュアの画像2 *}
 
 </div>
+</div>{* nobel_interview end *}
