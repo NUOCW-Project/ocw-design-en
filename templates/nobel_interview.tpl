@@ -17,22 +17,18 @@ Interest in Computing
 </h1>
 
 <h2>
-Q. In your student years, was the Blue Light-Emitting-Diode your first research interest?
+Q&nbsp;&nbsp;&nbsp;&nbsp;In your student years, was the Blue Light-Emitting-Diode your first research interest?
 </h2>
 
 <img id="amano_one1" src="images/ja/nobel_interview/amano_one1.jpg">
 {* 天野先生の画像1 *}
 
-
 <p>
-I am not sure if I can say this on Nagoya University' s video, but during my high school years I wanted to go to a different university.
-</p>
-<p>
-What is now called the "center exam" was called the "common first-stage exam" in my time, and it was a multiple choice test of 4 or 5 answer choices for each question. I got tricked very easily, and when I narrowed it down to two choices, I always got confused. It was very difficult for me. So because of that, I came to Nagoya University.
+Actually, it was during my student years that computers were gradually being made and popularized among the general society. Thus, I initially wanted to work with computers, especially the CPUs which are its core. But unfortunately, there weren’t any laboratories that did research on CPU design then, so in fact, I chose to study Blue LED materials as they were both in the same study of semiconductors.
 </p>
 
 <h2>
-Q. In your student years, in what way did you think that Light-Emitting-Diode would help society?
+Q&nbsp;&nbsp;&nbsp;&nbsp;In your student years, in what way did you think that Light-Emitting-Diode would help society?
 </h2>
 
 <p>
@@ -40,15 +36,15 @@ In the social trend of computerization then, one of the biggest problems they ha
 </p>
 
 <h2>
-Q. Do you have times when you realize and are impressed at how your research has produced such practical usefulness in everyday life?
+Q&nbsp;&nbsp;&nbsp;&nbsp;Do you have times when you realize and are impressed at how your research has produced such practical usefulness in everyday life?
 </h2>
 
 <p>
-I was impressed and moved… In the beginning I was. LED was first utilized in traffic lights. This allowed many people to actually see them, and I was moved. But, I do get used to it after a while, and recently, I see many people looking at their smart-phones while walking, which rather makes me think "it' s very dangerous."
+I was impressed and moved… In the beginning I was. LED was first utilized in traffic lights. This allowed many people to actually see them, and I was moved. But, I do get used to it after a while, and recently, I see many people looking at their smart-phones while walking, which rather makes me think &quot;it' s very dangerous.&quot;
 </p>
 
 <h2>
-Q. What do you remember most from your research life as a student?
+Q&nbsp;&nbsp;&nbsp;&nbsp;What do you remember most from your research life as a student?
 </h2>
 
 <p>
@@ -60,7 +56,7 @@ Research is fun, but there are also worries
 </h1>
 
 <h2>
-Q. Is research fun?
+Q&nbsp;&nbsp;&nbsp;&nbsp;Is research fun?
 </h2>
 
 <img id="amano_two1" src="images/ja/nobel_interview/amano_two1.jpg">
@@ -71,7 +67,7 @@ For me, it was fun to pursue my research because I knew that Blue LED can become
 </p>
 
 <h2>
-Q. In doing your research, did you ever lose confidence or feel like giving up?
+Q&nbsp;&nbsp;&nbsp;&nbsp;In doing your research, did you ever lose confidence or feel like giving up?
 </h2>
 
 <p>
@@ -79,7 +75,7 @@ Everyday was like that, the continuous repetition of it in fact. In a day, I cou
 </p>
 
 <h2>
-Q. How is the atmosphere of your current laboratory?
+Q&nbsp;&nbsp;&nbsp;&nbsp;How is the atmosphere of your current laboratory?
 </h2>
 
 <p>
@@ -91,7 +87,7 @@ Comparing now and then
 </h1>
 
 <h2>
-Q. Have your impressions towards classes changed from when you were a student to now as a professor?
+Q&nbsp;&nbsp;&nbsp;&nbsp;Have your impressions towards classes changed from when you were a student to now as a professor?
 </h2>
 
 <img id="led_nu" src="images/ja/nobel_interview/led_nu.jpg">
@@ -102,15 +98,15 @@ When I was a student... I liked to study and took various lectures. Each lecture
 </p>
 
 <h2>
-Q. Do you have something that you keep in mind or maintain as a key element in your classes?
+Q&nbsp;&nbsp;&nbsp;&nbsp;Do you have something that you keep in mind or maintain as a key element in your classes?
 </h2>
 
 <p>
-It is of course, a class at Nagoya University, so I try to focus on very high level contents. I always try to carefully explain the logic like "Even if it is an extremely hard problem it can be solved by thinking this way." I especially focus on logical composition. That is, when I was a student, I loved math the most. Mathematics is the key to logic so "making a solid logical composition is of utmost importance when thinking about anything" is one of my beliefs and I try to be aware of that when I teach.
+It is of course, a class at Nagoya University, so I try to focus on very high level contents. I always try to carefully explain the logic like &quot;Even if it is an extremely hard problem it can be solved by thinking this way.&quot; I especially focus on logical composition. That is, when I was a student, I loved math the most. Mathematics is the key to logic so &quot;making a solid logical composition is of utmost importance when thinking about anything&quot; is one of my beliefs and I try to be aware of that when I teach.
 </p>
 
 <h2>
-Q. Is mathematics very important to you?
+Q&nbsp;&nbsp;&nbsp;&nbsp;Is mathematics very important to you?
 </h2>
 
 <p>
@@ -118,7 +114,7 @@ In fact, I almost only studied Math. Mathematics was a very important subject fo
 </p>
 
 <h2>
-Q. Have you spent most of your time at Nagoya University ever since you enrolled here as a student?
+Q&nbsp;&nbsp;&nbsp;&nbsp;Have you spent most of your time at Nagoya University ever since you enrolled here as a student?
 </h2>
 
 <p>
@@ -126,7 +122,7 @@ When I was an assistant professor, I was at Meijo University where I stayed for 
 </p>
 
 <h2>
-Q. Is there anything different from your school days to now that you are a professor at Nagoya University?
+Q&nbsp;&nbsp;&nbsp;&nbsp;Is there anything different from your school days to now that you are a professor at Nagoya University?
 </h2>
 
 <p>
@@ -134,7 +130,7 @@ First, the things that changed most were the campus and its buildings. I lived i
 </p>
 
 <h2>
-Q. Which building was called the "haunted house" ?
+Q&nbsp;&nbsp;&nbsp;&nbsp;Which building was called the &quot;haunted house&quot; ?
 </h2>
 
 <p>
@@ -146,15 +142,15 @@ Why did you choose Nagoya University?
 </h1>
 
 <h2>
-Q. What was your reason for choosing Nagoya University?
+Q&nbsp;&nbsp;&nbsp;&nbsp;What was your reason for choosing Nagoya University?
 </h2>
 
 <p>
-I am not sure if I can say this on Nagoya University' s video, but during my high school years I wanted to go to a different university. What is now called the "center exam" was called the "common first-stage exam" in my time, and it was a multiple choice test of 4 or 5 answer choices for each question. I got tricked very easily, and when I narrowed it down to two choices, I always got confused. It was very difficult for me. So because of that, I came to Nagoya University.
+I am not sure if I can say this on Nagoya University' s video, but during my high school years I wanted to go to a different university. What is now called the &quot;center exam&quot; was called the &quot;common first-stage exam&quot; in my time, and it was a multiple choice test of 4 or 5 answer choices for each question. I got tricked very easily, and when I narrowed it down to two choices, I always got confused. It was very difficult for me. So because of that, I came to Nagoya University.
 </p>
 
 <h2>
-Q. Were you not good at the "center exam" ?
+Q&nbsp;&nbsp;&nbsp;&nbsp;Were you not good at the &quot;center exam&quot; ?
 </h2>
 
 <p>
@@ -166,7 +162,7 @@ To Today' s Students
 </h1>
 
 <h2>
-Q. Do you have any recommendations for things that students should do while at university?
+Q&nbsp;&nbsp;&nbsp;&nbsp;Do you have any recommendations for things that students should do while at university?
 </h2>
 
 <img id="amano_one2" src="images/ja/nobel_interview/amano_one2.jpg">
@@ -177,7 +173,7 @@ Of course, studying is a priority. In my case, I started studying harder in high
 </p>
 
 <h2>
-Q. Did you have any passions outside of academics?
+Q&nbsp;&nbsp;&nbsp;&nbsp;Did you have any passions outside of academics?
 </h2>
 
 <p>
@@ -185,7 +181,7 @@ I played softball in my first and second year of university. When I was in eleme
 </p>
 
 <h2>
-Q. Do you think playing sports is also very important?
+Q&nbsp;&nbsp;&nbsp;&nbsp;Do you think playing sports is also very important?
 </h2>
 
 <p>
@@ -193,7 +189,7 @@ Of course I like studying, but I also like sports. Concentrating on the sport al
 </p>
 
 <h2>
-Q. Please give us a message to our current students.
+Q&nbsp;&nbsp;&nbsp;&nbsp;Please give us a message to our current students.
 </h2>
 
 <p>
