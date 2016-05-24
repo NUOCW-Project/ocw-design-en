@@ -1,9 +1,5 @@
 /* 天野先生ノーベル賞受賞記念インタビューページ英語版  */
 
-#nobel_interview p{
-font-size: 20pt;
-}
-
 #nobel_interview h1{
 font-size: 36pt;
 margin: 50px 0 20px 0;
@@ -17,6 +13,11 @@ font-size: 25pt;
 color: #77bb44;
 }
 
+#nobel_interview p{
+font-size: 20pt;
+margin: 20px auto;
+}
+
 #intro{
 margin: 50px 0 50px 0;
 }
@@ -27,18 +28,22 @@ margin: 0;
 
 #amano_one1 {
 float: right;
+margin: auto auto auto 20px;
 }
 
 #amano_two1 {
 float: right;
+margin: auto auto auto 20px;
 }
 
 #led_nu {
 float: right;
+margin: auto auto auto 20px;
 }
 
 #amano_one2 {
 float: right;
+margin: auto auto auto 20px;
 }
 
 #amano_two2 {
