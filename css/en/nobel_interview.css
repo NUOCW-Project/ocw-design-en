@@ -6,6 +6,10 @@ font-size: 20pt;
 
 #nobel_interview h1{
 font-size: 36pt;
+margin: 20px 0 25px 0;
+border-bottom: 2px solid #77bb44;
+padding: 0 0 0 35px;
+background: url("../../images/en/bg_writing.svg") left repeat-y;
 }
 
 #nobel_interview h2{
@@ -19,45 +23,3 @@ margin: 50px 0 0 0;
 #intro p{
 margin: 0;
 }
-
-
-
-
-
-.qq {
-font-size: 14pt;
-line-height: 30px;
-color: #b30000;
-margin-top: 27.5px;
-margin-bottom: 15px;
-}
-
-#interview{
-}
-
-#amano_one1 {
-float: right;
-margin-left: 15px;
-}
-
-#amano_two1 {
-float: right;
-margin-left: 15px;
-}
-
-#led_nu {
-float: right;
-margin-left: 15px;
-}
-
-#amano_one2 {
-float: right;
-margin-left: 15px;
-}
-
-#amano_two2 {
-display: block;
-margin: auto;
-margin-top: 45px;
-}
-
