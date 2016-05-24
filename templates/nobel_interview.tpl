@@ -24,7 +24,11 @@ Q&nbsp;&nbsp;&nbsp;&nbsp;In your student years, was the Blue Light-Emitting-Diod
 {* 天野先生の画像1 *}
 
 <p>
-Actually, it was during my student years that computers were gradually being made and popularized among the general society. Thus, I initially wanted to work with computers, especially the CPUs which are its core. But unfortunately, there weren’t any laboratories that did research on CPU design then, so in fact, I chose to study Blue LED materials as they were both in the same study of semiconductors.
+Actually, it was during my student years that computers were gradually being made and popularized among the general society.
+</p>
+
+<p>
+Thus, I initially wanted to work with computers, especially the CPUs which are its core. But unfortunately, there weren’t any laboratories that did research on CPU design then, so in fact, I chose to study Blue LED materials as they were both in the same study of semiconductors.
 </p>
 
 <h2>
@@ -146,7 +150,11 @@ Q&nbsp;&nbsp;&nbsp;&nbsp;What was your reason for choosing Nagoya University?
 </h2>
 
 <p>
-I am not sure if I can say this on Nagoya University' s video, but during my high school years I wanted to go to a different university. What is now called the &quot;center exam&quot; was called the &quot;common first-stage exam&quot; in my time, and it was a multiple choice test of 4 or 5 answer choices for each question. I got tricked very easily, and when I narrowed it down to two choices, I always got confused. It was very difficult for me. So because of that, I came to Nagoya University.
+I am not sure if I can say this on Nagoya University' s video, but during my high school years I wanted to go to a different university.
+</p>
+
+<p>
+What is now called the &quot;center exam&quot; was called the &quot;common first-stage exam&quot; in my time, and it was a multiple choice test of 4 or 5 answer choices for each question. I got tricked very easily, and when I narrowed it down to two choices, I always got confused. It was very difficult for me. So because of that, I came to Nagoya University.
 </p>
 
 <h2>
