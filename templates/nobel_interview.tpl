@@ -1,5 +1,6 @@
 <div id= "nobel_interview">
 <div id= "intro">
+{embed_video id="2992" width="480" height="320"}
 <p>
 With the invention of the blue light emitting diode, Professor AMANO Hiroshi was awarded the Nobel Prize for physics in 2014. The fact that a new noble prize winner came from Nagoya University attracts a lot of attention from all over the world.
 </p>
