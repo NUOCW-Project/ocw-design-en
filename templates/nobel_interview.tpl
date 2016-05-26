@@ -1,6 +1,11 @@
 <div id= "nobel_interview">
 <div id= "intro">
-{embed_video id="2992" width="480" height="320"}
+
+<div id="thumbnail">
+{embed_video id="2992" width="480" height="270"}
+</div>{* "thumbnail" end *}
+
+<div id="intro_contents">
 <p>
 With the invention of the blue light emitting diode, Professor AMANO Hiroshi was awarded the Nobel Prize for physics in 2014. The fact that a new noble prize winner came from Nagoya University attracts a lot of attention from all over the world.
 </p>
@@ -10,7 +15,8 @@ This time we, Nagoya University Open Course Ware (NUOCW), conducted an exclusive
 <p>
 We were able to hear a wide variety of stories about not only his research, but also the classes he teaches and his life during his student years.
 </p>
-</div>
+</div>{* "intro_contents" end *}
+</div>{* "intro" end *}
 
 <div id="interview">
 <h1>
@@ -208,5 +214,5 @@ I think that all students of Nagoya University are very bright and have many tal
 <img id="amano_two2" src="images/ja/nobel_interview/amano_two2.jpg">
 {* 天野先生とインタビュアの画像2 *}
 
-</div>
-</div>{* nobel_interview end *}
+</div>{* "interview" end *}
+</div>{* "nobel_interview" end *}
