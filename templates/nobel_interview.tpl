@@ -2,7 +2,7 @@
 <div id= "intro">
 
 <div id="thumbnail">
-{embed_video id="2992" width="480" height="270"}
+{embed_video id="2992" width="480" height="320"}
 </div>{* "thumbnail" end *}
 
 <div id="intro_contents">
