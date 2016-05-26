@@ -1,7 +1,7 @@
 /* 天野先生ノーベル賞受賞記念インタビューページ英語版  */
 
 #nobel_interview h1{
-font-size: 36pt;
+font-size: 36px;
 margin: 50px 0 20px 0;
 border-bottom: 2px solid #77bb44;
 padding: 0 0 0 35px;
@@ -9,12 +9,12 @@ background: url("../../images/en/bg_writing.svg") left repeat-y;
 }
 
 #nobel_interview h2{
-font-size: 25pt;
+font-size: 25px;
 color: #77bb44;
 }
 
 #nobel_interview p{
-font-size: 20pt;
+font-size: 20px;
 margin: 0;
 }
 
