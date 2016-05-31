@@ -34,12 +34,12 @@ margin: 0 auto;
 
 #main_topics{
 margin-top: 45px;
-padding: 45px 0 45px 0;
-background: url("../../images/ja/topics9/agriculture/note_head.png") top no-repeat, url("../../images/ja/topics9/agriculture/note_bottom.png") bottom no-repeat ,url("../../images/ja/topics9/agriculture/note_mid.png") center repeat-y;
+padding: 22.5px 0 22.5px 0;
+background: url("../../images/ja/topics9/note_head.png") top no-repeat, url("../../images/ja/topics9/note_bottom.png") bottom no-repeat ,url("../../images/ja/topics9/note_mid.png") center repeat-y;
 }
 
 #intro h1{
-margin: 45px 0 30px 90px;
+margin: 15px 0 30px 90px;
 }
 
 #intro p{
@@ -49,6 +49,7 @@ border-radius: 25px 25px 25px 25px;
 color: red;
 width: 530px;
 margin: 30px 45px 45px 90px;
+text-indent: 14px;
 }
 
 .report h1{
@@ -62,10 +63,11 @@ border-bottom: solid 2px red;
 margin: 15px 0 15px 115px;
 padding: 0 15px 0 15px;
 width: 510px;
+text-indent: 14px;
 }
 
 .report ul{
-margin: 0 0 0 90px;
+margin: 15px 0 0 90px;
 }
 
 .article p{
@@ -103,7 +105,7 @@ border-bottom: solid 2px red;
 
 .interview h2{
 color: red;
-margin: 30px 0 15px 0;
+margin: 25px 0 5px 0;
 }
 
 .interview p{
@@ -115,5 +117,5 @@ margin: 0 0 0 -25px;
 }
 
 #agri_movie{
-margin: 15px 0 45px 95px;
+margin: 20px 0 45px 100px;
 }
