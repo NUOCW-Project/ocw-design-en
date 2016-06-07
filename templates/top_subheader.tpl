@@ -1,6 +1,9 @@
 {* トップページの header画像 *}
 <div class="wideslider">
 <ul>
+<li><a href="index.php?lang=en&mode=c&id=562"><img src ="images/en/slider/s08_studium_generale_en.png" alt="
+SPRING 2016 Studium Generale
+"></a></li>
 <li><a href="nu/"><img src ="images/en/slider/s06_course_catalog.jpg" alt="
 Nagoya University English-Taught Current Course Catalog
 "></a></li>
