@@ -40,7 +40,6 @@ width: 60px;
 height: 20px;
 line-height: 1.7;
 vertical-align: text-bottom;
-content: "";
-background-image: url("../../images/ja/topics9/top/more.svg");
-background-repeat: no-repeat;
+content: url("../../images/ja/topics9/top/more.svg");
+position: absolute;
 }
