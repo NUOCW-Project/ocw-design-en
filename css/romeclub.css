@@ -41,6 +41,10 @@ margin-top: 10px;
 margin-bottom: 10px;
 }
 
+#video dd{
+margin: 0;
+}
+
 #video dd ul{
 margin: 0;
 padding: 0;
