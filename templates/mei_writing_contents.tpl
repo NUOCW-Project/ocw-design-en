@@ -23,6 +23,15 @@ who is the Mei-Writing coordinator in charge of administrative affairs.</p>
 a set of logical thinking skills which are exclusively designed for academic writing. And he will teach you, through a
 step-by-step guidance, how you can practically apply those skills in your writing.</p>
 
+<h2>2016(Videos)</h2>
+<ol>
+	<li><a href="http://studio.media.nagoya-u.ac.jp/videos/watch.php?v=4edd6ec43d4552d0e7b2ba68401f41ed4efd9460">Why it is important to think logically for your writing</a></li>
+	<li><a href="http://studio.media.nagoya-u.ac.jp/videos/watch.php?v=3b78ae2b7de141303d754e92c0ccae9001383b7d">How to make your writing clear</a></li>
+	<li><a href="http://studio.media.nagoya-u.ac.jp/videos/watch.php?v=b3680f2cda8c7afbcfd5fd841741a4907bee673d">How to use logic practically</a></li>
+	<li><a href="http://studio.media.nagoya-u.ac.jp/videos/watch.php?v=2319ab3ce2de00a5d2ea772539aef3addba383f4">How to make your writing convincing</a></li>
+	<li><a href="http://studio.media.nagoya-u.ac.jp/videos/watch.php?v=378b36828d8d87b65ba1466533cca1019f80bf30">Final presentations by students</a></li>
+</ol>
+
 <h2>2015(Videos)</h2>
 <ol>
 	<li><a href="http://studio.media.nagoya-u.ac.jp/videos/watch.php?v=9d812673374382c5fe144acdf6138af3be4634ce">Why is important to think logically for your writing</a></li>
