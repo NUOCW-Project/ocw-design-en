@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+/* TOPICS特別編  */
+
+div#package2{
+top: 0px;
+}
+
+#topics2016chem{
+margin: 0 auto;
+width: 705px;
+font-family: Helvetica,Arial,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
+}
+
+#topics2016chem p{
+font-size: 14px;
+line-height: 25px;
+}
+
+#topics2016chem li{
+font-size: 14px;
+line-height: 25px;
+list-style-type: disc;
+}
+
+#topics2016chem h1,h2{
+font-size: 21px;
+}
+
+#chem_top img{
+display: block;
+margin: 0 auto;
+}
+
+#main_topics{
+margin-top: 45px;
+padding: 45px 0 45px 0;
+background: url("../../images/ja/topics9/note_head.png") top no-repeat, url("../../images/ja/topics9/note_bottom.png") bottom no-repeat ,url("../../images/ja/topics9/note_mid.png") center repeat-y;
+}
+
+#intro h1{
+margin: 15px 0 30px 90px;
+}
+
+#intro p{
+padding: 15px;
+border: solid 2px;
+border-radius: 25px 25px 25px 25px;
+color: red;
+width: 530px;
+margin: 30px 45px 45px 90px;
+text-indent: 14px;
+}
+
+.report h1{
+margin: 45px 0 15px 100px;
+padding: 0 15px 0 15px;
+display: inline;
+border-bottom: solid 2px red;
+}
+
+.report p{
+margin: 15px 0 15px 115px;
+padding: 0 15px 0 15px;
+width: 510px;
+text-indent: 14px;
+}
+
+.report ul{
+margin: 15px 0 0 90px;
+}
+
+.article p{
+margin: 30px 0 0 30px;
+}
+
+.img_box{
+margin: 30px 0 30px 100px;
+width: 225px;
+height: 150px;
+}
+
+.text_box{
+margin: 30px 45px 0 30px;
+width: 305px;
+font-size: 14px;
+float: right;
+line-height: 25px;
+}
+
+.interview{
+padding: 15px;
+border: solid 3px red;
+border-radius: 25px 25px 25px 25px;
+margin: 45px 0 45px 90px;
+width: 530px;
+}
+
+.interview h1{
+margin: 0 0 30px 0;
+padding: 0 15px 0 15px;
+display: inline;
+border-bottom: solid 2px red;
+}
+
+.interview h2{
+color: red;
+margin: 25px 0 5px 0;
+}
+
+.interview p{
+margin: 30px 0 30px 0;
+}
+
+.interview ul{
+margin: 0 0 0 -25px;
+}
+
+#chem_movie{
+margin: 20px 0 30px 100px;
+}
