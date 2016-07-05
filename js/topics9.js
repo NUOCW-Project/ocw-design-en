@@ -1,5 +1,5 @@
 jQuery(function($) {
-  $('.lead').each(function() {
+  $('.lead_link').each(function() {
     var $target = $(this);
  
     // オリジナルの文章を取得する
