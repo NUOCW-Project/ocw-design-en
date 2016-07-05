@@ -29,7 +29,7 @@ opacity: 0.6;
 filter: alpha(opacity=60);
 }
 
-.topics2016_link .lead{
+.topics2016_link .lead a .lead_link{
 overflow: hidden;
 height: 70px;
 }
