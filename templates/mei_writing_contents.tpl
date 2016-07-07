@@ -23,13 +23,22 @@ who is the Mei-Writing coordinator in charge of administrative affairs.</p>
 a set of logical thinking skills which are exclusively designed for academic writing. And he will teach you, through a
 step-by-step guidance, how you can practically apply those skills in your writing.</p>
 
+<h2>2016(Videos)</h2>
+<ol>
+	<li><a href="http://nuvideo.media.nagoya-u.ac.jp/embed/4edd6ec43d4552d0e7b2ba68401f41ed4efd9460">Why it is important to think logically for your writing</a></li>
+	<li><a href="http://nuvideo.media.nagoya-u.ac.jp/embed/3b78ae2b7de141303d754e92c0ccae9001383b7d">How to make your writing clear</a></li>
+	<li><a href="http://nuvideo.media.nagoya-u.ac.jp/embed/b3680f2cda8c7afbcfd5fd841741a4907bee673d">How to use logic practically</a></li>
+	<li><a href="http://nuvideo.media.nagoya-u.ac.jp/embed/2319ab3ce2de00a5d2ea772539aef3addba383f4">How to make your writing convincing</a></li>
+	<li><a href="http://nuvideo.media.nagoya-u.ac.jp/embed/47af5a4ff197b99b03ce12aa520299ea143485b9">Final presentations by students</a></li>
+</ol>
+
 <h2>2015(Videos)</h2>
 <ol>
-	<li><a href="http://studio.media.nagoya-u.ac.jp/videos/watch.php?v=9d812673374382c5fe144acdf6138af3be4634ce">Why is important to think logically for your writing</a></li>
-	<li><a href="http://studio.media.nagoya-u.ac.jp/videos/watch.php?v=8a0c7b38797a56fd88b48255ba34dadaf99094b7">How to make your writing clear</a></li>
-	<li><a href="http://studio.media.nagoya-u.ac.jp/videos/watch.php?v=5b17fbe14f606908e770046fa06b629cb94bd165">How to use logic practically</a></li>
-	<li><a href="http://studio.media.nagoya-u.ac.jp/videos/watch.php?v=cf7e0ddea1771873b44f76ae50fb80d3d215ef9c">How to make your writing convincing</a></li>
-	<li><a href="http://studio.media.nagoya-u.ac.jp/videos/watch.php?v=9cd40d01193bc80a34b34f656125048ee289e785">Final presentations by students</a></li>
+	<li><a href="http://nuvideo.media.nagoya-u.ac.jp/embed/9d812673374382c5fe144acdf6138af3be4634ce">Why is important to think logically for your writing</a></li>
+	<li><a href="http://nuvideo.media.nagoya-u.ac.jp/embed/8a0c7b38797a56fd88b48255ba34dadaf99094b7">How to make your writing clear</a></li>
+	<li><a href="http://nuvideo.media.nagoya-u.ac.jp/embed/5b17fbe14f606908e770046fa06b629cb94bd165">How to use logic practically</a></li>
+	<li><a href="http://nuvideo.media.nagoya-u.ac.jp/embed/cf7e0ddea1771873b44f76ae50fb80d3d215ef9c">How to make your writing convincing</a></li>
+	<li><a href="http://nuvideo.media.nagoya-u.ac.jp/embed/9cd40d01193bc80a34b34f656125048ee289e785">Final presentations by students</a></li>
 </ol>
 
 <h2>2014(Videos)</h2>

@@ -6,8 +6,7 @@ top: 0px;
 
 #romeclub{
 width: 640px;
-margin-left: 45px;
-margin-right: 55px;
+margin: 0 55px 0 45px;
 }
 
 #romeclub h1{
@@ -15,21 +14,24 @@ color:#e60012;
 font-size: 30px;
 }
 
+#romeclub h2{
+margin: 0;
+}
+
 #romeclub p{
 font-size: 14px;
 }
 
 #intro{
-margin-top: 45px;
-margin-bottom: 45px;
+margin: 45px 0;
 }
 
 #video{
-margin-bottom: 45px;
+margin: 0 0 45px 0;
 }
 
 #video p {
-margin-bottom: 15px;
+margin: 0 0 15px 0;
 }
 
 #video dl{
@@ -37,13 +39,21 @@ font-size: 14px;
 }
 
 #video dt {
-margin-top: 10px;
-margin-bottom: 10px;
+margin: 30px 0 10px 0;
 }
 
 #video dd{
+margin: 0;
+}
+
+#video dd ul{
+margin: 0;
+padding: 0;
+}
+
+#video dd ul li{
 display: inline;
-margin-left: 10px;
+margin: 0 0 0 10px;
 }
 
 #image img{
