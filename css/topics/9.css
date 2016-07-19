@@ -21,7 +21,6 @@ margin: 45px 0 0;
 
 .topics2016_link p{
 margin: 10px 0 0;
-width:655px;
 }
 
 .topics2016_link a img:hover{
@@ -30,10 +29,9 @@ filter: alpha(opacity=60);
 }
 
 .topics2016_link .lead a .lead_link{
-overflow: hidden;
+display: block;
 height: 70px;
+line-height: 23px;
+overflow: hidden;
 }
 
-.topics2016_link .lead a{
-line-height: 1.7;
-}
