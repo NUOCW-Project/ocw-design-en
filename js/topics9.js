@@ -22,7 +22,7 @@ jQuery(function($) {
     // 指定した高さになるまで、1文字ずつ消去していく
     while((html.length > 0) && ($clone.height() > $target.height())) {
       html = html.substr(0, html.length - 1);
-      $clone.html(html + '...');
+      $clone.html(html + '…');
     }
  
     // 文章を入れ替えて、複製した要素を削除する
