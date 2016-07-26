@@ -23,7 +23,7 @@ margin: 45px 0 0;
 margin: 10px 0 0;
 }
 
-.topics2016_link a img:hover{
+.topics2016_link a:hover{
 opacity: 0.6;
 filter: alpha(opacity=60);
 }
