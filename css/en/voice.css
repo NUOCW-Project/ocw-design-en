@@ -18,6 +18,11 @@ h3{
     border-bottom: medium solid #77bb44;
 }
 
+h3:hover{
+    color: #008000;
+    border-color: #008000;
+}
+
 p{
    font-size: 20px;
 }
