@@ -17,12 +17,12 @@ $(function () {
 	
 	$(".movie .movie_link h3").hover(
 				function(){
-					this.children('img').attr({src: 'images/en/close_text_ov.svg'});
+					$(this).children('img').attr({src: 'images/en/close_text_ov.svg'});
 				},
 				function(){
-					this.children('img').attr({src:'images/en/close_text.svg'});
+					$(this).children('img').attr({src:'images/en/close_text.svg'});
 				}
-			);
+	);
 	
 	// Toggle Animation
 	$(".movie .movie_link h3").click(function () {
