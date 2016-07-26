@@ -17,10 +17,10 @@ $(function () {
 	
 	$(".movie .movie_link h3").hover(
 				function(){
-					button.children('h2').children('img').attr({src: 'images/en/close_text_ov.svg'});
+					this.children('img').attr({src: 'images/en/close_text_ov.svg'});
 				},
 				function(){
-					button.children('h2').children('img').attr({src:'images/en/close_text.svg'});
+					this.children('img').attr({src:'images/en/close_text.svg'});
 				}
 			);
 	
