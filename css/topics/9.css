@@ -28,7 +28,7 @@ opacity: 0.6;
 filter: alpha(opacity=60);
 }
 
-.topics2016_link .lead a .lead_link{
+.topics2016_link a .lead_link{
 display: block;
 height: 70px;
 line-height: 23px;
