@@ -65,17 +65,7 @@ step-by-step guidance, how you can practically apply those skills in your writin
 	<dd>
 	<img class="mei_writing2016" src="images/en/mei_writing/2016_5.jpg" alt="Final presentations by students">
 	</dd>
-
 </dl>
-
-
-<ol>
-	<li><a href="http://nuvideo.media.nagoya-u.ac.jp/embed/4edd6ec43d4552d0e7b2ba68401f41ed4efd9460">Why it is important to think logically for your writing</a></li>
-	<li><a href="http://nuvideo.media.nagoya-u.ac.jp/embed/3b78ae2b7de141303d754e92c0ccae9001383b7d">How to make your writing clear</a></li>
-	<li><a href="http://nuvideo.media.nagoya-u.ac.jp/embed/b3680f2cda8c7afbcfd5fd841741a4907bee673d">How to use logic practically</a></li>
-	<li><a href="http://nuvideo.media.nagoya-u.ac.jp/embed/2319ab3ce2de00a5d2ea772539aef3addba383f4">How to make your writing convincing</a></li>
-	<li><a href="http://nuvideo.media.nagoya-u.ac.jp/embed/47af5a4ff197b99b03ce12aa520299ea143485b9">Final presentations by students</a></li>
-</ol>
 
 <h2>2015(Videos)</h2>
 <ol>
