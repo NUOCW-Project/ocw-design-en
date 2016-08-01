@@ -1,7 +1,7 @@
 /* CSS Document for Mei-Writing Page */
 
 .eleUnit{
-  margin: 50px 0 80px 0;
+	margin: 50px 0 80px 0;
 }
 
 .eleUnit:first-child{
@@ -9,11 +9,15 @@
 }
 
 .eleUnit h1{
-  margin: 0 0 25px 0;
-  font-size: 48px;
-  border-bottom: 2px solid #77bb44;
-  padding: 0 0 0 35px;
-  background: url("../../images/en/bg_writing.svg") left repeat-y;
+	margin: 0 0 25px 0;
+	padding: 0 0 0 35px;
+	border-bottom: 2px solid #77bb44;
+	background: url("../../images/en/bg_writing.svg") left repeat-y;
+	font-size: 48px;
+}
+
+.eleUnit h2{
+	margin: 0;
 }
 
 .eleUnit p, .eleUnit ol{
@@ -38,17 +42,17 @@
 }
 
 .eleUnit dl dd ul{
+	display: inline-block;
 	margin: 0;
-    display: inline-block;
-    vertical-align: top;
+	vertical-align: top;
 }
 
 .eleUnit dl dd ul li {
-    margin: 0 0 25px 0;
-    list-style: initial;
+	list-style: initial;
+	margin: 0 0 25px 0;
 }
 
 .eleUnit .mei_writing2016{
-	height: 130px;
 	width: 210px;
+	height: 130px;
 }
