@@ -16,11 +16,6 @@
   background: url("../../images/en/bg_writing.svg") left repeat-y;
 }
 
-.eleUnit h2{
-	margin 0;
-	font-size 48px;
-}
-
 .eleUnit p, .eleUnit ol{
 	margin: 25px 0;
 }
@@ -46,6 +41,11 @@
 	margin: 0;
     display: inline-block;
     vertical-align: top;
+}
+
+.eleUnit dl dd ul li {
+    margin: 0 0 25px 0;
+    list-style: initial;
 }
 
 .eleUnit .mei_writing2016{
