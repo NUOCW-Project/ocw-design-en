@@ -3,9 +3,11 @@
 .eleUnit{
   margin: 50px 0 80px 0;
 }
+
 .eleUnit:first-child{
 	margin-bottom: 50px;
 }
+
 .eleUnit h1{
   margin: 0 0 25px 0;
   font-size: 48px;
@@ -13,19 +15,37 @@
   padding: 0 0 0 35px;
   background: url("../../images/en/bg_writing.svg") left repeat-y;
 }
+
 .eleUnit h2{
 	margin 0;
 	font-size 48px;
 }
+
 .eleUnit p, .eleUnit ol{
 	margin: 25px 0;
 }
-.eleUnit dl dt{
-	display: list-item;
-	list-style-type: deminal;
-}
+
 .eleUnit ul li{
 	list-style: none;
+}
+
+.eleUnit dl{
+	padding: 0 0 0 40px;
+}
+
+.eleUnit dl dd{
+	margin: 25px 0;
+}
+
+.eleUnit dl dt{
+	display: list-item;
+	list-style-type: decimal;
+}
+
+.eleUnit dl dd ul{
+	margin: 0;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .eleUnit .mei_writing2016{
