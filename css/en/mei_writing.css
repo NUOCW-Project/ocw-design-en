@@ -20,6 +20,15 @@
 .eleUnit p, .eleUnit ol{
 	margin: 25px 0;
 }
+.eleUnit dl dt{
+	display: list-item;
+	list-style-type: deminal;
+}
 .eleUnit ul li{
 	list-style: none;
+}
+
+.eleUnit .mei_writing2016{
+	height: 130px;
+	width: 210px;
 }
