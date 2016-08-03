@@ -179,38 +179,36 @@ html*.e_text p {
 
 .e_text table {
 	margin: 18px 0 0 0;
+	border: 0;
+	border-collapse: collapse;
+	white-space: normal;
 }
 
 .e_text table p {
 	float: none;
 	width: auto;
 }
-
-table.basic {
-	border: 0;
-	border-collapse: collapse;
-	white-space: normal;
-}
-table.basic th {
+	
+.e_text table th {
 	border: 1px solid #999999;
 }
 
-table.basic td {
+.e_text table td {
 	padding: 0 5px 0 5px;
 	border: 1px solid #999999;
 }
 
-table.basic h4 {
+.e_text table h4 {
 	float: none;
 	width: auto;
 	margin: 10px 0 0 5px; 
 }
 
-table.basic p {
+.e_text table p {
 	margin: 5px 0 5px 0;
 }
 
-table.basic ul, table.basic ol, table.basic dl {
+.e_text table ul, .e_text table ol, .e_text table dl {
 	width: auto;
 	margin: 10px 0 10px 0;
 	padding: 0 0 0 25px;
