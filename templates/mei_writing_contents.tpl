@@ -102,6 +102,6 @@ step-by-step guidance, how you can practically apply those skills in your writin
 <ul>
 	<li><a href="index.php?lang=en&mode=c&id=409">Academic Writing I</a></li>
 	<li><a href="index.php?lang=en&mode=c&id=416&page_type=index">Academic Writing II</a></li>
-	<li><a href="index.php?lang=en&mode=c&id=471&page_type=index">Academic Presentation</a></li>
+	<li><a href="index.php?lang=en&mode=c&id=456&page_type=index">Academic Presentation</a></li>
 </ul>
 </div>
