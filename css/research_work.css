@@ -9,6 +9,7 @@ top: 0px;
 #research_work{
 margin: 0 auto;
 width: 705px;
+color: black;
 }
 
 #research_work_top img{
@@ -25,6 +26,7 @@ margin: 0 auto;
 font-size: 24px;
 margin: 25px 0 10px 0;
 border-bottom: solid 5px #b30000;
+font-weight: lighter;
 }
 
 .intro{
@@ -34,13 +36,13 @@ margin: 10px 0 20px 0;
 
 .interviview_article {
 margin: 10px;
-border-bottom: solid 1px;
+border-bottom: solid 1px #666666;
 }
 
 #interview_img{
-border-bottom: solid 1px;
+border-bottom: solid 1px #666666;
 padding: 0 490px 5px 10px;
-margin: 0 10px 10px 10px;
+margin: 0 10px 0 10px;
 }
 
 .interview_text{
@@ -50,21 +52,25 @@ width: 428px;
 
 .interview_text h2{
 font-size: 24px;
-border: none;
 margin: 0;
+padding: 0;
+background: none;
+font-weight: lighter;
 }
 
 .interview_text h3{
 font-size: 11px;
 margin: 0;
+color: #dd0000;
 }
 
 .interview_text p{
 font-size: 11px;
+margin: 0 0 10px 0;
 }
 
 .interview_img{
-margin: 0px 20px 0px 10px;
+margin: 0px 20px 10px 10px;
 }
 
 #sup{
@@ -75,16 +81,25 @@ font-size: 11px;
 }
 
 .backnumber{
+border-bottom: solid 1px #666666;
+margin: 10px;
+font-size: 11px;
 }
 
 .title{
+font-size: 14px;
+font-weight: lighter;
 }
 
 .backnumber dl{
+margin: 0 0 10px 5px;
 }
 
 .backnumber dt{
+margin: 10px 0 0 0;
 }
 
 .backnumber dd{
+margin: 0;
+padding: 0 0 0 20px;
 }
