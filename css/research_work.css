@@ -28,6 +28,11 @@ margin: 0 auto;
 #interview_img{
 }
 
+.interview_text{
+float: right;
+width: 428px;
+}
+
 .interview_text h1{
 }
 
@@ -38,6 +43,10 @@ margin: 0 auto;
 }
 
 .interview_img{
+}
+
+#sup{
+
 }
 
 .backnumber{
