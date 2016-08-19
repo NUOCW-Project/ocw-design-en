@@ -1,0 +1,53 @@
+/* TOPICS特別編  */
+
+div#package2{
+top: 0px;
+}
+
+#ogawa_top {
+display: block;
+margin: auto;
+}
+
+#intro{
+font-size: 11pt;
+line-height: 30px;
+margin: -135px 0 45px 42.5px;
+width: 625px;
+color: black;
+}
+
+#interview{
+font-size: 11pt;
+line-height: 30px;
+width: 625px;
+margin-left: 42.5px;
+color: black;
+}
+
+.q_title {
+font-size: 17pt;
+margin: 45px 0 0 -42.5px;
+background-image: url("../images/ja/research_work/title.png");
+background-repeat: no-repeat;
+width: 642.5px;
+padding: 15px 0 15px 47.5px;
+}
+
+.q_a{
+}
+
+.qq {
+font-size: 14pt;
+line-height: 30px;
+color: #b30000;
+margin-top: 27.5px;
+margin-bottom: 15px;
+}
+
+.answer{
+}
+
+#hurumura_link{
+}
+
