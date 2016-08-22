@@ -30,15 +30,22 @@
 
 .eleUnit dl{
 	padding: 0 0 0 40px;
+	counter-reset: count 0;
 }
 
 .eleUnit dl dd{
 	margin: 25px 0;
 }
 
+/*
 .eleUnit dl dt{
 	display: list-item;
 	list-style-type: decimal;
+}*/
+
+.eleUnit dl dt:before {
+    counter-increment: count;
+    content: counter(count) ". ";
 }
 
 .eleUnit dl dd ul{
