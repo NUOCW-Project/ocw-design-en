@@ -30,6 +30,7 @@
 
 .eleUnit dl{
 	padding: 0 0 0 40px;
+	counter-reset: count 0;
 }
 
 .eleUnit dl dd{
