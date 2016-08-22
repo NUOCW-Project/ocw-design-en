@@ -55,6 +55,6 @@
 }
 
 .eleUnit dl dd ul li {
-	list-style: initial;
+	list-style-type: disc;
 	margin: 0 0 25px 0;
 }
