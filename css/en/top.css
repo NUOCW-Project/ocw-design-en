@@ -47,6 +47,12 @@
 	vertical-align: top;
 }
 
+/* Markdown利用によるpタグ設定、new!画像を後ろにつけるためにpをインライン要素に */
+#info #press table td p{
+	display: inline;
+	margin: 0;
+}
+
 th{
     padding: 5px 15px;
     text-align: left;
