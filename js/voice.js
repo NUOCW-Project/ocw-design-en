@@ -15,6 +15,15 @@ $(function () {
 		$(this).nextAll().toggle("slow");
 	});
 	
+	$(".movie .movie_link h3").hover(
+				function(){
+					$(this).children('img').attr({src: 'images/en/close_text_ov.svg'});
+				},
+				function(){
+					$(this).children('img').attr({src:'images/en/close_text.svg'});
+				}
+	);
+	
 	// Toggle Animation
 	$(".movie .movie_link h3").click(function () {
         $(this).children('img').toggleClass("active").next();

@@ -24,13 +24,58 @@ a set of logical thinking skills which are exclusively designed for academic wri
 step-by-step guidance, how you can practically apply those skills in your writing.</p>
 
 <h2>2016(Videos)</h2>
-<ol>
-	<li><a href="http://nuvideo.media.nagoya-u.ac.jp/embed/4edd6ec43d4552d0e7b2ba68401f41ed4efd9460">Why it is important to think logically for your writing</a></li>
-	<li><a href="http://nuvideo.media.nagoya-u.ac.jp/embed/3b78ae2b7de141303d754e92c0ccae9001383b7d">How to make your writing clear</a></li>
-	<li><a href="http://nuvideo.media.nagoya-u.ac.jp/embed/b3680f2cda8c7afbcfd5fd841741a4907bee673d">How to use logic practically</a></li>
-	<li><a href="http://nuvideo.media.nagoya-u.ac.jp/embed/2319ab3ce2de00a5d2ea772539aef3addba383f4">How to make your writing convincing</a></li>
-	<li><a href="http://nuvideo.media.nagoya-u.ac.jp/embed/47af5a4ff197b99b03ce12aa520299ea143485b9">Final presentations by students</a></li>
-</ol>
+<dl>
+	<dt><a href="http://nuvideo.media.nagoya-u.ac.jp/embed/4edd6ec43d4552d0e7b2ba68401f41ed4efd9460">Why it is important to think logically for your writing</a></dt>
+	<dd>
+	<a href="http://nuvideo.media.nagoya-u.ac.jp/embed/4edd6ec43d4552d0e7b2ba68401f41ed4efd9460">
+	<img src="images/en/mei_writing/2016_1.jpg" alt="Why it is important to think logically for your writing">
+	</a>
+	<ul>
+	<li><a href="http://www.nul.nagoya-u.ac.jp/guide/literacy/poster/1_Introduction_May18_2016.pdf">Overview</a></li>
+	<li><a href="http://www.nul.nagoya-u.ac.jp/guide/literacy/poster/Library%20workshops%20-%20L1%20(18May2016).pdf">Presentation Slide</a></li>
+	</ul>
+	</dd>
+	
+	<dt><a href="http://nuvideo.media.nagoya-u.ac.jp/embed/3b78ae2b7de141303d754e92c0ccae9001383b7d">How to make your writing clear</a></dt>
+	<dd>
+	<a href="http://nuvideo.media.nagoya-u.ac.jp/embed/3b78ae2b7de141303d754e92c0ccae9001383b7d">
+	<img src="images/en/mei_writing/2016_2.jpg" alt="How to make your writing clear">
+	</a>
+	<ul>
+	<li><a href="http://www.nul.nagoya-u.ac.jp/guide/literacy/poster/2_ThesisStatement_May25_2016.pdf">Overview</a></li>
+	<li><a href="http://www.nul.nagoya-u.ac.jp/guide/literacy/poster/Library%20workshops%20-%20L2%20(25May2016).pdf">Presentation Slide</a></li>
+	</ul>
+	</dd>
+	
+	<dt><a href="http://nuvideo.media.nagoya-u.ac.jp/embed/b3680f2cda8c7afbcfd5fd841741a4907bee673d">How to use logic practically</a></dt>
+	<dd>
+	<a href="http://nuvideo.media.nagoya-u.ac.jp/embed/b3680f2cda8c7afbcfd5fd841741a4907bee673d">
+	<img src="images/en/mei_writing/2016_3.jpg" alt="How to use logic practically">
+	</a>
+	<ul>
+	<li><a href="http://www.nul.nagoya-u.ac.jp/guide/literacy/poster/3and4_HowToUseLogicPractically_June3_2016.pdf">Overview</a></li>
+	<li><a href="http://www.nul.nagoya-u.ac.jp/guide/literacy/poster/Library%20workshops%20-%20L3%20(1June2016).pdf">Presentation Slide</a></li>
+	</ul>
+	</dd>
+	
+	<dt><a href="http://nuvideo.media.nagoya-u.ac.jp/embed/2319ab3ce2de00a5d2ea772539aef3addba383f4">How to make your writing convincing</a></dt>
+	<dd>
+	<a href="http://nuvideo.media.nagoya-u.ac.jp/embed/2319ab3ce2de00a5d2ea772539aef3addba383f4">
+	<img src="images/en/mei_writing/2016_4.jpg" alt="How to make your writing convincing">
+	</a>
+	<ul>
+	<li><a href="http://www.nul.nagoya-u.ac.jp/guide/literacy/poster/3and4_HowToUseLogicPractically_June3_2016.pdf">Overview</a></li>
+	<li><a href="http://www.nul.nagoya-u.ac.jp/guide/literacy/poster/Library%20workshops%20-%20L4%20(8June2016).pdf">Presentation Slide</a></li>
+	</ul>
+	</dd>
+	
+	<dt><a href="http://nuvideo.media.nagoya-u.ac.jp/embed/47af5a4ff197b99b03ce12aa520299ea143485b9">Final presentations by students</a></dt>
+	<dd>
+	<a href="http://nuvideo.media.nagoya-u.ac.jp/embed/47af5a4ff197b99b03ce12aa520299ea143485b9">
+	<img src="images/en/mei_writing/2016_5.jpg" alt="Final presentations by students">
+	</a>
+	</dd>
+</dl>
 
 <h2>2015(Videos)</h2>
 <ol>
@@ -57,6 +102,6 @@ step-by-step guidance, how you can practically apply those skills in your writin
 <ul>
 	<li><a href="index.php?lang=en&mode=c&id=409">Academic Writing I</a></li>
 	<li><a href="index.php?lang=en&mode=c&id=416&page_type=index">Academic Writing II</a></li>
-	<li><a href="index.php?lang=en&mode=c&id=471&page_type=index">Academic Presentation</a></li>
+	<li><a href="index.php?lang=en&mode=c&id=456&page_type=index">Academic Presentation</a></li>
 </ul>
 </div>
