@@ -13,7 +13,7 @@ td.topics_date{
 }
 
 /*Markdown利用によるpタグ設定、new!画像を後ろにつけるためにpをインライン要素に*/
-td.topics_date p{
+td p{
 	margin: 0;
 	display: inline;
 }
