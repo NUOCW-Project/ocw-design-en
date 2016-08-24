@@ -2,7 +2,7 @@
 
 /*
 ------------------------------------------------------------
-   おしらせ  
+   おしらせ・プレスリリース
 ------------------------------------------------------------
 */
 td.topics_date{
@@ -10,4 +10,10 @@ td.topics_date{
     padding-left: 0.5em;
     text-align: center;
   	vertical-align: top;
+}
+
+/*Markdown利用によるpタグ設定、new!画像を後ろにつけるためにpをインライン要素に*/
+td.topics_date p{
+	margin: 0;
+	display: inline;
 }
