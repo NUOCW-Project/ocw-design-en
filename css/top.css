@@ -80,6 +80,12 @@ img#prj10{
 	margin: 6px 6px 0 0;
 	width: 421px;
 }
+
+/*Markdown利用によるpタグ設定*/
+#toppage_notice p{
+	margin: 0;
+}
+
 		html>/**/body #toppage_notice{
 			clear: right;
 		}
@@ -92,6 +98,12 @@ img#prj10{
 	margin: 6px 6px 0 0;
 	width: 421px;
 }
+
+/*Markdown利用によるpタグ設定*/
+#toppage_press p{
+	margin: 0;
+}
+
   html>/**/body #toppage_press{
 			clear: right;
   }
