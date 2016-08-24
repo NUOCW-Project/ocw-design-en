@@ -81,9 +81,10 @@ img#prj10{
 	width: 421px;
 }
 
-/*Markdown利用によるpタグ設定*/
+/*Markdown利用によるpタグ設定、new!画像を後ろにつけるためにpをインライン要素に*/
 #toppage_notice p{
 	margin: 0;
+	display: inline;
 }
 
 		html>/**/body #toppage_notice{
@@ -99,9 +100,10 @@ img#prj10{
 	width: 421px;
 }
 
-/*Markdown利用によるpタグ設定*/
+/*Markdown利用によるpタグ設定、new!画像を後ろにつけるためにpをインライン要素に*/
 #toppage_press p{
 	margin: 0;
+	display: inline;
 }
 
   html>/**/body #toppage_press{
