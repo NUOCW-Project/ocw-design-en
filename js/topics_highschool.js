@@ -50,7 +50,7 @@ $(function () {
     }
 
     $(window).load(function () {
-        var  = location.hash;
+        var hash = location.hash;
 
     	if (hash != '')
     	    $(hash).click();
