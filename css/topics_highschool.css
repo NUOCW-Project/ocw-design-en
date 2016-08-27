@@ -8,8 +8,7 @@ top: 0px;
 
 #topics_highschool{
 margin: 0 auto;
-width: 875px;
-color: black;
+width: 800px;
 }
 
 #toppic_topics_highschool img{
@@ -18,21 +17,23 @@ display: block;
 }
 
 #highschool_main{
-width: 875px;
+width: 800px;
 margin: 0 auto;
 }
 
 .article{
-width: 625px;
+width: 650px;
 color: black;
+margin: 0 auto;
 }
 
 .title{
 font-size: 24px;
 font-weight: lighter;
 border-bottom: solid thin;
-padding-bottom: 5px;
 cursor: pointer;
+padding: 0;
+margin: 27.5px 0 0 0;
 }
 
 .highschool_intro{
@@ -41,10 +42,14 @@ cursor: pointer;
 .highschool_intro h2{
 font-size: 20px;
 font-weight: lighter;
+padding: 0;
+margin: 5px 0;
 }
 
 .highschool_intro p{
 font-size: 14px;
+padding: 0;
+margin: 5px 0;
 }
 
 .course_video{
@@ -55,9 +60,12 @@ margin: 0 auto;
 }
 
 .highschool_link h2{
+color: black;
 font-size: 20px;
 font-weight: lighter;
 border-bottom: solid thin;
+padding: 0;
+margin: 10px 0;
 }
 
 .link_button{
@@ -65,5 +73,10 @@ font-size: 20px;
 font-weight: lighter;
 text-align: center;
 border: solid thin;
+padding: 0;
+margin: 5px 0;
+}
 
+.link_button a{
+color: black;
 }
