@@ -920,3 +920,8 @@ h1.inq{
 	margin:10px 0;
 	padding:0;
 }
+
+/* ------------------音声再生------------------ */
+.embed_audio {
+    padding-bottom: 6px;
+}
