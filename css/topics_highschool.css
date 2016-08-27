@@ -30,6 +30,12 @@ margin: 0 auto;
 #article_1 h1 img, #article_2 h1 img, #article_3 h1 img, #article_4 h1 img {
 float: right;
 transition: all 0.25s linear 0s;
+width: 27px;
+height: 24px;
+}
+
+#article_1 h1 img.close, #article_2 h1 img.close, #article_3 h1 img.close, #article_4 h1 img.close {
+margin: 5px 5px 0 5px ;
 }
 
 #article_1 h1 img.close.active, #article_2 h1 img.close.active, #article_3 h1 img.close.active, #article_4 h1 img.close.active {
