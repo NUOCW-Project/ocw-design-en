@@ -7,8 +7,8 @@ $(function () {
 	var hash = new String(location.hash);
 
 	var article_list = new Array(
-        'article'
-    );
+		'article_1', 'article_2', 'article_3', 'article_4'
+        );
 
     for (var i = 0; i < article_list.length; i++)
     {
@@ -22,35 +22,28 @@ $(function () {
 
             // コールバック関数登録
             button.click(function () {
-                button.children('h2').children('img').toggleClass("active").next();
+                button.children('h1').children('img').toggleClass("active").next();
                 box.slideToggle(1000);
 
                 // 末尾項目クリックの検出
                 var flag = true;
-                for (var j = i; j < box_id_list.length; j++)
+                for (var j = i; j < article_list.length; j++)
                     // 全ての項目が存在するとは限らないので, 項目の存在を走査
                     flag = flag && ($('#' + article_list[j]).length == 0);
                 if (flag)
-                    $('#main_contents > hr').toggle(); // Last update line
-			});
 			button.hover(
 				function(){
-					button.children('h2').children('img').attr({src: 'images/en/close_text_ov.svg'});
+					button.children('h1').children('img').attr({src: 'images/en/close_text_ov.svg'});
 				},
 				function(){
-					button.children('h2').children('img').attr({src:'images/en/close_text.svg'});
+					button.children('h1').children('img').attr({src:'images/en/close_text.svg'});
 				}
 			);
-
-            $('.close_section', '#' + article_list[i] + '_contents').click(function () {
-                $('html, body').animate({ scrollTop: button.offset().top }, 500);
-                button.click();
-            });
         }
     }
 
     $(window).load(function () {
-        var hash = location.hash;
+        var  = location.hash;
 
     	if (hash != '')
     	    $(hash).click();

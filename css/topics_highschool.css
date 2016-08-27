@@ -21,7 +21,7 @@ width: 800px;
 margin: 0 auto;
 }
 
-.article{
+#article_1, #article_2, #article_3, #article_4{
 width: 650px;
 color: black;
 margin: 0 auto;
@@ -75,8 +75,10 @@ text-align: center;
 border: solid thin;
 padding: 0;
 margin: 5px 0;
+cursor: pointer;
 }
 
 .link_button a{
 color: black;
+display: block;
 }
