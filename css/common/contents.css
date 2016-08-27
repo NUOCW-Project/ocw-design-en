@@ -86,3 +86,7 @@ body:first-of-type #contents{
     color: #666666;
 }
 
+/* ------------------音声再生------------------ */
+.embed_audio {
+    padding-bottom: 6px;
+}
