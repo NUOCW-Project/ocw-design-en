@@ -10,12 +10,14 @@ $(function () {
 		'article_1', 'article_2', 'article_3', 'article_4'
         );
 
+    $('#main_contents > hr').css('display', 'none');
+
     for (var i = 0; i < article_list.length; i++)
     {
         // ループ変数がコールバック関数で正常に展開されないことに対する対策
         new function () {
             var button = $('#' + article_list[i]);
-            var box = $('#' + article_list[i] + '_contents');
+            var box = $('#' + article_list[i] + '_contents')
 
             box.css('display', 'none');
             $('.open', '#' + article_list[i]).css('display', 'none');
@@ -39,6 +41,11 @@ $(function () {
 					button.children('h1').children('img').attr({src:'images/en/close_text.svg'});
 				}
 			);
+
+            $('.close_section', '#' + article_list[i] + '_contents').click(function () {
+                $('html, body').animate({ scrollTop: button.offset().top }, 500);
+                button.click();
+            });
         }
     }
 
