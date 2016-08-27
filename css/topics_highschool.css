@@ -27,6 +27,11 @@ color: black;
 margin: 0 auto;
 }
 
+#article_1_contents, #article_2_contents, #article_3_contents, #article_4_contents{
+width: 650px;
+margin: 0 auto;
+}
+
 .title{
 font-size: 24px;
 font-weight: lighter;
