@@ -7,10 +7,8 @@ $(function () {
 	var hash = new String(location.hash);
 
 	var article_list = new Array(
-		'article_1', 'article_2', 'article_3', 'article_4'
-        );
-
-    $('#main_contents > hr').css('display', 'none');
+	'article_1', 'article_2', 'article_3', 'article_4'
+    );
 
     for (var i = 0; i < article_list.length; i++)
     {
