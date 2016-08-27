@@ -7,7 +7,7 @@ $(function () {
 	var hash = new String(location.hash);
 
 	var article_list = new Array(
-	'article_1', 'article_2', 'article_3', 'article_4'
+	    'article_1', 'article_2', 'article_3', 'article_4'
     );
 
     for (var i = 0; i < article_list.length; i++)
@@ -31,6 +31,8 @@ $(function () {
                     // ‘S‚Ä‚Ì€–Ú‚ª‘¶Ý‚·‚é‚Æ‚ÍŒÀ‚ç‚È‚¢‚Ì‚Å, €–Ú‚Ì‘¶Ý‚ð‘–¸
                     flag = flag && ($('#' + article_list[j]).length == 0);
                 if (flag)
+                    $('#main_contents > hr').toggle(); // Last update line
+            });
 			button.hover(
 				function(){
 					button.children('h1').children('img').attr({src: 'images/en/close_text_ov.svg'});
