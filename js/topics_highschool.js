@@ -24,23 +24,7 @@ $(function () {
             button.click(function () {
                 button.children('h1').children('img').toggleClass("active").next();
                 box.slideToggle(1000);
-
-                // 末尾項目クリックの検出
-                var flag = true;
-                for (var j = i; j < article_list.length; j++)
-                    // 全ての項目が存在するとは限らないので, 項目の存在を走査
-                    flag = flag && ($('#' + article_list[j]).length == 0);
-                if (flag)
-                    $('#main_contents > hr').toggle(); // Last update line
             });
-			button.hover(
-				function(){
-					button.children('h1').children('img').attr({src: 'images/en/close_text_ov.svg'});
-				},
-				function(){
-					button.children('h1').children('img').attr({src:'images/en/close_text.svg'});
-				}
-			);
 
             $('.close_section', '#' + article_list[i] + '_contents').click(function () {
                 $('html, body').animate({ scrollTop: button.offset().top }, 500);
@@ -58,4 +42,3 @@ $(function () {
     	    $('#' + article_list[0]).click();
     });
 });
-$('img src="images/en/close_text_ov.svg"');

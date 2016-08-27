@@ -27,6 +27,15 @@ color: black;
 margin: 0 auto;
 }
 
+#article_1 h1 img, #article_2 h1 img, #article_3 h1 img, #article_4 h1 img {
+float: right;
+transition: all 0.25s linear 0s;
+}
+
+#article_1 h1 img.close.active, #article_2 h1 img.close.active, #article_3 h1 img.close.active, #article_4 h1 img.close.active {
+transform: rotate(180deg);
+}
+
 #article_1_contents, #article_2_contents, #article_3_contents, #article_4_contents{
 width: 650px;
 margin: 0 auto;
