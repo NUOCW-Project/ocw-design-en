@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+/* TOPICS特別編  */
+
+div#package2{
+top: 0px;
+}
+
+#topics_highschool{
+margin: 0 auto;
+width: 875px;
+color: black;
+}
+
+#toppic_topics_highschool img{
+margin: 0 auto;
+display: block;
+}
+
+#highschool_main{
+width: 875px;
+margin: 0 auto;
+}
+
+.article{
+width: 625px;
+color: black;
+}
+
+.title{
+font-size: 24px;
+font-weight: lighter;
+border-bottom: solid thin;
+padding-bottom: 5px;
+cursor: pointer;
+}
+
+.highschool_intro{
+}
+
+.highschool_intro h2{
+font-size: 20px;
+font-weight: lighter;
+}
+
+.highschool_intro p{
+font-size: 14px;
+}
+
+.course_video{
+margin: 0 auto;
+}
+
+.highschool_link{
+}
+
+.highschool_link h2{
+font-size: 20px;
+font-weight: lighter;
+border-bottom: solid thin;
+}
+
+.link_button{
+font-size: 20px;
+font-weight: lighter;
+text-align: center;
+border: solid thin;
+
+}
