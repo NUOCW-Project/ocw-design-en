@@ -106,7 +106,31 @@ display: block;
 
 /*  */
 @media screen and (max-width: 640px) {
- 
+
+.header_edge{
+display: none;
+}
+
+.main{
+width: 100%;
+}
+
+.pankuzu{
+display: none;
+}
+
+.footer{
+display: none;
+}
+
+#footer_bottom{
+display: none;
+}
+
+.main_back_adachi{
+display: none;
+}
+
 div#package2{
 top: 0px;
 }
@@ -117,7 +141,7 @@ width: 100%;
 }
 
 #toppic_topics_highschool img{
-margin: 0 auto;
+margin: 25px auto 0;
 display: block;
 width: 100%;
 height: auto;
