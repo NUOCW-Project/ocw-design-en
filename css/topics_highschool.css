@@ -131,6 +131,13 @@ display: none;
 display: none;
 }
 
+#contents{
+padding: 0;
+float: none;
+width: 100%;
+margin: 0 auto;
+}
+
 div#package2{
 top: 0px;
 }
@@ -141,7 +148,7 @@ width: 100%;
 }
 
 #toppic_topics_highschool img{
-margin: 25px auto 0;
+margin: 0 auto;
 display: block;
 width: 100%;
 height: auto;
