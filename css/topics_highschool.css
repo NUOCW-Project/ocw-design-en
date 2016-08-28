@@ -113,6 +113,7 @@ display: none;
 
 .main{
 width: 100%;
+margin: 0;
 }
 
 .pankuzu{
@@ -140,6 +141,7 @@ margin: 0 auto;
 
 div#package2{
 top: 0px;
+width: 100%;
 }
 
 #topics_highschool{
