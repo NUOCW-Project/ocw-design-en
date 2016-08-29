@@ -119,20 +119,8 @@ inquiries page</a>.
 <table id="committee_list">
 <tr>
 <th colspan="3">
-Nagoya University OpenCourseWare Steering Committee
+Nagoya University OpenCourseWare Project
 </th>
-</tr>
-
-<tr>
-<td>Kazuhisa TODAYAMA (Chairperson)</td> 
-<td> Dean </td>
-<td>Institute of Liberal Arts and Sciences</td>
-</tr>
-
-<tr>
-<td>Yuko ARAYAMA</td>
-<td>Vice-President</td>
-<td>School of Economics</td>
 </tr>
 
 <tr>
@@ -142,21 +130,9 @@ Nagoya University OpenCourseWare Steering Committee
 </tr>
 
 <tr>
-<td>Masaaki KATAYAMA</td>
-<td>Professor</td>
-<td>EcoTopia Science Institute</td>
-</tr>
-
-<tr>
 <td>Hidehiro NAKASHIMA</td>
 <td>Associate Professor</td>
 <td>Center for the Studies of Higher Education</td>
-</tr>
-
-<tr>
-<td>Tomoki TODA</td>
-<td>Professor</td>
-<td>Center for Information Media Studies</td>
 </tr>
 
 <tr>
@@ -169,12 +145,6 @@ Nagoya University OpenCourseWare Steering Committee
 <td>Shiori NISHII</td>
 <td>Associate Professor</td>
 <td>Graduate School of Law</td>
-</tr>
-
-<tr>
-<td>Toshiko ISHIZAKI</td>
-<td>Professor</td>
-<td>Education Center for International Students</td>
 </tr>
 
 <tr>
@@ -193,12 +163,6 @@ Nagoya University OpenCourseWare Steering Committee
 <td>Michelle KUHN</td>
 <td>Lecturer / Associate Professor</td>
 <td>International Education &amp; Exchange</td>
-</tr>
-
-<tr>
-<td>Akimitsu IMAEDA</td>
-<td>Liberal Education Deputy Director</td>
-<td>Institute of Liberal Arts and Sciences</td>
 </tr>
 
 <tr>
