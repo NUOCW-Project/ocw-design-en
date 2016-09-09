@@ -1,0 +1,248 @@
+@charset "UTF-8";
+
+/* TOPICS特別編  */
+
+div#package2{
+top: 0px;
+}
+
+#topics_highschool{
+margin: 0 auto;
+width: 800px;
+}
+
+#toppic_topics_highschool img{
+margin: 0 auto;
+display: block;
+}
+
+#highschool_main{
+width: 800px;
+margin: 0 auto;
+}
+
+#article_1, #article_2, #article_3, #article_4{
+width: 650px;
+color: black;
+margin: 0 auto;
+}
+
+#article_1 h1 img, #article_2 h1 img, #article_3 h1 img, #article_4 h1 img {
+float: right;
+transition: all 0.25s linear 0s;
+width: 27px;
+height: 24px;
+}
+
+#article_1 h1 img.close, #article_2 h1 img.close, #article_3 h1 img.close, #article_4 h1 img.close {
+margin: 5px 5px 0 5px ;
+}
+
+#article_1 h1 img.close.active, #article_2 h1 img.close.active, #article_3 h1 img.close.active, #article_4 h1 img.close.active {
+transform: rotate(180deg);
+}
+
+#article_1_contents, #article_2_contents, #article_3_contents, #article_4_contents{
+width: 650px;
+margin: 0 auto;
+}
+
+.title{
+font-size: 24px;
+font-weight: lighter;
+border-bottom: solid thin;
+cursor: pointer;
+padding: 0;
+margin: 27.5px 0 0 0;
+}
+
+.highschool_intro{
+}
+
+.highschool_intro h2{
+font-size: 20px;
+font-weight: lighter;
+padding: 0;
+margin: 5px 0;
+}
+
+.highschool_intro p{
+font-size: 14px;
+padding: 0;
+margin: 5px 0;
+}
+
+.course_video{
+margin: 0 auto;
+width: 225px;
+}
+
+.highschool_link{
+}
+
+.highschool_link h2{
+color: black;
+font-size: 20px;
+font-weight: lighter;
+border-bottom: solid thin;
+padding: 0;
+margin: 10px 0;
+}
+
+.link_button{
+font-size: 20px;
+font-weight: lighter;
+text-align: center;
+border: solid thin;
+padding: 0;
+margin: 5px 0;
+cursor: pointer;
+}
+
+.link_button a{
+color: black;
+display: block;
+}
+
+/* スマホ用CSS */
+@media screen and (max-width: 980px) {
+
+.header_edge{
+display: none;
+}
+
+.main{
+width: 100%;
+margin: 0;
+}
+
+.pankuzu{
+display: none;
+}
+
+.footer{
+display: none;
+}
+
+#footer_bottom{
+display: none;
+}
+
+.main_back_adachi{
+display: none;
+}
+
+#contents{
+padding: 0;
+float: none;
+width: 100% !important;
+margin: 0 auto;
+}
+
+div#package2{
+top: 0px;
+width: 100%;
+}
+
+#topics_highschool{
+margin: 0 auto;
+width: 100%;
+}
+
+#toppic_topics_highschool img{
+margin: 0 auto;
+display: block;
+width: 100%;
+height: auto;
+}
+
+#highschool_main{
+width: 100%;
+margin: 0 auto;
+}
+
+#article_1, #article_2, #article_3, #article_4{
+width: 100%;
+color: black;
+margin: 0 auto;
+}
+
+#article_1 h1 img, #article_2 h1 img, #article_3 h1 img, #article_4 h1 img {
+float: right;
+transition: all 0.25s linear 0s;
+width: 27px;
+height: 24px;
+}
+
+#article_1 h1 img.close, #article_2 h1 img.close, #article_3 h1 img.close, #article_4 h1 img.close {
+margin: 5px 5px 0 5px ;
+}
+
+#article_1 h1 img.close.active, #article_2 h1 img.close.active, #article_3 h1 img.close.active, #article_4 h1 img.close.active {
+transform: rotate(180deg);
+}
+
+#article_1_contents, #article_2_contents, #article_3_contents, #article_4_contents{
+width: 100%;
+margin: 0 auto;
+}
+
+.title{
+font-size: 24px;
+font-weight: lighter;
+border-bottom: solid thin;
+cursor: pointer;
+padding: 0;
+margin: 27.5px 0 0 0;
+}
+
+.highschool_intro{
+}
+
+.highschool_intro h2{
+font-size: 20px;
+font-weight: lighter;
+padding: 0;
+margin: 5px 0;
+}
+
+.highschool_intro p{
+font-size: 14px;
+padding: 0;
+margin: 5px 0;
+}
+
+.course_video{
+margin: 0 auto;
+width: 225px;
+}
+
+.highschool_link{
+}
+
+.highschool_link h2{
+color: black;
+font-size: 20px;
+font-weight: lighter;
+border-bottom: solid thin;
+padding: 0;
+margin: 10px 0;
+}
+
+.link_button{
+font-size: 20px;
+font-weight: lighter;
+text-align: center;
+border: solid thin;
+padding: 0;
+margin: 5px 0;
+cursor: pointer;
+}
+
+.link_button a{
+color: black;
+display: block;
+}
+
+
+}
