@@ -67,7 +67,7 @@ $(function () {
     }
     //アコーディオン保持のcookie
     if(Cookies.get('materials') == 'open'){
-        $(#materials).css('display', 'none');
+        $('#materials').css('display', 'none');
             $('.open', '#materials').css('display', 'none');
     }
 
