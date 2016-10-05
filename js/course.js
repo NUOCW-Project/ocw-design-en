@@ -4,6 +4,11 @@ $(function () {
 
 	// class_detail display
 
+    //アコーディオン保持のcookie
+    if(Cookies.get('materials') == 'open'){
+        $("#materials_contents").show();
+    }
+
 	var hash = new String(location.hash);
 
 	var box_id_list = new Array(
@@ -26,6 +31,16 @@ $(function () {
             button.click(function () {
                 button.children('h2').children('img').toggleClass("active").next();
                 box.slideToggle(1000);
+                
+                //アコーディオン保持のcookie
+                if(button.selector == '#materials'){
+                    if(Cookies.get('materials' == 'open')){
+                        Cookies.remove('open-materials');
+                    }else{
+                        Cookies.set('materials', 'open', { expires: 1 });
+                    }
+                }
+                
 
                 // 末尾項目クリックの検出
                 var flag = true;
