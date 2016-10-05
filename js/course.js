@@ -35,9 +35,9 @@ $(function () {
                 //アコーディオン保持のcookie
                 if(button.selector == '#materials'){
                     if(Cookies.get('materials' == 'open')){
-                        Cookies.remove('open');
+                        Cookies.remove('materials', { path: '/' });
                     }else{
-                        Cookies.set('materials', 'open', { expires: 1 });
+                        Cookies.set('materials', 'open', { expires: 1, path: '/' });
                     }
                 }
                 
