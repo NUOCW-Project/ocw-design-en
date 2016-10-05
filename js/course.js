@@ -4,10 +4,7 @@ $(function () {
 
 	// class_detail display
 
-    //アコーディオン保持のcookie
-    if(Cookies.get('materials') == 'open'){
-        $("#materials_contents").show();
-    }
+
 
 	var hash = new String(location.hash);
 
@@ -16,6 +13,9 @@ $(function () {
     );
     
     $('#main_contents > hr').css('display', 'none');
+    
+    
+    
 
     for (var i = 0; i < box_id_list.length; i++)
     {
@@ -35,7 +35,7 @@ $(function () {
                 //アコーディオン保持のcookie
                 if(button.selector == '#materials'){
                     if(Cookies.get('materials' == 'open')){
-                        Cookies.remove('open-materials');
+                        Cookies.remove('open');
                     }else{
                         Cookies.set('materials', 'open', { expires: 1 });
                     }
@@ -64,6 +64,11 @@ $(function () {
                 button.click();
             });
         }
+    }
+    //アコーディオン保持のcookie
+    if(Cookies.get('materials') == 'open'){
+        $(#materials).css('display', 'none');
+            $('.open', '#materials').css('display', 'none');
     }
 
     $(window).load(function () {
