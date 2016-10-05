@@ -65,11 +65,7 @@ $(function () {
             });
         }
     }
-    //アコーディオン保持のcookie
-    if(Cookies.get('materials') == 'open'){
-        $('#materials').css('display', 'none');
-            $('.open', '#materials').css('display', 'none');
-    }
+    
 
     $(window).load(function () {
         var hash = location.hash;
@@ -78,6 +74,12 @@ $(function () {
     	    $(hash).click();
     	else
     	    $('#' + box_id_list[0]).click();
+    	    
+    	//アコーディオン保持のcookie
+        if(Cookies.get('materials') == 'open'){
+            $('#' + box_id_list[2]).click();
+            //$('.open', '#materials').css('display', 'none');
+        }
     });
 });
 $('img src="images/en/close_text_ov.svg"');
