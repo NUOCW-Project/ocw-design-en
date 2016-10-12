@@ -34,7 +34,9 @@ $(function () {
                 
                 //アコーディオン保持のcookie
                 if(button.selector == '#materials'){
-                    if(Cookies.get('materials') == 'open'){
+                    if(Cookies.get('materials' == 'opened')){ //ページ遷移したあとのみ
+                        Cookies.set('materials', 'open', { expires: 1, path: '/' });
+                    }else if(Cookies.get('materials') == 'open'){
                         Cookies.remove('materials', { path: '/' });
                     }else{
                         Cookies.set('materials', 'open', { expires: 1, path: '/' });
@@ -75,10 +77,10 @@ $(function () {
     	else
     	    $('#' + box_id_list[0]).click();
     	    
-    	//アコーディオン保持のcookie
-        if(Cookies.get('materials') == 'open'){
+    	//ページ遷移しても開いていたClass Materialsをそのまま保持
+    	if (Cookies.get('materials') == 'open') {
+    	    Cookies.set('materials', 'opened', { expires: 1, path: '/' });
             $('#' + box_id_list[2]).click();
-            //$('.open', '#materials').css('display', 'none');
         }
     });
 });
