@@ -5,15 +5,15 @@ $(function() {
   );
 
   //学部を選択したとき
-  $('.department_list li').click(function() {
+  $('.department_list img').click(function() {
     //クリックされたリスト番号取得
-    var index = $('.department_list li').index(this);
+    var index = $('.department_list img').index(this);
     var img_dir = "./images/ja/lab_introduction/button/"+depart_id_list[index]+".svg";
 
     //動画が存在する学部をクリックした場合のみ動作
     if(index != 3 || index != 6 || index != 9){
       //一度タブについているクラスselectedを消す
-      $('.department_list li').removeClass('selected');
+      $('#department_list img').removeClass('selected');
       //クリックされたタブのみにクラスselectedをつける
       $(this).addClass('selected');
       //クリックした画像を変更

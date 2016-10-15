@@ -6,6 +6,10 @@ div#package2{
 top: 0px;
 }
 
+#contents{
+width: 875px;
+}
+
 .lab_intro{
 margin: 0;
 width: 875px;
