@@ -24,15 +24,18 @@ width: 875px;
 }
 
 #department_list{
-display: inline;
+padding: 0;
+list-style-type: none;
 }
 
 .department{
 width: 87.5px;
 height: 87.5px;
+float: left;
+//display: inline;
 }
 
-.department:hover{
+.department.on:hover{
 opacity: 0.6;
 }
 
