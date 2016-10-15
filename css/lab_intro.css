@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/* TOPICS特別編(名大の研究室紹介)  */
+
+div#package2{
+top: 0px;
+}
+
+.lab_intro{
+margin: 0;
+width: 875px;
+}
+
+#header_img{
+width: 875px;
+}
+
+#intro{
+width: 875px;
+}
+
+#movie_list{
+width: 875px;
+}
+
+#department_list{
+display: inline;
+}
+
+.department{
+width: 87.5px;
+height: 87.5px;
+}
+
+.department:hover{
+opacity: 0.6;
+}
+
+.department.selected{
+
+}
+
+.movie{
+width: 875px;
+height: 900px;
+overflow: auto;
+border: 4px solid #E95383;
+}
