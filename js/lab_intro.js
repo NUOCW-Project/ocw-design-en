@@ -18,7 +18,7 @@ $(function() {
     console.log(index);
 
     //動画が存在する学部をクリックした場合のみ動作
-    if(index != 3 || index != 6 || index != 9){
+    if((index != 3) || (index != 6) || (index != 9)){
       //一度タブについているクラスselectedを消す
       $('#department_list li').removeClass('selected');
       //クリックされたタブのみにクラスselectedをつける
