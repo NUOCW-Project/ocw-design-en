@@ -20,7 +20,8 @@ $(function() {
       //selectedだった画像を元に戻す
       $('#department_list').find('li').each(function(){
 	  	  if ($(this).is('.selected')){
-          $(this).attr('src', $(this).attr('src').replace(depart_id_list[i]+'_selected', depart_id_list[i]));
+          var index_old = $('#department_list li').index(this);
+          $(this).attr('src', $(this).attr('src').replace(depart_id_list[index_old]+'_selected', depart_id_list[index_old]));
 		    }
 	    });
 
