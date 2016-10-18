@@ -15,14 +15,27 @@ $(function() {
     var index = $('#department_list li').index(this);
     var img_dir = "./images/ja/lab_introduction/button/"+depart_id_list[index]+".svg";
 
-    console.log(index);
-
     //動画が存在する学部をクリックした場合のみ動作
     if((index != 3) && (index != 6) && (index != 9)){
+      //selectedだった画像を元に戻す
+      $('#department_list').find('li').each(function(){
+	  	  if ($(this).is('.selected')){
+          $(this).attr('src', $(this).attr('src').replace(depart_id_list[i]+'_selected', depart_id_list[i]));
+		    }
+	    });
+
       //一度タブについているクラスselectedを消す
       $('#department_list li').removeClass('selected');
       //クリックされたタブのみにクラスselectedをつける
       $(this).addClass('selected');
+
+      //新しくselectedとなった画像を変更する
+      $('#department_list').find('li').each(function(){
+	  	  if ($(this).is('.selected')){
+          $(this).attr('src', $(this).attr('src').replace(depart_id_list[index], depart_id_list[index]+"_selected"));
+          //$(this).css({'color':'#f00'});
+		    }
+	    });
       //クリックした画像を変更
       //$(this).attr('src', $(this).attr("src").replace(depart_id_list[i], depart_id_list[i]+"_selected"));
 
@@ -33,7 +46,6 @@ $(function() {
       }
       //クリックされた学部のコンテンツを表示
       $('.movie.' + depart_id_list[index]).css('display','block');
-      console.log(depart_id_list[index]);
     }
   });
 });
