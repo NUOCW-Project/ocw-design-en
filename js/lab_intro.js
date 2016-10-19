@@ -10,9 +10,9 @@ $(function() {
   }
 
   //学部を選択したとき
-  $('#department_list img').click(function() {
+  $('#department_list li').click(function() {
     //クリックされたリスト番号取得
-    var index = $('#department_list img').index(this);
+    var index = $('#department_list li').index(this);
     var img_dir = "./images/ja/lab_introduction/button/"+depart_id_list[index]+".svg";//いらないかも
     var depart = depart_id_list[index];
 
