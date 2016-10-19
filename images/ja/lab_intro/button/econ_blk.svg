@@ -18,7 +18,7 @@
 	.st12{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-linejoin:bevel;stroke-miterlimit:10;}
 	.st13{fill:#FF9933;stroke:#FFFFFF;stroke-miterlimit:10;}
 	.st14{fill:#E95383;stroke:#FFFFFF;stroke-miterlimit:10;}
-	.st15{opacity:0.6;}
+	.st15{opacity:0.35;}
 </style>
 <g id="レイヤー_11" class="st0">
 	<g id="XMLID_59_" class="st1">
@@ -691,7 +691,7 @@
 		<ellipse id="XMLID_135_" class="st6" cx="44.1" cy="30.3" rx="14.5" ry="27"/>
 	</g>
 </g>
-<g id="黒塗り">
+<g id="レイヤー_16">
 	<rect x="0" y="0" class="st15" width="87.5" height="85"/>
 	<g>
 	</g>
