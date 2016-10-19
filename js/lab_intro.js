@@ -10,10 +10,11 @@ $(function() {
   }
 
   //学部を選択したとき
-  $('#department_list li').click(function() {
+  $('#department_list img').click(function() {
     //クリックされたリスト番号取得
-    var index = $('#department_list li').index(this);
-    var img_dir = "./images/ja/lab_introduction/button/"+depart_id_list[index]+".svg";
+    var index = $('#department_list img').index(this);
+    var img_dir = "./images/ja/lab_introduction/button/"+depart_id_list[index]+".svg";//いらないかも
+    var depart = depart_id_list[index];
 
     //動画が存在する学部をクリックした場合のみ動作
     if((index != 3) && (index != 6) && (index != 9)){
@@ -21,7 +22,8 @@ $(function() {
       $('#department_list').find('li').each(function(){
 	  	  if ($(this).is('.selected')){
           var index_old = $('#department_list li').index(this);
-          $(this).attr('src', $(this).attr('src').replace(depart_id_list[index_old]+'_selected', depart_id_list[index_old]));
+          var depart_old = depart_id_list[index_old];
+          $('.'+depart_old).attr('src', $('.'+depart_old).attr('src').replace(depart_id_list[index_old]+'_selected', depart_id_list[index_old]));
 		    }
 	    });
 
@@ -33,7 +35,7 @@ $(function() {
       //新しくselectedとなった画像を変更する
       $('#department_list').find('li').each(function(){
 	  	  if ($(this).is('.selected')){
-          $(this).attr('src', $(this).attr('src').replace(depart_id_list[index], depart_id_list[index]+"_selected"));
+          $('.'+depart).attr('src', $('.'+depart).attr('src').replace(depart_id_list[index], depart_id_list[index]+"_selected"));
           //$(this).css({'color':'#f00'});
 		    }
 	    });
