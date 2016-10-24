@@ -21,7 +21,7 @@ width: 875px;
 
 #intro{
 width: 875px;
-margin: 20px 0;
+margin: 15px 0;
 }
 
 #movie_list{
@@ -51,10 +51,6 @@ cursor: pointer;
 
 .department.on:hover{
 opacity: 0.6;
-}
-
-.department.on.selected{
-
 }
 
 .movie{
