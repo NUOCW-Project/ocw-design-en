@@ -59,3 +59,77 @@ height: 200px;
 overflow: auto;
 border: 4px solid #E95383;
 }
+
+
+div#box {
+    padding:10px;
+    border:5px #ccc solid;
+    width:100px;
+    height:100px;
+}
+
+/* 以下jScrollPaneの設定 */
+/* 本体 */
+.jspContainer {
+
+}
+
+/* 縦スクロールバー本体 */
+.jspVerticalBar {
+
+}
+
+/* 横スクロールバー本体 */
+.jspHorizontalBar {
+
+}
+
+/* 縦スクロールバーの背景 */
+.jspVerticalBar .jspTrack {
+background: #E95383;
+}
+
+/* 横スクロールバーの背景 */
+.jspHorizontalBar .jspTrack {
+
+}
+
+/* 全ての矢印ボタン */
+.jspArrow {
+
+}
+
+/* 上矢印ボタン */
+.jspArrowUp {
+
+}
+
+/* 下矢印ボタン */
+.jspArrowDown {
+
+}
+
+/* 左矢印ボタン */
+.jspArrowLeft {
+
+}
+
+/* 右矢印ボタン */
+.jspArrowRight {
+
+}
+
+/* 縦スクロールバー 先端または終端時の矢印ボタン */
+.jspVerticalBar .jspDisabled {
+
+}
+
+/* 横スクロールバー 先端または終端時の矢印ボタン */
+.jspHorizontalBar .jspDisabled {
+
+}
+
+/* 右下角 */
+.jspCorner {
+
+}
