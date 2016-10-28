@@ -1,4 +1,9 @@
 $(function() {
+  $(function(){
+    $('.movie').jScrollPane();
+  });
+
+
   //学部のリスト
   var depart_id_list = new Array(
     'lite', 'educ', 'law', 'econ', 'info', 'scie', 'medi', 'engi', 'agri', 'other'
