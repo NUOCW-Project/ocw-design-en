@@ -76,7 +76,11 @@ div#box {
 
 /* 縦スクロールバー本体 */
 .jspVerticalBar {
-
+position:absolute;
+top:0;
+right:0;
+width:10px;
+height:100%;
 }
 
 /* 横スクロールバー本体 */
