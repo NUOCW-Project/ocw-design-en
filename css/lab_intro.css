@@ -63,7 +63,7 @@ border: 4px solid #E95383;
 .item{
 width: 160px;
 float: left;
-margin: 0 0 0 40px;
+margin: 35px 0 0 40px;
 }
 
 .item:nth-child(4n+1){
@@ -74,41 +74,41 @@ clear: left;
 margin: 0;
 }
 
+.title{
+width: 160px;
+height: 65px;
+margin: 10px 0 0 0;
+}
 
 /* 以下jScrollPaneの設定 */
 /* 本体 */
 .jspContainer
 {
-	overflow: hidden;
-	position: relative;
+overflow: hidden;
+position: relative;
 }
 
 .jspPane
 {
-	position: absolute;
+position: absolute;
 }
 
 /* 縦スクロールバー本体 */
 .jspVerticalBar
 {
-	position: absolute;
-	top: 0;
-	right: 0;
-	width: 27px;
-	height: 100%;
-	//background: red;
-  border-left: 4px solid #E95383;
+position: absolute;
+top: 0;
+right: 0;
+width: 27px;
+height: 100%;
+background: #E95383;
+border-left: 4px solid #E95383;
 }
 
 /* 横スクロールバー本体 */
 .jspHorizontalBar
 {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	height: 16px;
-	background: red;
+display: none;
 }
 
 .jspCap
