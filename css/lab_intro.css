@@ -54,7 +54,7 @@ opacity: 0.6;
 }
 
 .movie{
-//width: 875px;
+width: 867px;
 height: 200px;
 overflow: auto;
 border: 4px solid #E95383;
@@ -62,160 +62,89 @@ border: 4px solid #E95383;
 
 
 /* 以下jScrollPaneの設定 */
-/* 本体 */
 .jspContainer {
-overflow: hidden;
-position: relative;
+  overflow: hidden;
+  position: relative;
 }
 
-.jspPane{
-position: absolute;
+.jspPane {
+  position: absolute;
 }
 
-/* 縦スクロールバー本体 */
 .jspVerticalBar {
-position: absolute;
-top: 0;
-right: 0;
-width: 16px;
-height: 100%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 10px;     /* �c�X�N���[���o�[�̕����w�� */
+  height: 100%;
+  background: #ffffff;
 }
 
-/* 横スクロールバー本体 */
 .jspHorizontalBar {
-position: absolute;
-bottom: 0;
-left: 0;
-width: 100%;
-height: 16px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 10px;     /* ���X�N���[���o�[�̕����w�� */
+  background: #ffffff;
 }
 
-/* 縦スクロールバーの背景 */
-.jspVerticalBar .jspTrack {
-background: #E95383;
+.jspCap {
+  display: none;
 }
 
-.jspCap
-{
-	display: none;
+.jspHorizontalBar .jspCap {
+  float: left;
 }
 
-.jspHorizontalBar .jspCap
-{
-	float: left;
+.jspTrack {
+  background: #eeeeee;     /* �X�N���[���o�[�̔w�i�F���w�� */
+  position: relative;
 }
 
-.jspTrack
-{
-	background: #dde;
-	position: relative;
+.jspDrag {
+  background: #315fa8;     /* �X�N���[���o�[�̐F���w�� */
+  position: relative;
+  top: 0px;
+  left: 0px;
+  cursor: pointer;
 }
 
-.jspDrag
-{
-	background: #bbd;
-	position: relative;
-	top: 0;
-	left: 0;
-	cursor: pointer;
+.jspHorizontalBar .jspTrack, .jspHorizontalBar .jspDrag {
+  float: left;
+  height: 100%;
 }
 
-.jspHorizontalBar .jspTrack,
-.jspHorizontalBar .jspDrag
-{
-	float: left;
-	height: 100%;
-}
-
-.jspArrow
-{
-	background: #50506d;
-	text-indent: -20000px;
-	display: block;
-	cursor: pointer;
-	padding: 0;
-	margin: 0;
-}
-
-.jspArrow.jspDisabled
-{
-	cursor: default;
-	background: #80808d;
-}
-
-.jspVerticalBar .jspArrow
-{
-	height: 16px;
-}
-
-.jspHorizontalBar .jspArrow
-{
-	width: 16px;
-	float: left;
-	height: 100%;
-}
-
-.jspVerticalBar .jspArrow:focus
-{
-	outline: none;
-}
-
-.jspCorner
-{
-	background: #eeeef4;
-	float: left;
-	height: 100%;
-}
-
-
-
-
-
-
-
-
-
-/* 横スクロールバーの背景 */
-.jspHorizontalBar .jspTrack {
-
-}
-
-/* 全ての矢印ボタン */
 .jspArrow {
-
+  background: #50506d;
+  text-indent: -20000px;
+  display: block;
+  cursor: pointer;
+  padding: 0px;
+  margin: 0px;
 }
 
-/* 上矢印ボタン */
-.jspArrowUp {
-
+.jspArrow.jspDisabled {
+  cursor: default;
+  background: #80808d;
 }
 
-/* 下矢印ボタン */
-.jspArrowDown {
-
+.jspVerticalBar .jspArrow {
+  height: 16px;
 }
 
-/* 左矢印ボタン */
-.jspArrowLeft {
-
+.jspHorizontalBar .jspArrow {
+  width: 16px;
+  float: left;
+  height: 100%;
 }
 
-/* 右矢印ボタン */
-.jspArrowRight {
-
+.jspVerticalBar .jspArrow:focus {
+  outline: none;
 }
 
-/* 縦スクロールバー 先端または終端時の矢印ボタン */
-.jspVerticalBar .jspDisabled {
-
-}
-
-/* 横スクロールバー 先端または終端時の矢印ボタン */
-.jspHorizontalBar .jspDisabled {
-
-}
-
-/* 右下角 */
 .jspCorner {
-
+  background: #eeeef4;
+  float: left;
+  height: 100%;
 }
