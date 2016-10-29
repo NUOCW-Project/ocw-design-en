@@ -1,8 +1,6 @@
 $(function() {
-  $(function(){
-    $('.movie').jScrollPane();
-  });
-
+  $('.movie').jScrollPane();
+  
 
   //学部のリスト
   var depart_id_list = new Array(
