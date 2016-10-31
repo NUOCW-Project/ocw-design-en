@@ -4,6 +4,8 @@ $(function () {
 
 	// class_detail display
 
+
+
 	var hash = new String(location.hash);
 
 	var box_id_list = new Array(
@@ -11,6 +13,9 @@ $(function () {
     );
     
     $('#main_contents > hr').css('display', 'none');
+    
+    
+    
 
     for (var i = 0; i < box_id_list.length; i++)
     {
@@ -25,7 +30,7 @@ $(function () {
             // コールバック関数登録
             button.click(function () {
                 button.children('h2').children('img').toggleClass("active").next();
-                box.slideToggle(1000);
+                box.slideToggle(1000);              
 
                 // 末尾項目クリックの検出
                 var flag = true;
@@ -34,6 +39,17 @@ $(function () {
                     flag = flag && ($('#' + box_id_list[j]).length == 0);
                 if (flag)
                     $('#main_contents > hr').toggle(); // Last update line
+
+                //Class Materialsのアコーディオン保持のためのcookie
+                if (button.selector == '#materials') {
+                    if (Cookies.get('materials') == 'opened') { //ページ遷移し戻ったときのみ例外
+                        Cookies.set('materials', 'open', { expires: 1, path: '/' });
+                    } else if (Cookies.get('materials') == 'open') {
+                        Cookies.remove('materials', { path: '/' });
+                    } else {
+                        Cookies.set('materials', 'open', { expires: 1, path: '/' });
+                    }
+                }
 			});
 			button.hover(
 				function(){
@@ -50,6 +66,7 @@ $(function () {
             });
         }
     }
+    
 
     $(window).load(function () {
         var hash = location.hash;
@@ -58,6 +75,12 @@ $(function () {
     	    $(hash).click();
     	else
     	    $('#' + box_id_list[0]).click();
+    	    
+    	//cookieによりページ遷移しても開いていたClass Materialsをそのまま開く
+    	if (Cookies.get('materials') == 'open') {
+    	    Cookies.set('materials', 'opened', { expires: 1, path: '/' });
+            $('#' + box_id_list[2]).click();
+        }
     });
 });
 $('img src="images/en/close_text_ov.svg"');

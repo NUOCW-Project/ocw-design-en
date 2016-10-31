@@ -63,6 +63,7 @@
   <script type="text/javascript" src="./js/about.js"></script>
 {/if}
 {if $page_type=='index'}
+  <script type="text/javascript" src="./js/js.cookie.js"></script>
   <script type="text/javascript" src="./js/course.js"></script>
 {/if}
 {if $page_type=='voice'}
@@ -82,7 +83,7 @@
 {/literal}
 
 <title>
-<!-- タイトルに講義情報を入れる -->
+{* タイトルに講義情報を入れる *}
 {section name=n loop=$navi_list step=-1}
 {$navi_list[n].text} |		
 {/section}
@@ -91,7 +92,7 @@
 {else}
 NU OCW 
 {/if}
-<!-- ここまで -->
+{* ここまで *}
 </title>
 </head>
 
