@@ -80,6 +80,11 @@ height: 65px;
 margin: 10px 0 0 0;
 }
 
+.item img{
+width: 160px;
+height: 90px;
+}
+
 /* 以下jScrollPaneの設定 */
 /* 本体 */
 .jspContainer
