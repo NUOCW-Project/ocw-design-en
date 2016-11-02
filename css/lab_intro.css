@@ -28,28 +28,28 @@ margin: 15px 0;
 width: 875px;
 }
 
-#department_list{
+#school_list{
 margin: 10px 0 0 0;
 padding: 0;
 list-style-type: none;
 font-size: 0;
 }
 
-#department_list li{
+#school_list li{
 height: 87.5px;
 display: inline-block;
 }
 
-.department{
+.school{
 width: 87.5px;
 height: 87.5px;
 }
 
-.department.on{
+.school.on{
 cursor: pointer;
 }
 
-.department.on:hover{
+.school.on:hover{
 opacity: 0.6;
 }
 
@@ -60,18 +60,18 @@ overflow: hidden;
 border: 4px solid #E95383;
 }
 
+.set{
+margin:40px 0;
+}
+
 .item{
 width: 160px;
 float: left;
-margin: 35px 0 0 40px;
+margin: 0 0 35px 40px;
 }
 
 .item:nth-child(4n+1){
 clear: left;
-}
-
-.item p{
-margin: 0;
 }
 
 .title{
