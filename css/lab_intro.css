@@ -7,7 +7,7 @@ top: 0px;
 }
 
 /*ヘッダーとフッター・背景の非表示はじめ*/
-.body{
+body{
 background: none;
 }
 
@@ -38,6 +38,10 @@ background: none;
 
 .main_back_url {
 display: none;
+}
+
+.main_back{
+background: none;
 }
 
 .main{
@@ -256,7 +260,10 @@ width: 100%;
 }
 
 #contents{
+padding: 0;
+float: none;
 width: 100% !important;
+margin: 0 auto;
 }
 
 .lab_intro{
@@ -285,28 +292,30 @@ img.movie_list{
 width: 100%;
 }
 
-.school_select select{
-    outline:none;
-    text-indent: 0.01px;
-    text-overflow: '';
-    background: none transparent;
-    vertical-align: middle;
-    font-size: inherit;
-    color: inherit;
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
+.school_select_select{
+  outline:none;
+  text-indent: 0.01px;
+  text-overflow: '';
+  background: #e99415;
+  vertical-align: middle;
+  font-size: inherit;
+  color: #ffffff;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+	width: 100%;
 }
-.school_select select option{
-  background-color: #ffffff;
-  color: #e99415;
+.school_select_select option{
+background-color: #e99415;
+color: #ffffff;
+border-color: #e99415;
 }
-.school_select select::-ms-expand {
-  display: none;
+.school_select_select::-ms-expand {
+display: none;
 }
-.school_select select:-moz-focusring {
-  color: transparent;
-  text-shadow: 0 0 0 #828c9a;
+.school_select_select:-moz-focusring {
+color: transparent;
+text-shadow: 0 0 0 #828c9a;
 }
 
 .movie{
