@@ -48,16 +48,24 @@ margin: 0;
 width: 875px;
 }
 
-#header_img{
+img.full{
+display: block;
+}
+
+img.sd{
+display: none;
+}
+
+img.header_img{
 width: 875px;
 }
 
-#intro{
+img.intro{
 width: 875px;
 margin: 15px 0;
 }
 
-#movie_list{
+img.movie_list{
 width: 875px;
 }
 
@@ -134,16 +142,24 @@ margin: 0;
 width: 875px;
 }
 
-#header_img{
+img.full{
+display: block;
+}
+
+img.sd{
+display: none;
+}
+
+img.header_img{
 width: 875px;
 }
 
-#intro{
+img.intro{
 width: 875px;
 margin: 15px 0;
 }
 
-#movie_list{
+img.movie_list{
 width: 875px;
 }
 
@@ -220,16 +236,24 @@ margin: 0;
 width: 100%;
 }
 
-#header_img{
+img.full{
+display: block;
+}
+
+img.sd{
+display: none;
+}
+
+img.header_img{
 width: 100%;
 }
 
-#intro{
+img.intro{
 width: 100%;
 margin: 15px 0;
 }
 
-#movie_list{
+img.movie_list{
 width: 100%;
 }
 
