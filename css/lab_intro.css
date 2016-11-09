@@ -6,7 +6,15 @@ div#package2{
 top: 0px;
 }
 
-/*ヘッダーとフッターの非表示はじめ*/
+/*ヘッダーとフッター・背景の非表示はじめ*/
+.body{
+background: none;
+}
+
+.body_back{
+background: none;
+}
+
 .header_edge{
 display: none;
 }
@@ -25,16 +33,22 @@ display: none;
 
 .main_back_adachi{
 display: none;
+background: none;
+}
+
+.main_back_url {
+display: none;
 }
 
 .main{
 margin: 0;
+background: none;
 }
 
 #contents{
 padding: 0;
 }
-/*ヘッダーとフッターの非表示終わり*/
+/*ヘッダーとフッター・背景の非表示終わり*/
 
 /*PC版用CSSはじめ*/
 @media screen and (min-width:875px) {
@@ -179,13 +193,12 @@ font-size: 0;
 }
 
 .school_list li{
-height: 87.5px;
+width: 10%;
 display: inline-block;
 }
 
 .school{
-width: 87.5px;
-height: 87.5px;
+width: 100%;
 }
 
 .school.on{
@@ -213,7 +226,7 @@ float: left;
 margin: 0 0 35px 40px;
 }
 
-.item:nth-child(4n+1){
+.item:nth-child(3n+1){
 clear: left;
 }
 
@@ -272,29 +285,28 @@ img.movie_list{
 width: 100%;
 }
 
-.school_list{
-margin: 10px 0 0 0;
-padding: 0;
-list-style-type: none;
-font-size: 0;
+.school_select select{
+    outline:none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    background: none transparent;
+    vertical-align: middle;
+    font-size: inherit;
+    color: inherit;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
 }
-
-.school_list li{
-height: 87.5px;
-display: inline-block;
+.school_select select option{
+  background-color: #ffffff;
+  color: #e99415;
 }
-
-.school{
-width: 87.5px;
-height: 87.5px;
+.school_select select::-ms-expand {
+  display: none;
 }
-
-.school.on{
-cursor: pointer;
-}
-
-.notselected.school.on:hover{
-opacity: 0.6;
+.school_select select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #828c9a;
 }
 
 .movie{
@@ -314,7 +326,7 @@ float: left;
 margin: 0 0 35px 40px;
 }
 
-.item:nth-child(4n+1){
+.item:nth-child(2n+1){
 clear: left;
 }
 
@@ -329,7 +341,8 @@ font-size: 12.5px;
 width: 160px;
 height: 90px;
 }
-｝
+
+}
 
 
 /* 以下jScrollPaneの設定 */
