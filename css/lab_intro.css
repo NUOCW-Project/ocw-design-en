@@ -131,7 +131,7 @@ height: 90px;
 /*PC版CSS終わり*/
 
 /*PC版用CSS2はじめ*/
-@media screen and (min-width:641px) and(max-width:874px) {
+@media screen and (min-width:641px) and (max-width:874px) {
 
 #contents{
 width: 100% !important;
@@ -237,11 +237,11 @@ width: 100%;
 }
 
 img.full{
-display: block;
+display: none;
 }
 
 img.sd{
-display: none;
+display: block;
 }
 
 img.header_img{
