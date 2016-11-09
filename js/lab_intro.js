@@ -13,32 +13,32 @@ $(function() {
   }
 
   //学部を選択したとき
-  $('#school_list li').click(function() {
+  $('.school_list li').click(function() {
     //クリックされたリスト番号取得
-    var index = $('#school_list li').index(this);
+    var index = $('.school_list li').index(this);
     var img_dir = "./images/ja/lab_introduction/button/"+school_id_list[index]+".svg";//いらないかも
     var school = school_id_list[index];
 
     //動画が存在する学部をクリックした場合のみ動作
     if((index == 0) || (index == 5) || (index != 7) || (index != 8)){
       //selectedだった画像を元に戻す
-      $('#school_list').find('li').each(function(){
+      $('.school_list').find('li').each(function(){
 	  	  if ($(this).is('.selected')){
-          var index_old = $('#school_list li').index(this);
+          var index_old = $('.school_list li').index(this);
           var school_old = school_id_list[index_old];
           $('.'+school_old).attr('src', $('.'+school_old).attr('src').replace(school_id_list[index_old]+'_selected', school_id_list[index_old]));
 		    }
 	    });
 
       //一度タブについているクラスselectedを消し、すべてnotselectedとする
-      $('#school_list li').removeClass('selected');
-      $('#school_list li').addClass('notselected');
+      $('.school_list li').removeClass('selected');
+      $('.school_list li').addClass('notselected');
       //クリックされたタブのみにクラスselectedをつける
       $(this).removeClass('notselected');
       $(this).addClass('selected');
 
       //新しくselectedとなった画像を変更する
-      $('#school_list').find('li').each(function(){
+      $('.school_list').find('li').each(function(){
 	  	  if ($(this).is('.selected')){
           $('.'+school).attr('src', $('.'+school).attr('src').replace(school_id_list[index], school_id_list[index]+"_selected"));
 		    }
