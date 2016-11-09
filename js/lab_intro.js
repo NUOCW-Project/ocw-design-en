@@ -56,6 +56,9 @@ $(function() {
 
   //学部を選択したとき(スマホ版)
   $('.school_select').change(function(){
+    //スクロールバー追加
+    $('.movie').jScrollPane();
+    
     var index = $(this).prop("selectedIndex") - 1; //0番目に指示が入っているのでずれを戻す
 
     //動画が存在する学部をクリックした場合のみ動作
