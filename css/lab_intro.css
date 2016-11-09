@@ -69,14 +69,14 @@ img.movie_list{
 width: 875px;
 }
 
-#school_list{
+.school_list{
 margin: 10px 0 0 0;
 padding: 0;
 list-style-type: none;
 font-size: 0;
 }
 
-#school_list li{
+.school_list li{
 height: 87.5px;
 display: inline-block;
 }
@@ -147,7 +147,7 @@ width: 100% !important;
 
 .lab_intro{
 margin: 0;
-width: 875px;
+width: 100%;
 }
 
 img.full{
@@ -159,26 +159,26 @@ display: none;
 }
 
 img.header_img{
-width: 875px;
+width: 100%;
 }
 
 img.intro{
-width: 875px;
+width: 100%;
 margin: 15px 0;
 }
 
 img.movie_list{
-width: 875px;
+width: 100%;
 }
 
-#school_list{
+.school_list{
 margin: 10px 0 0 0;
 padding: 0;
 list-style-type: none;
 font-size: 0;
 }
 
-#school_list li{
+.school_list li{
 height: 87.5px;
 display: inline-block;
 }
@@ -197,7 +197,7 @@ opacity: 0.6;
 }
 
 .movie{
-width: 867px;
+width: 100%;
 height: 700px;
 overflow: hidden;
 border: 4px solid #E95383;
@@ -272,14 +272,14 @@ img.movie_list{
 width: 100%;
 }
 
-#school_list{
+.school_list{
 margin: 10px 0 0 0;
 padding: 0;
 list-style-type: none;
 font-size: 0;
 }
 
-#school_list li{
+.school_list li{
 height: 87.5px;
 display: inline-block;
 }
@@ -337,6 +337,7 @@ height: 90px;
 {
 overflow: hidden;
 position: relative;
+width: 100%
 }
 
 .jspPane
