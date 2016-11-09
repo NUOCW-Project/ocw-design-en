@@ -48,11 +48,11 @@ margin: 0;
 width: 875px;
 }
 
-img.full{
+.full{
 display: block;
 }
 
-img.sd{
+.sd{
 display: none;
 }
 
@@ -126,210 +126,6 @@ font-size: 12.5px;
 width: 160px;
 height: 90px;
 }
-
-}
-/*PC版CSS終わり*/
-
-/*PC版用CSS2はじめ*/
-@media screen and (min-width:641px) and (max-width:874px) {
-
-.main{
-width: 100%;
-}
-
-div#package2{
-width: 100%;
-}
-
-#contents{
-width: 100% !important;
-}
-
-.lab_intro{
-margin: 0;
-width: 100%;
-}
-
-img.full{
-display: block;
-}
-
-img.sd{
-display: none;
-}
-
-img.header_img{
-width: 100%;
-}
-
-img.intro{
-width: 100%;
-margin: 15px 0;
-}
-
-img.movie_list{
-width: 100%;
-}
-
-.school_list{
-margin: 10px 0 0 0;
-padding: 0;
-list-style-type: none;
-font-size: 0;
-}
-
-.school_list li{
-height: 87.5px;
-display: inline-block;
-}
-
-.school{
-width: 87.5px;
-height: 87.5px;
-}
-
-.school.on{
-cursor: pointer;
-}
-
-.notselected.school.on:hover{
-opacity: 0.6;
-}
-
-.movie{
-width: 100%;
-height: 700px;
-overflow: hidden;
-border: 4px solid #E95383;
-}
-
-.set{
-margin:40px 0;
-}
-
-.item{
-width: 160px;
-float: left;
-margin: 0 0 35px 40px;
-}
-
-.item:nth-child(4n+1){
-clear: left;
-}
-
-.title{
-width: 160px;
-height: 65px;
-margin: 10px 0 0 0;
-font-size: 12.5px;
-}
-
-.item img{
-width: 160px;
-height: 90px;
-}
-
-}
-/*PC版CSS2終わり*/
-
-/*スマホ対応用CSS*/
-@media screen and (max-width:640px) {
-.main{
-width: 100%;
-}
-
-div#package2{
-width: 100%;
-}
-
-#contents{
-width: 100% !important;
-}
-
-.lab_intro{
-margin: 0;
-width: 100%;
-}
-
-img.full{
-display: none;
-}
-
-img.sd{
-display: block;
-}
-
-img.header_img{
-width: 100%;
-}
-
-img.intro{
-width: 100%;
-margin: 15px 0;
-}
-
-img.movie_list{
-width: 100%;
-}
-
-.school_list{
-margin: 10px 0 0 0;
-padding: 0;
-list-style-type: none;
-font-size: 0;
-}
-
-.school_list li{
-height: 87.5px;
-display: inline-block;
-}
-
-.school{
-width: 87.5px;
-height: 87.5px;
-}
-
-.school.on{
-cursor: pointer;
-}
-
-.notselected.school.on:hover{
-opacity: 0.6;
-}
-
-.movie{
-width: 100%;
-height: 700px;
-overflow: hidden;
-border: 4px solid #E95383;
-}
-
-.set{
-margin:40px 0;
-}
-
-.item{
-width: 160px;
-float: left;
-margin: 0 0 35px 40px;
-}
-
-.item:nth-child(4n+1){
-clear: left;
-}
-
-.title{
-width: 160px;
-height: 65px;
-margin: 10px 0 0 0;
-font-size: 12.5px;
-}
-
-.item img{
-width: 160px;
-height: 90px;
-}
-｝
 
 /* 以下jScrollPaneの設定 */
 /* 本体 */
@@ -435,3 +231,417 @@ background: #eeeef4;
 float: left;
 height: 100%;
 }
+
+}
+/*PC版CSS終わり*/
+
+/*PC版用CSS2はじめ*/
+@media screen and (min-width:641px) and (max-width:874px) {
+
+.main{
+width: 100%;
+}
+
+div#package2{
+width: 100%;
+}
+
+#contents{
+width: 100% !important;
+}
+
+.lab_intro{
+margin: 0;
+width: 100%;
+}
+
+.full{
+display: block;
+}
+
+.sd{
+display: none;
+}
+
+img.header_img{
+width: 100%;
+}
+
+img.intro{
+width: 100%;
+margin: 15px 0;
+}
+
+img.movie_list{
+width: 100%;
+}
+
+.school_list{
+margin: 10px 0 0 0;
+padding: 0;
+list-style-type: none;
+font-size: 0;
+}
+
+.school_list li{
+height: 87.5px;
+display: inline-block;
+}
+
+.school{
+width: 87.5px;
+height: 87.5px;
+}
+
+.school.on{
+cursor: pointer;
+}
+
+.notselected.school.on:hover{
+opacity: 0.6;
+}
+
+.movie{
+width: 100%;
+height: 700px;
+overflow: hidden;
+border: 4px solid #E95383;
+}
+
+.set{
+margin:40px 0;
+}
+
+.item{
+width: 160px;
+float: left;
+margin: 0 0 35px 40px;
+}
+
+.item:nth-child(4n+1){
+clear: left;
+}
+
+.title{
+width: 160px;
+height: 65px;
+margin: 10px 0 0 0;
+font-size: 12.5px;
+}
+
+.item img{
+width: 160px;
+height: 90px;
+}
+
+/* 以下jScrollPaneの設定 */
+/* 本体 */
+.jspContainer
+{
+overflow: hidden;
+position: relative;
+width: 100%
+}
+
+.jspPane
+{
+position: absolute;
+}
+
+/* 縦スクロールバー本体 */
+.jspVerticalBar
+{
+position: absolute;
+top: 0;
+right: 0;
+width: 27px;
+height: 100%;
+background: #E95383;
+border-left: 4px solid #E95383;
+}
+
+/* 横スクロールバー本体 */
+.jspHorizontalBar
+{
+display: none;
+}
+
+.jspCap
+{
+display: none;
+}
+
+.jspHorizontalBar .jspCap
+{
+float: left;
+}
+
+.jspTrack
+{
+background: #E95383;
+position: relative;
+}
+
+.jspDrag
+{
+background: white;
+position: relative;
+top: 0;
+left: 0;
+cursor: pointer;
+}
+
+/* 縦スクロールバーの背景 */
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar .jspDrag
+{
+float: left;
+height: 100%;
+}
+
+.jspArrow
+{
+background: #50506d;
+text-indent: -20000px;
+display: block;
+cursor: pointer;
+padding: 0;
+margin: 0;
+}
+
+.jspArrow.jspDisabled
+{
+cursor: default;
+background: #80808d;
+}
+
+.jspVerticalBar .jspArrow
+{
+height: 16px;
+}
+
+.jspHorizontalBar .jspArrow
+{
+width: 16px;
+float: left;
+height: 100%;
+}
+
+.jspVerticalBar .jspArrow:focus
+{
+outline: none;
+}
+
+.jspCorner
+{
+background: #eeeef4;
+float: left;
+height: 100%;
+}
+
+}
+/*PC版CSS2終わり*/
+
+/*スマホ対応用CSS*/
+@media screen and (max-width:640px) {
+.main{
+width: 100%;
+}
+
+div#package2{
+width: 100%;
+}
+
+#contents{
+width: 100% !important;
+}
+
+.lab_intro{
+margin: 0;
+width: 100%;
+}
+
+.full{
+display: none;
+}
+
+.sd{
+display: block;
+}
+
+img.header_img{
+width: 100%;
+}
+
+img.intro{
+width: 100%;
+margin: 15px 0;
+}
+
+img.movie_list{
+width: 100%;
+}
+
+.school_list{
+margin: 10px 0 0 0;
+padding: 0;
+list-style-type: none;
+font-size: 0;
+}
+
+.school_list li{
+height: 87.5px;
+display: inline-block;
+}
+
+.school{
+width: 87.5px;
+height: 87.5px;
+}
+
+.school.on{
+cursor: pointer;
+}
+
+.notselected.school.on:hover{
+opacity: 0.6;
+}
+
+.movie{
+width: 100%;
+height: 700px;
+overflow: hidden;
+border: 4px solid #E95383;
+}
+
+.set{
+margin:40px 0;
+}
+
+.item{
+width: 160px;
+float: left;
+margin: 0 0 35px 40px;
+}
+
+.item:nth-child(4n+1){
+clear: left;
+}
+
+.title{
+width: 160px;
+height: 65px;
+margin: 10px 0 0 0;
+font-size: 12.5px;
+}
+
+.item img{
+width: 160px;
+height: 90px;
+}
+
+/* 以下jScrollPaneの設定 */
+/* 本体 */
+.jspContainer
+{
+overflow: hidden;
+position: relative;
+width: 100%
+}
+
+.jspPane
+{
+position: absolute;
+}
+
+/* 縦スクロールバー本体 */
+.jspVerticalBar
+{
+position: absolute;
+top: 0;
+right: 0;
+width: 27px;
+height: 100%;
+background: #E95383;
+border-left: 4px solid #E95383;
+}
+
+/* 横スクロールバー本体 */
+.jspHorizontalBar
+{
+display: none;
+}
+
+.jspCap
+{
+display: none;
+}
+
+.jspHorizontalBar .jspCap
+{
+float: left;
+}
+
+.jspTrack
+{
+background: #E95383;
+position: relative;
+}
+
+.jspDrag
+{
+background: white;
+position: relative;
+top: 0;
+left: 0;
+cursor: pointer;
+}
+
+/* 縦スクロールバーの背景 */
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar .jspDrag
+{
+float: left;
+height: 100%;
+}
+
+.jspArrow
+{
+background: #50506d;
+text-indent: -20000px;
+display: block;
+cursor: pointer;
+padding: 0;
+margin: 0;
+}
+
+.jspArrow.jspDisabled
+{
+cursor: default;
+background: #80808d;
+}
+
+.jspVerticalBar .jspArrow
+{
+height: 16px;
+}
+
+.jspHorizontalBar .jspArrow
+{
+width: 16px;
+float: left;
+height: 100%;
+}
+
+.jspVerticalBar .jspArrow:focus
+{
+outline: none;
+}
+
+.jspCorner
+{
+background: #eeeef4;
+float: left;
+height: 100%;
+}
+｝
