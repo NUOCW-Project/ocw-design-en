@@ -6,6 +6,28 @@ div#package2{
 top: 0px;
 }
 
+/*ヘッダーとフッターの非表示はじめ*/
+.header_edge{
+display: none;
+}
+
+.pankuzu{
+display: none;
+}
+
+.footer{
+display: none;
+}
+
+#footer_bottom{
+display: none;
+}
+
+.main_back_adachi{
+display: none;
+}
+/*ヘッダーとフッターの非表示終わり*/
+
 #contents{
 width: 875px !important;
 }
@@ -49,7 +71,7 @@ height: 87.5px;
 cursor: pointer;
 }
 
-.school.on:hover{
+.notselected.school.on:hover{
 opacity: 0.6;
 }
 
@@ -85,6 +107,11 @@ font-size: 12.5px;
 width: 160px;
 height: 90px;
 }
+
+/*スマホ対応*/
+@media screen and (max-width:640px) {
+
+｝
 
 /* 以下jScrollPaneの設定 */
 /* 本体 */

@@ -1,13 +1,13 @@
 $(function() {
+  //スクロールバー追加
   $('.movie').jScrollPane();
-
 
   //学部のリスト
   var school_id_list = new Array(
     'lite', 'educ', 'law', 'econ', 'info', 'scie', 'medi', 'engi', 'agri', 'other'
   );
 
-  //はじめに学部ごとのはすべて非表示にする
+  //はじめに学部ごとの内容はすべて非表示にする
   for(var i = 0; i < school_id_list.length; i++){
     $('.movie.' + school_id_list[i]).css('display', 'none');
   }
@@ -30,20 +30,19 @@ $(function() {
 		    }
 	    });
 
-      //一度タブについているクラスselectedを消す
+      //一度タブについているクラスselectedを消し、すべてnotselectedとする
       $('#school_list li').removeClass('selected');
+      $('#school_list li').addClass('notselected');
       //クリックされたタブのみにクラスselectedをつける
+      $(this).removeClass('notselected');
       $(this).addClass('selected');
 
       //新しくselectedとなった画像を変更する
       $('#school_list').find('li').each(function(){
 	  	  if ($(this).is('.selected')){
           $('.'+school).attr('src', $('.'+school).attr('src').replace(school_id_list[index], school_id_list[index]+"_selected"));
-          //$(this).css({'color':'#f00'});
 		    }
 	    });
-      //クリックした画像を変更
-      //$(this).attr('src', $(this).attr("src").replace(school_id_list[i], school_id_list[i]+"_selected"));
 
       //コンテンツを一度すべて非表示に
       $('.movie.top').css('display', 'none'); //topのみ別で
