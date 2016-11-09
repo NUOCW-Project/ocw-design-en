@@ -55,6 +55,7 @@ $(function() {
   });
 });
 
+/*ウィンドウサイズが変更されたときスクロールバーを設定し直す*/
 $(window).resize(function() {
   //スクロールバー追加
   $('.movie').jScrollPane();
