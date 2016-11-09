@@ -61,6 +61,10 @@ padding: 0;
 width: 875px !important;
 }
 
+.main{
+width: 875px;
+}
+
 .lab_intro{
 margin: 0;
 width: 875px;
@@ -292,7 +296,7 @@ img.movie_list{
 width: 100%;
 }
 
-.school_select_select{
+select.school_select{
   outline:none;
   text-indent: 0.01px;
   text-overflow: '';
@@ -305,15 +309,15 @@ width: 100%;
   appearance: button;
 	width: 100%;
 }
-.school_select_select option{
+select.school_select option{
 background-color: #e99415;
 color: #ffffff;
 border-color: #e99415;
 }
-.school_select_select::-ms-expand {
+select.school_select::-ms-expand {
 display: none;
 }
-.school_select_select:-moz-focusring {
+select.school_select:-moz-focusring {
 color: transparent;
 text-shadow: 0 0 0 #828c9a;
 }
