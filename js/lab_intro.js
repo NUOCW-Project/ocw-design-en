@@ -54,3 +54,8 @@ $(function() {
     }
   });
 });
+
+$(window).resize(function() {
+  //スクロールバー追加
+  $('.movie').jScrollPane();
+});

@@ -133,12 +133,13 @@ height: 90px;
 {
 overflow: hidden;
 position: relative;
-width: 100%
+width: 100% !important;
 }
 
 .jspPane
 {
 position: absolute;
+width:100% !important;
 }
 
 /* 縦スクロールバー本体 */
@@ -340,12 +341,13 @@ height: 90px;
 {
 overflow: hidden;
 position: relative;
-width: 100%
+width: 100% !important;
 }
 
 .jspPane
 {
 position: absolute;
+width:100% !important;
 }
 
 /* 縦スクロールバー本体 */
@@ -546,12 +548,13 @@ height: 90px;
 {
 overflow: hidden;
 position: relative;
-width: 100%
+width: 100% !important;
 }
 
 .jspPane
 {
 position: absolute;
+width:100% !important;
 }
 
 /* 縦スクロールバー本体 */
