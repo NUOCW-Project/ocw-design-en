@@ -26,6 +26,14 @@ display: none;
 .main_back_adachi{
 display: none;
 }
+
+.main{
+margin: 0;
+}
+
+#contents{
+padding: 0;
+}
 /*ヘッダーとフッターの非表示終わり*/
 
 #contents{

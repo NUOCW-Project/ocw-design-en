@@ -20,7 +20,7 @@ $(function() {
     var school = school_id_list[index];
 
     //動画が存在する学部をクリックした場合のみ動作
-    if((index != 3) && (index != 6) && (index != 9)){
+    if((index == 0) || (index == 5) || (index != 7) || (index != 8)){
       //selectedだった画像を元に戻す
       $('#school_list').find('li').each(function(){
 	  	  if ($(this).is('.selected')){
