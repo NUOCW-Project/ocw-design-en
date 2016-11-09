@@ -51,14 +51,15 @@ $(function() {
       }
       //クリックされた学部のコンテンツを表示
       $('.movie.' + school_id_list[index]).css('display','block');
+
+      //スクロールバー追加
+      $('.movie').jScrollPane();
     }
   });
 
   //学部を選択したとき(スマホ版)
   $('.school_select').change(function(){
-    //スクロールバー追加
-    $('.movie').jScrollPane();
-    
+
     var index = $(this).prop("selectedIndex") - 1; //0番目に指示が入っているのでずれを戻す
 
     //動画が存在する学部をクリックした場合のみ動作
@@ -93,6 +94,9 @@ $(function() {
       }
       //クリックされた学部のコンテンツを表示
       $('.movie.' + school_id_list[index]).css('display','block');
+
+      //スクロールバー追加
+      $('.movie').jScrollPane();
     }
 
   });
