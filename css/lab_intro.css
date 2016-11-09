@@ -133,6 +133,14 @@ height: 90px;
 /*PC版用CSS2はじめ*/
 @media screen and (min-width:641px) and (max-width:874px) {
 
+.main{
+width: 100%;
+}
+
+div#package2{
+width: 100%;
+}
+
 #contents{
 width: 100% !important;
 }
@@ -226,6 +234,13 @@ height: 90px;
 
 /*スマホ対応用CSS*/
 @media screen and (max-width:640px) {
+.main{
+width: 100%;
+}
+
+div#package2{
+width: 100%;
+}
 
 #contents{
 width: 100% !important;
