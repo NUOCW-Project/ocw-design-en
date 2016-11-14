@@ -6,8 +6,63 @@ div#package2{
 top: 0px;
 }
 
+/*ヘッダーとフッター・背景の非表示はじめ*/
+body{
+background: none;
+}
+
+.body_back{
+background: none;
+}
+
+.header_edge{
+display: none;
+}
+
+.pankuzu{
+display: none;
+}
+
+.footer{
+display: none;
+}
+
+#footer_bottom{
+display: none;
+}
+
+.main_back_adachi{
+display: none;
+background: none;
+}
+
+.main_back_url {
+display: none;
+}
+
+.main_back{
+background: none;
+}
+
+.main{
+margin: 0;
+background: none;
+}
+
+#contents{
+padding: 0;
+}
+/*ヘッダーとフッター・背景の非表示終わり*/
+
+/*PC版用CSSはじめ*/
+@media screen and (min-width:875px) {
+
 #contents{
 width: 875px !important;
+}
+
+.main{
+width: 875px;
 }
 
 .lab_intro{
@@ -15,70 +70,293 @@ margin: 0;
 width: 875px;
 }
 
-#header_img{
+.full{
+display: block;
+}
+
+.sd{
+display: none;
+}
+
+img.header_img{
 width: 875px;
 }
 
-#intro{
+img.intro{
 width: 875px;
 margin: 15px 0;
 }
 
-#movie_list{
+img.movie_list{
 width: 875px;
 }
 
-#department_list{
+.school_list{
 margin: 10px 0 0 0;
 padding: 0;
 list-style-type: none;
 font-size: 0;
 }
 
-#department_list li{
+.school_list li{
 height: 87.5px;
 display: inline-block;
 }
 
-.department{
+.school{
 width: 87.5px;
 height: 87.5px;
 }
 
-.department.on{
+.school.on{
 cursor: pointer;
 }
 
-.department.on:hover{
+.notselected.school.on:hover{
 opacity: 0.6;
 }
 
 .movie{
 width: 867px;
-height: 200px;
+height: 700px;
 overflow: hidden;
 border: 4px solid #E95383;
+}
+
+.set{
+margin:40px 0;
 }
 
 .item{
 width: 160px;
 float: left;
-margin: 35px 0 0 40px;
+margin: 0 0 35px 40px;
 }
 
 .item:nth-child(4n+1){
 clear: left;
 }
 
-.item p{
+.title{
+width: 160px;
+height: 65px;
+margin: 10px 0 0 0;
+font-size: 12.5px;
+}
+
+.item img{
+width: 160px;
+height: 90px;
+}
+
+}
+/*PC版CSS終わり*/
+
+/*PC版用CSS2はじめ*/
+@media screen and (min-width:641px) and (max-width:874px) {
+
+.main{
+width: 100%;
+}
+
+div#package2{
+width: 100%;
+}
+
+#contents{
+width: 100% !important;
+}
+
+.lab_intro{
 margin: 0;
+width: 100%;
+}
+
+.full{
+display: block;
+}
+
+.sd{
+display: none;
+}
+
+img.header_img{
+width: 100%;
+}
+
+img.intro{
+width: 100%;
+margin: 15px 0;
+}
+
+img.movie_list{
+width: 100%;
+}
+
+.school_list{
+margin: 10px 0 0 0;
+padding: 0;
+list-style-type: none;
+font-size: 0;
+}
+
+.school_list li{
+width: 10%;
+display: inline-block;
+}
+
+.school{
+width: 100%;
+}
+
+.school.on{
+cursor: pointer;
+}
+
+.notselected.school.on:hover{
+opacity: 0.6;
+}
+
+.movie{
+width: 100% !important;
+height: 700px;
+overflow: hidden;
+border: 4px solid #E95383;
+}
+
+.set{
+margin:40px 0;
+}
+
+.item{
+width: 160px;
+float: left;
+margin: 0 0 35px 40px;
+}
+
+.item:nth-child(3n+1){
+clear: left;
 }
 
 .title{
 width: 160px;
 height: 65px;
 margin: 10px 0 0 0;
+font-size: 12.5px;
 }
+
+.item img{
+width: 160px;
+height: 90px;
+}
+
+}
+/*PC版CSS2終わり*/
+
+/*スマホ対応用CSS*/
+@media screen and (max-width:640px) {
+.main{
+width: 100%;
+}
+
+div#package2{
+width: 100%;
+}
+
+#contents{
+padding: 0;
+float: none;
+width: 100% !important;
+margin: 0 auto;
+}
+
+.lab_intro{
+margin: 0;
+width: 100%;
+}
+
+.full{
+display: none;
+}
+
+.sd{
+display: block;
+}
+
+img.header_img{
+width: 100%;
+}
+
+img.intro{
+width: 100%;
+margin: 15px 0;
+}
+
+img.movie_list{
+width: 100%;
+}
+
+select.school_select{
+  outline:none;
+  text-indent: 0.01px;
+  text-overflow: '';
+  background: #e99415;
+  vertical-align: middle;
+  font-size: inherit;
+  color: #ffffff;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+	width: 100%;
+}
+select.school_select option{
+background-color: #e99415;
+color: #ffffff;
+border-color: #e99415;
+}
+select.school_select::-ms-expand {
+display: none;
+}
+select.school_select:-moz-focusring {
+color: transparent;
+text-shadow: 0 0 0 #828c9a;
+}
+
+.movie{
+width: 100% !important;
+height: 700px;
+overflow: hidden;
+border: 4px solid #E95383;
+}
+
+.set{
+margin:40px 0;
+}
+
+.item{
+width: 160px;
+float: left;
+margin: 0 0 35px 40px;
+}
+
+.item:nth-child(2n+1){
+clear: left;
+}
+
+.title{
+width: 160px;
+height: 65px;
+margin: 10px 0 0 0;
+font-size: 12.5px;
+}
+
+.item img{
+width: 160px;
+height: 90px;
+}
+
+}
+
 
 /* 以下jScrollPaneの設定 */
 /* 本体 */
@@ -113,73 +391,73 @@ display: none;
 
 .jspCap
 {
-	display: none;
+display: none;
 }
 
 .jspHorizontalBar .jspCap
 {
-	float: left;
+float: left;
 }
 
 .jspTrack
 {
-	background: #E95383;
-	position: relative;
+background: #E95383;
+position: relative;
 }
 
 .jspDrag
 {
-	background: white;
-	position: relative;
-	top: 0;
-	left: 0;
-	cursor: pointer;
+background: white;
+position: relative;
+top: 0;
+left: 0;
+cursor: pointer;
 }
 
 /* 縦スクロールバーの背景 */
 .jspHorizontalBar .jspTrack,
 .jspHorizontalBar .jspDrag
 {
-	float: left;
-	height: 100%;
+float: left;
+height: 100%;
 }
 
 .jspArrow
 {
-	background: #50506d;
-	text-indent: -20000px;
-	display: block;
-	cursor: pointer;
-	padding: 0;
-	margin: 0;
+background: #50506d;
+text-indent: -20000px;
+display: block;
+cursor: pointer;
+padding: 0;
+margin: 0;
 }
 
 .jspArrow.jspDisabled
 {
-	cursor: default;
-	background: #80808d;
+cursor: default;
+background: #80808d;
 }
 
 .jspVerticalBar .jspArrow
 {
-	height: 16px;
+height: 16px;
 }
 
 .jspHorizontalBar .jspArrow
 {
-	width: 16px;
-	float: left;
-	height: 100%;
+width: 16px;
+float: left;
+height: 100%;
 }
 
 .jspVerticalBar .jspArrow:focus
 {
-	outline: none;
+outline: none;
 }
 
 .jspCorner
 {
-	background: #eeeef4;
-	float: left;
-	height: 100%;
+background: #eeeef4;
+float: left;
+height: 100%;
 }
