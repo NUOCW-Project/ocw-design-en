@@ -2,6 +2,9 @@ $(function() {
   //スクロールバー追加
   $('.movie').jScrollPane();
 
+  //選択されている学部のindex
+  var index = 100;
+
   //学部のリスト
   var school_id_list = new Array(
     'lite', 'educ', 'law', 'econ', 'info', 'scie', 'medi', 'engi', 'agri', 'other'
@@ -15,8 +18,7 @@ $(function() {
   //学部を選択したとき(PC版)
   $('.school_list li').click(function() {
     //クリックされたリスト番号取得
-    var index = $('.school_list li').index(this);
-    var img_dir = "./images/ja/lab_introduction/button/"+school_id_list[index]+".svg";//いらないかも
+    index = $('.school_list li').index(this);
     var school = school_id_list[index];
 
     //動画が存在する学部をクリックした場合のみ動作
@@ -60,7 +62,7 @@ $(function() {
   //学部を選択したとき(スマホ版)
   $('.school_select').change(function(){
 
-    var index = $(this).prop("selectedIndex") - 1; //0番目に指示が入っているのでずれを戻す
+    index = $(this).prop("selectedIndex") - 1; //0番目に指示が入っているのでずれを戻す
 
     //動画が存在する学部をクリックした場合のみ動作
     if((index == 0) || (index == 5) || (index == 7) || (index == 8)){
@@ -102,8 +104,37 @@ $(function() {
   });
 
 
-  /*ウィンドウサイズが変更されたときスクロールバーを設定し直す*/
+  /* ウィンドウサイズが変更されたときスクロールバーを設定し直す */
   $(window).resize(function() {
+    var width = $(window).width();
+    if(width >= 641){
+      //PC版のとき
+
+      //selectedだった画像を元に戻す
+      /*$('.school_list').find('li').each(function(){
+        if ($(this).is('.selected')){
+          var index_old = $('.school_list li').index(this);
+          var school_old = school_id_list[index_old];
+          $('.'+school_old).attr('src', $('.'+school_old).attr('src').replace(school_id_list[index_old]+'_selected', school_id_list[index_old]));
+        }
+      });*/
+      //一度タブについているクラスselectedを消し、すべてnotselectedとする
+      $('.school_list li').removeClass('selected');
+      $('.school_list li').addClass('notselected');
+      //クリックされたタブのみにクラスselectedをつける
+      $('.school_list li':eq(index)).removeClass('notselected');
+      $('.school_list li':eq(index)).addClass('selected');
+      //新しくselectedとなった画像を変更する
+      $('.school_list').find('li').each(function(){
+        if ($(this).is('.selected')){
+          $('.'+school).attr('src', $('.'+school).attr('src').replace(school_id_list[index], school_id_list[index]+"_selected"));
+        }
+      });
+    }else{
+      //スマホ版のとき
+      $('.school_select').val(index + 1);
+    }
+
     //スクロールバー追加
     $('.movie').jScrollPane();
   });
