@@ -107,6 +107,7 @@ $(function() {
   /* ウィンドウサイズが変更されたときスクロールバーを設定し直す */
   $(window).resize(function() {
     var width = $(window).width();
+    console.log(index);
     if(width >= 641){
       //PC版のとき
 
