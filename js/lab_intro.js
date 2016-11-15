@@ -50,7 +50,7 @@ $(function() {
 	    });
 
       //スマホ版のセレクトボックスの中身も変更
-      $('.school_select').val(index + 1);
+      $('.school_select').val(school_id_list[index + 1]);
 
       //コンテンツを一度すべて非表示に
       $('.movie.top').css('display', 'none'); //topのみ別で
@@ -113,38 +113,6 @@ $(function() {
 
   /* ウィンドウサイズが変更されたときスクロールバーを設定し直す */
   $(window).resize(function() {
-    /*var width = $(window).width();
-    console.log(index);
-    if(width >= 641){
-      //PC版のとき
-
-      //selectedだった画像を元に戻す
-      $('.school_list').find('li').each(function(){
-        if ($(this).is('.selected')){
-          var index_old = $('.school_list li').index(this);
-          var school_old = school_id_list[index_old];
-          $('.'+school_old).attr('src', $('.'+school_old).attr('src').replace(school_old+'_selected', school_old));
-        }
-      });
-      //一度タブについているクラスselectedを消し、すべてnotselectedとする
-      $('.school_list li').removeClass('selected');
-      $('.school_list li').addClass('notselected');
-      //クリックされたタブのみにクラスselectedをつける
-      $('.school_list li').eq(index).removeClass('notselected');
-      $('.school_list li').eq(index).addClass('selected');
-      //新しくselectedとなった画像を変更する
-      school = school_id_list[index];
-      $('.school_list').find('li').each(function(){
-        if ($(this).is('.selected')){
-          $('.'+school).attr('src', $('.'+school).attr('src').replace(school, school+"_selected"));
-        }
-      });
-    }else{
-      //スマホ版のとき
-      var select_index = index + 1;
-      $('.school_select').val(select_index);
-    }*/
-
     //スクロールバー追加
     $('.movie').jScrollPane();
   });
