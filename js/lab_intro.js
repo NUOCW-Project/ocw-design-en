@@ -122,8 +122,8 @@ $(function() {
       $('.school_list li').removeClass('selected');
       $('.school_list li').addClass('notselected');
       //クリックされたタブのみにクラスselectedをつける
-      $('.school_list li':eq(index)).removeClass('notselected');
-      $('.school_list li':eq(index)).addClass('selected');
+      $('.school_list li :eq(index)').removeClass('notselected');
+      $('.school_list li :eq(index)').addClass('selected');
       //新しくselectedとなった画像を変更する
       $('.school_list').find('li').each(function(){
         if ($(this).is('.selected')){
