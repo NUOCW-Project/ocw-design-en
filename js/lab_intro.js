@@ -2,12 +2,10 @@ $(function() {
   //スクロールバー追加
   $('.movie').jScrollPane();
 
-  //選択されている学部のindex
-  var index = 100;
-  var school = "";
+  var index = 100;　//選択されている学部のindex
+  var school = "";　//選択されている学部名
   var index_old = 100;
   var school_old = "";
-
   //学部のリスト
   var school_id_list = new Array(
     'lite', 'educ', 'law', 'econ', 'info', 'scie', 'medi', 'engi', 'agri', 'other'
@@ -18,7 +16,7 @@ $(function() {
     $('.movie.' + school_id_list[i]).css('display', 'none');
   }
 
-  //学部を選択したとき(PC版)
+  /* 学部を選択したとき(PC版)はじめ */
   $('.school_list li').click(function() {
     //クリックされたリスト番号取得
     index = $('.school_list li').index(this);
@@ -50,7 +48,7 @@ $(function() {
 	    });
 
       //スマホ版のセレクトボックスの中身も変更
-      $('.school_select').val(school_id_list[index + 1]);
+      $('.school_select').val(school_id_list[index]);
 
       //コンテンツを一度すべて非表示に
       $('.movie.top').css('display', 'none'); //topのみ別で
@@ -64,14 +62,16 @@ $(function() {
       $('.movie').jScrollPane();
     }
   });
+  /* 学部を選択したとき(PC版)終わり */
 
-  //学部を選択したとき(スマホ版)
+  /* 学部を選択したとき(スマホ版)はじめ */
   $('.school_select').change(function(){
 
     index = $(this).prop("selectedIndex") - 1; //0番目に指示が入っているのでずれを戻す
 
     //動画が存在する学部をクリックした場合のみ動作
     if((index == 0) || (index == 5) || (index == 7) || (index == 8)){
+      /* PC版のタブ画像を変更はじめ */
       //selectedだった画像を元に戻す
       $('.school_list').find('li').each(function(){
         if ($(this).is('.selected')){
@@ -95,6 +95,7 @@ $(function() {
           $('.'+school).attr('src', $('.'+school).attr('src').replace(school, school+"_selected"));
         }
       });
+      /* PC版のタブ画像を変更終わり */
 
       //コンテンツを一度すべて非表示に
       $('.movie.top').css('display', 'none'); //topのみ別で
@@ -107,8 +108,8 @@ $(function() {
       //スクロールバー追加
       $('.movie').jScrollPane();
     }
-
   });
+  /* 学部を選択したとき(スマホ版)終わり */
 
 
   /* ウィンドウサイズが変更されたときスクロールバーを設定し直す */
