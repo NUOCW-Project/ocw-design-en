@@ -112,13 +112,13 @@ $(function() {
       //PC版のとき
 
       //selectedだった画像を元に戻す
-      /*$('.school_list').find('li').each(function(){
+      $('.school_list').find('li').each(function(){
         if ($(this).is('.selected')){
           var index_old = $('.school_list li').index(this);
           var school_old = school_id_list[index_old];
           $('.'+school_old).attr('src', $('.'+school_old).attr('src').replace(school_id_list[index_old]+'_selected', school_id_list[index_old]));
         }
-      });*/
+      });
       //一度タブについているクラスselectedを消し、すべてnotselectedとする
       $('.school_list li').removeClass('selected');
       $('.school_list li').addClass('notselected');
@@ -133,7 +133,8 @@ $(function() {
       });
     }else{
       //スマホ版のとき
-      $('.school_select').val(index + 1);
+      var select_index = index + 1;
+      $('.school_select').val(select_index);
     }
 
     //スクロールバー追加
