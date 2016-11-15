@@ -4,6 +4,9 @@ $(function() {
 
   //選択されている学部のindex
   var index = 100;
+  var school = "";
+  var index_old = 100;
+  var school_old = "";
 
   //学部のリスト
   var school_id_list = new Array(
@@ -19,16 +22,16 @@ $(function() {
   $('.school_list li').click(function() {
     //クリックされたリスト番号取得
     index = $('.school_list li').index(this);
-    var school = school_id_list[index];
+    school = school_id_list[index];
 
     //動画が存在する学部をクリックした場合のみ動作
     if((index == 0) || (index == 5) || (index == 7) || (index == 8)){
       //selectedだった画像を元に戻す
       $('.school_list').find('li').each(function(){
 	  	  if ($(this).is('.selected')){
-          var index_old = $('.school_list li').index(this);
-          var school_old = school_id_list[index_old];
-          $('.'+school_old).attr('src', $('.'+school_old).attr('src').replace(school_id_list[index_old]+'_selected', school_id_list[index_old]));
+          index_old = $('.school_list li').index(this);
+          school_old = school_id_list[index_old];
+          $('.'+school_old).attr('src', $('.'+school_old).attr('src').replace(school_old+'_selected', school_old));
 		    }
 	    });
 
@@ -42,7 +45,7 @@ $(function() {
       //新しくselectedとなった画像を変更する
       $('.school_list').find('li').each(function(){
 	  	  if ($(this).is('.selected')){
-          $('.'+school).attr('src', $('.'+school).attr('src').replace(school_id_list[index], school_id_list[index]+"_selected"));
+          $('.'+school).attr('src', $('.'+school).attr('src').replace(school, school+"_selected"));
 		    }
 	    });
 
@@ -69,9 +72,9 @@ $(function() {
       //selectedだった画像を元に戻す
       $('.school_list').find('li').each(function(){
         if ($(this).is('.selected')){
-          var index_old = $('.school_list li').index(this);
-          var school_old = school_id_list[index_old];
-          $('.'+school_old).attr('src', $('.'+school_old).attr('src').replace(school_id_list[index_old]+'_selected', school_id_list[index_old]));
+          index_old = $('.school_list li').index(this);
+          school_old = school_id_list[index_old];
+          $('.'+school_old).attr('src', $('.'+school_old).attr('src').replace(school_old+'_selected', school_old));
         }
       });
 
@@ -79,13 +82,14 @@ $(function() {
       $('.school_list li').removeClass('selected');
       $('.school_list li').addClass('notselected');
       //クリックされたタブのみにクラスselectedをつける
-      $(this).removeClass('notselected');
-      $(this).addClass('selected');
+      $('.school_list li').eq(index).removeClass('notselected');
+      $('.school_list li').eq(index).addClass('selected');
 
+      school = $('.school_select').val();
       //新しくselectedとなった画像を変更する
       $('.school_list').find('li').each(function(){
         if ($(this).is('.selected')){
-          $('.'+school).attr('src', $('.'+school).attr('src').replace(school_id_list[index], school_id_list[index]+"_selected"));
+          $('.'+school).attr('src', $('.'+school).attr('src').replace(school, school+"_selected"));
         }
       });
 
@@ -106,7 +110,7 @@ $(function() {
 
   /* ウィンドウサイズが変更されたときスクロールバーを設定し直す */
   $(window).resize(function() {
-    var width = $(window).width();
+    /*var width = $(window).width();
     console.log(index);
     if(width >= 641){
       //PC版のとき
@@ -116,7 +120,7 @@ $(function() {
         if ($(this).is('.selected')){
           var index_old = $('.school_list li').index(this);
           var school_old = school_id_list[index_old];
-          $('.'+school_old).attr('src', $('.'+school_old).attr('src').replace(school_id_list[index_old]+'_selected', school_id_list[index_old]));
+          $('.'+school_old).attr('src', $('.'+school_old).attr('src').replace(school_old+'_selected', school_old));
         }
       });
       //一度タブについているクラスselectedを消し、すべてnotselectedとする
@@ -126,16 +130,17 @@ $(function() {
       $('.school_list li').eq(index).removeClass('notselected');
       $('.school_list li').eq(index).addClass('selected');
       //新しくselectedとなった画像を変更する
+      school = school_id_list[index];
       $('.school_list').find('li').each(function(){
         if ($(this).is('.selected')){
-          $('.'+school).attr('src', $('.'+school).attr('src').replace(school_id_list[index], school_id_list[index]+"_selected"));
+          $('.'+school).attr('src', $('.'+school).attr('src').replace(school, school+"_selected"));
         }
       });
     }else{
       //スマホ版のとき
       var select_index = index + 1;
       $('.school_select').val(select_index);
-    }
+    }*/
 
     //スクロールバー追加
     $('.movie').jScrollPane();
