@@ -49,6 +49,9 @@ $(function() {
 		    }
 	    });
 
+      //スマホ版のセレクトボックスの中身も変更
+      $('.school_select').val(index + 1);
+
       //コンテンツを一度すべて非表示に
       $('.movie.top').css('display', 'none'); //topのみ別で
       for (var i = 0; i < school_id_list.length; i++){
