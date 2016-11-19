@@ -1,6 +1,8 @@
 $(function() {
-  //スクロールバー追加
-  $('.movie').jScrollPane();
+  //スクロールバー追加（PC版のみ)
+  if((window).width() > 641){
+    $('.movie').jScrollPane();
+  }
 
   var index = 100;　//選択されている学部のindex
   var school = "";　//選択されている学部名
@@ -67,10 +69,26 @@ $(function() {
   /* 学部を選択したとき(スマホ版)はじめ */
   $('.school_select').change(function(){
 
+    //存在しない学部に対応するため
+    if($('.school_select').val() == "lite"){
+      index = 0;
+    }else($('.school_select').val() == "scie"){
+      if(){
+        index = 5;
+      }else{
+        if($('.school_select').val() == "engi"){
+          index = 7;
+        }else{
+          if($('.school_select').val() == "agri"){
+            index = 8;
+          }
+        }
+      }
+    }
     index = $(this).prop("selectedIndex") - 1; //0番目に指示が入っているのでずれを戻す
 
     //動画が存在する学部をクリックした場合のみ動作
-    if((index == 0) || (index == 5) || (index == 7) || (index == 8)){
+    //if((index == 0) || (index == 5) || (index == 7) || (index == 8)){
       /* PC版のタブ画像を変更はじめ */
       //selectedだった画像を元に戻す
       $('.school_list').find('li').each(function(){
@@ -106,15 +124,16 @@ $(function() {
       $('.movie.' + school_id_list[index]).css('display','block');
 
       //スクロールバー追加
-      $('.movie').jScrollPane();
-    }
+      //$('.movie').jScrollPane();
+    //}
   });
   /* 学部を選択したとき(スマホ版)終わり */
 
 
-  /* ウィンドウサイズが変更されたときスクロールバーを設定し直す */
+  /* ウィンドウサイズが変更されたときスクロールバーを設定し直す(PC版のみ) */
   $(window).resize(function() {
-    //スクロールバー追加
-    $('.movie').jScrollPane();
+    if((window).width() > 641){
+      $('.movie').jScrollPane();
+    }
   });
 });
