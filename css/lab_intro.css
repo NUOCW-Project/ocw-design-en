@@ -228,7 +228,7 @@ float: left;
 clear: left;
 }
 
-.item.title{
+.title{
 margin: 10px 0 0 0;
 width: 160px;
 height: 65px;
@@ -330,7 +330,7 @@ float: left;
 clear: left;
 }
 
-.item.title{
+.title{
 margin: 10px 0 0 0;
 width: 160px;
 height: 65px;
@@ -392,7 +392,8 @@ select.school_select{
 outline:none;
 text-indent: 0.01px;
 text-overflow: '';
-background: #e99415;
+//background: #e99415;
+background-image: url(../images/ja/lab_intro/select_top.svg);
 vertical-align: middle;
 font-size: inherit;
 color: #ffffff;
@@ -435,7 +436,7 @@ float: left;
 clear: left;
 }
 
-.item.title{
+.title{
 margin: 0 0 0 25px;
 display: inline-block;
 width: 160px;
@@ -443,7 +444,7 @@ height: 65px;
 font-size: 12.5px;
 }
 
-.item.title_img{
+.title_img{
 display: inline-block;
 }
 
