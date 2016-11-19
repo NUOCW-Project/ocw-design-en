@@ -2,6 +2,10 @@ $(function() {
   //スクロールバー追加（PC版のみ)
   if($(window).width() > 641){
     $('.movie').jScrollPane();
+  }else{//スマホ版
+    var w = $(window).width();
+    var select_h = 60 / 640 * w; //selectボックスの大きさ
+    $('.select.school_select').css('height',select_h + "px");
   }
 
   var index = 100;　//選択されている学部のindex
@@ -132,8 +136,12 @@ $(function() {
 
   /* ウィンドウサイズが変更されたときスクロールバーを設定し直す(PC版のみ) */
   $(window).resize(function() {
-    if($(window).width() > 641){
+    if($(window).width() > 641){ //PC版
       $('.movie').jScrollPane();
+    }else{//スマホ版
+      var w = $(window).width();
+      var select_h = 60 / 640 * w; //selectボックスの大きさ
+      $('.select.school_select').css('height',select_h + "px");
     }
   });
 });
