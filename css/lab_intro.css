@@ -56,106 +56,91 @@ padding: 0;
 
 /* 以下jScrollPane(スクロールバー)の設定 */
 /* 本体 */
-.jspContainer
-{
-overflow: hidden;
+.jspContainer{
 position: relative;
+overflow: hidden;
 }
 
-.jspPane
-{
+.jspPane{
 position: absolute;
 }
 
 /* 縦スクロールバー本体 */
-.jspVerticalBar
-{
+.jspVerticalBar{
+border-left: 4px solid #E95383;
 position: absolute;
 top: 0;
 right: 0;
 width: 27px;
 height: 100%;
 background: #E95383;
-border-left: 4px solid #E95383;
 }
 
 /* 横スクロールバー本体 */
-.jspHorizontalBar
-{
+.jspHorizontalBar{
 display: none;
 }
 
-.jspCap
-{
+.jspCap{
 display: none;
 }
 
-.jspHorizontalBar .jspCap
-{
+.jspHorizontalBar .jspCap{
 float: left;
 }
 
-.jspTrack
-{
-background: #E95383;
+.jspTrack{
 position: relative;
+background: #E95383;
 }
 
-.jspDrag
-{
-background: white;
+.jspDrag{
 position: relative;
 top: 0;
 left: 0;
+background: white;
 cursor: pointer;
 }
 
 /* 縦スクロールバーの背景 */
 .jspHorizontalBar .jspTrack,
-.jspHorizontalBar .jspDrag
-{
+.jspHorizontalBar .jspDrag{
 float: left;
 height: 100%;
 }
 
-.jspArrow
-{
-background: #50506d;
+.jspArrow{
+margin: 0;
+padding: 0;
 text-indent: -20000px;
 display: block;
+background: #50506d;
 cursor: pointer;
-padding: 0;
-margin: 0;
 }
 
-.jspArrow.jspDisabled
-{
-cursor: default;
+.jspArrow.jspDisabled{
 background: #80808d;
+cursor: default;
 }
 
-.jspVerticalBar .jspArrow
-{
+.jspVerticalBar .jspArrow{
 height: 16px;
 }
 
-.jspHorizontalBar .jspArrow
-{
-width: 16px;
+.jspHorizontalBar .jspArrow{
 float: left;
+width: 16px;
 height: 100%;
 }
 
-.jspVerticalBar .jspArrow:focus
-{
+.jspVerticalBar .jspArrow:focus{
 outline: none;
 }
 
-.jspCorner
-{
-background: #eeeef4;
+.jspCorner{
 float: left;
 height: 100%;
+background: #eeeef4;
 }
 /* jScrollPane(スクロールバー)の設定終わり */
 
@@ -188,8 +173,8 @@ width: 875px;
 }
 
 img.intro{
-width: 875px;
 margin: 15px 0;
+width: 875px;
 }
 
 img.movie_list{
@@ -204,8 +189,8 @@ font-size: 0;
 }
 
 .school_list li{
-height: 87.5px;
 display: inline-block;
+height: 87.5px;
 }
 
 .school{
@@ -222,10 +207,10 @@ opacity: 0.6;
 }
 
 .movie{
+border: 4px solid #E95383;
 width: 875px;
 height: 700px;
 overflow: hidden;
-border: 4px solid #E95383;
 box-sizing:border-box;
 }
 
@@ -234,19 +219,19 @@ margin:40px 0;
 }
 
 .item{
+margin: 0 0 35px 40px;
 width: 160px;
 float: left;
-margin: 0 0 35px 40px;
 }
 
 .item:nth-child(4n+1){
 clear: left;
 }
 
-.title{
+.item.title{
+margin: 10px 0 0 0;
 width: 160px;
 height: 65px;
-margin: 10px 0 0 0;
 font-size: 12.5px;
 }
 
@@ -291,8 +276,8 @@ width: 100%;
 }
 
 img.intro{
-width: 100%;
 margin: 15px 0;
+width: 100%;
 }
 
 img.movie_list{
@@ -324,10 +309,10 @@ opacity: 0.6;
 }
 
 .movie{
+border: 4px solid #E95383;
 width: 100% !important;
 height: 700px;
 overflow: hidden;
-border: 4px solid #E95383;
 box-sizing:border-box;
 }
 
@@ -336,19 +321,19 @@ margin:40px 0;
 }
 
 .item{
+margin: 0 0 35px 40px;
 width: 160px;
 float: left;
-margin: 0 0 35px 40px;
 }
 
 .item:nth-child(3n+1){
 clear: left;
 }
 
-.title{
+.item.title{
+margin: 10px 0 0 0;
 width: 160px;
 height: 65px;
-margin: 10px 0 0 0;
 font-size: 12.5px;
 }
 
@@ -371,10 +356,10 @@ width: 100%;
 }
 
 #contents{
-padding: 0;
-float: none;
-width: 100% !important;
 margin: 0 auto;
+padding: 0;
+width: 100% !important;
+float: none;
 }
 
 .lab_intro{
@@ -395,8 +380,8 @@ width: 100%;
 }
 
 img.intro{
-width: 100%;
 margin: 15px 0;
+width: 100%;
 }
 
 img.movie_list{
@@ -404,17 +389,17 @@ width: 100%;
 }
 
 select.school_select{
-  outline:none;
-  text-indent: 0.01px;
-  text-overflow: '';
-  background: #e99415;
-  vertical-align: middle;
-  font-size: inherit;
-  color: #ffffff;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-	width: 100%;
+outline:none;
+text-indent: 0.01px;
+text-overflow: '';
+background: #e99415;
+vertical-align: middle;
+font-size: inherit;
+color: #ffffff;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+width: 100%;
 }
 
 select.school_select option{
@@ -434,37 +419,122 @@ text-shadow: 0 0 0 #828c9a;
 
 .movie{
 width: 100% !important;
-height: 700px;
-overflow: hidden;
-border: 4px solid #E95383;
-box-sizing:border-box;
 }
 
 .set{
-margin:40px 0;
+margin: 25px 0;
 }
 
 .item{
+margin: 0 25px 25px 25px;
 width: 160px;
 float: left;
-margin: 0 0 35px 40px;
 }
 
 .item:nth-child(2n+1){
 clear: left;
 }
 
-.title{
+.item.title{
+margin: 0 0 0 25px;
+display: inline-block;
 width: 160px;
 height: 65px;
-margin: 10px 0 0 0;
 font-size: 12.5px;
 }
 
-.item img{
-width: 160px;
-height: 90px;
+.item.title_img{
+display: inline-block;
 }
+
+.item img{
+width: 200px;
+height: 112.5px;
+}
+
+/* 以下jScrollPane(スクロールバー)の設定(スマホ版は非表示にする) */
+/* 本体 */
+.jspContainer{
+position: relative;
+overflow: hidden;
+}
+
+.jspPane{
+position: absolute;
+}
+
+/* 縦スクロールバー本体 */
+.jspVerticalBar{
+display: none;
+}
+
+/* 横スクロールバー本体 */
+.jspHorizontalBar{
+display: none;
+}
+
+.jspCap{
+display: none;
+}
+
+.jspHorizontalBar .jspCap{
+float: left;
+}
+
+.jspTrack{
+position: relative;
+background: #E95383;
+}
+
+.jspDrag{
+position: relative;
+top: 0;
+left: 0;
+background: white;
+cursor: pointer;
+}
+
+/* 縦スクロールバーの背景 */
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar .jspDrag{
+float: left;
+height: 100%;
+}
+
+.jspArrow{
+margin: 0;
+padding: 0;
+text-indent: -20000px;
+display: block;
+background: #50506d;
+cursor: pointer;
+}
+
+.jspArrow.jspDisabled{
+background: #80808d;
+cursor: default;
+}
+
+.jspVerticalBar .jspArrow{
+height: 16px;
+}
+
+.jspHorizontalBar .jspArrow{
+float: left;
+width: 16px;
+height: 100%;
+}
+
+.jspVerticalBar .jspArrow:focus{
+outline: none;
+}
+
+.jspCorner{
+float: left;
+height: 100%;
+background: #eeeef4;
+}
+/* jScrollPane(スクロールバー)の設定終わり */
 
 }
 /* スマホ対応用CSS終わり */
