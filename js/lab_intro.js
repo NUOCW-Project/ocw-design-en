@@ -3,9 +3,10 @@ $(function() {
   if($(window).width() > 641){
     $('.movie').jScrollPane();
   }else{//スマホ版
+    $('.movie').jScrollPane();
     var w = $(window).width();
     var select_h = 60 / 640 * w; //selectボックスの大きさ
-    $('.select.school_select').css('height',select_h + "px");
+    $('select.school_select').css('height',select_h + "px");
   }
 
   var index = 100;　//選択されている学部のindex
@@ -139,9 +140,10 @@ $(function() {
     if($(window).width() > 641){ //PC版
       $('.movie').jScrollPane();
     }else{//スマホ版
+      $('.movie').jScrollPane();
       var w = $(window).width();
       var select_h = 60 / 640 * w; //selectボックスの大きさ
-      $('.select.school_select').css('height',select_h + "px");
+      $('select.school_select').css('height',select_h + "px");
     }
   });
 });
