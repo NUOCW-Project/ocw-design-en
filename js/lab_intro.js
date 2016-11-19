@@ -72,8 +72,8 @@ $(function() {
     //存在しない学部に対応するため
     if($('.school_select').val() == "lite"){
       index = 0;
-    }else($('.school_select').val() == "scie"){
-      if(){
+    }else{
+      if($('.school_select').val() == "scie"){
         index = 5;
       }else{
         if($('.school_select').val() == "engi"){
