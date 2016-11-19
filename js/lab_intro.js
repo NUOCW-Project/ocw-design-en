@@ -5,7 +5,7 @@ $(function() {
   }else{//スマホ版
     $('.movie').jScrollPane();
     var w = $(window).width();
-    var select_h = 60 / 640 * w; //selectボックスの大きさ
+    var select_h = 28 / 300 * w; //selectボックスの大きさ
     $('select.school_select').css('height',select_h + "px");
   }
 
@@ -90,7 +90,7 @@ $(function() {
         }
       }
     }
-    index = $(this).prop("selectedIndex") - 1; //0番目に指示が入っているのでずれを戻す
+    //index = $(this).prop("selectedIndex") - 1; //0番目に指示が入っているのでずれを戻す
 
     //動画が存在する学部をクリックした場合のみ動作
     //if((index == 0) || (index == 5) || (index == 7) || (index == 8)){
@@ -142,7 +142,7 @@ $(function() {
     }else{//スマホ版
       $('.movie').jScrollPane();
       var w = $(window).width();
-      var select_h = 60 / 640 * w; //selectボックスの大きさ
+      var select_h = 28 / 300 * w; //selectボックスの大きさ
       $('select.school_select').css('height',select_h + "px");
     }
   });
