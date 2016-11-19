@@ -1,6 +1,6 @@
 $(function() {
   //スクロールバー追加（PC版のみ)
-  if((window).width() > 641){
+  if($(window).width() > 641){
     $('.movie').jScrollPane();
   }
 
@@ -132,7 +132,7 @@ $(function() {
 
   /* ウィンドウサイズが変更されたときスクロールバーを設定し直す(PC版のみ) */
   $(window).resize(function() {
-    if((window).width() > 641){
+    if($(window).width() > 641){
       $('.movie').jScrollPane();
     }
   });
