@@ -1,3 +1,4 @@
+{debug}
 <div id="class_info">
 
 <div id="title">
