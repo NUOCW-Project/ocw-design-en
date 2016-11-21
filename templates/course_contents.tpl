@@ -1,7 +1,3 @@
-{ldelim}literal{rdelim}
-{debug}
-{ldelim}/literal{rdelim}
-
 <div id="class_info">
 
 <div id="title">
