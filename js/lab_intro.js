@@ -4,7 +4,7 @@ $(function() {
     $('.movie').jScrollPane();
   }else{//スマホ版
     var w = $(window).width();
-    var select_h = 28 / 300 * w; //selectボックスの大きさ
+    var select_h = 30 / 300 * w; //selectボックスの大きさ
     $('select.school_select').css('height',select_h + "px");
   }
 
