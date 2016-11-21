@@ -128,7 +128,8 @@ $(function() {
       $('.movie.' + school_id_list[index]).css('display','block');
 
       //スクロールバー削除
-      $(".movie").jScrollPane().data('jsp').destroy();
+      //$(".movie").jScrollPane().data('jsp').destroy();
+      $('.movie').jScrollPane().data().jsp.destroy();
       //$('.movie').jScrollPane();
     //}
   });
@@ -140,9 +141,9 @@ $(function() {
     if($(window).width() > 641){ //PC版
       $('.movie').jScrollPane();
     }else{//スマホ版
-      $(".movie").jScrollPane().data('jsp').destroy();
+      $('.movie').jScrollPane().data().jsp.destroy();
       var w = $(window).width();
-      var select_h = 28 / 300 * w; //selectボックスの大きさ
+      var select_h = 30 / 300 * w; //selectボックスの大きさ
       $('select.school_select').css('height',select_h + "px");
     }
   });
