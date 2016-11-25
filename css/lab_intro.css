@@ -434,8 +434,6 @@ margin: 25px 0;
 
 .item{
 margin: 0 3% 25px 3%;
-//width: 160px;
-//float: left;
 }
 
 .item:nth-child(2n+1){
@@ -443,14 +441,20 @@ clear: left;
 }
 
 .title{
-//margin: 0 0 0 25px;
 margin: 0 0 0 5%;
 display: inline-block;
 width: 50%;
-//width: 160px;
 height: 65px;
 font-size: 3.9vw;
 vertical-align: top;
+}
+
+.department{
+margin: 1% 0 0 0;
+}
+
+.lab_name{
+margin: 1% 0 0 0;
 }
 
 .title_img{
@@ -461,8 +465,6 @@ width: 45%;
 .item img{
 width: 100%;
 height: auto;
-//width: 200px;
-//height: 112.5px;
 }
 
 /* 以下jScrollPane(スクロールバー)の設定(スマホ版は非表示にする) */
