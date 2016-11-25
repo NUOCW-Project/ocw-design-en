@@ -73,8 +73,12 @@ $(function() {
 
   /* 学部を選択したとき(スマホ版)はじめ */
   $('.school_select').change(function(){
+    var n = 0;
     if($('.school_select').val() == "top"){
       //「学部名を選択」部分を再度選択できないようにする
+      n = 1;
+    }
+    if(n==1){
       $('.school_select').val(school_id_list[index]);
     }
 
@@ -100,6 +104,7 @@ $(function() {
     }
 
       /* PC版のタブ画像を変更はじめ */
+      if()
       //selectedだった画像を元に戻す
       $('.school_list').find('li').each(function(){
         if ($(this).is('.selected')){
