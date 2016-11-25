@@ -56,6 +56,8 @@ $(function() {
       //スマホ版のセレクトボックスの中身も変更
       $('.school_select').val(school_id_list[index]);
       $('select.school_select').css('background-image', 'url(./images/ja/lab_intro/selectbox/'+school_id_list[index]+'.svg)');
+      $('select.school_select').children('option:first-child').prop('disabled',true);
+      $('select.school_select').children('option:first-child').css('color','gray');
 
       //コンテンツを一度すべて非表示に
       $('.movie.top').css('display', 'none'); //topのみ別で
@@ -73,17 +75,7 @@ $(function() {
 
   /* 学部を選択したとき(スマホ版)はじめ */
   $('.school_select').change(function(){
-    var n = 0;
-    /*if($('.school_select').val() == "top"){
-      //「学部名を選択」部分を再度選択できないようにする
-      n = 1;
-    }
-    if(n==1){
-      $('.school_select').val(school_id_list[index]);
-      n=0;
-    }*/
 
-    //存在しない学部に対応するため
     if($('.school_select').val() == "lite"){
       index = 0;
       $('select.school_select').css('background-image', 'url(./images/ja/lab_intro/selectbox/lite.svg)');

@@ -49,6 +49,10 @@ margin: 0 auto;
 background: none;
 }
 
+.topjump {
+    display: none;
+}
+
 #contents{
 padding: 0;
 }
