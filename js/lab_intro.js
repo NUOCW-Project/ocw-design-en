@@ -80,6 +80,7 @@ $(function() {
     }
     if(n==1){
       $('.school_select').val(school_id_list[index]);
+      n=0;
     }
 
     //存在しない学部に対応するため
@@ -104,7 +105,6 @@ $(function() {
     }
 
       /* PC版のタブ画像を変更はじめ */
-      if()
       //selectedだった画像を元に戻す
       $('.school_list').find('li').each(function(){
         if ($(this).is('.selected')){
