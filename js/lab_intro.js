@@ -55,6 +55,7 @@ $(function() {
 
       //スマホ版のセレクトボックスの中身も変更
       $('.school_select').val(school_id_list[index]);
+      $('select.school_select').css('background-image', 'url(../images/ja/lab_intro/selectbox/'+school_id_list[index]+'.svg)');
 
       //コンテンツを一度すべて非表示に
       $('.movie.top').css('display', 'none'); //topのみ別で
@@ -80,23 +81,20 @@ $(function() {
     }else{
       if($('.school_select').val() == "scie"){
         index = 5;
-          $('select.school_select').css('background-image', 'url(../images/ja/lab_intro/selectbox/scie.svg)');
+        $('select.school_select').css('background-image', 'url(../images/ja/lab_intro/selectbox/scie.svg)');
       }else{
         if($('.school_select').val() == "engi"){
           index = 7;
-            $('select.school_select').css('background-image', 'url(../images/ja/lab_intro/selectbox/engi.svg)');
+          $('select.school_select').css('background-image', 'url(../images/ja/lab_intro/selectbox/engi.svg)');
         }else{
           if($('.school_select').val() == "agri"){
             index = 8;
-              $('select.school_select').css('background-image', 'url(../images/ja/lab_intro/selectbox/agri.svg)');
+            $('select.school_select').css('background-image', 'url(../images/ja/lab_intro/selectbox/agri.svg)');
           }
         }
       }
     }
-    //index = $(this).prop("selectedIndex") - 1; //0番目に指示が入っているのでずれを戻す
 
-    //動画が存在する学部をクリックした場合のみ動作
-    //if((index == 0) || (index == 5) || (index == 7) || (index == 8)){
       /* PC版のタブ画像を変更はじめ */
       //selectedだった画像を元に戻す
       $('.school_list').find('li').each(function(){
@@ -135,7 +133,6 @@ $(function() {
       //$(".movie").jScrollPane().data('jsp').destroy();
       $('.movie').jScrollPane().data().jsp.destroy();
       //$('.movie').jScrollPane();
-    //}
   });
   /* 学部を選択したとき(スマホ版)終わり */
 
