@@ -87,7 +87,7 @@ $(function() {
     if($('.school_select').val() == "lite"){
       index = 0;
       $('select.school_select').css('background-image', 'url(./images/ja/lab_intro/selectbox/lite.svg)');
-      $('select.school_select').children("[value = top]").attr("disabled","disabled");
+      $('select.school_select').children('option[value = top]').attr('disabled','disabled');
     }else{
       if($('.school_select').val() == "scie"){
         index = 5;
