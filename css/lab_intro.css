@@ -407,6 +407,7 @@ border-color: transparent;
 
 select.school_select option{
 background-color: white;
+color: black;
 border-color: #e99415;
 }
 
