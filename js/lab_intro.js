@@ -73,6 +73,10 @@ $(function() {
 
   /* 学部を選択したとき(スマホ版)はじめ */
   $('.school_select').change(function(){
+    if($('.school_select').val() == "top"){
+      //「学部名を選択」部分を再度選択できないようにする
+      $('.school_select').val(school_id_list[index]);
+    }
 
     //存在しない学部に対応するため
     if($('.school_select').val() == "lite"){
