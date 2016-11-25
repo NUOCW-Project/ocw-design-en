@@ -92,14 +92,17 @@ $(function() {
       if($('.school_select').val() == "scie"){
         index = 5;
         $('select.school_select').css('background-image', 'url(./images/ja/lab_intro/selectbox/scie.svg)');
+        $('select.school_select').children('option:first-child').prop('disabled',true);
       }else{
         if($('.school_select').val() == "engi"){
           index = 7;
           $('select.school_select').css('background-image', 'url(./images/ja/lab_intro/selectbox/engi.svg)');
+          $('select.school_select').children('option:first-child').prop('disabled',true);
         }else{
           if($('.school_select').val() == "agri"){
             index = 8;
             $('select.school_select').css('background-image', 'url(./images/ja/lab_intro/selectbox/agri.svg)');
+            $('select.school_select').children('option:first-child').prop('disabled',true);
           }
         }
       }
