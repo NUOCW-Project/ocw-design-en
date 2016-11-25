@@ -76,15 +76,19 @@ $(function() {
     //存在しない学部に対応するため
     if($('.school_select').val() == "lite"){
       index = 0;
+      $('select.school_select').css('background-image', 'url(../images/ja/lab_intro/selectbox/lite.svg)');
     }else{
       if($('.school_select').val() == "scie"){
         index = 5;
+          $('select.school_select').css('background-image', 'url(../images/ja/lab_intro/selectbox/scie.svg)');
       }else{
         if($('.school_select').val() == "engi"){
           index = 7;
+            $('select.school_select').css('background-image', 'url(../images/ja/lab_intro/selectbox/engi.svg)');
         }else{
           if($('.school_select').val() == "agri"){
             index = 8;
+              $('select.school_select').css('background-image', 'url(../images/ja/lab_intro/selectbox/agri.svg)');
           }
         }
       }
