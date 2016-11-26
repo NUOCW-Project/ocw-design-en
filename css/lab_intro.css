@@ -400,7 +400,7 @@ background-image: url(../images/ja/lab_intro/selectbox/top.svg);
 background-repeat: no-repeat;
 vertical-align: middle;
 font-size: inherit;
-color: transparent;
+color: rgba(0,0,0,0);
 -webkit-appearance: none;
 -moz-appearance: none;
 appearance: none;

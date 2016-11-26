@@ -152,22 +152,31 @@ $(function() {
 
     //ボタンの表示設定
     $(window).scroll(function(){
-      if($(this).scrollTop()>80){
+      var timer = false;
+      if (timer !== false) {
+        clearTimeout(timer);
+      }
+      timer = setTimeout(function() {
+        topBtn.animate({
+          opacity: 1;
+        });
+      }, 200);
+
+      if($(this).scrollTop() >= $(this).height()){
         //画面を80pxスクロールしたら、ボタンを表示する
-        topBtn.fadeIn();
+        topBtn.fadeIn('slow');
       }else{
         //画面が80pxより上なら、ボタンを表示しない
-        topBtn.fadeOut();
+        topBtn.fadeOut('slow');
       }
     });
 
     //ボタンをクリックしたら、スクロールして上に戻る
     topBtn.click(function(){
-      $('body,html').animate({
-      scrollTop: 0},500);
+      $('body,html').animate({scrollTop: 0},500,'swing');
       return false;
     });
-  }  
+  }
   /* ページTOPへのボタン(スマホ版のみ)終わり */
 
 
