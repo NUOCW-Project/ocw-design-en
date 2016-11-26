@@ -157,9 +157,10 @@ $(function() {
         clearTimeout(timer);
       }
       timer = setTimeout(function() {
-        topBtn.animate({
+        /*topBtn.animate({
           opacity: 1;
-        });
+        });*/
+        console.log(aaa);
       }, 200);
 
       if($(this).scrollTop() >= $(this).height()){
