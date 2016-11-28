@@ -160,7 +160,7 @@ $(function() {
         /*topBtn.animate({
           opacity: 1;
         });*/
-        console.log(aaa);
+        console.log('aaa');
       }, 200);
 
       if($(this).scrollTop() >= $(this).height()){
