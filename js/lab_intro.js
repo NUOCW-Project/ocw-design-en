@@ -147,11 +147,11 @@ $(function() {
 
   /* ページTOPへのボタン(スマホ版のみ) */
   if($(window).width() <= 640){
-    var topBtn=$('.pageｔop');
+    var topBtn=$('.pagetop');
     topBtn.hide();
 
     //ボタンの表示設定
-    /*$(window).scroll(function(){
+    $(window).scroll(function(){
       var timer = false;
       if (timer !== false) {
         clearTimeout(timer);
@@ -167,7 +167,7 @@ $(function() {
       }, 200);
 
 
-    });*/
+    });
 
     //ボタンをクリックしたら、スクロールして上に戻る
     topBtn.click(function(){
