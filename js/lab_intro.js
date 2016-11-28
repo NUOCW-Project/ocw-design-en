@@ -157,16 +157,14 @@ $(function() {
         clearTimeout(timer);
       }
       timer = setTimeout(function() {
-        if($(this).scrollTop() >= $(this).height()){
-          //画面を80pxスクロールしたら、ボタンを表示する
-          topBtn.fadeIn('slow');
+        if($(this).scrollTop() >= $(this).height()/2){
+          //画面を半分以上スクロールしたら、ボタンを表示する
+          topBtn.fadeIn();
         }else{
-          //画面が80pxより上なら、ボタンを表示しない
-          topBtn.fadeOut('slow');
+          //それ以外の時はボタンを表示しない
+          topBtn.fadeOut();
         }
       }, 200);
-
-
     });
 
     //ボタンをクリックしたら、スクロールして上に戻る
