@@ -151,25 +151,22 @@ $(function() {
     topBtn.hide();
 
     //ボタンの表示設定
-    $(window).scroll(function(){
+    /*$(window).scroll(function(){
       var timer = false;
       if (timer !== false) {
         clearTimeout(timer);
       }
       timer = setTimeout(function() {
-        /*topBtn.animate({
-          opacity: 1;
-        });*/
-        console.log('aaa');
-      }, 200);
+        if($(this).scrollTop() >= $(this).height()){
+          //画面を80pxスクロールしたら、ボタンを表示する
+          topBtn.fadeIn('slow');
+        }else{
+          //画面が80pxより上なら、ボタンを表示しない
+          topBtn.fadeOut('slow');
+        }
+      }, 200);*/
 
-      if($(this).scrollTop() >= $(this).height()){
-        //画面を80pxスクロールしたら、ボタンを表示する
-        topBtn.fadeIn('slow');
-      }else{
-        //画面が80pxより上なら、ボタンを表示しない
-        topBtn.fadeOut('slow');
-      }
+
     });
 
     //ボタンをクリックしたら、スクロールして上に戻る
