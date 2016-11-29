@@ -8,6 +8,8 @@ $(function() {
     $('select.school_select').css('height',select_h + "px");
   }
 
+  var topBtn=$('.pagetop');
+
   var index = 100;　//選択されている学部のindex
   var school = "";　//選択されている学部名
   var index_old = 100;
@@ -147,7 +149,6 @@ $(function() {
 
   /* ページTOPへのボタン(スマホ版のみ) */
   if($(window).width() <= 640){
-    var topBtn=$('.pagetop');
     topBtn.hide();
 
     //ボタンの表示設定
@@ -179,6 +180,7 @@ $(function() {
   /* ウィンドウサイズが変更されたときスクロールバーを設定し直す(PC版のみ) */
   $(window).resize(function() {
     if($(window).width() > 641){ //PC版
+      topBtn.hide(); //ウィンドウ変更したときのバグ
       $('.movie').jScrollPane();
     }else{//スマホ版
       $('.movie').jScrollPane().data().jsp.destroy();
