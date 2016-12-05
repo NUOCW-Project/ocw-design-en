@@ -147,7 +147,7 @@ $(function() {
 
       //スクロールバー削除
       //$(".movie").jScrollPane().data('jsp').destroy();
-      if(scroll_on = true){
+      if(scroll_on == true){
         $('.movie').jScrollPane().data().jsp.destroy();
       }
       //$('.movie').jScrollPane();
