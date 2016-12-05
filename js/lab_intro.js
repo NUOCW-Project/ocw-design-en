@@ -1,8 +1,12 @@
 $(function() {
+  var scroll_on; //scrollバーが追加されていた状態かどうか
+
   //スクロールバー追加（PC版のみ)
   if($(window).width() > 641){
     $('.movie').jScrollPane();
+    scroll_on = true;
   }else{//スマホ版
+    scroll_on = false;
     var w = $(window).width();
     var select_h = 30 / 300 * w; //selectボックスの大きさ
     $('select.school_select').css('height',select_h + "px");
@@ -71,6 +75,7 @@ $(function() {
 
       //スクロールバー追加
       $('.movie').jScrollPane();
+      scroll_on = true;
     }
   });
   /* 学部を選択したとき(PC版)終わり */
@@ -142,7 +147,9 @@ $(function() {
 
       //スクロールバー削除
       //$(".movie").jScrollPane().data('jsp').destroy();
-      $('.movie').jScrollPane().data().jsp.destroy();
+      if(scroll_on = true){
+        $('.movie').jScrollPane().data().jsp.destroy();
+      }
       //$('.movie').jScrollPane();
   });
   /* 学部を選択したとき(スマホ版)終わり */
@@ -180,10 +187,11 @@ $(function() {
   /* ウィンドウサイズが変更されたときスクロールバーを設定し直す(PC版のみ) */
   $(window).resize(function() {
     if($(window).width() > 641){ //PC版
-      topBtn.hide(); //ウィンドウ変更したときのバグ
       $('.movie').jScrollPane();
+      scroll = true;
     }else{//スマホ版
       $('.movie').jScrollPane().data().jsp.destroy();
+      scroll = false;
       var w = $(window).width();
       var select_h = 30 / 300 * w; //selectボックスの大きさ
       $('select.school_select').css('height',select_h + "px");
