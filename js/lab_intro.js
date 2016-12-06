@@ -146,7 +146,6 @@ $(function() {
       $('.movie.' + school_id_list[index]).css('display','block');
 
       //スクロールバー削除
-      //$(".movie").jScrollPane().data('jsp').destroy();
       if(scroll_on == true){
         $('.movie').jScrollPane().data().jsp.destroy();
       }
