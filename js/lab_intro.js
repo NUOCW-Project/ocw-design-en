@@ -4,15 +4,14 @@ $(function() {
     $('.movie').jScrollPane();
   }else{//スマホ版
     var w = $(window).width();
-    var select_h = 30 / 300 * w; //selectボックスの大きさ
+    var select_h = 30 / 300 * w; //selectボックスの大きさ調整
     $('select.school_select').css('height',select_h + 'px');
   }
 
-  var topBtn=$('.pagetop');
+  var topBtn=$('.pagetop'); //(スマホ版のみ)ページトップに戻るボタン
 
   var index = 100;　//選択されている学部のindex
   var school = '';　//選択されている学部名
-  var index_old = 100;
   var school_old = '';
   //学部のリスト
   var school_id_list = new Array(
@@ -24,7 +23,7 @@ $(function() {
     $('.movie.' + school_id_list[i]).css('display', 'none');
   }
 
-  /* 学部を選択したとき(PC版)はじめ */
+  /* 学部を選択したとき(PC版) */
   $('.school_list li').click(function() {
     //クリックされたリスト番号取得
     index = $('.school_list li').index(this);
@@ -35,8 +34,7 @@ $(function() {
       //selectedだった画像を元に戻す
       $('.school_list').find('li').each(function(){
 	  	  if ($(this).is('.selected')){
-          index_old = $('.school_list li').index(this);
-          school_old = school_id_list[index_old];
+          school_old = school_id_list[$('.school_list li').index(this)];
           $('.'+school_old).attr('src', $('.'+school_old).attr('src').replace(school_old+'_selected', school_old));
 		    }
 	    });
@@ -75,7 +73,7 @@ $(function() {
   });
   /* 学部を選択したとき(PC版)終わり */
 
-  /* 学部を選択したとき(スマホ版)はじめ */
+  /* 学部を選択したとき(スマホ版) */
   $('.school_select').change(function(){
 
     if($('.school_select').val() == 'lite'){
@@ -106,12 +104,11 @@ $(function() {
       }
     }
 
-      /* PC版のタブ画像を変更はじめ */
+      /* PC版のタブ画像を変更 */
       //selectedだった画像を元に戻す
       $('.school_list').find('li').each(function(){
         if ($(this).is('.selected')){
-          index_old = $('.school_list li').index(this);
-          school_old = school_id_list[index_old];
+          school_old = school_id_list[$('.school_list li').index(this)];
           $('.'+school_old).attr('src', $('.'+school_old).attr('src').replace(school_old+'_selected', school_old));
         }
       });
@@ -145,24 +142,23 @@ $(function() {
   });
   /* 学部を選択したとき(スマホ版)終わり */
 
-  /* 特定の学部にページ遷移したいときのための部分はじめ */
+
+  /* 特定の学部にページ遷移したいときのための部分 */
   var url = location.href;
   //取得したURLを「&」で分割。変数paramsに格納
   var params = url.split('&');
-  console.log(params);
   //&school部分が存在する場合
   if(params.length==4){
     //さらにparams内、0から数えて3番目のデータを「=」で分割。変数tabに格納
     var tab = params[3].split('=');
-    console.log(tab[1]);
     //tabに要素が存在するなら、変数tab内0から数えて1番目のデータ(学部)を変数schoolに格納
     if($(tab).length){
         school = tab[1];
-        console.log(school);
         $('.school_list li').eq(school_id_list.indexOf(school)).click();
     }
   }
-  /* 特定の学部にページ遷移したいときのための部分おわり */
+  /* 特定の学部にページ遷移したいときのための部分終わり */
+
 
   /* ページTOPへのボタン(スマホ版のみ) */
   if($(window).width() <= 641){
@@ -194,8 +190,6 @@ $(function() {
   /* ページTOPへのボタン(スマホ版のみ)終わり */
 
 
-
-
   /* ウィンドウサイズが変更されたときスクロールバーを設定し直す(PC版のみ) */
   $(window).resize(function() {
     if($(window).width() >= 641){ //PC版
@@ -207,4 +201,5 @@ $(function() {
       $('select.school_select').css('height',select_h + 'px');
     }
   });
+  /* ウィンドウサイズが変更されたときスクロールバーを設定し直す(PC版のみ)終わり */
 });
