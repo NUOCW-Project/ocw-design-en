@@ -24,30 +24,6 @@ $(function() {
     $('.movie.' + school_id_list[i]).css('display', 'none');
   }
 
-  /* 特定の学部にページ遷移したいときのための部分はじめ */
-  var url = location.href;
-  console.log(url);
-  //URLチェック。パラメータが「?school=〜」以外の場合はデータを渡さない
-  //url = (url.match(/\?school=\d+$/) || [])[0];
-  //url = (url.match(/\?lang=ja&mode=g&page_type=lab_intro&school=+$/) || [])[0];
-  //console.log(url);
-  //取得したURLを「&」で分割。変数paramsに格納
-  var params = url.split('&');
-  console.log(params);
-  //さらにparams内、0から数えて3番目のデータを「=」で分割。変数tabに格納
-  var tab = params[3].split('=');
-  console.log(tab[1]);
-  //tabに要素が存在するなら、変数tab内0から数えて1番目のデータ(学部)を変数schoolに格納
-  if($(tab).length){
-      school = tab[1];
-      console.log(school);
-      $('.school_list li').eq(school_id_list.indexOf(school)).click();
-  }/* else{
-  // 要素が存在しなければtabnameにtab1を代入する
-  var tabname = 'tab1';
-}*/
-
-
   /* 学部を選択したとき(PC版)はじめ */
   $('.school_list li').click(function() {
     //クリックされたリスト番号取得
@@ -169,6 +145,25 @@ $(function() {
   });
   /* 学部を選択したとき(スマホ版)終わり */
 
+  /* 特定の学部にページ遷移したいときのための部分はじめ */
+  var url = location.href;
+  //取得したURLを「&」で分割。変数paramsに格納
+  var params = url.split('&');
+  console.log(params);
+  //&school部分が存在する場合
+  if(params.length==4){
+    //さらにparams内、0から数えて3番目のデータを「=」で分割。変数tabに格納
+    var tab = params[3].split('=');
+    console.log(tab[1]);
+    //tabに要素が存在するなら、変数tab内0から数えて1番目のデータ(学部)を変数schoolに格納
+    if($(tab).length){
+        school = tab[1];
+        console.log(school);
+        $('.school_list li').eq(school_id_list.indexOf(school)).click();
+    }
+  }
+  /* 特定の学部にページ遷移したいときのための部分おわり */
+
   /* ページTOPへのボタン(スマホ版のみ) */
   if($(window).width() <= 641){
     topBtn.hide();
@@ -197,6 +192,8 @@ $(function() {
     });
   }
   /* ページTOPへのボタン(スマホ版のみ)終わり */
+
+
 
 
   /* ウィンドウサイズが変更されたときスクロールバーを設定し直す(PC版のみ) */
