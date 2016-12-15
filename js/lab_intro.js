@@ -30,7 +30,7 @@ $(function() {
     school = school_id_list[index];
 
     //動画が存在する学部をクリックした場合のみ動作
-    if((index == 0) || (index == 5) || (index == 7) || (index == 8)){
+    if($(this).children().hasClass('on'))){
       //selectedだった画像を元に戻す
       $('.school_list').find('li').each(function(){
 	  	  if ($(this).is('.selected')){
@@ -74,35 +74,12 @@ $(function() {
   /* 学部を選択したとき(PC版)終わり */
 
   /* 学部を選択したとき(スマホ版) */
-  $('.school_select').change(function(){
-
-    if($('.school_select').val() == 'lite'){
-      index = 0;
-      $('select.school_select').css('background-image', 'url(./images/ja/lab_intro/selectbox/lite.svg)');
-      $('select.school_select').children('option:first-child').prop('disabled',true);
-      $('select.school_select').children('option:first-child').css('color','gray');
-    }else{
-      if($('.school_select').val() == 'scie'){
-        index = 5;
-        $('select.school_select').css('background-image', 'url(./images/ja/lab_intro/selectbox/scie.svg)');
-        $('select.school_select').children('option:first-child').prop('disabled',true);
-        $('select.school_select').children('option:first-child').css('color','gray');
-      }else{
-        if($('.school_select').val() == 'engi'){
-          index = 7;
-          $('select.school_select').css('background-image', 'url(./images/ja/lab_intro/selectbox/engi.svg)');
-          $('select.school_select').children('option:first-child').prop('disabled',true);
-          $('select.school_select').children('option:first-child').css('color','gray');
-        }else{
-          if($('.school_select').val() == 'agri'){
-            index = 8;
-            $('select.school_select').css('background-image', 'url(./images/ja/lab_intro/selectbox/agri.svg)');
-            $('select.school_select').children('option:first-child').prop('disabled',true);
-            $('select.school_select').children('option:first-child').css('color','gray');
-          }
-        }
-      }
-    }
+  $('.school_select').change(function(){    
+    $('select.school_select').css('background-image', 'url(./images/ja/lab_intro/selectbox/'+$('.school_select').val()+'.svg)'); //セレクトボックスの中身変更
+    index = school_id_list.indexOf($('.school_select').val());
+    //「学部名を選択」を選択できないようにする
+    $('select.school_select').children('option:first-child').prop('disabled',true);
+    $('select.school_select').children('option:first-child').css('color','gray');
 
       /* PC版のタブ画像を変更 */
       //selectedだった画像を元に戻す
