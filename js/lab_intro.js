@@ -29,8 +29,8 @@ $(function() {
   console.log(url);
   //URLチェック。パラメータが「?school=〜」以外の場合はデータを渡さない
   //url = (url.match(/\?school=\d+$/) || [])[0];
-  url = (url.match(/\?lang=ja&mode=g&page_type=lab_intro&school=+$/) || [])[0];
-  console.log(url);
+  //url = (url.match(/\?lang=ja&mode=g&page_type=lab_intro&school=+$/) || [])[0];
+  //console.log(url);
   //取得したURLを「&」で分割。変数paramsに格納
   var params = url.split('&');
   console.log(params);
