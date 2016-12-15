@@ -30,7 +30,7 @@ $(function() {
     school = school_id_list[index];
 
     //動画が存在する学部をクリックした場合のみ動作
-    if($(this).children().hasClass('on'))){
+    if($(this).children().hasClass('on')){
       //selectedだった画像を元に戻す
       $('.school_list').find('li').each(function(){
 	  	  if ($(this).is('.selected')){
@@ -74,7 +74,7 @@ $(function() {
   /* 学部を選択したとき(PC版)終わり */
 
   /* 学部を選択したとき(スマホ版) */
-  $('.school_select').change(function(){    
+  $('.school_select').change(function(){
     $('select.school_select').css('background-image', 'url(./images/ja/lab_intro/selectbox/'+$('.school_select').val()+'.svg)'); //セレクトボックスの中身変更
     index = school_id_list.indexOf($('.school_select').val());
     //「学部名を選択」を選択できないようにする
