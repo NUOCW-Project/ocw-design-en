@@ -26,9 +26,10 @@ $(function() {
 
   /* 特定の学部にページ遷移したいときのための部分はじめ */
   var url = location.href;
+  console.log(url);
   //URLチェック。パラメータが「?school=〜」以外の場合はデータを渡さない
   //url = (url.match(/\?school=\d+$/) || [])[0];
-  url = (url.match(/\?lang=ja&mode=g&page_type=lab_intro&school=\d+$/) || [])[0];
+  url = (url.match(/\?lang=ja&mode=g&page_type=lab_intro&school=+$/) || [])[0];
   console.log(url);
   //取得したURLを「&」で分割。変数paramsに格納
   var params = url.split('&');
