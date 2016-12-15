@@ -28,6 +28,24 @@ $(function() {
     $('.movie.' + school_id_list[i]).css('display', 'none');
   }
 
+  /* 特定の学部にページ遷移したいときのための部分はじめ */
+  var url = location.href;
+  //URLチェック。パラメータが「?school=〜」以外の場合はデータを渡さない
+  url = (url.match(/\?school=\d+$/) || [])[0];
+  //取得したURLを「?」で分割。変数paramsに格納
+  var params = url.split("?");
+  //さらにparams内、0から数えて1番目のデータを「=」で分割。変数tabに格納
+  var tab = params[1].split("=");
+  //tabに要素が存在するなら、変数tab内0から数えて1番目のデータ(学部)を変数schoolに格納
+  if($(tab).length){
+      school = tab[1];
+      $('.school_list li').eq(school_id_list.indexOf(school)).click();
+  }/* else{
+  // 要素が存在しなければtabnameにtab1を代入する
+  var tabname = "tab1";
+}*/
+
+
   /* 学部を選択したとき(PC版)はじめ */
   $('.school_list li').click(function() {
     //クリックされたリスト番号取得
@@ -148,13 +166,14 @@ $(function() {
       //スクロールバー削除
       if(scroll_on == true){
         $('.movie').jScrollPane().data().jsp.destroy();
+        scroll_on == false;
       }
       //$('.movie').jScrollPane();
   });
   /* 学部を選択したとき(スマホ版)終わり */
 
   /* ページTOPへのボタン(スマホ版のみ) */
-  if($(window).width() <= 640){
+  if($(window).width() <= 641){
     topBtn.hide();
 
     //ボタンの表示設定
@@ -187,10 +206,12 @@ $(function() {
   $(window).resize(function() {
     if($(window).width() >= 641){ //PC版
       $('.movie').jScrollPane();
-      scroll = true;
+      scroll_on = true;
     }else{//スマホ版
-      $('.movie').jScrollPane().data().jsp.destroy();
-      scroll = false;
+      if(scroll_on == true){
+        $('.movie').jScrollPane().data().jsp.destroy();
+        scroll_on = false;
+      }
       var w = $(window).width();
       var select_h = 30 / 300 * w; //selectボックスの大きさ
       $('select.school_select').css('height',select_h + "px");
