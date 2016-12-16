@@ -60,7 +60,6 @@ $(function() {
       $('select.school_select').children('option:first-child').css('color','gray');
 
       //スクロールバーを削除
-      console.log(school_old);
       $('.movie.'+school_old).jScrollPane().data().jsp.destroy();
 
       //コンテンツを一度すべて非表示に
