@@ -12,7 +12,7 @@ $(function() {
 
   var index = 100; //選択されている学部のindex
   var school = 'top'; //選択されている学部名
-  var school_old = '';
+  var school_old = 'top';
   //学部のリスト
   var school_id_list = new Array(
     'lite', 'educ', 'law', 'econ', 'info', 'scie', 'medi', 'engi', 'agri', 'other'
