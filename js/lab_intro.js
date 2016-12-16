@@ -67,6 +67,8 @@ $(function() {
       //クリックされた学部のコンテンツを表示
       $('.movie.' + school_id_list[index]).css('display','block');
 
+      //スクロールバーを削除
+      $('.movie.'+school_old).jScrollPane().data().jsp.destroy();
       //スクロールバー追加
       $('.movie.'+school).jScrollPane();
     }
@@ -170,8 +172,10 @@ $(function() {
   /* ウィンドウサイズが変更されたときスクロールバーを設定し直す(PC版のみ) */
   $(window).resize(function() {
     if($(window).width() >= 641){ //PC版
+      //スクロールを付ける、あるいは付け直す
       $('.movie.'+school).jScrollPane();
     }else{//スマホ版
+      //付いていたスクロールを外す
       $('.movie.'+school).jScrollPane().data().jsp.destroy();
       var w = $(window).width();
       var select_h = 30 / 300 * w; //selectボックスの大きさ
