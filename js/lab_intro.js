@@ -10,8 +10,8 @@ $(function() {
 
   var topBtn=$('.pagetop'); //(スマホ版のみ)ページトップに戻るボタン
 
-  var index = 100;　//選択されている学部のindex
-  var school = 'top';　//選択されている学部名
+  var index = 100; //選択されている学部のindex
+  var school = 'top'; //選択されている学部名
   var school_old = '';
   //学部のリスト
   var school_id_list = new Array(
@@ -60,6 +60,7 @@ $(function() {
       $('select.school_select').children('option:first-child').css('color','gray');
 
       //スクロールバーを削除
+      console.log(school_old);
       $('.movie.'+school_old).jScrollPane().data().jsp.destroy();
 
       //コンテンツを一度すべて非表示に
