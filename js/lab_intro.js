@@ -59,6 +59,9 @@ $(function() {
       $('select.school_select').children('option:first-child').prop('disabled',true);
       $('select.school_select').children('option:first-child').css('color','gray');
 
+      //スクロールバーを削除
+      $('.movie.'+school_old).jScrollPane().data().jsp.destroy();
+
       //コンテンツを一度すべて非表示に
       $('.movie.top').css('display', 'none'); //topのみ別で
       for (var i = 0; i < school_id_list.length; i++){
@@ -67,8 +70,6 @@ $(function() {
       //クリックされた学部のコンテンツを表示
       $('.movie.' + school_id_list[index]).css('display','block');
 
-      //スクロールバーを削除
-      $('.movie.'+school_old).jScrollPane().data().jsp.destroy();
       //スクロールバー追加
       $('.movie.'+school).jScrollPane();
     }
@@ -115,9 +116,6 @@ $(function() {
       }
       //クリックされた学部のコンテンツを表示
       $('.movie.' + school_id_list[index]).css('display','block');
-
-      //スクロールバー削除
-        //$('.movie').jScrollPane().data().jsp.destroy();
   });
   /* 学部を選択したとき(スマホ版)終わり */
 
