@@ -62,6 +62,7 @@ margin: 20px 20px 20px 10px;
 .interview_text{
 float: right;
 width: 428px;
+margin-top: 10px;
 }
 
 .interview_text h2{
@@ -87,6 +88,7 @@ margin: 0 0 10px 0;
 
 .interview_img{
 margin: 0px 20px 10px 10px;
+padding: 20px 0 30px 0;
 }
 
 .attention{
