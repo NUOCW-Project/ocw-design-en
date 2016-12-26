@@ -49,20 +49,19 @@ opacity: 0.6;
 }
 
 .interview_article {
-margin: 0 10px 10px;
+margin: 10px;
 border-bottom: solid 1px #666666;
 }
 
 #interview_img{
 border-bottom: solid 1px #666666;
 padding: 0 490px 5px 10px;
-margin: 20px 20px 20px 10px;
+margin: 0 10px 0 10px;
 }
 
 .interview_text{
 float: right;
 width: 428px;
-margin-top: 10px;
 }
 
 .interview_text h2{
@@ -88,7 +87,7 @@ margin: 0 0 10px 0;
 
 .interview_img{
 margin: 0px 20px 10px 10px;
-padding: 20px 0 30px 0;
+padding: 20px 0;
 }
 
 .attention{
