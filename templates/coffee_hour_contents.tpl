@@ -8,6 +8,10 @@
 </div>{* "intro" end *}
 
 <h1>Let’s hear what the organizers have to say!</h1>
+{embed_video id="3222" width="190" height="120"}
+{embed_video id="3227" width="190" height="120"}
+
+
 
 <h1>We also interviewed the participants!</h1>
 </div>{* "coffee_hour" end *}
