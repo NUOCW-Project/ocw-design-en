@@ -245,6 +245,11 @@ width: 160px;
 height: 90px;
 }
 
+#attention{
+float: right;
+padding: 0 15px 0 0;
+}
+
 }
 /* PC版CSS終わり */
 
@@ -345,6 +350,11 @@ font-size: 12.5px;
 .item img{
 width: 160px;
 height: 90px;
+}
+
+#attention{
+float: right;
+padding: 0 15px 0 0;
 }
 
 }
@@ -482,6 +492,12 @@ display: block;
 .pagetop img{
 width: 100%;
 height: auto;
+}
+
+#attention{
+float: right;
+font-size: 3.9vw;
+padding: 0 15px 0 0;
 }
 
 }
