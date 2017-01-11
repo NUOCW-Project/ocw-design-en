@@ -12,6 +12,16 @@
 {embed_video id="3227" width="190" height="120"}
 
 
-
 <h1>We also interviewed the participants!</h1>
+
+<div class="thumbnail">
+{embed_video id="3229" width="190" height="120"}
+</div>
+<p><span class="orange">Name</span> Watanabe Ryosuke</p>
+<p><span class="orange">Country</span> Japan</p>
+<p><span class="orange">School</span> Economics</p>
+{embed_video id="3226" width="190" height="120"}
+{embed_video id="3225" width="190" height="120"}
+{embed_video id="3227" width="190" height="120"} {*???*}
+
 </div>{* "coffee_hour" end *}
