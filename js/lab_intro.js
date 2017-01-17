@@ -8,6 +8,13 @@ $(function() {
     $('select.school_select').css('height',select_h + 'px');
   }*/
 
+  //セレクトの背景画像調整
+  if($(window).width() < 641){
+    var w = $(window).width();
+    var select_h = 30 / 300 * w; //selectボックスの大きさ調整
+    $('select.school_select').css('height',select_h + 'px');
+  }
+
   var topBtn=$('.pagetop'); //(スマホ版のみ)ページトップに戻るボタン
 
   var index = 100; //選択されている学部のindex
