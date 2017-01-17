@@ -1,12 +1,12 @@
 $(function() {
   //スクロールバー追加（PC版のみ)
-  if($(window).width() >= 641){
+  /*if($(window).width() >= 641){
     $('.movie.'+'top').jScrollPane();
   }else{//スマホ版
     var w = $(window).width();
     var select_h = 30 / 300 * w; //selectボックスの大きさ調整
     $('select.school_select').css('height',select_h + 'px');
-  }
+  }*/
 
   var topBtn=$('.pagetop'); //(スマホ版のみ)ページトップに戻るボタン
 
@@ -71,7 +71,7 @@ $(function() {
       $('.movie.' + school_id_list[index]).css('display','block');
 
       //スクロールバー追加
-      $('.movie.'+school).jScrollPane();
+      //$('.movie.'+school).jScrollPane();
     }
   });
   /* 学部を選択したとき(PC版)終わり */
@@ -168,7 +168,7 @@ $(function() {
 
 
   /* ウィンドウサイズが変更されたときスクロールバーを設定し直す(PC版のみ) */
-  $(window).resize(function() {
+  /*$(window).resize(function() {
     if($(window).width() >= 641){ //PC版
       //スクロールを付ける、あるいは付け直す
       $('.movie.'+school).jScrollPane();
@@ -179,6 +179,6 @@ $(function() {
       var select_h = 30 / 300 * w; //selectボックスの大きさ
       $('select.school_select').css('height',select_h + 'px');
     }
-  });
+  });*/
   /* ウィンドウサイズが変更されたときスクロールバーを設定し直す(PC版のみ)終わり */
 });
