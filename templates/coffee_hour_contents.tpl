@@ -28,9 +28,9 @@
 {embed_video id="3229" width="190" height="120"}
 </div>
 <div class="movie_info">
-<p><span class="red">Name</span> Watanabe Ryosuke</p>
-<p><span class="red">Country</span> Japan</p>
-<p><span class="red">School</span> Economics</p>
+<p class="red"><span class="back_red">Name</span> Watanabe Ryosuke</p>
+<p class="red"><span class="back_red">Country</span> Japan</p>
+<p class="red"><span class="back_red">School</span> Economics</p>
 </div>{* "movie_info" end *}
 </div>{* "movie" end *}
 
