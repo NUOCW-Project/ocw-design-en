@@ -4,8 +4,34 @@
    Coffee Hour
 ------------------------------------------------------------
 */
-.orange{
-width: 193px;
-background-color: #fbb03b;
-border-radius: 2px;
+.movie > div {
+float: left;
+}
+
+.orange:after{
+background-color: #e1af3c;
+border-radius: 5px;
+content: "";
+display: block;
+height: 8px;
+}
+
+.green:after{
+background-color: #c3e254;
+border-radius: 5px;
+content: "";
+display: block;
+height: 8px;
+}
+
+.red{
+margin: 0;
+}
+
+.red:after{
+background-color: #b8394c;
+border-radius: 5px;
+content: "";
+display: block;
+height: 4px;
 }
