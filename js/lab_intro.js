@@ -157,4 +157,14 @@ $(function() {
     });
   }
   /* ページTOPへのボタン(スマホ版のみ)終わり */
+
+  /* ウィンドウサイズが変更されたとき、セレクトの背景画像調整*/
+  $(window).resize(function() {
+    if($(window).width() < 641){ //スマホ版
+      var w = $(window).width();
+      var select_h = 30 / 300 * w; //selectボックスの大きさ
+      $('select.school_select').css('height',select_h + 'px');
+    }
+  });
+
 });
