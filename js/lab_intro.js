@@ -57,9 +57,6 @@ $(function() {
       $('select.school_select').children('option:first-child').prop('disabled',true);
       $('select.school_select').children('option:first-child').css('color','gray');
 
-      //スクロールバーを削除
-      $('.movie.'+school_old).jScrollPane().data().jsp.destroy();
-
       //コンテンツを一度すべて非表示に
       $('.movie.top').css('display', 'none'); //topのみ別で
       for (var i = 0; i < school_id_list.length; i++){
