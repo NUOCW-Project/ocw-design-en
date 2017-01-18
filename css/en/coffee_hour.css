@@ -1,0 +1,58 @@
+﻿@charset "UTF-8";
+/*
+------------------------------------------------------------
+   Coffee Hour
+------------------------------------------------------------
+*/
+.movie{
+overflow: hidden;
+}
+
+.movie > div {
+float: left;
+}
+
+.movie_info{
+//width:
+}
+
+#intro .movie_info{
+//width:
+}
+
+.orange:after{
+background-color: #e1af3c;
+border-radius: 5px;
+content: "";
+display: block;
+height: 8px;
+}
+
+.green:after{
+background-color: #c3e254;
+border-radius: 5px;
+content: "";
+display: block;
+height: 8px;
+}
+
+.red > p{
+margin: 0;
+}
+
+.red:after{
+background-color: #b8394c;
+border-radius: 5px;
+content: "";
+display: block;
+height: 4px;
+}
+
+.back_red{
+width: 100px;
+display: inline-block;
+text-align: center;
+background-color: #b8394c;
+border-radius: 2px;
+color: white;
+}

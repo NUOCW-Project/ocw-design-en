@@ -40,7 +40,9 @@
   <link rel="stylesheet" type="text/css" href="css/{$lang}/voice_g30graduation.css">
 {elseif $page_type=='nobel_interview'}
   <link rel="stylesheet" type="text/css" href="css/{$lang}/nobel_interview.css">
-{/if} 
+{elseif $page_type=='coffee_hour'}
+  <link rel="stylesheet" type="text/css" href="css/{$lang}/coffee_hour.css">
+{/if}
 {/literal}
 
 <link rel="alternate" type="application/rss+xml" title="NU OCW RSS" href="./files/rssfeed.xml">
@@ -74,7 +76,7 @@
 {if $page_type=='voice_g30graduation'}
   <script type="text/javascript" src="./js/fb_like_button.js"></script>
   <script type="text/javascript" src="./js/twitter_share_button.js"></script>
-{/if} 
+{/if}
 {if $page_type=='summercamp'}
   <script type="text/javascript" src="./js/jquery.youtubeplaylist.js"></script>
   <script type="text/javascript" src="./js/summercamp_en.js"></script>
@@ -85,14 +87,13 @@
 <title>
 {* タイトルに講義情報を入れる *}
 {section name=n loop=$navi_list step=-1}
-{$navi_list[n].text} |		
+{$navi_list[n].text} |
 {/section}
 {if $lang=='ja'}
 名大の授業 (NU OCW)
 {else}
-NU OCW 
+NU OCW
 {/if}
 {* ここまで *}
 </title>
 </head>
-
