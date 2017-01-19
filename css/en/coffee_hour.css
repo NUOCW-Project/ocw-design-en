@@ -4,12 +4,23 @@
    Coffee Hour
 ------------------------------------------------------------
 */
-.movie{
+
+.movie1,.movie2,.movie3{
 overflow: hidden;
 }
 
-.movie > div {
-float: left;
+.movie1 > div{
+display: table-cell;
+vertical-align: top;
+}
+
+.movie2{
+display: table-cell;
+}
+
+.movie3 > div{
+display: table-cell;
+vertical-align: bottom;
 }
 
 .movie_info{
@@ -36,8 +47,12 @@ display: block;
 height: 8px;
 }
 
-.red > p{
+#coffee_hour > p{
 margin: 0;
+}
+
+.red > p{
+margin: 10px 0 0 0;
 }
 
 .red:after{
@@ -50,6 +65,7 @@ height: 4px;
 
 .back_red{
 width: 100px;
+margin: 0 10px 0 0;
 display: inline-block;
 text-align: center;
 background-color: #b8394c;
