@@ -18,25 +18,17 @@ vertical-align: top;
 display: table-cell;
 }
 
+.movie2 > .movie_info > p{
+margin: 0;
+}
+
 .movie3 > div{
 display: table-cell;
 vertical-align: bottom;
 }
 
-.movie_info{
-//width:
-}
-
-#intro .movie_info{
-//width:
-}
-
-.orange:after{
-background-color: #e1af3c;
-border-radius: 5px;
-content: "";
-display: block;
-height: 8px;
+.movie3 > .movie_info > p{
+margin: 20px 0 0 20px;
 }
 
 .green:after{
@@ -47,12 +39,12 @@ display: block;
 height: 8px;
 }
 
-#coffee_hour > p{
-margin: 0;
-}
-
-.red > p{
-margin: 10px 0 0 0;
+.orange:after{
+background-color: #e1af3c;
+border-radius: 5px;
+content: "";
+display: block;
+height: 8px;
 }
 
 .red:after{
