@@ -20,6 +20,7 @@ display: table-cell;
 
 .movie2 > .movie_info > p{
 margin: 0;
+width: 320px;
 }
 
 .movie3 > div{
@@ -49,7 +50,7 @@ height: 8px;
 
 .red:after{
 background-color: #b8394c;
-border-radius: 5px;
+border-radius: 0 5px 5px 5px;
 content: "";
 display: block;
 height: 4px;
@@ -61,6 +62,6 @@ margin: 0 10px 0 0;
 display: inline-block;
 text-align: center;
 background-color: #b8394c;
-border-radius: 2px;
+border-radius: 2px 2px 0 0;
 color: white;
 }
