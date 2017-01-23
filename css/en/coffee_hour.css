@@ -4,28 +4,32 @@
    Coffee Hour
 ------------------------------------------------------------
 */
-.movie{
+
+.movie1,.movie2,.movie3{
 overflow: hidden;
 }
 
-.movie > div {
-float: left;
+.movie1 > div{
+display: table-cell;
+vertical-align: top;
 }
 
-.movie_info{
-//width:
+.movie2{
+display: table-cell;
 }
 
-#intro .movie_info{
-//width:
+.movie2 > .movie_info > p{
+margin: 0;
+width: 320px;
 }
 
-.orange:after{
-background-color: #e1af3c;
-border-radius: 5px;
-content: "";
-display: block;
-height: 8px;
+.movie3 > div{
+display: table-cell;
+vertical-align: bottom;
+}
+
+.movie3 > .movie_info > p{
+margin: 20px 0 0 20px;
 }
 
 .green:after{
@@ -36,13 +40,17 @@ display: block;
 height: 8px;
 }
 
-.red > p{
-margin: 0;
+.orange:after{
+background-color: #e1af3c;
+border-radius: 5px;
+content: "";
+display: block;
+height: 8px;
 }
 
 .red:after{
 background-color: #b8394c;
-border-radius: 5px;
+border-radius: 0 5px 5px 5px;
 content: "";
 display: block;
 height: 4px;
@@ -50,9 +58,10 @@ height: 4px;
 
 .back_red{
 width: 100px;
+margin: 0 10px 0 0;
 display: inline-block;
 text-align: center;
 background-color: #b8394c;
-border-radius: 2px;
+border-radius: 2px 2px 0 0;
 color: white;
 }
