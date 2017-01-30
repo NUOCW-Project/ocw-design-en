@@ -42,6 +42,7 @@ display: none;
 
 .main_back{
 background: none;
+max-width: initial;
 }
 
 .main{
@@ -57,96 +58,6 @@ display: none;
 padding: 0;
 }
 /* ヘッダーとフッター・背景の非表示終わり */
-
-/* 以下jScrollPane(スクロールバー)の設定 */
-/* 本体 */
-.jspContainer{
-position: relative;
-overflow: hidden;
-}
-
-.jspPane{
-position: absolute;
-}
-
-/* 縦スクロールバー本体 */
-.jspVerticalBar{
-border-left: 4px solid #E95383;
-position: absolute;
-top: 0;
-right: 0;
-width: 27px;
-height: 100%;
-background: #E95383;
-}
-
-/* 横スクロールバー本体 */
-.jspHorizontalBar{
-display: none;
-}
-
-.jspCap{
-display: none;
-}
-
-.jspHorizontalBar .jspCap{
-float: left;
-}
-
-.jspTrack{
-position: relative;
-background: #E95383;
-}
-
-.jspDrag{
-position: relative;
-top: 0;
-left: 0;
-background: white;
-cursor: pointer;
-}
-
-/* 縦スクロールバーの背景 */
-.jspHorizontalBar .jspTrack,
-.jspHorizontalBar .jspDrag{
-float: left;
-height: 100%;
-}
-
-.jspArrow{
-margin: 0;
-padding: 0;
-text-indent: -20000px;
-display: block;
-background: #50506d;
-cursor: pointer;
-}
-
-.jspArrow.jspDisabled{
-background: #80808d;
-cursor: default;
-}
-
-.jspVerticalBar .jspArrow{
-height: 16px;
-}
-
-.jspHorizontalBar .jspArrow{
-float: left;
-width: 16px;
-height: 100%;
-}
-
-.jspVerticalBar .jspArrow:focus{
-outline: none;
-}
-
-.jspCorner{
-float: left;
-height: 100%;
-background: #eeeef4;
-}
-/* jScrollPane(スクロールバー)の設定終わり */
 
 /* PC版用CSSはじめ */
 @media screen and (min-width:875px) {
@@ -211,11 +122,8 @@ opacity: 0.6;
 }
 
 .movie{
-border: 4px solid #E95383;
 width: 875px;
-height: 700px;
 overflow: hidden;
-box-sizing:border-box;
 }
 
 .set{
@@ -242,6 +150,11 @@ font-size: 12.5px;
 .item img{
 width: 160px;
 height: 90px;
+}
+
+#attention{
+float: right;
+padding: 0 15px 0 0;
 }
 
 }
@@ -313,11 +226,8 @@ opacity: 0.6;
 }
 
 .movie{
-border: 4px solid #E95383;
 width: 100% !important;
-height: 700px;
 overflow: hidden;
-box-sizing:border-box;
 }
 
 .set{
@@ -344,6 +254,11 @@ font-size: 12.5px;
 .item img{
 width: 160px;
 height: 90px;
+}
+
+#attention{
+float: right;
+padding: 0 15px 0 0;
 }
 
 }
@@ -483,89 +398,11 @@ width: 100%;
 height: auto;
 }
 
-/* 以下jScrollPane(スクロールバー)の設定(スマホ版は非表示にする) */
-/* 本体 */
-.jspContainer{
-position: relative;
-overflow: hidden;
+#attention{
+float: right;
+font-size: 3.9vw;
+padding: 0 15px 0 0;
 }
-
-.jspPane{
-position: absolute;
-}
-
-/* 縦スクロールバー本体 */
-.jspVerticalBar{
-display: none;
-}
-
-/* 横スクロールバー本体 */
-.jspHorizontalBar{
-display: none;
-}
-
-.jspCap{
-display: none;
-}
-
-.jspHorizontalBar .jspCap{
-float: left;
-}
-
-.jspTrack{
-position: relative;
-background: #E95383;
-}
-
-.jspDrag{
-position: relative;
-top: 0;
-left: 0;
-background: white;
-cursor: pointer;
-}
-
-/* 縦スクロールバーの背景 */
-.jspHorizontalBar .jspTrack,
-.jspHorizontalBar .jspDrag{
-float: left;
-height: 100%;
-}
-
-.jspArrow{
-margin: 0;
-padding: 0;
-text-indent: -20000px;
-display: block;
-background: #50506d;
-cursor: pointer;
-}
-
-.jspArrow.jspDisabled{
-background: #80808d;
-cursor: default;
-}
-
-.jspVerticalBar .jspArrow{
-height: 16px;
-}
-
-.jspHorizontalBar .jspArrow{
-float: left;
-width: 16px;
-height: 100%;
-}
-
-.jspVerticalBar .jspArrow:focus{
-outline: none;
-}
-
-.jspCorner{
-float: left;
-height: 100%;
-background: #eeeef4;
-}
-/* jScrollPane(スクロールバー)の設定終わり */
 
 }
 /* スマホ対応用CSS終わり */

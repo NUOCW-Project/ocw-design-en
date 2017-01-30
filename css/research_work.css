@@ -48,9 +48,9 @@ filter: alpha(opacity=60);
 opacity: 0.6;
 }
 
-.interviview_article {
+.interview_article {
 margin: 0 10px 10px;
-padding: 10px 0 0;
+padding: 10px 0 0 0;
 border-bottom: solid 1px #666666;
 }
 
@@ -88,6 +88,7 @@ margin: 0 0 10px 0;
 
 .interview_img{
 margin: 0px 20px 10px 10px;
+padding: 20px 0;
 }
 
 .attention{
@@ -99,7 +100,7 @@ position: relative;
 
 #sup{
 text-align: right;
-margin: 10px 0 0 0 ;
+margin: 10px 0 10px 0 ;
 font-size: 11px;
 
 }
@@ -126,4 +127,8 @@ margin: 10px 0 0 0;
 .backnumber dd{
 margin: 0;
 padding: 0 0 0 20px;
+}
+
+.backnumber_link{
+display: block;
 }
