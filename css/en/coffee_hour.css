@@ -30,6 +30,7 @@ vertical-align: bottom;
 
 .movie3 > .movie_info > p{
 margin: 20px 0 0 20px;
+width: 320px;
 }
 
 .green:after{
