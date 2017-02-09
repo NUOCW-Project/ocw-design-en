@@ -9,35 +9,35 @@
 overflow: hidden;
 }
 
-.coffee_contents1 > .movie > div{
+#intro > .movie > div{
 display: table-cell;
 vertical-align: top;
 }
 
-.coffee_contents1 > .movie > .movie_info > p{
+#intro > .movie > .movie_info > p{
 margin: 0;
 }
 
-.coffee_contents2 > .movie{
+#coffee_contents1 > .movie{
 display: table-cell;
 }
 
-.coffee_contents2 > .movie > .movie_info > p{
+#coffee_contents1 > .movie > .movie_info > p{
 margin: 0;
 width: 320px;
 }
 
-.coffee_contents{
+#coffee_contents1{
 margin: 0 auto;
 }
 
-.coffee_contents3 > .movie > div{
+#coffee_contents2 > .movie > div{
 display: table-cell;
 margin: 0 auto;
 vertical-align: bottom;
 }
 
-.coffee_contents3 > .movie > .movie_info > p{
+#coffee_contents2 > .movie > .movie_info > p{
 margin: 20px 0 0 20px;
 width: 320px;
 }
