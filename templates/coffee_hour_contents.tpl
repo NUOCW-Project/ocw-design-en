@@ -13,7 +13,7 @@
 </div>{* "intro" end *}
 
 
-<div class="coffee_contents1">
+<div id="coffee_contents1">
 <h1 class="green">Let’s hear what the organizers have to say!</h1>
 <div class="movie">
 <div class="thumbnail">
@@ -37,7 +37,7 @@
 </div>{* "coffee_contents1" end*}
 
 
-<div class="coffee_contents2">
+<div id="coffee_contents2">
 <h1 class="orange">We also interviewed the participants!</h1>
 
 <div class="movie">
