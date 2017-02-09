@@ -5,30 +5,39 @@
 ------------------------------------------------------------
 */
 
-.movie1,.movie2,.movie3{
+.movie{
 overflow: hidden;
 }
 
-.movie1 > div{
+.coffee_contents1 > .movie > div{
 display: table-cell;
 vertical-align: top;
 }
 
-.movie2{
+.coffee_contents1 > .movie > .movie_info > p{
+margin: 0;
+}
+
+.coffee_contents2 > .movie{
 display: table-cell;
 }
 
-.movie2 > .movie_info > p{
+.coffee_contents2 > .movie > .movie_info > p{
 margin: 0;
 width: 320px;
 }
 
-.movie3 > div{
+.coffee_contents{
+margin: 0 auto;
+}
+
+.coffee_contents3 > .movie > div{
 display: table-cell;
+margin: 0 auto;
 vertical-align: bottom;
 }
 
-.movie3 > .movie_info > p{
+.coffee_contents3 > .movie > .movie_info > p{
 margin: 20px 0 0 20px;
 width: 320px;
 }
