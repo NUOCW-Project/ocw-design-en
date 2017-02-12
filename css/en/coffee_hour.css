@@ -5,11 +5,6 @@
 ------------------------------------------------------------
 */
 
-.movie{
-display: table-cell;
-margin: 0 auto;
-}
-
 .thumbnail{
 width: 320px;
 }
@@ -38,10 +33,12 @@ width: 320px;
 
 .movies{
 display: table;
+margin: 0 auto;
 }
 
 #coffee_contents2 > .movie{
 display: table;
+margin: 0 auto 30px auto;
 }
 
 #coffee_contents2 > .movie > div{
