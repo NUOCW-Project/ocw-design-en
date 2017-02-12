@@ -6,7 +6,12 @@
 */
 
 .movie{
-overflow: hidden;
+//overflow: hidden;
+margin: 0 auto;
+}
+
+.thumbnail{
+width: 320px;
 }
 
 #intro > .movie > div{
