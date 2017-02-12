@@ -6,7 +6,7 @@
 */
 
 .movie{
-//overflow: hidden;
+display: table-cell;
 margin: 0 auto;
 }
 
@@ -20,20 +20,28 @@ vertical-align: top;
 }
 
 #intro > .movie > .movie_info > p{
-margin: 0;
+margin: 0 0 0 20px;
 }
 
-#coffee_contents1 > .movie{
+#coffee_contents1 > .movies > .movie{
 display: table-cell;
 }
 
-#coffee_contents1 > .movie > .movie_info > p{
+#coffee_contents1 > .movies > .movie > .movie_info{
+margin: 20px 0 0 0;
+}
+
+#coffee_contents1 > .movies > .movie > .movie_info > p{
 margin: 0;
 width: 320px;
 }
 
-#coffee_contents1{
-margin: 0 auto;
+.movies{
+display: table;
+}
+
+#coffee_contents2 > .movie{
+display: table;
 }
 
 #coffee_contents2 > .movie > div{

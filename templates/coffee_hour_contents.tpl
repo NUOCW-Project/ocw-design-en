@@ -15,6 +15,7 @@
 
 <div id="coffee_contents1">
 <h1 class="green">Let’s hear what the organizers have to say!</h1>
+<div class="movies">
 <div class="movie">
 <div class="thumbnail">
 {embed_video id="3222" width="290" height="220"}
@@ -34,6 +35,7 @@
 <p>Education</p>
 </div>{* "movie_info" end *}
 </div>{* "movie" end *}
+</div>{* "movies" end*}
 </div>{* "coffee_contents1" end*}
 
 
