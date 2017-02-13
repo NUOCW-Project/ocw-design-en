@@ -7,6 +7,11 @@
 
 .thumbnail{
 width: 480px;
+box-shadow: 5px 5px 10px;
+}
+
+#intro, #coffee_contents1, #coffee_contents2{
+margin: 0 0 50px 0;
 }
 
 #intro > .movie > div{
@@ -30,6 +35,7 @@ margin: 20px 0 0 0;
 #coffee_contents1 > .movies > .movie > .movie_info > p{
 width: 320px;
 margin: 0;
+font-size: 25px;
 }
 
 .movies{
@@ -39,7 +45,7 @@ margin: 0 auto;
 
 #coffee_contents2 > .movie{
 display: table;
-margin: 0 auto 30px auto;
+margin: 0 auto 40px auto;
 }
 
 #coffee_contents2 > .movie > div{
@@ -49,8 +55,9 @@ vertical-align: bottom;
 }
 
 #coffee_contents2 > .movie > .movie_info > p{
-width: 320px;
+width: 400px;
 margin: 20px 0 0 20px;
+font-size: 25px;
 }
 
 .green:after{
@@ -79,7 +86,7 @@ content: "";
 
 .back_red{
 display: inline-block;
-width: 100px;
+width: 150px;
 margin: 0 10px 0 0;
 border-radius: 2px 2px 0 0;
 background-color: #b8394c;
