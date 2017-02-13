@@ -21,7 +21,7 @@
 {embed_video id="3222" width="480" height="270"}
 </div>{* "thumbnail" end *}
 <div class="movie_info">
-<p>Misato</p>
+<p class="name">Misato</p>
 <p>Informatics and Sciences</p>
 </div>{* "movie_info" end *}
 </div>{* "movie" end *}
@@ -31,7 +31,7 @@
 {embed_video id="3227" width="480" height="270"}
 </div>{* "thumbnail" end *}
 <div class="movie_info">
-<p>Yutaka Fukui</p>
+<p class="name">Yutaka Fukui</p>
 <p>Education</p>
 </div>{* "movie_info" end *}
 </div>{* "movie" end *}
@@ -77,7 +77,7 @@
 
 <div class="movie">
 <div class="thumbnail">
-{embed_video id="3227" width="480" height="270"} {*???*}
+{embed_video id="3223" width="480" height="270"}
 </div>{* "thumbnail" end *}
 <div class="movie_info">
 <p class="red"><span class="back_red">Name</span>Kim</p>

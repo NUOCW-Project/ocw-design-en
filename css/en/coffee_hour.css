@@ -6,7 +6,7 @@
 */
 
 .thumbnail{
-width: 320px;
+width: 480px;
 }
 
 #intro > .movie > div{
@@ -20,6 +20,7 @@ margin: 0 0 0 20px;
 
 #coffee_contents1 > .movies > .movie{
 display: table-cell;
+padding: 0 10px;
 }
 
 #coffee_contents1 > .movies > .movie > .movie_info{
@@ -27,8 +28,8 @@ margin: 20px 0 0 0;
 }
 
 #coffee_contents1 > .movies > .movie > .movie_info > p{
-margin: 0;
 width: 320px;
+margin: 0;
 }
 
 .movies{
@@ -48,40 +49,40 @@ vertical-align: bottom;
 }
 
 #coffee_contents2 > .movie > .movie_info > p{
-margin: 20px 0 0 20px;
 width: 320px;
+margin: 20px 0 0 20px;
 }
 
 .green:after{
-background-color: #c3e254;
-border-radius: 5px;
-content: "";
 display: block;
 height: 8px;
+border-radius: 5px;
+background-color: #c3e254;
+content: "";
 }
 
 .orange:after{
-background-color: #e1af3c;
-border-radius: 5px;
-content: "";
 display: block;
 height: 8px;
+border-radius: 5px;
+background-color: #e1af3c;
+content: "";
 }
 
 .red:after{
-background-color: #b8394c;
-border-radius: 0 5px 5px 5px;
-content: "";
 display: block;
 height: 4px;
+border-radius: 0 5px 5px 5px;
+background-color: #b8394c;
+content: "";
 }
 
 .back_red{
+display: inline-block;
 width: 100px;
 margin: 0 10px 0 0;
-display: inline-block;
-text-align: center;
-background-color: #b8394c;
 border-radius: 2px 2px 0 0;
+background-color: #b8394c;
 color: white;
+text-align: center;
 }
