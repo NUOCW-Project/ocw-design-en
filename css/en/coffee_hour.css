@@ -37,9 +37,12 @@ margin: 20px 0 0 0;
 }
 
 #coffee_contents1 > .movies > .movie > .movie_info > p{
-width: 320px;
 margin: 0;
 font-size: 25px;
+}
+
+.name{
+font-weight: normal;
 }
 
 .movies{
@@ -91,7 +94,7 @@ content: "";
 display: inline-block;
 width: 150px;
 margin: 0 10px 0 0;
-border-radius: 2px 2px 0 0;
+border-radius: 5px 5px 0 0;
 background-color: #b8394c;
 color: white;
 text-align: center;
