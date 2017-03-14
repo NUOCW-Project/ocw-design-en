@@ -81,6 +81,9 @@
   <script type="text/javascript" src="./js/jquery.youtubeplaylist.js"></script>
   <script type="text/javascript" src="./js/summercamp_en.js"></script>
 {/if}
+{if $page_type=='coffee_hour'}
+  <script type="text/javascript" src="./js/coffee_hour.js"></script>
+{/if}
 
 {/literal}
 
