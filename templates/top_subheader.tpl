@@ -5,7 +5,7 @@
 <a href="index.php?lang=en&mode=g&page_type=coffee_hour"><img src="images/en/slider/s10_coffee_hour_kanban.svg" alt="Small World Coffee Hour"></a>
 </li>
 <li>
-<a href="index.php?lang=en&mode=c&id=586"><img src ="images/en/slider/s09_career_path_seminar.png" alt="Career Path Seminar 2016"></a>
+<a href="index.php?lang=en&mode=c&id=600&page_type=index"><img src ="images/en/slider/s11_study_abroad_seminar.svg" alt="Study Abroad Seminar"></a>
 </li>
 <li>
 <a href="nu/"><img src ="images/en/slider/s06_course_catalog.jpg" alt="Nagoya University English-Taught Current Course Catalog"></a>
