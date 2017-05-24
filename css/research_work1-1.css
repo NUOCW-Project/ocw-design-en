@@ -49,6 +49,14 @@ font-size: 11pt;
 line-height: 25px;
 }
 
+.answer p{
+margin-left:15px;
+}
+
+.answer h3{
+font-weight:bold;
+}
+
 #hurumura_link{
 text-align: right;
 margin-right: 55px;
