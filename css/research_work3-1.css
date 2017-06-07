@@ -1,10 +1,9 @@
-/* TOPICS特別編  */
-
+﻿/* TOPICS特別編  */
 div#package2{
 top: 0px;
 }
 
-#ogawa_top {
+#top_image {
 display: block;
 margin: auto;
 }
@@ -44,28 +43,27 @@ color: #b30000;
 margin-bottom: 15px;
 }
 
+.sub_q {
+font: bold;
+font-size: 11pt;
+line-height: 25px;
+margin-top: 15px;
+margin-bottom: 0px
+}
+
 .answer{
 font-size: 11pt;
 line-height: 25px;
 }
 
-.answer p{
-margin-left:15px;
+.sub_answer{
+padding-left: 15px
+font-size: 11pt;
+line-height: 25px;
 }
 
-.answer h3{
-font-weight:bold;
-padding:0;
-background-image:none;
-}
-
-.answer h3::before{
-content:"・";
-}
-
-#hurumura_link{
+#ito_link{
 text-align: right;
 margin-right: 55px;
 font-size: 14pt;
 }
-
