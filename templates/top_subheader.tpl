@@ -11,7 +11,7 @@
 <a href="nu/"><img src ="images/en/slider/s06_course_catalog.jpg" alt="Nagoya University English-Taught Current Course Catalog"></a>
 </li>
 <li>
-<a href="index.php?lang=en&mode=c&id=562"><img src ="images/en/slider/s08_studium_generale_en.png" alt="SPRING 2016 Studium Generale"></a>
+<a href="index.php?lang=en&amp;mode=c&amp;id=590&amp;page_type=index"><img src ="images/en/slider/s12_studium_generale_fall.svg" alt="Fall 2016 Studium Generale"></a>
 </li>
 <li>
 <a href="index.php?lang={$lang}&amp;mode=g&amp;page_type=about"><img src="images/en/slider/s01_about.jpg" alt="Nagoya University OpenCourseWare On the NU OCW website anyone from anywhere in the world can see Nagoya University class information and materials for free"></a>
