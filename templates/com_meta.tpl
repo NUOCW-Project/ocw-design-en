@@ -42,6 +42,8 @@
   <link rel="stylesheet" type="text/css" href="css/{$lang}/nobel_interview.css">
 {elseif $page_type=='coffee_hour'}
   <link rel="stylesheet" type="text/css" href="css/{$lang}/coffee_hour.css">
+{elseif $page_type=='specialtopics'}
+  <link rel="stylesheet" type="text/css" href="css/{$lang}/specialtopics.css">
 {/if}
 {/literal}
 
