@@ -8,3 +8,7 @@ div#browse_jump {
 #specialtopics-list img{
     display: block;
 }
+
+img[src='./images/en/header_specialtopics.jpg']{
+    display: none;
+}
