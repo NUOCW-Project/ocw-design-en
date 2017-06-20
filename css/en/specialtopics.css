@@ -4,3 +4,7 @@ div#browse_jump {
 .wideslider {
     display: none;
 }
+
+#specialtopics-list image{
+    display: block;
+}
