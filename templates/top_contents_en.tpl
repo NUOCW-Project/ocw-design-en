@@ -7,7 +7,7 @@
 {/literal}
 {ldelim}/literal{rdelim}
 
-<div id="topicsbacknumbers"><a href="index.php?lang={$lang}&amp;mode=g&amp;page_type=pressrelease"><img src="images/en/specialtopics/TopicsBackNumbers.svg" alt="Topics BackNnumbers" /></div>
+<div id="topicsbacknumbers"><a href="index.php?lang={$lang}&amp;mode=g&amp;page_type=specialtopics"><img src="images/en/specialtopics/TopicsBackNumbers.svg" alt="Topics BackNnumbers" /></div>
 </div><!-- twitter end -->
 
 <div id="info">
