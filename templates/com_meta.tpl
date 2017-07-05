@@ -87,6 +87,10 @@
   <script type="text/javascript" src="./js/coffee_hour.js"></script>
 {/if}
 
+{if $page_type=='mei_writing'}
+  <script type="text/javascript" src="./js/common/accordion.js"></script>
+{/if}
+
 {/literal}
 
 <title>
