@@ -58,3 +58,31 @@
 	list-style-type: disc;
 	margin: 0 0 25px 0;
 }
+
+.accordion > h2 {
+	color: #77BB44;
+	cursor: pointer;
+	padding-bottom: 5px;
+	border-bottom: medium solid;
+}
+
+.accordion > h2:hover {
+	color: #008000;
+	border-color: #008000;
+}
+
+.accordion > h2:before {
+	transition: rotation 0.2s ease;
+	content: url(../../images/en/close_text.svg);
+	display:inline-block;
+	margin: 0 10px;
+}
+
+.accordion > h2:hover:before {
+	content: url(../../images/en/close_text_ov.svg);
+	margin: 0 10px;
+}
+
+.accordion > h2.hidden:before{
+	transform: rotate(180deg);
+}

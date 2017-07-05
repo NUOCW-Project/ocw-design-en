@@ -2,14 +2,14 @@
 <h1>About the &ldquo;Nagoya University OpenCourseWare&rdquo; (NU OCW) Website</h1>
 
 <h3>Welcome to &ldquo;NUOCW&rdquo;</h3>
-<p>On the NU OCW (Nagoya University OpenCourseWare) website anyone from 
-anywhere in the world can see Nagoya University class information and 
+<p>On the NU OCW (Nagoya University OpenCourseWare) website anyone from
+anywhere in the world can see Nagoya University class information and
 materials for free.</p>
 
 <p>
 <a class="about_link" href="./index.php?lang=en&amp;mode=g&amp;page_type=welcome">
 A message
-</a> 
+</a>
 from the Nagoya University OpenCourseWare
 Steering Committee Chairperson, Kazuhisa TODAYAMA.
 </p>
@@ -30,12 +30,12 @@ Steering Committee Chairperson, Kazuhisa TODAYAMA.
 <p>
 Seiichi MATSUO, the President of Nagoya University, launched a program to convert teaching materials
 used in selected courses into digital format and make these materials available over the Internet to the public
-at no charge. By thus posting course materials on the web, the University offers the public a rare 
-glimpse into its classrooms. It is hoped that this site will help enrolled students engage in self-directed study, 
-plus promote communication and interaction not only between instructors and students and among instructors 
+at no charge. By thus posting course materials on the web, the University offers the public a rare
+glimpse into its classrooms. It is hoped that this site will help enrolled students engage in self-directed study,
+plus promote communication and interaction not only between instructors and students and among instructors
 themselves, but also between instructors and people outside the University community as well.
 </p>
-<p>This project is administered by the Nagoya University OpenCourseWare Steering Committee 
+<p>This project is administered by the Nagoya University OpenCourseWare Steering Committee
 and has been prepared in partnership with the Japan OpenCourseWare Consortium (JOCW), founded in May 2005. </p>
 
 <h3>About the Public Course Materials</h3>
@@ -85,7 +85,7 @@ University instructor [name]. &rdquo;</p>
 <p>Nagoya University and its instructors make every effort to ensure that the materials posted on this site meet the University's academic standards in terms of accuracy and quality, but legally the University makes no guarantee whatsoever with respect to, but not limited to, accuracy, quality, fitness for any particular purpose, merchantability, or non-violation of rights. The University assumes no responsibility for any losses or damages that may arise from use of these materials.</p>
 
 <h3>Links</h3>
-<p>You are welcome to create links to Nagoya University OpenCourseWare 
+<p>You are welcome to create links to Nagoya University OpenCourseWare
 websites for your website.</p>
 
 <h3>Usage Requirements</h3>
@@ -104,18 +104,18 @@ You can download Adobe Reader, Flash Player from here:
 <h3>Other</h3>
 <p>&ldquo;Nagoya University OpenCourseWare (NU OCW)&rdquo; introduces only
 a small part of the wide range of classes available at Nagoya University,
-and as such are not &ldquo;correspondence school&rdquo; or &ldquo;e-learning&rdquo; classes. For this reason, 
+and as such are not &ldquo;correspondence school&rdquo; or &ldquo;e-learning&rdquo; classes. For this reason,
 you will not receive course credit or certification from using these
-materials. Also, &ldquo;Nagoya University OpenCourseWare (NU OCW)&rdquo; simply makes 
-course information available to the public and are not classes in of 
-themselves. Please send all comments and questions to 
+materials. Also, &ldquo;Nagoya University OpenCourseWare (NU OCW)&rdquo; simply makes
+course information available to the public and are not classes in of
+themselves. Please send all comments and questions to
 <a href="./index.php?lang=en&amp;mode=g&amp;page_type=inquiry">
 inquiries page</a>.
 </p>
 
 
 <!-- Staff List -->
-<p id="date">As of July 22, 2015</p>
+<p id="date">As of June 5, 2017</p>
 <table id="committee_list">
 <tr>
 <th colspan="3">
@@ -124,7 +124,7 @@ Nagoya University OpenCourseWare Project
 </tr>
 
 <tr>
-<td>Takaya YAMAZATO</td> 
+<td>Takaya YAMAZATO</td>
 <td>Professor</td>
 <td>Institute of Liberal Arts and Sciences</td>
 </tr>
@@ -178,53 +178,68 @@ Nagoya University OpenCourseWare Project
 </tr>
 
 <tr>
-<td>Aki HARA (Media Staff, Studio)</td>
-<td>Kazutaka ABE</td>
-<td>Kaname UMENO</td>
+<td>Yuto TOIDA</td>
+<td>Daisuke TAKAICHI</td>
+<td>Yutarou NAGAE</td>
 </tr>
 <tr>
-<td>Chika FUJIWARA</td>
-<td>Kotaro OSUGI</td>
+<td>Yukina TAKANO</td>
+<td>Yusei WAKAZONO</td>
 <td>Yuri KUBOTA</td>
 </tr>
 <tr>
-<td>Yusei WAKAZONO</td>
-<td>Masaki SUGIMORI</td>
-<td>Makoto MATSUMOTO</td>
-</tr>
-<tr>
-<td>Ryota MITSUNO</td>
-<td>Yukina TAKANO</td>
-<td>Daisuke TAKAICHI</td>
-</tr>
-<tr>
-<td>Hidetaka TAJIMA</td>
-<td>Xia YOU</td>
+<td>Shogo WATANABE</td>
+<td>Chika Fujiwara</td>
 <td>Masatoshi KANEYAMA</td>
 </tr>
 <tr>
-<td>Masaki KINOSHITA</td>
-<td>Katsuyasu KAMIMURA</td>
-<td>Takahiro KOJIMA</td>
-</tr>
-<tr>
-<td>Yuto TOIDA</td>
-<td>Shogo WATANABE</td>
 <td>Takeru KUMABE</td>
-</tr>
-<tr>
-<td>Daiki ISHIKAWA</td>
-<td>Yutaro NAGAE</td>
-<td>Miyuu IMAMURA</td>
-</tr>
-<tr>
 <td>Tirto Soenaryo</td>
 <td>Luu Ngan Tu Uyen</td>
-<td>Maruf Billah</td>
 </tr>
 <tr>
-<td>Nguyen Hang Anh</td>
-<td></td>
+<td>Ayuko SHINODA</td>
+<td>Stacy Hadiwidjaja</td>
+<td>Sirilalitya Bhagavatula</td>
+</tr>
+<tr>
+<td>Yuya MORIUCHI</td>
+<td>Azusa MIZUTANI</td>
+<td>Yusuke KAWAI</td>
+</tr>
+<tr>
+<td>Yutaka Fukui</td>
+<td>Teresa Pham</td>
+<td>Mingmin Lee</td>
+</tr>
+<tr>
+<td>Srishti Shinha</td>
+<td>Kim Dongwook</td>
+<td>Jortarou NAKANE</td>
+</tr>
+<tr>
+<td>TAN Zhi Liang</td>
+<td>Yuuki KODAMA</td>
+<td>Aurelio Pinero</td>
+</tr>
+<tr>
+<td>Arun sharma</td>
+<td>Shoutarou KANEHIRA</td>
+<td>Yuma SAKATA</td>
+</tr>
+<tr>
+<td>Taiga SHIRAKURA</td>
+<td>Akihiro OKUMURA</td>
+<td>Saran NAKAI</td>
+</tr>
+<tr>
+<td>Takayoshi KITO</td>
+<td>Mayuko SUGIURA</td>
+<td>Miyako SUGAWARA</td>
+</tr>
+<tr>
+<td>Sena SATO</td>
+<td>Mami HARATA</td>
 <td></td>
 </tr>
 

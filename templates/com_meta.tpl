@@ -42,6 +42,8 @@
   <link rel="stylesheet" type="text/css" href="css/{$lang}/nobel_interview.css">
 {elseif $page_type=='coffee_hour'}
   <link rel="stylesheet" type="text/css" href="css/{$lang}/coffee_hour.css">
+{elseif $page_type=='specialtopics'}
+  <link rel="stylesheet" type="text/css" href="css/{$lang}/specialtopics.css">
 {/if}
 {/literal}
 
@@ -83,6 +85,10 @@
 {/if}
 {if $page_type=='coffee_hour'}
   <script type="text/javascript" src="./js/coffee_hour.js"></script>
+{/if}
+
+{if $page_type=='mei_writing'}
+  <script type="text/javascript" src="./js/common/accordion.js"></script>
 {/if}
 
 {/literal}

@@ -16,7 +16,7 @@ who is the Mei-Writing coordinator in charge of administrative affairs.</p>
 <p><a href="./index.php?lang=en&mode=g&page_type=summercamp">Mei-Writing Summer Camp 2014 Special Interview</a></p>
 
 </div>
-<div class="eleUnit">
+<div class="eleUnit accordion">
 <h1>Special workshop series at the Library</h1>
 
 <p>At the workshops Prof. Lai will introduce you a special method for thinking and writing logically. He will present you
