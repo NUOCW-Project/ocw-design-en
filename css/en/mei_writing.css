@@ -73,13 +73,13 @@
 
 .accordion > h2:before {
 	transition: rotation 0.2s ease;
-	content: url(images/en/close_text.svg);
+	content: url(../../images/en/close_text.svg);
 	display:inline-block;
 	margin: 0 10px;
 }
 
 .accordion > h2:hover:before {
-	content: url(images/en/close_text_ov.svg);
+	content: url(../../images/en/close_text_ov.svg);
 	margin: 0 10px;
 }
 
