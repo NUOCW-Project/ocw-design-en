@@ -43,6 +43,7 @@ $(function(){
 
         // click時にslideToggleし、開閉状態を更新
         e.on("click", () => {
+            if(e.next().is(":visible"))e.addClass("hidden"); else e.removeClass("hidden");
             e.next().slideToggle("fast",res => {
                 let obj = JSON.parse( localStorage.getItem("accordion-" + location.pathname + location.search ) ) || {};
                 obj[e.text()] = e.next().is(":visible") ? "visible" : "collapsed";
