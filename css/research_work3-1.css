@@ -44,11 +44,11 @@ margin-bottom: 15px;
 }
 
 .sub_q {
-font: bold;
+font-weight: bold;
 font-size: 11pt;
 line-height: 25px;
 margin-top: 15px;
-margin-bottom: 0px
+margin-bottom: -15px
 }
 
 .answer{
@@ -57,7 +57,7 @@ line-height: 25px;
 }
 
 .sub_answer{
-padding-left: 15px
+padding-left: 15px;
 font-size: 11pt;
 line-height: 25px;
 }
