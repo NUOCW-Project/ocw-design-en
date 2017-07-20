@@ -18,7 +18,7 @@
   </li>
   <li>
     <a href="index.php?lang=en&amp;mode=c&amp;id=624&amp;page_type=index">
-    <img src ="images/en/slider/s13_studium_generale_spring" alt="SPRING 2017 Studium Generale">
+    <img src ="images/en/slider/s13_studium_generale_spring.svg" alt="SPRING 2017 Studium Generale">
     </a>
   </li>
   <li>
