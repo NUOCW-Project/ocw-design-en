@@ -34,7 +34,7 @@ body {
 
 .department {
    margin-top: -25px;
-}  
+}
 
 
 /* 表 */
@@ -207,9 +207,11 @@ body {
    border-top: 2pt solid #666;
 }
 
+/* comment-out 20170817 #1797
 #class_detail table tr{
    border-bottom: 1pt solid #666;
 }
+*/
 
 #class_detail table tr:nth-last-child(1){
    border-bottom: 2pt solid #666;
