@@ -110,8 +110,7 @@ NU OCW
     .announce {
       margin: auto;
       width: 1020px;
-      border: 1px solid #000;
-      padding: 5px;
+      border: solid #000;
     }
 
     .announce:hover {
