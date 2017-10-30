@@ -151,6 +151,7 @@ html>/**/body .header_button{
 	}	
 
 .header_edge{
+	position: relative;
 	height: 90px;
 	background-image: url(../../images/common/topbar_loop.png);
 	background-repeat: repeat-x;
