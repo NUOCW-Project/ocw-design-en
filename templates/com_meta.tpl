@@ -105,20 +105,4 @@ NU OCW
 {/if}
 {* ここまで *}
 </title>
-
-  <style>
-    .announce {
-      margin: auto;
-      width: 1020px;
-      border: solid #000;
-    }
-
-    .announce:hover {
-      box-shadow: 0 0 3px 3px #ccc;
-    }
-
-    .hidden {
-      display: none;
-    }
-  </style>
 </head>
