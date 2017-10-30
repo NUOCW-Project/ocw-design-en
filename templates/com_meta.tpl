@@ -105,4 +105,22 @@ NU OCW
 {/if}
 {* ここまで *}
 </title>
+{ldelim}literal{rdelim}{literal}
+  <style>
+    .announce {
+      margin: auto;
+      width: 1020px;
+      border: 1px solid #000;
+      padding: 5px;
+    }
+
+    .announce:hover {
+      box-shadow: 0 0 3px 3px #ccc;
+    }
+
+    .hidden {
+      display: none;
+    }
+  </style>
+{/literal}{ldelim}/literal{rdelim}
 </head>
