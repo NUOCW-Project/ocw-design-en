@@ -6,6 +6,59 @@ div#package2{
 top: 0px;
 }
 
+/* ヘッダーとフッター・背景の非表示はじめ */
+body{
+background: none;
+}
+
+.body_back{
+background: none;
+}
+
+.header_edge{
+display: none;
+}
+
+.pankuzu{
+display: none;
+}
+
+.footer{
+display: none;
+}
+
+#footer_bottom{
+display: none;
+}
+
+.main_back_adachi{
+display: none;
+background: none;
+}
+
+.main_back_url {
+display: none;
+}
+
+.main_back{
+background: none;
+max-width: initial;
+}
+
+.main{
+margin: 0 auto;
+background: none;
+}
+
+.topjump {
+display: none;
+}
+
+#contents{
+padding: 0;
+}
+/* ヘッダーとフッター・背景の非表示終わり */
+
 #topics2017{
 margin: 0 auto;
 width: 650px;
