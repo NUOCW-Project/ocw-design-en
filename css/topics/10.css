@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/* TOPICS特別編  */
+
+div#package2{
+top: 0px;
+}
+
+#topics2017{
+margin: 0 auto;
+width: 650px;
+}
+
+#topics2017 a{
+font-size: 14px;
+}
+
+.topics2017_link{
+margin: 45px 0 0;
+}
+
+.topics2017_link p{
+margin: 10px 0 0;
+}
+
+.topics2017_link a:hover{
+opacity: 0.6;
+filter: alpha(opacity=60);
+}
+
+.topics2017_link a .lead_link{
+margin: 10px 0 0;
+display: block;
+height: 70px;
+line-height: 23px;
+overflow: hidden;
+}
+
