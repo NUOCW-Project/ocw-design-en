@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 @font-face{ 
-  font-family: 'mplus-1p-regular';
-  src: url('http://mplus-webfonts.sourceforge.jp/mplus-1p-regular.eot');
-  src: url('http://mplus-webfonts.sourceforge.jp/mplus-1p-regular.eot?#iefix') format('embedded-opentype'),
-       url('http://mplus-webfonts.sourceforge.jp/mplus-1p-regular.woff') format('woff'),
-       url('http://mplus-webfonts.sourceforge.jp/mplus-1p-regular.ttf') format('truetype');
+  font-family: 'mplus-2c-regular';
+  src: url('http://mplus-webfonts.sourceforge.jp/mplus-2c-regular.eot');
+  src: url('http://mplus-webfonts.sourceforge.jp/mplus-2c-regular.eot?#iefix') format('embedded-opentype'),
+       url('http://mplus-webfonts.sourceforge.jp/mplus-2c-regular.woff') format('woff'),
+       url('http://mplus-webfonts.sourceforge.jp/mplus-2c-regular.ttf') format('truetype');
 }
 
 /* TOPICS特別編  */
@@ -72,11 +72,7 @@ margin: 0 auto;
 width: 100% !important;
 }
 
-#topics2017{
-margin: 0 auto;
-width: 100%;
-font: 24px 'mplus-1p-regular';
-}
+#topics2017{margin: 0 auto;width: 100%;font: 24px 'mplus-2c-regular';}
 
 #topics2017_top img{
 width: 100%;
