@@ -2,23 +2,13 @@
 <div class="wideslider">
 <ul>
   <li>
-    <a href="index.php?lang=en&mode=g&page_type=coffee_hour">
-      <img src="images/en/slider/s10_coffee_hour_kanban.svg" alt="Small World Coffee Hour">
-    </a>
-  </li>
-  <li>
-    <a href="index.php?lang=en&mode=c&id=600&page_type=index">
-    <img src ="images/en/slider/s11_study_abroad_seminar.svg" alt="Study Abroad Seminar">
+    <a href="index.php?lang=en&mode=c&id=648&page_type=index">
+    <img src ="images/en/slider/s14_Studium_Generale_fall_2017_en.svg" alt="FALL 2017 Studium Generale">
     </a>
   </li>
   <li>
     <a href="nu/">
     <img src ="images/en/slider/s06_course_catalog.jpg" alt="Nagoya University English-Taught Current Course Catalog">
-    </a>
-  </li>
-  <li>
-    <a href="index.php?lang=en&mode=c&id=648&page_type=index">
-    <img src ="images/en/slider/s14_Studium_Generale_fall_2017_en.svg" alt="FALL 2017 Studium Generale">
     </a>
   </li>
   <li>
