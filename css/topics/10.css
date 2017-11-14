@@ -83,33 +83,116 @@ margin: 0 4%;
 color: #000000;
 }
 
-
 .topics2017_script img{
 margin: 40px 0 30px 0;
 width: 60%;
 }
 
-
 .topics2017_button{
 margin: 40px 0 30px 0;
+height:200px;
 }
 
-.topics2017_button #topics10-pic{
-height: 200px;
-background: linear-gradient(90deg, rgba(238,225,16,0), rgba(238,225,16,1));
+.topics2017_button .topics10-pic{
+display: inline-block;
 position: relative;
-z-index: 2;
-
+width: 370px;
+height: 200px;
+z-index: 2
 }
 
-.topics2017_button #topics10-icon{
+.topics2017_button .topics10-icon{
 height: 200px;
-position:absolute;
+position: absolute;
 z-index: 1;
 right:0;
 padding: 0 4% 0 100%;
-background-color: rgba(238,225,16,1);
 overflow: hidden;
+}
+
+.topics2017_button #topics10-pic-red{
+background: linear-gradient(90deg, rgba(255,0,0,0), rgba(255,0,0,0), rgba(255,0,0,0.5), rgba(255,0,0,1)), url(../../images/ja/topics10/top/pic_red.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.topics2017_button #topics10-icon-red{
+background-color: rgba(255,0,0,1);
+}
+
+.topics2017_button #topics10-pic-yellow{
+background: linear-gradient(90deg, rgba(238,225,16,0), rgba(238,225,16,0), rgba(238,225,16,0.5), rgba(238,225,16,1)), url(../../images/ja/topics10/top/pic_yellow.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.topics2017_button #topics10-icon-yellow{
+background-color: rgba(238,225,16,1);
+}
+
+.topics2017_button #topics10-pic-green{
+background: linear-gradient(90deg, rgba(16,238,59,0), rgba(16,238,59,0), rgba(16,238,59,0.5), rgba(16,238,59,1)), url(../../images/ja/topics10/top/pic_green.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.topics2017_button #topics10-icon-green{
+background-color: rgba(16,238,59,1);
+}
+
+.topics2017_button #topics10-pic-blue{
+background: linear-gradient(90deg, rgba(16,167,238,0), rgba(16,167,238,0), rgba(16,167,238,0.5), rgba(16,167,238,1)), url(../../images/ja/topics10/top/pic_blue.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.topics2017_button #topics10-icon-blue{
+background-color: rgba(16,167,238,1);
+}
+
+.topics2017_button #topics10-pic-violet{
+background: linear-gradient(90deg, rgba(140,16,238,0), rgba(140,16,238,0), rgba(140,16,238,0.5), rgba(140,16,238,1)), url(../../images/ja/topics10/top/pic_violet.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.topics2017_button #topics10-icon-violet{
+background-color: rgba(140,16,238,1);
+height: 170px;
+padding-top: 15px;
+padding-bottom: 15px
+}
+
+.topics2017_button .title{
+font-size: 60px;
+position: relative;
+top: -185px;
+text-align: right;
+right: 5%;
+z-index: 2;
+}
+
+.topics2017_button .subtitle{
+font-size: 22px;
+position: relative;
+top: -185px;
+text-align: right;
+right: 5%;
+z-index: 2;
+}
+
+.topics2017_link:nth-child(n+7){
+color: white;
+}
+
+.topics2017_link:nth-child(4) .subtitle{
+font-size: 20px;
+top: -190px;
+}
+
+.topics2017_link:nth-child(6) .subtitle{
+font-size: 20px;
+top: -190px;
 }
 
 .topics2017_link .script{
