@@ -7,6 +7,11 @@
     </a>
   </li>
   <li>
+    <a href="index.php?lang=en&mode=g&page_type=mei_writing">
+    <img src ="images/en/slider/s15_Academic_Writing_2017_en.svg" alt="Academic Writing and Logical Thinking Skills">
+    </a>
+  </li>
+  <li>
     <a href="nu/">
     <img src ="images/en/slider/s06_course_catalog.jpg" alt="Nagoya University English-Taught Current Course Catalog">
     </a>
