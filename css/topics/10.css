@@ -193,12 +193,14 @@ font-size: 20px;
 top: -190px;
 }
 
-.topics2017_link .script{
-margin: 0 4%;
+.topics2017_article{
 color: #000000;
 }
 
-.topics2017_link .link a{
+.topics2017_article .script{
+margin: 0 4%;
+}
+
+.topics2017_article .link a{
 text-decoration: underline;
-color: #000000;
 }
