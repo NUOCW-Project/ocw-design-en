@@ -349,3 +349,22 @@ img.text-image{
    height: 100%;
    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3) inset;
 }
+
+/* video.js関連 */
+/* Audio: https://github.com/videojs/video.js/issues/2777 */
+
+/* Audio: Remove big play button (leave only the button in controls). */
+.video-js.vjs-audio .vjs-big-play-button {
+   display: none;
+}
+/* Audio: Make the controlbar visible by default */
+.video-js.vjs-audio .vjs-control-bar {
+   display: -webkit-box;
+   display: -webkit-flex;
+   display: -ms-flexbox;
+   display: flex;
+}
+/* Make player height minimum to the controls height so when we hide video/poster area the controls are displayed correctly. */
+.video-js.vjs-audio {
+   min-height: 3em;
+}
