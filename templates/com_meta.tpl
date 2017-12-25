@@ -52,8 +52,9 @@
 <script type="text/javascript" src="./js/jquery.js"></script>
 <script type="text/javascript" src="./js/common.js"></script>
 <script type="text/javascript" src="./js/googleAnalytics.js"></script>
-<script type="text/javascript" src="./js/jwplayer.js"></script>
-<script>jwplayer.key="nDp4FtKpuEt4NmXMVUUEFX1fWJfyuvqTglqrDw==";</script>
+<link href="http://vjs.zencdn.net/5.8.8/video-js.css" rel="stylesheet">
+<script type="text/javascript" src="http://vjs.zencdn.net/5.8.8/video.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-hls/5.12.2/videojs-contrib-hls.min.js"></script>
 {literal}
 {if $mode=='l'}
 <script type="text/javascript" src="./js/jquery.sticky-kit.min.js"></script>
