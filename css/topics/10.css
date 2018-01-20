@@ -54,6 +54,7 @@ max-width: initial;
 .main{
 margin: 0 auto;
 background: none;
+width: 100%
 }
 
 .topjump {
