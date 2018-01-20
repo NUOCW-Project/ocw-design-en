@@ -77,6 +77,67 @@ width: 100% !important;
 width: 100%;
 }
 
+.topics10-header-pic{
+display: inline-block;
+position: relative;
+height: 575px;
+z-index: 2
+}
+
+.topics10-header-pic .topics10-header-icon{
+height: 200px;
+position: absolute;
+z-index: 1;
+right:0;
+padding: 0 2% 0 2%;
+overflow: hidden;
+}
+
+#topics10-header-red{
+background: rgba(255,0,0,0.5), url(../../images/ja/topics10/top/header_pic_red.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.topics10-header-pic #topics10-icon-red{
+}
+
+#topics10-header-yellow{
+background: rgba(238,225,16,0.5), url(../../images/ja/topics10/top/header_pic_yellow.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.topics10-header-pic #topics10-icon-yellow{
+}
+
+#topics10-header-green{
+background: rgba(16,238,59,0.5), url(../../images/ja/topics10/top/header_pic_greenjpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.topics10-header-pic #topics10-icon-green{
+}
+
+#topics10-header-blue{
+background: rgba(16,167,238,0.5), url(../../images/ja/topics10/top/header_pic_blue.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.topics10-header-pic #topics10-icon-blue{
+}
+
+#topics10-header-violet{
+background: rgba(140,16,238,0.5), url(../../images/ja/topics10/top/header_pic_violet.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.topics10-header-pic #topics10-icon-violet{
+}
+
 .topics2017_script{
 margin: 0 4%;
 color: #000000;
