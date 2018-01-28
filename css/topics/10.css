@@ -2,8 +2,8 @@
 
 @font-face{ 
   font-family: 'mgenplus-2c-regular';
-  src: url('../../fonts/rounded-mgenplus-20150602/rounded-mgenplus-2c-regular.ttf');
-  src: url('../../fonts/rounded-mgenplus-20150602/rounded-mgenplus-2c-regular.ttf') format('truetype');
+  src: url('../../js/fonts/rounded-mgenplus-20150602/rounded-mgenplus-2c-regular.ttf');
+  src: url('../../js/fonts/rounded-mgenplus-20150602/rounded-mgenplus-2c-regular.ttf') format('truetype');
 }
 
 /* TOPICS特別編  */
@@ -112,7 +112,7 @@ background-size: cover;
 }
 
 #topics10-header-green{
-background: rgba(16,238,59,0.5), url(../../images/ja/topics10/top/header_pic_greenjpg);
+background: rgba(16,238,59,0.5), url(../../images/ja/topics10/top/header_pic_green.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 }
