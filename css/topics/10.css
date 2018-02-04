@@ -196,9 +196,13 @@ height: auto;
 }
 
 .topics2017_button{
-margin: 4vw 0 3vw 0;
+margin: 0;
 height: 20vw;
 background-color: #FFFFFF;
+}
+
+.active{
+margin: 4vw 0 3vw 0;
 }
 
 .topics2017_button .topics10-pic{
@@ -454,9 +458,13 @@ height: auto;
 }
 
 .topics2017_button{
-margin: 4vw 0 3vw 0;
+margin: 0;
 height: 20vw;
 background-color: #FFFFFF;
+}
+
+.active{
+margin: 4vw 0 3vw 0;
 }
 
 .topics2017_button .topics10-pic{
@@ -712,9 +720,13 @@ width: 60%;
 }
 
 .topics2017_button{
-margin: 40px 0 30px 0;
-height:200px;
+margin: 0;
+height: 200px;
 background-color: #FFFFFF;
+}
+
+.active{
+margin: 40px 0 30px 0;
 }
 
 .topics2017_button .topics10-pic{
