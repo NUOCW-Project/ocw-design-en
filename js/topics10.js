@@ -5,23 +5,26 @@ $(function () {
 	// class_detail display
 
 	var hash = new String(location.hash);
-    var corr = 4;
-	var article_num = 5; 
+    
+	var link_id_list = new Array(
+        'red', 'yellow', 'green', 'blue', 'violet'
+    );
         
 
-    for (var i = corr; i < article_num + corr; i++)
+    for (var i = 0; i < link_id_list.length; i++)
     {
         // ループ変数がコールバック関数で正常に展開されないことに対する対策
         new function () {
-            var button = $('.topics2017_link' + ':nth-child(' + i + ')');
-            var box = $('.topics2017_article' + ':nth-child(' + i + ')')
+            var link = $('#topics2017-' + link_id_list[i])
+            var button = $('#topics2017-' + link_id_list[i], '.topics2017_button');
+            var box = $('#topics2017-' + link_id_list[i], '.topics2017_article')
 
             button.css('margin', '0');
             box.css('display', 'none');
 
             // コールバック関数登録
-            button.click(function () {
-                button.children('div').toggleClass("active").next();
+            button.click(function (){
+                button.toggleClass("active");
                 box.slideToggle(1000);            
 			});
 			button.hover(
@@ -42,6 +45,6 @@ $(function () {
     	if (hash != '')
     	    $(hash).click();
     	else
-    	    $('.topics2017_link:nth-child(0)').click();
+    	    $('#topics2017-red .topics2017_button').click();
     });
 });
