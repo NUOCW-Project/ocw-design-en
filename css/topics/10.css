@@ -79,20 +79,20 @@ font: 3.2vw 'mgenplus-2c-regular';}
 
 #topics2017_top{
 font-size: 0pt;
-height: 575px;
+height: 57.5vw;
 }
 
 .topics10-header-pic{
 display: inline-block;
 position: relative;
 width: 20%;
-height: 575px;
+height: 57.5vw;
 z-index: 2;
 }
 
 .topics10-header-pic .topics10-header-icon{
 max-width: 80%;
-height: 575px;
+height: 57.5vw;
 padding: 0 10%;
 z-index: 1;
 overflow: hidden;
@@ -155,11 +155,11 @@ background-color: rgba(140,16,238,0.5);
 }
 
 #topics2017_top_title{
-height: 142px;
+height: 14.2vw;
 width: 100%;
 background-color: rgba(0, 0, 0, 0.5);
 position: relative;
-top: -142px;
+top: -24.7%;
 z-index: 3;
 color: #FFFFFF;
 }
@@ -190,25 +190,26 @@ color: #000000;
 }
 
 .topics2017_script img{
-margin: 40px 0 30px 0;
+margin: 4vw 0 3vw 0;
 width: 60%;
+height: auto;
 }
 
 .topics2017_button{
-margin: 40px 0 30px 0;
-height:200px;
+margin: 4vw 0 3vw 0;
+height: 20vw;
 }
 
 .topics2017_button .topics10-pic{
 display: inline-block;
 position: relative;
-width: 330px;
-height: 200px;
+width: 33vw;
+height: 20vw;
 z-index: 2
 }
 
 .topics2017_button .topics10-icon{
-height: 200px;
+height: 20vw;
 position: absolute;
 z-index: 1;
 right:0;
@@ -264,9 +265,9 @@ background-size: cover;
 
 .topics2017_button #topics10-icon-violet{
 background-color: rgba(140,16,238,1);
-height: 170px;
-padding-top: 15px;
-padding-bottom: 15px
+height: 17vw;
+padding-top: 1.5vw;
+padding-bottom: 1.5vw;
 }
 
 .topics2017_button .title{
@@ -294,20 +295,25 @@ color: white;
 
 .topics2017_link:nth-child(4) .subtitle{
 font-size: 2.667vw;
-top: -215px;
+top: -105%;
 }
 
 .topics2017_link:nth-child(6) .subtitle{
 font-size: 2.667vw;
-top: -215px;
+top: -105%;
 }
 
 .topics2017_article{
 color: #000000;
+margin: 0 2%;
 }
 
 .topics2017_article .script{
-margin: 0 2%;
+}
+
+.topics2017_article .link{
+margin: 3vw 0 4vw 0;
+padding: 0;
 }
 
 .topics2017_article .link a{
@@ -330,20 +336,20 @@ font: 3.2vw 'mgenplus-2c-regular';}
 
 #topics2017_top{
 font-size: 0pt;
-height: 575px;
+height: 57.5vw;
 }
 
 .topics10-header-pic{
 display: inline-block;
 position: relative;
 width: 20%;
-height: 575px;
+height: 57.5vw;
 z-index: 2;
 }
 
 .topics10-header-pic .topics10-header-icon{
 max-width: 80%;
-height: 575px;
+height: 57.5vw;
 padding: 0 10%;
 z-index: 1;
 overflow: hidden;
@@ -406,11 +412,11 @@ background-color: rgba(140,16,238,0.5);
 }
 
 #topics2017_top_title{
-height: 142px;
+height: 14.2vw;
 width: 100%;
 background-color: rgba(0, 0, 0, 0.5);
 position: relative;
-top: -142px;
+top: -24.7%;
 z-index: 3;
 color: #FFFFFF;
 }
@@ -441,25 +447,26 @@ color: #000000;
 }
 
 .topics2017_script img{
-margin: 40px 0 30px 0;
+margin: 4vw 0 3vw 0;
 width: 60%;
+height: auto;
 }
 
 .topics2017_button{
-margin: 40px 0 30px 0;
-height:200px;
+margin: 4vw 0 3vw 0;
+height: 20vw;
 }
 
 .topics2017_button .topics10-pic{
 display: inline-block;
 position: relative;
-width: 330px;
-height: 200px;
+width: 33vw;
+height: 20vw;
 z-index: 2
 }
 
 .topics2017_button .topics10-icon{
-height: 200px;
+height: 20vw;
 position: absolute;
 z-index: 1;
 right:0;
@@ -515,9 +522,9 @@ background-size: cover;
 
 .topics2017_button #topics10-icon-violet{
 background-color: rgba(140,16,238,1);
-height: 170px;
-padding-top: 15px;
-padding-bottom: 15px
+height: 17vw;
+padding-top: 1.5vw;
+padding-bottom: 1.5vw;
 }
 
 .topics2017_button .title{
@@ -545,20 +552,25 @@ color: white;
 
 .topics2017_link:nth-child(4) .subtitle{
 font-size: 2.667vw;
-top: -215px;
+top: -105%;
 }
 
 .topics2017_link:nth-child(6) .subtitle{
 font-size: 2.667vw;
-top: -215px;
+top: -105%;
 }
 
 .topics2017_article{
 color: #000000;
+margin: 0 4%;
 }
 
 .topics2017_article .script{
-margin: 0 4%;
+}
+
+.topics2017_article .link{
+margin: 3vw 0 4vw 0;
+padding: 0;
 }
 
 .topics2017_article .link a{
@@ -661,7 +673,7 @@ height: 142px;
 width: 100%;
 background-color: rgba(0, 0, 0, 0.5);
 position: relative;
-top: -142px;
+top: -24.7%;
 z-index: 3;
 color: #FFFFFF;
 }
@@ -687,8 +699,9 @@ right: 2%;
 }
 
 .topics2017_script{
-margin: 0 4%;
+margin: 0 calc(((100% - 1000px) / 2) + 4%);
 color: #000000;
+max-width: 1000px;
 }
 
 .topics2017_script img{
@@ -768,7 +781,7 @@ background-size: cover;
 background-color: rgba(140,16,238,1);
 height: 170px;
 padding-top: 15px;
-padding-bottom: 15px
+padding-bottom: 15px;
 }
 
 .topics2017_button .title{
@@ -796,20 +809,26 @@ color: white;
 
 .topics2017_link:nth-child(4) .subtitle{
 font-size: 20pt;
-top: -215px;
+top: -105%;
 }
 
 .topics2017_link:nth-child(6) .subtitle{
 font-size: 20pt;
-top: -215px;
+top: -105%;
 }
 
 .topics2017_article{
 color: #000000;
+margin: 0 calc(((100% - 1000px) / 2) + 4%);
+max-width: 1000px;
 }
 
 .topics2017_article .script{
-margin: 0 4%;
+}
+
+.topics2017_article .link{
+margin: 30px 0 40px 0;
+padding: 0;
 }
 
 .topics2017_article .link a{
