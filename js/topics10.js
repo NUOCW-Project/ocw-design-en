@@ -16,8 +16,8 @@ $(function () {
         // ループ変数がコールバック関数で正常に展開されないことに対する対策
         new function () {
             var link = $('#topics2017-' + link_id_list[i])
-            var button = $('#topics2017-' + link_id_list[i], '.topics2017_button');
-            var box = $('#topics2017-' + link_id_list[i], '.topics2017_article')
+            var button = $('#topics2017-' + link_id_list[i] + ' .topics2017_button');
+            var box = $('#topics2017-' + link_id_list[i] + ' .topics2017_article')
 
             button.css('margin', '0');
             box.css('display', 'none');
