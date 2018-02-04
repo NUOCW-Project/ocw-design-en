@@ -19,7 +19,6 @@ $(function () {
             var button = $('#topics2017-' + link_id_list[i] + ' .topics2017_button');
             var box = $('#topics2017-' + link_id_list[i] + ' .topics2017_article')
 
-            button.css('margin', '0');
             box.css('display', 'none');
 
             // コールバック関数登録
