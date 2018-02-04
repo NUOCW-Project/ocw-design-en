@@ -5,19 +5,19 @@ $(function () {
 	// class_detail display
 
 	var hash = new String(location.hash);
-
+    var corr = 4;
 	var article_num = 5; 
         
 
-    for (var i = 0; i < article_num; i++)
+    for (var i = corr; i < article_num + corr; i++)
     {
         // ループ変数がコールバック関数で正常に展開されないことに対する対策
         new function () {
-            var button = $('.topics2017_button' + ':nth-child(' + i + ')');
+            var button = $('.topics2017_link' + ':nth-child(' + i + ')');
             var box = $('.topics2017_article' + ':nth-child(' + i + ')')
 
+            button.css('margin', '0');
             box.css('display', 'none');
-            $('.open', box).css('display', 'none');
 
             // コールバック関数登録
             button.click(function () {
@@ -42,6 +42,6 @@ $(function () {
     	if (hash != '')
     	    $(hash).click();
     	else
-    	    $('.topics2017_button:nth-child(0)').click();
+    	    $('.topics2017_link:nth-child(0)').click();
     });
 });
