@@ -1,0 +1,10 @@
+stages:
+  - build
+  - test
+  - deploy
+
+escape-blank:
+  stage: build
+  script: 
+    - echo "escape script blank error"
+  allow_failure: true
