@@ -180,7 +180,7 @@ table.relay th, table.farewell th {
 }
 
 table.relay td, table.farewell td {
-	padding: 0 5px;
+	padding: 5px;
 	border: 1px solid #999999;
 }
 
