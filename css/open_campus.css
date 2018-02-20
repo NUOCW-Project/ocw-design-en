@@ -1,56 +1,134 @@
-/* Open Campus  */
+@charset "UTF-8";
 
-/* common property  */
+/* TOPICS特別編  */
 
 div#package2{
-   top: 0px;
+top: 0px;
 }
 
-#open_campus_top{
-   margin: 0 0 30px 0;
+#open_campus{
+margin: 0 auto;
+width: 705px;
+color: black;
 }
 
-/* movie property */
-
-.movie{
+#open_campus_top img{
+margin: 0 auto;
+display: block;
 }
 
-.movie h1{
-   font-size: 30px;
-   font-weight: lighter;
-   margin: 0 0 20px 35px;
-   line-height: 1.25;
-   width: 625px;
+#main_topics{
+width: 650px;
+margin: 0 auto;
 }
 
-.thumbnail{
-   width: 480px;
-   height: 320px;
-   box-shadow: 5px 5px 10px;
-   margin: 0 0 50px 110px;
+.article h1{
+font-size: 24px;
+margin: 25px 0 10px 0;
+border-bottom: solid 5px #b30000;
+font-weight: lighter;
 }
 
-.thumbnail_img{
-   width: 480px;
-   height: 320px;
-   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
-   margin: 0 0 50px 110px;
+.intro{
+font-size: 14px;
+margin: 10px 0 20px 0;
 }
 
-.start{
-   position: relative;
-   left: 200px;
-   top: -215px;
-} 
-
-.movie_info{
-   margin: 0 0 20px 37.5px;
-   width: 625px;
+.interview_link{
+display: block;
 }
 
-
-.movie_info p{
-   font-size: 18px;
-   line-height: 1.5;
+.interview_link:hover{
+background-color: #FAEBD7;
+cursor:pointer;
+filter: alpha(opacity=60);
+-ms-filter: "alpha(opacity=60)";
+-moz-opacity:0.6;
+-khtml-opacity: 0.6;
+opacity: 0.6;
 }
 
+.interview_article {
+margin: 0 10px 10px;
+padding: 10px 0 0 0;
+border-bottom: solid 1px #666666;
+}
+
+#interview_img{
+border-bottom: solid 1px #666666;
+padding: 0 490px 5px 10px;
+margin: 0 10px 0 10px;
+}
+
+.interview_text{
+float: right;
+width: 428px;
+}
+
+.interview_text h2{
+font-size: 24px;
+margin: 0;
+padding: 0;
+background: none;
+font-weight: lighter;
+}
+
+.interview_text h3{
+font-size: 11px;
+margin: 0;
+color: #dd0000;
+padding: 0;
+background: none;
+}
+
+.interview_text p{
+font-size: 11px;
+margin: 0 0 10px 0;
+}
+
+.interview_img{
+margin: 0px 20px 10px 10px;
+padding: 20px 0;
+}
+
+.attention{
+font-size: 14px;
+vertical-align: top;
+top: -0.1em;
+position: relative;
+}
+
+#sup{
+text-align: right;
+margin: 10px 0 10px 0 ;
+font-size: 11px;
+
+}
+
+.backnumber{
+border-bottom: solid 1px #666666;
+margin: 10px;
+font-size: 11px;
+}
+
+.title{
+font-size: 14px;
+font-weight: lighter;
+}
+
+.backnumber dl{
+margin: 0 0 10px 5px;
+}
+
+.backnumber dt{
+margin: 10px 0 0 0;
+}
+
+.backnumber dd{
+margin: 0;
+padding: 0 0 0 20px;
+}
+
+.backnumber_link{
+display: block;
+}
