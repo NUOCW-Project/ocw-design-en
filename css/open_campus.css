@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+/* TOPICS特別編  */
+
+div#package2{
+top: 0px;
+}
+
+#open_campus{
+margin: 0 auto;
+width: 705px;
+color: black;
+}
+
+#open_campus_top img{
+margin: 0 auto;
+display: block;
+}
+
+#main_topics{
+width: 650px;
+margin: 0 auto;
+}
+
+.article h1{
+font-size: 24px;
+margin: 25px 0 10px 0;
+border-bottom: solid 5px #b30000;
+font-weight: lighter;
+}
+
+.intro{
+font-size: 14px;
+margin: 10px 0 20px 0;
+}
+
+.interview_link{
+display: block;
+}
+
+.interview_link:hover{
+background-color: #FAEBD7;
+cursor:pointer;
+filter: alpha(opacity=60);
+-ms-filter: "alpha(opacity=60)";
+-moz-opacity:0.6;
+-khtml-opacity: 0.6;
+opacity: 0.6;
+}
+
+.interview_article {
+margin: 0 10px 10px;
+padding: 10px 0 0 0;
+border-bottom: solid 1px #666666;
+}
+
+#interview_img{
+border-bottom: solid 1px #666666;
+padding: 0 490px 5px 10px;
+margin: 0 10px 0 10px;
+}
+
+.interview_text{
+float: right;
+width: 428px;
+}
+
+.interview_text h2{
+font-size: 24px;
+margin: 0;
+padding: 0;
+background: none;
+font-weight: lighter;
+}
+
+.interview_text h3{
+font-size: 11px;
+margin: 0;
+color: #dd0000;
+padding: 0;
+background: none;
+}
+
+.interview_text p{
+font-size: 11px;
+margin: 0 0 10px 0;
+}
+
+.interview_img{
+margin: 0px 20px 10px 10px;
+padding: 20px 0;
+}
+
+.attention{
+font-size: 14px;
+vertical-align: top;
+top: -0.1em;
+position: relative;
+}
+
+#sup{
+text-align: right;
+margin: 10px 0 10px 0 ;
+font-size: 11px;
+
+}
+
+.backnumber{
+border-bottom: solid 1px #666666;
+margin: 10px;
+font-size: 11px;
+}
+
+.title{
+font-size: 14px;
+font-weight: lighter;
+}
+
+.backnumber dl{
+margin: 0 0 10px 5px;
+}
+
+.backnumber dt{
+margin: 10px 0 0 0;
+}
+
+.backnumber dd{
+margin: 0;
+padding: 0 0 0 20px;
+}
+
+.backnumber_link{
+display: block;
+}
