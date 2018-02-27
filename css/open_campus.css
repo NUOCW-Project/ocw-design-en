@@ -18,27 +18,29 @@ display: block;
 }
 
 #main_topics{
-width: 650px;
+width: 705px;
 margin: 0 auto;
 }
 
 .article h1{
 font-size: 24px;
 margin: 25px 0 10px 0;
-border-bottom: solid 5px #b30000;
+border-bottom: solid 4px #20c420;
 font-weight: lighter;
 }
 
 .main_open_campus{
-font-size: 14px;
+font-size: 16px;
 margin: 10px 0 20px 0;
 }
 
-.open_campus_link{
+.main_open_campus_img{
 display: block;
+margin: 0 auto;
+width: 685px;
 }
 
-.open_campus_link:hover{
+.main_open_campus_img:hover{
 background-color: #FAEBD7;
 cursor:pointer;
 filter: alpha(opacity=60);
@@ -49,7 +51,23 @@ opacity: 0.6;
 }
 
 .back_open_campus{
-border-bottom: solid 1px #666666;
-margin: 10px;
-font-size: 11px;
+border-bottom: solid 1px #808080;
+padding: 10px 0;
+font-size: 14px;
+}
+
+.back_open_campus_img{
+display: block;
+margin: 0 auto;
+width: 685px;
+}
+
+.back_open_campus_img:hover{
+background-color: #FAEBD7;
+cursor:pointer;
+filter: alpha(opacity=60);
+-ms-filter: "alpha(opacity=60)";
+-moz-opacity:0.6;
+-khtml-opacity: 0.6;
+opacity: 0.6;
 }
