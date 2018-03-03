@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<title>banner_yokomizo.png - グラフィック作業 - Redmine</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="description" content="Redmine" />
+<meta name="keywords" content="issue,bug,tracker" />
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="OP7O4rJsUk57dyqxNzmC2J5gUmAbf03t3uZph0kGKLfagxQEc3DOBwRoDTddzBKPOzZNu+Ti9YA1wcbmDJAtWQ==" />
+<link rel='shortcut icon' href='/utility/redmine/favicon.ico?1426461038' />
+<link rel="stylesheet" media="all" href="/utility/redmine/stylesheets/jquery/jquery-ui-1.11.0.css?1426461039" />
+<link rel="stylesheet" media="all" href="/utility/redmine/stylesheets/application.css?1519740071" />
+<link rel="stylesheet" media="all" href="/utility/redmine/stylesheets/responsive.css?1519740071" />
+
+<script src="/utility/redmine/javascripts/jquery-1.11.1-ui-1.11.0-ujs-3.1.4.js?1450220779"></script>
+<script src="/utility/redmine/javascripts/application.js?1519740071"></script>
+<script src="/utility/redmine/javascripts/responsive.js?1519740071"></script>
+<script>
+//<![CDATA[
+$(window).load(function(){ warnLeavingUnsaved('このページから移動すると、保存されていないデータが失われます。'); });
+//]]>
+</script>
+
+<link rel="stylesheet" media="screen" href="/utility/redmine/plugin_assets/redmine_agile/stylesheets/redmine_agile.css?1519742556" />
+<!-- page specific tags -->
+    <link rel="stylesheet" media="screen" href="/utility/redmine/stylesheets/scm.css?1519740071" /></head>
+<body class="project-graphics controller-attachments action-show">
+
+<div id="wrapper">
+
+<div class="flyout-menu js-flyout-menu">
+
+
+        <div class="flyout-menu__search">
+            <form action="/utility/redmine/projects/graphics/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+            
+            <label class="search-magnifier search-magnifier--flyout" for="flyout-search">&#9906;</label>
+            <input type="text" name="q" id="flyout-search" class="small js-search-input" placeholder="検索" />
+</form>        </div>
+
+        <div class="flyout-menu__avatar flyout-menu__avatar--no-avatar">
+            <a class="user active" href="/utility/redmine/users/102">mw9647354</a>
+        </div>
+
+        <h3>プロジェクト</h3>
+        <span class="js-project-menu"></span>
+
+    <h3>全般</h3>
+    <span class="js-general-menu"></span>
+
+    <span class="js-sidebar flyout-menu__sidebar"></span>
+
+    <h3>プロフィール</h3>
+    <span class="js-profile-menu"></span>
+
+</div>
+
+<div id="wrapper2">
+<div id="wrapper3">
+<div id="top-menu">
+    <div id="account">
+        <ul><li><a class="my-account" href="/utility/redmine/my/account">個人設定</a></li><li><a class="logout" rel="nofollow" data-method="post" href="/utility/redmine/logout">ログアウト</a></li></ul>    </div>
+    <div id="loggedas">ログイン中： <a class="user active" href="/utility/redmine/users/102">mw9647354</a></div>
+    <ul><li><a class="home" href="/utility/redmine/">ホーム</a></li><li><a class="my-page" href="/utility/redmine/my/page">マイページ</a></li><li><a class="projects" href="/utility/redmine/projects">プロジェクト</a></li><li><a class="help" href="https://www.redmine.org/guide">ヘルプ</a></li></ul></div>
+
+<div id="header">
+
+    <a href="#" class="mobile-toggle-button js-flyout-menu-toggle-button"></a>
+
+    <div id="quick-search">
+        <form action="/utility/redmine/projects/graphics/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+        <input type="hidden" name="scope" />
+        
+        <label for='q'>
+          <a accesskey="4" href="/utility/redmine/projects/graphics/search">検索</a>:
+        </label>
+        <input type="text" name="q" id="q" size="20" class="small" accesskey="f" />
+</form>        <div id="project-jump" class="drdn"><span class="drdn-trigger">グラフィック作業</span><div class="drdn-content"><div class="quick-search"><input type="text" name="q" id="projects-quick-search" value="" class="autocomplete" data-automcomplete-url="/utility/redmine/projects/autocomplete.js?jump=issues" autocomplete="off" /></div><div class="drdn-items projects selection"><a title="OCWコンテンツデザイン" href="/utility/redmine/projects/project-design?jump=issues"><span style="padding-left:0px;">OCWコンテンツデザイン</span></a><a title="日本語版" href="/utility/redmine/projects/ocw-design?jump=issues"><span style="padding-left:16px;">日本語版</span></a><a title="英語版 (公開用CSS等)" href="/utility/redmine/projects/ocw-design-en?jump=issues"><span style="padding-left:16px;">英語版 (公開用CSS等)</span></a><a title="グラフィック作業" class="selected" href="/utility/redmine/projects/graphics?jump=issues"><span style="padding-left:0px;">グラフィック作業</span></a></div><div class="drdn-items all-projects selection"><a href="/utility/redmine/projects?jump=issues">全プロジェクト</a></div></div></div>
+    </div>
+
+    <h1><span class="current-project">グラフィック作業</span></h1>
+
+    <div id="main-menu" class="tabs">
+        <ul><li>
+<a id="new-object" onclick="toggleNewObjectDropdown(); return false;" class="new-object" href="#"> + </a>
+<ul class="menu-children"><li><a accesskey="7" class="new-issue-sub" href="/utility/redmine/projects/graphics/issues/new">新しいチケット</a></li><li><a class="new-timelog" href="/utility/redmine/projects/graphics/time_entries/new">時間を記録</a></li><li><a class="new-document" href="/utility/redmine/projects/graphics/documents/new">新しい文書</a></li><li><a class="new-wiki-page" href="/utility/redmine/projects/graphics/wiki/new">新しいWikiページ</a></li><li><a class="new-file" href="/utility/redmine/projects/graphics/files/new">新しいファイル</a></li></ul>
+</li><li><a class="overview" href="/utility/redmine/projects/graphics">概要</a></li><li><a class="activity" href="/utility/redmine/projects/graphics/activity">活動</a></li><li><a class="issues selected" href="/utility/redmine/projects/graphics/issues">チケット</a></li><li><a class="time-entries" href="/utility/redmine/projects/graphics/time_entries">作業時間</a></li><li><a class="gantt" href="/utility/redmine/projects/graphics/issues/gantt">ガントチャート</a></li><li><a class="calendar" href="/utility/redmine/projects/graphics/issues/calendar">カレンダー</a></li><li><a class="news" href="/utility/redmine/projects/graphics/news">ニュース</a></li><li><a class="documents" href="/utility/redmine/projects/graphics/documents">文書</a></li><li><a class="wiki" href="/utility/redmine/projects/graphics/wiki">Wiki</a></li><li><a class="files" href="/utility/redmine/projects/graphics/files">ファイル</a></li><li><a class="repository" href="/utility/redmine/projects/graphics/repository">リポジトリ</a></li></ul>
+        <div class="tabs-buttons" style="display:none;">
+            <button class="tab-left" onclick="moveTabLeft(this); return false;"></button>
+            <button class="tab-right" onclick="moveTabRight(this); return false;"></button>
+        </div>
+    </div>
+</div>
+
+<div id="main" class="nosidebar">
+    <div id="sidebar">
+        
+        
+    </div>
+
+    <div id="content">
+        
+        <div class="contextual">
+  <a class="icon icon-download" href="/utility/redmine/attachments/download/2143/banner_yokomizo.png">ダウンロード (17.2 KB)</a></div>
+
+<h2>banner_yokomizo.png</h2>
+
+<div class="attachments">
+<p>
+   <span class="author"><a class="user active" href="/utility/redmine/users/70">篠田 明友子</a>, 2017/10/13 14:06</span></p>
+</div>
+
+  <img alt="banner_yokomizo.png" class="filecontent image" src="/utility/redmine/attachments/download/2143/banner_yokomizo.png" />
+
+
+
+
+
+        
+        <div style="clear:both;"></div>
+    </div>
+</div>
+</div>
+
+<div id="ajax-indicator" style="display:none;"><span>ロード中...</span></div>
+<div id="ajax-modal" style="display:none;"></div>
+
+<div id="footer">
+  <div class="bgl"><div class="bgr">
+    Powered by <a href="https://www.redmine.org/">Redmine</a> &copy; 2006-2017 Jean-Philippe Lang
+  </div></div>
+</div>
+</div>
+</div>
+
+</body>
+</html>
