@@ -115,7 +115,7 @@ inquiries page</a>.
 
 
 <!-- Staff List -->
-<p id="date">As of June 5, 2017</p>
+<p id="date">As of April 1, 2018</p>
 <table id="committee_list">
 <tr>
 <th colspan="3">
