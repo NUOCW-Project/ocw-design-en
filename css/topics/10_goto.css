@@ -84,7 +84,7 @@ height: 57.5vw;
 
 #topics2017_goto_header{
   display: block;
-  background: url(../../images/ja/topics10/top/header_pic_green.jpg);
+  background: url(../../images/ja/topics10/goto/goto_header_pic.jpg);
 }
 
 #topics2017_goto_icon{
@@ -105,4 +105,22 @@ height: 57.5vw;
   top: -24.7%;
   z-index: 3;
   color: #FFFFFF;
+}
+
+#goto_main{
+  margin-top: 40px;
+}
+
+#goto_main #subtitle{
+  font-size: 36pt;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+#goto_main .image{
+  margin: 60px, 0px;
+}
+
+p .image{
+  margin-bottom: 40px;
 }
