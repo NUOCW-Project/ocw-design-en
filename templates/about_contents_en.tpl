@@ -115,7 +115,7 @@ inquiries page</a>.
 
 
 <!-- Staff List -->
-<p id="date">As of June 5, 2017</p>
+<p id="date">As of April 1, 2018</p>
 <table id="committee_list">
 <tr>
 <th colspan="3">
@@ -180,66 +180,36 @@ Nagoya University OpenCourseWare Project
 <tr>
 <td>Yuto TOIDA</td>
 <td>Daisuke TAKAICHI</td>
-<td>Yutarou NAGAE</td>
+<td>Yukina TAKANO</td>
 </tr>
 <tr>
-<td>Yukina TAKANO</td>
 <td>Yusei WAKAZONO</td>
 <td>Yuri KUBOTA</td>
-</tr>
-<tr>
-<td>Shogo WATANABE</td>
-<td>Chika Fujiwara</td>
-<td>Masatoshi KANEYAMA</td>
-</tr>
-<tr>
 <td>Takeru KUMABE</td>
-<td>Tirto Soenaryo</td>
-<td>Luu Ngan Tu Uyen</td>
 </tr>
 <tr>
-<td>Ayuko SHINODA</td>
-<td>Stacy Hadiwidjaja</td>
-<td>Sirilalitya Bhagavatula</td>
-</tr>
-<tr>
-<td>Yuya MORIUCHI</td>
-<td>Azusa MIZUTANI</td>
-<td>Yusuke KAWAI</td>
-</tr>
-<tr>
+<td>Luu ngan Tu Uyen</td>
 <td>Yutaka Fukui</td>
 <td>Teresa Pham</td>
-<td>Mingmin Lee</td>
 </tr>
 <tr>
-<td>Srishti Shinha</td>
+<td>Ryunosuke HOSHI</td>
 <td>Kim Dongwook</td>
 <td>Jortarou NAKANE</td>
 </tr>
 <tr>
-<td>TAN Zhi Liang</td>
 <td>Yuuki KODAMA</td>
 <td>Aurelio Pinero</td>
-</tr>
-<tr>
-<td>Arun sharma</td>
-<td>Shoutarou KANEHIRA</td>
-<td>Yuma SAKATA</td>
-</tr>
-<tr>
 <td>Taiga SHIRAKURA</td>
+</tr>
+<tr>
 <td>Akihiro OKUMURA</td>
-<td>Saran NAKAI</td>
+<td>Keita YOSHIHARA</td>
+<td>Taisuke AIDA</td>
 </tr>
 <tr>
-<td>Takayoshi KITO</td>
-<td>Mayuko SUGIURA</td>
-<td>Miyako SUGAWARA</td>
-</tr>
-<tr>
-<td>Sena SATO</td>
-<td>Mami HARATA</td>
+<td>Kie FUNAHASHI</td>
+<td>Yoshihiro TAKEO</td>
 <td></td>
 </tr>
 
