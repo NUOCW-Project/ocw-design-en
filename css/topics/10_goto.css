@@ -85,6 +85,9 @@ height: 57.5vw;
 #topics2017_goto_header{
   display: block;
   background: url(../../images/ja/topics10/goto/goto_header_pic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 #topics2017_goto_icon{
@@ -94,7 +97,7 @@ height: 57.5vw;
   z-index: 1;
   overflow: hidden;
   position: relative;
-  background-color: rgba(16,238,59,0.5);
+  /*background-color: rgba(16,238,59,0.5);*/
 }
 
 #topics2017_goto_top .title{
