@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+@font-face{
+  font-family: 'mgenplus-2c-regular';
+  src: url('../../js/fonts/rounded-mgenplus-20150602/rounded-mgenplus-2c-regular.ttf');
+  src: url('../../js/fonts/rounded-mgenplus-20150602/rounded-mgenplus-2c-regular.ttf') format('truetype');
+}
+
+/* TOPICS特別編  */
+div#package2{
+top: 0px;
+}
+
+/* ヘッダーとフッター・背景の非表示はじめ */
+body{
+background: none;
+}
+
+.body_back{
+background: none;
+}
+
+.header_edge{
+display: none;
+}
+
+.pankuzu{
+display: none;
+}
+
+.footer{
+display: none;
+}
+
+#footer_bottom{
+display: none;
+}
+
+.main_back_adachi{
+display: none;
+background: none;
+}
+
+.main_back_url {
+display: none;
+}
+
+.main_back{
+background: none;
+max-width: initial;
+}
+
+.main{
+margin: 0 auto;
+background: none;
+width: 100%
+}
+
+.topjump {
+display: none;
+}
+
+#contents{
+padding: 0;
+}
+/* ヘッダーとフッター・背景の非表示終わり */
+
+@media screen and (min-width: 0px){
+
+#contents{
+margin: 0 auto;
+width: 100% !important;
+}
+
+#topics2017_goto{
+margin: 0 auto;
+width: 100%;
+font: 3.2vw 'mgenplus-2c-regular';}
+
+#topics2017_goto_top{
+font-size: 0pt;
+height: 57.5vw;
+}
+
+#topics2017_goto_header{
+  display: block;
+  background: url(../../images/ja/topics10/goto/goto_header_pic.jpg);
+}
+
+#topics2017_goto_icon{
+  max-width: 80%;
+  height: 57.5vw;
+  padding: 0 10%;
+  z-index: 1;
+  overflow: hidden;
+  position: relative;
+  background-color: rgba(16,238,59,0.5);
+}
+
+#topics2017_goto_top .title{
+  height: 14.2vw;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  top: -24.7%;
+  z-index: 3;
+  color: #FFFFFF;
+}
+
+#goto_main{
+  margin-top: 40px;
+}
+
+#goto_main #subtitle{
+  font-size: 36pt;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+#goto_main .image{
+  margin: 60px, 0px;
+}
+
+p .image{
+  margin-bottom: 40px;
+}
