@@ -88,16 +88,18 @@ height: 57.5vw;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
 }
 
 #topics2017_goto_icon{
-  max-width: 80%;
   height: 57.5vw;
-  padding: 0 10%;
   z-index: 1;
   overflow: hidden;
-  position: relative;
-  /*background-color: rgba(16,238,59,0.5);*/
+  min-width: 100%;
+  background-color: rgba(16,238,59,0.5);
 }
 
 #topics2017_goto_top .title{
@@ -106,7 +108,7 @@ height: 57.5vw;
   background-color: rgba(0, 0, 0, 0.5);
   position: relative;
   top: -24.7%;
-  z-index: 3;
+  z-index: 2;
   color: #FFFFFF;
 }
 
@@ -114,13 +116,22 @@ height: 57.5vw;
   margin-top: 40px;
 }
 
-#goto_main #subtitle{
-  font-size: 36pt;
-  font-weight: bold;
+#goto_main #subtitleSP{
+  margin-top: 0;
   margin-bottom: 30px;
 }
 
-#goto_main .image{
+.subtitle_icon{
+  float: left;
+}
+
+#goto_main #subtitle{
+  float: left;
+  font-size: 36pt;
+  font-weight: bold;
+}
+
+img .image{
   margin: 60px, 0px;
 }
 
