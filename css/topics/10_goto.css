@@ -123,6 +123,8 @@ height: 57.5vw;
 
 .subtitle_icon{
   float: left;
+  width: 67px;
+  height: 67px;
 }
 
 #goto_main #subtitle{
