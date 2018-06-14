@@ -114,6 +114,9 @@ height: 57.5vw;
 
 #goto_main{
   margin-top: 40px;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 80px;
 }
 
 #goto_main #subtitleSP{
@@ -135,6 +138,8 @@ height: 57.5vw;
 
 img .image{
   margin: 60px, 0px;
+  max-width: 100%;
+  height: auto;
 }
 
 p .image{
