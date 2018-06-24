@@ -31,7 +31,7 @@ $(function () {
 					button.css('color', 'rgba(0, 0, 0, 0.6)');
 				},
 				function(){
-                    button.css('color', 'rgba(0, 0, 0, 0.6)');
+                    button.css('color', 'rgba(0, 0, 0, 1)');
 				}
 			);
         }
