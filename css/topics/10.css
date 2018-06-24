@@ -200,6 +200,7 @@ height: auto;
 margin: 0;
 height: 20vw;
 background-color: #FFFFFF;
+cursor: pointer;
 }
 
 .active{
@@ -463,6 +464,7 @@ height: auto;
 margin: 0;
 height: 20vw;
 background-color: #FFFFFF;
+cursor: pointer;
 }
 
 .active{
