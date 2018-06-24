@@ -28,10 +28,10 @@ $(function () {
 			});
 			button.hover(
 				function(){
-					button.css('color', 'rgba(0, 0, 0, 0.6)');
+					button.css('opacity', '0.8');
 				},
 				function(){
-                    button.css('color', 'rgba(0, 0, 0, 1)');
+                    button.css('opacity', '1');
 				}
 			);
         }
