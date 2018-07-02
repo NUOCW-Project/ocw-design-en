@@ -147,42 +147,62 @@ padding: 0;
     font: 3.2vw 'mgenplus-2c-regular'
   }
 
-  #goto_main ul.quastion{
+  #goto_main ul.question{
     list-style-type: none;
+    margin-top: 0vw;
     margin-bottom: 2vw;
-    padding-left: 4.5vw;
+    padding-left: 0vw;
     font-size: 3.7vw;
   }
 
-  #goto_main ul.quastion li::before{
+  #goto_main ul.question li{
+    padding-left: 4.5vw;
+    text-indent: -4.5vw;
+  }
+
+  #goto_main ul.question li::before{
     content: 'Q.';
+    float:  left;
+    width: 4.5vw;
   }
 
   #goto_main ul.single_answer{
+    margin-top: 0vw;
     margin-bottom: 4vw;
-    padding-left: 4.5vw;
+    padding-left: 0vw;
     font: 3.2vw 'mgenplus-2c-regular'
+  }
+
+  #goto_main ul.single_answer li{
+    padding-left: 4.5vw;
+    text-indent: -4.5vw;
   }
 
   #goto_main ul.single_answer li::before{
     content: 'A.';
+    float:  left;
+    width: 4.5vw;
   }
 
   #goto_main ol.multi_answer{
     list-style-type: none;
     counter-reset: number;
+    margin-top: 0vw;
     margin-bottom: 4vw;
-    padding-left: 4.5vw;
+    padding-left: 0vw;
     font: 3.2vw 'mgenplus-2c-regular'
   }
 
   #goto_main ol.multi_answer li{
-    padding: 0px;
+    padding-left: 4.5vw;
+    text-indent: -4.5vw;
   }
 
   #goto_main ol.multi_answer li::before{
     content: 'A' counter(number) '.';
     counter-increment: number;
+    float:  left;
+    width: 4.5vw;
   }
 
   div#manu{
@@ -287,42 +307,62 @@ div.script{
   font: 3.2vw 'mgenplus-2c-regular'
 }
 
-#goto_main ul.quastion{
+#goto_main ul.question{
   list-style-type: none;
+  margin-top: 0vw;
   margin-bottom: 2vw;
-  padding-left: 4.5vw;
+  padding-left: 0vw;
   font-size: 3.7vw;
 }
 
-#goto_main ul.quastion li::before{
+#goto_main ul.question li{
+  padding-left: 4.5vw;
+  text-indent: -4.5vw;
+}
+
+#goto_main ul.question li::before{
   content: 'Q.';
+  float:  left;
+  width: 4.5vw;
 }
 
 #goto_main ul.single_answer{
+  margin-top: 0vw;
   margin-bottom: 4vw;
-  padding-left: 4.5vw;
+  padding-left: 0vw;
   font: 3.2vw 'mgenplus-2c-regular'
+}
+
+#goto_main ul.single_answer li{
+  padding-left: 4.5vw;
+  text-indent: -4.5vw;
 }
 
 #goto_main ul.single_answer li::before{
   content: 'A.';
+  float:  left;
+  width: 4.5vw;
 }
 
 #goto_main ol.multi_answer{
   list-style-type: none;
   counter-reset: number;
+  margin-top: 0vw;
   margin-bottom: 4vw;
-  padding-left: 4.5vw;
+  padding-left: 0vw;
   font: 3.2vw 'mgenplus-2c-regular'
 }
 
 #goto_main ol.multi_answer li{
-  padding: 0px;
+  padding-left: 4.5vw;
+  text-indent: -4.5vw;
 }
 
 #goto_main ol.multi_answer li::before{
   content: 'A' counter(number) '.';
   counter-increment: number;
+  float:  left;
+  width: 4.5vw;
 }
 
 div#manu{
@@ -431,42 +471,62 @@ div.script{
   font: 24pt 'mgenplus-2c-regular'
 }
 
-#goto_main ul.quastion{
+#goto_main ul.question{
   list-style-type: none;
+  margin-top: 0px;
   margin-bottom: 20px;
-  padding-left: 45px;
+  padding-left: 0px;
   font-size: 28pt;
 }
 
-#goto_main ul.quastion li::before{
+#goto_main ul.question li{
+  padding-left: 45px;
+  text-indent: -45px;
+}
+
+#goto_main ul.question li::before{
   content: 'Q.';
+  float:  left;
+  width: 45px;
 }
 
 #goto_main ul.single_answer{
+  margin-top: 0px;
   margin-bottom: 40px;
-  padding-left: 45px;
+  padding-left: 0px;
   font: 24pt 'mgenplus-2c-regular'
+}
+
+#goto_main ul.single_answer li{
+  padding-left: 45px;
+  text-indent: -45px;
 }
 
 #goto_main ul.single_answer li::before{
   content: 'A.';
+  float:  left;
+  width: 45px;
 }
 
 #goto_main ol.multi_answer{
   list-style-type: none;
   counter-reset: number;
+  margin-top: 0px;
   margin-bottom: 40px;
-  padding-left: 45px;
+  padding-left: 0px;
   font: 24pt 'mgenplus-2c-regular'
 }
 
 #goto_main ol.multi_answer li{
-  padding: 0px;
+  padding-left: 45px;
+  text-indent: -45px;
 }
 
 #goto_main ol.multi_answer li::before{
   content: 'A' counter(number) '.';
   counter-increment: number;
+  float:  left;
+  width: 45px;
 }
 
 div#manu{
