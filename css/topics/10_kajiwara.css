@@ -122,6 +122,17 @@ padding: 0;
     height: 6.7vw;
   }
 
+  .first_subtitle{
+    margin-top: 0vw;
+    margin-bottom: 3vw;
+    font-size: 4.8vw;
+    font-weight: bold;
+  }
+
+  .first_subtitle img{
+    vertical-align: middle;
+  }
+
   .subtitle{
     margin-top: 4vw;
     margin-bottom: 3vw;
@@ -276,6 +287,17 @@ height: 57.5vw;
 .subtitle_icon{
   width: 6.7vw;
   height: 6.7vw;
+}
+
+.first_subtitle{
+  margin-top: 0vw;
+  margin-bottom: 3vw;
+  font-size: 4.8vw;
+  font-weight: bold;
+}
+
+.first_subtitle img{
+  vertical-align: middle;
 }
 
 .subtitle{
@@ -436,6 +458,17 @@ height: 575px;
 .subtitle_icon{
   width: 67px;
   height: 67px;
+}
+
+.first_subtitle{
+  margin-top: 0px;
+  margin-bottom: 30px;
+  font-size: 36pt;
+  font-weight: bold;
+}
+
+.first_subtitle img{
+  vertical-align: middle;
 }
 
 .subtitle{
