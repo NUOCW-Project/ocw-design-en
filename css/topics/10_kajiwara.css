@@ -184,14 +184,14 @@ padding: 0;
   }
 
   #kajiwara_main ul.single_answer li{
-    padding-left: 4.5vw;
-    text-indent: -4.5vw;
+    padding-left: 5.5vw;
+    text-indent: -5.5vw;
   }
 
   #kajiwara_main ul.single_answer li::before{
     content: 'A.';
     float:  left;
-    width: 4.5vw;
+    width: 5.5vw;
   }
 
   #kajiwara_main ol.multi_answer{
@@ -204,15 +204,15 @@ padding: 0;
   }
 
   #kajiwara_main ol.multi_answer li{
-    padding-left: 4.5vw;
-    text-indent: -4.5vw;
+    padding-left: 5.5vw;
+    text-indent: -5.5vw;
   }
 
   #kajiwara_main ol.multi_answer li::before{
     content: 'A' counter(number) '.';
     counter-increment: number;
     float:  left;
-    width: 4.5vw;
+    width: 5.5vw;
   }
 
   div#manu{
@@ -354,14 +354,14 @@ div.script{
 }
 
 #kajiwara_main ul.single_answer li{
-  padding-left: 4.5vw;
-  text-indent: -4.5vw;
+  padding-left: 5.5vw;
+  text-indent: -5.5vw;
 }
 
 #kajiwara_main ul.single_answer li::before{
   content: 'A.';
   float:  left;
-  width: 4.5vw;
+  width: 5.5vw;
 }
 
 #kajiwara_main ol.multi_answer{
@@ -374,15 +374,15 @@ div.script{
 }
 
 #kajiwara_main ol.multi_answer li{
-  padding-left: 4.5vw;
-  text-indent: -4.5vw;
+  padding-left: 5.5vw;
+  text-indent: -5.5vw;
 }
 
 #kajiwara_main ol.multi_answer li::before{
   content: 'A' counter(number) '.';
   counter-increment: number;
   float:  left;
-  width: 4.5vw;
+  width: 5.5vw;
 }
 
 div#manu{
@@ -528,14 +528,14 @@ div.script{
 }
 
 #kajiwara_main ul.single_answer li{
-  padding-left: 45px;
-  text-indent: -45px;
+  padding-left: 55px;
+  text-indent: -55px;
 }
 
 #kajiwara_main ul.single_answer li::before{
   content: 'A.';
   float:  left;
-  width: 45px;
+  width: 55px;
 }
 
 #kajiwara_main ol.multi_answer{
@@ -548,15 +548,15 @@ div.script{
 }
 
 #kajiwara_main ol.multi_answer li{
-  padding-left: 45px;
-  text-indent: -45px;
+  padding-left: 55px;
+  text-indent: -55px;
 }
 
 #kajiwara_main ol.multi_answer li::before{
   content: 'A' counter(number) '.';
   counter-increment: number;
   float:  left;
-  width: 45px;
+  width: 55px;
 }
 
 div#manu{
