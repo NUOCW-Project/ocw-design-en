@@ -72,18 +72,18 @@ padding: 0;
   width: 100% !important;
   }
 
-  #topics2017_goto{
+  #topics2017_miyata{
   margin: 0 auto;
   width: 100%;
   font: 3.2vw 'mgenplus-2c-regular';}
 
-  #topics2017_goto_top{
+  #topics2017_miyata_top{
   height: 57.5vw;
   }
 
-  #topics2017_goto_header{
+  #topics2017_miyata_header{
     display: block;
-    background: url(../../images/ja/topics10/goto/goto_header_pic.jpg);
+    background: url(../../images/ja/topics10/miyata/miyata_header_pic.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -93,15 +93,15 @@ padding: 0;
     width: 100%;
   }
 
-  #topics2017_goto_icon{
+  #topics2017_miyata_icon{
     height: 57.5vw;
     z-index: 2;
     overflow: hidden;
     min-width: 100%;
-    background-color: rgba(16,238,59,0.5);
+    background-color: rgba(99,65,149,0.5);
   }
 
-  #topics2017_goto_top .title{
+  #topics2017_miyata_top .title{
     height: 14.7vw;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
@@ -110,10 +110,12 @@ padding: 0;
     z-index: 3;
     color: #FFFFFF;
     font-size: 4.9vw;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
-  #goto_main{
+  #miyata_main{
     margin: 4vw 2% 0vw 2%;
   }
 
@@ -122,8 +124,19 @@ padding: 0;
     height: 6.7vw;
   }
 
+  .first_subtitle{
+    margin-top: 0vw;
+    margin-bottom: 3vw;
+    font-size: 4.8vw;
+    font-weight: bold;
+  }
+
+  .first_subtitle img{
+    vertical-align: middle;
+  }
+
   .subtitle{
-    margin-top: 0;
+    margin-top: 4vw;
     margin-bottom: 3vw;
     font-size: 4.8vw;
     font-weight: bold;
@@ -133,21 +146,18 @@ padding: 0;
     vertical-align: middle;
   }
 
-  img.image{
+  #miyata_main img.image{
+    display: block;
     margin: 6vw 0vw;
-    max-width: 100%;
+    width: 100%;
     height: auto;
-  }
-
-  div.image{
-    margin-bottom: 4vw;
   }
 
   div.script{
     font: 3.2vw 'mgenplus-2c-regular'
   }
 
-  #goto_main ul.question{
+  #miyata_main ul.question{
     list-style-type: none;
     margin-top: 0vw;
     margin-bottom: 2vw;
@@ -155,36 +165,36 @@ padding: 0;
     font-size: 3.7vw;
   }
 
-  #goto_main ul.question li{
+  #miyata_main ul.question li{
     padding-left: 4.5vw;
     text-indent: -4.5vw;
   }
 
-  #goto_main ul.question li::before{
+  #miyata_main ul.question li::before{
     content: 'Q.';
     float:  left;
     width: 4.5vw;
   }
 
-  #goto_main ul.single_answer{
+  #miyata_main ul.single_answer{
     margin-top: 0vw;
     margin-bottom: 4vw;
     padding-left: 0vw;
     font: 3.2vw 'mgenplus-2c-regular'
   }
 
-  #goto_main ul.single_answer li{
-    padding-left: 4.5vw;
-    text-indent: -4.5vw;
+  #miyata_main ul.single_answer li{
+    padding-left: 5.5vw;
+    text-indent: -5.5vw;
   }
 
-  #goto_main ul.single_answer li::before{
+  #miyata_main ul.single_answer li::before{
     content: 'A.';
     float:  left;
-    width: 4.5vw;
+    width: 5.5vw;
   }
 
-  #goto_main ol.multi_answer{
+  #miyata_main ol.multi_answer{
     list-style-type: none;
     counter-reset: number;
     margin-top: 0vw;
@@ -193,22 +203,22 @@ padding: 0;
     font: 3.2vw 'mgenplus-2c-regular'
   }
 
-  #goto_main ol.multi_answer li{
-    padding-left: 4.5vw;
-    text-indent: -4.5vw;
+  #miyata_main ol.multi_answer li{
+    padding-left: 5.5vw;
+    text-indent: -5.5vw;
   }
 
-  #goto_main ol.multi_answer li::before{
+  #miyata_main ol.multi_answer li::before{
     content: 'A' counter(number) '.';
     counter-increment: number;
     float:  left;
-    width: 4.5vw;
+    width: 5.5vw;
   }
 
   div#manu{
     margin: 8vw 0vw;
     padding: 3vw 2% 4vw 2%;
-    background-color: rgba(16,238,59,0.8);
+    background-color: rgba(99,65,149,0.8);
     color: #ffffff;
     font: 3.2vw 'mgenplus-2c-regular'
   }
@@ -232,18 +242,18 @@ margin: 0 auto;
 width: 100% !important;
 }
 
-#topics2017_goto{
+#topics2017_miyata{
 margin: 0 auto;
 width: 100%;
 font: 3.2vw 'mgenplus-2c-regular';}
 
-#topics2017_goto_top{
+#topics2017_miyata_top{
 height: 57.5vw;
 }
 
-#topics2017_goto_header{
+#topics2017_miyata_header{
   display: block;
-  background: url(../../images/ja/topics10/goto/goto_header_pic.jpg);
+  background: url(../../images/ja/topics10/miyata/miyata_header_pic.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -253,15 +263,15 @@ height: 57.5vw;
   width: 100%;
 }
 
-#topics2017_goto_icon{
+#topics2017_miyata_icon{
   height: 57.5vw;
   z-index: 2;
   overflow: hidden;
   min-width: 100%;
-  background-color: rgba(16,238,59,0.5);
+  background-color: rgba(99,65,149,0.5);
 }
 
-#topics2017_goto_top .title{
+#topics2017_miyata_top .title{
   height: 14.7vw;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
@@ -270,10 +280,12 @@ height: 57.5vw;
   z-index: 3;
   color: #FFFFFF;
   font-size: 4.9vw;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#goto_main{
+#miyata_main{
   margin: 4vw 4% 0vw 4%;
 }
 
@@ -282,8 +294,19 @@ height: 57.5vw;
   height: 6.7vw;
 }
 
+.first_subtitle{
+  margin-top: 0vw;
+  margin-bottom: 3vw;
+  font-size: 4.8vw;
+  font-weight: bold;
+}
+
+.first_subtitle img{
+  vertical-align: middle;
+}
+
 .subtitle{
-  margin-top: 0;
+  margin-top: 4vw;
   margin-bottom: 3vw;
   font-size: 4.8vw;
   font-weight: bold;
@@ -293,21 +316,18 @@ height: 57.5vw;
   vertical-align: middle;
 }
 
-img.image{
+#miyata_main img.image{
+  display: block;
   margin: 6vw 0vw;
-  max-width: 100%;
+  width: 100%;
   height: auto;
-}
-
-div.image{
-  margin-bottom: 4vw;
 }
 
 div.script{
   font: 3.2vw 'mgenplus-2c-regular'
 }
 
-#goto_main ul.question{
+#miyata_main ul.question{
   list-style-type: none;
   margin-top: 0vw;
   margin-bottom: 2vw;
@@ -315,36 +335,36 @@ div.script{
   font-size: 3.7vw;
 }
 
-#goto_main ul.question li{
+#miyata_main ul.question li{
   padding-left: 4.5vw;
   text-indent: -4.5vw;
 }
 
-#goto_main ul.question li::before{
+#miyata_main ul.question li::before{
   content: 'Q.';
   float:  left;
   width: 4.5vw;
 }
 
-#goto_main ul.single_answer{
+#miyata_main ul.single_answer{
   margin-top: 0vw;
   margin-bottom: 4vw;
   padding-left: 0vw;
   font: 3.2vw 'mgenplus-2c-regular'
 }
 
-#goto_main ul.single_answer li{
-  padding-left: 4.5vw;
-  text-indent: -4.5vw;
+#miyata_main ul.single_answer li{
+  padding-left: 5.5vw;
+  text-indent: -5.5vw;
 }
 
-#goto_main ul.single_answer li::before{
+#miyata_main ul.single_answer li::before{
   content: 'A.';
   float:  left;
-  width: 4.5vw;
+  width: 5.5vw;
 }
 
-#goto_main ol.multi_answer{
+#miyata_main ol.multi_answer{
   list-style-type: none;
   counter-reset: number;
   margin-top: 0vw;
@@ -353,22 +373,22 @@ div.script{
   font: 3.2vw 'mgenplus-2c-regular'
 }
 
-#goto_main ol.multi_answer li{
-  padding-left: 4.5vw;
-  text-indent: -4.5vw;
+#miyata_main ol.multi_answer li{
+  padding-left: 5.5vw;
+  text-indent: -5.5vw;
 }
 
-#goto_main ol.multi_answer li::before{
+#miyata_main ol.multi_answer li::before{
   content: 'A' counter(number) '.';
   counter-increment: number;
   float:  left;
-  width: 4.5vw;
+  width: 5.5vw;
 }
 
 div#manu{
   margin: 8vw 0vw;
   padding: 3vw 2% 0.1vw 2%;
-  background-color: rgba(16,238,59,0.8);
+  background-color: rgba(99,65,149,0.8);
   color: #ffffff;
   font: 3.2vw 'mgenplus-2c-regular'
 }
@@ -392,19 +412,19 @@ margin: 0 auto;
 width: 100% !important;
 }
 
-#topics2017_goto{
+#topics2017_miyata{
 margin: 0 auto;
 width: 100%;
 font: 24pt 'mgenplus-2c-regular';
 }
 
-#topics2017_goto_top{
+#topics2017_miyata_top{
 height: 575px;
 }
 
-#topics2017_goto_header{
+#topics2017_miyata_header{
   display: block;
-  background: url(../../images/ja/topics10/goto/goto_header_pic.jpg);
+  background: url(../../images/ja/topics10/miyata/miyata_header_pic.jpg);
   background-repeat: no-repeat;
   background-size: 100% 575px;
   background-position: center center;
@@ -414,15 +434,15 @@ height: 575px;
   width: 100%;
 }
 
-#topics2017_goto_icon{
+#topics2017_miyata_icon{
   height: 575px;
   z-index: 2;
   overflow: hidden;
   min-width: 100%;
-  background-color: rgba(16,238,59,0.5);
+  background-color: rgba(99,65,149,0.5);
 }
 
-#topics2017_goto_top .title{
+#topics2017_miyata_top .title{
   height: 147px;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
@@ -431,10 +451,12 @@ height: 575px;
   z-index: 3;
   color: #FFFFFF;
   font-size: 49px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#goto_main{
+#miyata_main{
   margin-top: 40px;
   margin-left: calc(((100% - 1000px) / 2) + 4%);
   margin-right: calc(((100% - 1000px) / 2) + 4%);
@@ -446,8 +468,19 @@ height: 575px;
   height: 67px;
 }
 
+.first_subtitle{
+  margin-top: 0px;
+  margin-bottom: 30px;
+  font-size: 36pt;
+  font-weight: bold;
+}
+
+.first_subtitle img{
+  vertical-align: middle;
+}
+
 .subtitle{
-  margin-top: 0;
+  margin-top: 40px;
   margin-bottom: 30px;
   font-size: 36pt;
   font-weight: bold;
@@ -457,21 +490,18 @@ height: 575px;
   vertical-align: middle;
 }
 
-#goto_main img.image{
+#miyata_main img.image{
+  display: block;
   margin: 60px 0px;
-  max-width: 100%;
+  width: 100%;
   height: auto;
-}
-
-#goto_main div.image{
-  margin-bottom: 40px;
 }
 
 div.script{
   font: 24pt 'mgenplus-2c-regular'
 }
 
-#goto_main ul.question{
+#miyata_main ul.question{
   list-style-type: none;
   margin-top: 0px;
   margin-bottom: 20px;
@@ -479,36 +509,36 @@ div.script{
   font-size: 28pt;
 }
 
-#goto_main ul.question li{
+#miyata_main ul.question li{
   padding-left: 45px;
   text-indent: -45px;
 }
 
-#goto_main ul.question li::before{
+#miyata_main ul.question li::before{
   content: 'Q.';
   float:  left;
   width: 45px;
 }
 
-#goto_main ul.single_answer{
+#miyata_main ul.single_answer{
   margin-top: 0px;
   margin-bottom: 40px;
   padding-left: 0px;
   font: 24pt 'mgenplus-2c-regular'
 }
 
-#goto_main ul.single_answer li{
-  padding-left: 45px;
-  text-indent: -45px;
+#miyata_main ul.single_answer li{
+  padding-left: 55px;
+  text-indent: -55px;
 }
 
-#goto_main ul.single_answer li::before{
+#miyata_main ul.single_answer li::before{
   content: 'A.';
   float:  left;
-  width: 45px;
+  width: 55px;
 }
 
-#goto_main ol.multi_answer{
+#miyata_main ol.multi_answer{
   list-style-type: none;
   counter-reset: number;
   margin-top: 0px;
@@ -517,22 +547,22 @@ div.script{
   font: 24pt 'mgenplus-2c-regular'
 }
 
-#goto_main ol.multi_answer li{
-  padding-left: 45px;
-  text-indent: -45px;
+#miyata_main ol.multi_answer li{
+  padding-left: 55px;
+  text-indent: -55px;
 }
 
-#goto_main ol.multi_answer li::before{
+#miyata_main ol.multi_answer li::before{
   content: 'A' counter(number) '.';
   counter-increment: number;
   float:  left;
-  width: 45px;
+  width: 55px;
 }
 
 div#manu{
   margin: 80px 0px;
   padding: 30px 2% 1px 2%;
-  background-color: rgba(16,238,59,0.8);
+  background-color: rgba(99,65,149,0.8);
   color: #ffffff;
   font: 24pt 'mgenplus-2c-regular'
 }
