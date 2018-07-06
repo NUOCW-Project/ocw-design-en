@@ -146,7 +146,8 @@ padding: 0;
     vertical-align: middle;
   }
 
-  img.image{
+  #kajiwara_main img.image{
+    display: block;
     margin: 6vw 0vw;
     width: 100%;
     height: auto;
@@ -315,7 +316,8 @@ height: 57.5vw;
   vertical-align: middle;
 }
 
-img.image{
+#kajiwara_main img.image{
+  display: block;
   margin: 6vw 0vw;
   width: 100%;
   height: auto;
@@ -489,6 +491,7 @@ height: 575px;
 }
 
 #kajiwara_main img.image{
+  display: block;
   margin: 60px 0px;
   width: 100%;
   height: auto;
