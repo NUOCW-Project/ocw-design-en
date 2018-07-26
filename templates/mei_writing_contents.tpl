@@ -33,6 +33,15 @@ a set of logical thinking skills which are exclusively designed for academic wri
 step-by-step guidance, how you can practically apply those skills in your writing.
 </p>
 
+<h2>2018(Videos)</h2>
+<ol>
+  <li><a href="http://nuvideo.media.nagoya-u.ac.jp/embed/599d0ad6f1b607bb942fc84717e0b187985886a4">Why it is important to think logically for your writing</a></li>
+  <li><a href="http://nuvideo.media.nagoya-u.ac.jp/embed/a2cca859c5bf54786b8d61d94ee804d828d61374">How to make your writing clear</a></li>
+  <li><a href="http://nuvideo.media.nagoya-u.ac.jp/embed/5955c764ac47a6e421d8a153c2b379b417e0280f">How to use logic practically</a></li>
+  <li><a href="http://nuvideo.media.nagoya-u.ac.jp/embed/8e8906577a6cc534f5dd328cb9ef89ac79bc65e1">How to make your writing convincing</a></li>
+  <li><a href="http://nuvideo.media.nagoya-u.ac.jp/embed/6649659b610aaeadc286179b97c16b98f6aeb233">Final presentations by students</a></li>
+</ol>
+
 <h2>2017(Videos)</h2>
 <dl>
   <dt><a href="http://nuvideo.media.nagoya-u.ac.jp/embed/fb65771d03e41da6c2979ae7ffe0192f91f22e58">Why it is important to think logically for your writing</a></dt>

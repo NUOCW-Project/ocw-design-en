@@ -24,3 +24,6 @@ margin: 0 0 16px 40px;
 #contents dl#specialtopics_backnumber dd{
 margin: 0 0 16px 40px;
 }
+
+.selection {display: none;}
+#page-1 { display: block;}

@@ -2,13 +2,13 @@
 <div class="wideslider">
 <ul>
   <li>
-    <a href="index.php?lang=en&mode=c&id=648&page_type=index">
-    <img src ="images/en/slider/s14_Studium_Generale_fall_2017_en.svg" alt="FALL 2017 Studium Generale">
+    <a href="index.php?lang=en&mode=c&id=675&page_type=index">
+    <img src ="images/en/slider/s17_studium_generale_spring2018_en.png" alt="SPRING 2018 Studium Generale">
     </a>
   </li>
   <li>
     <a href="index.php?lang=en&mode=g&page_type=mei_writing">
-    <img src ="images/en/slider/s15_Academic_Writing_2017_en.svg" alt="Academic Writing and Logical Thinking Skills">
+    <img src ="images/en/slider/s16_Academic_Writing_2018_en.png" alt="Academic Writing and Logical Thinking Skills">
     </a>
   </li>
   <li>
