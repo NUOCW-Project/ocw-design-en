@@ -269,5 +269,5 @@ img#prj10{
 
 /* Topicsを2つ並行して公開するとき */
 .topics_head{
-    margin: 25px 0 0 0;
+    margin: 0 0 25px 0;
 }
