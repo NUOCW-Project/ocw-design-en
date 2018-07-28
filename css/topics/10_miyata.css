@@ -98,7 +98,7 @@ padding: 0;
     z-index: 2;
     overflow: hidden;
     min-width: 100%;
-    background-color: rgba(99,65,149,0.5);
+    background-color: rgba(16,167,238,0.5);
   }
 
   #topics2017_miyata_top .title{
@@ -154,7 +154,8 @@ padding: 0;
   }
 
   div.script{
-    font: 3.2vw 'mgenplus-2c-regular'
+    font: 3.2vw 'mgenplus-2c-regular';
+    margin-bottom: 3vw;
   }
 
   #miyata_main ul.question{
@@ -218,7 +219,7 @@ padding: 0;
   div#manu{
     margin: 8vw 0vw;
     padding: 3vw 2% 4vw 2%;
-    background-color: rgba(99,65,149,0.8);
+    background-color: rgba(16,167,238,0.8);
     color: #ffffff;
     font: 3.2vw 'mgenplus-2c-regular'
   }
@@ -268,7 +269,7 @@ height: 57.5vw;
   z-index: 2;
   overflow: hidden;
   min-width: 100%;
-  background-color: rgba(99,65,149,0.5);
+  background-color: rgba(16,167,238,0.5);
 }
 
 #topics2017_miyata_top .title{
@@ -324,7 +325,8 @@ height: 57.5vw;
 }
 
 div.script{
-  font: 3.2vw 'mgenplus-2c-regular'
+  font: 3.2vw 'mgenplus-2c-regular';
+  margin-bottom: 3vw;
 }
 
 #miyata_main ul.question{
@@ -388,7 +390,7 @@ div.script{
 div#manu{
   margin: 8vw 0vw;
   padding: 3vw 2% 0.1vw 2%;
-  background-color: rgba(99,65,149,0.8);
+  background-color: rgba(16,167,238,0.8);
   color: #ffffff;
   font: 3.2vw 'mgenplus-2c-regular'
 }
@@ -439,7 +441,7 @@ height: 575px;
   z-index: 2;
   overflow: hidden;
   min-width: 100%;
-  background-color: rgba(99,65,149,0.5);
+  background-color: rgba(16,167,238,0.5);
 }
 
 #topics2017_miyata_top .title{
@@ -498,7 +500,8 @@ height: 575px;
 }
 
 div.script{
-  font: 24pt 'mgenplus-2c-regular'
+  font: 24pt 'mgenplus-2c-regular';
+  margin-bottom: 30px;
 }
 
 #miyata_main ul.question{
@@ -562,7 +565,7 @@ div.script{
 div#manu{
   margin: 80px 0px;
   padding: 30px 2% 1px 2%;
-  background-color: rgba(99,65,149,0.8);
+  background-color: rgba(16,167,238,0.8);
   color: #ffffff;
   font: 24pt 'mgenplus-2c-regular'
 }
