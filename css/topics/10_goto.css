@@ -75,7 +75,7 @@ padding: 0;
   #topics2017_goto{
   margin: 0 auto;
   width: 100%;
-  font: 3.2vw 'mgenplus-2c-regular';}
+  font: 2.4vw 'mgenplus-2c-regular';}
 
   #topics2017_goto_top{
   height: 57.5vw;
@@ -127,7 +127,7 @@ padding: 0;
   .subtitle{
     margin-top: 0;
     margin-bottom: 3vw;
-    font-size: 4.8vw;
+    font-size: 3.6vw;
     font-weight: bold;
   }
 
@@ -147,7 +147,7 @@ padding: 0;
   }
 
   div.script{
-    font: 3.2vw 'mgenplus-2c-regular'
+    font: 2.4vw 'mgenplus-2c-regular'
   }
 
   #goto_main ul.question{
@@ -155,7 +155,7 @@ padding: 0;
     margin-top: 0vw;
     margin-bottom: 2vw;
     padding-left: 0vw;
-    font-size: 3.7vw;
+    font-size: 2.8vw;
   }
 
   #goto_main ul.question li{
@@ -173,7 +173,7 @@ padding: 0;
     margin-top: 0vw;
     margin-bottom: 4vw;
     padding-left: 0vw;
-    font: 3.2vw 'mgenplus-2c-regular'
+    font: 2.4vw 'mgenplus-2c-regular'
   }
 
   #goto_main ul.single_answer li{
@@ -193,7 +193,7 @@ padding: 0;
     margin-top: 0vw;
     margin-bottom: 4vw;
     padding-left: 0vw;
-    font: 3.2vw 'mgenplus-2c-regular'
+    font: 2.4vw 'mgenplus-2c-regular'
   }
 
   #goto_main ol.multi_answer li{
@@ -213,7 +213,7 @@ padding: 0;
     padding: 3vw 2% 4vw 2%;
     background-color: rgba(16,238,59,0.8);
     color: #ffffff;
-    font: 3.2vw 'mgenplus-2c-regular'
+    font: 2.4vw 'mgenplus-2c-regular'
   }
 
   #manu .link{
@@ -238,7 +238,7 @@ width: 100% !important;
 #topics2017_goto{
 margin: 0 auto;
 width: 100%;
-font: 3.2vw 'mgenplus-2c-regular';}
+font: 2.4vw 'mgenplus-2c-regular';}
 
 #topics2017_goto_top{
 height: 57.5vw;
@@ -290,7 +290,7 @@ height: 57.5vw;
 .subtitle{
   margin-top: 0;
   margin-bottom: 3vw;
-  font-size: 4.8vw;
+  font-size: 3.6vw;
   font-weight: bold;
 }
 
@@ -310,7 +310,7 @@ height: 57.5vw;
 }
 
 div.script{
-  font: 3.2vw 'mgenplus-2c-regular'
+  font: 2.4vw 'mgenplus-2c-regular'
 }
 
 #goto_main ul.question{
@@ -318,7 +318,7 @@ div.script{
   margin-top: 0vw;
   margin-bottom: 2vw;
   padding-left: 0vw;
-  font-size: 3.7vw;
+  font-size: 2.8vw;
 }
 
 #goto_main ul.question li{
@@ -336,7 +336,7 @@ div.script{
   margin-top: 0vw;
   margin-bottom: 4vw;
   padding-left: 0vw;
-  font: 3.2vw 'mgenplus-2c-regular'
+  font: 2.4vw 'mgenplus-2c-regular'
 }
 
 #goto_main ul.single_answer li{
@@ -356,7 +356,7 @@ div.script{
   margin-top: 0vw;
   margin-bottom: 4vw;
   padding-left: 0vw;
-  font: 3.2vw 'mgenplus-2c-regular'
+  font: 2.4vw 'mgenplus-2c-regular'
 }
 
 #goto_main ol.multi_answer li{
@@ -376,7 +376,7 @@ div#manu{
   padding: 3vw 2% 0.1vw 2%;
   background-color: rgba(16,238,59,0.8);
   color: #ffffff;
-  font: 3.2vw 'mgenplus-2c-regular'
+  font: 2.4vw 'mgenplus-2c-regular'
 }
 
 #manu ul.link{
@@ -401,7 +401,7 @@ width: 100% !important;
 #topics2017_goto{
 margin: 0 auto;
 width: 100%;
-font: 24pt 'mgenplus-2c-regular';
+font: 24px 'mgenplus-2c-regular';
 }
 
 #topics2017_goto_top{
@@ -457,7 +457,7 @@ height: 575px;
 .subtitle{
   margin-top: 0;
   margin-bottom: 30px;
-  font-size: 36pt;
+  font-size: 36px;
   font-weight: bold;
 }
 
@@ -477,7 +477,7 @@ height: 575px;
 }
 
 div.script{
-  font: 24pt 'mgenplus-2c-regular'
+  font: 24px 'mgenplus-2c-regular'
 }
 
 #goto_main ul.question{
@@ -485,7 +485,7 @@ div.script{
   margin-top: 0px;
   margin-bottom: 20px;
   padding-left: 0px;
-  font-size: 28pt;
+  font-size: 28px;
 }
 
 #goto_main ul.question li{
@@ -503,7 +503,7 @@ div.script{
   margin-top: 0px;
   margin-bottom: 40px;
   padding-left: 0px;
-  font: 24pt 'mgenplus-2c-regular'
+  font: 24px 'mgenplus-2c-regular'
 }
 
 #goto_main ul.single_answer li{
@@ -523,7 +523,7 @@ div.script{
   margin-top: 0px;
   margin-bottom: 40px;
   padding-left: 0px;
-  font: 24pt 'mgenplus-2c-regular'
+  font: 24px 'mgenplus-2c-regular'
 }
 
 #goto_main ol.multi_answer li{
@@ -543,7 +543,7 @@ div#manu{
   padding: 30px 2% 1px 2%;
   background-color: rgba(16,238,59,0.8);
   color: #ffffff;
-  font: 24pt 'mgenplus-2c-regular'
+  font: 24px 'mgenplus-2c-regular'
 }
 
 #manu ul.link{
