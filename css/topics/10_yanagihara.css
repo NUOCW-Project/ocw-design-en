@@ -119,42 +119,31 @@ padding: 0;
     margin: 4vw 2% 0vw 2%;
   }
 
-  .subtitle_icon{
+  h1 img.subtitle_icon{
     width: 6.7vw;
     height: 6.7vw;
+    vertical-align: middle;
   }
 
-  .first_subtitle{
+  h1.first_subtitle{
     margin-top: 0vw;
     margin-bottom: 3vw;
     font-size: 3.6vw;
     font-weight: bold;
   }
 
-  .first_subtitle img{
-    vertical-align: middle;
-  }
-
-  .second_subtitle{
+  h1.second_subtitle{
     margin-top: 8vw;
     margin-bottom: 3vw;
     font-size: 3.6vw;
     font-weight: bold;
   }
 
-  .second_subtitle img{
-    vertical-align: middle;
-  }
-
-  .subtitle{
+  h1.subtitle{
     margin-top: 4vw;
     margin-bottom: 3vw;
     font-size: 3.6vw;
     font-weight: bold;
-  }
-
-  .subtitle img{
-    vertical-align: middle;
   }
 
   h2.minititle{
@@ -312,42 +301,31 @@ height: 57.5vw;
   margin: 4vw 4% 0vw 4%;
 }
 
-.subtitle_icon{
+h1 img.subtitle_icon{
   width: 6.7vw;
   height: 6.7vw;
+  vertical-align: middle;
 }
 
-.first_subtitle{
+h1.first_subtitle{
   margin-top: 0vw;
   margin-bottom: 3vw;
   font-size: 3.6vw;
   font-weight: bold;
 }
 
-.first_subtitle img{
-  vertical-align: middle;
-}
-
-.second_subtitle{
+h1.second_subtitle{
   margin-top: 8vw;
   margin-bottom: 3vw;
   font-size: 3.6vw;
   font-weight: bold;
 }
 
-.second_subtitle img{
-  vertical-align: middle;
-}
-
-.subtitle{
+h1.subtitle{
   margin-top: 4vw;
   margin-bottom: 3vw;
   font-size: 3.6vw;
   font-weight: bold;
-}
-
-.subtitle img{
-  vertical-align: middle;
 }
 
 h2.minititle{
@@ -512,6 +490,7 @@ height: 575px;
 h1 img.subtitle_icon{
   width: 67px;
   height: 67px;
+  vertical-align: middle;
 }
 
 h1.first_subtitle{
@@ -521,19 +500,12 @@ h1.first_subtitle{
   font-weight: bold;
 }
 
-/*.first_subtitle img{
-  vertical-align: middle;
-}*/
-
 h1.second_subtitle{
   margin-top: 80px;
   margin-bottom: 30px;
   font-size: 36px;
   font-weight: bold;
 }
-/*.second_subtitle img{
-  vertical-align: middle;
-}*/
 
 h1.subtitle{
   margin-top: 40px;
@@ -541,10 +513,6 @@ h1.subtitle{
   font-size: 36px;
   font-weight: bold;
 }
-/*
-.subtitle img{
-  vertical-align: middle;
-}*/
 
 h2.minititle{
   font: 28px 'mgenplus-2c-regular';
