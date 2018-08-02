@@ -9,6 +9,7 @@
 /* TOPICS特別編  */
 div#package2{
 top: 0px;
+float: none;
 }
 
 /* ヘッダーとフッター・背景の非表示はじめ */
