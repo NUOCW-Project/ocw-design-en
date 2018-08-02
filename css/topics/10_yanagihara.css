@@ -450,7 +450,7 @@ height: 575px;
   display: block;
   background: url(../../images/ja/topics10/yanagihara/yanagihara_header_pic.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 575px;
+  background-size: cover;
   background-position: center center;
   position: relative;
   overflow: hidden;
