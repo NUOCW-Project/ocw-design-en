@@ -282,14 +282,6 @@ height: 57.5vw;
   width: 100%;
 }
 
-#topics2017_sugioka_icon{
-  height: 57.5vw;
-  z-index: 2;
-  overflow: hidden;
-  min-width: 100%;
-  background-color: rgba(242, 83, 74,0.5);
-}
-
 #topics2017_sugioka_header #topics2017_sugioka_icon{
   height: 57.5vw;
   z-index: 2;
