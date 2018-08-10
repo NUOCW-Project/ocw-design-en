@@ -73,18 +73,18 @@ padding: 0;
   width: 100% !important;
   }
 
-  #topics2017_goto{
+  #topics2017_sugioka{
   margin: 0 auto;
   width: 100%;
   font: 2.4vw 'mgenplus-2c-regular';}
 
-  #topics2017_goto_top{
+  #topics2017_sugioka_top{
   height: 57.5vw;
   }
 
-  #topics2017_goto_header{
+  #topics2017_sugioka_header{
     display: block;
-    background: url(../../images/ja/topics10/goto/goto_header_pic.jpg);
+    background: url(../../images/ja/topics10/sugioka/sugioka_header_pic.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -94,20 +94,26 @@ padding: 0;
     width: 100%;
   }
 
-  #topics2017_goto_icon{
+  #topics2017_sugioka_header #topics2017_sugioka_icon{
     height: 57.5vw;
     z-index: 2;
     overflow: hidden;
-    min-width: 100%;
-    background-color: rgba(16,238,59,0.5);
+    float: left;
   }
 
-  #topics2017_goto_top .title{
+  #topics2017_sugioka_header .icon_margin{
+    height: 100%;
+    width: calc((100% - 62vw) / 2);
+    float: left;
+    background-color: rgba(242, 83, 74,0.5);
+  }
+
+  #topics2017_sugioka_top .title{
     height: 14.7vw;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     position: relative;
-    top: -27%;
+    top: -25%;
     z-index: 3;
     color: #FFFFFF;
     font-size: 4.9vw;
@@ -116,7 +122,7 @@ padding: 0;
     justify-content: center;
   }
 
-  #goto_main{
+  #sugioka_main{
     margin: 4vw 2% 0vw 2%;
   }
 
@@ -126,29 +132,51 @@ padding: 0;
     vertical-align: middle;
   }
 
-  h1.subtitle{
+  h1.first_subtitle{
     margin-top: 0vw;
     margin-bottom: 3vw;
     font-size: 3.6vw;
     font-weight: bold;
   }
 
-  #goto_main img.image{
+  h1.second_subtitle{
+    margin-top: 8vw;
+    margin-bottom: 3vw;
+    font-size: 3.6vw;
+    font-weight: bold;
+  }
+
+  h1.subtitle{
+    margin-top: 4vw;
+    margin-bottom: 3vw;
+    font-size: 3.6vw;
+    font-weight: bold;
+  }
+
+  h2.minititle{
+    font: 2.8vw 'mgenplus-2c-regular';
+    color: #000000;
+    margin: 0vw 0vw 1vw 0vw;
+  }
+
+  #sugioka_main img.image{
     display: block;
     margin: 6vw 0vw;
-    max-width: 100%;
+    width: 100%;
     height: auto;
   }
 
-  #goto_main div.image{
-    margin-bottom: 4vw;
+  #sugioka_main div.image{
+    font: 2.4vw 'mgenplus-2c-regular';
+    margin: 6vw 0vw;
   }
 
   div.script{
-    font: 2.4vw 'mgenplus-2c-regular'
+    font: 2.4vw 'mgenplus-2c-regular';
+    margin-bottom: 3vw;
   }
 
-  #goto_main ul.question{
+  #sugioka_main ul.question{
     list-style-type: none;
     margin-top: 0vw;
     margin-bottom: 2vw;
@@ -156,36 +184,36 @@ padding: 0;
     font-size: 2.8vw;
   }
 
-  #goto_main ul.question li{
+  #sugioka_main ul.question li{
     padding-left: 4.5vw;
     text-indent: -4.5vw;
   }
 
-  #goto_main ul.question li::before{
+  #sugioka_main ul.question li::before{
     content: 'Q.';
     float:  left;
     width: 4.5vw;
   }
 
-  #goto_main ul.single_answer{
+  #sugioka_main ul.single_answer{
     margin-top: 0vw;
     margin-bottom: 4vw;
     padding-left: 0vw;
     font: 2.4vw 'mgenplus-2c-regular'
   }
 
-  #goto_main ul.single_answer li{
+  #sugioka_main ul.single_answer li{
     padding-left: 5.5vw;
     text-indent: -5.5vw;
   }
 
-  #goto_main ul.single_answer li::before{
+  #sugioka_main ul.single_answer li::before{
     content: 'A.';
     float:  left;
     width: 5.5vw;
   }
 
-  #goto_main ol.multi_answer{
+  #sugioka_main ol.multi_answer{
     list-style-type: none;
     counter-reset: number;
     margin-top: 0vw;
@@ -194,12 +222,12 @@ padding: 0;
     font: 2.4vw 'mgenplus-2c-regular'
   }
 
-  #goto_main ol.multi_answer li{
+  #sugioka_main ol.multi_answer li{
     padding-left: 5.5vw;
     text-indent: -5.5vw;
   }
 
-  #goto_main ol.multi_answer li::before{
+  #sugioka_main ol.multi_answer li::before{
     content: 'A' counter(number) '.';
     counter-increment: number;
     float:  left;
@@ -209,7 +237,7 @@ padding: 0;
   div#manu{
     margin: 8vw 0vw;
     padding: 3vw 2% 4vw 2%;
-    background-color: rgba(16,238,59,0.8);
+    background-color: rgba(242, 83, 74,0.8);
     color: #ffffff;
     font: 2.4vw 'mgenplus-2c-regular'
   }
@@ -233,18 +261,18 @@ margin: 0 auto;
 width: 100% !important;
 }
 
-#topics2017_goto{
+#topics2017_sugioka{
 margin: 0 auto;
 width: 100%;
 font: 2.4vw 'mgenplus-2c-regular';}
 
-#topics2017_goto_top{
+#topics2017_sugioka_top{
 height: 57.5vw;
 }
 
-#topics2017_goto_header{
+#topics2017_sugioka_header{
   display: block;
-  background: url(../../images/ja/topics10/goto/goto_header_pic.jpg);
+  background: url(../../images/ja/topics10/sugioka/sugioka_header_pic.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -254,20 +282,26 @@ height: 57.5vw;
   width: 100%;
 }
 
-#topics2017_goto_icon{
+#topics2017_sugioka_header #topics2017_sugioka_icon{
   height: 57.5vw;
   z-index: 2;
   overflow: hidden;
-  min-width: 100%;
-  background-color: rgba(16,238,59,0.5);
+  float: left;
 }
 
-#topics2017_goto_top .title{
+#topics2017_sugioka_header .icon_margin{
+  height: 100%;
+  width: calc((100% - 62vw) / 2);
+  float: left;
+  background-color: rgba(242, 83, 74,0.5);
+}
+
+#topics2017_sugioka_top .title{
   height: 14.7vw;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   position: relative;
-  top: -27%;
+  top: -25%;
   z-index: 3;
   color: #FFFFFF;
   font-size: 4.9vw;
@@ -276,7 +310,7 @@ height: 57.5vw;
   justify-content: center;
 }
 
-#goto_main{
+#sugioka_main{
   margin: 4vw 4% 0vw 4%;
 }
 
@@ -286,29 +320,51 @@ h1 img.subtitle_icon{
   vertical-align: middle;
 }
 
-h1.subtitle{
+h1.first_subtitle{
   margin-top: 0vw;
   margin-bottom: 3vw;
   font-size: 3.6vw;
   font-weight: bold;
 }
 
-#goto_main img.image{
+h1.second_subtitle{
+  margin-top: 8vw;
+  margin-bottom: 3vw;
+  font-size: 3.6vw;
+  font-weight: bold;
+}
+
+h1.subtitle{
+  margin-top: 4vw;
+  margin-bottom: 3vw;
+  font-size: 3.6vw;
+  font-weight: bold;
+}
+
+h2.minititle{
+  font: 2.8vw 'mgenplus-2c-regular';
+  color: #000000;
+  margin: 0vw 0vw 1vw 0vw;
+}
+
+#sugioka_main img.image{
   display: block;
   margin: 6vw 0vw;
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
-#goto_main div.image{
-  margin-bottom: 4vw;
+#sugioka_main div.image{
+  font: 2.4vw 'mgenplus-2c-regular';
+  margin: 6vw 0vw;
 }
 
 div.script{
-  font: 2.4vw 'mgenplus-2c-regular'
+  font: 2.4vw 'mgenplus-2c-regular';
+  margin-bottom: 3vw;
 }
 
-#goto_main ul.question{
+#sugioka_main ul.question{
   list-style-type: none;
   margin-top: 0vw;
   margin-bottom: 2vw;
@@ -316,36 +372,36 @@ div.script{
   font-size: 2.8vw;
 }
 
-#goto_main ul.question li{
+#sugioka_main ul.question li{
   padding-left: 4.5vw;
   text-indent: -4.5vw;
 }
 
-#goto_main ul.question li::before{
+#sugioka_main ul.question li::before{
   content: 'Q.';
   float:  left;
   width: 4.5vw;
 }
 
-#goto_main ul.single_answer{
+#sugioka_main ul.single_answer{
   margin-top: 0vw;
   margin-bottom: 4vw;
   padding-left: 0vw;
   font: 2.4vw 'mgenplus-2c-regular'
 }
 
-#goto_main ul.single_answer li{
+#sugioka_main ul.single_answer li{
   padding-left: 5.5vw;
   text-indent: -5.5vw;
 }
 
-#goto_main ul.single_answer li::before{
+#sugioka_main ul.single_answer li::before{
   content: 'A.';
   float:  left;
   width: 5.5vw;
 }
 
-#goto_main ol.multi_answer{
+#sugioka_main ol.multi_answer{
   list-style-type: none;
   counter-reset: number;
   margin-top: 0vw;
@@ -354,12 +410,12 @@ div.script{
   font: 2.4vw 'mgenplus-2c-regular'
 }
 
-#goto_main ol.multi_answer li{
+#sugioka_main ol.multi_answer li{
   padding-left: 5.5vw;
   text-indent: -5.5vw;
 }
 
-#goto_main ol.multi_answer li::before{
+#sugioka_main ol.multi_answer li::before{
   content: 'A' counter(number) '.';
   counter-increment: number;
   float:  left;
@@ -369,7 +425,7 @@ div.script{
 div#manu{
   margin: 8vw 0vw;
   padding: 3vw 2% 0.1vw 2%;
-  background-color: rgba(16,238,59,0.8);
+  background-color: rgba(242, 83, 74,0.8);
   color: #ffffff;
   font: 2.4vw 'mgenplus-2c-regular'
 }
@@ -393,19 +449,19 @@ margin: 0 auto;
 width: 100% !important;
 }
 
-#topics2017_goto{
+#topics2017_sugioka{
 margin: 0 auto;
 width: 100%;
 font: 24px 'mgenplus-2c-regular';
 }
 
-#topics2017_goto_top{
+#topics2017_sugioka_top{
 height: 575px;
 }
 
-#topics2017_goto_header{
+#topics2017_sugioka_header{
   display: block;
-  background: url(../../images/ja/topics10/goto/goto_header_pic.jpg);
+  background: url(../../images/ja/topics10/sugioka/sugioka_header_pic.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -415,20 +471,26 @@ height: 575px;
   width: 100%;
 }
 
-#topics2017_goto_icon{
+#topics2017_sugioka_header #topics2017_sugioka_icon{
   height: 575px;
   z-index: 2;
   overflow: hidden;
-  min-width: 100%;
-  background-color: rgba(16,238,59,0.5);
+  float: left;
 }
 
-#topics2017_goto_top .title{
+#topics2017_sugioka_header .icon_margin{
+  height: 100%;
+  width: calc((100% - 620px) / 2);
+  float: left;
+  background-color: rgba(242, 83, 74,0.5);
+}
+
+#topics2017_sugioka_top .title{
   height: 147px;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   position: relative;
-  top: -27%;
+  top: -25%;
   z-index: 3;
   color: #FFFFFF;
   font-size: 49px;
@@ -437,7 +499,7 @@ height: 575px;
   justify-content: center;
 }
 
-#goto_main{
+#sugioka_main{
   margin-top: 40px;
   margin-left: calc(((100% - 1000px) / 2) + 4%);
   margin-right: calc(((100% - 1000px) / 2) + 4%);
@@ -450,29 +512,51 @@ h1 img.subtitle_icon{
   vertical-align: middle;
 }
 
-h1.subtitle{
-  margin-top: 0;
+h1.first_subtitle{
+  margin-top: 0px;
   margin-bottom: 30px;
   font-size: 36px;
   font-weight: bold;
 }
 
-#goto_main img.image{
+h1.second_subtitle{
+  margin-top: 80px;
+  margin-bottom: 30px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+h1.subtitle{
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+h2.minititle{
+  font: 28px 'mgenplus-2c-regular';
+  color: #000000;
+  margin: 0px 0px 10px 0px;
+}
+
+#sugioka_main img.image{
   display: block;
   margin: 60px 0px;
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
-#goto_main div.image{
-  margin-bottom: 40px;
+#sugioka_main div.image{
+  font: 24px 'mgenplus-2c-regular';
+  margin: 60px 0px;
 }
 
 div.script{
-  font: 24px 'mgenplus-2c-regular'
+  font: 24px 'mgenplus-2c-regular';
+  margin-bottom: 40px;
 }
 
-#goto_main ul.question{
+#sugioka_main ul.question{
   list-style-type: none;
   margin-top: 0px;
   margin-bottom: 20px;
@@ -480,36 +564,36 @@ div.script{
   font-size: 28px;
 }
 
-#goto_main ul.question li{
+#sugioka_main ul.question li{
   padding-left: 45px;
   text-indent: -45px;
 }
 
-#goto_main ul.question li::before{
+#sugioka_main ul.question li::before{
   content: 'Q.';
   float:  left;
   width: 45px;
 }
 
-#goto_main ul.single_answer{
+#sugioka_main ul.single_answer{
   margin-top: 0px;
   margin-bottom: 40px;
   padding-left: 0px;
   font: 24px 'mgenplus-2c-regular'
 }
 
-#goto_main ul.single_answer li{
+#sugioka_main ul.single_answer li{
   padding-left: 55px;
   text-indent: -55px;
 }
 
-#goto_main ul.single_answer li::before{
+#sugioka_main ul.single_answer li::before{
   content: 'A.';
   float:  left;
   width: 55px;
 }
 
-#goto_main ol.multi_answer{
+#sugioka_main ol.multi_answer{
   list-style-type: none;
   counter-reset: number;
   margin-top: 0px;
@@ -518,12 +602,12 @@ div.script{
   font: 24px 'mgenplus-2c-regular'
 }
 
-#goto_main ol.multi_answer li{
+#sugioka_main ol.multi_answer li{
   padding-left: 55px;
   text-indent: -55px;
 }
 
-#goto_main ol.multi_answer li::before{
+#sugioka_main ol.multi_answer li::before{
   content: 'A' counter(number) '.';
   counter-increment: number;
   float:  left;
@@ -533,7 +617,7 @@ div.script{
 div#manu{
   margin: 80px 0px;
   padding: 30px 2% 1px 2%;
-  background-color: rgba(16,238,59,0.8);
+  background-color: rgba(242, 83, 74, 0.8);
   color: #ffffff;
   font: 24px 'mgenplus-2c-regular'
 }
