@@ -75,7 +75,7 @@ padding: 0;
   #topics2017_miyata{
   margin: 0 auto;
   width: 100%;
-  font: 3.2vw 'mgenplus-2c-regular';}
+  font: 2.4vw 'mgenplus-2c-regular';}
 
   #topics2017_miyata_top{
   height: 57.5vw;
@@ -98,7 +98,7 @@ padding: 0;
     z-index: 2;
     overflow: hidden;
     min-width: 100%;
-    background-color: rgba(99,65,149,0.5);
+    background-color: rgba(16,167,238,0.5);
   }
 
   #topics2017_miyata_top .title{
@@ -119,31 +119,31 @@ padding: 0;
     margin: 4vw 2% 0vw 2%;
   }
 
-  .subtitle_icon{
+  h1 img.subtitle_icon{
     width: 6.7vw;
     height: 6.7vw;
+    vertical-align: middle;
   }
 
-  .first_subtitle{
+  h1.first_subtitle{
     margin-top: 0vw;
     margin-bottom: 3vw;
-    font-size: 4.8vw;
+    font-size: 3.6vw;
     font-weight: bold;
   }
 
-  .first_subtitle img{
-    vertical-align: middle;
+  h1.second_subtitle{
+    margin-top: 8vw;
+    margin-bottom: 3vw;
+    font-size: 3.6vw;
+    font-weight: bold;
   }
 
-  .subtitle{
+  h1.subtitle{
     margin-top: 4vw;
     margin-bottom: 3vw;
-    font-size: 4.8vw;
+    font-size: 3.6vw;
     font-weight: bold;
-  }
-
-  .subtitle img{
-    vertical-align: middle;
   }
 
   #miyata_main img.image{
@@ -154,7 +154,8 @@ padding: 0;
   }
 
   div.script{
-    font: 3.2vw 'mgenplus-2c-regular'
+    font: 2.4vw 'mgenplus-2c-regular';
+    margin-bottom: 3vw;
   }
 
   #miyata_main ul.question{
@@ -162,7 +163,7 @@ padding: 0;
     margin-top: 0vw;
     margin-bottom: 2vw;
     padding-left: 0vw;
-    font-size: 3.7vw;
+    font-size: 2.8vw;
   }
 
   #miyata_main ul.question li{
@@ -180,7 +181,7 @@ padding: 0;
     margin-top: 0vw;
     margin-bottom: 4vw;
     padding-left: 0vw;
-    font: 3.2vw 'mgenplus-2c-regular'
+    font: 2.4vw 'mgenplus-2c-regular'
   }
 
   #miyata_main ul.single_answer li{
@@ -200,7 +201,7 @@ padding: 0;
     margin-top: 0vw;
     margin-bottom: 4vw;
     padding-left: 0vw;
-    font: 3.2vw 'mgenplus-2c-regular'
+    font: 2.4vw 'mgenplus-2c-regular'
   }
 
   #miyata_main ol.multi_answer li{
@@ -218,9 +219,9 @@ padding: 0;
   div#manu{
     margin: 8vw 0vw;
     padding: 3vw 2% 4vw 2%;
-    background-color: rgba(99,65,149,0.8);
+    background-color: rgba(16,167,238,0.8);
     color: #ffffff;
-    font: 3.2vw 'mgenplus-2c-regular'
+    font: 2.4vw 'mgenplus-2c-regular'
   }
 
   #manu .link{
@@ -245,7 +246,7 @@ width: 100% !important;
 #topics2017_miyata{
 margin: 0 auto;
 width: 100%;
-font: 3.2vw 'mgenplus-2c-regular';}
+font: 2.4vw 'mgenplus-2c-regular';}
 
 #topics2017_miyata_top{
 height: 57.5vw;
@@ -268,7 +269,7 @@ height: 57.5vw;
   z-index: 2;
   overflow: hidden;
   min-width: 100%;
-  background-color: rgba(99,65,149,0.5);
+  background-color: rgba(16,167,238,0.5);
 }
 
 #topics2017_miyata_top .title{
@@ -289,31 +290,31 @@ height: 57.5vw;
   margin: 4vw 4% 0vw 4%;
 }
 
-.subtitle_icon{
+h1 img.subtitle_icon{
   width: 6.7vw;
   height: 6.7vw;
+  vertical-align: middle;
 }
 
-.first_subtitle{
+h1.first_subtitle{
   margin-top: 0vw;
   margin-bottom: 3vw;
-  font-size: 4.8vw;
+  font-size: 3.6vw;
   font-weight: bold;
 }
 
-.first_subtitle img{
-  vertical-align: middle;
+h1.second_subtitle{
+  margin-top: 8vw;
+  margin-bottom: 3vw;
+  font-size: 3.6vw;
+  font-weight: bold;
 }
 
-.subtitle{
+h1.subtitle{
   margin-top: 4vw;
   margin-bottom: 3vw;
-  font-size: 4.8vw;
+  font-size: 3.6vw;
   font-weight: bold;
-}
-
-.subtitle img{
-  vertical-align: middle;
 }
 
 #miyata_main img.image{
@@ -324,7 +325,8 @@ height: 57.5vw;
 }
 
 div.script{
-  font: 3.2vw 'mgenplus-2c-regular'
+  font: 2.4vw 'mgenplus-2c-regular';
+  margin-bottom: 3vw;
 }
 
 #miyata_main ul.question{
@@ -332,7 +334,7 @@ div.script{
   margin-top: 0vw;
   margin-bottom: 2vw;
   padding-left: 0vw;
-  font-size: 3.7vw;
+  font-size: 2.8vw;
 }
 
 #miyata_main ul.question li{
@@ -350,7 +352,7 @@ div.script{
   margin-top: 0vw;
   margin-bottom: 4vw;
   padding-left: 0vw;
-  font: 3.2vw 'mgenplus-2c-regular'
+  font: 2.4vw 'mgenplus-2c-regular'
 }
 
 #miyata_main ul.single_answer li{
@@ -370,7 +372,7 @@ div.script{
   margin-top: 0vw;
   margin-bottom: 4vw;
   padding-left: 0vw;
-  font: 3.2vw 'mgenplus-2c-regular'
+  font: 2.4vw 'mgenplus-2c-regular'
 }
 
 #miyata_main ol.multi_answer li{
@@ -388,9 +390,9 @@ div.script{
 div#manu{
   margin: 8vw 0vw;
   padding: 3vw 2% 0.1vw 2%;
-  background-color: rgba(99,65,149,0.8);
+  background-color: rgba(16,167,238,0.8);
   color: #ffffff;
-  font: 3.2vw 'mgenplus-2c-regular'
+  font: 2.4vw 'mgenplus-2c-regular'
 }
 
 #manu ul.link{
@@ -415,7 +417,7 @@ width: 100% !important;
 #topics2017_miyata{
 margin: 0 auto;
 width: 100%;
-font: 24pt 'mgenplus-2c-regular';
+font: 24px 'mgenplus-2c-regular';
 }
 
 #topics2017_miyata_top{
@@ -426,7 +428,7 @@ height: 575px;
   display: block;
   background: url(../../images/ja/topics10/miyata/miyata_header_pic.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 575px;
+  background-size: cover;
   background-position: center center;
   position: relative;
   overflow: hidden;
@@ -439,7 +441,7 @@ height: 575px;
   z-index: 2;
   overflow: hidden;
   min-width: 100%;
-  background-color: rgba(99,65,149,0.5);
+  background-color: rgba(16,167,238,0.5);
 }
 
 #topics2017_miyata_top .title{
@@ -463,31 +465,31 @@ height: 575px;
   margin-bottom: 0px;
 }
 
-.subtitle_icon{
+h1 img.subtitle_icon{
   width: 67px;
   height: 67px;
+  vertical-align: middle;
 }
 
-.first_subtitle{
+h1.first_subtitle{
   margin-top: 0px;
   margin-bottom: 30px;
-  font-size: 36pt;
+  font-size: 36px;
   font-weight: bold;
 }
 
-.first_subtitle img{
-  vertical-align: middle;
+h1.second_subtitle{
+  margin-top: 80px;
+  margin-bottom: 30px;
+  font-size: 36px;
+  font-weight: bold;
 }
 
-.subtitle{
+h1.subtitle{
   margin-top: 40px;
   margin-bottom: 30px;
-  font-size: 36pt;
+  font-size: 36px;
   font-weight: bold;
-}
-
-.subtitle img{
-  vertical-align: middle;
 }
 
 #miyata_main img.image{
@@ -498,7 +500,8 @@ height: 575px;
 }
 
 div.script{
-  font: 24pt 'mgenplus-2c-regular'
+  font: 24px 'mgenplus-2c-regular';
+  margin-bottom: 30px;
 }
 
 #miyata_main ul.question{
@@ -506,7 +509,7 @@ div.script{
   margin-top: 0px;
   margin-bottom: 20px;
   padding-left: 0px;
-  font-size: 28pt;
+  font-size: 28px;
 }
 
 #miyata_main ul.question li{
@@ -524,7 +527,7 @@ div.script{
   margin-top: 0px;
   margin-bottom: 40px;
   padding-left: 0px;
-  font: 24pt 'mgenplus-2c-regular'
+  font: 24px 'mgenplus-2c-regular'
 }
 
 #miyata_main ul.single_answer li{
@@ -544,7 +547,7 @@ div.script{
   margin-top: 0px;
   margin-bottom: 40px;
   padding-left: 0px;
-  font: 24pt 'mgenplus-2c-regular'
+  font: 24px 'mgenplus-2c-regular'
 }
 
 #miyata_main ol.multi_answer li{
@@ -562,9 +565,9 @@ div.script{
 div#manu{
   margin: 80px 0px;
   padding: 30px 2% 1px 2%;
-  background-color: rgba(99,65,149,0.8);
+  background-color: rgba(16,167,238,0.8);
   color: #ffffff;
-  font: 24pt 'mgenplus-2c-regular'
+  font: 24px 'mgenplus-2c-regular'
 }
 
 #manu ul.link{
