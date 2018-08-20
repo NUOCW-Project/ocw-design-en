@@ -203,3 +203,5 @@ img#arita_bn_img{
     -o-transform: rotate(-4deg);
     -ms-transform: rotate(-4deg);
 }
+.selection {display: none;}
+#page-1 { display: block;}
