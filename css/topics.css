@@ -30,3 +30,6 @@ h3.special {
 	margin: 0;
   font-size: x-large;
 }
+
+.selection {display: none;}
+#page-1 { display: block;}
