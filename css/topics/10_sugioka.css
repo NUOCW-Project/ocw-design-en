@@ -96,16 +96,10 @@ padding: 0;
 
   #topics2017_sugioka_header #topics2017_sugioka_icon{
     height: 57.5vw;
+    width: 57.7vw;
     z-index: 2;
     overflow: hidden;
     float: left;
-  }
-
-  #topics2017_sugioka_header .icon_margin{
-    height: 100%;
-    width: calc((100% - 62vw) / 2);
-    float: left;
-    background-color: rgba(242, 83, 74,0.5);
   }
 
   #topics2017_sugioka_top .title{
@@ -284,16 +278,10 @@ height: 57.5vw;
 
 #topics2017_sugioka_header #topics2017_sugioka_icon{
   height: 57.5vw;
+  width: 57.5vw;
   z-index: 2;
   overflow: hidden;
   float: left;
-}
-
-#topics2017_sugioka_header .icon_margin{
-  height: 100%;
-  width: calc((100% - 62vw) / 2);
-  float: left;
-  background-color: rgba(242, 83, 74,0.5);
 }
 
 #topics2017_sugioka_top .title{
@@ -473,16 +461,10 @@ height: 575px;
 
 #topics2017_sugioka_header #topics2017_sugioka_icon{
   height: 575px;
+  width: 575px;
   z-index: 2;
   overflow: hidden;
   float: left;
-}
-
-#topics2017_sugioka_header .icon_margin{
-  height: 100%;
-  width: calc((100% - 620px) / 2);
-  float: left;
-  background-color: rgba(242, 83, 74,0.5);
 }
 
 #topics2017_sugioka_top .title{
