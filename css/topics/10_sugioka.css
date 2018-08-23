@@ -99,7 +99,8 @@ padding: 0;
     width: 57.7vw;
     z-index: 2;
     overflow: hidden;
-    float: left;
+    min-width: 100%;
+    background-color: rgba(242, 83, 74,0.5);
   }
 
   #topics2017_sugioka_top .title{
@@ -281,7 +282,8 @@ height: 57.5vw;
   width: 57.5vw;
   z-index: 2;
   overflow: hidden;
-  float: left;
+  min-width: 100%;
+  background-color: rgba(242, 83, 74,0.5);
 }
 
 #topics2017_sugioka_top .title{
@@ -464,7 +466,8 @@ height: 575px;
   width: 575px;
   z-index: 2;
   overflow: hidden;
-  float: left;
+  min-width: 100%;
+  background-color: rgba(242, 83, 74,0.5);
 }
 
 #topics2017_sugioka_top .title{
