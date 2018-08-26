@@ -29,16 +29,16 @@ $(function () {
 			button.hover(
 				function(){
                     button.css('filter', 'alpha(opacity=80)');
-                    button.css('-ms-filter' '"alpha(opacity=80)"');
+                    button.css('-ms-filter', '"alpha(opacity=80)"');
                     button.css('-moz-opacity', '0.8');
-                    button.css('-khtml-opacity' '0.8');
+                    button.css('-khtml-opacity', '0.8');
 					button.css('opacity', '0.8');
 				},
 				function(){
                     button.css('filter', 'alpha(opacity=100)');
-                    button.css('-ms-filter' '"alpha(opacity=100)"');
+                    button.css('-ms-filter', '"alpha(opacity=100)"');
                     button.css('-moz-opacity', '1');
-                    button.css('-khtml-opacity' '1');
+                    button.css('-khtml-opacity', '1');
 					button.css('opacity', '1');
 				}
 			);
