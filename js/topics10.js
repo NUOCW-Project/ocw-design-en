@@ -49,7 +49,8 @@ $(function () {
     $(window).load(function () {
         var hash = location.hash;
 
-    	if (hash != '')
-    	    $(hash).click();
+    	if (hash != ''){
+            $(hash).click();
+        }
     });
 });
