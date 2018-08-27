@@ -3,8 +3,6 @@
 $(function () {
 
 	// class_detail display
-
-	var hash = new String(location.hash);
     
 	var link_id_list = new Array(
         'red', 'yellow', 'green', 'blue', 'violet'
@@ -45,12 +43,9 @@ $(function () {
         }
     }
     
-
     $(window).load(function () {
-        var hash = location.hash;
-
-    	if (hash != ''){
-            $(hash).click();
+        var hash = new String(location.hash);
+        if (hash != ''){
+            $(hash + ' .topics2017_button').click();
         }
-    });
 });
