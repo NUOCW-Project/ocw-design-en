@@ -201,6 +201,7 @@ margin: 0;
 height: 20vw;
 background-color: #FFFFFF;
 cursor: pointer;
+zoom: 1;
 }
 
 .active{
@@ -465,6 +466,7 @@ margin: 0;
 height: 20vw;
 background-color: #FFFFFF;
 cursor: pointer;
+zoom: 1;
 }
 
 .active{
@@ -729,6 +731,7 @@ margin: 0;
 height: 200px;
 background-color: #FFFFFF;
 cursor: pointer;
+zoom: 1;
 }
 
 .active{
