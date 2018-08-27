@@ -48,4 +48,5 @@ $(function () {
         if (hash != ''){
             $(hash + ' .topics2017_button').click();
         }
+    });
 });
