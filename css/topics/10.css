@@ -12,36 +12,11 @@ top: 0px;
 }
 
 /* ヘッダーとフッター・背景の非表示はじめ */
-body{
+body, .body_back, .main_back_adachi{
 background: none;
 }
 
-.body_back{
-background: none;
-}
-
-.header_edge{
-display: none;
-}
-
-.pankuzu{
-display: none;
-}
-
-.footer{
-display: none;
-}
-
-#footer_bottom{
-display: none;
-}
-
-.main_back_adachi{
-display: none;
-background: none;
-}
-
-.main_back_url {
+.header_edge, .pankuzu, .footer, #footer_bottom, .main_back_adachi, .main_back_url, .topjump{
 display: none;
 }
 
@@ -56,47 +31,14 @@ background: none;
 width: 100%
 }
 
-.topjump {
-display: none;
-}
-
 #contents{
 padding: 0;
 }
 /* ヘッダーとフッター・背景の非表示終わり */
 
-@media screen and (min-width: 0px){
-
 #contents{
 margin: 0 auto;
 width: 100% !important;
-}
-
-#topics2017{
-margin: 0 auto;
-width: 100%;
-font: 2.4vw 'mgenplus-2c-regular';}
-
-#topics2017_top{
-font-size: 0px;
-height: 57.5vw;
-}
-
-.topics10-header-pic{
-display: inline-block;
-position: relative;
-width: 20%;
-height: 57.5vw;
-z-index: 2;
-}
-
-.topics10-header-pic .topics10-header-icon{
-max-width: 80%;
-height: 57.5vw;
-padding: 0 10%;
-z-index: 1;
-overflow: hidden;
-position: relative;
 }
 
 #topics10-header-red{
@@ -152,6 +94,81 @@ background-position: center center;
 
 .topics10-header-pic #topics10-header-icon-violet{
 background-color: rgba(140,16,238,0.5);
+}
+
+.topics2017_button #topics10-pic-red{
+background: linear-gradient(90deg, rgba(255,0,0,0), rgba(255,0,0,0), rgba(255,0,0,0.5), rgba(255,0,0,1)), url(../../images/ja/topics10/top/pic_red.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.topics2017_button #topics10-icon-red{
+background-color: rgba(255,0,0,1);
+}
+
+.topics2017_button #topics10-pic-yellow{
+background: linear-gradient(90deg, rgba(238,225,16,0), rgba(238,225,16,0), rgba(238,225,16,0.5), rgba(238,225,16,1)), url(../../images/ja/topics10/top/pic_yellow.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.topics2017_button #topics10-icon-yellow{
+background-color: rgba(238,225,16,1);
+}
+
+.topics2017_button #topics10-pic-green{
+background: linear-gradient(90deg, rgba(16,238,59,0), rgba(16,238,59,0), rgba(16,238,59,0.5), rgba(16,238,59,1)), url(../../images/ja/topics10/top/pic_green.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.topics2017_button #topics10-icon-green{
+background-color: rgba(16,238,59,1);
+}
+
+.topics2017_button #topics10-pic-blue{
+background: linear-gradient(90deg, rgba(16,167,238,0), rgba(16,167,238,0), rgba(16,167,238,0.5), rgba(16,167,238,1)), url(../../images/ja/topics10/top/pic_blue.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.topics2017_button #topics10-icon-blue{
+background-color: rgba(16,167,238,1);
+}
+
+.topics2017_button #topics10-pic-violet{
+background: linear-gradient(90deg, rgba(140,16,238,0), rgba(140,16,238,0), rgba(140,16,238,0.5), rgba(140,16,238,1)), url(../../images/ja/topics10/top/pic_violet.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+@media screen and (min-width: 0px){
+
+#topics2017{
+margin: 0 auto;
+width: 100%;
+font: 2.4vw 'mgenplus-2c-regular';}
+
+#topics2017_top{
+font-size: 0px;
+height: 57.5vw;
+}
+
+.topics10-header-pic{
+display: inline-block;
+position: relative;
+width: 20%;
+height: 57.5vw;
+z-index: 2;
+}
+
+.topics10-header-pic .topics10-header-icon{
+max-width: 80%;
+height: 57.5vw;
+padding: 0 10%;
+z-index: 1;
+overflow: hidden;
+position: relative;
 }
 
 #topics2017_top_title{
@@ -225,52 +242,6 @@ padding: 0 1% 0 100%;
 overflow: hidden;
 }
 
-.topics2017_button #topics10-pic-red{
-background: linear-gradient(90deg, rgba(255,0,0,0), rgba(255,0,0,0), rgba(255,0,0,0.5), rgba(255,0,0,1)), url(../../images/ja/topics10/top/pic_red.png);
-background-repeat: no-repeat;
-background-size: cover;
-}
-
-.topics2017_button #topics10-icon-red{
-background-color: rgba(255,0,0,1);
-}
-
-.topics2017_button #topics10-pic-yellow{
-background: linear-gradient(90deg, rgba(238,225,16,0), rgba(238,225,16,0), rgba(238,225,16,0.5), rgba(238,225,16,1)), url(../../images/ja/topics10/top/pic_yellow.png);
-background-repeat: no-repeat;
-background-size: cover;
-}
-
-.topics2017_button #topics10-icon-yellow{
-background-color: rgba(238,225,16,1);
-}
-
-.topics2017_button #topics10-pic-green{
-background: linear-gradient(90deg, rgba(16,238,59,0), rgba(16,238,59,0), rgba(16,238,59,0.5), rgba(16,238,59,1)), url(../../images/ja/topics10/top/pic_green.png);
-background-repeat: no-repeat;
-background-size: cover;
-}
-
-.topics2017_button #topics10-icon-green{
-background-color: rgba(16,238,59,1);
-}
-
-.topics2017_button #topics10-pic-blue{
-background: linear-gradient(90deg, rgba(16,167,238,0), rgba(16,167,238,0), rgba(16,167,238,0.5), rgba(16,167,238,1)), url(../../images/ja/topics10/top/pic_blue.png);
-background-repeat: no-repeat;
-background-size: cover;
-}
-
-.topics2017_button #topics10-icon-blue{
-background-color: rgba(16,167,238,1);
-}
-
-.topics2017_button #topics10-pic-violet{
-background: linear-gradient(90deg, rgba(140,16,238,0), rgba(140,16,238,0), rgba(140,16,238,0.5), rgba(140,16,238,1)), url(../../images/ja/topics10/top/pic_violet.png);
-background-repeat: no-repeat;
-background-size: cover;
-}
-
 .topics2017_button #topics10-icon-violet{
 background-color: rgba(140,16,238,1);
 height: 17vw;
@@ -333,11 +304,6 @@ text-decoration: underline;
 
 @media screen and (min-width: 600px){
 
-#contents{
-margin: 0 auto;
-width: 100% !important;
-}
-
 #topics2017{
 margin: 0 auto;
 width: 100%;
@@ -363,61 +329,6 @@ padding: 0 10%;
 z-index: 1;
 overflow: hidden;
 position: relative;
-}
-
-#topics10-header-red{
-background: url(../../images/ja/topics10/top/header_pic_red.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center center;
-}
-
-.topics10-header-pic #topics10-header-icon-red{
-background-color: rgba(255,0,0,0.5);
-}
-
-#topics10-header-yellow{
-background: url(../../images/ja/topics10/top/header_pic_yellow.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center center;
-}
-
-.topics10-header-pic #topics10-header-icon-yellow{
-background-color: rgba(238,225,16,0.5);
-}
-
-#topics10-header-green{
-background: url(../../images/ja/topics10/top/header_pic_green.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center center;
-}
-
-.topics10-header-pic #topics10-header-icon-green{
-background-color: rgba(16,238,59,0.5);
-}
-
-#topics10-header-blue{
-background: url(../../images/ja/topics10/top/header_pic_blue.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center center;
-}
-
-.topics10-header-pic #topics10-header-icon-blue{
-background-color: rgba(16,167,238,0.5) ;
-}
-
-#topics10-header-violet{
-background: url(../../images/ja/topics10/top/header_pic_violet.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center center;
-}
-
-.topics10-header-pic #topics10-header-icon-violet{
-background-color: rgba(140,16,238,0.5);
 }
 
 #topics2017_top_title{
@@ -491,52 +402,6 @@ padding: 0 2% 0 100%;
 overflow: hidden;
 }
 
-.topics2017_button #topics10-pic-red{
-background: linear-gradient(90deg, rgba(255,0,0,0), rgba(255,0,0,0), rgba(255,0,0,0.5), rgba(255,0,0,1)), url(../../images/ja/topics10/top/pic_red.png);
-background-repeat: no-repeat;
-background-size: cover;
-}
-
-.topics2017_button #topics10-icon-red{
-background-color: rgba(255,0,0,1);
-}
-
-.topics2017_button #topics10-pic-yellow{
-background: linear-gradient(90deg, rgba(238,225,16,0), rgba(238,225,16,0), rgba(238,225,16,0.5), rgba(238,225,16,1)), url(../../images/ja/topics10/top/pic_yellow.png);
-background-repeat: no-repeat;
-background-size: cover;
-}
-
-.topics2017_button #topics10-icon-yellow{
-background-color: rgba(238,225,16,1);
-}
-
-.topics2017_button #topics10-pic-green{
-background: linear-gradient(90deg, rgba(16,238,59,0), rgba(16,238,59,0), rgba(16,238,59,0.5), rgba(16,238,59,1)), url(../../images/ja/topics10/top/pic_green.png);
-background-repeat: no-repeat;
-background-size: cover;
-}
-
-.topics2017_button #topics10-icon-green{
-background-color: rgba(16,238,59,1);
-}
-
-.topics2017_button #topics10-pic-blue{
-background: linear-gradient(90deg, rgba(16,167,238,0), rgba(16,167,238,0), rgba(16,167,238,0.5), rgba(16,167,238,1)), url(../../images/ja/topics10/top/pic_blue.png);
-background-repeat: no-repeat;
-background-size: cover;
-}
-
-.topics2017_button #topics10-icon-blue{
-background-color: rgba(16,167,238,1);
-}
-
-.topics2017_button #topics10-pic-violet{
-background: linear-gradient(90deg, rgba(140,16,238,0), rgba(140,16,238,0), rgba(140,16,238,0.5), rgba(140,16,238,1)), url(../../images/ja/topics10/top/pic_violet.png);
-background-repeat: no-repeat;
-background-size: cover;
-}
-
 .topics2017_button #topics10-icon-violet{
 background-color: rgba(140,16,238,1);
 height: 17vw;
@@ -599,11 +464,6 @@ text-decoration: underline;
 
 @media screen and (min-width: 1000px){
 
-#contents{
-margin: 0 auto;
-width: 100% !important;
-}
-
 #topics2017{
 margin: 0 auto;
 width: 100%;
@@ -629,61 +489,6 @@ padding: 0 10%;
 z-index: 1;
 overflow: hidden;
 position: relative;
-}
-
-#topics10-header-red{
-background: url(../../images/ja/topics10/top/header_pic_red.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center center;
-}
-
-.topics10-header-pic #topics10-header-icon-red{
-background-color: rgba(255,0,0,0.5);
-}
-
-#topics10-header-yellow{
-background: url(../../images/ja/topics10/top/header_pic_yellow.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center center;
-}
-
-.topics10-header-pic #topics10-header-icon-yellow{
-background-color: rgba(238,225,16,0.5);
-}
-
-#topics10-header-green{
-background: url(../../images/ja/topics10/top/header_pic_green.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center center;
-}
-
-.topics10-header-pic #topics10-header-icon-green{
-background-color: rgba(16,238,59,0.5);
-}
-
-#topics10-header-blue{
-background: url(../../images/ja/topics10/top/header_pic_blue.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center center;
-}
-
-.topics10-header-pic #topics10-header-icon-blue{
-background-color: rgba(16,167,238,0.5) ;
-}
-
-#topics10-header-violet{
-background: url(../../images/ja/topics10/top/header_pic_violet.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center center;
-}
-
-.topics10-header-pic #topics10-header-icon-violet{
-background-color: rgba(140,16,238,0.5);
 }
 
 #topics2017_top_title{
@@ -755,52 +560,6 @@ z-index: 1;
 right:0;
 padding: 0 2% 0 100%;
 overflow: hidden;
-}
-
-.topics2017_button #topics10-pic-red{
-background: linear-gradient(90deg, rgba(255,0,0,0), rgba(255,0,0,0), rgba(255,0,0,0.5), rgba(255,0,0,1)), url(../../images/ja/topics10/top/pic_red.png);
-background-repeat: no-repeat;
-background-size: cover;
-}
-
-.topics2017_button #topics10-icon-red{
-background-color: rgba(255,0,0,1);
-}
-
-.topics2017_button #topics10-pic-yellow{
-background: linear-gradient(90deg, rgba(238,225,16,0), rgba(238,225,16,0), rgba(238,225,16,0.5), rgba(238,225,16,1)), url(../../images/ja/topics10/top/pic_yellow.png);
-background-repeat: no-repeat;
-background-size: cover;
-}
-
-.topics2017_button #topics10-icon-yellow{
-background-color: rgba(238,225,16,1);
-}
-
-.topics2017_button #topics10-pic-green{
-background: linear-gradient(90deg, rgba(16,238,59,0), rgba(16,238,59,0), rgba(16,238,59,0.5), rgba(16,238,59,1)), url(../../images/ja/topics10/top/pic_green.png);
-background-repeat: no-repeat;
-background-size: cover;
-}
-
-.topics2017_button #topics10-icon-green{
-background-color: rgba(16,238,59,1);
-}
-
-.topics2017_button #topics10-pic-blue{
-background: linear-gradient(90deg, rgba(16,167,238,0), rgba(16,167,238,0), rgba(16,167,238,0.5), rgba(16,167,238,1)), url(../../images/ja/topics10/top/pic_blue.png);
-background-repeat: no-repeat;
-background-size: cover;
-}
-
-.topics2017_button #topics10-icon-blue{
-background-color: rgba(16,167,238,1);
-}
-
-.topics2017_button #topics10-pic-violet{
-background: linear-gradient(90deg, rgba(140,16,238,0), rgba(140,16,238,0), rgba(140,16,238,0.5), rgba(140,16,238,1)), url(../../images/ja/topics10/top/pic_violet.png);
-background-repeat: no-repeat;
-background-size: cover;
 }
 
 .topics2017_button #topics10-icon-violet{
