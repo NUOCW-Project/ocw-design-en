@@ -212,42 +212,6 @@ img#arita_bn_img{
 .selection {display: none;}
 #page-1 { display: block;}
 
-d2#topics1{
-margin: 15px 0 15px 0;
-}
-
-d2#topics2{
-    margin: 15px 0 15px 0;
- }
-
- d2#topics3{
-    margin: 15px 0 15px 0;
-}
-
-d2#topics4{
-    margin: 15px 0 15px 0;
-}
-
-d2#topics5{
-    margin: 15px 0 15px 0;
-}
-
-d2#topics6{
-    margin: 15px 0 15px 0;
-}
-
-d2#topics7{
-    margin: 15px 0 15px 0;
-}
-
-d2#topics8{
-    margin: 15px 0 15px 0;
-}
-
-d2#topics9{
-    margin: 15px 0 15px 0;
-}
-
-d2#topics10{
-    margin: 15px 0 15px 0;
+div.topics_item{
+margin: 15px 0 15px 0;    
 }
