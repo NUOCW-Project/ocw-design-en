@@ -2,13 +2,16 @@
 
 @font-face{
   font-family: 'mgenplus-2c-regular';
-  src: url('../../js/fonts/rounded-mgenplus-20150602/rounded-mgenplus-2c-regular.ttf');
-  src: url('../../js/fonts/rounded-mgenplus-20150602/rounded-mgenplus-2c-regular.ttf') format('truetype');
+  src: url('../../js/fonts/rounded-mgenplus-20150602/rounded-mgenplus-2c-regular.eot'); /* IE9以上用 */
+  src: url('../../js/fonts/rounded-mgenplus-20150602/rounded-mgenplus-2c-regular.eot?#iefix') format('embedded-opentype'), /* IE8以前用 */
+         url('../../js/fonts/rounded-mgenplus-20150602/rounded-mgenplus-2c-regular.woff') format('woff'), /* モダンブラウザ用 */
+         url('../../js/fonts/rounded-mgenplus-20150602/rounded-mgenplus-2c-regular.ttf') format('truetype'); /* iOS, Android用 */
 }
 
 /* TOPICS特別編  */
 div#package2{
 top: 0px;
+float: none;
 }
 
 /* ヘッダーとフッター・背景の非表示はじめ */
@@ -95,6 +98,7 @@ padding: 0;
 
   #topics2017_kajiwara_icon{
     height: 57.5vw;
+    width: 57.5vw;
     z-index: 2;
     overflow: hidden;
     min-width: 100%;
@@ -119,31 +123,24 @@ padding: 0;
     margin: 4vw 2% 0vw 2%;
   }
 
-  .subtitle_icon{
+  h1 img.subtitle_icon{
     width: 6.7vw;
     height: 6.7vw;
+    vertical-align: middle;
   }
 
-  .first_subtitle{
+  h1.first_subtitle{
     margin-top: 0vw;
     margin-bottom: 3vw;
     font-size: 3.6vw;
     font-weight: bold;
   }
 
-  .first_subtitle img{
-    vertical-align: middle;
-  }
-
-  .subtitle{
+  h1.subtitle{
     margin-top: 4vw;
     margin-bottom: 3vw;
     font-size: 3.6vw;
     font-weight: bold;
-  }
-
-  .subtitle img{
-    vertical-align: middle;
   }
 
   #kajiwara_main img.image{
@@ -265,6 +262,7 @@ height: 57.5vw;
 
 #topics2017_kajiwara_icon{
   height: 57.5vw;
+  width: 57.5vw;
   z-index: 2;
   overflow: hidden;
   min-width: 100%;
@@ -289,31 +287,24 @@ height: 57.5vw;
   margin: 4vw 4% 0vw 4%;
 }
 
-.subtitle_icon{
+h1 img.subtitle_icon{
   width: 6.7vw;
   height: 6.7vw;
+  vertical-align: middle;
 }
 
-.first_subtitle{
+h1.first_subtitle{
   margin-top: 0vw;
   margin-bottom: 3vw;
   font-size: 3.6vw;
   font-weight: bold;
 }
 
-.first_subtitle img{
-  vertical-align: middle;
-}
-
-.subtitle{
+h1.subtitle{
   margin-top: 4vw;
   margin-bottom: 3vw;
   font-size: 3.6vw;
   font-weight: bold;
-}
-
-.subtitle img{
-  vertical-align: middle;
 }
 
 #kajiwara_main img.image{
@@ -426,7 +417,7 @@ height: 575px;
   display: block;
   background: url(../../images/ja/topics10/kajiwara/kajiwara_header_pic.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 575px;
+  background-size: cover;
   background-position: center center;
   position: relative;
   overflow: hidden;
@@ -436,6 +427,7 @@ height: 575px;
 
 #topics2017_kajiwara_icon{
   height: 575px;
+  width: 575px;
   z-index: 2;
   overflow: hidden;
   min-width: 100%;
@@ -463,31 +455,24 @@ height: 575px;
   margin-bottom: 0px;
 }
 
-.subtitle_icon{
+h1 img.subtitle_icon{
   width: 67px;
   height: 67px;
+  vertical-align: middle;
 }
 
-.first_subtitle{
+h1.first_subtitle{
   margin-top: 0px;
   margin-bottom: 30px;
   font-size: 36px;
   font-weight: bold;
 }
 
-.first_subtitle img{
-  vertical-align: middle;
-}
-
-.subtitle{
+h1.subtitle{
   margin-top: 40px;
   margin-bottom: 30px;
   font-size: 36px;
   font-weight: bold;
-}
-
-.subtitle img{
-  vertical-align: middle;
 }
 
 #kajiwara_main img.image{

@@ -51,6 +51,7 @@ img#arita_bn_img{
     -webkit-transform: rotate(-5deg);
     -o-transform: rotate(-5deg);
     -ms-transform: rotate(-5deg);
+    margin: 15px 0;
 }
 
 #msg01 a{
@@ -80,6 +81,7 @@ img#arita_bn_img{
     -o-transform: rotate(-2deg);
     -ms-transform: rotate(-2deg);
     z-index: 2;
+    margin: 15px 0;
 }
 
 #msg02 a{
@@ -108,6 +110,7 @@ img#arita_bn_img{
     -webkit-transform: rotate(3deg);
     -o-transform: rotate(3deg);
     -ms-transform: rotate(3deg);
+    margin: 15px 0;
 }
 
 #msg03 a{
@@ -135,6 +138,7 @@ img#arita_bn_img{
     -webkit-transform: rotate(5deg);
     -o-transform: rotate(5deg);
     -ms-transform: rotate(5deg);
+    margin: 15px 0;
 }
 
 #msg04 a{
@@ -162,6 +166,7 @@ img#arita_bn_img{
     -webkit-transform: rotate(-1.5deg);
     -o-transform: rotate(-1.5deg);
     -ms-transform: rotate(-1.5deg);
+    margin: 15px 0;
 }
 
 #msg05 a{
@@ -189,6 +194,7 @@ img#arita_bn_img{
       -webkit-transform: rotate(2deg);
       -o-transform: rotate(2deg);
       -ms-transform: rotate(2deg);*/
+      margin: 15px 0;
 }
 
 #msg06 a{
@@ -202,4 +208,10 @@ img#arita_bn_img{
     -webkit-transform: rotate(-4deg);
     -o-transform: rotate(-4deg);
     -ms-transform: rotate(-4deg);
+}
+.selection {display: none;}
+#page-1 { display: block;}
+
+div.topics_item{
+margin: 15px 0 15px 0;    
 }

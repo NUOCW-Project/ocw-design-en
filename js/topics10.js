@@ -3,8 +3,6 @@
 $(function () {
 
 	// class_detail display
-
-	var hash = new String(location.hash);
     
 	var link_id_list = new Array(
         'red', 'yellow', 'green', 'blue', 'violet'
@@ -28,22 +26,27 @@ $(function () {
 			});
 			button.hover(
 				function(){
+                    button.css('filter', 'alpha(opacity=80)');
+                    button.css('-ms-filter', '"alpha(opacity=80)"');
+                    button.css('-moz-opacity', '0.8');
+                    button.css('-khtml-opacity', '0.8');
 					button.css('opacity', '0.8');
 				},
 				function(){
-                    button.css('opacity', '1');
+                    button.css('filter', 'alpha(opacity=100)');
+                    button.css('-ms-filter', '"alpha(opacity=100)"');
+                    button.css('-moz-opacity', '1');
+                    button.css('-khtml-opacity', '1');
+					button.css('opacity', '1');
 				}
 			);
         }
     }
     
-
     $(window).load(function () {
-        var hash = location.hash;
-
-    	if (hash != '')
-    	    $(hash).click();
-    	else
-    	    $('#topics2017-red .topics2017_button').click();
+        var hash = new String(location.hash);
+        if (hash != ''){
+            $(hash + ' .topics2017_button').click();
+        }
     });
 });

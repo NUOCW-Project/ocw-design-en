@@ -2,13 +2,16 @@
 
 @font-face{
   font-family: 'mgenplus-2c-regular';
-  src: url('../../js/fonts/rounded-mgenplus-20150602/rounded-mgenplus-2c-regular.ttf');
-  src: url('../../js/fonts/rounded-mgenplus-20150602/rounded-mgenplus-2c-regular.ttf') format('truetype');
+  src: url('../../js/fonts/rounded-mgenplus-20150602/rounded-mgenplus-2c-regular.eot'); /* IE9以上用 */
+  src: url('../../js/fonts/rounded-mgenplus-20150602/rounded-mgenplus-2c-regular.eot?#iefix') format('embedded-opentype'), /* IE8以前用 */
+         url('../../js/fonts/rounded-mgenplus-20150602/rounded-mgenplus-2c-regular.woff') format('woff'), /* モダンブラウザ用 */
+         url('../../js/fonts/rounded-mgenplus-20150602/rounded-mgenplus-2c-regular.ttf') format('truetype'); /* iOS, Android用 */
 }
 
 /* TOPICS特別編  */
 div#package2{
 top: 0px;
+float: none;
 }
 
 /* ヘッダーとフッター・背景の非表示はじめ */
@@ -95,6 +98,7 @@ padding: 0;
 
   #topics2017_miyata_icon{
     height: 57.5vw;
+    width: 57.5vw;
     z-index: 2;
     overflow: hidden;
     min-width: 100%;
@@ -266,6 +270,7 @@ height: 57.5vw;
 
 #topics2017_miyata_icon{
   height: 57.5vw;
+  width: 57.5vw;
   z-index: 2;
   overflow: hidden;
   min-width: 100%;
@@ -438,6 +443,7 @@ height: 575px;
 
 #topics2017_miyata_icon{
   height: 575px;
+  width: 575px;
   z-index: 2;
   overflow: hidden;
   min-width: 100%;
