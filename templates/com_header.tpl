@@ -1,6 +1,10 @@
 {include file="com_meta.tpl"}
 
 <body>
+<div class="announce" onclick="this.classList.add('hidden');">
+    <p style="font-weight:bold;">Media Studio Maintenance Announcement: September 27-30</p>
+    <p>Movies on this site may be unavailable during maintenance. We apologize for any inconvinience this may cause and thank you for your patience.</p>
+</div>
 {literal}
 {if $page_type=='voice'}
 <div id="fb-root"></div>
