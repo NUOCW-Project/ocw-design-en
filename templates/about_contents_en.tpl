@@ -166,7 +166,13 @@ Nagoya University OpenCourseWare Project
 </tr>
 
 <tr>
-<td>Yuka KOJIMA</td>
+<td>Sachie OGAWA</td>
+<td>Administrative Assistant</td>
+<td>OCW Administrative Office</td>
+</tr>
+
+<tr>
+<td>Ryoko KAWASHIMA</td>
 <td>Administrative Assistant</td>
 <td>OCW Administrative Office</td>
 </tr>
@@ -183,34 +189,48 @@ Nagoya University OpenCourseWare Project
 <td>Yukina TAKANO</td>
 </tr>
 <tr>
-<td>Yusei WAKAZONO</td>
 <td>Yuri KUBOTA</td>
 <td>Takeru KUMABE</td>
-</tr>
-<tr>
-<td>Luu ngan Tu Uyen</td>
 <td>Yutaka Fukui</td>
-<td>Teresa Pham</td>
 </tr>
 <tr>
-<td>Ryunosuke HOSHI</td>
-<td>Kim Dongwook</td>
 <td>Jortarou NAKANE</td>
-</tr>
-<tr>
 <td>Yuuki KODAMA</td>
 <td>Aurelio Pinero</td>
-<td>Taiga SHIRAKURA</td>
 </tr>
 <tr>
+<td>Taiga SHIRAKURA</td>
 <td>Akihiro OKUMURA</td>
 <td>Keita YOSHIHARA</td>
-<td>Taisuke AIDA</td>
 </tr>
 <tr>
+<td>Taisuke AIDA</td>
 <td>Kie FUNAHASHI</td>
-<td>Yoshihiro TAKEO</td>
+<td>Kouji OI</td>
+</tr>
+<tr>
+<td>Chiharu ICHIKAWA</td>
+<td>Masato ITO</td>
+<td>Shota IKEGUCHI</td>
+</tr>
+<tr>
+<td>Taishi ISHIGURO</td>
+<td>Ryosuke TSUKITO</td>
+<td>Alvaro Dominguez</td>
+</tr>
+<tr>
+<td>Baral Eliram</td>
+<td>Kaito SUZUKI</td>
+<td>Takumi YAMASHITA</td>
+</tr>
+<tr>
+<td>Hikaru MORI</td>
+<td>Mizuho AOKI</td>
+<td>Atsushi IKEDA</td>
+</tr>
+<tr>
+<td>Satoshi KAMITORI</td>
+<td></td>
 <td></td>
 </tr>
-
 </table>
