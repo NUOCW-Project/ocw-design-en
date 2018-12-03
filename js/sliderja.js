@@ -44,7 +44,7 @@ $(function(){
 
 			setSlide();
 			function setSlide(){
-				windowWidth = $(window).width();
+				windowWidth = 705 //$(window).width();
 				findList = findWrap.find('li');
 				setParts = (findBase,findWrap,findPrev,findNext,$setElm);
 
