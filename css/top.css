@@ -273,6 +273,7 @@ img#prj10{
 	text-align: left;
 	position: relative;
 	overflow: hidden;
+	display: block;
 }
 
 .wideslider ul,
