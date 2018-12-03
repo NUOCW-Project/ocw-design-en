@@ -1,9 +1,11 @@
 // From "http://black-flag.net/jquery/20130709-4710.html"
 $(function(){
 	$setElm = $('.wideslider');
-	baseWidth = 625;
-	baseHeight = 359;
-	minWidth = 625;
+	baseWidth = 590;
+	baseHeight = 340;
+	minWidth = 590;
+
+	maxWidth = 705; // max width of div .wideslider
 
 	slideSpeed = 700;
 	delayTime = 5000;
@@ -44,7 +46,7 @@ $(function(){
 
 			setSlide();
 			function setSlide(){
-				windowWidth = 705 //$(window).width();
+				windowWidth = maxWidth;
 				findList = findWrap.find('li');
 				setParts = (findBase,findWrap,findPrev,findNext,$setElm);
 
