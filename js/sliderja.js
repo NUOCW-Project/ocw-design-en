@@ -1,9 +1,9 @@
 // From "http://black-flag.net/jquery/20130709-4710.html"
 $(function(){
 	$setElm = $('.wideslider');
-	baseWidth = 705;  // = div #contents width
-	baseHeight = 399; // = div img height
-	minWidth = 705;
+	baseWidth = 694;
+	baseHeight = 399;
+	minWidth = 694;
 
 	slideSpeed = 700;
 	delayTime = 5000;
