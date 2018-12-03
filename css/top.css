@@ -273,7 +273,6 @@ img#prj10{
 	text-align: left;
 	position: relative;
 	overflow: hidden;
-	margin: 0 0 25px 0;
 }
 
 .wideslider ul,
@@ -339,9 +338,13 @@ img#prj10{
 	opacity: 1!important;
 }
 
-.wideslider,
 .wideslider * {
 	margin: 0;
+	padding: 0;
+}
+
+.wideslider{
+	margin: 0 0 25px 0;
 	padding: 0;
 }
 
