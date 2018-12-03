@@ -266,12 +266,6 @@ img#prj10{
   text-align: center;
 }
 
-
-/* Topicsを2つ並行して公開するとき */
-.topics_head{
-    margin: 0 0 25px 0;
-}
-
 /*画像スライダー用コード*/
 
 .wideslider {
@@ -279,6 +273,7 @@ img#prj10{
 	text-align: left;
 	position: relative;
 	overflow: hidden;
+	margin: 0 0 25px 0;
 }
 
 .wideslider ul,
@@ -312,10 +307,10 @@ img#prj10{
 	cursor: pointer;
 }
 .slider_prev{
-	background: url(../images/en/prev.svg) #fff no-repeat center center;
+	background: url(../images/ja/prev.svg) #fff no-repeat center center;
 }
 .slider_next{
-	background: url(../images/en/next.svg) #fff no-repeat center center;
+	background: url(../images/ja/next.svg) #fff no-repeat center center;
 }
 
 .pagination {
