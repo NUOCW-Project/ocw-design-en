@@ -307,10 +307,10 @@ img#prj10{
 	cursor: pointer;
 }
 .slider_prev{
-	background: url(../images/ja/prev.svg) #fff no-repeat center center;
+	background: url(../images/ja/top_slider/prev.svg) #fff no-repeat center center;
 }
 .slider_next{
-	background: url(../images/ja/next.svg) #fff no-repeat center center;
+	background: url(../images/ja/top_slider/next.svg) #fff no-repeat center center;
 }
 
 .pagination {
