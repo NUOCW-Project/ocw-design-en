@@ -2,10 +2,10 @@
 
 @font-face{ 
   font-family: 'mgenplus-2c-regular';
-  src: url('../../js/fonts/rounded-mgenplus-20150602/rounded-mgenplus-2c-regular.eot'); /* IE9以上用 */
-  src: url('../../js/fonts/rounded-mgenplus-20150602/rounded-mgenplus-2c-regular.eot?#iefix') format('embedded-opentype'), /* IE8以前用 */
-         url('../../js/fonts/rounded-mgenplus-20150602/rounded-mgenplus-2c-regular.woff') format('woff'), /* モダンブラウザ用 */
-         url('../../js/fonts/rounded-mgenplus-20150602/rounded-mgenplus-2c-regular.ttf') format('truetype'); /* iOS, Android用 */
+  src: url('../../js/fonts/rounded-mgenplus-20150602/rounded-mgenplus-2c-regular-subset.eot'); /* IE9以上用 */
+  src: url('../../js/fonts/rounded-mgenplus-20150602/rounded-mgenplus-2c-regular-subset.eot?#iefix') format('embedded-opentype'), /* IE8以前用 */
+         url('../../js/fonts/rounded-mgenplus-20150602/rounded-mgenplus-2c-regular-subset.woff') format('woff'), /* モダンブラウザ用 */
+         url('../../js/fonts/rounded-mgenplus-20150602/rounded-mgenplus-2c-regular-subset.ttf') format('truetype'); /* iOS, Android用 */
 }
 
 /* TOPICS特別編  */
