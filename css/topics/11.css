@@ -3,6 +3,8 @@
 
 div#package2{
     top: 0px;
+    float:none;
+/*どこかのファイルでfloat:leftとなっている様子。ここで上書き*/
 }
 
 /* ヘッダーとフッター・背景の設定はじめ */
