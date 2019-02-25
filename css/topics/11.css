@@ -4,7 +4,7 @@
 div#package2{
     top: 0px;
     float:none;
-/*どこかのファイルでfloat:leftとなっている様子。ここで上書き*/
+    /*どこかのファイルでfloat:leftとなっている様子。ここで上書き*/
 }
 
 /* ヘッダーとフッター・背景の設定はじめ */
@@ -41,26 +41,144 @@ body, .body_back, .main_back_adachi{
 
 #topics2018{
     margin: 0 auto;
-    background-color: blue;
+    background-color: white;
 }
 
 #topics2018_contents{
     margin:0 auto;
     width: 90%;
-    background-color: red;
-    overflow: hidden;
+    background-color: gray;
+    /*overflow: hidden;*/
 }
 
+/*タイトル装飾 ここから*/
+div.title{
+    font-size:27px;
+    padding:10px;
+    position:relative;
+    margin-left:17px;
+}
 
+div.title::before{
+    content:"";
+    height:100%;
+    position:absolute;
+    bottom:0px;
+    left:-22px;
+}
 
+div.title::after{
+    content:"";
+    width:100%;/*calc()非対応ブラウザ用*/
+    width:calc(100% + 22px);
+    position:absolute;
+    bottom:0px;
+    left:-22px;
+}
 
+#title1{border-left:solid 5px #E18862;}
+#title1::before{border-left:solid 12px #E18862;}
+#title1::after{border-bottom:solid 5px #E18862;}
+
+#title2{border-left:solid 5px #867AAA;}
+#title2::before{border-left:solid 12px #867AAA;}
+#title2::after{border-bottom:solid 5px #867AAA;}
+
+/*タイトル装飾 ここまで*/
+
+/*!*画像装飾 ここから*!*/
+
+div.allwrap{
+    position:relative;
+    overflow:hidden;
+    width:100%;
+}
+
+div.imgwrap{
+    position:absolute;
+    top:0px;
+    right:0px;
+    overflow: hidden;
+    width:100%;
+}
+
+img{
+    display:block;/*divとimgの間の隙間消去のため.*/
+}
+
+div.img{
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+
+div.imgmask{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    background-color:rgba(225,136,98,0.3);
+    /*#E18862,opacity 30%*/
+}
+
+div.imggrad{
+    position:absolute;
+    top:0px;
+    right:0px;
+    height:100%;
+    background:linear-gradient(90deg,rgba(0,0,0,0),rgba(0,0,0,0.85))
+}
+
+/*INTERVIEWの文字サイズ、大きすぎではないか？　幅設定と合わない*/
+p.interview{
+    margin:0px;
+    padding:0px;
+    position:absolute;
+    top:0px;
+    right:0px;
+    color:white;
+    opacity:0.5;
+    text-align:right;
+    mix-blend-mode: overlay;
+    /*IEとEdgeはoverlayに非対応*/
+}
+
+p.sensei{
+    margin:0;
+    position:absolute;
+    bottom:194px;
+    right:40px;
+    color:white;
+    text-align: right;
+    /*太さ Medium どうする*/
+}
+
+p.gaiyou{
+    margin:0px;
+    position:absolute;
+    bottom:108px;
+    right:0px;
+    color:white;
+    text-align:left;
+    /*太さ Medium どうする*/
+}
+
+p.detail{
+    margin:0px;
+    position:absolute;
+    bottom:50px;
+    right:40px;
+    color:white;
+    text-align:right;
+    /*太さ Medium どうする*/
+}
 
 
 
 /*幅によらず共通css 終わり*/
 
 /*以下、幅による場合分け（４パターン）幅600以下がスマホ版レイアウト*/
-
 /* width<320 */
 @media screen and (min-width: 0px){
     #topics2018{
@@ -69,10 +187,43 @@ body, .body_back, .main_back_adachi{
     #topics2018_contents{
         width: 96%;
     }
+    div.title {
+        font-size: 18px;
+    }
     img{
         height: 200px;
         width: 667px;
     }
+    div.imgwrap,div.allwrap{
+        height: 200px;
+    }
+    div.imggrad{
+        width:87.5%;
+    }
+    p.interview{
+        font-size:87px;
+        width:60%;
+    }
+
+    p.sensei{
+        bottom:131px;
+        right:30px;
+        font-size:18px;
+    }
+
+    p.gaiyou{
+        bottom:72px;
+        right:3.5vw;
+        font-size:12px;
+        width:320px;
+    }
+
+    p.detail{
+        bottom:30px;
+        right:3.5vw;
+        font-size:12px;
+    }
+
 }
 
 
@@ -84,9 +235,12 @@ body, .body_back, .main_back_adachi{
     #topics2018_contents{
         width: 96%;
     }
-    img{
+
+    div.imgwrap,div.allwrap{
         height: 200px;
-        width: 667px;
+    }
+    div.imggrad{
+        width:87.5%;
     }
 }
 
@@ -99,9 +253,45 @@ body, .body_back, .main_back_adachi{
     #topics2018_contents{
         width: 88%;
     }
+    div.title {
+        font-size: 27px;
+    }
     img{
         height: 300px;
         width: 1000px;
+    }
+    div.allwrap{
+        height: 300px;
+        width:100%;
+    }
+    div.imgwrap{
+        height: 300px;
+    }
+    div.imggrad{
+        width:750px;
+    }
+    p.interview{
+        font-size:155px;
+        width:75%;
+    }
+
+    p.sensei{
+        bottom:194px;
+        right:40px;
+        font-size:36px;
+    }
+
+    p.gaiyou{
+        bottom:108px;
+        right:0px;
+        font-size:18px;
+        width:480px;
+    }
+
+    p.detail{
+        bottom:50px;
+        right:40px;
+        font-size:18px;
     }
 }
 
@@ -115,8 +305,16 @@ body, .body_back, .main_back_adachi{
     #topics2018_contents{
         width: 1000px;
     }
-    img{
+
+    img,div.allwrap{
         height: 300px;
         width: 1000px;
+    }
+
+    div.imgwrap{
+        height: 300px;
+    }
+    div.imggrad{
+        width:750px;
     }
 }
