@@ -1,6 +1,25 @@
 @charset "UTF-8";
+/*フォントインポートはじめ*/
+
+/*源真 Medium*/
+@font-face{
+    font-family: 'Genshin-medium';
+    src: url('js/fonts/GenShinGothic/GenShinGothic-Medium-subset.eot'), /* IE9以上用 */
+    url('js/fonts/GenShinGothic/GenShinGothic-Medium-subset.woff') format('woff'), /* モダンブラウザ用 */
+    url('js/fonts/GenShinGothic/GenShinGothic-Medium-subset.ttf') format('truetype'); /* iOS, Android用 */
+}
+
+/*源真 Regular*/
+@font-face{
+    font-family: 'Genshin-regular';
+    src: url('js/fonts/GenShinGothic/GenShinGothic-Regular-subset.eot'), /* IE9以上用 */
+    url('js/fonts/GenShinGothic/GenShinGothic-Regular-subset.woff') format('woff'), /* モダンブラウザ用 */
+    url('js/fonts/GenShinGothic/GenShinGothic-Regular-subset.ttf') format('truetype'); /* iOS, Android用 */
+}
 
 
+
+/*フォントインポート終わり*/
 div#package2{
     top: 0px;
     float:none;
@@ -33,6 +52,8 @@ body, .body_back, .main_back_adachi{
     background-color: #f2f2f2;
     margin: 0 auto;
     /*commonのファイルでmargin絶対指定しているため上書き*/
+    font-family:"Genshin-regular";
+    /*全体リード文は、源真ゴシックRegularを用いる。Mediumは各場所個別で指定*/
 }
 
 /* ヘッダーとフッター・背景の設定終わり */
@@ -47,12 +68,11 @@ body, .body_back, .main_back_adachi{
 #topics2018_contents{
     margin:0 auto;
     width: 90%;
-    background-color: gray;
-    /*overflow: hidden;*/
 }
 
 /*タイトル装飾 ここから*/
 div.title{
+    font-family:"Genshin-medium";
     font-size:27px;
     padding:10px;
     position:relative;
@@ -130,7 +150,6 @@ div.imggrad{
     background:linear-gradient(90deg,rgba(0,0,0,0),rgba(0,0,0,0.85))
 }
 
-/*INTERVIEWの文字サイズ、大きすぎではないか？　幅設定と合わない*/
 p.interview{
     margin:0px;
     padding:0px;
@@ -138,47 +157,39 @@ p.interview{
     top:0px;
     right:0px;
     color:white;
-    opacity:0.5;
+    opacity:0.3;
     text-align:right;
-    mix-blend-mode: overlay;
-    /*IEとEdgeはoverlayに非対応*/
+    font-family: Palatino Linotype;
+    font-style:italic;
 }
 
 p.sensei{
     margin:0;
     position:absolute;
-    bottom:194px;
-    right:40px;
     color:white;
     text-align: right;
-    /*太さ Medium どうする*/
+    font-family:"Genshin-medium";
 }
 
 p.gaiyou{
     margin:0px;
     position:absolute;
-    bottom:108px;
-    right:0px;
     color:white;
     text-align:left;
-    /*太さ Medium どうする*/
 }
 
 p.detail{
     margin:0px;
     position:absolute;
-    bottom:50px;
-    right:40px;
     color:white;
     text-align:right;
-    /*太さ Medium どうする*/
 }
 
 
 
 /*幅によらず共通css 終わり*/
 
-/*以下、幅による場合分け（４パターン）幅600以下がスマホ版レイアウト*/
+/*以下、幅による場合分け（４パターン）幅670以下がスマホ版レイアウト*/
 /* width<320 */
 @media screen and (min-width: 0px){
     #topics2018{
@@ -198,11 +209,14 @@ p.detail{
         height: 200px;
     }
     div.imggrad{
-        width:87.5%;
+        width:87.5vw;
     }
+    /*スマホ版共通指定　はじめ*/
     p.interview{
+        margin-top:-28px;
         font-size:87px;
-        width:60%;
+        transform:scale(0.6,1);
+        transform-origin: right top;
     }
 
     p.sensei{
@@ -212,7 +226,7 @@ p.detail{
     }
 
     p.gaiyou{
-        bottom:72px;
+        bottom:62px;
         right:3.5vw;
         font-size:12px;
         width:320px;
@@ -223,11 +237,50 @@ p.detail{
         right:3.5vw;
         font-size:12px;
     }
+    p.intro{
+        margin:40px 0px 40px 0px;
+    }
+    p.contents{
+        margin:25px 0px 25px 0px;
+    }
+    .imgkukita{
+        margin:0px 0px 15px 0px;
+    }
+    .imgstudents{
+        margin:0px 0px 40px 0px;
+    }
+    .imgtakeda{
+        margin:0px 0px 15px 0px;
+    }
+    .imgishiguro{
+        margin:0px 0px 15px 0px;
+    }
+    .imgtakeuchi{
+        margin:0px 0px 80px 0px;
+    }
 
+    /*ヘッダー画像部分　後で変更する　はじめ*/
+
+    .pcheader{
+        display:none;
+
+    }
+    .sumahoheader{
+        display:block;
+        font-size:30px;
+        height:400px;
+        width:100%;
+        text-align: center;
+        background-color:grey;
+    }
+
+    /*ヘッダー画像部分　後で変更する　おわり*/
+
+    /*スマホ版共通指定　終わり*/
 }
 
 
-/* 320<width<600 */
+/* 320<width<670 */
 @media screen and (min-width: 320px){
     #topics2018{
         width: 100%;
@@ -245,8 +298,8 @@ p.detail{
 }
 
 
-/* 600<width<1140 */
-@media screen and (min-width: 600px){
+/* 670<width<1140 */
+@media screen and (min-width: 670px){
     #topics2018{
         width: 100%;
     }
@@ -271,10 +324,12 @@ p.detail{
         width:750px;
     }
     p.interview{
-        font-size:155px;
-        width:75%;
+        margin-top:-40px;
+        font-size:130px;/*155*/
+        transform:scale(0.75,1);
+        transform-origin: right top;
     }
-
+    /*PC版共通指定　はじめ*/
     p.sensei{
         bottom:194px;
         right:40px;
@@ -282,8 +337,8 @@ p.detail{
     }
 
     p.gaiyou{
-        bottom:108px;
-        right:0px;
+        bottom:98px;
+        right:40px;
         font-size:18px;
         width:480px;
     }
@@ -293,6 +348,44 @@ p.detail{
         right:40px;
         font-size:18px;
     }
+    p.intro{
+        margin:65px 0px 65px 0px;
+    }
+    p.contents{
+        margin:40px 0px 40px 0px;
+    }
+    .imgkukita{
+        margin:0px 0px 30px 0px;
+    }
+    .imgstudents{
+        margin:0px 0px 65px 0px;
+    }
+    .imgtakeda{
+        margin:0px 0px 30px 0px;
+    }
+    .imgishiguro{
+        margin:0px 0px 30px 0px;
+    }
+    .imgtakeuchi{
+        margin:0px 0px 80px 0px;
+    }
+
+    /*ヘッダー画像部分　後で変更する　はじめ*/
+
+    .pcheader{
+        display:block;
+        font-size:35px;
+        background-color:grey;
+        height:400px;
+        width:100%;
+        text-align: center;
+    }
+    .sumahoheader{
+        display:none;
+    }
+
+    /*ヘッダー画像部分　後で変更する　おわり*/
+    /*PC版共通指定　終わり*/
 }
 
 
