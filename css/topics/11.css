@@ -55,6 +55,7 @@ body, .body_back, .main_back_adachi{
     font-family:"Genshin-regular";
     /*全体リード文は、源真ゴシックRegularを用いる。Mediumは各場所個別で指定*/
     font-size:18px;
+    color: #333333;
 }
 
 /* ヘッダーとフッター・背景の設定終わり */
