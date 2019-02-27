@@ -187,7 +187,15 @@ p.detail{
     text-align:right;
 }
 
+.underline {
+    text-decoration: underline;
+}
 
+p.note{
+    margin:0;
+    padding-left:3em;
+    text-indent:-1em;
+}
 
 /*幅によらず共通css 終わり*/
 
@@ -242,7 +250,7 @@ p.detail{
     p.intro{
         margin:40px 0px 40px 0px;
     }
-    p.contents{
+    div.contents{
         margin:25px 0px 25px 0px;
     }
     .imgkukita{
@@ -353,7 +361,7 @@ p.detail{
     p.intro{
         margin:65px 0px 65px 0px;
     }
-    p.contents{
+    div.contents{
         margin:40px 0px 40px 0px;
     }
     .imgkukita{
