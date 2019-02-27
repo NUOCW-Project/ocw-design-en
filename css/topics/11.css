@@ -4,17 +4,17 @@
 /*源真 Medium*/
 @font-face{
     font-family: 'Genshin-medium';
-    src: url('js/fonts/GenShinGothic/GenShinGothic-Medium-subset.eot'), /* IE9以上用 */
-    url('js/fonts/GenShinGothic/GenShinGothic-Medium-subset.woff') format('woff'), /* モダンブラウザ用 */
-    url('js/fonts/GenShinGothic/GenShinGothic-Medium-subset.ttf') format('truetype'); /* iOS, Android用 */
+    src: url('../../js/fonts/GenShinGothic/GenShinGothic-Medium-subset.eot'), /* IE9以上用 */
+    url('../../js/fonts/GenShinGothic/GenShinGothic-Medium-subset.woff') format('woff'), /* モダンブラウザ用 */
+    url('../../js/fonts/GenShinGothic/GenShinGothic-Medium-subset.ttf') format('truetype'); /* iOS, Android用 */
 }
 
 /*源真 Regular*/
 @font-face{
     font-family: 'Genshin-regular';
-    src: url('js/fonts/GenShinGothic/GenShinGothic-Regular-subset.eot'), /* IE9以上用 */
-    url('js/fonts/GenShinGothic/GenShinGothic-Regular-subset.woff') format('woff'), /* モダンブラウザ用 */
-    url('js/fonts/GenShinGothic/GenShinGothic-Regular-subset.ttf') format('truetype'); /* iOS, Android用 */
+    src: url('../../js/fonts/GenShinGothic/GenShinGothic-Regular-subset.eot'), /* IE9以上用 */
+    url('../../js/fonts/GenShinGothic/GenShinGothic-Regular-subset.woff') format('woff'), /* モダンブラウザ用 */
+    url('../../js/fonts/GenShinGothic/GenShinGothic-Regular-subset.ttf') format('truetype'); /* iOS, Android用 */
 }
 
 
@@ -54,6 +54,7 @@ body, .body_back, .main_back_adachi{
     /*commonのファイルでmargin絶対指定しているため上書き*/
     font-family:"Genshin-regular";
     /*全体リード文は、源真ゴシックRegularを用いる。Mediumは各場所個別で指定*/
+    font-size:18px;
 }
 
 /* ヘッダーとフッター・背景の設定終わり */
