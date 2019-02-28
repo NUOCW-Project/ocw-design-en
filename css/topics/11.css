@@ -167,320 +167,295 @@ p.interview{
     top:0px;
     right:0px;
     color:white;
-    /*opacity:0.3;                             ここあとでコードに戻す！*/
+    mix-blend-mode: overlay;
+    opacity:0.5;
     text-align:right;
     font-family: "Palatino Linotype";
     font-style:italic;
 
 }
-/*********************************************ここから、後で消す*********************************************/
-/*INTERVIEWの表現、試し*/
-/*画像一枚目：透過率0.5でoverlay付加*/
-.sono1{
-    mix-blend-mode: overlay;
-    opacity:0.5;
-}
-/*画像二枚目：透過率0.3でoverlay付加*/
-.sono2{
-    mix-blend-mode: overlay;
-    opacity:0.3;
-}
-/*画像三枚目：透過率0.5のみ*/
-.sono3{
-    opacity:0.5;
-}
-/*画像四枚目：透過率0.3のみ*/
-.sono4{
-    opacity:0.3;
-}
-/*画像五枚目：IEとEdgeは透過率0.3のみ,他は透過率0.5でoverlay付加*/
-.sono5{
-    mix-blend-mode: overlay;
-    opacity:0.5;
-}
+/*IEとEdgeは透過率0.3のみ,他ブラウザは透過率0.5でoverlay付加*/
+
 /*Edge*/
 @supports (-ms-accelerator:true) {
-    .sono5 {
+    p.interview{
         opacity: 0.3;
     }
 }
 /* IE(10以降) */
 @media all and (-ms-high-contrast:none){
-    .sono5 {
+    p.interview{
         opacity: 0.3;
     }
-}
-
-/*********************************************ここまで、後で消す*********************************************/
-p.sensei{
-    margin:0;
-    position:absolute;
-    color:white;
-    text-align: right;
-    font-family:"Genshin-medium";
-}
-
-p.gaiyou{
-    margin:0px;
-    position:absolute;
-    color:white;
-    text-align:left;
-}
-
-p.detail{
-    margin:0px;
-    position:absolute;
-    color:white;
-    text-align:right;
-}
-
-.underline {
-    text-decoration: underline;
-}
-
-/*幅によらず共通css 終わり*/
-
-/*以下、幅による場合分け（４パターン）幅670以下がスマホ版レイアウト*/
-/* width<320 */
-@media screen and (min-width: 0px){
-    #topics2018{
-        width: 100%;
-    }
-    #topics2018_contents{
-        width: 96%;
-    }
-    div.title {
-        font-size: 18px;
-    }
-    img{
-        height: 200px;
-        width: 667px;
-    }
-    div.imgwrap,div.allwrap{
-        height: 200px;
-    }
-    div.imggrad{
-        width:87.5vw;
-    }
-    /*スマホ版共通指定　はじめ*/
-
-    #contents{
-        font-size:14px;
-    }
-
-    p.interview{
-        margin-top:-23px;
-        font-size:87px;
-        transform:scale(0.6,1);
-        transform-origin: right top;
-    }
 
     p.sensei{
-        bottom:131px;
-        right:30px;
-        font-size:18px;
+        margin:0;
+        position:absolute;
+        color:white;
+        text-align: right;
+        font-family:"Genshin-medium";
     }
 
     p.gaiyou{
-        bottom:62px;
-        right:2.5vw;
-        font-size:12px;
-        width:300px;
+        margin:0px;
+        position:absolute;
+        color:white;
+        text-align:left;
     }
 
     p.detail{
-        bottom:30px;
-        right:3.5vw;
-        font-size:12px;
+        margin:0px;
+        position:absolute;
+        color:white;
+        text-align:right;
     }
 
-    p.note{
-        margin:0;
+    .underline {
+        text-decoration: underline;
     }
 
-    p.intro{
-        margin:40px 0px 40px 0px;
-    }
-    div.contents{
-        margin:25px 0px 25px 0px;
-    }
-    .imgkukita{
-        margin:0px 0px 15px 0px;
-    }
-    .imgstudents{
-        margin:0px 0px 40px 0px;
-    }
-    .imgtakeda{
-        margin:0px 0px 15px 0px;
-    }
-    .imgishiguro{
-        margin:0px 0px 15px 0px;
-    }
-    .imgtakeuchi{
-        margin:0px 0px 0px 0px;
+    /*幅によらず共通css 終わり*/
+
+    /*以下、幅による場合分け（４パターン）幅670以下がスマホ版レイアウト*/
+    /* width<320 */
+    @media screen and (min-width: 0px){
+        #topics2018{
+            width: 100%;
+        }
+        #topics2018_contents{
+            width: 96%;
+        }
+        div.title {
+            font-size: 18px;
+        }
+        img{
+            height: 200px;
+            width: 667px;
+        }
+        div.imgwrap,div.allwrap{
+            height: 200px;
+        }
+        div.imggrad{
+            width:87.5vw;
+        }
+        /*スマホ版共通指定　はじめ*/
+
+        #contents{
+            font-size:14px;
+        }
+
+        p.interview{
+            margin-top:-20px;
+            font-size:87px;
+            transform:scale(0.6,1);
+            transform-origin: right top;
+        }
+
+        p.sensei{
+            bottom:131px;
+            right:30px;
+            font-size:18px;
+        }
+
+        p.gaiyou{
+            bottom:62px;
+            right:2vw;
+            font-size:12px;
+            width:300px;
+        }
+
+        p.detail{
+            bottom:30px;
+            right:3.5vw;
+            font-size:12px;
+        }
+
+        p.note{
+            margin:0;
+        }
+
+        p.intro{
+            margin:40px 0px 40px 0px;
+        }
+        div.contents{
+            margin:25px 0px 25px 0px;
+        }
+        .imgkukita{
+            margin:0px 0px 15px 0px;
+        }
+        .imgstudents{
+            margin:0px 0px 40px 0px;
+        }
+        .imgtakeda{
+            margin:0px 0px 15px 0px;
+        }
+        .imgishiguro{
+            margin:0px 0px 15px 0px;
+        }
+        .imgtakeuchi{
+            margin:0px 0px 0px 0px;
+        }
+
+        /*ヘッダー画像部分　後で変更する　はじめ*/
+
+        .pcheader{
+            display:none;
+        }
+        .sumahoheader{
+            display:block;
+            font-size:20px;
+            height:400px;
+            width:100%;
+            text-align: center;
+            background-color:grey;
+        }
+
+        /*ヘッダー画像部分　後で変更する　おわり*/
+
+        /*スマホ版共通指定　終わり*/
     }
 
-    /*ヘッダー画像部分　後で変更する　はじめ*/
 
-    .pcheader{
-        display:none;
+    /* 320<width<670 */
+    @media screen and (min-width: 320px){
+        #topics2018{
+            width: 100%;
+        }
+        #topics2018_contents{
+            width: 96%;
+        }
 
+        div.imgwrap,div.allwrap{
+            height: 200px;
+        }
+        div.imggrad{
+            width:87.5%;
+        }
     }
-    .sumahoheader{
-        display:block;
-        font-size:25px;
-        height:400px;
-        width:100%;
-        text-align: center;
-        background-color:grey;
-    }
-
-    /*ヘッダー画像部分　後で変更する　おわり*/
-
-    /*スマホ版共通指定　終わり*/
-}
 
 
-/* 320<width<670 */
-@media screen and (min-width: 320px){
-    #topics2018{
-        width: 100%;
-    }
-    #topics2018_contents{
-        width: 96%;
+    /* 670<width<1140 */
+    @media screen and (min-width: 670px){
+        #topics2018{
+            width: 100%;
+        }
+        #topics2018_contents{
+            width: 88%;
+        }
+        div.title {
+            font-size: 27px;
+        }
+        img{
+            height: 300px;
+            width: 1000px;
+        }
+        div.allwrap{
+            height: 300px;
+            width:100%;
+        }
+        div.imgwrap{
+            height: 300px;
+        }
+        div.imggrad{
+            width:750px;
+        }
+        p.interview{
+            margin-top:-40px;
+            font-size:130px;/*155*/
+            transform:scale(0.75,1);
+            transform-origin: right top;
+        }
+        /*PC版共通指定　はじめ*/
+
+        #contents{
+            font-size:18px;
+        }
+
+        p.sensei{
+            bottom:194px;
+            right:40px;
+            font-size:36px;
+        }
+
+        p.gaiyou{
+            bottom:98px;
+            right:40px;
+            font-size:18px;
+            width:480px;
+        }
+
+        p.detail{
+            bottom:50px;
+            right:40px;
+            font-size:18px;
+        }
+
+        p.note{
+            margin:0;
+            padding-left:3em;
+            text-indent:-1em;
+        }
+
+        p.intro{
+            margin:65px 0px 65px 0px;
+        }
+        div.contents{
+            margin:40px 0px 40px 0px;
+        }
+        .imgkukita{
+            margin:0px 0px 30px 0px;
+        }
+        .imgstudents{
+            margin:0px 0px 65px 0px;
+        }
+        .imgtakeda{
+            margin:0px 0px 30px 0px;
+        }
+        .imgishiguro{
+            margin:0px 0px 30px 0px;
+        }
+        .imgtakeuchi{
+            margin:0px 0px 0px 0px;
+        }
+
+        /*ヘッダー画像部分　後で変更する　はじめ*/
+
+        .pcheader{
+            display:block;
+            font-size:35px;
+            background-color:grey;
+            height:400px;
+            width:100%;
+            text-align: center;
+        }
+        .sumahoheader{
+            display:none;
+        }
+
+        /*ヘッダー画像部分　後で変更する　おわり*/
+        /*PC版共通指定　終わり*/
     }
 
-    div.imgwrap,div.allwrap{
-        height: 200px;
-    }
-    div.imggrad{
-        width:87.5%;
-    }
-}
 
+    /*1140<width*/
+    @media screen and (min-width: 1140px){
 
-/* 670<width<1140 */
-@media screen and (min-width: 670px){
-    #topics2018{
-        width: 100%;
-    }
-    #topics2018_contents{
-        width: 88%;
-    }
-    div.title {
-        font-size: 27px;
-    }
-    img{
-        height: 300px;
-        width: 1000px;
-    }
-    div.allwrap{
-        height: 300px;
-        width:100%;
-    }
-    div.imgwrap{
-        height: 300px;
-    }
-    div.imggrad{
-        width:750px;
-    }
-    p.interview{
-        margin-top:-40px;
-        font-size:130px;/*155*/
-        transform:scale(0.75,1);
-        transform-origin: right top;
-    }
-    /*PC版共通指定　はじめ*/
+        #topics2018{
+            width: 1140px;
+        }
+        #topics2018_contents{
+            width: 1000px;
+        }
 
-    #contents{
-        font-size:18px;
-    }
+        img,div.allwrap{
+            height: 300px;
+            width: 1000px;
+        }
 
-    p.sensei{
-        bottom:194px;
-        right:40px;
-        font-size:36px;
+        div.imgwrap{
+            height: 300px;
+        }
+        div.imggrad{
+            width:750px;
+        }
     }
-
-    p.gaiyou{
-        bottom:98px;
-        right:40px;
-        font-size:18px;
-        width:480px;
-    }
-
-    p.detail{
-        bottom:50px;
-        right:40px;
-        font-size:18px;
-    }
-
-    p.note{
-        margin:0;
-        padding-left:3em;
-        text-indent:-1em;
-    }
-
-    p.intro{
-        margin:65px 0px 65px 0px;
-    }
-    div.contents{
-        margin:40px 0px 40px 0px;
-    }
-    .imgkukita{
-        margin:0px 0px 30px 0px;
-    }
-    .imgstudents{
-        margin:0px 0px 65px 0px;
-    }
-    .imgtakeda{
-        margin:0px 0px 30px 0px;
-    }
-    .imgishiguro{
-        margin:0px 0px 30px 0px;
-    }
-    .imgtakeuchi{
-        margin:0px 0px 0px 0px;
-    }
-
-    /*ヘッダー画像部分　後で変更する　はじめ*/
-
-    .pcheader{
-        display:block;
-        font-size:35px;
-        background-color:grey;
-        height:400px;
-        width:100%;
-        text-align: center;
-    }
-    .sumahoheader{
-        display:none;
-    }
-
-    /*ヘッダー画像部分　後で変更する　おわり*/
-    /*PC版共通指定　終わり*/
-}
-
-
-/*1140<width*/
-@media screen and (min-width: 1140px){
-
-    #topics2018{
-        width: 1140px;
-    }
-    #topics2018_contents{
-        width: 1000px;
-    }
-
-    img,div.allwrap{
-        height: 300px;
-        width: 1000px;
-    }
-
-    div.imgwrap{
-        height: 300px;
-    }
-    div.imggrad{
-        width:750px;
-    }
-}
