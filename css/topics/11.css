@@ -183,10 +183,11 @@ p.interview{
     }
 }
 /* IE(10以降) */
-@media all and (-ms-high-contrast:none){
-    p.interview{
+@media all and (-ms-high-contrast:none) {
+    p.interview {
         opacity: 0.3;
     }
+}
 
     p.sensei{
         margin:0;
