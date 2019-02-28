@@ -159,12 +159,51 @@ p.interview{
     top:0px;
     right:0px;
     color:white;
-    opacity:0.3;
+    /*opacity:0.3;                             ここあとでコードに戻す！*/
     text-align:right;
     font-family: Palatino Linotype;
     font-style:italic;
+
+}
+/*********************************************ここから、後で消す*********************************************/
+/*INTERVIEWの表現、試し*/
+/*画像一枚目：透過率0.5でoverlay付加*/
+.sono1{
+    mix-blend-mode: overlay;
+    opacity:0.5;
+}
+/*画像二枚目：透過率0.3でoverlay付加*/
+.sono2{
+    mix-blend-mode: overlay;
+    opacity:0.3;
+}
+/*画像三枚目：透過率0.5のみ*/
+.sono3{
+    opacity:0.5;
+}
+/*画像四枚目：透過率0.3のみ*/
+.sono4{
+    opacity:0.3;
+}
+/*画像五枚目：IEとEdgeは透過率0.3のみ,他は透過率0.5でoverlay付加*/
+.sono5{
+    mix-blend-mode: overlay;
+    opacity:0.5;
+}
+/*Edge*/
+@supports (-ms-accelerator:true) {
+    .sono5 {
+        opacity: 0.3;
+    }
+}
+/* IE(10以降) */
+@media all and (-ms-high-contrast:none){
+    .sono5 {
+        opacity: 0.3;
+    }
 }
 
+/*********************************************ここまで、後で消す*********************************************/
 p.sensei{
     margin:0;
     position:absolute;
