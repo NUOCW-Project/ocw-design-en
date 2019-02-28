@@ -269,7 +269,7 @@ p.detail{
     }
 
     p.interview{
-        margin-top:-30px;
+        margin-top:-25px;
         font-size:87px;
         transform:scale(0.6,1);
         transform-origin: right top;
@@ -283,9 +283,9 @@ p.detail{
 
     p.gaiyou{
         bottom:62px;
-        right:3.5vw;
+        right:3vw;
         font-size:12px;
-        width:280px;
+        width:300px;
     }
 
     p.detail{
