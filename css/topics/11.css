@@ -226,7 +226,7 @@ p.detail{
 /*幅によらず共通css 終わり*/
 
 /*以下、幅による場合分け（４パターン）幅670以下がスマホ版レイアウト*/
-/* width<320 */
+/* width<340 */
 @media screen and (min-width: 0px){
     #topics2018{
         width: 100%;
@@ -268,7 +268,7 @@ p.detail{
 
     p.gaiyou{
         bottom:62px;
-        right:-3vw;
+        right:-2.4vw;
         font-size:12px;
         width:300px;
     }
@@ -325,8 +325,8 @@ p.detail{
 }
 
 
-/* 320<width<670 */
-@media screen and (min-width: 321px){
+/* 340<width<670 */
+@media screen and (min-width: 340px){
     #topics2018{
         width: 100%;
     }
@@ -474,4 +474,4 @@ p.detail{
     div.imggrad{
         width:750px;
     }
-}../../
+}
