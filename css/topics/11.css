@@ -20,9 +20,9 @@
 /*Palatino Linotype*/
 @font-face{
     font-family: 'Palatino Linotype';
-    src: url('../../js/fonts/palatino_linotype/palatino linotype.eot'), /* IE9以上用 */
-    url('../../js/fonts/palatino_linotype/palatino linotype.woff') format('woff'), /* モダンブラウザ用 */
-    url('../../js/fonts/palatino_linotype/palatino linotype.ttf') format('truetype'); /* iOS, Android用 */
+    src: url('../../js/fonts/palatino_linotype/palatinolinotype.eot'), /* IE9以上用 */
+    url('../../js/fonts/palatino_linotype/palatinolinotype.woff') format('woff'), /* モダンブラウザ用 */
+    url('../../js/fonts/palatino_linotype/palatinolinotype.ttf') format('truetype'); /* iOS, Android用 */
 }
 
 
