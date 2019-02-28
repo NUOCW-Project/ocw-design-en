@@ -17,6 +17,14 @@
     url('../../js/fonts/GenShinGothic/GenShinGothic-Regular-subset.ttf') format('truetype'); /* iOS, Android用 */
 }
 
+/*Palatino Linotype*/
+@font-face{
+    font-family: 'Palatino Linotype';
+    src: url('../../js/fonts/palatino_linotype/palatino linotype.eot'), /* IE9以上用 */
+    url('../../js/fonts/palatino_linotype/palatino linotype.woff') format('woff'), /* モダンブラウザ用 */
+    url('../../js/fonts/palatino_linotype/palatino linotype.ttf') format('truetype'); /* iOS, Android用 */
+}
+
 
 
 /*フォントインポート終わり*/
@@ -161,7 +169,7 @@ p.interview{
     color:white;
     /*opacity:0.3;                             ここあとでコードに戻す！*/
     text-align:right;
-    font-family: Palatino Linotype;
+    font-family: 'Palatino Linotype';
     font-style:italic;
 
 }
