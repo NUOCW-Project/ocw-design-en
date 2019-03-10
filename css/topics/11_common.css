@@ -3,12 +3,20 @@
 
 /*フォントインポートはじめ*/
 
-/*源真 Medium*/
+/*源真 Bold*/
 @font-face{
     font-family: 'Genshin-bold';
     src: url('../../js/fonts/GenShinGothic/GenShinGothic-Bold-subset.eot'), /* IE9以上用 */
     url('../../js/fonts/GenShinGothic/GenShinGothic-Bold-subset.woff') format('woff'), /* モダンブラウザ用 */
     url('../../js/fonts/GenShinGothic/GenShinGothic-Bold-subset.ttf') format('truetype'); /* iOS, Android用 */
+}
+
+/*源真 Medium*/
+@font-face{
+    font-family: 'Genshin-medium';
+    src: url('../../js/fonts/GenShinGothic/GenShinGothic-Medium-subset.eot'), /* IE9以上用 */
+    url('../../js/fonts/GenShinGothic/GenShinGothic-Medium-subset.woff') format('woff'), /* モダンブラウザ用 */
+    url('../../js/fonts/GenShinGothic/GenShinGothic-Medium-subset.ttf') format('truetype'); /* iOS, Android用 */
 }
 
 /*源真 Regular*/
@@ -18,6 +26,9 @@
     url('../../js/fonts/GenShinGothic/GenShinGothic-Regular-subset.woff') format('woff'), /* モダンブラウザ用 */
     url('../../js/fonts/GenShinGothic/GenShinGothic-Regular-subset.ttf') format('truetype'); /* iOS, Android用 */
 }
+
+
+
 
 /*フォントインポート終わり*/
 div#package2{
