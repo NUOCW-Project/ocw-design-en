@@ -26,6 +26,5 @@ div.allow:after {
 /*矢印型見出し　終わり*/
 
 span.bold{
-    font-family:'Genshin-bold'
-    text-indent:1em
+    font-family:'Genshin-bold';
 }
