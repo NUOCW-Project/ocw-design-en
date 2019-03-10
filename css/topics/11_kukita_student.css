@@ -1,0 +1,30 @@
+/*タイトル装飾 ここから*/
+div.title{
+    border-left:solid 5px #E18862;
+}
+div.title::before{
+    border-left:solid 12px #E18862;
+}
+div.title::after{
+    border-bottom:solid 5px #E18862;
+}
+/*タイトル装飾 ここまで*/
+
+/*見出し　ポストイット風デザイン https://www.sejuku.net/blog/56721#i-9を参考*/
+div.postit {
+    background-color: #E18862;  /* 背景色指定 */
+}
+/*ポストイット風デザインここまで*/
+
+/*矢印型見出し　はじめ*/
+div.allow:before {
+    border-bottom: solid 20px #E18862;
+}
+div.allow:after {
+    border-bottom: solid 5px #E18862;
+}
+/*矢印型見出し　終わり*/
+
+span.bold{
+    font-family:'Genshin-bold'
+}
