@@ -71,6 +71,11 @@ body, .body_back, .main_back_adachi{
     width: 90%;
 }
 
+a{
+    text-decoration:none;
+    font-color:#333333;
+}
+
 /*タイトル装飾 ここから*/
 div.title{
     font-size:27px;
