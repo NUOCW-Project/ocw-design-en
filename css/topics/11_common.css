@@ -86,7 +86,7 @@ a{
     text-decoration:none;
     color:#333333;
 }
-a:hover{
+a:link{
     text-decoration:none;
     color:#333333;
 }
@@ -94,8 +94,13 @@ a:visited{
     text-decoration:none;
     color:#333333;
 }
-a:link{
-    text-decoration:none;
+a:hover{
+    text-decoration:underline;
+    color:#333333;
+    opacity:0.8;
+}
+a:active{
+    text-decoration:underline;
     color:#333333;
 }
 
@@ -171,8 +176,8 @@ div.Q:before{
 
 /*矢印型見出し　はじめ*/
 div.allow{
-        position: relative;
-    }
+    position: relative;
+}
 div.allow:before {
     position: absolute;
     content: '';
@@ -235,8 +240,8 @@ ul.footerlink > li::before{
 }
 
 a{
- text-decoration:none;
- color:#333333;
+    text-decoration:none;
+    color:#333333;
 }
 /********************************幅によらず共通css 終わり********************************/
 
@@ -251,7 +256,7 @@ a{
         width: 96%;
     }
 
-/*********************************スマホ版共通指定　はじめ*********************************/
+    /*********************************スマホ版共通指定　はじめ*********************************/
     div.title {
         font-family:"Genshin-medium";
         font-size: 24px;
@@ -263,13 +268,13 @@ a{
 
     /*ポストイット風デザイン　はじめ*/
     div.postitwrap{
-    margin:15px 0 0 15px;
+        margin:15px 0 0 15px;
     }
     div.postit {
-    font-family:"Genshin-medium";
-    font-size: 18px;
-    padding: 0 15px 0 15px;
-    line-height: 40px;
+        font-family:"Genshin-medium";
+        font-size: 18px;
+        padding: 9px 15px 9px 15px;
+        line-height: 20px;
     }
     /*ポストイット風デザイン　おわり*/
 
@@ -338,7 +343,7 @@ a{
 
     /*ヘッダー画像部分　後で変更する　おわり*/
 
-/*********************************スマホ版共通指定　終わり*********************************/
+    /*********************************スマホ版共通指定　終わり*********************************/
 }
 
 
@@ -364,7 +369,7 @@ a{
         width: 88%;
     }
 
-/*********************************PC版共通指定　はじめ*********************************/
+    /*********************************PC版共通指定　はじめ*********************************/
     div.title {
         font-family:"Genshin-bold";
         font-size:33px;
@@ -381,8 +386,8 @@ a{
     div.postit {
         font-family:"Genshin-bold";
         font-size: 24px;
-        padding: 0 20px 0 20px;
-        line-height: 50px;
+        padding: 13px 20px 13px 20px;
+        line-height: 26px;
     }
     /*ポストイット風デザイン　おわり*/
 
@@ -403,32 +408,32 @@ a{
     /*各段落　余白設定　はじめ*/
 
     div.videoframe{
-    margin: 0px 0px 40px 0px;
+        margin: 0px 0px 40px 0px;
     }
 
     ol.index{
-    margin:20px 0 50px 0;
-    list-style:none;
+        margin:20px 0 50px 0;
+        list-style:none;
     }
 
     ul.footerlink{
-    margin:20px 0 0 20px;
+        margin:20px 0 0 20px;
     }
 
     p.contents{
-    margin:30px 20px 40px 20px;
+        margin:30px 20px 40px 20px;
     }
 
     p.lastcontents{
-    margin:30px 20px 90px 20px;
+        margin:30px 20px 90px 20px;
     }
 
     li.footerlist1{
-    margin:20px 0px 45px 0px;
+        margin:20px 0px 45px 0px;
     }
 
     li.footerlist2{
-    margin: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
     }
 
     /*各段落　余白設定　おわり*/
@@ -446,7 +451,7 @@ a{
         display:none;
     }
     /*ヘッダー画像部分　後で変更する　おわり*/
-/*********************************PC版共通指定　終わり*********************************/
+    /*********************************PC版共通指定　終わり*********************************/
 }
 
 
