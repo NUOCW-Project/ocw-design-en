@@ -1,0 +1,26 @@
+/*タイトル装飾 ここから*/
+div.title{
+    border-left:solid 5px #867AAA;
+}
+div.title::before{
+    border-left:solid 12px #867AAA;
+}
+div.title::after{
+    border-bottom:solid 5px #867AAA;
+}
+/*タイトル装飾 ここまで*/
+
+/*見出し　ポストイット風デザイン https://www.sejuku.net/blog/56721#i-9を参考*/
+div.postit {
+    background-color: #867AAA;  /* 背景色指定 */
+}
+/*ポストイット風デザインここまで*/
+
+/*矢印型見出し　はじめ*/
+div.allow:before {
+    border-bottom: solid 20px #867AAA;
+}
+div.allow:after {
+    border-bottom: solid 5px #867AAA;
+}
+/*矢印型見出し　終わり*/

@@ -1,0 +1,468 @@
+@charset "UTF-8";
+/*TOPICS11　記事ページ共通CSS*/
+
+/*フォントインポートはじめ*/
+
+/*源真 Bold*/
+@font-face{
+    font-family: 'Genshin-bold';
+    src: url('../../js/fonts/GenShinGothic/GenShinGothic-Bold-subset.eot'), /* IE9以上用 */
+    url('../../js/fonts/GenShinGothic/GenShinGothic-Bold-subset.woff') format('woff'), /* モダンブラウザ用 */
+    url('../../js/fonts/GenShinGothic/GenShinGothic-Bold-subset.ttf') format('truetype'); /* iOS, Android用 */
+}
+
+/*源真 Medium*/
+@font-face{
+    font-family: 'Genshin-medium';
+    src: url('../../js/fonts/GenShinGothic/GenShinGothic-Medium-subset.eot'), /* IE9以上用 */
+    url('../../js/fonts/GenShinGothic/GenShinGothic-Medium-subset.woff') format('woff'), /* モダンブラウザ用 */
+    url('../../js/fonts/GenShinGothic/GenShinGothic-Medium-subset.ttf') format('truetype'); /* iOS, Android用 */
+}
+
+/*源真 Regular*/
+@font-face{
+    font-family: 'Genshin-regular';
+    src: url('../../js/fonts/GenShinGothic/GenShinGothic-Regular-subset.eot'), /* IE9以上用 */
+    url('../../js/fonts/GenShinGothic/GenShinGothic-Regular-subset.woff') format('woff'), /* モダンブラウザ用 */
+    url('../../js/fonts/GenShinGothic/GenShinGothic-Regular-subset.ttf') format('truetype'); /* iOS, Android用 */
+}
+
+
+
+
+/*フォントインポート終わり*/
+div#package2{
+    top: 0px;
+    float:none;
+    /*どこかのファイルでfloat:leftとなっている様子。ここで上書き*/
+}
+
+/* ヘッダーとフッター・背景の設定はじめ */
+body, .body_back, .main_back_adachi{
+    background: none;
+}
+
+.header_edge, .pankuzu, .footer, #footer_bottom, .main_back_adachi, .main_back_url, .topjump{
+    display: none;
+}
+
+.main_back{
+    background: none;
+    max-width: initial;
+}
+
+.main{
+    margin: 0 auto;
+    background: none;
+    width: 100%
+}
+
+#contents{
+    padding: 0;
+    width: 100%  !important;
+    background-color: #f2f2f2;
+    margin: 0 auto;
+    /*commonのファイルでmargin絶対指定しているため上書き*/
+    font-family:"Genshin-regular";
+    /*全体リード文は、源真ゴシックRegularを用いる。Boldは各場所個別で指定*/
+    color: #333333;
+}
+
+/* ヘッダーとフッター・背景の設定終わり */
+
+/*********************************幅によらず共通css はじめ*********************************/
+
+#topics2018{
+    margin: 0 auto;
+    background-color: white;
+}
+
+#topics2018_contents{
+    margin:0 auto;
+    width: 90%;
+}
+
+a{
+    text-decoration:none;
+    color:#333333;
+}
+a:link{
+    text-decoration:none;
+    color:#333333;
+}
+a:visited{
+    text-decoration:none;
+    color:#333333;
+}
+a:hover{
+    text-decoration:underline;
+    color:#333333;
+    opacity:0.8;
+}
+a:active{
+    text-decoration:underline;
+    color:#333333;
+}
+
+/*タイトル装飾 ここから*/
+div.title{
+    font-size:27px;
+    padding:10px;
+    position:relative;
+    margin-left:17px;
+}
+
+div.title::before{
+    content:"";
+    height:100%;
+    position:absolute;
+    bottom:0px;
+    left:-22px;
+}
+
+div.title::after{
+    content:"";
+    width:100%;/*calc()非対応ブラウザ用*/
+    width:calc(100% + 22px);
+    position:absolute;
+    bottom:0px;
+    left:-22px;
+}
+/*タイトル装飾 ここまで*/
+
+/*見出し　ポストイット風デザイン https://www.sejuku.net/blog/56721#i-9を参考*/
+div.postitwrap{
+    position:relative;
+    display:inline-block;
+}
+
+div.postit {
+    color:white;
+    display:  block;     /* インラインブロックにする */
+    position:  relative;        /* 位置調整 */
+    border-radius:  2px;        /* 角丸指定 */
+
+}
+
+div.postitwrap::before{
+    content:  '';               /* 空白の要素を作る */
+    background-color: #b3b3b3;  /* 背景色指定 */
+    display:  block;            /* ブロック要素にする */
+    position:  absolute;        /* 位置調整 */
+    left: 50%;                  /* 位置調整 */
+    height: 60%;                /* 高さ指定 */
+    top: 33%;                   /* 位置調整 */
+    width: 46%;                 /* 幅指定 */
+    box-shadow: 0 0 8px 8px #b3b3b3;/* 影指定 */
+    transform: rotate(3deg);    /* 回転 */
+}
+/*ポストイット風デザインここまで*/
+
+
+/*左に横線見出しデザイン　はじめ*/
+div.Q{
+    position:relative;
+    margin-left:30px;
+}
+div.Q:before{
+    content:"";
+    position:absolute;
+    top:50%;
+    left:-30px;
+    width:25px;
+    border-top:solid 2px black;
+}
+/*左に横線見出しデザイン　終わり*/
+
+/*矢印型見出し　はじめ*/
+div.allow{
+    position: relative;
+}
+div.allow:before {
+    position: absolute;
+    content: '';
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border: none;
+    border-left: solid 20px transparent;
+}
+div.allow:after {
+    position: absolute;
+    content: '';
+    bottom: -3px;
+    left: 10px;
+    width: 100%;
+}
+
+
+/*矢印型見出し　終わり*/
+
+
+/*動画部分　はじめ*/
+.videoframe{
+    position:relative;
+    width:100%;
+    height:auto;
+}
+
+.videoframe img{
+    width:100%;
+    height:auto;
+}
+
+.movie{
+    position:absolute;
+    top:3.7%;
+    left:5%;
+    width:90%;
+    height:auto;
+}
+/*動画部分　終わり*/
+
+ol.index{
+    padding:0;
+}
+
+
+ul{
+    list-style-type: disc;
+}
+ul.footerlink{
+    padding:0;
+}
+ul.footerlink > li{
+    list-style-type: none;
+}
+ul.footerlink > li::before{
+    content:"◆"
+}
+
+a{
+    text-decoration:none;
+    color:#333333;
+}
+/********************************幅によらず共通css 終わり********************************/
+
+/*以下、幅による場合分け（４パターン）幅670以下がスマホ版レイアウト*/
+/* width<340 */
+@media screen and (min-width: 0px){
+    #topics2018{
+        width: 100%;
+        padding-bottom:60px;
+    }
+    #topics2018_contents{
+        width: 96%;
+    }
+
+    /*********************************スマホ版共通指定　はじめ*********************************/
+    div.title {
+        font-family:"Genshin-medium";
+        font-size: 24px;
+    }
+
+    #contents{
+        font-size:14px;
+    }
+
+    /*ポストイット風デザイン　はじめ*/
+    div.postitwrap{
+        margin:15px 0 0 15px;
+    }
+    div.postit {
+        font-family:"Genshin-medium";
+        font-size: 18px;
+        padding: 9px 15px 9px 15px;
+        line-height: 20px;
+    }
+    /*ポストイット風デザイン　おわり*/
+
+    div.Q {
+        font-family:"Genshin-medium";
+        font-size: 18px;
+    }
+
+    ol,ul{
+        font-size:16px;
+    }
+
+    div.allow{
+        font-size:22px;
+        padding-left: 25px;
+    }
+
+    /*各段落　余白設定　はじめ*/
+
+    div.videoframe{
+        margin: 0px 0px 25px 0px;
+    }
+
+    ol.index{
+        margin:15px 0 30px 0;
+        list-style:none;
+    }
+
+    ul.footerlink{
+        margin:20px 0 0 20px;
+    }
+
+    p.contents{
+        margin:20px 15px 25px 15px;
+    }
+
+    p.lastcontents{
+        margin:20px 15px 60px 15px;
+    }
+
+    li.footerlist1{
+        margin:15px 0px 28px 0px;
+    }
+
+    li.footerlist2{
+        margin: 0px 0px 0px 0px;
+    }
+
+    /*各段落　余白設定　おわり*/
+
+
+
+    /*ヘッダー画像部分　後で変更する　はじめ*/
+
+    .pcheader{
+        display:none;
+    }
+    .sumahoheader{
+        display:block;
+        font-size:20px;
+        height:400px;
+        width:100%;
+        text-align: center;
+        background-color:grey;
+    }
+
+    /*ヘッダー画像部分　後で変更する　おわり*/
+
+    /*********************************スマホ版共通指定　終わり*********************************/
+}
+
+
+/* 340<width<670 */
+@media screen and (min-width: 340px){
+    #topics2018{
+        width: 100%;
+    }
+    #topics2018_contents{
+        width: 96%;
+    }
+
+}
+
+
+/* 670<width<1140 */
+@media screen and (min-width: 670px){
+    #topics2018{
+        width: 100%;
+        padding-bottom:90px;
+    }
+    #topics2018_contents{
+        width: 88%;
+    }
+
+    /*********************************PC版共通指定　はじめ*********************************/
+    div.title {
+        font-family:"Genshin-bold";
+        font-size:33px;
+    }
+
+    #contents{
+        font-size:16px;
+    }
+
+    /*ポストイット風デザイン　はじめ*/
+    div.postitwrap{
+        margin:20px 0 0 20px;
+    }
+    div.postit {
+        font-family:"Genshin-bold";
+        font-size: 24px;
+        padding: 13px 20px 13px 20px;
+        line-height: 26px;
+    }
+    /*ポストイット風デザイン　おわり*/
+
+    div.Q {
+        font-family:"Genshin-bold";
+        font-size: 24px;
+    }
+
+    ol,ul{
+        font-size:18px;
+    }
+
+    div.allow{
+        font-size:33px;
+        padding-left: 40px;
+    }
+
+    /*各段落　余白設定　はじめ*/
+
+    div.videoframe{
+        margin: 0px 0px 40px 0px;
+    }
+
+    ol.index{
+        margin:20px 0 50px 0;
+        list-style:none;
+    }
+
+    ul.footerlink{
+        margin:20px 0 0 20px;
+    }
+
+    p.contents{
+        margin:30px 20px 40px 20px;
+    }
+
+    p.lastcontents{
+        margin:30px 20px 90px 20px;
+    }
+
+    li.footerlist1{
+        margin:20px 0px 45px 0px;
+    }
+
+    li.footerlist2{
+        margin: 0px 0px 0px 0px;
+    }
+
+    /*各段落　余白設定　おわり*/
+
+    /*ヘッダー画像部分　後で変更する　はじめ*/
+    .pcheader{
+        display:block;
+        font-size:35px;
+        background-color:grey;
+        height:400px;
+        width:100%;
+        text-align: center;
+    }
+    .sumahoheader{
+        display:none;
+    }
+    /*ヘッダー画像部分　後で変更する　おわり*/
+    /*********************************PC版共通指定　終わり*********************************/
+}
+
+
+/*1140<width*/
+@media screen and (min-width: 1140px){
+
+    #topics2018{
+        width: 1140px;
+    }
+    #topics2018_contents{
+        width: 1000px;
+    }
+
+}
