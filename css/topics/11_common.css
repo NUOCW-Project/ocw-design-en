@@ -233,8 +233,8 @@ div.allow:after {
     position:absolute;
     top:0;
     left:0;
-    width:100%; !important
-    height:100%; !important
+    width:100% !important;
+    height:auto !important;
 }
 /*試作　試作　試作　ここまで*/
 
