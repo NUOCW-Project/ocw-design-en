@@ -212,13 +212,32 @@ div.allow:after {
     height:auto;
 }
 
-.movie{
+/*.movie{*/
+    /*position:absolute;*/
+    /*top:3.7%;*/
+    /*left:5%;*/
+    /*width:90%;*/
+    /*height:auto;*/
+/*}バックアップ3/27 15:05 下のがうまくいかなければ戻す*/
+
+/*試作　試作　試作　ここから*/
+.movie div{
     position:absolute;
     top:3.7%;
     left:5%;
     width:90%;
     height:auto;
 }
+
+.movie div{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%; !important
+    height:auto; !important
+}
+/*試作　試作　試作　ここまで*/
+
 /*動画部分　終わり*/
 
 ol.index{
