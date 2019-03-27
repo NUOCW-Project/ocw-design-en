@@ -221,7 +221,7 @@ div.allow:after {
 /*}バックアップ3/27 15:05 下のがうまくいかなければ戻す*/
 
 /*試作　試作　試作　ここから*/
-.movie div{
+.movie{
     position:absolute;
     top:3.7%;
     left:5%;
@@ -234,7 +234,7 @@ div.allow:after {
     top:0;
     left:0;
     width:100%; !important
-    height:auto; !important
+    height:100%; !important
 }
 /*試作　試作　試作　ここまで*/
 
