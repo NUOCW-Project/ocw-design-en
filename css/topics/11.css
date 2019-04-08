@@ -558,4 +558,37 @@ ul.titleli{
     div.imggrad{
         width:750px;
     }
+
+    /*ヘッダー画像部分　文字サイズ等最大値設定　はじめ*/
+
+    div.headertext{
+        font-size:51.3px;
+        line-height:62.7px;
+        letter-spacing: 7.98px;
+    }
+
+    div.headertitle{
+        height:136.8px;
+    }
+
+    div.headertitle .left{
+        font-size:39.9px;
+        line-height:62.7px;
+        letter-spacing:0;
+    }
+
+    div.headertitle .right{
+        font-size:91.2px;
+        line-height:79.8px;
+        padding: 28.5px 0 0 0;
+    }
+
+    ul.titleli{
+        padding: 0 0 0 57px;
+    }
+    /*ヘッダー画像部分　文字サイズ等最大値設定　終わり*/
+
+
+
+
 }
