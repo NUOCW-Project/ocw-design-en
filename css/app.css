@@ -44,6 +44,7 @@ body, .body_back, .main_back_adachi{
     margin: 0 auto;
     background-color: #141e3d;
     color:white;
+    font-size: 14px;
 }
 
 #apply_contents{
