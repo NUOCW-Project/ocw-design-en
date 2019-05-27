@@ -46,11 +46,8 @@ input[name="tab_item"] {
 }
 
 /*選択されているタブのコンテンツのみを表示*/
-#educ:checked ~ #educ_content,
-#info:checked ~ #info_content,
 #scie:checked ~ #scie_content,
-#law:checked ~ #law_content,
-#other:checked ~ #other_content {
+#lit:checked ~ #lit_content,{
    display: block;
 }
 
