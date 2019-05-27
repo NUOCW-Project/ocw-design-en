@@ -44,7 +44,7 @@ body, .body_back, .main_back_adachi{
     margin: 0 auto;
     background-color: #141e3d;
     color:white;
-    font-size: 14px;
+    font-size: 1.37vw; 
 }
 
 #apply_contents{
@@ -56,33 +56,33 @@ body, .body_back, .main_back_adachi{
 /*********************************幅によらず共通css はじめ*********************************/
 
 div.title1{
-text-align:center;
+text-align: center;
 margin: 0px auto;
 }
 
 div.title1_1{
-font-size:30px;
+font-size: 2.9vw; 
 }
 
 div.title1_2{
-font-size:45px;
+font-size: 4.5vw; 
 }
 
 div.addition{
-font-size:18px;
-text-align:right;
+font-size: 1.8vw; 
+text-align: right;
 }
 
 div.point{
-font-size: 18px;
+font-size: 1.8px; 
 text-align: left;
-line-height: 30%;
+line-height: 45%; 
 }
 
 div.title2{
-    font-size:25px;
-    text-align:center;
-    margin: 75px 0 0px 0;
+    font-size: 2.5vw; 
+    text-align: center;
+    margin: 75px 0 10px 0; 
 }
 
 div.contents{
@@ -93,7 +93,7 @@ h2{
     font-size: 24px; 
     text-align: left;    
     color: #FF4D4D; 
-    margin: 40px 0 20px 0; 
+    margin: 40px 0 20px 5px; 
 }
 
 h3{
