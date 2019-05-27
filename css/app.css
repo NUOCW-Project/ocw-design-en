@@ -81,28 +81,23 @@ line-height: 30%;
 div.title2{
     font-size:25px;
     text-align:center;
+    margin: 75px 0 0px 0;
 }
 
 div.contents{
-    font-size: 16px;
     text-align: left;    
 }
 
 h2{
-    font-size: 20px;
+    font-size: 24px; 
     text-align: left;    
-    color: #dd0000;
-    margin: 45px 0 0px 0;
+    color: #FF4D4D; 
+    margin: 40px 0 20px 0; 
 }
 
 h3{
     font-size: 18px;
 }
-
-h3:before {
-    content:"■";
-}
-
 
 
 /*ここに内容書いていく！！*/
