@@ -47,7 +47,7 @@ input[name="tab_item"] {
 
 /*選択されているタブのコンテンツのみを表示*/
 #scie:checked ~ #scie_content,
-#lit:checked ~ #lit_content,{
+#lit:checked ~ #lit_content{
    display: block;
 }
 
