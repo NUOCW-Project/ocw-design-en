@@ -10,6 +10,57 @@ div#package2{
    margin: 0 0 30px 0;
 }
 
+/* tabs property */
+/*タブのスタイル*/
+.tab_item {
+   width: calc(100%/5);
+   height: 60px;
+   border: 3px solid white;
+   background-color: red;
+   color: white;
+   line-height: 54px;
+   font-size: 25px;
+   text-align: center;
+   display: block;
+   float: left;
+   box-sizing: border-box;
+   text-align: center;
+   transition: all 0.2s ease;
+   margin: 0 0 30px 0;
+}
+
+.tab_item:hover {
+   opacity: 0.60;
+}
+
+/*ラジオボタンを全て消す*/
+input[name="tab_item"] {
+   display: none;
+}
+
+/*タブ切り替えの中身のスタイル*/
+.tab_content {
+   display: none;
+   clear: both;
+   overflow: hidden;
+}
+
+/*選択されているタブのコンテンツのみを表示*/
+#educ:checked ~ #educ_content,
+#info:checked ~ #info_content,
+#scie:checked ~ #scie_content,
+#law:checked ~ #law_content,
+#other:checked ~ #other_content {
+   display: block;
+}
+
+/*選択されているタブのスタイルを変える*/
+.tabs input:checked + .tab_item {
+   border: 3px solid red;
+   font-size: 28px;
+}
+
+
 /* movie property */
 
 .movie{
