@@ -74,7 +74,7 @@ text-align: right;
 }
 
 div.point{
-font-size: 1.8px; 
+font-size: 1.8vw; 
 text-align: left;
 line-height: 45%; 
 }
@@ -98,6 +98,11 @@ h2{
 
 h3{
     font-size: 18px;
+    background-image: none;
+}
+
+h3:before{
+    content: '■';
 }
 
 
