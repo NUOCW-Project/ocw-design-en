@@ -73,12 +73,6 @@ font-size: 1.8vw;
 text-align: right;
 }
 
-div.point{
-font-size: 1.8vw; 
-text-align: left;
-line-height: 45%; 
-}
-
 div.title2{
     font-size: 2.5vw; 
     text-align: center;
@@ -90,14 +84,14 @@ div.contents{
 }
 
 h2{
-    font-size: 24px; 
+    font-size: 2.4vw; 
     text-align: left;    
     color: #FF4D4D; 
     margin: 40px 0 20px 5px; 
 }
 
 h3{
-    font-size: 18px;
+    font-size: 1.8vw;
     background-image: none;
 }
 
@@ -105,6 +99,9 @@ h3:before{
     content: '■';
 }
 
+.point p{ 
+    margin :0 ;
+}
 
 /*ここに内容書いていく！！*/
 
