@@ -42,7 +42,8 @@ body, .body_back, .main_back_adachi{
 
 #applypage{
     margin: 0 auto;
-    background-color: #141e3d;
+    /*background-color: #141e3d;*/
+    background-color: #FFFFFF;
     color:white;
     font-size: 1.37vw; 
 }
