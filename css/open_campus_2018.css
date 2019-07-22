@@ -51,3 +51,44 @@ div#package2{
    font-size: 18px;
    line-height: 1.5;
 }
+
+
+
+
+
+input[name="tab_item"]{
+   display:none;
+}
+
+.tab_item{
+   width:calc(100%/2);
+   height:60px;
+   border:3px solid white;
+   background-color: red;
+   color:white;
+   line-height:54px;
+   font-size:25px;
+   display:block;
+   float:left;
+   box-sizing: border-box;
+   text-align: center;
+   transition:all 0.2s ease;
+   margin:0 0 30px 0;
+}
+
+.tab_content{
+   display:none;
+   clear:both;
+   overflow:hidden;
+}
+
+.tab_item:hover {
+   opacity: 0.60;
+ }
+ .tabs input:checked + .tab_item{
+   border: 3px splid red;
+   font-size:28px;
+}
+#chrom:checked ~ #chrom_content, #saibo:checked ~ #saibo_content{
+   display: block;
+}
