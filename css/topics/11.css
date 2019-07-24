@@ -1,6 +1,14 @@
 @charset "UTF-8";
 /*フォントインポートはじめ*/
 
+/*源真 Bold*/
+@font-face{
+    font-family: 'Genshin-bold';
+    src: url('../../js/fonts/GenShinGothic/GenShinGothic-Bold-subset.eot'), /* IE9以上用 */
+    url('../../js/fonts/GenShinGothic/GenShinGothic-Bold-subset.woff') format('woff'), /* モダンブラウザ用 */
+    url('../../js/fonts/GenShinGothic/GenShinGothic-Bold-subset.ttf') format('truetype'); /* iOS, Android用 */
+}
+
 /*源真 Medium*/
 @font-face{
     font-family: 'Genshin-medium';
@@ -225,6 +233,80 @@ p.detail{
     text-decoration: underline;
 }
 
+/*ヘッダー画像部分　はじめ*/
+
+div.headerimgwrap{
+    position:relative;
+    overflow: hidden;
+    width:100%;
+    height:auto;
+    /*放射状（円形）グラデーション*/
+    background:-webkit-gradient(radial, center center, 0, center center, 100, from(#ffffff), to(#4dd9ff));
+    background:-webkit-radial-gradient(center, circle cover, #ffffff 0%, #4dd9ff 100%);
+    background:-moz-radial-gradient(center, circle cover, #ffffff 0, #4dd9ff 100%);
+    background:-o-radial-gradient(center, circle cover, #ffffff 0, #4dd9ff 100%);
+    background:radial-gradient(#ffffff 0, #4dd9ff 100%);
+}
+
+div.headertext{
+    position:absolute;
+    z-index: 1;
+    width:100%;
+    top : 0px;
+    left: 0px;
+    color:#cccc00;
+    font-family: "Genshin-regular";
+    font-size:4.5vw;
+    text-align:center;
+    line-height:5.5vw;
+    letter-spacing: 0.7vw;
+}
+
+div.headerimg{
+    position:relative;
+    z-index: 2;
+}
+
+div.headerimg img{
+    width : 100%;
+    height: auto;
+}
+
+div.headertitle{
+    position:relative;
+    z-index: 2;
+    font-family: "Genshin-bold";
+    color:#ffffff;
+    height:12vw;
+    background-color: rgba(0,0,0,0.3);
+}
+
+div.headertitle .left{
+    float:left;
+    width:50%;
+    font-size:3.5vw;
+    line-height:5.5vw;
+    letter-spacing:0;
+}
+
+div.headertitle .right{
+    float:right;
+    width:50%;
+    font-size:8vw;
+    line-height:7vw;
+    letter-spacing:0;
+    padding: 2.5vw 0 0 0;
+}
+
+ul.titleli{
+    list-style:none;
+    padding: 0 0 0 5vw;
+    margin:0;
+}
+
+/*ヘッダー画像部分　終わり*/
+
+
 /*幅によらず共通css 終わり*/
 
 /*以下、幅による場合分け（４パターン）幅670以下がスマホ版レイアウト*/
@@ -314,9 +396,9 @@ p.detail{
     }
     .sumahoheader{
         display:block;
-        font-size:20px;
-        height:400px;
+        font-size:3vw;
         width:100%;
+        height:13vw;
         text-align: center;
         background-color:grey;
     }
@@ -440,9 +522,9 @@ p.detail{
 
     .pcheader{
         display:block;
-        font-size:35px;
+        font-size:3vw;
         background-color:grey;
-        height:400px;
+        height:13vw;
         width:100%;
         text-align: center;
     }
@@ -476,4 +558,37 @@ p.detail{
     div.imggrad{
         width:750px;
     }
+
+    /*ヘッダー画像部分　文字サイズ等最大値設定　はじめ*/
+
+    div.headertext{
+        font-size:51.3px;
+        line-height:62.7px;
+        letter-spacing: 7.98px;
+    }
+
+    div.headertitle{
+        height:136.8px;
+    }
+
+    div.headertitle .left{
+        font-size:39.9px;
+        line-height:62.7px;
+        letter-spacing:0;
+    }
+
+    div.headertitle .right{
+        font-size:91.2px;
+        line-height:79.8px;
+        padding: 28.5px 0 0 0;
+    }
+
+    ul.titleli{
+        padding: 0 0 0 57px;
+    }
+    /*ヘッダー画像部分　文字サイズ等最大値設定　終わり*/
+
+
+
+
 }
