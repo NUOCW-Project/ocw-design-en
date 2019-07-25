@@ -184,53 +184,29 @@ Nagoya University OpenCourseWare Project
 </tr>
 
 <tr>
-<td>Yuto TOIDA</td>
 <td>Daisuke TAKAICHI</td>
-<td>Yukina TAKANO</td>
-</tr>
-<tr>
-<td>Yuri KUBOTA</td>
-<td>Takeru KUMABE</td>
-<td>Yutaka Fukui</td>
-</tr>
-<tr>
-<td>Jortarou NAKANE</td>
-<td>Yuuki KODAMA</td>
-<td>Aurelio Pinero</td>
-</tr>
-<tr>
 <td>Taiga SHIRAKURA</td>
-<td>Akihiro OKUMURA</td>
-<td>Keita YOSHIHARA</td>
+<td>Barak Eliram</td>
 </tr>
 <tr>
-<td>Taisuke AIDA</td>
-<td>Kie FUNAHASHI</td>
-<td>Kouji OI</td>
-</tr>
-<tr>
-<td>Chiharu ICHIKAWA</td>
-<td>Masato ITO</td>
-<td>Shota IKEGUCHI</td>
-</tr>
-<tr>
-<td>Taishi ISHIGURO</td>
-<td>Ryosuke TSUKITO</td>
-<td>Alvaro Dominguez</td>
-</tr>
-<tr>
-<td>Baral Eliram</td>
-<td>Kaito SUZUKI</td>
-<td>Takumi YAMASHITA</td>
-</tr>
-<tr>
-<td>Hikaru MORI</td>
-<td>Mizuho AOKI</td>
-<td>Atsushi IKEDA</td>
+<td>Kanta MIO</td>
+<td>Ryosuke TANAKA</td>
+<td>Atsushi KATO</td>
 </tr>
 <tr>
 <td>Satoshi KAMITORI</td>
-<td></td>
-<td></td>
+<td>Atsushi IKEDA</td>
+<td>Mizuho AOKI</td>
 </tr>
+<tr>
+<td>Taisuke AIDA</td>
+<td>Hikaru MORI</td>
+<td>Haruka YASUDA</td>
+</tr>
+<tr>
+<td>Yuka NIYAMA</td>
+<td>Aoi ENOMOTO</td>
+<td>Aoi SODA</td>
+</tr>
+
 </table>
