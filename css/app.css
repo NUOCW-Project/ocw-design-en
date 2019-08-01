@@ -1,174 +1,163 @@
 @charset "UTF-8";
 /*OCWスタッフ募集ページCSS*/
 
-div#package2{
-    top: 0px;
-    float:none;
-    /*どこかのファイルでfloat:leftとなっている様子。ここで上書き*/
+div#package2 {
+  top: 0px;
+  float: none;
+  /*どこかのファイルでfloat:leftとなっている様子。ここで上書き*/
 }
 
 /* ヘッダーとフッター・背景の設定はじめ */
-body, .body_back, .main_back_adachi{
-    background: none;
+body,
+.body_back,
+.main_back_adachi {
+  background: none;
 }
 
-.header_edge, .pankuzu, .footer, #footer_bottom, .main_back_adachi, .main_back_url, .topjump{
-    display: none;
+.header_edge,
+.pankuzu,
+.footer,
+#footer_bottom,
+.main_back_adachi,
+.main_back_url,
+.topjump {
+  display: none;
 }
 
-.main_back{
-    background: none;
-    max-width: initial;
+.main_back {
+  background: none;
+  max-width: initial;
 }
 
-.main{
-    margin: 0 auto;
-    background: none;
-    width: 100%
+.main {
+  margin: 0 auto;
+  background: none;
+  width: 100%;
 }
 
-#contents{
-    padding: 0;
-    width: 100%  !important;
-    background-color: black;
-    margin: 0 auto;
-    /*commonのファイルでmargin絶対指定しているため上書き*/
-    /*全体リード文は、源真ゴシックRegularを用いる。Boldは各場所個別で指定*/
-    color: #333333;
-    /**********************フォントはあとで決定する！**********************/
+#contents {
+  padding: 0;
+  width: 100% !important;
+  background-color: black;
+  margin: 0 auto;
+  /*commonのファイルでmargin絶対指定しているため上書き*/
+  /*全体リード文は、源真ゴシックRegularを用いる。Boldは各場所個別で指定*/
+  color: #333333;
+  /**********************フォントはあとで決定する！**********************/
 }
 /* ヘッダーとフッター・背景の設定終わり */
 /*ページ枠設定　はじめ*/
 
-#applypage{
-    margin: 0 auto;
-    /*background-color: #141e3d;*/
-    background-color: #FFFFFF;
-    color:white;
-    font-size: 1.37vw; 
+#applypage {
+  margin: 0 auto;
+  background-color: #141e3d;
+  color: white;
+  font-size: 1.37vw;
 }
 
-#apply_contents{
-    margin: 0 auto;
-    width: 90%;
+#apply_contents {
+  margin: 0 auto;
+  width: 90%;
 }
 
 /*ページ枠設定　おわり*/
 /*********************************幅によらず共通css はじめ*********************************/
 
-div.title1{
-text-align: center;
-margin: 0px auto;
+div.title1 {
+  text-align: center;
+  margin: 0px auto;
 }
 
-div.title1_1{
-font-size: 2.9vw; 
+div.title1_1 {
+  font-size: 2.9vw;
 }
 
-div.title1_2{
-font-size: 4.5vw; 
+div.title1_2 {
+  font-size: 4.5vw;
 }
 
-div.addition{
-font-size: 1.8vw; 
-text-align: right;
+div.addition {
+  font-size: 1.8vw;
+  text-align: right;
 }
 
-div.title2{
-    font-size: 2.5vw; 
-    text-align: center;
-    margin: 75px 0 10px 0; 
+div.title2 {
+  font-size: 2.5vw;
+  text-align: center;
+  margin: 75px 0 10px 0;
 }
 
-div.contents{
-    text-align: left;    
+div.contents {
+  text-align: left;
 }
 
-h2{
-    font-size: 2.4vw; 
-    text-align: left;    
-    color: #FF4D4D; 
-    margin: 40px 0 20px 5px; 
+h2 {
+  font-size: 2.4vw;
+  text-align: left;
+  color: #ff4d4d;
+  margin: 40px 0 20px 5px;
 }
 
-h3{
-    font-size: 3.5vw;
-    background-image: none;
+h3 {
+  font-size: 3.5vw;
+  background-image: none;
 }
 
-h3:before{
-    content: '■';
+h3:before {
+  content: "■";
 }
-
-
-
 
 /*ここに内容書いていく！！*/
-
-
-
-
 
 /********************************幅によらず共通css 終わり********************************/
 
 /*以下、幅による場合分け（４パターン）幅670以下がスマホ版レイアウト*/
 /* width<340 */
-@media screen and (min-width: 0px){
-    #applypage{
-        width: 100%;
-        padding-bottom:60px;
-    }
-    #apply_contents{
-        width: 96%;
-    }
+@media screen and (min-width: 0px) {
+  #applypage {
+    width: 100%;
+    padding-bottom: 60px;
+  }
+  #apply_contents {
+    width: 96%;
+  }
 
-    /*********************************スマホ版共通指定　はじめ*********************************/
+  /*********************************スマホ版共通指定　はじめ*********************************/
 
-
-
-
-
-    /*********************************スマホ版共通指定　終わり*********************************/
+  /*********************************スマホ版共通指定　終わり*********************************/
 }
 
 /* 340<width<670 */
-@media screen and (min-width: 340px){
-    #applypage{
-        width: 100%;
-    }
-    #apply_contents{
-        width: 96%;
-    }
-
+@media screen and (min-width: 340px) {
+  #applypage {
+    width: 100%;
+  }
+  #apply_contents {
+    width: 96%;
+  }
 }
 
 /* 670<width<1140 */
-@media screen and (min-width: 670px){
-    #applypage{
-        width: 100%;
-        padding-bottom:90px;
-    }
-    #apply_contents{
-        width: 88%;
-    }
+@media screen and (min-width: 670px) {
+  #applypage {
+    width: 100%;
+    padding-bottom: 90px;
+  }
+  #apply_contents {
+    width: 88%;
+  }
 
-   /*********************************PC版共通指定　はじめ*********************************/
+  /*********************************PC版共通指定　はじめ*********************************/
 
-
-
-
-
-   /*********************************PC版共通指定　終わり*********************************/
+  /*********************************PC版共通指定　終わり*********************************/
 }
 
 /*1140<width*/
-@media screen and (min-width: 1140px){
-
-    #applypage{
-        width: 1140px;
-    }
-    #apply_contents{
-        width: 1000px;
-    }
-
+@media screen and (min-width: 1140px) {
+  #applypage {
+    width: 1140px;
+  }
+  #apply_contents {
+    width: 1000px;
+  }
 }
