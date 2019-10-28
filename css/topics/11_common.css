@@ -205,19 +205,35 @@ div.allow:after {
     position:relative;
     width:100%;
     height:auto;
+    padding: 4.6% 6% 27.2% 5%;
 }
 
 .videoframe img{
-    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    width:90%;
     height:auto;
 }
 
 .movie{
-    position:absolute;
-    top:5.9%;
-    left:5%;
-    width:90%;
+    position:relative;
+    width:100%;
     height:auto;
+}
+
+.movie:before {
+    content:"";
+    display: block;
+    padding-top: 56.25%; /* 動画の高さと幅の比を16:9に固定。9/16*100=56.25 */
+}
+
+.moviecontents{
+    position:absolute;
+    top:0;
+    left:0;
+    width:90%;
+    height:90%;
 }
 
 /*動画部分　終わり*/
@@ -326,24 +342,6 @@ a{
 
     /*各段落　余白設定　おわり*/
 
-
-
-    /*ヘッダー画像部分　後で変更する　はじめ*/
-
-    .pcheader{
-        display:none;
-    }
-    .sumahoheader{
-        display:block;
-        font-size:20px;
-        height:400px;
-        width:100%;
-        text-align: center;
-        background-color:grey;
-    }
-
-    /*ヘッダー画像部分　後で変更する　おわり*/
-
     /*********************************スマホ版共通指定　終わり*********************************/
 }
 
@@ -439,19 +437,6 @@ a{
 
     /*各段落　余白設定　おわり*/
 
-    /*ヘッダー画像部分　後で変更する　はじめ*/
-    .pcheader{
-        display:block;
-        font-size:35px;
-        background-color:grey;
-        height:400px;
-        width:100%;
-        text-align: center;
-    }
-    .sumahoheader{
-        display:none;
-    }
-    /*ヘッダー画像部分　後で変更する　おわり*/
     /*********************************PC版共通指定　終わり*********************************/
 }
 
