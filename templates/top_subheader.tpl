@@ -2,8 +2,8 @@
 <div class="wideslider">
 <ul>
   <li>
-    <a href="index.php?lang=en&mode=c&id=675&page_type=index">
-    <img src ="images/en/slider/s17_studium_generale_spring2018_en.png" alt="SPRING 2018 Studium Generale">
+    <a href="index.php?lang=en&mode=c&id=732&page_type=index">
+    <img src ="images/en/slider/s19_studium_generale_spring2019_en.svg" alt="SPRING 2019 Studium Generale">
     </a>
   </li>
   <li>
