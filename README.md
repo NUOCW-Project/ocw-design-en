@@ -12,3 +12,5 @@
 * UNIXシステム
 * PHP ~ 5.5 (>=5.5 <7.0.0)
 * Smarty ~ 2.6 (>=2.6 <3.0.0)
+
+- File images/ja/topics10/top/top.svg is 79.54 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB
